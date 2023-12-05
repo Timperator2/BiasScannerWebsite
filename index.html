@@ -3,179 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
     <title>Bias Scanner Project</title>
-    <style>
-        /* Reset some default styles */
-        body, h1, h2, p {
-            margin: 0;
-            padding: 0;
-        }
-        
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #ffffff; /* White */
-        }
-
-        header {
-            background-color: #e0251b; /* HS Coburg Red */
-            color: #fff;
-            text-align: center;
-            padding: 1rem 0;
-        }
-
-        header h1 {
-            font-size: 2rem;
-        }
-
-        nav {
-            background-color: #ff6b00; /* Secondary Color */
-            padding: 0.5rem 0;
-        }
-
-        nav ul {
-            list-style: none;
-            text-align: center;
-        }
-
-        nav li {
-            display: inline;
-            margin: 0 1rem;
-        }
-
-        nav a {
-            text-decoration: none;
-            color: #fff;
-            font-weight: bold;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
-        }
-
-        .container {
-            max-width: 960px;
-            margin: 0 auto;
-            padding: 2rem;
-            background-color: #fff;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .section {
-            margin-bottom: 2rem;
-        }
-
-        .section h2 {
-            font-size: 1.5rem;
-            margin-bottom: 1rem;
-            color: #e0251b; /* HS Coburg Red */
-        }
-
-        .section p {
-            font-size: 1rem;
-        }
-
-        .links h2 {
-            font-size: 1.5rem;
-            margin-bottom: 1rem;
-            color: #e0251b; /* HS Coburg Red */
-        }
-
-        .links ul {
-            list-style: none;
-            margin-top: 2rem; /* Moved margin-top here */
-        }
-
-        .links li {
-            margin-bottom: 1rem;
-        }
-
-        .links a {
-            text-decoration: none;
-            color: #0077cc; /* Blue for links */
-        }
-
-        .links a:hover {
-            text-decoration: underline;
-        }
-
-        footer {
-            background-color: #500b76; /* Tertiary Color */
-            color: #fff;
-            text-align: center;
-            padding: 1rem 0;
-        }
-    </style>
 </head>
 <body>
     <header>
         <h1>Bias Scanner Project</h1>
     </header>
-    
+
     <nav>
         <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#team">Team</a></li>
-            <li><a href="#links">Links</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about" data-translate="nav.about"></a></li>
+            <li><a href="#team" data-translate="nav.team"></a></li>
+            <li><a href="#links" data-translate="nav.download"></a></li>
+            <li><a href="#contact" data-translate="nav.contact"></a></li>
+            <li>
+                <select id="language" name="language">
+                    <option value="en">🇬🇧 English</option>
+                    <option value="de">🇩🇪 Deutsch</option>
+                </select>
+            </li>
         </ul>
     </nav>
-    
+
     <div class="container">
         <section id="about" class="section">
-    <h2>About Us</h2>
-    <p>Welcome to the Bias Scanner Project! We're all about using technology to tackle bias in online news. Bias Scanner is here to help you navigate the sometimes tricky world of online news, so you can make more informed choices about what you read.</p>
+            <h2 data-translate="about.title"></h2>
+            <p data-translate="about.content"></p>
 
-    <div class="about-text">
-        <h3>Why BiasScanner?</h3>
-        <p>In today's world, many of us get our news from the internet. Unfortunately, the web is also home to a lot of biased reporting, fake news, and other not-so-great stuff. Bias Scanner was created to give you a hand in spotting bias when you're reading news articles online.</p>
-    </div>
+            <div class="about-text">
+                <h3 data-translate="whyscanner.title"></h3>
+                <p data-translate="whyscanner.content"></p>
+            </div>
 
-    <div class="about-text">
-        <h3>What's BiasScanner All About?</h3>
-        <p>BiasScanner is a handy browser plug-in that uses some fancy machine learning tech to find sentences in news articles that might be biased. It works right in your web browser, highlighting potentially biased sentences as you read. If you want to dive deeper, it can even give you a more detailed analysis of the article.</p>
-    </div>
+            <div class="about-text">
+                <h3 data-translate="whatscanner.title"></h3>
+                <p data-translate="whatscanner.content"></p>
+            </div>
 
-    <div class="about-text">
-        <h3>Why It's Cool:</h3>
-        <ul>
-            <li>Inline Highlighting: It helps you spot potential bias as you read.</li>
-            <li>Detailed Analysis: If you're curious, it can provide a more in-depth look at the article.</li>
-            <li>Bias Strength: It rates how strong the detected bias is, from 0 to 1.</li>
-            <li>Privacy Matters: We're big on privacy - no storing your personal info, ever. We only keep information about the news stories you read when you say explicitly donate them for our research.</li>
-        </ul>
-    </div>
+            <div class="about-text">
+                <h3 data-translate="whycool.title"></h3>
+                <ul>
+                    <li data-translate="whycool.inline"></li>
+                    <li data-translate="whycool.detailed"></li>
+                    <li data-translate="whycool.strength"></li>
+                    <li data-translate="whycool.multilingual"></li>
+                    <li data-translate="whycool.privacy"></li>
+                </ul>
+            </div>
 
-    <div class="about-text">
-        <h3>Join Us in the Fight Against Bias</h3>
-        <p>We believe technology can make news consumption better and protect democracy. So, why not give BiasScanner a try? By using it (and maybe even sharing interesting results with us trough the application), you not only help yourself, but you also contribute to ongoing research on bias in news. Let's work together to make online news a more reliable source of information.</p>
-    </div>
+            <div class="about-text">
+                <h3 data-translate="join.title"></h3>
+                <p data-translate="join.content"></p>
+            </div>
 
-    <p>Thanks for being a part of the Bias Scanner Project – let's keep the internet news-savvy and bias-free!</p>
-</section>
+        </section>
 
-        
         <section id="team" class="section">
-            <h2>Our Team</h2>
-            <p>(Team info is hidden right now to ensure anonymity during a paper review process).</p>
+            <h2 data-translate="team.title"></h2>
+            <p data-translate="team.content"></p>
         </section>
 
         <section id="links" class="section">
-            <h2>Links</h2>
+            <h2 data-translate="download.title">Links</h2>
             <ul>
-                <li><a href="https://github.com/Information-Access-Research-Group-IARG/BiasScannerPublic" target="_blank"> Git</a></li>
+                <li><a href="https://github.com/Information-Access-Research-Group-IARG/BiasScannerPublic" target="_blank">Git</a></li>
                 <li><a href="https://www.example.com/link2" target="_blank">Firefox (will be added when officially published)</a></li>
-                <li><a href="https://www.example.com/link3" target="_blank">Chrome ((will be added when officially published)</a></li>
-                <li><a href="https://www.example.com/link3" target="_blank">Android ((will be added when officially published)</a></li>
-                <li><a href="https://www.example.com/link3" target="_blank">iOS ((will be added when officially published)</a></li>
+                <li><a href="https://www.example.com/link3" target="_blank">Chrome (will be added when officially published)</a></li>
+                <li><a href="https://www.example.com/link3" target="_blank">Android (will be added when officially published)</a></li>
+                <li><a href="https://www.example.com/link3" target="_blank">iOS (will be added when officially published)</a></li>
             </ul>
         </section>
-        
+
         <section id="contact" class="section">
-            <h2>Contact Us</h2>
-            <p>If you have any questions or would like to get involved, feel free to contact us at (Mail addresses are hidden right now to ensure anonymity during a paper review process). </p>
+            <h2 data-translate="contact.title"></h2>
+            <p data-translate="contact.content"></p>
         </section>
     </div>
-    
+
     <footer>
         &copy; 2023 Bias Scanner Project
     </footer>
