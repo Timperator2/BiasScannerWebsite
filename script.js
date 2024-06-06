@@ -80,8 +80,8 @@ const translations = {
     "de": "Unser Team"
   },
   "team.content": {
-    "en": "(Team info is hidden right now to ensure anonymity during a paper review process).",
-    "de": "(Team-Informationen sind derzeit ausgeblendet, um Anonymität während des Begutachtungsprozesses sicherzustellen)."
+    "en": "(Bias Scanner is being developed by the Information Access Research Group (IARG) of the Center for Responsible Artificial Intelligence (CRAI) at Coburg University of Applied Sciences. The group members include: Jochen Leidner, Tim Menzner (mainly responsible for Bias Scanner), Michael Reiche and Markos Dimitsas).",
+    "de": "(Bias Scanner wird von der Information Access Research Group (IARG) des Center for Responsible Artificial Intelligence (CRAU) an der Hochschule Coburg entwickelt. Zu den Mitgliedern der Gruppe gehören: Jochen Leidner, Tim Menzner (hauptverantwortlich für Bias Scanner), Michael Reiche und Markos Dimitsas)."
   },
   "download.title": {
     "en": "Download",
@@ -92,8 +92,8 @@ const translations = {
     "de": "Kontaktieren Sie uns"
   },
   "contact.content": {
-    "en": "If you have any questions or would like to get involved, feel free to contact us at (Mail addresses are hidden right now to ensure anonymity during a paper review process).",
-    "de": "Wenn Sie Fragen haben oder sich beteiligen möchten, kontaktieren Sie uns gerne unter (E-Mail-Adressen sind derzeit ausgeblendet, um Anonymität während des Begutachtungsprozesses sicherzustellen)."
+    "en": "If you have any questions or would like to get involved, feel free to contact us at ",
+    "de": "Wenn Sie Fragen haben oder sich beteiligen möchten, kontaktieren Sie uns gerne unter "
   },
   "demo.title": {
     "en": "Try out the live demo!",
