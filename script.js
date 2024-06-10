@@ -107,6 +107,10 @@ const translations = {
     "en": "Detect Bias!",
     "de": "Bias erkennen!"
   },
+    "button.loading": {
+    "en": "Looking for Bias",
+    "de": "Suche nach Bias"
+  },
     "button.report": {
     "en": "Show report",
     "de": "Report anzeigen"
@@ -200,7 +204,7 @@ function constructMessage()
   "type": "prompt",
   "text": document.getElementById("demo-text").value,
   "url": "www.biasscanner.org",
-  "language": document.getElementById("language-select").value
+  "language": document.getElementById("language-text").value
    };
 
 
@@ -391,7 +395,7 @@ function addHover() {
 function sortAndFormat(data,sort)
 {
 
-language = document.getElementById("language-select").value;
+language = document.getElementById("language-site").value;
 
 console.log(document.getElementById("reset-text").innerText, translations["sort.occurrence"][language])
 
@@ -513,7 +517,7 @@ function markSentences(data) {
 
 function showReport() {
 
-    language = document.getElementById("language-select").value
+    language = document.getElementById("language-site").value
 
     if (document.getElementById("sent-text").style.display == "")
     {
@@ -603,6 +607,29 @@ function sendRequest()
 
 message = constructMessage();
 
+language = document.getElementById("language-site").value
+
+animationCounter = 0;
+
+animationInterval = setInterval(function() {
+    switch (animationCounter % 4) {
+      case 0:
+        document.getElementById("detect-bias").innerText = translations["button.loading"][language];
+        console.log("Test",translations["button.loading"][language]);
+        break;
+      case 1:
+        document.getElementById("detect-bias").innerText = translations["button.loading"][language] + "  .";
+        break;
+      case 2:
+        document.getElementById("detect-bias").innerText = translations["button.loading"][language] + " ..";
+        break;
+       case 3:
+        document.getElementById("detect-bias").innerText = translations["button.loading"][language] + " ...";
+        break;
+    }
+    animationCounter++;
+  }, 500);
+
 document.getElementById("sent-text").innerHTML = message.text;
 document.getElementById("sent-text").style.display = "";
 
@@ -622,6 +649,8 @@ fetch('https://app.biasscanner.org:8080', {
   })
   .then((response) => response.text())
   .then((answer) => {
+  clearInterval(animationInterval);
+  document.getElementById("detect-bias").innerText = translations["button.label"][language];
     try {
         answer_json = JSON.parse(answer);
       } catch (error) {
@@ -639,8 +668,8 @@ fetch('https://app.biasscanner.org:8080', {
       markSentences(visible_answer);
       summarization = sortAndFormat(visible_answer, false)
 
-      document.getElementById("detect-bias").style.backgroundColor = "#A9A9A9";
-      document.getElementById("detect-bias").disabled = true;
+       document.getElementById("detect-bias").style.backgroundColor = "#A9A9A9";
+       document.getElementById("detect-bias").disabled = true;
       document.getElementById("show-report").style.backgroundColor = "#4caf50";
       document.getElementById("show-report").disabled = false;
       document.getElementById("reset-text").style.backgroundColor = "#4caf50";
@@ -680,7 +709,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   document.getElementById('slider-value').textContent = document.getElementById("sensitivity-slider").value
 
-  const languageSelect = document.getElementById("language");
+  const languageSelect = document.getElementById("language-site");
 
   // Initial update of content based on the default language
   const defaultLanguage = languageSelect.value; // Assuming 'en' is the default language

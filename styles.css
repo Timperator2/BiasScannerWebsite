@@ -78,7 +78,7 @@
         }
 
         .container {
-            max-width: 960px;
+            width: 75%;
             margin: 0 auto;
             padding: 2rem;
             background-color: #fff;
@@ -151,11 +151,16 @@
      right: -50%;
    }
 
+   #demo
+   {
+     height: 100vh;
+   }
+
       .text-box
    {
      width: 100.5%;
      border: 2px solid #ccc;
-     height: 375px;
+     height: 90%;
      white-space: pre-wrap;
      overflow-y:auto;
    }

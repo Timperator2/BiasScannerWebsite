@@ -20,7 +20,7 @@
             <li><a href="#contact" data-translate="nav.contact"></a></li>
             <li><a id="demo-link" href="#demo" data-translate="nav.demo"></a></li>
             <li>
-                <select id="language" name="language">
+                <select id="language-site" name="language">
                     <option value="en">🇬🇧 English</option>
                     <option value="de">🇩🇪 Deutsch</option>
                 </select>
@@ -90,7 +90,7 @@
     <h2 data-translate="demo.title"></h2>
 
     <div class="control-panel">
-        <select id="language-select">
+        <select id="language-text">
             <option value="en" data-lang="en">🇬🇧 English</option>
             <option value="de" data-lang="de">🇩🇪 Deutsch</option>
             <!-- Add more options as needed -->
@@ -109,7 +109,7 @@
             <button id="reset-text" disabled data-translate="button.reset" style="background-color:#A9A9A9"></button>
     </div>
 
-    <textarea id="demo-text" required maxlength="3500" rows="25"></textarea>
+    <textarea id="demo-text" required maxlength="3500" style="height:90%"></textarea>
     <div class="text-box" id="sent-text" style="display: none">    </div>
     <div class="text-box" id="bias-report" style="display: none">    </div>
 
