@@ -67,6 +67,23 @@ const translations = {
     "en": "Privacy Matters: We're big on privacy - no storing your personal info, ever. We only keep (anonymized) information about the news stories you read when you explicitly donate them for our research.",
     "de": "Datenschutz ist wichtig: Wir legen großen Wert auf Datenschutz - Ihre persönlichen Informationen werden niemals gespeichert. Wir speichern nur (anonymisierte) Informationen über die von Ihnen gelesenen Artikel, die Sie ausdrücklich für unsere Forschung spenden."
   },
+    "details.title":{
+  "en": "Would you like to know more?",
+  "de": "Wollen Sie mehr wissen?"
+  },
+  "publications.title":{
+  "en": "Publications",
+  "de": "Veröffentlichungen"
+  },
+   "publications.ecir2024":{
+  "en": "Experiments in News Bias Detection with Pre-trained Neural Transformers",
+  "de": "Experiments in News Bias Detection with Pre-trained Neural Transformers"
+  },
+     "publications.nldb2024":{
+  "en": "Improved Models for Media Bias Detection and Subcategorization",
+  "de": "Improved Models for Media Bias Detection and Subcategorization"
+  },
+
   "join.title": {
     "en": "Join Us in the Fight Against Bias",
     "de": "Schließen Sie sich uns im Kampf gegen Voreingenommenheit an"
@@ -151,9 +168,16 @@ const translations = {
     "en": "Overall rating",
     "de": "Gesamtbewertung"
   },
-
-
-
+  "imprint.title":
+  {
+   "en": "Imprint",
+   "de": "Impressum"
+  },
+  "imprint.main":
+  {
+  "en":   "Responsible: \n Prof. Dr. Jochen L. Leidner M.A. M.Phil. \n FRGS Friedrich-Streib-Str. 2 \n 96450 Coburg Deutschland \n Jochen.Leidner@hs-coburg.de",
+  "de":   "Verantwortlich: \n Prof. Dr. Jochen L. Leidner M.A. M.Phil. \n FRGS Friedrich-Streib-Str. 2 \n 96450 Coburg Deutschland \n Jochen.Leidner@hs-coburg.de"
+  }
 
 };
 
@@ -175,17 +199,17 @@ function updateLanguage(selectedLanguage) {
 
 function switchDemo() {
 
-    if (document.getElementById("demo").style.display == "none")
-        {document.querySelectorAll('a').forEach(a => a.addEventListener('click', switchDemo));}
+    if (document.getElementById("demo").style.display == "none") {
+        document.querySelectorAll('a').forEach(a => a.addEventListener('click', switchDemo));
+    }
     else
     {
       document.querySelectorAll('a:not([id^="demo-link"])').forEach(a => a.removeEventListener('click', switchDemo));
     }
 
+    console.log("switching!")
 
     document.querySelectorAll('section').forEach(element => {
-
-       console.log(element, element.style.display);
 
         if (element.style.display != "none")
         {
@@ -196,7 +220,25 @@ function switchDemo() {
            element.style.display = "";
         }
     });
+
 }
+
+function switchImprint() {
+
+ if (document.getElementById("imprint").style.display == "none") {
+         document.getElementById("imprint").style.display = "";
+    }
+    else
+    {
+     document.getElementById("imprint").style.display = "none";
+    }
+
+
+
+}
+
+
+
 
 function constructMessage()
 {
@@ -700,6 +742,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   document.getElementById("demo-link").addEventListener('click', switchDemo);
   document.getElementById("demo-link-2").addEventListener('click', switchDemo);
+
+  document.getElementById("imprint-link").addEventListener('click', switchImprint);
 
   document.getElementById("detect-bias").addEventListener('click',sendRequest);
 

@@ -116,6 +116,7 @@
     {
         width: 100%;
         display: flex;
+        flex-wrap: wrap;
     }
 
         .control-panel select
@@ -154,6 +155,10 @@
    #demo
    {
      height: 100vh;
+   }
+   #imprint
+   {
+    height: 100%;
    }
 
       .text-box
