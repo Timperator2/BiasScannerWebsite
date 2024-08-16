@@ -487,14 +487,22 @@ return output;
 function getStatistics(data,article)
  {
 
-   article_sentences = article.split(/[.?!]/g).filter(Boolean).length;
+   article_sentences = article.split(/[.?!:]\s*|\n+/).filter(Boolean).length
 
-    marked_sentences = data.sentences.length;
+   marked_sentences = data.sentences.length
 
     if (marked_sentences == 0)
         return false;
 
-    ratio = marked_sentences / article_sentences; //marked sentences != named sentences as conclusion might be in ranking (fix)
+    let marked_full_text = "";
+    for (let sentence of data.sentences) {
+        marked_full_text += sentence.text;
+        if (!marked_full_text.endsWith('.') && !marked_full_text.endsWith('!') && !marked_full_text.endsWith('?') && !marked_full_text.endsWith(':') && !marked_full_text.endsWith('\n')) {
+            marked_full_text += "\n";}}
+
+    individual_marked_sentences = marked_full_text.split(/[.?!:]\s*|\n+/).filter(Boolean).length;
+
+    ratio = individual_marked_sentences / article_sentences; //marked sentences != named sentences as conclusion might be in ranking (fix)
 
     const biasScores = data.sentences.map(sentence => sentence.bias_strength);
     const sum_score = biasScores.reduce((sum, score) => sum + score, 0);
