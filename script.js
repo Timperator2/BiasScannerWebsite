@@ -426,7 +426,7 @@ function addHover() {
   markElements = document.querySelectorAll('mark');
 
   markElements.forEach((markElement) => {
-    const matchedSentence = answer_json.sentences.find(s => isSubstringWithTolerance(s.text, markElement.innerText, 0.1));
+    const matchedSentence = answer_json.sentences.find(s => isSubstringWithTolerance(s.text, markElement.innerText, 10));
     const biasType = matchedSentence?.bias_type || "Bias type not found";
     const biasStrength = matchedSentence?.bias_strength || "Bias strength not found";
     const biasDescription = matchedSentence?.bias_description || "Bias description not found";
