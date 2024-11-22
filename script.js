@@ -423,10 +423,13 @@ function filterStrength(data,threshold)
 }
 
 function addHover() {
+
   markElements = document.querySelectorAll('mark');
 
   markElements.forEach((markElement) => {
-    const matchedSentence = answer_json.sentences.find(s => isSubstringWithTolerance(s.text, markElement.innerText, 10));
+    console.log("trying to add to hover: ", markElement.innerText)
+    const matchedSentence = answer_json.sentences.find(s => isSubstringWithTolerance(s.text, markElement.innerText, 0.2));
+    console.log("found sentence: ",matchedSentence)
     const biasType = matchedSentence?.bias_type || "Bias type not found";
     const biasStrength = matchedSentence?.bias_strength || "Bias strength not found";
     const biasDescription = matchedSentence?.bias_description || "Bias description not found";
@@ -530,22 +533,25 @@ function getStatistics(data,article)
 
 function tryMarking(instance, sentence, step) {
 
-console.log(sentence);
+console.log(step, sentence);
 
   if (step == 1) {
+    console.log("splitting ...");
     sentence = sentence.split(" ...")[0];
   }
   if (step ==2)
   {
+  console.log("trying to remove punctuation ...")
   const pattern = new RegExp(`[${["'", '"', '.', ';', ',', '!', '?'].join('')}]`, 'g');
   sentence = sentence.replace(pattern, '');
   }
   else if (step > 2)
   {
+     console.log("marking failed!");
      return null;
   }
-
-  instance.mark(sentence, {accuracy: "partially",ignorePunctuation: ["'","\"",".",";",",","!","?"],separateWordSearch: false,acrossElements: true,noMatch: tryMarking(instance, sentence, ++step),debug: false
+  console.log("Trying to mark: ", sentence)
+  instance.mark(sentence, {accuracy: "partially",ignorePunctuation: ["'","\"",".",";",",","!","?"],separateWordSearch: false,acrossElements: true,noMatch: () => tryMarking(instance, sentence, step + 1),debug: false
   });
 }
 
@@ -614,6 +620,7 @@ function sensitivityMoved(event)
   {
   instance = new Mark(document);
   instance.unmark();
+
   markSentences(visible_answer);
 
   if (document.getElementById("reset-text").innerText == translations["sort.occurrence"][language])
