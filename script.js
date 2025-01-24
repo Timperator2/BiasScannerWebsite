@@ -140,6 +140,14 @@ const translations = {
     "en": "Change text",
     "de": "Text ändern"
   },
+     "button.share": {
+    "en": "Anonymously share the generated report with us to help our research!",
+    "de": "Teilen Sie den generierten Bias-Bericht anonym mit uns, um unsere Forschung zu unterstützen!"
+  },
+    "alert.thanks": {
+    "en": "Thank you for sharing this summarization with us! If you are interested in our research, you can find us at biasscanner.org",
+    "de": "Vielen Dank, dass Sie diese Zusammenfassung mit uns geteilt haben! Wenn Sie an unserer Forschung interessiert sind, finden Sie uns unter biasscanner.org"
+  },
    "error.background": {
     "en": "There was an error with the background script. Maybe try restarting the addon.",
     "de": "Es gab einen Fehler mit dem Background-Skript. Probieren Sie das Add-on neu zu starten."
@@ -264,6 +272,9 @@ function changeText()
     document.getElementById("show-report").style.backgroundColor = "#A9A9A9";
     document.getElementById("show-report").disabled = true;
 
+    document.getElementById("share-report").style.backgroundColor = "#A9A9A9";
+    document.getElementById("share-report").disabled = true;
+
     document.getElementById("reset-text").style.backgroundColor = "#A9A9A9";
     document.getElementById("reset-text").disabled = true;
 
@@ -271,6 +282,38 @@ function changeText()
     document.getElementById("detect-bias").disabled = false;
 
 }
+
+function shareReport() {
+
+  alert(translations["alert.thanks"][language]);  // Corrected alert
+
+  // Fetch request remains the same
+  fetch('https://app.biasscanner.org:8080', {
+    method: 'POST',
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      "type": "donation",
+      "text": document.getElementById("bias-report").innerHTML,
+      "url": "www.biasscanner.org"
+    })
+  });
+
+    document.getElementById("share-report").style.backgroundColor = "#A9A9A9";
+    document.getElementById("share-report").disabled = true;
+
+}
+
+//
+//    message = {
+//  "type": "prompt",
+//  "text": document.getElementById("demo-text").value,
+//  "url": "www.biasscanner.org",
+//  "language": document.getElementById("language-text").value
+//   };
+//
+
 
 /* ###############
     PART FROM ADDON
@@ -337,14 +380,18 @@ function isSubstringWithTolerance(targetString, substring, tolerance) {
       }
     }
 
+   console.log("target substring difference", targetString,substring,difference);
+
     // If the difference is within the tolerance, return true
     if (difference <= maxDifference) {
-      console.log(difference, maxDifference);
+      console.log("difference is smaller or equal than threshold so it is considered a substring", difference, maxDifference)
       return true;
+
     }
   }
 
   // If no matching substring is found, return false
+  console.log("difference is greater than threshold so it is considered a substring")
   return false;
 }
 
@@ -729,6 +776,8 @@ fetch('https://app.biasscanner.org:8080', {
        document.getElementById("detect-bias").disabled = true;
       document.getElementById("show-report").style.backgroundColor = "#4caf50";
       document.getElementById("show-report").disabled = false;
+            document.getElementById("share-report").style.backgroundColor = "#4caf50";
+      document.getElementById("share-report").disabled = false;
       document.getElementById("reset-text").style.backgroundColor = "#4caf50";
       document.getElementById("reset-text").disabled = false;
       document.getElementById("bias-report").innerHTML = summarization;
@@ -765,6 +814,8 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById("show-report").addEventListener('click', showReport);
 
   document.getElementById("reset-text").addEventListener('click', changeText);
+
+  document.getElementById("share-report").addEventListener('click', shareReport);
 
   document.getElementById('slider-value').textContent = document.getElementById("sensitivity-slider").value
 
