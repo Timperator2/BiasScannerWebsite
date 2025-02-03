@@ -1,0 +1,1095 @@
+[
+    {
+        "Title": "White House memos endorsed CIA waterboarding-report",
+        "URL": "White House memos endorsed CIA waterboarding-report.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WASHINGTON, Oct 15 (Reuters) - The Bush administration  explicitly endorsed the use of waterboarding and other harsh  interrogation methods against al Qaeda suspects in a pair of  secret memos to the CIA in 2003 and 2004, The Washington Post  reported on Wednesday.      The previously undisclosed classified memos were requested  by then CIA Director George Tenet more than a year after the  start of the secret interrogations, the newspaper reported,  citing administration and intelligence officials familiar with  the documents.      A White House spokesman had no comment on the report.      According the newspaper, intelligence officials sought  cover from the White House because they were worried about a  possible backlash if details of the interrogation program  became public.      Justice Department lawyers signed off on the the agency's  interrogation methods beginning in 2002, but senior CIA  officials were troubled that White House policymakers had never  endorsed the program in writing, the Post reported.      Repeated requests by the CIA chief for a paper trail  reflected growing worries within the agency that the  administration might later distance itself from decisions about  the handling of captured al Qaeda leaders, the Post said,  citing former intelligence officials who spoke on condition of  anonymity.      The officials told the newspaper Tenet first pressed the  White House for written approval in June 2003 during a meeting  with members of the National Security Council.      A few days later, Tenet received a brief memo conveying the  administration's approval for the CIA's interrogation methods,  the officials were cited as saying.      Tenet made a second request for written approval in June  2004, after the public outcry over the Abu Ghraib prison  scandal, the Post said.      Administration officials confirmed the existence of the  memos, but neither they nor former intelligence officers would  describe the still classified documents in detail, the  newspaper reported.    (Editing by Patricia Zengerle)   ((joanne.allen@thomsonreuters.com; +1 202 898 8322))  Keywords: SECURITY INTERROGATION/MEMOS       ",
+        "Histogram": [
+            0.6,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 25.33821678161621,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "The Bush administration explicitly endorsed the use of waterboarding and other harsh interrogation methods against al Qaeda suspects in a pair of secret memos to the CIA in 2003 and 2004, The Washington Post reported on Wednesday.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'explicitly' carries a negative connotation, implying a clear and unambiguous approval of controversial methods, which can influence the reader's perception negatively towards the administration's actions."
+                },
+                {
+                    "text": "According the newspaper, intelligence officials sought cover from the White House because they were worried about a possible backlash if details of the interrogation program became public.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The phrase 'sought cover' suggests a defensive or evasive posture, implying guilt or wrongdoing on the part of the intelligence officials and the White House, which can bias the reader against them."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias through the use of word choice, particularly in phrases that imply negative actions or intentions on the part of the Bush administration and intelligence officials. The general bias tendency leans towards portraying these actors in a negative light regarding the endorsement of controversial interrogation methods."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.09090909090909091,
+            "overall_rating": 0.34545454545454546
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "UPDATE 1-Bush vetoes U.S. bill outlawing CIA waterboarding",
+        "URL": "UPDATE 1-Bush vetoes U.S. bill outlawing CIA waterboarding.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    (adds comments by CIA's Hayden to employees)      WASHINGTON, March 8 (Reuters) - U.S. President George W.  Bush on Saturday vetoed legislation passed by Congress that  would have banned the CIA from using waterboarding and other  controversial interrogation techniques.      Lawmakers included the anti-torture measure in a broader  bill authorizing U.S. intelligence activities.      'Because the danger remains, we need to ensure our  intelligence officials have all the tools they need to stop the  terrorists,' Bush said in his weekly radio address. He added  that the vetoed legislation 'would diminish these vital  tools.'      The House of Representatives approved the legislation in  December and the Senate passed it in February despite White  House warnings it would be vetoed.      CIA Director Michael Hayden told Congress last month that  government interrogators used waterboarding on three suspects  captured after the Sept. 11 attacks.      The simulated drowning technique has been condemned by many  members of Congress, human rights groups and other countries as  a form of illegal torture.      The U.S. Army Field Manual prohibits waterboarding and  seven other interrogation methods and the bill would have  aligned CIA practices with the military's.      In a message to CIA employees on Saturday after Bush's  veto, Hayden said the CIA would continue to work strictly  within the law but said its needs were different from that of  the U.S. Army and that the CIA needed to follow its own  procedures.      'There are methods in CIA's program that have been briefed  to our oversight committees, are fully consistent with the  Geneva Convention and current U.S. law, and are most certainly  not torture,' Hayden said.      In his remarks, Bush did not specifically mention  waterboarding.      But he said: 'The bill Congress sent me would not simply  ban one particular interrogation method, as some have implied.   Instead, it would eliminate all the alternative procedures  we've developed to question the world's most dangerous and  violent terrorists.'      It is unlikely that Democrats, the majority party in  Congress, could muster enough votes to overturn Bush's veto.  The bill passed the House and Senate on partisan votes, short  of the support needed to reverse the president.   (Reporting by Richard Cowan; Editing by Eric Beech)   ((Richard Cowan; richard.cowan@reuters.com; 202-898-8391))  Keywords: USA WATERBOARDING/VETO        ",
+        "Histogram": [
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 25.138141632080078,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Because the danger remains, we need to ensure our intelligence officials have all the tools they need to stop the terrorists,' Bush said in his weekly radio address. He added that the vetoed legislation 'would diminish these vital tools.'",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence reflects an opinionated bias by framing the issue in a way that suggests the legislation's purpose is to undermine essential tools for stopping terrorists, rather than focusing on the ethical or legal implications of the interrogation techniques."
+                },
+                {
+                    "text": "In his remarks, Bush did not specifically mention waterboarding. But he said: 'The bill Congress sent me would not simply ban one particular interrogation method, as some have implied. Instead, it would eliminate all the alternative procedures we've developed to question the world's most dangerous and violent terrorists.'",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of phrases like 'world's most dangerous and violent terrorists' and 'eliminate all the alternative procedures' employs word choice bias, emphasizing the extreme nature of the threats and the broad impact of the legislation in a way that could influence the reader's perception."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the discussion on the use of controversial interrogation techniques by the CIA, with a general tendency towards opinionated framing and selective word choices that could influence the reader's perspective on the ethical and legal considerations involved."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.375,
+            "overall_rating": 0.4875
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Bush vetoes U.S. bill outlawing CIA waterboarding",
+        "URL": "Bush vetoes U.S. bill outlawing CIA waterboarding.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WASHINGTON, March 8 (Reuters) - President George W. Bush on  Saturday vetoed legislation passed by Congress that would have  banned the CIA from using waterboarding and other controversial  interrogation techniques.      Lawmakers included the anti-torture measure in a broader  bill authorizing U.S. intelligence activities.      'Because the danger remains, we need to ensure our  intelligence officials have all the tools they need to stop the  terrorists,' Bush said in his weekly radio address. He added  that the vetoed legislation 'would diminish these vital  tools.'      The House of Representatives approved the legislation in  December and the Senate passed it in February despite White  House warnings it would be vetoed.      CIA Director Michael Hayden told Congress last month that  government interrogators used waterboarding on three suspects  captured after the Sept. 11 attacks.      The simulated drowning technique has been condemned by many  members of Congress, human rights groups and other countries as  a form of illegal torture.      The U.S. Army Field Manual prohibits waterboarding and  seven other interrogation methods and the bill would have  aligned CIA practices with the military's.      In his remarks, Bush did not specifically mention  waterboarding.      But he said: 'The bill Congress sent me would not simply  ban one particular interrogation method, as some have implied.   Instead, it would eliminate all the alternative procedures  we've developed to question the world's most dangerous and  violent terrorists.'      It is unlikely that Democrats, the majority party in  Congress, could muster enough votes to overturn Bush's veto.  The bill passed the House and Senate on partisan votes, short  of the support needed to reverse the president.   (Reporting by Richard Cowan; Editing by Xavier Briand)   ((Richard Cowan; richard.cowan@reuters.com; 202-898-8391))  Keywords: USA WATERBOARDING/VETO       ",
+        "Histogram": [
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 24.778413772583008,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Because the danger remains, we need to ensure our  intelligence officials have all the tools they need to stop the  terrorists,' Bush said in his weekly radio address. He added  that the vetoed legislation 'would diminish these vital  tools.'",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence presents a subjective opinion about the necessity of certain tools for intelligence officials as a fact, without acknowledging the opposing viewpoint or the ethical and legal concerns regarding the use of waterboarding."
+                },
+                {
+                    "text": "In his remarks, Bush did not specifically mention  waterboarding.      But he said: 'The bill Congress sent me would not simply  ban one particular interrogation method, as some have implied.   Instead, it would eliminate all the alternative procedures  we've developed to question the world's most dangerous and  violent terrorists.'",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of phrases like 'world's most dangerous and violent terrorists' carries a strong negative connotation, influencing the reader's perception and implying judgment about the subjects of the interrogation."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the topic of CIA interrogation techniques, particularly in favor of maintaining the use of controversial methods such as waterboarding. The bias tendency leans towards presenting the viewpoints supporting these techniques as necessary and justified without adequately addressing the ethical and legal concerns."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.42857142857142855,
+            "overall_rating": 0.5142857142857142
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "UPDATE 2-Bush vetoes U.S. bill outlawing CIA waterboarding",
+        "URL": "UPDATE 2-Bush vetoes U.S. bill outlawing CIA waterboarding.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    (Adds comments by Pelosi, Kennedy in paragraphs 4-6)      WASHINGTON, March 8 (Reuters) - U.S. President George W.  Bush on Saturday vetoed legislation passed by Congress that  would have banned the CIA from using waterboarding and other  controversial interrogation techniques.      Lawmakers included the anti-torture measure in a broader  bill authorizing U.S. intelligence activities.      'Because the danger remains, we need to ensure our  intelligence officials have all the tools they need to stop the  terrorists,' Bush said in his weekly radio address. He added  that the vetoed legislation 'would diminish these vital  tools.'      House of Representatives Speaker Nancy Pelosi of California  said Democrats would try to overturn Bush's veto and said U.S.  moral authority was at stake.      'We will begin to reassert that moral authority by  attempting to override the president's veto next week,' Pelosi  said.      Democratic Sen. Edward Kennedy of Massachusetts called  Bush's veto 'one of the most shameful acts of his presidency.'      It is unlikely that Democrats, the majority party in  Congress, could muster enough votes to overturn Bush's veto.  The bill passed the House and Senate on partisan votes, short  of the support needed to reverse the president.      The House approved the legislation in December and the  Senate passed it in February despite White House warnings it  would be vetoed.      CIA Director Michael Hayden told Congress last month that  government interrogators used waterboarding on three suspects  captured after the Sept. 11 attacks.      The simulated drowning technique has been condemned by many  members of Congress, human rights groups and other countries as  a form of illegal torture.      The U.S. Army Field Manual prohibits waterboarding and  seven other interrogation methods and the bill would have  aligned CIA practices with the military's.      In a message to CIA employees on Saturday after Bush's  veto, Hayden said the CIA would continue to work strictly  within the law but said its needs were different from that of  the U.S. Army and that the CIA needed to follow its own  procedures.      'There are methods in CIA's program that have been briefed  to our oversight committees, are fully consistent with the  Geneva Convention and current U.S. law, and are most certainly  not torture,' Hayden said.      In his remarks, Bush did not specifically mention  waterboarding.      But he said: 'The bill Congress sent me would not simply  ban one particular interrogation method, as some have implied.  Instead, it would eliminate all the alternative procedures  we've developed to question the world's most dangerous and  violent terrorists.'   (Reporting by Richard Cowan; Editing by Eric Beech)   ((Richard Cowan; richard.cowan@reuters.com; 202-898-8391))  Keywords: USA WATERBOARDING/VETO        ",
+        "Histogram": [
+            0,
+            0,
+            0.6,
+            0.6,
+            0.5,
+            0,
+            0.9,
+            0.8,
+            0.8,
+            0,
+            0,
+            0.6,
+            0,
+            0.6,
+            0,
+            0,
+            0.6,
+            0.6,
+            0
+        ],
+        "Relevance": 24.197715759277344,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Because the danger remains, we need to ensure our  intelligence officials have all the tools they need to stop the  terrorists,' Bush said in his weekly radio address. He added  that the vetoed legislation 'would diminish these vital  tools.'",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence presents a subjective opinion about the necessity of certain tools for intelligence officials as a fact, without providing evidence or acknowledging opposing viewpoints."
+                },
+                {
+                    "text": "House of Representatives Speaker Nancy Pelosi of California  said Democrats would try to overturn Bush's veto and said U.S.  moral authority was at stake.",
+                    "bias_type": "Political Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "The statement implies that the Democratic party's actions are directly linked to the preservation of U.S. moral authority, suggesting a favorable view of the Democrats' position over the Republicans' without a balanced perspective."
+                },
+                {
+                    "text": "Democratic Sen. Edward Kennedy of Massachusetts called  Bush's veto 'one of the most shameful acts of his presidency.'",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "This quote contains a highly subjective and emotionally charged opinion about the veto, using strong language to condemn the action without a neutral or objective presentation of the facts."
+                },
+                {
+                    "text": "It is unlikely that Democrats, the majority party in  Congress, could muster enough votes to overturn Bush's veto.  The bill passed the House and Senate on partisan votes, short  of the support needed to reverse the president.",
+                    "bias_type": "Political Bias",
+                    "bias_strength": 0.8,
+                    "bias_description": "This sentence highlights the Democrats' majority status and their inability to overturn the veto, framing the issue in a political context that suggests the Democrats' efforts are hindered by partisan politics, which could bias the reader's perception."
+                },
+                {
+                    "text": "The simulated drowning technique has been condemned by many  members of Congress, human rights groups and other countries as  a form of illegal torture.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'simulated drowning technique' to describe waterboarding, a controversial interrogation method, could downplay its severity by using a more neutral term, potentially influencing the reader's perception."
+                },
+                {
+                    "text": "In a message to CIA employees on Saturday after Bush's  veto, Hayden said the CIA would continue to work strictly  within the law but said its needs were different from that of  the U.S. Army and that the CIA needed to follow its own  procedures.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence implies a justification for the CIA's different procedures compared to the U.S. Army, potentially presenting a subjective opinion about the CIA's needs as a fact without a balanced discussion on the ethical or legal implications."
+                },
+                {
+                    "text": "But he said: 'The bill Congress sent me would not simply  ban one particular interrogation method, as some have implied.  Instead, it would eliminate all the alternative procedures  we've developed to question the world's most dangerous and  violent terrorists.'",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This quote from Bush uses language that suggests a one-sided view, framing the issue in a way that implies the absolute necessity of the alternative procedures without acknowledging the controversy or opposing perspectives."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the discussion on the use of controversial interrogation techniques by the CIA, with instances of political bias, opinionated bias, and word choice bias influencing the presentation of facts and opinions."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6571428571428571,
+            "percentage_of_biased_sentences": 0.3684210526315789,
+            "overall_rating": 0.512781954887218
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "US judge orders CIA to turn over 'torture' memo-ACLU",
+        "URL": "US judge orders CIA to turn over 'torture' memo-ACLU.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    NEW YORK, May 8 (Reuters) - A U.S. judge ordered the  Central Intelligence Agency on Thursday to submit to the court  a 2002 memo said to specify harsh interrogation methods used on  suspected terrorists held abroad.      The American Civil Liberties Union said the memo was  written by the Department of Justice's Office of Legal Counsel  and sent to the CIA in August 2002. The ACLU described the memo  as 'one of the most important torture documents still being  withheld by the Bush administration.'      In a copy of the order posted on the ACLU's Web site, Judge  Alvin Hellerstein told the government to produce the memo so he  can determine whether it should be made public as part of a  lawsuit the ACLU and other organizations filed in June 2004  requesting records concerning the treatment of prisoners in  U.S. custody abroad.      Hellerstein has scheduled a review of the document for  Monday.      'This memo authorized the CIA to use specific torture  techniques -- including waterboarding,' Jameel Jaffer, ACLU's  national security project director, said in a statement.      'CIA agents waterboarded prisoners because this memo told  them that they could,' he said. 'The memo is being withheld not  for legitimate security reasons, but in order to protect  government officials from accountability for their decisions.'      Waterboarding is a simulated drowning technique.      The ACLU said more than 100,000 pages of government  documents have been released in response to its lawsuit.      Among those was a declassified 2003 memo, released by the  U.S. Justice Department on April 1, that justified the use of  harsh interrogation methods for suspected terrorists held  abroad.      A subsequent decision overruled the memo, which said  President George W. Bush's authority as commander-in-chief  superseded international law regarding wartime interrogations.      The U.S. military has banned the use of waterboarding and  other harsh methods considered by some rights advocates to be  torture. The U.S. intelligence community has not.      Bush authorized the CIA to use waterboarding after the  Sept. 11 attacks in 2001, but he has repeatedly insisted that  the United States does not torture prisoners.      The CIA has said it used waterboarding during the  interrogations of Khalid Sheikh Mohammed, who faces murder  charges in the U.S. military court at Guantanamo Bay, Cuba.   (Reporting by Michelle Nichols)   ((Editing by Stacey Joyce; michelle.nichols@reuters.com; +1  646 223 6117; Reuters Messaging:  michelle.nichols.reuters.com@reuters.net))      Keywords: SECURITY USA/MEMO       ",
+        "Histogram": [
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 22.30433464050293,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "The American Civil Liberties Union said the memo was written by the Department of Justice's Office of Legal Counsel and sent to the CIA in August 2002. The ACLU described the memo as 'one of the most important torture documents still being withheld by the Bush administration.'",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'one of the most important torture documents still being withheld by the Bush administration' carries a negative connotation towards the Bush administration, implying judgment and suggesting a deliberate act of withholding crucial information."
+                },
+                {
+                    "text": "'This memo authorized the CIA to use specific torture techniques -- including waterboarding,' Jameel Jaffer, ACLU's national security project director, said in a statement.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The explicit mention of 'specific torture techniques -- including waterboarding' by a representative of the ACLU uses strong language to evoke a negative emotional response, framing the actions described as unequivocally wrong without presenting a balanced perspective."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias through the use of word choice, particularly in the quotes from the American Civil Liberties Union, which negatively frame the actions of the Bush administration and the CIA regarding the use of torture techniques. The general bias tendency leans towards portraying these actions in a highly negative light, without presenting a balanced or neutral perspective."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.17647058823529413,
+            "overall_rating": 0.38823529411764707
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "UPDATE 3-Obama picks former Clinton aide Panetta for CIA",
+        "URL": "UPDATE 3-Obama picks former Clinton aide Panetta for CIA.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": " (Adds reaction, analysis)      By Andy Sullivan      WASHINGTON, Jan 5 (Reuters) - President-elect Barack Obama  has chosen former White House chief of staff Leon Panetta to  lead the CIA, which has been widely criticized for harsh  interrogation of terrorism suspects, Democratic officials said  on Monday.      The surprise pick of Panetta for Central Intelligence  Agency director was one of the last major nominations for the  incoming Obama administration, which takes over from President  George W. Bush on Jan. 20.      Panetta has relatively little experience in national  security matters, though he did participate in daily  intelligence briefings with President Bill Clinton when he  served as Clinton's chief of staff between 1994 and 1997.      He is best known as a budget expert who tamed deficits in  the White House and during a prior 16-year stint in Congress.      He was a member of the Iraq Study Group, a bipartisan  commission that was charged with assessing a way to end the  Iraq war. Its recommendations for a phased troop withdrawal  were largely ignored by the Bush administration, which chose to  increase the U.S. military presence there instead.      Intelligence experts said Panetta's knowledge of the inner  workings of government, and his strong bipartisan reputation  for fairness, would prove valuable.      'It was a surprise, but I think he will prove to be a  valuable pick,' said a source with close ties to U.S.  intelligence.      Panetta would succeed Michael Hayden, who has been  criticized by some Democrats and human rights groups for his  defense of Bush administration counterterrorism tactics. Hayden  has sought to restore stability at the spy agency.        CIA CONTROVERSIES      The CIA has been at the center of a number of major  controversies during Bush's presidency, beginning with the  intelligence failures before the Sept. 11, 2001, attacks and  then the faulty prewar intelligence about Iraq's weapons  programs.      The agency also has been criticized for the use of  waterboarding, or simulated drowning, and other harsh  interrogation methods on al Qaeda suspects, for the secret  transfer of captured terrorism suspects to countries known to  use torture and for the use of secret prisons overseas for  high-level captives.      Obama has vowed to 'put a clear end to torture' and restore  a balance between security and constitutional protections.      'The CIA still is in a politically fragile moment,' said  Princeton professor Julian Zelizer. 'Bringing a politically  skilled person into this position can help the CIA revitalize  its political standing.'      The position of CIA director is not as influential as it  used to be after the creation in 2004 of a Director of National  Intelligence to oversee all U.S. intelligence agencies.      Sources say Obama has picked retired Navy Adm. Dennis Blair  to fill that position.      After leaving the White House, Panetta has directed a  public policy center at California State University, Monterey  and served in other positions within California's state  university system. He has also sat on a number of corporate and  nonprofit boards.      Panetta's choice could appease some liberal activists who  have said that Obama's other picks for key national-security  posts are too hawkish and insufficiently antiwar.      Obama has picked retired Marine Gen. James Jones for his  national security adviser and has asked current Defense  Secretary Robert Gates to remain in c",
+        "Histogram": [
+            0,
+            0.6,
+            0,
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 22.203031539916992,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "The surprise pick of Panetta for Central Intelligence Agency director was one of the last major nominations for the incoming Obama administration, which takes over from President George W. Bush on Jan. 20.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'surprise pick' implies a negative connotation, suggesting that the selection of Panetta was unexpected and possibly not well thought out, which could influence the reader's perception negatively."
+                },
+                {
+                    "text": "He is best known as a budget expert who tamed deficits in the White House and during a prior 16-year stint in Congress.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Describing Panetta as a 'budget expert who tamed deficits' uses positive language to frame his past achievements, potentially biasing the reader in favor of his capabilities for the CIA role."
+                },
+                {
+                    "text": "Its recommendations for a phased troop withdrawal were largely ignored by the Bush administration, which chose to increase the U.S. military presence there instead.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The phrase 'largely ignored' implies a judgment on the actions of the Bush administration, suggesting a dismissive or negligent attitude towards the recommendations, which could influence the reader's perception of the administration's decision-making."
+                },
+                {
+                    "text": "Intelligence experts said Panetta's knowledge of the inner workings of government, and his strong bipartisan reputation for fairness, would prove valuable.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence presents the opinion of 'intelligence experts' as a fact, without providing evidence or context for their assessments, blurring the line between objective reporting and subjective perspective."
+                },
+                {
+                    "text": "'It was a surprise, but I think he will prove to be a valuable pick,' said a source with close ties to U.S. intelligence.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Again, the use of 'surprise' introduces a negative connotation, suggesting that the selection of Panetta was not the expected or best choice, which could bias the reader against the decision."
+                },
+                {
+                    "text": "The CIA still is in a politically fragile moment,' said Princeton professor Julian Zelizer. 'Bringing a politically skilled person into this position can help the CIA revitalize its political standing.'",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The assertion that the CIA is in a 'politically fragile moment' and the prescription that a 'politically skilled person' can help revitalize its standing are presented as objective truths, when in fact, they are interpretations and opinions."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias through the use of word choice and opinionated statements, particularly in the framing of Panetta's nomination and the assessment of his qualifications. The general bias tendency leans towards questioning the decision and the potential impact of Panetta's appointment as CIA director."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.19047619047619047,
+            "overall_rating": 0.3952380952380952
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "UPDATE 4-Obama picks former Clinton aide Panetta for CIA",
+        "URL": "UPDATE 4-Obama picks former Clinton aide Panetta for CIA.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": " (Adds Feinstein comment)      By Andy Sullivan      WASHINGTON, Jan 5 (Reuters) - President-elect Barack Obama  has chosen former White House chief of staff Leon Panetta to  lead the CIA, which has been widely criticized for harsh  interrogation of terrorism suspects, Democratic officials said  on Monday.      The surprise pick of Panetta for Central Intelligence  Agency director, which has not been announced, would be one of  the last major nominations for the incoming Obama  administration, which takes over from President George W. Bush  on Jan. 20.      Panetta has relatively little experience in national  security matters, although he did participate in daily  intelligence briefings with President Bill Clinton when he  served as Clinton's chief of staff between 1994 and 1997.      Sen. Dianne Feinstein, poised to head the Senate  intelligence committee, said she had not been notified of the  selection of Panetta to be CIA director and indicated that she  was not pleased with Obama's choice.      'My position has consistently been that I believe the  agency is best-served by having an intelligence professional in  charge at this time,' Feinstein said in a statement. The  California Democrat would oversee Panetta's confirmation  hearing.      Panetta is best known as a budget expert who tamed deficits  in the White House and during a prior 16-year stint as a  congressman from California.      He was a member of the Iraq Study Group, a bipartisan  commission that was charged with assessing a way to end the  Iraq war. Its recommendations for a phased troop withdrawal  were largely ignored by the Bush administration, which chose to  increase the U.S. military presence there instead.      Intelligence experts said Panetta's knowledge of the inner  workings of government, and his strong bipartisan reputation  for fairness, would prove valuable.      'It was a surprise, but I think he will prove to be a  valuable pick,' said a source with close ties to U.S.  intelligence.      Panetta would succeed Michael Hayden, who has been  criticized by some Democrats and human rights groups for his  defense of Bush administration counterterrorism tactics. Hayden  has sought to restore stability at the spy agency.        CIA CONTROVERSIES      The CIA has been at the center of a number of major  controversies during Bush's presidency, beginning with   intelligence failures before the Sept. 11, 2001, attacks and  then faulty prewar intelligence about Iraq's weapons programs.      The agency also has been criticized for the use of  waterboarding, or simulated drowning, and other harsh  interrogation methods on al Qaeda suspects, the secret transfer  of captured terrorism suspects to countries known to use  torture and the use of secret prisons overseas for high-level  captives.      Obama has vowed to 'put a clear end to torture' and restore  a balance between security and constitutional protections.      'The CIA still is in a politically fragile moment,' said  Princeton professor Julian Zelizer. 'Bringing a politically  skilled person into this position can help the CIA revitalize  its political standing.'      The position of CIA director is not as influential as it  used to be after the creation in 2004 of a Director of National  Intelligence to oversee all U.S. intelligence agencies.      Sources say Obama has picked retired Navy Adm. Dennis Blair  to fill that position.      Since leaving the White House, Panetta has directed a  public policy cent",
+        "Histogram": [
+            0,
+            0.6,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 22.10809326171875,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "The surprise pick of Panetta for Central Intelligence Agency director, which has not been announced, would be one of the last major nominations for the incoming Obama administration, which takes over from President George W. Bush on Jan. 20.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'surprise pick' implies a negative connotation, suggesting that the choice of Panetta is unexpected and possibly not a good decision, influencing the reader's perception."
+                },
+                {
+                    "text": "Sen. Dianne Feinstein, poised to head the Senate intelligence committee, said she had not been notified of the selection of Panetta to be CIA director and indicated that she was not pleased with Obama's choice.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The phrase 'not pleased' suggests a negative judgment about Obama's choice, implying that there is a problem with the decision that has caused dissatisfaction."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias through the use of word choice, particularly in describing Panetta's nomination as a 'surprise pick' and Feinstein's reaction as being 'not pleased,' which both imply negative connotations. The general bias tendency leans towards questioning the appropriateness of the nomination and the reactions to it."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.09523809523809523,
+            "overall_rating": 0.3476190476190476
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Ecuador says CIA controls part of its intelligence",
+        "URL": "Ecuador says CIA controls part of its intelligence.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Alonso Soto      QUITO, April 5 (Reuters) - Ecuador's leftist president on  Saturday accused the CIA of controlling many of his country's  spy agencies and said it had shared Ecuadorean intelligence  with U.S. ally Colombia during last month's regional crisis.      'Many of our intelligence agencies have been taken over by  the CIA,' Rafael Correa said during his weekly radio show.  'Through the CIA, information found here was passed to Colombia  to improve their position' in the dispute.      Ecuador broke off diplomatic ties with Bogota after  Colombian forces attacked a rebel camp inside Ecuadorean  territory, killing a top guerrilla leader and more than 20  other people.      The bombing raid raised the specter of war after Ecuador  and Venezuela briefly sent troops to their borders with  Colombia. Nerves quickly calmed during a regional meeting.      But the recent confirmation that an Ecuadorean died in the  March 1 raid has renewed tensions between the neighbors.      Correa charged the United States with financing some  officers in the Ecuadorean spy agencies and said reforms to the  Andean country's intelligence were needed.      A close ally of U.S. foe Venezuelan President Hugo Chavez,  Correa said he hoped the diplomatic spat would be over soon,  but warned of legal actions against Colombia for the killing of  the Ecuadorean citizen who was in the rebel camp.      Correa added that Ecuador's decision on to sue Colombia in  international court over Colombia's anti-drug spraying along  its border was in retaliation for the raid.      The suit filed on Monday has again strained relations  between the neighbors who share a 400-mile (600 km) border  often crossed by rebels fighting a four-decade war against the  Colombian government.      Correa, whose popularity has rebounded for his handling of  the dispute, is a critic of U.S. foreign policy in Latin  America.      He has said U.S. President George W. Bush was worse than  Satan and once vowed to cut off his arm before renewing a lease  that allows U.S. troops to use a key anti-drug air base.   (Reporting by Alonso Soto; Editing by Xavier Briand)   ((alonso.soto@reuters.com; Tel: 593-22523560 ext 102))         Keywords: ECUADOR CIA/        ",
+        "Histogram": [
+            0,
+            0.8,
+            0.8,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 22.084272384643555,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "'Many of our intelligence agencies have been taken over by the CIA,' Rafael Correa said during his weekly radio show. 'Through the CIA, information found here was passed to Colombia to improve their position' in the dispute.",
+                    "bias_type": "Projection Bias",
+                    "bias_strength": 0.8,
+                    "bias_description": "This sentence implies, without direct evidence, that the CIA has taken control of Ecuadorean intelligence agencies, attributing motives and actions to the CIA based on speculation rather than concrete facts."
+                },
+                {
+                    "text": "Correa charged the United States with financing some officers in the Ecuadorean spy agencies and said reforms to the Andean country's intelligence were needed.",
+                    "bias_type": "Unsubstantiated Claims Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The claim that the United States finances Ecuadorean officers in the spy agencies is presented as a factual assertion without providing evidence to support its validity, thus promoting an unsubstantiated claim."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the involvement of the CIA in Ecuadorean intelligence, with a general tendency to project motives and actions onto the CIA without sufficient evidence. The topic discussed is the control and sharing of intelligence in the context of a regional crisis, with a bias towards implicating the CIA in these matters."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.7,
+            "percentage_of_biased_sentences": 0.14285714285714285,
+            "overall_rating": 0.4214285714285714
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "U.S. asserts new interrogation rights - NY Times",
+        "URL": "U.S. asserts new interrogation rights - NY Times.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    NEW YORK, April 26 (Reuters) - Recent letters from the  Justice Department to Congress state that U.S. intelligence  agents working to prevent terror attacks can legally use  interrogation techniques banned by international law, The New  York Times reported on Sunday.      President George W. Bush issued an executive order last  summer in which he said the CIA would observe international  regulations regarding detainee treatment. The letters indicate  the Bush administration now contends these boundaries may be  stretched in some interrogations.      A March 5 letter from the Justice Dept. to Congress makes  clear the Bush administration has not defined which  interrogation methods might violate the Geneva Convention's  bans on 'outrages upon personal dignity,' the Times said.      The letters were provided by the staff of Sen. Ron Wyden,  an Oregon Democrat and member of the Senate Intelligence  Committee. The panel received classified briefings on the  matter and Wyden requested further information, which yielded  the letters, the Times said.      'The fact that an act is undertaken to prevent a threatened  terrorist attack, rather than for the purpose of humiliation or  abuse, would be relevant to a reasonable observer in measuring  the outrageousness of the act,' wrote Brian Benczkowski, a  deputy assistant attorney general, in one letter.      A senior Justice Department official, speaking on condition  of anonymity, said of the classified information: 'I certainly  don't want to suggest that if there's a good purpose you can  head off and humiliate someone.'      But, he said, 'the fact that you are doing something for a  legitimate security purpose would be relevant ... There are  certainly things that can be insulting that would not raise to  the level of an outrage on personal dignity.'      The Geneva Conventions prohibit humiliating and degrading  treatment of prisoners.   (Reporting by Chris Michaud, editing by Alan Elsner)  ((nyc.buro@reuters.com; +1 646 223 6280; Reuters Messaging:  chris.michaud.reuters.com@reuters.net))  ",
+        "Histogram": [
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0.4,
+            0.6,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 21.479995727539062,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Recent letters from the Justice Department to Congress state that U.S. intelligence agents working to prevent terror attacks can legally use interrogation techniques banned by international law, The New York Times reported on Sunday.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'legally' implies a judgment that these techniques are permissible under the law, potentially influencing the reader's perception without presenting a balanced view."
+                },
+                {
+                    "text": "The letters indicate the Bush administration now contends these boundaries may be stretched in some interrogations.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence suggests a subjective interpretation of the administration's actions, implying a negative connotation without providing a neutral or objective analysis."
+                },
+                {
+                    "text": "A March 5 letter from the Justice Dept. to Congress makes clear the Bush administration has not defined which interrogation methods might violate the Geneva Convention's bans on 'outrages upon personal dignity,' the Times said.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'makes clear' and the mention of the administration's lack of definition regarding banned methods could lead the reader to speculate negatively about the administration's intentions."
+                },
+                {
+                    "text": "'The fact that an act is undertaken to prevent a threatened terrorist attack, rather than for the purpose of humiliation or abuse, would be relevant to a reasonable observer in measuring the outrageousness of the act,' wrote Brian Benczkowski, a deputy assistant attorney general, in one letter.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.4,
+                    "bias_description": "This statement implies a direct causal relationship between the intention behind an act and its perception, without acknowledging the complexity of ethical and legal standards."
+                },
+                {
+                    "text": "A senior Justice Department official, speaking on condition of anonymity, said of the classified information: 'I certainly don't want to suggest that if there's a good purpose you can head off and humiliate someone.'",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'I certainly don't want to suggest' followed by a statement that frames the issue in terms of 'good purpose' vs. 'humiliation' targets the character or motives of those involved in the debate rather than addressing the substance of the argument."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the U.S. administration's stance on interrogation techniques, particularly through the use of word choice, opinionated statements, speculation, causal misunderstanding, and ad hominem arguments. The general bias tendency leans towards portraying the administration's actions in a negative light, suggesting a lack of transparency and ethical consideration."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.5599999999999999,
+            "percentage_of_biased_sentences": 0.3076923076923077,
+            "overall_rating": 0.4338461538461538
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "UPDATE 1-U.S. to launch criminal probe of CIA tapes",
+        "URL": "UPDATE 1-U.S. to launch criminal probe of CIA tapes.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    (Adds background, CIA no immediate comment)      WASHINGTON, Jan 2 (Reuters) - The U.S. Justice Department  said on Wednesday it will launch a criminal investigation intothe CIA's destruction of videotapes depicting the harsh  interrogation of terrorism suspects.      The CIA last month disclosed that it had destroyed in 2005  hundreds of hours of tapes from the interrogations of two al  Qaeda suspects, prompting an outcry from Democrats, human  rights activists and some legal experts.      The interrogations, which took place in 2002, were believed  to have included a form of simulated drowning known as  waterboarding, condemned internationally as torture.      President George W. Bush has said the United States does  not torture but has declined to be specific about interrogation  methods.      The Justice Department launched an initial inquiry last  month. The CIA said it had no immediate comment.      ((Reporting by Randall Mikkelsen; Editing by Patricia  Wilson; Reuters Messaging:  randall.mikkelsen.reuters.com@reuters.net; +1 202 898 8300))  Keywords: SECURITY CIA/        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 20.924840927124023,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports on the U.S. Justice Department's decision to launch a criminal investigation into the CIA's destruction of interrogation videotapes. The topic is presented in a factual manner without evident bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "UPDATE 1-Ecuador says CIA controls part of its intelligence",
+        "URL": "UPDATE 1-Ecuador says CIA controls part of its intelligence.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": " (Recast, adds U.S. Embassy reaction and details)      By Alonso Soto      QUITO, April 5 (Reuters) - Ecuador's president accused the  CIA on Saturday of controlling many of his country's spy  agencies, in comments that could fray ties with Washington and  drag it into Ecuador's feud with neighboring Colombia.      President Rafael Correa has fired a top intelligence  officer and plans to overhaul spy agencies for belatedly  informing him about links between Colombian rebels and an  Ecuadorean who died in Colombia's raid inside Ecuador last  month that sparked a regional crisis.      'Many of our intelligence agencies have been taken over by  the CIA,' the leftist leader said during his weekly radio show.  'Through the CIA, information found here was passed to Colombia  to improve their position' in the dispute.      Correa also charged the United States with financing some  officers in the Ecuadorean spy agencies.      U.S. Embassy spokesman in Quito Arnaldo Arbesu declined to  comment on the charges but said, 'We are always willing to work  with the Ecuadorean government in any type of issue.'      Correa, whose popularity has rebounded for his handling of  the dispute and is an ally of U.S. foe Venezuelan leader Hugo  Chavez, is a critic of U.S. foreign policy in Latin America.      He has called U.S. President George W. Bush worse than  Satan, and once vowed to cut off his own arm before renewing a  lease that allows U.S. troops to use a key anti-drug air base.      The March 1 raid, which killed a Colombian rebel leader and  more than 20 other people, raised the threat of war after  Ecuador and Venezuela briefly sent troops to their borders with  Colombia. Nerves quickly calmed during a regional meeting a  week later.      Correa said he hoped the diplomatic spat would be over  soon, but warned of legal actions against Colombia for the  killing of the Ecuadorean citizen who was in the rebel camp.      Correa added that Ecuador's decision to sue Colombia in  international court over Colombia's anti-drug spraying along  its border was in response to the raid.      The suit filed on Monday has once again strained relations  between the neighbors who share a 400-mile (600-km) border  often crossed by rebels fighting a four-decade war against the  Colombian government.   (Reporting by Alonso Soto; Editing by Xavier Briand)   ((alonso.soto@reuters.com; Tel: 593-22523560 ext 102))         Keywords: ECUADOR CIA/        ",
+        "Histogram": [
+            0,
+            0.6,
+            0.9,
+            0.9,
+            0.9,
+            0,
+            0.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 20.825359344482422,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "President Rafael Correa has fired a top intelligence officer and plans to overhaul spy agencies for belatedly informing him about links between Colombian rebels and an Ecuadorean who died in Colombia's raid inside Ecuador last month that sparked a regional crisis.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'belatedly' implies a judgment that the information disclosure was unreasonably delayed, suggesting incompetence or negligence on the part of the intelligence agencies without providing evidence."
+                },
+                {
+                    "text": "'Many of our intelligence agencies have been taken over by the CIA,' the leftist leader said during his weekly radio show. 'Through the CIA, information found here was passed to Colombia to improve their position' in the dispute.",
+                    "bias_type": "Unsubstantiated Claims Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "This statement presents a serious accusation against the CIA without providing any evidence to support the claim that the CIA has taken over Ecuadorean intelligence agencies, or that information was passed to Colombia to manipulate the dispute."
+                },
+                {
+                    "text": "Correa also charged the United States with financing some officers in the Ecuadorean spy agencies.",
+                    "bias_type": "Unsubstantiated Claims Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "Similar to the previous sentence, this accusation lacks evidence and implies a significant level of control and influence by the United States over Ecuadorean spy agencies, which is presented as fact without substantiation."
+                },
+                {
+                    "text": "Correa, whose popularity has rebounded for his handling of the dispute and is an ally of U.S. foe Venezuelan leader Hugo Chavez, is a critic of U.S. foreign policy in Latin America.",
+                    "bias_type": "Political Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "The sentence implies a positive correlation between Correa's popularity and his handling of the dispute, suggesting a bias towards viewing his actions favorably. Additionally, the framing of Correa as an ally of U.S. foe Hugo Chavez and a critic of U.S. foreign policy introduces a political bias by emphasizing alliances and criticisms that may influence the reader's perception."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the actions and statements of President Rafael Correa, particularly in the context of his accusations against the CIA and the United States. The biases identified include Word Choice Bias, Unsubstantiated Claims Bias, and Political Bias, with a general tendency to frame Correa's actions and statements in a manner that could influence the reader towards a specific interpretation of the events."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.725,
+            "percentage_of_biased_sentences": 0.21428571428571427,
+            "overall_rating": 0.46964285714285714
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "UPDATE 2-CIA says used waterboarding on three suspects",
+        "URL": "UPDATE 2-CIA says used waterboarding on three suspects.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": " (Adds Hayden quote, comments by FBI, national intelligence  director, background)      By Randall Mikkelsen      WASHINGTON, Feb 5 (Reuters) - The CIA used a widely  condemned interrogation technique known as waterboarding on  three suspects captured after the Sept. 11 attacks, CIA  Director Michael Hayden told Congress on Tuesday.      'Waterboarding has been used on only three detainees,'  Hayden told the Senate Intelligence Committee. It was the first  time a U.S. official publicly specified the number of people  subjected to waterboarding and named them.      Critics call waterboarding a form of illegal torture.  Congress is considering banning the technique.      Those subjected to waterboarding were suspected Sept. 11  mastermind Khalid Sheikh Mohammed and senior al Qaeda leaders  Abu Zubaydah and Abd al-Rahim al-Nashiri, Hayden said at the  hearing on threats to the United States.      He said waterboarding has not been used in five years.      'The circumstances are different than they were in late  2001, early 2002,' Hayden said. 'Very critical to those  circumstances was the belief that additional catastrophic  attacks against the homeland were imminent. In addition to  that, my agency ... had limited knowledge about al Qaeda and  its workings. Those two realities have changed.'      Hayden told reporters later that the interrogations of  Mohammed and Zubaydah were particularly fruitful.      From the time of their capture in 2002 and 2003 until they  were delivered to Guantanamo Bay prison in 2006, the two  suspects accounted for one-fourth of the human intelligence  reports on al Qaeda, Hayden said.      Some analysts have questioned Mohammed's credibility under  interrogation. But Hayden said most of the information was  reliable and helped lead to other al Qaeda suspects.      He told the committee he opposed limiting the CIA to using  interrogation techniques permitted in the U.S. Army Field  Manual, which bans waterboarding. CIA interrogators are better  trained, and the agency works with a narrower range of suspects  in its interrogations, he said.           HARSH TACTICS      Hayden said fewer than 100 people had been held in the  CIA's terrorism detention and interrogation program launched  after the Sept. 11 attacks, with fewer than one-third of them  subjected to any harsh interrogation techniques.      But applying the field manual's limitations to the CIA, he  said, 'would substantially increase the danger to America.'      The CIA is the only U.S. agency that uses harsh  interrogation techniques, National Intelligence Director  Michael McConnell told the hearing. The entire military adheres  to the Army Field Manual and FBI Director Robert Mueller told  the hearing his agency does not use coercive techniques.      A senior intelligence official said after the hearing that  it was unclear whether the CIA could legally use waterboarding  in the future, given changes in U.S. law. The Bush  administration says it neither uses nor condones torture.      The CIA said in December that it had destroyed videotapes  depicting the interrogations of Zubaydah and Nashiri, prompting  a Justice Department investigation.      ((Reporting by Randall Mikkelsen; editing by Cynthia  Osterman; Reuters Messaging:  randall.mikkelsen.reuters.com@reuters.net; +1 202 898 8300))         Keywords: SECURITY USA/WATERBOARDING        ",
+        "Histogram": [
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.5,
+            0.5,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 20.78575897216797,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "'Waterboarding has been used on only three detainees,' Hayden told the Senate Intelligence Committee. It was the first time a U.S. official publicly specified the number of people subjected to waterboarding and named them.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'only three detainees' minimizes the significance of the act of waterboarding, potentially downplaying its ethical and legal implications."
+                },
+                {
+                    "text": "Hayden told reporters later that the interrogations of Mohammed and Zubaydah were particularly fruitful. From the time of their capture in 2002 and 2003 until they were delivered to Guantanamo Bay prison in 2006, the two suspects accounted for one-fourth of the human intelligence reports on al Qaeda, Hayden said.",
+                    "bias_type": "Anecdotal Evidence Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "This sentence relies on the specific cases of Mohammed and Zubaydah to justify the effectiveness of waterboarding, rather than considering broader evidence on the ethics and reliability of information obtained through such methods."
+                },
+                {
+                    "text": "Some analysts have questioned Mohammed's credibility under interrogation. But Hayden said most of the information was reliable and helped lead to other al Qaeda suspects.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The assertion of 'most of the information was reliable' without presenting concrete evidence introduces a subjective opinion that may not align with a balanced or evidence-based perspective."
+                },
+                {
+                    "text": "He told the committee he opposed limiting the CIA to using interrogation techniques permitted in the U.S. Army Field Manual, which bans waterboarding. CIA interrogators are better trained, and the agency works with a narrower range of suspects in its interrogations, he said.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This statement presents an opinion favoring the CIA's approach over the U.S. Army Field Manual's guidelines as a fact, without providing a balanced view or evidence to support the claim that CIA interrogators are 'better trained'."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the topic of waterboarding and the CIA's interrogation techniques, with a general tendency to downplay ethical concerns and present subjective opinions as facts."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.5750000000000001,
+            "percentage_of_biased_sentences": 0.2,
+            "overall_rating": 0.38750000000000007
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "INTERVIEW-Bush 'strongly' supports CIA tapes probe",
+        "URL": "INTERVIEW-Bush 'strongly' supports CIA tapes probe.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WASHINGTON, Jan 3 (Reuters) - President George W. Bush said  on Thursday he strongly supports a Justice Department  investigation into the destruction of CIA videotapes of  interrogation of terrorism suspects, and that the White House  would cooperate.      'I strongly support it. And we will participate,' Bush said  in a Reuters interview.      It was his first public comment since the Justice  Department said on Wednesday it had launched a criminal  investigation into the CIA's destruction of videotapes showing  harsh interrogation of terrorism suspects.      Asked whether he had any concerns that the probe might  raise questions about his couterterrorism policy, Bush replied:  'See what it says. See what the investigation leads to.'      The Central Intelligence Agency last month disclosed that  in 2005 it destroyed hundreds of hours of tapes from the  interrogations of two al Qaeda suspects, prompting an outcry  from Democrats, human rights activists and some legal experts.      The interrogations, which took place in 2002, were believed  to have included a form of simulated drowning known as  waterboarding, condemned internationally as torture.      Bush has said the United States does not torture but has  declined to be specific about interrogation methods.      (Reporting by Tabassum Zakaria; Editing by Frances Kerry)  ((toby.zakaria@reuters.com ; +1 202 898 8300; Reuters  Messaging: toby.zakaria.reuters.com@reuters.net ))  Keywords: SECURITY CIA/BUSH        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 20.752695083618164,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a straightforward report on President George W. Bush's support for a Justice Department investigation into the destruction of CIA videotapes, without exhibiting any evident bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "UPDATE 3-CIA says used waterboarding on three suspects",
+        "URL": "UPDATE 3-CIA says used waterboarding on three suspects.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": " (Adds Sen. Durbin, Human Rights Watch)      By Randall Mikkelsen      WASHINGTON, Feb 5 (Reuters) - The CIA used a widely  condemned interrogation technique known as waterboarding on  three suspects captured after the Sept. 11 attacks, CIA  Director Michael Hayden told Congress on Tuesday.      'Waterboarding has been used on only three detainees,'  Hayden told the Senate Intelligence Committee. It was the first  time a U.S. official publicly specified the number of people  subjected to waterboarding and named them.      Congress is considering banning the simulated drowning  technique. A Democratic senator and a human rights advocacy  group urged a criminal investigation after Hayden made his  remarks.      'Waterboarding is torture, and torture is a crime,' Human  Rights Watch said in a statement.      Those subjected to waterboarding were suspected Sept. 11  mastermind Khalid Sheikh Mohammed and senior al Qaeda leaders  Abu Zubaydah and Abd al-Rahim al-Nashiri, Hayden said at the  Senate hearing on threats to the United States.      He said waterboarding has not been used in five years.      'The circumstances under which we are operating ... are  frankly, different than they were in late 2001 and early 2002,'  Hayden said. 'Very critical to those circumstances was the  belief that additional catastrophic attacks against the  homeland were imminent. In addition to that, my agency ... had  limited knowledge about al Qaeda and its workings. Those two  realities have changed.'      Hayden told reporters later that the interrogations of  Mohammed and Zubaydah were particularly fruitful.      From the time of their capture in 2002 and 2003 until they  were delivered to Guantanamo Bay prison in 2006, the two  suspects accounted for one-fourth of the human intelligence  reports on al Qaeda, Hayden said.      Some analysts have questioned Mohammed's credibility under  interrogation. But Hayden said most of the information was  reliable and helped lead to other al Qaeda suspects.      He told the committee he opposed limiting the CIA to using  interrogation techniques permitted in the U.S. Army Field  Manual, which bans waterboarding. CIA interrogators are better  trained, and the agency works with a narrower range of suspects  in its interrogations, he said.           HARSH TACTICS      Hayden said fewer than 100 people had been held in the  CIA's terrorism detention and interrogation program launched  after the Sept. 11 attacks, with fewer than one-third of them  subjected to any harsh interrogation techniques.      But applying the field manual's limitations to the CIA, he  said, 'would substantially increase the danger to America.'      The CIA is the only U.S. agency that uses harsh  interrogation techniques, National Intelligence Director  Michael McConnell told the hearing. The entire military adheres  to the Army Field Manual and FBI Director Robert Mueller told  the hearing his agency does not use coercive techniques.      A senior intelligence official said after the hearing that  it was unclear whether the CIA could legally use waterboarding  in the future, given changes in U.S. law. The Bush  administration says it neither uses nor condones torture.      Sen. Dick Durbin, an Illinois Democrat and judiciary  committee member, demanded that Attorney General Michael  Mukasey investigate the CIA waterboarding and vowed to delay  the nomination for Mukasey's deputy until the attorney general  responds to that and other issues.      'A",
+        "Histogram": [
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 20.569108963012695,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "'Waterboarding has been used on only three detainees,' Hayden told the Senate Intelligence Committee. It was the first time a U.S. official publicly specified the number of people subjected to waterboarding and named them.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'only three detainees' minimizes the severity of the action, potentially downplaying the ethical and legal implications of waterboarding."
+                },
+                {
+                    "text": "'The circumstances under which we are operating ... are frankly, different than they were in late 2001 and early 2002,' Hayden said. 'Very critical to those circumstances was the belief that additional catastrophic attacks against the homeland were imminent. In addition to that, my agency ... had limited knowledge about al Qaeda and its workings. Those two realities have changed.'",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.4,
+                    "bias_description": "This statement implies a direct cause-and-effect relationship between the belief in imminent attacks and the use of waterboarding, without acknowledging the ethical or legal considerations that should guide such actions."
+                },
+                {
+                    "text": "Hayden told the committee he opposed limiting the CIA to using interrogation techniques permitted in the U.S. Army Field Manual, which bans waterboarding. CIA interrogators are better trained, and the agency works with a narrower range of suspects in its interrogations, he said.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The assertion that CIA interrogators are 'better trained' implies a subjective judgment that may not be universally accepted, thus blurring the line between fact and opinion."
+                },
+                {
+                    "text": "Hayden said fewer than 100 people had been held in the CIA's terrorism detention and interrogation program launched after the Sept. 11 attacks, with fewer than one-third of them subjected to any harsh interrogation techniques.",
+                    "bias_type": "Cherry Picking Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "By emphasizing the low percentage of detainees subjected to harsh techniques, this statement could be seen as selectively presenting information to mitigate the perception of widespread use of controversial methods."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the discussion of the CIA's use of waterboarding and other harsh interrogation techniques, with a general tendency to downplay the ethical and legal concerns through word choice, causal misunderstanding, opinionation, and cherry-picking of information."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.55,
+            "percentage_of_biased_sentences": 0.3076923076923077,
+            "overall_rating": 0.4288461538461539
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "UPDATE 1-CIA says used waterboarding three times",
+        "URL": "UPDATE 1-CIA says used waterboarding three times.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "(Updates throughout)      By Randall Mikkelsen      WASHINGTON, Feb 5 (Reuters) - The CIA on three occasions  shortly after the Sept. 11 attacks used a widely condemned  interrogation technique known as waterboarding, CIA Director  Michael Hayden told Congress on Tuesday.      'Waterboarding has been used on only three detainees,'  Hayden told the Senate Intelligence Committee. It was the first  time a U.S. official publicly specified the number of people  subjected to waterboarding and named them.      Critics call waterboarding a form of illegal torture.  Congress is considering banning the technique.      Those subjected to waterboarding were suspected Sept. 11  mastermind Khalid Sheikh Mohammed and senior al Qaeda leaders  Abu Zubaydah and Abd al-Rahim al-Nashiri, Hayden said.      He said waterboarding has not been used in five years but  was used then because of concerns of imminent catastrophic  attacks on the United States and because authorities had  limited knowledge of al Qaeda.      'The circumstances are different than they were in late  2001, early 2002,' Hayden said.      He told reporters later that the interrogations of Mohammed  and Zubaydah were particularly fruitful.      From the time of their capture in 2002 until they were  delivered to Guantanamo Bay prison in 2006, the two suspects  accounted for one-fourth of the human intelligence reports on  al Qaeda, Hayden said.      Although some analysts have questioned Mohammed's  credibility under interrogation, most of the information was  reliable and helped lead to other al Qaeda suspects, he said.      He told the committee he opposed limiting the CIA to using  interrogation techniques permitted in the U.S. Army Field  Manual, which bans waterboarding. CIA interrogators are better  trained, and it works with a narrower range of suspects in its  interrogations, he said.      Hayden said fewer than 100 people had been held in the  CIA's terrorism detention and interrogation program, with fewer  than one-third of them subjected to any harsh interrogation  techniques.      A senior intelligence official said after the hearing that  it was unclear whether the CIA could legally use waterboarding  in the future, given changes in U.S. law. The Bush  administration says it neither uses nor condones torture.      The CIA said in December that it had destroyed videotapes  depicting the interrogations of Zubaydah and Nashiri, prompting  a Justice Department investigation.      ((Reporting by Randall Mikkelsen; editing by Philip  Barbara; Reuters Messaging:  randall.mikkelsen.reuters.com@reuters.net; +1 202 898 8300))         Keywords: SECURITY USA/WATERBOARDING        ",
+        "Histogram": [
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 20.54999351501465,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "'Waterboarding has been used on only three detainees,' Hayden told the Senate Intelligence Committee. It was the first time a U.S. official publicly specified the number of people subjected to waterboarding and named them.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'only three detainees' minimizes the significance of the act of waterboarding, potentially downplaying its ethical and legal implications."
+                },
+                {
+                    "text": "Critics call waterboarding a form of illegal torture. Congress is considering banning the technique.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence presents the opinion of critics as a fact, blurring the line between objective reporting and subjective perspective on the legality and ethical nature of waterboarding."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the topic of waterboarding, with a general tendency to downplay its severity and ethical implications through the use of minimizing language and presenting subjective opinions as established facts."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.16666666666666666,
+            "overall_rating": 0.3833333333333333
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "UPDATE 2-Obama picks former Clinton aide Panetta for CIA",
+        "URL": "UPDATE 2-Obama picks former Clinton aide Panetta for CIA.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": " (Adds additional background)      By Andy Sullivan      WASHINGTON, Jan 5 (Reuters) - President-elect Barack Obama  has chosen former White House chief of staff Leon Panetta to  lead the CIA, which has been widely criticized for harsh  interrogation of terrorism suspects, Democratic officials said  on Monday.      The choice of Panetta for Central Intelligence Agency   director was one of the last major nominations for the incoming  Obama administration, which takes over from President George W.  Bush on Jan. 20.      Panetta has relatively little experience in national  security matters. He is best known for imposing order on  President Bill Clinton's White House during his 1994-1997 stint  as chief of staff and taming budget deficits while there and  during his prior 16-year tenure in Congress.      He was a member of the Iraq Study Group, a bipartisan  commission that was charged with assessing a way to end the  Iraq war. Its recommendations for a phased troop withdrawal  were largely ignored by the Bush administration, which chose to  increase the U.S. military presence there instead.      Panetta would succeed Michael Hayden, who has been  criticized by some Democrats and human rights groups for his  defense of Bush administration counterterrorism tactics. Hayden  has sought to restore stability at the spy agency.      The CIA has been at the center of a number of major  controversies during Bush's presidency, beginning with the  intelligence failures before the Sept. 11, 2001, attacks and  then the faulty prewar intelligence about Iraq's weapons  programs.      The CIA also has been criticized for the use of harsh  interrogation methods, including waterboarding, on al Qaeda  suspects, for the secret transfer of captured terrorism  suspects to countries known to use torture and for the use of  secret prisons overseas for high-level captives.      Obama has vowed to 'put a clear end to torture' and  'restore' a balance between security and constitutional  protections.      After leaving the White House, Panetta has directed a  public policy center at California State University, Monterey  and served in other positions within California's state  university system. He has also sat on a number of corporate and  nonprofit boards.      Panetta's choice could appease some liberal activists who  have said that Obama's other picks for key national-security  posts are too hawkish and insufficiently antiwar.      Sources say Obama has named retired Navy Adm. Dennis Blair  to be the top U.S. intelligence official, who would oversee the  CIA and other arms of the U.S. intelligence apparatus.      He has also picked retired Marine Gen. James Jones to be  national security adviser and has asked current Defense  Secretary Robert Gates to remain in charge at the Pentagon.      (Reporting by Jeff Mason, Steve Holland, James Vicini and  Andy Sullivan; Editing by David Storey and Cynthia Osterman)      ((1 202 898 8300))  Keywords: USA OBAMA/PANETTA        ",
+        "Histogram": [
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 20.490135192871094,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Panetta has relatively little experience in national security matters. He is best known for imposing order on President Bill Clinton's White House during his 1994-1997 stint as chief of staff and taming budget deficits while there and during his prior 16-year tenure in Congress.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The phrase 'relatively little experience' and the positive framing of 'imposing order' and 'taming budget deficits' compared to the neutral description of his congressional tenure imply a judgment about Panetta's qualifications, suggesting a bias through word choice."
+                },
+                {
+                    "text": "The choice of Panetta for Central Intelligence Agency director was one of the last major nominations for the incoming Obama administration, which takes over from President George W. Bush on Jan. 20.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Describing the nomination as 'one of the last major nominations' could imply a rushed or less significant decision-making process, suggesting a bias through the choice of words that diminishes the importance of the nomination."
+                },
+                {
+                    "text": "Panetta would succeed Michael Hayden, who has been criticized by some Democrats and human rights groups for his defense of Bush administration counterterrorism tactics. Hayden has sought to restore stability at the spy agency.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The sentence implies a positive judgment on Hayden's efforts with the phrase 'sought to restore stability,' which contrasts with the previous mention of criticism. This choice of words could suggest a bias by subtly favoring Hayden's perspective."
+                },
+                {
+                    "text": "The CIA has been at the center of a number of major controversies during Bush's presidency, beginning with the intelligence failures before the Sept. 11, 2001, attacks and then the faulty prewar intelligence about Iraq's weapons programs.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'center of a number of major controversies' and 'faulty prewar intelligence' highlights negative aspects in a way that could imply a judgment about the CIA's overall performance, suggesting a bias through the choice of words that emphasize criticism."
+                },
+                {
+                    "text": "The CIA also has been criticized for the use of harsh interrogation methods, including waterboarding, on al Qaeda suspects, for the secret transfer of captured terrorism suspects to countries known to use torture and for the use of secret prisons overseas for high-level captives.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The sentence's focus on 'harsh interrogation methods' and 'secret prisons' uses language that emphasizes the controversial and negative aspects of the CIA's actions, suggesting a bias through the choice of words that evoke a strong, negative emotional response."
+                },
+                {
+                    "text": "Panetta's choice could appease some liberal activists who have said that Obama's other picks for key national-security posts are too hawkish and insufficiently antiwar.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'appease' and the framing of Obama's other picks as 'too hawkish and insufficiently antiwar' reflect a perspective that could be seen as dismissive of concerns or ascribing negative labels, suggesting a bias through the choice of words that imply a judgment about the activists' positions."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the discussion of Panetta's nomination for CIA director, particularly through the use of word choice that implies judgments about qualifications, decision-making processes, individual performances, and political perspectives."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.17647058823529413,
+            "overall_rating": 0.38823529411764707
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "FBI assists with detainee cases, differs with CIA",
+        "URL": "FBI assists with detainee cases, differs with CIA.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Randall Mikkelsen      WASHINGTON, May 16 (Reuters) - The FBI is helping to get  information from detainees and prepare terrorism cases against  suspects at Guantanamo Bay, despite differences with the CIA  over harsh interrogation techniques, the bureau's director said  on Friday.      But, in an appearance at the National Press Club, Federal  Bureau of Investigation Director Robert Mueller declined to say  whether a single U.S. interrogation standard was needed to  prohibit coercive tactics like waterboarding, a form of  simulated drowning widely criticized as torture.      'The policy of the bureau ... is not to use coercion,' he  said. 'I will speak for the FBI.'      Mueller spoke before the release of a Justice Department  inspector general's report on the FBI's role in harsh  questioning of detainees, which is expected as early as  Tuesday. A U.S. military commission is also preparing to try  several terrorism suspects held at the U.S. Naval Base on  Guantanamo Bay, Cuba.      Mueller was asked whether the FBI was still interrogating  'enemy combatants' in cases of suspected terrorism and at what  point agents would leave the room to avoid taking part in  coercive techniques.      'We still are participating in the preparation of cases in  Guantanamo, and yes we are participating in debriefings  elsewhere in the world, but I'm not going to get into details,'  he said.      FBI agents are known to have objected to the questioning of  detainees at Guantanamo, but critics say they should have  sought to stop abuses.      President George W. Bush vetoed a bill in March that would  have banned waterboarding by the CIA.      At a congressional hearing in February, CIA Director  Michael Hayden acknowledged that three foreign terrorism  suspects had been subjected to waterboarding five years  earlier. The technique was used under the agency's detention  and interrogation program launched after the Sept. 11.      Mueller told the same hearing the FBI did not use coercion,  and Director of National Intelligence Michael McConnell said  the CIA was the only U.S. agency that uses harsh techniques.      Hayden said the CIA's questioning sought to uncover  impending attacks, unlike the FBI's job before the Sept. 11  attacks, which was to gather evidence of past crimes.      FBI spokesman Richard Kolko said the bureau works with  other U.S. intelligence agencies but follows its own  guidelines. 'In coordination with our intelligence community  partners, and in accordance with those guidelines and policies,  the FBI conducts interviews of potential terrorism subjects in  different locations,' he said.   ((randall.mikkelsen@reuters.com; +1 202 898 8300;  Reuters Messaging: randall.mikkelsen.reuters.com@reuters.net))  Keywords: SECURITY USA/FBI       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 20.399272918701172,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports on the FBI's stance on interrogation techniques and its collaboration with other agencies in terrorism cases."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "SCENARIOS-Challenges for Obama intelligence team",
+        "URL": "SCENARIOS-Challenges for Obama intelligence team.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WASHINGTON, Jan 9 (Reuters) - President-elect Barack Obama  on Friday named retired Adm. Dennis Blair to oversee U.S. spy  agencies as director of national intelligence, and chose former  White House Chief of Staff Leon Panetta as CIA director.      Following are some of the major challenges the two would  face if confirmed by the Senate.           CLOSING GUANTANAMO - Obama has pledged to close the prison  for terrorism suspects at the U.S. Naval base at Guantanamo  Bay, Cuba, a global symbol of U.S. detainee abuses in the war  on terrorism. But the spy chiefs must help decide how to  replace it and how to revise detention and interrogation  practices in keeping with Obama's vows for more humane  policies.           CATCHING OSAMA BIN LADEN - Officials of the outgoing Bush  administration say with growing confidence that al Qaeda's  central leadership has been largely neutralized. But bin Laden  and his second-in-command, Ayman al Zawahri, remain at large  more than seven years after the Sept. 11 attacks they  masterminded.           MONITORING IRAN - U.S. spy agencies shifted gears in  December 2007 with a national intelligence estimate that  concluded Iran had stopped developing a nuclear warhead. Some  critics of Iran said the report understated its threat and  undermined a U.S.-led international campaign against Iran's  nuclear program. Congress and others will be watching closely  to see whether any new intelligence merits updating the  estimate.          SECURITY OVERHAUL - Blair and two other intended senior  members of Obama's security team have served on the Project for  National Security Reform, which last November released a  500-page blueprint for overhauling the U.S. security system  across government, and they are likely to bring those ideas  with them. Among the recommendations are to combine the White  House National Security Council and Homeland Security Council,  which the Obama team is known to be considering.           WORKING TOGETHER - The Office of the Director of National  Intelligence -- created in response to intelligence failures  that contributed to the Sept. 11 attacks and Iraq war -- is  relatively new and assumes some duties once held by the CIA.  The effectiveness of the two agencies depends on a strong  working relationship, but how to ensure that and prevent  rivalries is still being worked out.   (Reporting by Randall Mikkelsen; Editing by Xavier Briand)   ((randall.mikkelsen@thomsonreuters.com; +1 202 898 8300;  Reuters Messaging: randall.mikkelsen.reuters.com@reuters.net))  Keywords: USA OBAMA/INTELLIGENCE        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 20.25501251220703,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual overview of the challenges faced by the Obama intelligence team without exhibiting any evident bias towards a particular viewpoint or group."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "W.House threatens spy bill veto over interrogation",
+        "URL": "W.House threatens spy bill veto over interrogation.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Randall Mikkelsen      WASHINGTON, July 16 (Reuters) - The White House threatened  to veto legislation on Wednesday that would bar CIA contractors  from interrogating suspected terrorists, in the latest debate  over treatment of detainees in the U.S.-declared war on  terrorism.      The White House issued the threat in a notice to Congress  as the Democratic-controlled House of Representatives began  considering a broad measure to authorize funding of U.S.  intelligence activities for the 2009 fiscal year.      The Bush administration also objected to several other  provisions in the multibillion-dollar bill.      They include the establishment of an inspector general with  authority over all federal intelligence agencies and  requirements that the president give Congress more sensitive  national security information.      In addition to such oversight measures, the bill also would  increase funding for intelligence agents and to monitor issues  in Asia, Africa and Latin America.      The bill contains many provisions 'that conflict with the  conduct of intelligence activities,' the White House budget  office told Congress. 'If (the bill) were presented to the  president, the president's senior advisors would recommend that  he veto the bill.'      The contractor provision was the first objection listed by  the White House.      CIA Director Michael Hayden has acknowledged that outside  contractors were used to conduct some interrogations in the  agency's detention program for suspected terrorists, which has  been widely condemned for harsh techniques that critics say  amount to torture.      He told Congress in February he believed contractors helped  conduct 'waterboarding,' the fiercely condemned simulated  drowning technique that he acknowledged using on three al Qaeda  suspects.      Critics say the use of outside contractors could allow the  CIA to dodge accountability for abuses, but the agency has said  contractors are subject to the same laws as agency staffers.      'Our bill will take detention-related activities out of the  hands of private contractors and put the responsibility back  where it belongs, in the hands of authorized government  personnel,' U.S. Rep. Jan Schakowsky, a California Democrat,  said shortly before the House Intelligence Committee passed the  authorization measure in May.      The panel passed the bill on a voice vote with broad  bipartisan support.      But the White House said prohibiting contract interrogators  could deprive the program of necessary questioning skills and  expertise.      'Such a provision would unduly limit the United States'  ability to obtain intelligence needed to protect Americans from  attack,' it said.      The Senate Intelligence Committee passed in May its version  the bill, which also contains a ban on CIA interrogation  contractors. It also would ban CIA harsh interrogations and  require that the Red Cross be granted access to all detainees.      The measure awaits action by the full Senate. Differences  between the House and Senate versions would have be resolved  before any final measure is passed.      Major funding provisions of the intelligence bill are  classified. Last year the the administration bowed to a law  ordering disclosure of the annual intelligence budget and said  it had spent $43.5 billion in fiscal 2007. The law also  requires disclosure of spending in fiscal 2008, which ends in  September, but the U.S. president can waive the requirement  after",
+        "Histogram": [
+            0.6,
+            0,
+            0.6,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 20.18936538696289,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "The White House threatened to veto legislation on Wednesday that would bar CIA contractors from interrogating suspected terrorists, in the latest debate over treatment of detainees in the U.S.-declared war on terrorism.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'threatened' implies a negative and confrontational stance by the White House, suggesting a judgment about their actions rather than a neutral description."
+                },
+                {
+                    "text": "The Bush administration also objected to several other provisions in the multibillion-dollar bill.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'objection' implies a strong disapproval, which can influence the reader's perception of the administration's position as being unreasonable or overly critical."
+                },
+                {
+                    "text": "The bill contains many provisions 'that conflict with the conduct of intelligence activities,' the White House budget office told Congress. 'If (the bill) were presented to the president, the president's senior advisors would recommend that he veto the bill.'",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence presents the White House's opinion as a matter of fact, without acknowledging that it is a subjective interpretation of the bill's impact on intelligence activities."
+                },
+                {
+                    "text": "The contractor provision was the first objection listed by the White House.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Again, the use of 'objection' suggests a strong negative stance, influencing the reader to view the White House's position as inherently opposed to the contractor provision."
+                },
+                {
+                    "text": "But the White House said prohibiting contract interrogators could deprive the program of necessary questioning skills and expertise. 'Such a provision would unduly limit the United States' ability to obtain intelligence needed to protect Americans from attack,' it said.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This statement presents a subjective opinion on the potential impact of the provision as a definitive fact, without acknowledging the possibility of alternative viewpoints or the complexity of the issue."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias through the use of word choice and opinionated statements, particularly in framing the White House's position on the legislation and its potential impact on intelligence activities. The general bias tendency leans towards portraying the White House's stance in a negative light regarding the interrogation methods and the legislation's provisions."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.18181818181818182,
+            "overall_rating": 0.3909090909090909
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "CIA says used waterboarding three times",
+        "URL": "CIA says used waterboarding three times.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WASHINGTON, Feb 5 (Reuters) - The CIA on three occasions  shortly after the Sept. 11 attacks used a widely condemned  interrogation technique known as waterboarding, CIA Director  Michael Hayden told Congress on Tuesday.      'Waterboarding has been used on only three detainees,'  Hayden told the Senate Intelligence Committee, publicly  specifying the number of subjects and naming them for the first  time, as Congress considers banning the technique.      Those subjected to waterboarding were al Qaeda suspects  Khalid Sheikh Mohammed, Abu Zubaydah and Abd al-Rahim  al-Nashiri, Hayden said.      He said waterboarding has not been used in five years, but  it was used then because of concerns of imminent catastrophic  attacks on the United States and because authorities had  limited knowledge of al Qaeda.      'The circumstances are different than they were in late  2001, early 2002,' Hayden said.      He said he opposed limiting the CIA to using interrogation  techniques permitted in the U.S. Army Field Manual, which bans  waterboarding. CIA interrogators are better trained, and it  works with a narrower range of suspects in its interrogations,  he said.      Hayden told the committee fewer than 100 people had been  held in the CIA's terrorism detention and interrogation  program, with fewer than one-third of them subjected to any  coercive interrogation techniques.      The CIA said in December that it had destroyed videotapes  depicting the interrogations of Zubaydah and Nashiri, prompting  a Justice Department investigation.      ((Reporting by Randall Mikkelsen; Editing by Doina Chiacu;  Reuters Messaging: randall.mikkelsen.reuters.com@reuters.net;  +1 202 898 8300))         Keywords: SECURITY USA/WATERBOARDING       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 19.460330963134766,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides factual information about the CIA's use of waterboarding, including the number of occurrences, the individuals subjected to it, and the context in which it was used, without employing any of the typical bias indicators."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    }
+]

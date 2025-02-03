@@ -1,0 +1,614 @@
+[
+    {
+        "Title": "Obama: Stimulus will be spent quickly, efficiently",
+        "URL": "Obama: Stimulus will be spent quickly, efficiently.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Caren Bohan and Lisa Lambert      WASHINGTON, Feb 23 (Reuters) - U.S. President Barack Obama  sought on Monday to bolster political support for the $787  billion economic package, telling the nation's governors that  the money would go out quickly and be spent wisely.      The package of public works funds, tax cuts and aid to  states that Obama signed into law last week highlighted  partisan division in Washington after it passed the U.S.  Congress with only three Republican votes.      Many congressional Republicans derided the stimulus as  wasteful. But while some Republican governors said they would  refuse some of the money others welcomed it as needed help for  their fiscal woes.      Meeting with the governors of both parties at the White  House, Obama told them that a $15 billion portion of the  stimulus slated to help states pay for the Medicaid health  program for the poor would be going out on Wednesday.      'I know something that is going to be of great relief to  many of you,' Obama said.      'This is not a blank check,' he added. 'We're going to work  with you closely to make sure that this money is spent the way  it's supposed to.'      Obama pushed the economic stimulus plan through the  Democratic-led Congress, arguing that it was needed to prevent  the recession from turning into an economic catastrophe.      The passage of the massive bill -- the largest fiscal  stimulus in U.S. history -- marked a huge victory for Obama.      But he has been forced to defend the measure as Republicans  in Congress characterized it as larded with wasteful spending  and warned that it would only bloat the budget deficit.      To underline his promise that there would be strict  oversight of the stimulus package, Obama announced he was  putting Vice President Joe Biden in charge of supervising the  bill's implementation.      Biden will help ensure there are no bottlenecks in getting  the money out and that it would be spent on projects that would  help the economy recover.      Obama also named Earl Devaney, a former Secret Service  special agent and a longtime government investigator, to serve  as the top watchdog overseeing the funds.      Devaney has served for a decade as the inspector general at  the Department of Interior, where he led investigations into a  series of scandals at the agency.   (Reporting by Caren Bohan; Editing by David Storey)   ((caren.bohan@thomsonreuters.com; +1 202 898 8300))       Keywords: OBAMA/GOVERNORS       ",
+        "Histogram": [
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 14.197107315063477,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "The package of public works funds, tax cuts and aid to states that Obama signed into law last week highlighted partisan division in Washington after it passed the U.S. Congress with only three Republican votes.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'highlighted partisan division' implies a judgment about the nature of the division, suggesting it is significant or problematic, which could influence the reader's perception."
+                },
+                {
+                    "text": "Many congressional Republicans derided the stimulus as wasteful. But while some Republican governors said they would refuse some of the money others welcomed it as needed help for their fiscal woes.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The word 'derided' conveys a negative judgment and implies that the criticism is unjustified or overly harsh, which could bias the reader against the Republicans' viewpoint."
+                },
+                {
+                    "text": "But he has been forced to defend the measure as Republicans in Congress characterized it as larded with wasteful spending and warned that it would only bloat the budget deficit.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'larded with wasteful spending' employs a negative connotation to describe the Republicans' criticism, suggesting it is excessive or unjust, and 'warned that it would only bloat the budget deficit' implies a dismissive attitude towards the concerns raised."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias through the use of word choice, particularly in how it frames the partisan division and the criticisms of the stimulus package. The general bias tendency leans towards portraying the Republican opposition in a negative light, suggesting their concerns are exaggerated or unjustified."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.125,
+            "overall_rating": 0.3625
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "TAKE A LOOK-OBAMA PRESIDENCY: Obama signs stimulus bill",
+        "URL": "TAKE A LOOK-OBAMA PRESIDENCY: Obama signs stimulus bill.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    President Barack Obama signed a $787 billion economic stimulus  bill into law Tuesday as global markets plunged on fears that the  recession would deepen despite government action in many  countries.      Obama, who has described the package as one part of a plan  to solve his country's economic ills, was expected to lay out a  strategy on Wednesday to stem home foreclosures and address the  housing crisis that sparked the financial sector meltdown.      Meanwhile financially strapped General Motors Corp and  Chrysler raced to finish restructuring plans that must be  submitted to the Obama administration by the end of the day as  part of efforts to keep America's biggest carmakers afloat.       TOP STORIES  > Obama signs stimulus bill, housing moves coming [ID:nN17348348]  > Trade, energy top Obama agenda in Canada trip   [ID:nN16309353]  > No formal auto panel announcement pending-WHouse[ID:nN16313663]  > Obama to release budget on Feb. 26              [ID:nWBT010648]  > White House dampens stimulus expectations       [ID:nN15276080]  > Obama to lift ban on stem cell research - aide  [ID:nN15271470]  > Third Obama Cabinet nominee withdraws name      [ID:nN12483849]  > McCain says Obama bipartisanship needs work     [ID:nN13542592]       THE ECONOMY AND STIMULUS PLAN  > Viable auto industry crucial - White House      [ID:nWAT010995]  > White House seeks to rein in exec pay excesses  [ID:nN17375725]  > FACTBOX-A sampling of stimulus money for states [ID:nN17373309]  > FACTBOX-Health spending in US stimulus plan     [ID:nN17361595]  > US debt limit hike to $12.1 trillion in stimulus[ID:nN12538774]  > U.S. sees economic crisis as top security threat[ID:nN12469241]       NOMINEES  > Statement by Gregg withdrawing as Commerce Sec. [ID:nN12480254]  > President Obama's cabinet nominee problems      [ID:nN12486446]  > Senate confirms Leon Panetta to head CIA        [ID:nN12491014]  > Labor nominee advances despite tax problem      [ID:nN11395472]         SECURITY AND FOREIGN POLICY  > U.S. envoy to talk to Pakistan, Afghanistan     [ID:nDEL168078]  > Clinton makes offer to N.Korea, appeals to China[ID:nN13542583]  > US links Moscow help on Iran to missile shield  [ID:nN13541668]  > Obama offers support for Turkey-Iraq ties       [ID:nN16323879]  > Obama reaffirms U.S. support for Hariri tribunal[ID:nN12460483]      ANALYSIS AND ISSUES  > FACTBOX-Trade dominates Obama visit to Canada   [ID:nN16324010]  > Obama's big victory comes at a cost             [ID:nN15277762]  > Despite successes, some Obama promises unmet    [ID:nN13508276]  > Obama walks line between politics, economy      [ID:nN11403932]  > To save or to spend? Americans ponder their duty[ID:nN12489014]     (Compiled by World Desk, Americas; +1 202 898 8457)   ((For more on the stimulus plan, go to [ID:nN26365728]   ((For more about the U.S. political scene please visit Reuters  'Front Row Washington' at http:blogs.reuters.com/trail08/))  Keywords: OBAMA/TAKEALOOK       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 13.662873268127441,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual overview of President Obama's actions and the economic stimulus plan without exhibiting any evident bias towards a particular viewpoint or through the use of misleading language."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "TAKE A LOOK-OBAMA PRESIDENCY: Obama hails stimulus passage",
+        "URL": "TAKE A LOOK-OBAMA PRESIDENCY: Obama hails stimulus passage.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    President Barack Obama on Saturday hailed congressional  approval of a $787 billion economic stimulus bill as a 'major  milestone on our road to recovery' and vowed to move swiftly to  set the plan in motion.      'I will sign this legislation into law shortly, and we'll  begin making the immediate investments necessary to put people  back to work,' Obama said, savoring his biggest legislative  victory since taking office on Jan. 20.       The Senate on Friday cast the final vote, 60-38, hours after  the House of Representatives passed an identical bill, 246-183.    TOP STORIES  > Obama vows to act fast on economic stimulus     [ID:nN14195709]  > Third Obama Cabinet nominee withdraws name      [ID:nN12483849]  > Obama asks US automakers for 'a plan that works'[ID:nN11411854]  > McCain says Obama bipartisanship needs work     [ID:nN13542592]       THE ECONOMY AND STIMULUS PLAN  > US debt limit hike to $12.1 trillion in stimulus[ID:nN12538774]  > FACTBOX-Details of US stimulus spending released[ID:nN12480804]  > Congress agrees on 'strong' Buy American plan   [ID:nN12483292]  > U.S. sees economic crisis as top security threat[ID:nN12469241]       NOMINEES  > Statement by Gregg withdrawing as Commerce Sec. [ID:nN12480254]  > President Obama's cabinet nominee problems      [ID:nN12486446]  > Senate confirms Leon Panetta to head CIA        [ID:nN12491014]  > Labor nominee advances despite tax problem      [ID:nN11395472]  > Possible candidates for health secretary        [ID:nN03526718]         SECURITY AND FOREIGN POLICY  > Clinton makes offer to N.Korea, appeals to China[ID:nN13542583]  > US links Moscow help on Iran to missile shield  [ID:nN13541668]  > Obama choice on troops for Afghanistan near     [ID:nN10304198]  > Obama reaffirms U.S. support for Hariri tribunal[ID:nN12460483]      ANALYSIS AND ISSUES  > Despite successes, some Obama promises unmet    [ID:nN13508276]  > Obama walks line between politics, economy      [ID:nN11403932]  > To save or to spend? Americans ponder their duty[ID:nN12489014]         (Compiled by World Desk, Americas; +1 202 898 8457)    ((For more on the stimulus plan, go to [ID:nN26365728]     For more about the U.S. political scene please visit Reuters  'Front Row Washington' online at  http://blogs.reuters.com/trail08/))  Keywords: OBAMA/TAKEALOOK       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 13.601238250732422,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports on President Obama's response to the approval of the economic stimulus bill and provides updates on related political and economic news."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Obama vows to spend stimulus money wisely",
+        "URL": "Obama vows to spend stimulus money wisely.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Caren Bohan      WASHINGTON, Feb 20 (Reuters) - U.S. President Barack Obama  on Friday vowed strict oversight of his $787 billion stimulus  plan, pushing back against Republicans who have labeled the  centerpiece of his economic agenda fiscally irresponsible.      Obama said he would name a team of managers to ensure that  billions of dollars slated to go toward infrastructure projects  would be spent wisely.      'The American people are watching. They need this plan to  work,' Obama said at a gathering at the White House with dozens  of the nation's mayors.      'And they expect to see the money they worked so hard to  earn spent in its intended purpose without waste, inefficiency, or  fraud.'      After taking office last month amid a deepening recession,  Obama put as his top priority passage of the stimulus plan. He has  said the measure was needed to jump-start growth and prevent the  unemployment rate from surging into the double digits.      The signing this week of the bill -- one of the most expensive  in history -- marked a big victory for Obama and his Democratic  allies in Congress.      But Republicans, most of whom refused to support the  stimulus plans, criticized the bill as laden with wasteful  spending that they said would do little to revive the economy.      Obama has rejected that characterization. In addition to  the infrastructure spending, the bill includes tax cuts and  spending to bolster social safety net programs like unemployment  insurance.      At the event with the mayors, Obama said the stimulus plan  would not only create jobs, it would also put the economy on a  sounder footing in the long term through spending on critical  infrastructure such as roads and bridges, mass transit and the  expansion of broadband networks.      He also emphasized his intent to prevent any wasteful uses  of the money.      'If a federal agency proposes a project that will waste  that money, I will not hesitate to call them out on it, and put  a stop to it,' Obama said.      'I want everyone here to be on notice that if a local  government does the same, I will call them out on it as well, and  use the full power of my office and our administration to stop  it,' he added.      After calling for economic help from the federal government  for more than a year, mayors from both political parties are among  the strongest supporters of Obama's fiscal stimulus package.      Obama's pledge to spend the stimulus money efficiently  comes ahead of events planned next week in which he and his  aides will emphasize their commitment to rein in the budget  deficit, which private economists say will likely balloon to  around $1.5 trillion this year.      On Monday, he is hosting lawmakers, economists and  representatives of business and labor groups at the White House  for a 'Fiscal Responsibility Summit.'      At the fiscal summit, which will be attended by top  Democrats as well as leading Republicans, Obama is expected to  underscore his commitment to tackle long-term budget  challenges, such as the cost of health and retirement  entitlement programs.      The White House is expected to unveil its budget proposal on  Thursday.      'The president felt that we have to start doing this now. For  too long, there has been an irresponsibility among people in the  Beltway who were unwilling to make the tough choices,' said  Kenneth Baer, a spokesman for the White House budget office.      'This will be the beginning of that process,' ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 13.58929443359375,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a balanced overview of President Obama's commitment to overseeing the spending of the stimulus money and his administration's efforts to address the budget deficit."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "TAKE A LOOK-OBAMA PRESIDENCY: Obama makes case for stimulus",
+        "URL": "TAKE A LOOK-OBAMA PRESIDENCY: Obama makes case for stimulus.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    President Barack Obama took his case for a massive economic  stimulus package directly to the recession-weary American people  on Monday as he urged Congress to move swiftly on a final bill  before the crisis worsens.      Holding his first news conference since taking office, Obama  pressed lawmakers to 'act without delay in the coming week' to  resolve differences over an $800 billion-plus economic rescue plan  expected to help define his young presidency.    TOP STORIES  > Obama pitches economic plan to Americans        [ID:nN08349993]  > U.S. Treasury delays bank bailout announcement  [ID:nN08495108]  > U.S. linking bank aid to loan changes - sources [ID:nN07460053]  > US commanders favor slower Iraq pullout         [ID:nN07488724]  > Stimulus should have more education money-Obama [ID:nN09529679]         THE ECONOMY AND STIMULUS PLAN  > US recovery package clears key Senate hurdle    [ID:nN09513209]  > Obama's menu for financial stability            [ID:nN06446621]  > Houses of US Congress weigh stimulus bill       [ID:nN09525238]  > How Obama plan ranks against New Deal           [ID:nN09475586]  > Where has the U.S. bailout money gone?          [ID:nN07486213]       SECURITY AND FOREIGN POLICY  > Obama orders 60-day cybersecurity review        [ID:nN09544859]  > Biden vows break with Bush era foreign policy    [ID:nL7376501]  > Russia signals new optimism on ties with U.S.    [ID:nL8170753]  > Clinton to discuss markets turmoil on Asia trip [ID:nN05373873]       ANALYSIS AND ISSUES  > Obama, Pelosi in showdown on US stimulus bill   [ID:nN09543088]  > Obama: Renewable energy key to economic future  [Id:nN09291440]  > Obama's promised US healthcare overhaul delayed [ID:nN04296955]      SIDEBARS  > Obama grassroots network meets over stimulus    [ID:nN07326667]  > Working moms look to Michelle Obama for change  [ID:nN06442586]      NOMINEES  > Obama may get Supreme Court pick soon           [ID:nN05378872]  > Obama Cabinet still not finalized               [ID:nN21494602]  > Obama names economic advisory panel             [ID:nN06539926]  > Possible candidates for health secretary        [ID:nN03526718]      (Compiled by World Desk, Americas; +1 202 898 8457)    ((For more about the U.S. political scene please visit Reuters  'Front Row Washington' online at  http://blogs.reuters.com/trail08/))  Keywords: OBAMA/TAKEALOOK       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 13.472493171691895,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports on President Obama's efforts to address the economic crisis and other related policy matters without exhibiting any clear bias through the language or content."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "TAKE A LOOK-OBAMA PRESIDENCY: Obama rallies support for stimulus",
+        "URL": "TAKE A LOOK-OBAMA PRESIDENCY: Obama rallies support for stimulus.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    President Barack Obama rallies supporters in Indiana and  addresses his first presidential news conference in a new drive  for passage of an $800 billion economic recovery plan.        TOP STORIES  > Obama to push stimulus in rally, news conference[ID:nN08349993]  > U.S. Treasury delays bank bailout announcement  [ID:nN08495108]  > U.S. linking bank aid to loan changes - sources [ID:nN07460053]  > US commanders favor slower Iraq pullout         [ID:nN07488724]       THE ECONOMY AND STIMULUS PLAN  > US Senate reaches deal on stimulus bill         [ID:nN05403943]  > Obama's menu for financial stability            [ID:nN06446621]  > Here's what happens next on stimulus package    [ID:nN08492623]  > Economic stimulus bill moves through US Congress[ID:nN08482836]  > Obama names Volcker-led economic advisory panel [ID:nN06431554]  > Obama sets CEO pay limits for bailout companies  [ID:nN0462314]  > Where has the U.S. bailout money gone?          [ID:nN07486213]  > Obama wants appliances to use less energy       [ID:nN05365276]  > Will U.S. spending bill stimulate the economy?  [ID:nN28542734]       SECURITY AND FOREIGN POLICY  > Biden vows break with Bush era foreign policy    [ID:nL7376501]  > Russia signals new optimism on ties with U.S.    [ID:nL8170753]  > Clinton to discuss markets turmoil on Asia trip [ID:nN05373873]  > U.S. promises sustained Middle East peace bid   [ID:nN03513776]       ANALYSIS AND ISSUES  > Obama's promised US healthcare overhaul delayed [ID:nN04296955]  > For now, Washington trumps Wall Street excess   [ID:nN04532791]      SIDEBARS  > Obama grassroots network meets over stimulus    [ID:nN07326667]  > Working moms look to Michelle Obama for change  [ID:nN06442586]      NOMINEES  > Obama may get Supreme Court pick soon           [ID:nN05378872]  > Obama Cabinet still not finalized               [ID:nN21494602]  > Obama names economic advisory panel             [ID:nN06539926]  > Possible candidates for health secretary        [ID:nN03526718]      (Compiled by World Desk, Americas; +1 202 898 8457)    ((For more about the U.S. political scene please visit Reuters  'Front Row Washington' online at  http://blogs.reuters.com/trail08/))  Keywords: OBAMA/TAKEALOOK       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 13.427203178405762,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily provides a factual overview of President Obama's activities and initiatives during his presidency, without employing language or tactics that suggest a particular bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "TAKE A LOOK-OBAMA PRESIDENCY: Obama to sign stimulus Tuesday",
+        "URL": "TAKE A LOOK-OBAMA PRESIDENCY: Obama to sign stimulus Tuesday.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    U.S. President Barack Obama on Saturday hailed congressional  approval of a $787 billion economic stimulus bill as a 'major  milestone on our road to recovery' and the White House said he  would sign the legislation on Tuesday in Denver.      'I will sign this legislation into law shortly, and we'll  begin making the immediate investments necessary to put people  back to work,' Obama said, savoring his biggest legislative  victory since taking office on Jan. 20.       TOP STORIES  > Obama to sign stimulus bill Tuesday in Denver   [ID:nN14195709]  > Third Obama Cabinet nominee withdraws name      [ID:nN12483849]  > Obama asks US automakers for 'a plan that works'[ID:nN11411854]  > McCain says Obama bipartisanship needs work     [ID:nN13542592]       THE ECONOMY AND STIMULUS PLAN  > US debt limit hike to $12.1 trillion in stimulus[ID:nN12538774]  > FACTBOX-Details of US stimulus spending released[ID:nN12480804]  > Congress agrees on 'strong' Buy American plan   [ID:nN12483292]  > U.S. sees economic crisis as top security threat[ID:nN12469241]       NOMINEES  > Statement by Gregg withdrawing as Commerce Sec. [ID:nN12480254]  > President Obama's cabinet nominee problems      [ID:nN12486446]  > Senate confirms Leon Panetta to head CIA        [ID:nN12491014]  > Labor nominee advances despite tax problem      [ID:nN11395472]  > Possible candidates for health secretary        [ID:nN03526718]         SECURITY AND FOREIGN POLICY  > Clinton makes offer to N.Korea, appeals to China[ID:nN13542583]  > US links Moscow help on Iran to missile shield  [ID:nN13541668]  > Obama choice on troops for Afghanistan near     [ID:nN10304198]  > Obama reaffirms U.S. support for Hariri tribunal[ID:nN12460483]      ANALYSIS AND ISSUES  > Despite successes, some Obama promises unmet    [ID:nN13508276]  > Obama walks line between politics, economy      [ID:nN11403932]  > To save or to spend? Americans ponder their duty[ID:nN12489014]         (Compiled by World Desk, Americas; +1 202 898 8457)    ((For more on the stimulus plan, go to [ID:nN26365728]     For more about the U.S. political scene please visit Reuters  'Front Row Washington' online at  http://blogs.reuters.com/trail08/))  Keywords: OBAMA/TAKEALOOK       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 13.375231742858887,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports on President Obama's actions and statements regarding the economic stimulus bill, along with other related news, without exhibiting any clear bias through the language used or the framing of the information."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "TAKE A LOOK-OBAMA PRESIDENCY: Obama to sign stimulus bill",
+        "URL": "TAKE A LOOK-OBAMA PRESIDENCY: Obama to sign stimulus bill.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    President Barack Obama travels to Denver, Colorado, where he  will sign the massive economic stimulus bill on Tuesday.      Automakers that want to take advantage of a federal bailout  must submit to U.S. officials on Tuesday restructuring plans that  show how they can cut costs and pay back the loans. The White  House has said a task force would review the GM and Chrysler  plans.      Later this week the president will visit Canada, making his  first foreign trip since taking office last month. Trade, energy  and the global economic crisis will top the agenda during his  one-day visit, which includes meetings with Prime Minister Stephen  Harper and the Canadian Parliament.       TOP STORIES  > Trade, energy top Obama agenda in Canada trip   [ID:nN16309353]  > No formal auto panel announcement pending-WHouse[ID:nN16313663]  > White House dampens stimulus expectations       [ID:nN15276080]  > Obama to sign stimulus bill Tuesday in Denver   [ID:nN14195709]  > Obama to lift ban on stem cell research - aide  [ID:nN15271470]  > Third Obama Cabinet nominee withdraws name      [ID:nN12483849]  > McCain says Obama bipartisanship needs work     [ID:nN13542592]       THE ECONOMY AND STIMULUS PLAN  > US debt limit hike to $12.1 trillion in stimulus[ID:nN12538774]  > FACTBOX-Details of US stimulus spending released[ID:nN12480804]  > Congress agrees on 'strong' Buy American plan   [ID:nN12483292]  > U.S. sees economic crisis as top security threat[ID:nN12469241]       NOMINEES  > Statement by Gregg withdrawing as Commerce Sec. [ID:nN12480254]  > President Obama's cabinet nominee problems      [ID:nN12486446]  > Senate confirms Leon Panetta to head CIA        [ID:nN12491014]  > Labor nominee advances despite tax problem      [ID:nN11395472]         SECURITY AND FOREIGN POLICY  > U.S. envoy to talk to Pakistan, Afghanistan     [ID:nDEL168078]  > Clinton makes offer to N.Korea, appeals to China[ID:nN13542583]  > US links Moscow help on Iran to missile shield  [ID:nN13541668]  > Obama offers support for Turkey-Iraq ties       [ID:nN16323879]  > Obama reaffirms U.S. support for Hariri tribunal[ID:nN12460483]      ANALYSIS AND ISSUES  > FACTBOX-Trade dominates Obama visit to Canada   [ID:nN16324010]  > Obama's big victory comes at a cost             [ID:nN15277762]  > Despite successes, some Obama promises unmet    [ID:nN13508276]  > Obama walks line between politics, economy      [ID:nN11403932]  > To save or to spend? Americans ponder their duty[ID:nN12489014]     (Compiled by World Desk, Americas; +1 202 898 8457)   ((For more on the stimulus plan, go to [ID:nN26365728]   ((For more about the U.S. political scene please visit Reuters  'Front Row Washington' at http:blogs.reuters.com/trail08/))  Keywords: OBAMA/TAKEALOOK       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 13.32983684539795,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual overview of President Obama's upcoming activities and the current state of the U.S. economy and political scene without exhibiting any clear bias towards a particular viewpoint or group."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "TAKE A LOOK-OBAMA PRESIDENCY: Obama meets Democrats on stimulus",
+        "URL": "TAKE A LOOK-OBAMA PRESIDENCY: Obama meets Democrats on stimulus.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    Facing opposition from Republican lawmakers to parts of his  economic recovery plan, U.S. President Barack Obama called  Democratic congressional leaders to a meeting on Monday to drive  home his message of urgency.      With hundreds of thousands of Americans losing their jobs,  many their homes, and a rapidly shrinking economy, Obama is  under pressure to move swiftly to get his nearly $900 billion  plan through Congress by mid-February.      TOP STORIES  > Health nominee Daschle apologizes for tax issue [ID:nN02405713]  > Obama to meet congressional leaders on stimulus [ID:nN01420749]  > Obama says most troops in Iraq home within year [ID:nN01397189]  > Obama administration says rescue plan 'on track'[ID:nN31404864]  > Senate won't change if Gregg leaves -McConnell  [ID:nN01185909]  > Obama hails Iraqi elections as key step forward [ID:nN31397341]  > Obama mortgage relief plan targets root of woes [ID:nN31287470]  > Canada may raise 'Buy American' issue with Obama[ID:nN31412273]  > Obama unlikely to toughen Wall St pay rules     [ID:nN31412461]  > Chavez urges Obama to hand over Cuban exile     [ID:nN31403887]  > Obama says will reverse Bush labor policies     [ID:nN30379970]       THE ECONOMY AND STIMULUS PLAN  > Stimulus items draw ire, become trading chips?  [ID:nN29297688]  > Will U.S. spending bill stimulate the economy?  [ID:nN28542734]  > McCain: Obama needs to consult on stimulus      [ID:nN30507434]  > SCENARIOS-Senate poised to debate economic plan [ID:nN30376721]  > Obama, Hu discuss trade imbalances in call      [ID:nN30386699]         SECURITY AND FOREIGN POLICY  > Obama watching Iraq vote, plans new approach    [ID:nN30389434]  > SCENARIOS-Options open to Obama in Iran policy  [ID:nN29300452]  > Obama Afghan strategy stress non-military role  [ID:nN28515139]         ANALYSIS AND ISSUES  > Tax issues shadow Obama health nominee Daschle  [ID:nN30403953]  > Clinton: politician's touch in a diplomat's job [ID:nN29305820]  > ANALYSIS-Republicans in high-stakes challenge   [ID:nN29266653]      (Compiled by World Desk, Americas; +1 202 898 8457)    ((For more about the U.S. political scene please visit Reuters  'Front Row Washington' online at  http://blogs.reuters.com/trail08/)  ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 13.22262954711914,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports on the actions and discussions of U.S. President Barack Obama and the related political and economic issues without displaying any evident bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "UPDATE 1-Obama vows to spend stimulus money wisely",
+        "URL": "UPDATE 1-Obama vows to spend stimulus money wisely.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": " (Adds comment from Trenton mayor, more details)      By Caren Bohan and Lisa Lambert      WASHINGTON, Feb 20 (Reuters) - U.S. President Barack Obama  vowed strict oversight on Friday of his $787 billion stimulus  plan, pushing back against Republicans who have labeled the  centerpiece of his economic agenda fiscally irresponsible.      Obama said he would name a team of managers to ensure that  billions of dollars slated for infrastructure projects would be  spent wisely.      'The American people are watching. They need this plan to  work,' Obama said at a gathering at the White House with dozens  of the nation's mayors.      'And they expect to see the money they worked so hard to  earn spent in its intended purpose without waste, inefficiency,  or fraud.'      After taking office last month amid a deepening recession,  Obama made his top priority the passage of the stimulus plan.  He said the measure was crucial to jump-start growth and  prevent the unemployment rate from surging into double digits.      The signing this week of the bill -- the most expensive in  history -- marked a big victory for Obama and his Democratic  allies in Congress.      But Republicans, most of whom refused to support the  stimulus plan, criticized the bill as laden with wasteful  spending and said it would do little to revive the economy.      Obama and other Democrats have bristled at Republican  attempts to characterize their plans as fiscally irresponsible.  They note the federal budget shifted from surplus to huge  deficits during Republican President George W. Bush's  administration.      Republicans controlled Congress during much of the Bush  administration.      In addition to the infrastructure spending, the bill  includes tax cuts and spending to bolster social safety net  programs like unemployment insurance.      At the event with the mayors, Obama said the stimulus plan  would not only create jobs but put the economy on a sounder  footing in the long term through spending on infrastructure  such as roads and bridges, mass transit and the expansion of  broadband networks.           TARGETING WASTE      He also emphasized his intent to prevent any wasteful uses  of the money.      'If a federal agency proposes a project that will waste  that money, I will not hesitate to call them out on it, and put  a stop to it,' Obama said.      'I want everyone here to be on notice that if a local  government does the same, I will call them out on it as well,  and use the full power of my office and our administration to  stop it,' he added.      After asking for economic help from the federal government  for more than a year, mayors of both political parties are  among the strongest supporters of Obama's stimulus package.      Several mayors who attended the event told reporters later  they supported Obama's call for accountability, not only for  the federal government but for cities as well.      'We don't mind getting called out. ... We welcome that kind  of accountability. We're going to help get the job done,' said   Trenton, New Jersey, Mayor Douglas Palmer.      Obama's pledge to spend the stimulus money efficiently came  before events planned next week in which he and his aides will  emphasize their commitment to rein in the budget deficit, which  private economists say will likely balloon to about $1.5  trillion this year. That figure includes the $700 billion from  the bank rescue plan but not the stimulus plan signed by  Obama.      The deficit",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 13.195572853088379,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a balanced overview of President Barack Obama's stance on the stimulus plan, including his commitment to oversight and accountability, as well as the criticisms from Republicans."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Obama wants economic stimulus package passed quickly",
+        "URL": "Obama wants economic stimulus package passed quickly.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WASHINGTON, Nov 7 (Reuters) - U.S. President-elect Barack  Obama said on Friday he wanted Congress to pass another  stimulus package as soon as possible to stabilize the U.S.  economy.      'We are going to need to see a stimulus package passed  either before or after the inauguration (on Jan. 20). I want to  see a stimulus package sooner rather than later,' Obama told a  news conference in Chicago after meeting his economic  advisers.      (Writing by Ross Colvin, Editing by Chizu Nomiyama)  Keywords: USA ELECTION/OBAMA STIMULUS        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 13.18950366973877,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports on Barack Obama's statement regarding the need for a stimulus package to stabilize the U.S. economy without introducing any subjective or misleading information."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Obama welcomes passage of economic stimulus",
+        "URL": "Obama welcomes passage of economic stimulus.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WASHINGTON, Jan 28 (Reuters) - President Barack Obama  welcomed passage by the House of Representatives of an $825  billion economic stimulus package that marked his first major  legislative victory.      Obama said the measure would pump money into the ailing  U.S. economy and added that he hoped the legislation could be  strengthened as it moves to the Senate.      'The plan now moves to the Senate, and I hope that we can  continue to strengthen this plan before it gets to my desk,'  Obama said in a statement.   (Reporting by Caren Bohan; Editing by Chris Wilson)   ((caren.bohan@thomsonreuters.com; +1 202 898 8300))  Keywords: USA STIMULUS/OBAMA        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 13.095833778381348,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports on President Barack Obama's reaction to the passage of an economic stimulus package without using language or framing that indicates a bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "TAKE A LOOK-OBAMA PRESIDENCY: Senate passes stimulus bill",
+        "URL": "TAKE A LOOK-OBAMA PRESIDENCY: Senate passes stimulus bill.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    President Barack Obama on Tuesday traveled to a Florida city  hard hit by mortgage foreclosures to rally Americans around a huge  stimulus plan he says is needed to stave off an even deeper  recession.      Obama held a  campaign-style meeting around the same time as  the U.S. Senate in Washington passed the $838 billion stimulus  bill. Meanwhile Treasury Secretary Timothy Geithner unveiled a new  bank bailout plan.         TOP STORIES  > Obama heads to Florida to rally stimulus support[ID:nN09542602]  > Senate passes stimulus bill, sets up final talks[ID:nWBT010605]  > U.S. unveuks new bank bailout                   [ID:nLA744901]  > Fed program to spur lending to be expanded      [ID:nN10154]  > Stimulus should have more education money-Obama [ID:nN09529679]         THE ECONOMY AND STIMULUS PLAN  > SNAP ANALYSIS-Obama says gov't must solve crisis[ID:nN09547824]  > FACTBOX-Obama news conference highlights        [ID:nN09547772]  > Obama to announce his housing policy soon       [ID:nWAT010961]  > Obama's menu for financial stability            [ID:nN06446621]  > How Obama plan ranks against New Deal           [ID:nN09475586]       SECURITY AND FOREIGN POLICY  > Obama orders Afghan-Pakistan policy review      [ID:nN10297045]  > Obama orders 60-day cybersecurity review        [ID:nN09544859]  > Russia signals new optimism on ties with U.S.    [ID:nL8170753]       ANALYSIS AND ISSUES  > SNAP ANALYSIS-Obama, Pelosi and the US stimulus [ID:nN09543088]  > Obama: Renewable energy key to economic future  [Id:nN09291440]      SIDEBARS  > Obama says latest baseball scandal depressing   [ID:nN09534044]  > Obama grassroots network meets over stimulus    [ID:nN07326667]      NOMINEES  > Obama may get Supreme Court pick soon           [ID:nN05378872]  > Obama Cabinet still not finalized               [ID:nN21494602]  > Possible candidates for health secretary        [ID:nN03526718]      (Compiled by World Desk, Americas; +1 202 898 8457)    ((For more about the U.S. political scene please visit Reuters  'Front Row Washington' online at  http://blogs.reuters.com/trail08/))  Keywords: OBAMA/TAKEALOOK       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 13.054389953613281,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports on President Barack Obama's activities and policies without employing language or techniques that indicate a specific bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "TAKE A LOOK-OBAMA PRESIDENCY: House approves stimulus bill",
+        "URL": "TAKE A LOOK-OBAMA PRESIDENCY: House approves stimulus bill.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "   President Barack Obama scored his first major legislative  victory with passage of an $825 billion economic stimulus package  by a sharply divided U.S. House of Representatives on a 244-188  vote.     Obama, who took office eight days ago, was denied, at least for  now, his goal of bipartisanship. Every Republican who voted  opposed the landmark bill, complaining it contained too much new  spending and not enough tax cuts.    TOP STORIES  > Obama wins House passage of economic stimulus   [ID:nN28517878]  > Obama: tough decisions soon on Iraq, Afghan wars[ID:nN28545235]  > US Senate seeks start of stimulus debate Monday [ID:nN28545565]  > Will U.S. spending bill stimulate the economy?  [ID:nN28542734]  > Senate panel expands stimulus plan with tax fix [ID:nN27485164]  > Obama says respect differences on stimulus      [ID:nN27462782]  > Thompson top choice for U.S. commerce secretary [ID:nN27469541]  > Geithner wins OK for Treasury despite tax woes  [ID:nN26616671]  > NEWSMAKER-Geithner wins new crisis role         [ID:nN26406119]  > Obama begins reversing Bush climate policies    [ID:nN26387346]  > SCENARIOS-Obama's next environment moves?       [ID:nN26318317]       THE ECONOMY AND STIMULUS PLAN  > Obama CEOs urge passage of economic stimulus    [ID:nN28517878]  > Geithner: hope to unveil recovery plan soon     [ID:nN28517878]  > US stimulus plan would pour billions into health[ID:nN28544103]  > U.S. House approves 'Buy America' steel measure [ID:nN285546427  > FACTBOX-Stimulus bill moves through Congress    [ID:nN28542289]  > FACTBOX-Obama meets with business leaders       [ID:nN28516732]  > White House: Stimulus to have 'appropriate' mix [ID:nN27478547]  > Fiscal hawk Dems seek Obama budget commitment   [ID:nN26408537]  > Congress OKs wage bill for first Obama signature[ID:nN27475035]       SECURITY AND FOREIGN POLICY  > Obama Afghan strategy stress non-military role  [ID:nN28515139]  > Obama to discuss Iraq in Pentagon visit         [ID:nWBT010509]  > Obama to visit Canada on Feb 19 - White House   [ID:nWAT010862]  > US calls Afghanistan greatest military challenge[ID:nN27539094]  > Biden to address security on 1st VP trip abroad [ID:nN27481129]  > Obama says ready to talk to Iran                [ID:nLR192724]  > Obama, Medvedev agree on need to improve ties   [ID:nN27440318]  > Clinton says world exhaling with Obama on top   [ID:nN27430630]  > Obama says time to resume Mideast peacemaking   [ID:nLR192724]  >       ANALYSIS AND ISSUES  > Obama hopes to keep campaign supporters involved[ID:nN26407487]  > Obama works to change tone in Washington        [ID:nN27470103]  > ANALYSIS-Obama's tech overhaul stumbles         [ID:nN26414667]         (Compiled by World Desk, Americas; +1 202 898 8457)    ((For more about the U.S. political scene please visit Reuters  'Front Row Washington' online at  http://blogs.reuters.com/trail08/)  ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 13.027765274047852,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports on the passage of an economic stimulus package and related political and economic news without displaying any evident bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "TAKE A LOOK-OBAMA PRESIDENCY: Obama urges speed on stimulus",
+        "URL": "TAKE A LOOK-OBAMA PRESIDENCY: Obama urges speed on stimulus.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    With a successful U.S. Senate vote on his economic stimulus  bill in sight, President Barack Obama warned on Saturday that  quick action was needed to avoid economic catastrophe and blamed  Republican policies for pushing the country into crisis.      Senate Democrats agreed late on Friday to trim spending  proposals and support tax cuts in an $800 billion bill that was to  go to a vote on Tuesday.      They rolled back their earlier $937 billion proposal to cull  what critics, mostly Republicans, called billions of dollars in  unwarranted spending.         TOP STORIES  > Obama says quick action needed on stimulus      [ID:nN07477896]  > US Senate reaches deal on stimulus bill         [ID:nN05403943]  > U.S. to keep up with missile shield - Biden     [ID:nL7237233]  > Obama names Volcker-led economic advisory panel [ID:nN06431554]  > Obama to hold news conference on Monday         [ID:nN05386452]       THE ECONOMY AND STIMULUS PLAN  > US' Geithner to unveil financial plan Monday    [ID:nN05391033]  > Obama sets CEO pay limits for bailout companies [ID:nN0462314]  > Is Obama creating an economic 'team of rivals?' [ID:nN06452681]  > Obama wants appliances to use less energy       [ID:nN05365276]  > Will U.S. spending bill stimulate the economy?  [ID:nN28542734]  > Colombia pact stymies US trade job loss aid deal[ID:nN06464957]       SECURITY AND FOREIGN POLICY  > Clinton to discuss markets turmoil on Asia trip [ID:nN05373873]  > Judge drops charges in USS Cole bombing case    [ID:nN05403388]  > U.S. promises sustained Middle East peace bid   [ID:nN03513776]  > SCENARIOS-Options open to Obama in Iran policy  [ID:nN29300452]       ANALYSIS AND ISSUES  > 'War on terror': Can Bush signature phrase last?[ID:nN05373416]  > US top court Justice Ginsburg has cancer surgery[ID:nN05380516]  > SCENARIOS-Obama may get Supreme Court pick soon [ID:nN05378872]  > Obama's promised US healthcare overhaul delayed [ID:nN04296955]  > For now, Washington trumps Wall Street excess   [ID:nN04532791]  > SNAP ANALYSIS-Obama seeks to reassure Americans [ID:nN04479512]  > Wall Street faces new frontier on bonuses, perks[ID:nN04303007]      NOMINEES  > Obama names economic advisory panel             [ID:nN06539926]  > Senate committee delays vote on Obama labor pick[ID:nN05388061]  > Obama nominates Republican Gregg for Commerce   [ID:nN03525325]  > FACTBOX-Possible candidates for health secretary[ID:nN03526718]  > FACTBOX-Obama Cabinet still not finalized       [ID:nN21494602]      (Compiled by World Desk, Americas; +1 202 898 8457)    ((For more about the U.S. political scene please visit Reuters  'Front Row Washington' online at  http://blogs.reuters.com/trail08/))  Keywords: OBAMA/TAKEALOOK       ",
+        "Histogram": [
+            0.7,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 12.97030258178711,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "With a successful U.S. Senate vote on his economic stimulus  bill in sight, President Barack Obama warned on Saturday that  quick action was needed to avoid economic catastrophe and blamed  Republican policies for pushing the country into crisis.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.7,
+                    "bias_description": "This sentence implies a direct cause-and-effect relationship between Republican policies and the country's crisis without sufficient evidence, attributing blame without considering other factors."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the cause of the economic crisis, specifically through the use of Causal Misunderstanding Bias to attribute the crisis solely to Republican policies, without acknowledging other potential factors. The general bias tendency leans towards favoring the perspective that the economic crisis is a result of Republican policies."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.7,
+            "percentage_of_biased_sentences": 0.14285714285714285,
+            "overall_rating": 0.4214285714285714
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "WRAPUP 17-Obama makes history with Democratic nomination",
+        "URL": "WRAPUP 17-Obama makes history with Democratic nomination.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    * Clinton does not concede      * Obama wins Montana, Clinton takes South Dakota      * McCain, Obama start November election campaign           By John Whitesides, Political Correspondent      WASHINGTON, June 3 (Reuters) - Barack Obama captured the  Democratic presidential nomination on Tuesday, capping a rapid  rise from political obscurity to become the first black to lead  a major U.S. party into a race for the White House.      Rival Hillary Clinton, a former first lady who entered the  race 17 months ago as a heavy favorite, briefly congratulated  Obama but did not concede. The New York senator said she would  consult with party leaders and supporters to determine her next  move.      A surge of support from uncommitted delegates helped give  Obama the 2,118 votes he needed to clinch the nomination as the  lengthy Democratic battle concluded with an Obama victory in  Montana and a Clinton win in South Dakota.      Obama will be crowned the Democratic nominee at the  convention in August and will face Republican John McCain in  November's election to choose a successor to President George  W. Bush.      'Tonight, we mark the end of one historic journey with the  beginning of another,' Obama told a victory celebration in St.  Paul, Minnesota, at the site of the Republican convention in  September.      'Tonight, I can stand before you and say that I will be the  Democratic nominee for President of the United States,' he told  17,000 cheering supporters. Another 15,000 supporters gathered  outside the arena.      The win by Obama, son of a black Kenyan father and white  mother from Kansas, marked a milestone in U.S. history. It came  45 years after the height of the civil rights movement led by  Martin Luther King, who was assassinated in 1968.      It followed one of the closest and longest nomination  fights in recent U.S. political history. Clinton, who would  have been the first woman nominee in U.S. political history,  won more than 1,900 delegates.      She told New York members of Congress she would be open to  becoming Obama's vice presidential running mate, and her  backers turned up the pressure on Obama to pick her as his No.  2.      She told a cheering crowd of supporters in New York City  that she would work for party unity but made no public  overtures to Obama.      'This has been a long campaign and I will make no decisions  tonight,' she said. 'In the coming days I'll be consulting with  supporters and party leaders to determine how to move forward  with the best interests of our party and my country guiding my  way.'      Obama lavished praise on Clinton after beating her.      'Senator Hillary Clinton has made history in this campaign  not just because she's a woman who has done what no woman has  done before, but because she's a leader who inspires millions  of Americans,' he said.      'Our party and our country are better off because of her,  and I am a better candidate for having had the honor to compete  with Hillary Rodham Clinton,' he said.      An Obama aide said he called Clinton after their speeches,  congratulated her on her South Dakota victory and asked her to  call him back.           MCCAIN KICKS OFF RACE      McCain kicked off his race against Obama with a rally in  Louisiana where he sought to distance himself from Bush and  questioned Obama's judgment. He called Obama a 'formidable'  opponent but one who had not shown a willingness to put aside  partisan interests.      'He is an impressive ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 12.944637298583984,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports factual events and statements without using language or framing that would indicate a bias towards any particular viewpoint."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "TAKE A LOOK-OBAMA PRESIDENCY: Congress reaches stimulus deal",
+        "URL": "TAKE A LOOK-OBAMA PRESIDENCY: Congress reaches stimulus deal.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "     The U.S. Congress and the Obama administration reached a deal  on Wednesday on a $789 billion economic stimulus package that  would mix tax cuts and new government spending to rescue the  faltering U.S. economy.      Senate majority leader Harry Reid told reporters negotiators  had 'bridged differences' between an $820 billion dollar House  version of the package and an $838 billion version passed by the  Senate.    TOP STORIES  > Congress, White House reach deal on stimulus    [ID:nWBT010630]  > Obama pushes stimulus, sees no bank quick fixes [ID:nN09542602]  > Negotiators discuss $800 billion stimulus deal  [ID:nN10309684]  > U.S. unveils new bank rescue plan, stocks fall  [ID:nN102559]         THE ECONOMY AND STIMULUS PLAN  > US steel companies press for Buy American plan  [ID:nN10311795]  > FACTBOX-U.S. Congress to begin melding bills    [ID:nN10301964]         SECURITY AND FOREIGN POLICY  > Obama choice on troops for Aghanistan near     [ID:nN10304198]  > Obama orders 60-day cybersecurity review        [ID:nN09544859]       ANALYSIS AND ISSUES  > SNAP ANALYSIS-Obama, Pelosi and the US stimulus [ID:nN09543088]  > SNAP ANALYSIS-Obama says gov't must solve crisis[ID:nN09547824]  > Obama: Renewable energy key to economic future  [Id:nN09291440]      SIDEBARS  > More than 49 million watch Obama news conference[ID:nN10319398]      NOMINEES  > Obama Cabinet still not finalized               [ID:nN21494602]  > Possible candidates for health secretary        [ID:nN03526718]      (Compiled by World Desk, Americas; +1 202 898 8457)    ((For more on the stimulus plan, go to [ID:nN26365728]     For more about the U.S. political scene please visit Reuters  'Front Row Washington' online at  http://blogs.reuters.com/trail08/))  Keywords: OBAMA/TAKEALOOK       ",
+        "Histogram": [
+            0,
+            0,
+            0
+        ],
+        "Relevance": 12.933328628540039,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual report on the U.S. Congress and the Obama administration reaching a deal on an economic stimulus package without exhibiting any evident bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "TAKE A LOOK-OBAMA PRESIDENCY: Congress prepares stimulus vote",
+        "URL": "TAKE A LOOK-OBAMA PRESIDENCY: Congress prepares stimulus vote.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    Democratic leaders in the U.S. Senate and House of  Representatives work toward wrapping up passage of a $789 billion  economic stimulus bill by week's end, as last-minute details are  still being worked out.      TOP STORIES  > Congress preparing final vote   on stimulus     [ID:nN12436678]  > Vote on economic stimulus not likely til Friday [ID:nWAT010979]  > Biden: More Republicans will back final bill    [ID:nN11393503]  > U.S. unveils new bank rescue plan, stocks fall    [ID:nN102559]  > Obama asks US automakers for 'a plan that works'[ID:nN11411854]         THE ECONOMY AND STIMULUS PLAN  > Details of compromise U.S. economic stimulus    [ID:nN12453358]  > Lawmaker reach deal on Buy American provisions  [ID:nN11411357]  > FACTBOX-Lawmakers strike deal on stimulus bill  [ID:nN11411918]         SECURITY AND FOREIGN POLICY  > Obama choice on troops for Afghanistan near     [ID:nN10304198]  > Obama reaffirms U.S. support for Hariri tribunal[ID:nN12460483]  > Obama orders 60-day cybersecurity review        [ID:nN09544859]  > Obama, Zardari agree joint plan on region needed[ID:nN11406119]  > US seen naming Bosworth N.Korea nuclear envoy   [ID:nN11407211]       ANALYSIS AND ISSUES  > Obama's use of fear card may backfire           [ID:nN11395260]  > SNAP ANALYSIS-Obama, Pelosi and the US stimulus [ID:nN09543088]  > SNAP ANALYSIS-Obama says gov't must solve crisis[ID:nN09547824]  > Obama: Renewable energy key to economic future  [ID:nN09291440]      NOMINEES  > Labor nominee advances despite tax problem      [ID:nN11395472]  > Senate panel approves Panetta to be CIA chief   [ID:nN11412032]  > Obama Cabinet still not finalized               [ID:nN21494602]  > Possible candidates for health secretary        [ID:nN03526718]      (Compiled by World Desk, Americas; +1 202 898 8457)    ((For more on the stimulus plan, go to [ID:nN26365728]     For more about the U.S. political scene please visit Reuters  'Front Row Washington' online at  http://blogs.reuters.com/trail08/))  Keywords: OBAMA/TAKEALOOK       ",
+        "Histogram": [
+            0,
+            0
+        ],
+        "Relevance": 12.903909683227539,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily provides factual information about the U.S. Congress' preparations for a stimulus vote and other related news. The topics discussed, including the economic stimulus plan, security and foreign policy, analysis and issues, and nominees, are presented in a neutral manner without evident bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "TAKE A LOOK-OBAMA PRESIDENCY: Obama sees hard days on stimulus",
+        "URL": "TAKE A LOOK-OBAMA PRESIDENCY: Obama sees hard days on stimulus.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    President Barack Obama predicted a 'difficult next few days'  as the Democratic-controlled U.S. Senate on Monday debated on an  almost $900 billion stimulus package of federal spending and tax  cuts amid Republican opposition.      Senate Majority Leader Harry Reid of Nevada said he hoped to  push the measure through the chamber by Friday.      Obama's pick to lead reforms of the costly U.S. healthcare  system, Tom Daschle, meanwhile said he was deeply embarrassed  about having to pay some $140,000 in back taxes, a lapse that  raised questions about his nomination.    TOP STORIES  > Obama seeks quick action on Senate stimulus bill[ID:nN02460039]  > Health nominee Daschle apologizes on tax issue  [ID:nN02326668]  > Obama says most troops in Iraq home within year [ID:nN01397189]  > Obama administration says rescue plan 'on track'[ID:nN31404864]  > Senate won't change if Gregg leaves -McConnell  [ID:nN01185909]       THE ECONOMY AND STIMULUS PLAN  > Obama asks Treasury for guidelines on bailout   [ID:nN02487257]  > Stimulus items draw ire, become trading chips?  [ID:nN29297688]  > Will U.S. spending bill stimulate the economy?  [ID:nN28542734]  > SCENARIOS-Senate poised to debate economic plan [ID:nN30376721]         SECURITY AND FOREIGN POLICY  > Obama spoke with Iraqi leaders Maliki, Talibani [ID:nN02286977]  > Obama watching Iraq vote, plans new approach    [ID:nN30389434]  > Obama voices concern on freed Guantanamo inmates[ID:nN02441019]  > SCENARIOS-Options open to Obama in Iran policy  [ID:nN29300452]  > Obama Afghan strategy stress non-military role  [ID:nN28515139]         ANALYSIS AND ISSUES  > Tax issues shadow Obama health nominee Daschle  [ID:nN30403953]  > Iran plays for time to work out reply to Obama  [ID:nBLA239942]  > Clinton: politician's touch in a diplomat's job [ID:nN29305820]  > ANALYSIS-Republicans in high-stakes challenge   [ID:nN29266653]      (Compiled by World Desk, Americas; +1 202 898 8457)    ((For more about the U.S. political scene please visit Reuters  'Front Row Washington' online at  http://blogs.reuters.com/trail08/)  ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 12.887079238891602,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to contain biased sentences. It provides a factual overview of President Obama's challenges and actions during his presidency without displaying a general bias tendency."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "FINEWS-Obama wants economic stimulus passed quickly",
+        "URL": "FINEWS-Obama wants economic stimulus passed quickly.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    U.S. President-elect Barack Obama said he wanted Congress  to pass another stimulus package as soon as possible to  stabilize the U.S. economy. 'We are going to need to see a  stimulus package passed either before or after the inauguration  (on Jan. 20, 2009). I want to see a stimulus package sooner  rather than later,' Obama told a news conference in Chicago  after meeting his economic advisers.      Reuters e-mail: chris.reese@thomsonreuters.com  ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 12.84658432006836,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it simply reports a statement made by U.S. President-elect Barack Obama regarding the passage of an economic stimulus package."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    }
+]

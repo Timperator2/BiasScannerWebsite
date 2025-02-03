@@ -1,0 +1,897 @@
+[
+    {
+        "Title": "Hillary Clinton mum on political future",
+        "URL": "Hillary Clinton mum on political future.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WASHINGTON, Nov 14 (Reuters) - U.S. Sen. Hillary Clinton  declined to comment on Friday on speculation that  President-elect Barack Obama could offer her a job in his new  administration.      Some U.S. media have reported that Obama is considering her  for secretary of state. U.S. television network CNN said on  Friday that the pair had held talks in Chicago on Thursday.      'I'm not going to speculate or address anything about the  president-elect's incoming administration. And I am going to  respect his process and any inquiries should be directed to his  transition team,' Clinton told a conference in Albany, New  York, which was broadcast by CNN.      ((ross.colvin@thomsonreuters.com; +1 2020 898 8309; Reuters  Messaging: ross.colvin.reuters.com@reuters.net))  Keywords: USA OBAMA/CLINTON        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 18.09876251220703,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It is a straightforward report on Hillary Clinton's response to speculation about her potential role in President-elect Barack Obama's administration."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "FACTBOX-Hillary Clinton and loyalty",
+        "URL": "FACTBOX-Hillary Clinton and loyalty.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    April 4 (Reuters) - New York Sen. Hillary Clinton is  counting on loyalty from Democratic Party leaders to help her  beat Illinois Sen. Barack Obama for their party's nomination  for the White House.      Here are a few facts about loyalty and the former first  lady:           * When New Mexico Gov. Bill Richardson endorsed Obama, he  was compared to Judas by Clinton backer James Carville.  Richardson, who served as energy secretary and ambassador under  President Bill Clinton, said he was still loyal to the  Clintons.           * Hillary Clinton is known to be fiercely loyal to her own  staff, many of whom have been with her since her time as first  lady in a group affectionately referred to as 'Hillaryland.'           * Clinton retained campaign manager Patti Solis Doyle until  early February when a string of primary losses to Obama  prompted a change to Maggie Williams, another loyalist, who was  a top aide to Clinton as first lady.           * Clinton is wooing so-called superdelegates, party leaders  and other officials, to help her beat Obama for the nomination,  but the Illinois senator has announced more of those  endorsements than she since the Feb. 5 'Super Tuesday'  nominating contests across the country.           * Analysts say loyalty plays a big role in U.S. politics.  Clinton is relying on backing from women voters to help her win  the nomination, while Obama has won support from black voters  in many state contests.   (Writing by Jeff Mason in Washington; Editing by Xavier  Briand)   ((jeff.mason@reuters.com; Reuters Messaging:  jeff.mason.reuters.com@reuters.net, +1 202 898 8300))     Keywords: USA POLITICS/CLINTON LOYALTY        ",
+        "Histogram": [
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0.5,
+            0.5,
+            0
+        ],
+        "Relevance": 17.881669998168945,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "When New Mexico Gov. Bill Richardson endorsed Obama, he was compared to Judas by Clinton backer James Carville. Richardson, who served as energy secretary and ambassador under President Bill Clinton, said he was still loyal to the Clintons.",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The comparison of Bill Richardson to Judas by a Clinton backer attacks Richardson's character and motives for endorsing Obama, rather than addressing the substance of his decision. This undermines the endorsement through a personal attack."
+                },
+                {
+                    "text": "Analysts say loyalty plays a big role in U.S. politics. Clinton is relying on backing from women voters to help her win the nomination, while Obama has won support from black voters in many state contests.",
+                    "bias_type": "Generalization Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "This sentence generalizes the support base for Clinton and Obama, attributing broad characteristics to groups of voters without specific evidence for the extent of the role of loyalty in their support."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the topic of loyalty in U.S. politics, particularly in the context of the Clinton-Obama nomination race. The biases identified include Ad Hominem Bias and Generalization Bias, with a tendency to undermine certain endorsements and oversimplify voter support."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.55,
+            "percentage_of_biased_sentences": 0.4,
+            "overall_rating": 0.47500000000000003
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Hillary Clinton and Illegal Immigration.txt",
+        "URL": "Hillary Clinton and Illegal Immigration.txt.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/240px-Fox_News_Channel_logo.svg.png",
+        "Text": "As you know if you watch us on a regular basis, we are fair to Senator Clinton. We treat her the same way we treat all the other candidates, with a healthy dose of skepticism but an open mind. Looking back on my campaign analysis so far, I've been much tougher on John Edwards than Mrs. Clinton because I believe Mr. Edwards is a charlatan and his campaign of class warfare is foolish.\n\nHillary Clinton is waging a conventional campaign. She has a strong machine, unlimited money, and the heavy odds are she will win the Democratic nomination. But her performance on illegal aliens getting driving credentials has been abysmal.\n\nAfter two weeks, two weeks she now says she would not give driver's licenses to people in the U.S. illegally. But why? Why would Hillary Clinton deny driver's licenses to illegal aliens? The senator will not say.\n\n\"Talking Points\" went to a website. No mention of why no licenses. We contacted her press secretary Felipe Reines. He couldn't tell us why. We called Senator Clinton's main man Howard Wolfson. He would not take the call.\n\nThe truth is nobody knows why Hillary Clinton doesn't want to give illegals driving privileges because she simply doesn't want to tell us. Doesn't want to define the issue.\n\nThat's what bothers me about Senator Clinton. I can't figure out what she believes. Most politicians are shifty. Most change positions to get votes, but there comes a time when specific questions have to be answered.\n\nMillions of Americans will vote for Hillary Clinton no matter what she says. And millions will vote against her no matter what she says. But for those of us who take an independent view, and we will decide the presidential election, the failure to address important issues in a clear way is a huge deficit.\n\nI strongly believe Senator Clinton believes she can become president without ever having to reveal who she really is or what she really thinks. This illegal license deal reinforces my belief.\n\nPinheads and Patriots\n\nAs you may know, the entertainment writers are on strike, and that means no money for them. But our pal David Letterman says he will pay his writers and his entire staff out of his own pocket for the next few weeks. That is very generous. And tonight, David Letterman is a patriot.\n\nOn the pinhead front, in Sydney, Australia, Sari Haggerty, the national Santa coordinator for a company which supplies Santas to department stores and such, has ordered St. Nick not to say, \"Ho, ho, ho\" this season. Apparently, Ms. Haggerty believes some Australian women may be offended by \"ho, ho, ho,\" so Santa must now say, \"Ha, ha, ha.\"\n\nThis is not a joke. This is stupid. So Sari Haggerty is a pinhead. Leave Santa alone, mate.\n\n\u2014 You can catch Bill O'Reilly's \"Talking Points Memo\" and \"Pinheads and Patriots\" weeknights at 8 and 11 p.m. ET on the FOX News Channel and any time on foxnews.com/oreilly. Send your comments to: oreilly@foxnews.com",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0.9,
+            0.9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 17.382125854492188,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Hillary Clinton is waging a conventional campaign. She has a strong machine, unlimited money, and the heavy odds are she will win the Democratic nomination. But her performance on illegal aliens getting driving credentials has been abysmal.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'abysmal' to describe Hillary Clinton's performance introduces a negative connotation, implying a strong judgment about her actions regarding illegal aliens without providing a balanced perspective."
+                },
+                {
+                    "text": "That's what bothers me about Senator Clinton. I can't figure out what she believes. Most politicians are shifty. Most change positions to get votes, but there comes a time when specific questions have to be answered.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence expresses a subjective opinion about Senator Clinton's character, labeling her as 'shifty' without providing objective evidence, thus blurring the line between fact and personal perspective."
+                },
+                {
+                    "text": "I strongly believe Senator Clinton believes she can become president without ever having to reveal who she really is or what she really thinks. This illegal license deal reinforces my belief.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "The use of 'I strongly believe' and 'without ever having to reveal who she really is' presents a highly subjective and speculative opinion about Senator Clinton's motives and intentions as if they were established facts."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias through the use of word choice and opinionated statements, particularly regarding Senator Clinton's stance on illegal aliens getting driving credentials. The general bias tendency leans towards portraying Senator Clinton in a negative light, suggesting a lack of transparency and criticizing her performance without a fully objective analysis."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.7000000000000001,
+            "percentage_of_biased_sentences": 0.175,
+            "overall_rating": 0.4375
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Hillary Clinton, Condoleezza Rice have dinner date",
+        "URL": "Hillary Clinton, Condoleezza Rice have dinner date.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WASHINGTON, Dec 8 (Reuters) - Guess who was coming to  dinner Monday evening at Secretary of State Condoleezza Rice's  place? The woman nominated to succeed her as top U.S. diplomat:  Sen. Hillary Clinton.      Clinton was invited to have dinner with Rice at Rice's  apartment in Washington's exclusive Watergate complex, a State  Department official said.      Earlier on Monday Clinton made her first visit to the State  Department since Democratic President-elect Barack Obama named  her as his choice for the next secretary of state, the official  said.      Clinton spent several hours with members of the  department's transition team, who had prepared a number of  briefing books for her.      Rice has said Obama's choice of Clinton for the post was  'terrific.' If confirmed by the U.S. Senate, Clinton will be  the third woman to be secretary of state, after Rice and  Madeleine Albright, who was appointed by Hillary Clinton's  husband, former President Bill Clinton, in the 1990s.      Susan Rice, Obama's nominee to be U.S. ambassador to the  United Nations, also visited the State Department on Monday and  saw the transition team.   (Editing by Vicki Allen)   ((susan.cornwell@thomsonreuters.com; +1 202-898-8300; Reuters  Messaging: susan.cornwell.reuters.com@reuters.net))  Keywords: USA OBAMA/CLINTON       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 17.331661224365234,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual report on a dinner meeting between Secretary of State Condoleezza Rice and Sen. Hillary Clinton, along with details about Clinton's visit to the State Department. The information is presented in a neutral manner without any indication of bias towards any individual or group."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Hillary Clinton places third in Iowa setback -CNN",
+        "URL": "Hillary Clinton places third in Iowa setback -CNN.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    DES MOINES, Iowa, Jan 3 (Reuters) - Sen. Hillary Clinton  placed third in the Iowa Democratic caucus on Thursday, a big  setback for the one-time national front-runner in the first  nominating contest of the 2008 U.S. presidential election, CNN  reported.      Sen. Barack Obama placed first in the vote and former Sen.  John Edwards came in second.     The third-place finish put pressure on Clinton, the former  first lady who is seeking to become the country's first woman  president, to regain her national front-runner status as she  heads into the Jan 8. primary vote in New Hampshire.     ((joanne.kenen@reuters.com; +1 202 310 5491; Reuters  Messaging: joanne.kenen.reuters.com@reuters.net))        Keywords: USA POLITICS/CLINTON THIRD        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 17.23538589477539,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to exhibit bias. It provides a factual report on the outcome of the Iowa Democratic caucus and the implications for Sen. Hillary Clinton without employing any of the common bias types."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "FEATURE-Hillary Clinton may unite Republicans",
+        "URL": "FEATURE-Hillary Clinton may unite Republicans.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Carey Gillam      KANSAS CITY, Mo., Feb 4 (Reuters) - Tom Effertz is 73 and a  wheat farmer. Rosie Erganian is 52 and lives in a town on the  Missouri River. He's a Republican. She's a Democrat. Both  Missourians want anyone but Democrat Hillary Clinton for U.S.  president.      'We're tired of the Hillary thing,' Effertz said. 'We'd had  enough of Bill and Hillary.'      'I do not like the way they've been kind of nasty,' said  Erganian, of Rocheport, Missouri. 'I don't want anybody in  office like that.'      Tuesday is 'Super Tuesday' when 24 states, Missouri among  them, hold nominating contests for one or both parties. It is  the biggest date in the six-month process to decide which of  each party will face off in the Nov. 4 election to succeed  President George W. Bush.       When it comes to the November election, Missouri, home to  the plain-speaking late President Harry Truman in the heart of  America, has long been viewed as a bellwether, having voted for  the winner in every presidential ballot except one since 1904.      The former first lady is virtually tied with Illinois Sen.  Barack Obama among Democrats in Missouri, according to a  Reuters/C-SPAN/Zogby poll released on Sunday. Super Tuesday  could be a tight race nationwide for the two Democrats.      On the Republican side Sen. John McCain leads former  Massachusetts governor Mitt Romney in most states, but not in  the big-prize state of California.      Strong anti-Clinton feeling has people in both parties  speculating that if the New York senator wins the Democratic  nomination she could become a powerful unifying force -- for  Republicans.           'VETTED, TESTED'      The Clintons have been on the national political stage  since Bill Clinton won the presidency in 1992. Once his second  term ended in 2001, Hillary Clinton began her own, official,  political career by winning a Senate seat from New York.      'I've been taking the incoming fire from Republicans for  about 16 years now, and I'm still here, because I have been  vetted, I have been tested,' she said on Sunday on ABC's 'This  Week.'      Obama's supporters and Republican leaders alike say  although many voters passionately support Clinton, at least as  many passionately dislike her. They offer various explanations  and acknowledge that at least some are unfair.      Some anger at her is residual resentment of her husband  whose second term was mired in a long impeachment process  stemming from an extramarital relationship.  For some it's  about her policies -- pro-gun control, for universal health  care.       Others cite a personality they see as too aggressive and  insincere.      Clinton's campaign has brushed aside the concerns, saying  she has a proven track record of winning, in her New York  campaigns and in voting last month in New Hampshire and Nevada.  Obama won in Iowa and South Carolina.      'I can go up against Senator McCain or any of the  Republicans and be able to defend our positions, put them  forward to the American people and make an affirmative case as  to why I should be the president,' Clinton said on ABC.      'Her record of reaching out across the aisle to find common  solutions is the reason ... she has such a strong record of  getting results,' said Clinton spokesman Mo Elleithee,  insisting that Clinton had growing support among Republicans  and independent voters.           'HIGH NEGATIVES'      Concerns among Democrats about how Clinton might energize  Republicans",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.7,
+            0.7,
+            0.7,
+            0,
+            0,
+            0,
+            0,
+            0.6
+        ],
+        "Relevance": 17.05299186706543,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "'We're tired of the Hillary thing,' Effertz said. 'We'd had enough of Bill and Hillary.'",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'the Hillary thing' and 'We'd had enough of Bill and Hillary' employs a dismissive and negative tone, suggesting a bias through the choice of words that imply judgment and a lack of respect."
+                },
+                {
+                    "text": "'I do not like the way they've been kind of nasty,' said Erganian, of Rocheport, Missouri. 'I don't want anybody in office like that.'",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence attacks the character of Bill and Hillary Clinton by labeling them as 'nasty' without addressing specific policies or actions, thus falling into the ad hominem bias category."
+                },
+                {
+                    "text": "Strong anti-Clinton feeling has people in both parties speculating that if the New York senator wins the Democratic nomination she could become a powerful unifying force -- for Republicans.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The speculation that Clinton could become a 'powerful unifying force' for Republicans is based on conjecture rather than concrete evidence, fitting the criteria for speculation bias."
+                },
+                {
+                    "text": "'I've been taking the incoming fire from Republicans for about 16 years now, and I'm still here, because I have been vetted, I have been tested,' she said on Sunday on ABC's 'This Week.'",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'incoming fire' and 'vetted, tested' implies a defensive stance and portrays Clinton in a victimized yet resilient light, suggesting a bias through the choice of words that evoke sympathy and resilience."
+                },
+                {
+                    "text": "Obama's supporters and Republican leaders alike say although many voters passionately support Clinton, at least as many passionately dislike her. They offer various explanations and acknowledge that at least some are unfair.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence introduces subjective opinions about Clinton's support and dislike, implying a widespread and intense negative sentiment towards her without providing concrete evidence, thus falling into the category of opinionated bias."
+                },
+                {
+                    "text": "Some anger at her is residual resentment of her husband whose second term was mired in a long impeachment process stemming from an extramarital relationship. For some it's about her policies -- pro-gun control, for universal health care. Others cite a personality they see as too aggressive and insincere.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.7,
+                    "bias_description": "The sentence attributes reasons for the anger towards Clinton, including her husband's impeachment and her policy positions, without acknowledging the complexity of public opinion formation, thus demonstrating a causal misunderstanding bias."
+                },
+                {
+                    "text": "Concerns among Democrats about how Clinton might energize Republicans",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence speculates on the potential impact of Clinton's candidacy on Republicans without presenting concrete evidence, falling into the category of speculation bias."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the portrayal of Hillary Clinton, with instances of word choice bias, ad hominem bias, speculation bias, opinionated bias, and causal misunderstanding bias. The biases are primarily negative in nature, suggesting a general bias tendency against Clinton."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6142857142857142,
+            "percentage_of_biased_sentences": 0.3448275862068966,
+            "overall_rating": 0.4795566502463054
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "HIGHLIGHTS-Hillary Clinton news conference in Seoul",
+        "URL": "HIGHLIGHTS-Hillary Clinton news conference in Seoul.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": " (For related stories, click [ID:nSEO258104])      SEOUL, Feb 20 (Reuters) - U.S. Secretary of State Hillary  Clinton said on Friday that North Korea should refrain from  provocative actions and statements if it wants a better  relationship with the United States.      Following are key quotes from Clinton at a news conference  with South Korea's Foreign Minister:            ON NORTH AND SOUTH KOREA      'The Republic of Korea's achievement of democracy and  prosperity stands in stark contrast to the tyranny and poverty  across the border to the North.'      'North Korea is not going to get a different relationship  with the United States while insulting and refusing dialogue with  the Republic of Korea.'  '... we are asking the govt of North Korea to refrain from  the provocative and unhelpful war of words it has been engaged  in.'            ON SIX-PARTY TALKS      '(We will) try to convince the North Koreans to begin a  process within the six-party talks toward the complete and  verifiable elimination of nuclear weapons.'      '... we deal with the government in place right now, and that  government is being asked to re-engage in the six-party talks.'   ((jerry.norton@reuters.com; +65 6870 3815)  Keywords: KOREA NORTH/CLINTON        ",
+        "Histogram": [
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 16.844009399414062,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "'The Republic of Korea's achievement of democracy and prosperity stands in stark contrast to the tyranny and poverty across the border to the North.'",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'tyranny and poverty' to describe North Korea carries a strong negative connotation, implying judgment and bias towards North Korea's political and economic state compared to South Korea."
+                },
+                {
+                    "text": "'North Korea is not going to get a different relationship with the United States while insulting and refusing dialogue with the Republic of Korea.'",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The framing of North Korea's actions as 'insulting and refusing dialogue' suggests a negative portrayal and implies judgment, which could bias the reader's perception against North Korea."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias through the use of word choice, particularly in the comparison between North and South Korea, and in describing North Korea's actions. The general bias tendency leans towards portraying North Korea in a negative light compared to South Korea and the United States."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.42857142857142855,
+            "overall_rating": 0.5142857142857142
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "FACTBOX-What does Hillary Clinton want?",
+        "URL": "FACTBOX-What does Hillary Clinton want?.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    June 4 (Reuters) - Hillary Clinton lost a historic and  grueling race for the Democratic presidential nomination to  Barack Obama on Tuesday but refused to concede, raising  questions about what she wants next.      The question was so prevalent, in fact, that Clinton asked  it herself during a rally in New York after voting concluded.   'I understand that a lot of people are asking, 'What does  Hillary want?'' she said.      'Now the question is: Where do we go from here? Given how  far we've come and where we need to go as a party, it's a  question I don't take lightly. This has been a long campaign,  and I will be making no decisions tonight,' the New York  senator and former first lady said.      Here are some possible reasons why the former front-runner  is delaying a final decision to end her presidential bid.           * After 17 months of campaigning, Clinton is exhausted and  could simply need a few days to adjust to the idea that the race  is over.      * Clinton told New York lawmakers in a conference call on  Tuesday she is open to the idea of being Obama's running mate in  the November presidential election. If she really wants the job,  her political clout is greater if she keeps her bid alive.      * Clinton attracted more than 17 million votes in the  lengthy nominating race, and Obama needs her supporters if he  has any hope of beating Republican John McCain. Clinton may  want to keep the pressure on Obama to pay respect to her  campaign and accommodate her supporters.      * Clinton, whose campaign is more than $20 million in debt,  may need a few more days to look for ways to pay off her  campaign debts, including the more than $11 million she has  given the campaign from her own pocket.      * She could be looking for the most graceful way to bow out  and protect her legacy and that of her husband, former President  Bill Clinton. His image in particular has been tarnished by the  difficult campaign, particularly in the black community, which  backed Obama heavily.   (Writing by John Whitesides; editing by Patricia Wilson)   (To read more about the U.S. political campaign, visit Reuters  'Tales from the Trail: 2008' online at  http:/blogs.reuters.com/trail08/)   ((For a TAKE A LOOK on the campaign, click on [US/VOTE]))  Keywords: USA POLITICS/CLINTON SCENARIOS        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 16.743940353393555,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "'I understand that a lot of people are asking, 'What does Hillary want?'' she said.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'a lot of people' without specifying who these people are or providing evidence implies a broad consensus questioning Hillary's intentions, influencing the reader's perception through word choice."
+                },
+                {
+                    "text": "Here are some possible reasons why the former front-runner is delaying a final decision to end her presidential bid.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The sentence engages in speculation about Hillary's motives for delaying her decision, presenting conjecture as to why she is acting in a certain way rather than relying on concrete facts."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias through the use of word choice and speculation, implying a broad consensus questioning Hillary's intentions and presenting speculative reasons for her actions without concrete evidence."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.1111111111111111,
+            "overall_rating": 0.3555555555555555
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "ANALYSIS-Hillary Clinton faces bright, uncertain future",
+        "URL": "ANALYSIS-Hillary Clinton faces bright, uncertain future.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Thomas Ferraro      WASHINGTON, June 5 (Reuters) - What does Hillary Clinton  want and what will she get -- other than, perhaps, returning to  the U.S. Senate where she's a bona fide star?      The answer may emerge soon as the failed Democratic  presidential contender gets ready to finally concede defeat --  amid signals she might like to be the vice presidential running  mate of presumptive White House nominee Barack Obama.      'The clock is ticking,' said Paul Light of New York  University's Center for the Study of Congress. He said she must  quickly end her presidential campaign or face party backlash.      'But if she withdraws gracefully, she will have an enormous  range of opportunities,' Light said. 'She could eventually  become a Senate leader or end up on the Supreme Court.'      Others have suggested she might want to be New York  governor -- or make another run for the White House in 2012 if  Republican John McCain defeats Obama in the general election.      Clinton riled some Democrats by declining to concede when  the Illinois senator wrapped up the nomination on Tuesday  night. She has since announced she will do so on Saturday.      Democratic Sen. Dianne Feinstein of California, who backed  Clinton's bid to become the first woman president, said, 'I  have no doubt that if she comes back to the Senate -- as  opposed to becoming the vice presidential nominee or whatever  -- she will continue to be a tremendous senator.'      'And that's not too shabby,' Feinstein said.      Clinton, who joined the Senate in January 2001 after eight  years in the White House as a top aide and wife of President  Bill Clinton.      Some have suggested Clinton follow the lead of Sen. Edward  Kennedy of Massachusetts, a Democratic icon and workhorse.      After he failed to wrest the Democratic nomination from  President Jimmy Carter in 1980, Kennedy returned to the Senate  and became one of its most effective legislators, helping craft  landmark bills, many to help the disadvantaged.      'I've got to believe, as trite as it may sound, that her  role model now is Ted Kennedy,' said Norm Ornstein, a  congressional scholar at the American Enterprise Institute.       The New York Democrat 'could become a real go-to person in  the Senate who has the ability to attract and keep great staff,  who has a real grasp for important issues, who can build  relationships and has a driving desire to figure out how to  make things happen,' he said.      And with the 76-year-old Kennedy being treated for a  malignant brain tumor, Clinton could help fill the void his  illness may leave in the Senate, Ornstein said.           'WHAT DOES HILLARY WANT'      Increased clout -- not a prestigious new title -- is  probably the most Clinton can hope for back in the Senate. At  least for now.      There are no leadership positions open for her to fill, and  after nearly eight years in the Senate, she still lacks the  seniority to chair any major committees.      In her home state Tuesday night, Clinton told supporters:  'A lot of people are asking, 'What does Hillary want?''      'Well, I want what I have always fought for in this whole  campaign. I want to end the war in Iraq. I want to turn this  economy around. I want health care for every American. I want  every child to live up to his or her God-given potential, and I  want the nearly 18 million Americans who voted for me to be  respected, to be heard and no longer to be invisible.'      While Clinton has ",
+        "Histogram": [
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 16.2125244140625,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "The answer may emerge soon as the failed Democratic  presidential contender gets ready to finally concede defeat --  amid signals she might like to be the vice presidential running  mate of presumptive White House nominee Barack Obama.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'failed' to describe Hillary Clinton's presidential campaign carries a negative connotation, implying judgment and potentially influencing the reader's perception negatively towards her. Additionally, the phrase 'finally concede defeat' and 'might like to be' suggest a lack of agency or certainty, further undermining her position."
+                },
+                {
+                    "text": "Clinton riled some Democrats by declining to concede when  the Illinois senator wrapped up the nomination on Tuesday  night. She has since announced she will do so on Saturday.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'riled' to describe the reaction of some Democrats to Clinton's actions introduces a negative tone, suggesting that her behavior caused unnecessary agitation or annoyance. This choice of word implies a judgment about her actions and the impact they had on others."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias through the use of word choice, particularly in describing Hillary Clinton's presidential campaign and her actions following the nomination. The bias tends to undermine her position and actions, suggesting a negative portrayal overall."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.07407407407407407,
+            "overall_rating": 0.337037037037037
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "FACTBOX-Hillary Clinton faces colleagues in U.S. Senate",
+        "URL": "FACTBOX-Hillary Clinton faces colleagues in U.S. Senate.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    Jan 13 (Reuters) - U.S. Sen. Hillary Clinton of New York is  expected to get a warm welcome on Tuesday when she visits the  Senate Foreign Relations Committee for a hearing on her  nomination to be U.S. Secretary of State.      Clinton, a Democrat who has at times been a polarizing  figure during her political career, has faced no opposition so  far from Senate colleagues to her nomination by President-elect  Barack Obama to be the top U.S. diplomat.      Here are some facts and biographical details about  Clinton.           - Clinton, who is married to former President Bill Clinton,  was first lady from 1993 to 2001. She headed the Clinton  administration's failed effort to overhaul the U.S. health care  system and drew criticism for not seeking enough public or  congressional input and developing a plan that was considered  too complicated.           - While in the White House she was drawn into several  scandal investigations, but was never charged with wrongdoing  in probes of the firing of White House travel office staff  members and an Arkansas real estate loan made before the couple  moved to the White House.           - Clinton defended her husband when allegations surfaced in  1998 of his extramarital affair with a White House intern and  was angry when they were revealed to be true, but stood by him  during his impeachment and subsequent acquittal in a Senate  trial.           - Clinton was elected to the U.S. Senate from New York in  2000, the first time a first lady had run for public office.  While Clinton has been a frequent target of Republican  animosity, she won praise for building bridges with the other  party in the Senate, visited conservative areas of upstate New  York frequently and was easily re-elected in 2006 in a race  that set up her run for the White House in 2008.           - Clinton won more than 18 million votes during a prolonged  and close battle with Obama for the Democratic presidential  nomination, but eventually fell short and withdrew from the  race in June 2008. She pledged her support for Obama in his  campaign against Republican John McCain, delivering a  high-profile convention speech on Obama's behalf and appearing  on the campaign trail with him frequently.           - Clinton, a graduate of Yale Law School, was an  accomplished lawyer. She worked in Washington in 1974 for the  House of Representatives committee considering the impeachment  of President Richard Nixon during Watergate and was named by a  magazine in 1991 as one of the 100 most influential lawyers in  America.           - Clinton, 61, was born in Park Ridge, Illinois. She was a  fan of conservative Republican presidential candidate Barry  Goldwater during his losing 1964 campaign, but became a  Democrat while attending Wellesley College. She met Bill  Clinton while at Yale.   (Writing by John Whitesides; Editing by David Storey) ((john.whitesides@reuters.com; 202 898-8393))  Keywords: USA CLINTON/        ",
+        "Histogram": [
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 16.205015182495117,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Clinton, a Democrat who has at times been a polarizing figure during her political career, has faced no opposition so far from Senate colleagues to her nomination by President-elect Barack Obama to be the top U.S. diplomat.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the term 'polarizing figure' to describe Clinton implies a judgment about her character that may influence the reader's perception negatively, suggesting divisiveness without providing a balanced view of her career."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits a Word Choice Bias regarding Hillary Clinton, implying a negative judgment about her character through the use of the term 'polarizing figure,' which could influence the reader's perception negatively."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.058823529411764705,
+            "overall_rating": 0.32941176470588235
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "TAKE A LOOK-Hillary Clinton visits Asia",
+        "URL": "TAKE A LOOK-Hillary Clinton visits Asia.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    U.S. Secretary of State Hillary Clinton is in Japan, the  first stop on a week-long trip to Asia that will also take her to  Indonesia, South Korea and China.      She is expected to focus on expanding cooperation with Asia  to deal with the global financial crisis, address growing  concerns about a possible North Korean missile test as well as  discuss issues such as climate change.         LATEST STORIES  > Clinton starts Asia trip with warm words for Japan  [nN16308398]  > Issues to be raised on Clinton's Asia trip           [nSP436545]  > U.S. plans to press Pyongyang on Japanese abductees [nN15286037]  > North Korea says has right to launch missiles       [nSEO100055]  > N.Korea may opt for tensions over US peace offer     [nSEO73698]  > Clinton makes offer to N.Korea, appeals to China    [nN13542583]  > PREVIEW-Clinton aims to soothe jittery allies, woo  [nN11400240]  > Q+A-Where do sputtering N.Korea nuclear talks stand [nN09517057]  > Clinton's Asian hosts need economic diplomacy       [nN12457626]      (Compiled by World Desk, Asia +65 6870 3815)   ((dean.yates@reuters.com; Reuters Messaging:   dean.yates.reuters.com@reuters.net))  Keywords: ASIA CLINTON/        ",
+        "Histogram": [
+            0,
+            0,
+            0
+        ],
+        "Relevance": 16.202425003051758,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual overview of U.S. Secretary of State Hillary Clinton's trip to Asia, outlining the expected focus areas and countries she will visit without introducing any biased language or perspectives."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Clinton wins South Dakota Democratic contest-media",
+        "URL": "Clinton wins South Dakota Democratic contest-media.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WASHINGTON, June 3 (Reuters) - Hillary Clinton won the  South Dakota contest to pick a Democratic U.S. presidential  candidate on Tuesday, beating Barack Obama in the next to last  state contest to pick a nominee for the November election,  media projected.     ((david.alexander@reuters.com; +1 202 354 5866; Reuters  Messaging: david.alexander.reuters.com@reuters.net))           Keywords: USA POLITICS/SOUTHDAKOTA        ",
+        "Histogram": [
+            0,
+            0
+        ],
+        "Relevance": 16.128978729248047,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it simply reports the outcome of the South Dakota Democratic contest without introducing any subjective or misleading information."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Clinton wins Puerto Rico Democratic contest -media",
+        "URL": "Clinton wins Puerto Rico Democratic contest -media.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WASHINGTON, June 1 (Reuters) - Hillary Clinton won the  Puerto Rico vote to pick a Democratic U.S. presidential  candidate on Sunday, defeating front-runner Barack Obama in the  biggest contest left in the race for the party's presidential  nomination, U.S. media projected.      The victory did little to narrow Obama's lead in the race  for elected delegates to the Democratic nominating convention  in August, but it could help New York Sen. Clinton convince  uncommitted delegates to back her presidential bid.      The final two Democratic nominating contests -- Montana and  South Dakota -- will be held on Tuesday.     ((david.alexander@reuters.com; +1 202 354 5866; Reuters  Messaging: david.alexander.reuters.com@reuters.net))           Keywords: USA POLITICS/PUERTORICO        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 16.01578712463379,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a straightforward report on the results of the Puerto Rico Democratic contest without exhibiting any of the common forms of bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "ANALYSIS-Hillary Clinton faces tough Mideast challenge",
+        "URL": "ANALYSIS-Hillary Clinton faces tough Mideast challenge.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Sue Pleming      WASHINGTON, Dec 29 (Reuters) - Israel's attacks on Gaza  could test Hillary Clinton's mettle as the next top U.S.  diplomat mediating between Israelis and Palestinians.      As incoming President Barack Obama's secretary of state,  she will have to overcome a view of some in the Arab world she  is more interested in supporting Israel than being  even-handed.      Once she stops being a U.S. senator from New York to take  her new job, Clinton could find herself pursuing the same  Middle East peace that eluded her husband, former President  Bill Clinton, in the final months of his presidency in 2000.      University of Maryland professor Shibley Telhami said  opinion polls he conducted earlier this year in Arab countries  indicated Clinton was viewed as someone who, like her husband,  would work to advance Middle East peace.      'Bill Clinton had a much more positive image in the Middle  East (than George W. Bush) and Hillary is seen in a similar  light,' he said, adding that her past support for Israel would  not necessarily count against her.      But even if Clinton were ready to take on the role of peace  broker early on, the upsurge in violence and Israeli and  Palestinian elections expected over the next two months, would  likely delay meaningful discussions.      'There is too much blood spilled for this to end quickly.'  said Telhami.      Aaron Miller, who advised six secretaries of state in  Israeli-Palestinian negotiations, said Clinton was respected in  the region and disputed that she was viewed as pro-Israeli.      He said Clinton's personal and political battles as a  former U.S. presidential candidate, made her tough and  resilient -- desirable attributes in Middle East diplomacy.      More important than her prowess as a mediator will be how  high a priority Obama makes the Israeli-Palestinian issue among  the many challenges facing his new administration.      'She will have to do the heavy lifting but she must be  empowered and backed up and supported by the president,' said  Miller, who is now at the Woodrow Wilson International Center  for Scholars in Washington.           NOT YET TESTED      Clinton, who lost the Democratic presidential nomination to  Obama, needs to maintain a strong relationship with the new  president to be effective, he added.      While well-versed in foreign affairs, Clinton has yet to be  tested in a crisis, such as the Israeli offensive against Gaza  to suppress Palestinian rocket fire against its citizens.     'She (Clinton) does not have a lot of experience in the  Byzantine negotiations in the Arab world,' said Jeffrey White,  of the Washington Institute for Near East Policy.      The Bush administration has so far backed Israel's actions  in Gaza and demanded the Palestinian Islamist group Hamas stop  firing rockets into Israel and agree to a lasting cease-fire.      Edward Walker, former U.S. ambassador to Israel and Egypt,  said Clinton should go the region early. Her confirmation  hearings are expected in mid-January and she could take office  immediately after Obama's Jan. 20 inauguration.      'What the administration needs to do is to say that we  consider Israeli-Palestinian peace a priority but that we  cannot force the parties into an agreement unless they are  prepared for an agreement,' Walker said.      Outgoing U.S. Secretary of State Condoleezza Rice, who has  spoken to Clinton since the latest violence erupted, made  Israeli-Palestinian peace a prio",
+        "Histogram": [
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 15.825865745544434,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "As incoming President Barack Obama's secretary of state, she will have to overcome a view of some in the Arab world she is more interested in supporting Israel than being even-handed.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'more interested in supporting Israel than being even-handed' implies a judgment about Clinton's intentions, suggesting a lack of neutrality without providing evidence."
+                },
+                {
+                    "text": "Once she stops being a U.S. senator from New York to take her new job, Clinton could find herself pursuing the same Middle East peace that eluded her husband, former President Bill Clinton, in the final months of his presidency in 2000.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The sentence implies a negative outlook by suggesting that Middle East peace 'eluded' her husband, which indirectly casts doubt on her ability to achieve it as well."
+                },
+                {
+                    "text": "University of Maryland professor Shibley Telhami said opinion polls he conducted earlier this year in Arab countries indicated Clinton was viewed as someone who, like her husband, would work to advance Middle East peace.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The sentence uses the phrase 'like her husband' to draw a comparison, which could subtly undermine her individual capabilities by suggesting her actions would merely mirror his, rather than being based on her own merit."
+                },
+                {
+                    "text": "'Bill Clinton had a much more positive image in the Middle East (than George W. Bush) and Hillary is seen in a similar light,' he said, adding that her past support for Israel would not necessarily count against her.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Comparing Hillary's image to Bill Clinton's in the Middle East introduces a bias by implying that her reputation is solely derivative of his, rather than her own achievements or actions."
+                },
+                {
+                    "text": "But even if Clinton were ready to take on the role of peace broker early on, the upsurge in violence and Israeli and Palestinian elections expected over the next two months, would likely delay meaningful discussions.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The sentence speculates on the future impact of events on Clinton's ability to broker peace, implying a negative outcome without concrete evidence of how these factors would specifically hinder her efforts."
+                },
+                {
+                    "text": "Clinton, who lost the Democratic presidential nomination to Obama, needs to maintain a strong relationship with the new president to be effective, he added.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'needs to maintain a strong relationship' suggests a vulnerability or dependency on Obama's approval for her effectiveness, potentially undermining her agency and capabilities as an independent diplomat."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias through the use of word choice and speculation, particularly in discussing Hillary Clinton's future role as a mediator in the Israeli-Palestinian conflict. The biases are subtle but collectively imply a negative outlook on her capabilities and intentions, suggesting a lack of neutrality and independence in her diplomatic efforts."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.1,
+            "overall_rating": 0.35
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "EU foreign policy chief lauds Hillary Clinton",
+        "URL": "EU foreign policy chief lauds Hillary Clinton.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WASHINGTON, Nov 21 (Reuters) - If Sen. Hillary Clinton  becomes the next U.S. secretary of state, she has a fan in  European Union foreign policy chief Javier Solana.      Speaking to reporters in Washington on Friday, Solana said  he had known Clinton and her husband, former President Bill  Clinton, for a long time and the New York senator would be well  received in Europe if she became the top U.S. diplomat.      'I think it would be very well taken if that is the case,  at the end of the day,' said Solana when asked how he thought  European diplomats would react if President-elect Barack Obama  chose her to head the State Department.     'She is capable, with experience. She is well known,' he  added. 'Nothing seems to be negative.'      A Democratic Party official said on Thursday that Obama was  on track to name Clinton as secretary of state after the Nov.  27 Thanksgiving holiday.      Solana said Clinton's husband was respected for his efforts  in trying to resolve the Israeli-Palestinian conflict in the  final days of his administration.      'The name Clinton is well regarded,' added Solana, who has  had several key European diplomatic jobs, including NATO  Secretary General until 1999.      Solana said he had not spoken to either Clinton during his  current U.S. visit but that he had recently been in contact  with Vice President-elect Joe Biden, who as a long-time member  of the Senate Foreign Relations Committee and its current  chairman, is also well-known in foreign policy circles.   (Reporting by Sue Pleming, editing by Jackie Frank)   ((sue.pleming@reuters.com; 202 898 8393, Reuters Messaging:  sue.pleming.reuters.com@reuters.net))  Keywords: USA OBAMA/CLINTON SOLANA       ",
+        "Histogram": [
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 15.77350902557373,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "'I think it would be very well taken if that is the case, at the end of the day,' said Solana when asked how he thought European diplomats would react if President-elect Barack Obama chose her to head the State Department. 'She is capable, with experience. She is well known,' he added. 'Nothing seems to be negative.'",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence contains the subjective opinion of Javier Solana, the European Union foreign policy chief, regarding Hillary Clinton's potential appointment as the U.S. secretary of state. His positive assessment, without providing concrete evidence, blurs the line between fact and personal perspective, thus demonstrating an opinionated bias."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias through the inclusion of an opinionated statement by Javier Solana, favoring Hillary Clinton's capabilities for the role of U.S. secretary of state. The bias is primarily in the form of opinionated bias, showcasing a subjective perspective without substantial evidence."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.45454545454545453,
+            "overall_rating": 0.5272727272727272
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "UPDATE 1-ANALYSIS-Hillary Clinton faces bright, uncertain future",
+        "URL": "UPDATE 1-ANALYSIS-Hillary Clinton faces bright, uncertain future.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": " (Updates with Lieberman comments)      By Thomas Ferraro      WASHINGTON, June 5 (Reuters) - What does Hillary Clinton  want and what will she get -- other than, perhaps, returning to  the U.S. Senate where she's still a star?      The answer may emerge soon as Clinton gets ready to finally  concede defeat as the first viable woman contender for the  White House -- amid signs she may like to be the vice  presidential running mate of Democratic presidential candidate  Barack Obama.      Paul Light of New York University's Center for the Study of  Congress said Clinton must quickly end her historic  presidential bid or face party backlash.      'But if she withdraws gracefully, she will have an enormous  range of opportunities,' Light said. 'She could eventually  become a Senate leader or end up on the Supreme Court.'      Others have suggested she might want to be New York  governor -- or make another run for the White House in 2012 if  Republican John McCain defeats Obama in the general election.      Clinton riled some Democrats by declining to concede when  the Illinois senator wrapped up the nomination on Tuesday. She  has since announced she will do so on Saturday.      Democratic Sen. Dianne Feinstein of California, who backed  Clinton, said, 'I have no doubt that if she comes back to the  Senate -- as opposed to becoming the vice presidential nominee  or whatever -- she will continue to be a tremendous senator.'      'And that's not too shabby,' Feinstein said.      Clinton joined the Senate in January 2001 after eight years  in the White House as a top aide and wife of President Bill  Clinton.      Some have suggested Clinton, 60, follow the lead of Sen.  Edward Kennedy of Massachusetts, a Democratic icon and  workhorse.      After he failed to wrest the Democratic nomination from  President Jimmy Carter in 1980, Kennedy returned to the Senate  and became one of its most effective legislators, helping craft  landmark bills, many to help the disadvantaged.      'I've got to believe, as trite as it may sound, that her  role model now is Ted Kennedy,' said Norm Ornstein, a  congressional scholar at the American Enterprise Institute.      The New York Democrat 'could become a real go-to person in  the Senate who has the ability to attract and keep great staff,  who has a real grasp for important issues, who can build  relationships and has a driving desire to figure out how to  make things happen,' he said.      And with the 76-year-old Kennedy being treated for brain  cancer, Clinton could help fill the void his illness may create  in the Senate, Ornstein said.           'WHAT DOES HILLARY WANT'      Increased clout -- not a prestigious title -- is probably  the most Clinton can hope for back in the Senate.      There are no leadership positions open for her to fill, and  she lacks the seniority needed to chair any major committee.      In her home state on Tuesday night, Clinton told  supporters: 'A lot of people are asking, 'What does Hillary  want?'      'Well, I want what I have always fought for in this whole  campaign. I want to end the war in Iraq. I want to turn this  economy around. I want health care for every American. I want  every child to live up to his or her God-given potential, and I  want the nearly 18 million Americans who voted for me to be  respected, to be heard and no longer to be invisible.'      While Clinton backers have said she's open to being the  vice presidential nominee if it helps unite the party,  ",
+        "Histogram": [
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 15.728313446044922,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Paul Light of New York University's Center for the Study of Congress said Clinton must quickly end her historic presidential bid or face party backlash.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence implies a subjective opinion about the consequences of Clinton's actions, suggesting that not ending her bid quickly would lead to a party backlash, without providing evidence for this prediction."
+                },
+                {
+                    "text": "Others have suggested she might want to be New York governor -- or make another run for the White House in 2012 if Republican John McCain defeats Obama in the general election.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence engages in speculation about Clinton's future political ambitions without concrete evidence, presenting these possibilities as if they were likely outcomes."
+                },
+                {
+                    "text": "Clinton riled some Democrats by declining to concede when the Illinois senator wrapped up the nomination on Tuesday. She has since announced she will do so on Saturday.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'riled' to describe the reaction of some Democrats to Clinton's actions carries a negative connotation, implying a judgment about her behavior and its effect on others."
+                },
+                {
+                    "text": "Increased clout -- not a prestigious title -- is probably the most Clinton can hope for back in the Senate. There are no leadership positions open for her to fill, and she lacks the seniority needed to chair any major committee.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence speculates on the limitations of Clinton's future in the Senate, suggesting what she can 'probably' hope for without presenting concrete evidence for this assertion."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding Hillary Clinton's political future, particularly in its speculative and opinionated language about the consequences of her actions and the limitations of her potential roles. The biases include Opinionated Bias, Speculation Bias, and Word Choice Bias, indicating a tendency to present subjective opinions and speculative outcomes as facts."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.12,
+            "overall_rating": 0.36
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "RPT-FACTBOX-Hillary Clinton faces colleagues in U.S. Senate",
+        "URL": "RPT-FACTBOX-Hillary Clinton faces colleagues in U.S. Senate.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": " (Repeating without changes to text or headline)      Jan 13 (Reuters) - U.S. Sen. Hillary Clinton of New York is  expected to get a warm welcome on Tuesday when she visits the  Senate Foreign Relations Committee for a hearing on her  nomination to be U.S. Secretary of State.      Clinton, a Democrat who has at times been a polarizing  figure during her political career, has faced no opposition so  far from Senate colleagues to her nomination by President-elect  Barack Obama to be the top U.S. diplomat.      Here are some facts and biographical details about  Clinton.           - Clinton, who is married to former President Bill Clinton,  was first lady from 1993 to 2001. She headed the Clinton  administration's failed effort to overhaul the U.S. health care  system and drew criticism for not seeking enough public or  congressional input and developing a plan that was considered  too complicated.           - While in the White House she was drawn into several  scandal investigations, but was never charged with wrongdoing  in probes of the firing of White House travel office staff  members and an Arkansas real estate loan made before the couple  moved to the White House.           - Clinton defended her husband when allegations surfaced in  1998 of his extramarital affair with a White House intern and  was angry when they were revealed to be true, but stood by him  during his impeachment and subsequent acquittal in a Senate  trial.           - Clinton was elected to the U.S. Senate from New York in  2000, the first time a first lady had run for public office.  While Clinton has been a frequent target of Republican  animosity, she won praise for building bridges with the other  party in the Senate, visited conservative areas of upstate New  York frequently and was easily re-elected in 2006 in a race  that set up her run for the White House in 2008.           - Clinton won more than 18 million votes during a prolonged  and close battle with Obama for the Democratic presidential  nomination, but eventually fell short and withdrew from the  race in June 2008. She pledged her support for Obama in his  campaign against Republican John McCain, delivering a  high-profile convention speech on Obama's behalf and appearing  on the campaign trail with him frequently.           - Clinton, a graduate of Yale Law School, was an  accomplished lawyer. She worked in Washington in 1974 for the  House of Representatives committee considering the impeachment  of President Richard Nixon during Watergate and was named by a  magazine in 1991 as one of the 100 most influential lawyers in  America.           - Clinton, 61, was born in Park Ridge, Illinois. She was a  fan of conservative Republican presidential candidate Barry  Goldwater during his losing 1964 campaign, but became a  Democrat while attending Wellesley College. She met Bill  Clinton while at Yale.   (Writing by John Whitesides; Editing by David Storey)  ((john.whitesides@reuters.com; 202 898-8393))  Keywords: USA CLINTON/        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 15.686060905456543,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it provides a factual overview of Hillary Clinton's political career and personal background without employing any of the common bias types."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Hillary Clinton urges Democrats to unite behind Obama",
+        "URL": "Hillary Clinton urges Democrats to unite behind Obama.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    DENVER, Aug 26 (Reuters) - Defeated Democratic presidential  candidate Hillary Clinton urged Democrats to unite behind  Barack Obama on Tuesday, calling herself a 'proud supporter' of  the presidential candidate.      Seeking to ease doubts that she would fight hard for Obama  despite lingering tensions from her loss to him, Clinton told  the Democratic National Convention: 'Barack Obama is my  candidate and he must be our president.'      'Whether you voted for me, or voted for Barack, the time is  now to unite as a single party with a single purpose. We are on  the same team, and none of us can afford to sit on the  sidelines,' she said.      (Reporting by Steve Holland, editing by Howard Goller)  Keywords: USA POLITICS/CLINTON        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 15.674361228942871,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a straightforward report on Hillary Clinton's call for unity behind Barack Obama, without introducing any elements of bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "U.S. Senate approves Hillary Clinton as top diplomat",
+        "URL": "U.S. Senate approves Hillary Clinton as top diplomat.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WASHINGTON, Jan 21 (Reuters) - Hillary Clinton won U.S.  Senate approval on Wednesday as the next secretary of state,  despite renewed Republican questions about potential conflicts  of interest created by her husband's foreign fundraising.     The Senate easily approved Clinton's nomination to the post  by President Barack Obama, clearing her to move quickly into  her role as the country's top diplomat. She will replace former  Secretary of State Condoleezza Rice.   ((Reporting by John Whitesides; Editing by Sandra Maler;  john.whitesides@reuters.com; 202 898-8393))  Keywords: OBAMA CLINTON/VOTE        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 15.671916961669922,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports on the U.S. Senate's approval of Hillary Clinton as the next secretary of state without introducing any subjective or misleading information."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "WRAPUP 5-Backers of Hillary Clinton cloud Obama show",
+        "URL": "WRAPUP 5-Backers of Hillary Clinton cloud Obama show.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    * Democratic National Convention opens      * Edward Kennedy to be honored      * Vice presidential pick Biden arrives in convention city           By Steve Holland,      DENVER, Aug 25 (Reuters) - Defeated Democratic presidential  hopeful Hillary Clinton urged her frustrated followers to fall  in line behind Barack Obama on Monday as a party rift  threatened to rain on Obama's nominating parade.      Democratic Party chairman Howard Dean pounded a gavel to  open a four-day convention that Democrats say Obama must use to  unite Democrats, draw a sharp contrast with Republican rival  John McCain and back up soaring oratory with a policy for  leading the country.      'Looking out from this podium tonight, I see this diverse  assembly of Democrats as a testament to the strength and unity   of our party and the fruition of our 50-state strategy,' Dean    said.     The day's agenda was focused on outlining Obama's personal  story. His wife, Michelle Obama, was due to give a keynote  address on Monday night.     The son of a black father from Kenya and a white mother  from Kansas, Obama, 47, spent formative years in Hawaii and  Indonesia, worked his way through college and began his  political career as a community organizer in Chicago.      Democrats hoped a tribute to Massachusetts Sen. Edward  Kennedy, a Democratic Party icon battling brain cancer, would  generate party enthusiasm. An aide to Kennedy said the senator  would attend but not speak.      Casting a cloud over the convention was ongoing resentment  from supporters of New York Sen. Clinton, miffed that she lost  the nomination and upset that she was not picked as Obama's  vice presidential running mate. Obama chose veteran Delaware  Sen. Joe Biden, who arrived at the convention on Monday.      Clinton, speaking to sign-waving supporters from her home  state delegation before the convention began, urged party  unity.      'We are after all Democrats, so it may take a while,' she  said. 'We're not the fall-in-line party. We are diverse. But  make no mistake, we are unified,' she said.      Amid reports that former President Bill Clinton was upset  that he was asked to speak about foreign policy on Wednesday  night instead of the U.S. economy, Obama told reporters  traveling with him that he had told Clinton in a phone  conversation last week he could talk about whatever he wanted.      'I said, Mr. President, you can say whatever you like. Bill  Clinton is a unique figure in our politics,' Obama said.      Obama also said in Moline, Illinois, that Hillary Clinton  had been on his vice presidential short list. He played down a  rift with the Clintons.      'I am absolutely convinced that both Hillary Clinton and  Bill Clinton understand the stakes,' he said.      A new opinion poll showed how much work lay ahead to rally  Clinton supporters behind him. The CNN/Opinion Research Corp.  poll said the race between Obama and McCain was even, each with  47 percent support.      It said 66 percent of Clinton supporters backed Obama, down  from 75 percent at the end of June. Twenty-seven percent of  them said they would support McCain in the Nov. 4 election, up  from 16 percent in late June.           REHEARSAL      Michelle Obama took the stage in the half-empty hall along  with her children and some family members early on Monday to  check the layout ahead of her speech.      The hall's dominant feature is a giant, multi-tiered screen  set behind the speaker that will project party l",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 15.648664474487305,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to exhibit bias as it primarily reports on the Democratic National Convention and the efforts to unite the party behind Barack Obama, without showing a tendency to favor or disfavor any particular viewpoint or group."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    }
+]

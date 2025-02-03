@@ -1,0 +1,1249 @@
+[
+    {
+        "Title": "Calif. official seeks to overturn gay marriage ban",
+        "URL": "Calif. official seeks to overturn gay marriage ban.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    SAN FRANCISCO, Dec 19 (Reuters) - California Attorney  General Jerry Brown unexpectedly joined the fight to reverse a  ban on gay marriage, telling the state Supreme Court on Friday  the voter-approved ban violates the constitutional right to  liberty.      Proposition 8, which limits marriage to a union of man and  woman, was approved by California voters last month. It stopped  same-sex marriages and sparked a legal battle that has reached  the state's top court.      The same court opened the door to gay marriage in a ruling  over the summer, putting California among a handful of states,  provinces and countries where it is legal.      'The amendment process cannot be used to extinguish  fundamental constitutional rights without compelling  justification,' Brown, a former California governor, said in a  statement accompanying a brief to the court.      Brown had not previously disclosed his opinion on the  constitutionality of Prop 8.   (Reporting by Peter Henderson; Editing by Peter Cooney)   ((Reuters Messaging: peter.henderson.reuters.com@reuters.net;  email: peter.henderson@reuters.com; +1 415 677 2541))       Keywords: GAYMARRIAGE/CALIFORNIA       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 22.801055908203125,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It presents the information about California Attorney General Jerry Brown's unexpected involvement in the fight to reverse the ban on gay marriage in a neutral and factual manner, without showing a bias towards any particular viewpoint."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Hollywood urged to give more to save gay marriage",
+        "URL": "Hollywood urged to give more to save gay marriage.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Jill Serjeant      LOS ANGELES, Oct 2 (Reuters) - Hollywood, long considered a  bastion of liberal thinking, is being chided for not opening  its wallet to save the right to same-sex marriage in California  even as several A-list gays and lesbians rush to the altar.      With a month to go before a Nov. 4 referendum seeking to  abolish the newly won right of same-sex couples to marry in  California, some in the entertainment community are anxious  that more of their own are not supporting gay rights by  donating money to defeat the proposed ban.      So far, the largest celebrity donations have come from  actor Brad Pitt and director Steven Spielberg who each  contributed $100,000 each last month to help defeat the ballot  proposal, known as Proposition 8.      'We are concerned that the entertainment industry hasn't  stepped up to the plate to fight this unnecessary initiative  ... Now it's time for the entertainment industry as a whole to  take the lead,' activist Jonathan Lewis said on Wednesday.      Lewis, an entrepreneur from Ohio, said his family would  match the next $500,000 that entertainment industry leaders  contribute to the 'No on Prop 8' campaign.      Hundreds of gays and lesbians have married since a May  decision by the California Supreme Court overturning a state  ban on same-sex marriage.      But opponents of the ruling put the issue up for a  state-wide referendum that seeks to amend the California  constitution to allow marriage only between a man and a woman.      Recent opinion polls show that 38 percent of California  voters would support a ban on same-sex marriage with 55 percent  opposed. But supporters of the ban, including several religious  and conservative groups, have edged ahead in fund-raising.        CELEBRITY SIDE EFFECTS      By late September, opponents of gay marriage had raised  $14.7 million, while supporters brought in $13.5 million,  according the official records.      An article in the Los Angeles gay magazine In-LA last month  headlined 'Mega A-Gays Missing in Fight Against Prop 8' noted  that state records show Ellen DeGeneres, Portia de Rossi,  Melissa Etheridge, Rosie O'Donnell and international gays such  as Elton John have not contributed any cash.      But many in Hollywood also argue that the high-profile  wedding of popular chat show host DeGeneres to actress de Rossi  in August brought the kind of publicity money cannot buy.      DeGeneres, who in 1997 became the first openly gay lead  character on U.S. prime-time network TV, also has used her talk  show and an appearance on 'The Tonight Show with Jay Leno' to  urge Californians to maintain same-sex marriage.       Still, says Steve Smith, a consultant for the 'No on Prop  8' campaign, money is important.      'California is a very expensive state to communicate with  voters. Celebrity money in some ways goes a little further. It  gets more reported and that adds to the benefit of the  contribution itself,' Smith said.      'My guess is that after Pitt and Spielberg's donations we  are going to see more of that money,' Smith added.      To bolster its funds, the 'No on Prop 8' campaign will hold  an entertainment industry fundraiser this month.      However, celebrity giving can backfire.      'On word that Brad Pitt had donated $100,000 to the No  campaign, we had an individual who read that and himself  donated $100,000 to us,' said Jennifer Kearns, spokeswoman for  the 'Yes on Prop 8' campaign. 'So sometimes the high-prof",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 22.434307098388672,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "'We are concerned that the entertainment industry hasn't  stepped up to the plate to fight this unnecessary initiative  ... Now it's time for the entertainment industry as a whole to  take the lead,' activist Jonathan Lewis said on Wednesday.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence presents the opinion of activist Jonathan Lewis as a fact, suggesting that the entertainment industry's involvement is necessary without providing a balanced perspective."
+                },
+                {
+                    "text": "Hundreds of gays and lesbians have married since a May  decision by the California Supreme Court overturning a state  ban on same-sex marriage.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'hundreds' and 'since a May decision' emphasizes the volume and recentness of the marriages, potentially to evoke a specific emotional response in support of same-sex marriage."
+                },
+                {
+                    "text": "But opponents of the ruling put the issue up for a  state-wide referendum that seeks to amend the California  constitution to allow marriage only between a man and a woman.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The phrase 'marriage only between a man and a woman' frames the opposition's position in a way that could evoke a negative emotional response, suggesting exclusion and inequality."
+                },
+                {
+                    "text": "Recent opinion polls show that 38 percent of California  voters would support a ban on same-sex marriage with 55 percent  opposed. But supporters of the ban, including several religious  and conservative groups, have edged ahead in fund-raising.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The mention of 'religious and conservative groups' in the context of fundraising could imply a negative connotation, suggesting a disparity in the moral or ethical standing of the supporters based on their affiliations."
+                },
+                {
+                    "text": "An article in the Los Angeles gay magazine In-LA last month  headlined 'Mega A-Gays Missing in Fight Against Prop 8' noted  that state records show Ellen DeGeneres, Portia de Rossi,  Melissa Etheridge, Rosie O'Donnell and international gays such  as Elton John have not contributed any cash.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The term 'Mega A-Gays' and the framing of their non-contribution as 'Missing in Fight Against Prop 8' could be seen as using provocative language to criticize these individuals for their perceived lack of support."
+                },
+                {
+                    "text": "But many in Hollywood also argue that the high-profile  wedding of popular chat show host DeGeneres to actress de Rossi  in August brought the kind of publicity money cannot buy.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence presents the argument that the wedding's publicity is invaluable as a fact, without acknowledging alternative perspectives on the effectiveness of celebrity donations or endorsements."
+                },
+                {
+                    "text": "Still, says Steve Smith, a consultant for the 'No on Prop  8' campaign, money is important.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The assertion that 'money is important' in the context of the campaign implies a judgment that financial contributions are crucial for the success of the cause, without considering other forms of support or advocacy."
+                },
+                {
+                    "text": "'California is a very expensive state to communicate with  voters. Celebrity money in some ways goes a little further. It  gets more reported and that adds to the benefit of the  contribution itself,' Smith said.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This statement suggests a bias towards the effectiveness of celebrity donations over other forms of support, emphasizing the added value of media attention without a balanced examination of different advocacy strategies."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the discussion on same-sex marriage in California, with a general tendency to use word choice and opinionated statements that favor the support of same-sex marriage and criticize the perceived lack of involvement from the entertainment industry."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.22727272727272727,
+            "overall_rating": 0.41363636363636364
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Gay marriage votes may show changing U.S.",
+        "URL": "Gay marriage votes may show changing U.S..txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Peter Henderson      LOS ANGELES, Nov 2 (Reuters) - Gay couples are not hiding  any more and that has made all the difference, said health care  administrator Linda Merkens before Tuesday's vote in California  that will decide the legality of same-sex marriage there.      It's one of several important ballot measures voters will  face in states across the country on Election Day.      'A lot more gays are more open about their relationships,  and a lot more people are willing to accept it,' Merkens said  in downtown Los Angeles recently.      Other passersby disagreed. 'Same sex marriage is a sin,'  said city planner Kim Chan.      Tuesday's results will show how far attitudes to gay  marriage have changed. Florida and Arizona will join California  in voting on whether to stop gay marriage.      In the past, such propositions have almost always been  approved, but polls show a close finish in California and many  undecided in all three states.      Legal abortion also faces a key challenge as South Dakotans  consider a measure to severely restrict the procedure. If it  passes, opponents are expected to challenge it all the way to  the U.S. Supreme Court. A poll by the state Argus Leader  newspaper showed that vote a toss-up.      Altogether, 150 measures in about 35 states will be put to  the vote on the same day the next U.S. president is chosen,  with other issues ranging from affirmative action to how farm  animals are treated. [ID:nN01396494].      A California court in May rejected limiting marriage to a  man and a woman. Only a few nations and states agree.      Now Hollywood stars like Brad Pitt are facing off with  conservative foes like the fast-growing Mormon church, the  Church of Jesus Christ of Latter-day Saints, over Proposition  8, which would ban same-sex marriage.      Both sides have broad, deep pockets: ban proponents have  raised about $30 million, and opponents recently topped that.           MORE IMPORTANT THAN PRESIDENCY      'This is the most important thing on the November 4th  ballot,' said Tony Perkins, president of the conservative  Family Research Council. 'We've made bad selections as  presidents but survived as a nation. But if we move down the  path towards the dissolution of marriage we cannot divorce  ourselves from the consequences of that.'      Episcopal Bishop Marc Andrus supports gay marriage and said  a ballot loss would slow the process -- not stop it.      Californians in 2000 passed a measure to define marriage as  between a man and a woman. At that time, the San Francisco Bay  Area was the only part of the state that supported gay  marriage, said pollster Mark DiCamillo of the Field Poll.      This year, all the coastal areas support gay marriage, and  support in the inland valleys, which have values similar to the  center of the United States, has grown but remains small.      Los Angeles County had the biggest swing, he said. 'It's  the moderates who have moved,' he said.      John Matsusaka, president of the Initiative and Referendum  Institute at the University of Southern California, said  voters, especially younger ones, were used to homosexuality.     'It doesn't have shock value any more,' Matsusaka said.      A ProtectMarriage.org flyer argues that gay marriage will  be taught in schools if the ban fails, a position their  opponents reject. Same-sex marriage supporters focus on equal  rights for all. 'People you know are asking you to vote no on  Prop. 8' a No on 8 flyer says. ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0.5,
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 22.39394760131836,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Other passersby disagreed. 'Same sex marriage is a sin,' said city planner Kim Chan.",
+                    "bias_type": "Discriminatory Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence promotes a generalized and prejudiced statement against same-sex marriage, based on religious beliefs, reinforcing discrimination."
+                },
+                {
+                    "text": "In the past, such propositions have almost always been approved, but polls show a close finish in California and many undecided in all three states.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'almost always' and 'many undecided' implies a judgment and uncertainty that could influence the reader's perception of the situation."
+                },
+                {
+                    "text": "Legal abortion also faces a key challenge as South Dakotans consider a measure to severely restrict the procedure. If it passes, opponents are expected to challenge it all the way to the U.S. Supreme Court. A poll by the state Argus Leader newspaper showed that vote a toss-up.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Describing the vote as a 'toss-up' introduces a subjective and potentially misleading term, suggesting a closer contest than may be the case."
+                },
+                {
+                    "text": "Now Hollywood stars like Brad Pitt are facing off with conservative foes like the fast-growing Mormon church, the Church of Jesus Christ of Latter-day Saints, over Proposition 8, which would ban same-sex marriage.",
+                    "bias_type": "Political Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "The framing of the conflict as 'Hollywood stars' versus 'conservative foes' introduces a political bias by favoring the perspective of the former over the latter."
+                },
+                {
+                    "text": "'This is the most important thing on the November 4th ballot,' said Tony Perkins, president of the conservative Family Research Council. 'We've made bad selections as presidents but survived as a nation. But if we move down the path towards the dissolution of marriage we cannot divorce ourselves from the consequences of that.'",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of dramatic language such as 'the dissolution of marriage' is designed to evoke strong emotions, potentially at the expense of a balanced discussion."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article is biased regarding the topic of same-sex marriage, showing a general bias tendency through discriminatory, word choice, political, and emotional sensationalism biases."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.58,
+            "percentage_of_biased_sentences": 0.25,
+            "overall_rating": 0.415
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Ellen buys $100,000 TV time to support gay marriage",
+        "URL": "Ellen buys $100,000 TV time to support gay marriage.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    LOS ANGELES, Oct 17 (Reuters) - Comedian Ellen DeGeneres  has bought $100,000 of television airtime to urge Californians  to vote to save the right to gay marriage in a November ballot,  campaign organizers said on Friday.      Claiming that opponents of gay marriage are twisting the  truth and trying to scare voters, DeGeneres will appeal in a  television ad to vote for equality, compassion and fairness.      The chat show host and comic actress wed her long time  partner, actress Portia de Rossi, in August in the most  high-profile same-sex marriage since such unions were declared  legal in California in May.      Her message will be broadcast on television as celebrities  step up the fight to defeat Proposition 8 on the Nov.4 state  ballot that seeks to define marriage under the California  constitution as only between a man and a woman.      'Hi, I'm Ellen DeGeneres.  I got to do something this year  I never thought I'd ever be able to do: I got married. It was  the happiest day of my life. There are people out there raising  millions of dollars to try and take that right away from me.      'You've seen their ads on TV. They're twisting the truth,  and they're trying to scare you. I believe in fairness.  I  believe in compassion. I believe in equality for all people.  Proposition 8 does not. Please, please, vote no on Prop. 8,'  the actress says in her appeal.      In recent weeks, opinion polls have shown a swing in the  number of Californians who oppose same-sex marriage. Their  campaign has raised $25.4 million, compared with $15.8 million  for those who wish to maintain the right to gay marriage.      Opponents of same-sex marriage have stepped up their  television advertising, warning that children will be taught  about gay marriage in elementary schools.      Gay-marriage supporters call that argument misleading.      Singers Melissa Etheridge, who plans to marry partner Tammy  Tammy Lynn Michaels, and Mary J. Blige will perform at a  $25,000-a-plate dinner in Beverly Hills on Tuesday in support  of the 'No' campaign.   (Reporting by Jill Serjeant)   ((jill.serjeant1@thomsonreuters.com; +1 213 955 6749))    (To read more about our entertainment news, visit our blog  'Fan Fare' online at http://blogs.reuters.com/fanfare/)  Keywords: PEOPLE ELLEN       ",
+        "Histogram": [
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.7,
+            0.7,
+            0,
+            0
+        ],
+        "Relevance": 22.380596160888672,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Claiming that opponents of gay marriage are twisting the truth and trying to scare voters, DeGeneres will appeal in a television ad to vote for equality, compassion and fairness.",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence attacks the character and motives of the opponents of gay marriage by accusing them of 'twisting the truth' and 'trying to scare voters' without addressing the substance of their arguments."
+                },
+                {
+                    "text": "'You've seen their ads on TV. They're twisting the truth, and they're trying to scare you. I believe in fairness. I believe in compassion. I believe in equality for all people. Proposition 8 does not. Please, please, vote no on Prop. 8,' the actress says in her appeal.",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Ellen DeGeneres' statement directly accuses the proponents of Proposition 8 of 'twisting the truth' and 'trying to scare' voters, targeting their character and motives rather than addressing the specifics of the proposition."
+                },
+                {
+                    "text": "In recent weeks, opinion polls have shown a swing in the number of Californians who oppose same-sex marriage. Their campaign has raised $25.4 million, compared with $15.8 million for those who wish to maintain the right to gay marriage.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'swing' in describing the change in opinion polls implies a judgment that a shift away from supporting same-sex marriage is negative, suggesting a bias in favor of the position supporting gay marriage."
+                },
+                {
+                    "text": "Opponents of same-sex marriage have stepped up their television advertising, warning that children will be taught about gay marriage in elementary schools. Gay-marriage supporters call that argument misleading.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.7,
+                    "bias_description": "This sentence implies that the opponents' concern about children being taught about gay marriage in schools is a misunderstood or misleading argument, without providing a balanced view or evidence to support the claim that it is indeed misleading."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the topic of gay marriage, with a general tendency to discredit the arguments of those opposed to gay marriage through ad hominem attacks, word choice, and causal misunderstanding, while presenting the supporters' perspective more favorably."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.625,
+            "percentage_of_biased_sentences": 0.5,
+            "overall_rating": 0.5625
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Power struggle complicates NY bid for gay marriage",
+        "URL": "Power struggle complicates NY bid for gay marriage.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Edith Honan      NEW YORK, Nov 26  (Reuters) - New York is close to becoming  the first U.S. state to pass legislation making gay marriage  legal but, like many political issues in the state capital  Albany, it has fallen victim to a power struggle.      Democrats won a majority in the upper house Senate for the  first time in more than 40 years in the Nov. 4 election, but  three Democratic senators refuse to back fellow Democratic Sen.  Malcolm Smith as majority leader without concessions.      The Republicans could regain their power in the Senate if  the three Democratic senators, who include longtime gay  marriage opponent Sen. Ruben Diaz, opt to vote with them.      'I will not give my vote to a leader that will bring gay  marriage to the state,' Diaz, a Pentecostal minister, said in  an interview. 'Have a voter referendum. Let the people  decide.'      Connecticut and Massachusetts are the only U.S. states that  allow same-sex marriage as a result of court rulings. No state  legislature has instituted gay marriage into law.      After Californian voters passed Prop 8 on Nov. 4 reversing  the state's Supreme Court decision in May to allow same-sex  marriage, the next battleground state for gay mariage is  expected to be New York. The New York Assembly passed a  marriage bill in June 2007 but the Senate has yet to act.      The Senate power struggle has delayed appointment of a  majority leader until January and upset gay rights activists  who believed gay marriage would be legalized once Democrats  took control of the Senate.      Albany has a reputation for bickering and power struggles,  which critics say was demonstrated when the legislature last  week rejected Democratic Gov. David Paterson's emergency budget  cuts for many reasons, including the Senate leadership battle.      Gay marriage has broad support in the Democratic-controlled  lower house, the State Assembly, where it passed in a vote of  85 to 61 last year. It was never put to a vote in the upper  house when the Republicans controlled the Senate.      Paterson, who in May ordered all state agencies to  recognize out-of-state gay marriages, has said he would sign  such a bill into law.      'It's going to happen. It's not an if, it's a when,' said  Sen. Tom Duane, a same-sex marriage campaigner.      Gay rights groups say they are still hopeful New York and  New Jersey legislatures will pass gay marriage bills as soon as  2009 and are unfazed by the New York State Senate leadership  struggle.      'When the dust settles, and we do consider it dust, there  will be a Democratic majority leader who will put forth a  marriage equality bill,' said Marty Rouse, national field  director for Human Rights Campaign, a major U.S. gay rights  group.      Alan Van Capelle, executive director of Empire State Pride  Agenda, said the gay marriage issue had not proven to be toxic  as none of the Republican assembly members who voted for  same-sex marriage in 2007 were voted out of office.      But Duane Motley, executive director of the Christian lobby  group New Yorkers for Constitutional Freedoms, said that even  if Smith is named majority leader, passage of gay marriage is  by no means assured.      'It's not a done deal,' he said. 'The rank and file people  of New York State are not in favor of homosexual marriages.'      Smith has not said publicly how he will handle the gay  marriage issue if he is made majority leader at the next  legislative session in January.      'Re",
+        "Histogram": [
+            0,
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0
+        ],
+        "Relevance": 22.353607177734375,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Democrats won a majority in the upper house Senate for the first time in more than 40 years in the Nov. 4 election, but three Democratic senators refuse to back fellow Democratic Sen. Malcolm Smith as majority leader without concessions.",
+                    "bias_type": "Political Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence exhibits political bias by portraying the Democratic senators' refusal to support Sen. Malcolm Smith as a power struggle within the Democratic party, suggesting internal disarray and undermining the party's recent electoral victory."
+                },
+                {
+                    "text": "'I will not give my vote to a leader that will bring gay marriage to the state,' Diaz, a Pentecostal minister, said in an interview. 'Have a voter referendum. Let the people decide.'",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This quote from Sen. Ruben Diaz introduces opinionated bias by advocating for a voter referendum on gay marriage, implying that the decision should not be left to legislative processes. This presents a subjective opinion as a valid alternative to the legislative procedure."
+                },
+                {
+                    "text": "After Californian voters passed Prop 8 on Nov. 4 reversing the state's Supreme Court decision in May to allow same-sex marriage, the next battleground state for gay mariage is expected to be New York. The New York Assembly passed a marriage bill in June 2007 but the Senate has yet to act.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The sentence uses emotionally charged language, referring to New York as the 'next battleground state for gay marriage,' which sensationalizes the issue and implies a dramatic conflict, potentially evoking strong emotions in the reader."
+                },
+                {
+                    "text": "Albany has a reputation for bickering and power struggles, which critics say was demonstrated when the legislature last week rejected Democratic Gov. David Paterson's emergency budget cuts for many reasons, including the Senate leadership battle.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'bickering' to describe political disagreements in Albany introduces word choice bias, suggesting trivial or petty arguments rather than substantive policy debates, and undermining the seriousness of the legislative process."
+                },
+                {
+                    "text": "But Duane Motley, executive director of the Christian lobby group New Yorkers for Constitutional Freedoms, said that even if Smith is named majority leader, passage of gay marriage is by no means assured. 'It's not a done deal,' he said. 'The rank and file people of New York State are not in favor of homosexual marriages.'",
+                    "bias_type": "Unsubstantiated Claims Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This statement presents the opposition to gay marriage as a widely held and unchallenged view ('the rank and file people of New York State are not in favor of homosexual marriages'), without providing evidence to support the claim, thus introducing unsubstantiated claims bias."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the issue of gay marriage in New York, with multiple instances of political bias, opinionated bias, emotional sensationalism bias, word choice bias, and unsubstantiated claims bias. The general bias tendency leans towards portraying the legislative process and public opinion on gay marriage in a divisive and emotionally charged manner, potentially skewing the reader's perception of the issue."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.38461538461538464,
+            "overall_rating": 0.49230769230769234
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "California gay marriage battle turns to court role",
+        "URL": "California gay marriage battle turns to court role.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Peter Henderson      SAN FRANCISCO, Jan 5 (Reuters) - The legal battle over gay  marriage in California turned on Monday to whether the state's  top court could strike down a change in the state constitution  that was approved by voters.      Gay marriage opponents said overturning a same-sex marriage  ban would change the nature of California government by gutting  the people's right to make law.      Giving such power to the court would create 'a sweeping  power vested in the least-democratic branch that overrides the  precious right of the people to determine how they will be  governed,' they said in court papers filed on Monday.      'It is essentially changing the constitution-making  function from the people to the courts,' lawyer Andrew Pugno, a  supporter of Proposition 8, which defines marriage as between a  man and a woman, said by telephone.      Gay marriage proponents, led by California Attorney General  Jerry Brown, argue that the right to marry is part of the  'inalienable right' to liberty, so the state Supreme Court must  strike down even an amendment to the constitution limiting it.      State voters approved Prop 8 on Nov. 4, removing California  from the short list of U.S. states, Canadian provinces and  mostly European countries allowing same-sex unions.      The vote in California, which had begun allowing gay  marriage only months earlier, sparked protests across the  United States, even though a solid majority of states have  outlawed same-sex marriage.      California often sets socially liberal precedents for the  rest of the United States, but many of its residents have a  fundamentalist democratic, anti-government bent. Citizens have  wide latitude to change laws and the state constitution  directly via popular vote -- which was the case with the gay  marriage ban.      The ban was approved by 52 percent of voters. Brown says  that, unless there is a compelling societal need, the court  must safeguard liberty first and foremost. Lawyers backing the  ban, he said, want 'to say that a fundamental liberty is only  fundamental until 52 percent of the people say otherwise.'      The court, which in a summer 2008 opinion opened the door  to same-sex marriage -- until the ban was passed in November --  is expected to hear oral arguments in March.      (Reporting by Peter Henderson, Editing by Patricia  Zengerle)   ((Reuters Messaging: peter.henderson.reuters.com@reuters.net;  email: peter.henderson@reuters.com; +1 415 677 2541))  Keywords: GAYMARRIAGE CALIFORNIA/       ",
+        "Histogram": [
+            0,
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0.5,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0
+        ],
+        "Relevance": 22.1961727142334,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Gay marriage opponents said overturning a same-sex marriage ban would change the nature of California government by gutting the people's right to make law.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence presents the opinion of gay marriage opponents as a fact, suggesting that allowing the court to overturn the ban would 'gut' the people's right to make law, which obscures the line between fact and personal perspective."
+                },
+                {
+                    "text": "'It is essentially changing the constitution-making function from the people to the courts,' lawyer Andrew Pugno, a supporter of Proposition 8, which defines marriage as between a man and a woman, said by telephone.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'essentially' in this quote implies a definitive change in the constitution-making function, reflecting the subjective opinion of the lawyer rather than an objective analysis."
+                },
+                {
+                    "text": "Gay marriage proponents, led by California Attorney General Jerry Brown, argue that the right to marry is part of the 'inalienable right' to liberty, so the state Supreme Court must strike down even an amendment to the constitution limiting it.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence presents the argument of gay marriage proponents as a moral absolute ('inalienable right'), blurring the line between legal interpretation and personal belief."
+                },
+                {
+                    "text": "California often sets socially liberal precedents for the rest of the United States, but many of its residents have a fundamentalist democratic, anti-government bent.",
+                    "bias_type": "Generalization Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "This statement generalizes the characteristics of California residents, attributing a 'fundamentalist democratic, anti-government bent' to many based on the actions of a few, without providing evidence for such a broad claim."
+                },
+                {
+                    "text": "Lawyers backing the ban, he said, want 'to say that a fundamental liberty is only fundamental until 52 percent of the people say otherwise.'",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The framing of the argument in this quote implies a moral judgment on the position of the lawyers, suggesting that their stance diminishes the concept of fundamental liberty, which is a subjective interpretation presented as a factual critique."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article is biased regarding the topic of gay marriage in California, with a general bias tendency towards presenting subjective opinions and generalizations as facts, particularly in the context of legal and democratic processes."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.58,
+            "percentage_of_biased_sentences": 0.21428571428571427,
+            "overall_rating": 0.39714285714285713
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "UPDATE 3-California court to hear gay marriage ban case",
+        "URL": "UPDATE 3-California court to hear gay marriage ban case.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": " (Adds quotes from lawyers, advocates)      By Peter Henderson      SAN FRANCISCO, Nov 19 (Reuters) - California's Supreme  Court on Wednesday agreed to hear a legal challenge against the  state's voter-approved ban on gay marriage and let the ban  stand in the meantime.      A decision by the same court in May had opened marriage to  same-sex couples in America's most populous state, one of a  handful of states, provinces and mostly European countries  where such unions are recognized.      When state voters passed the ban on Nov. 4, social  conservatives celebrated, but nationwide protests by gays and  other ban opponents since then have given the debate new life.      The court case also pits two fundamental concepts of U.S.  democracy against one another, with gay marriage advocates  saying the proposition would open the doors to systematic  repression of minorities and opponents saying courts must  recognize the will of the people under separation of powers  doctrine.      'I am optimistic that the Supreme Court will affirm that  separate is not equal,' San Francisco Mayor Gavin Newsom said  in a statement. 'This is a great day for the rule of law and  the voters of California,' said Andrew Pugno, counsel for the  gay marriage ban proponents.      Trend-setting California is itself divided over the issue,  with cities like San Francisco and Los Angeles more open to gay  marriage and inland valleys, often compared to the socially  conservative Midwest, against it.      Thousands of same-sex marriages may also hang in the  balance, since the court asked for arguments on whether the  ban, Proposition 8, would affect unions between the May court  ruling and the November election.        LEGAL LIMBO      Those marriages have been seen as being in legal limbo,  despite state officials including Gov. Arnold Schwarzenegger  saying they should stand.      Gay marriage advocates as well as some opponents had urged  the court to consider the ban, because of its importance, but  same-sex couple supporters had asked that the ban passed by  voters earlier this month be put on hold in the mean time.      Some 52 percent of voters agreed to amend the state  constitution to define marriage as between a man and a woman.      Gay advocates argued that Californians could not strip a  right from a minority with only a majority-approved  constitutional amendment. A more rigorous process called a  constitutional revision was required, they argued.      National Center for Lesbian Rights' legal director Shannon  Minter said if the court backed the proposition, then the  rights of any group could be stripped by simple majority vote.      'It mandates discrimination,' he said of Prop 8, adding  similar ones would follow. 'I really can't imagine a more  serious issue before the court, or a more frightening one.'      Ban supporters said the single-sentence change was too  limited to require a full constitutional revision and that the  state constitution gave wide latitude to the people through the  amendment process.      'It would be a radical departure from 150 years of  precedent (to overturn Prop 8),' said Pugno, calling the  challenge a 'long shot.'      'I think the larger question is going to be what is the  status of the marriages that were created prior to the  election,' he said, adding that he had not taken a legal stand  on the issue and was researching.      The court said it would hear arguments on the amendment  process, the effect of Prop 8 o",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 22.014680862426758,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual overview of the legal challenge against California's voter-approved ban on gay marriage and includes quotes from both sides of the debate without showing a clear bias towards one perspective."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Is Hollywood Blacklisting Supporters of Gay Marriage Ban_.txt",
+        "URL": "Is Hollywood Blacklisting Supporters of Gay Marriage Ban_.txt.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/240px-Fox_News_Channel_logo.svg.png",
+        "Text": "This is a rush transcript from \"The O'Reilly Factor,\" November 24, 2008. This copy may not be in its final form and may be updated.\n\nWatch \"The O'Reilly Factor\" weeknights at 8 p.m. and 11 p.m. ET and listen to the \"Radio Factor!\"\n\nLAURA INGRAHAM, GUEST HOST: In the \"Personal Story\" segment tonight: According to a report in the L.A. Times, some gay rights supporters in Hollywood may be starting a blacklist against people who supported traditional marriage by giving money to Prop 8 advocates.\n\nJoining us now from Los Angeles is Andrew Breitbart, publisher of Breitbart.com, and one of a handful of conservatives who are brave enough to speak out in Hollywood. Andrew, great to see you.\n\nClick here to watch the segment.\n\nANDREW BREITBART, BREITBART.COM: Hey, Laura. How are you?\n\nINGRAHAM: I remember when George Clooney was telling us that, you know, the biggest threat to mankind, you know, a few decades back was the blacklisting in Hollywood of people who dared to question authority. And so is this actually happening now on the other side of the political fence?\n\nBREITBART: Well, this is a more conspicuous form of blacklisting. It happens for conservatives every single day in Hollywood. This FEC search mechanism is a way that the left, the activist left, not specifically gay groups, because there are a lot of gay people who are against gay marriage. There are a lot of people who think that it should be up for debate.\n\nBut this is the same group of people back in the 1980s, Michelangelo Signorile, who started OutWeek magazine, who started to out people who were actually gay who didn't agree with the activist left agenda for the gay community. So what's happening right now is those schoolyard bullies are back, playing a bigger game on a bigger playground.\n\nINGRAHAM: Right.\n\nBREITBART: Yes.\n\nINGRAHAM: What are they actually doing? What's being done to people who have given to Prop 8? Because I know the San Francisco Chronicle is allowing people who go to their Web site to find out who gave to what Prop 8 groups.\n\nBREITBART: It's there. That's exactly what they are doing. Scott Eckern, who is the musical \u2014 the director of the California Musical Theater, had his name initially exposed, and he had to step down. To me that's an effective blacklist.\n\nEl Coyote restaurant in Los Angeles, the floor manager, not the owner but the floor manager, gave $100. And people started to protest El Coyote restaurant. So it's not just about blacklisting. It's blacklisting entire institutions if somebody is associated with it.\n\nMy father-in-law, who was blacklisted in the 1950s for being a communist, is a Christian now, believes in the sanctity of marriage, of the definition between a man and a woman, and they are protesting his theater in Venice, California.\n\nINGRAHAM: So right now there clearly is no real free speech in Hollywood. There's no political free speech. If major Hollywood executives don't speak out against this intimidation, they have no credibility. I don't want to see another movie about the blacklist of the 1940s and '50s. I don't want to see it again coming out of Hollywood. They have no credibility with me. None.\n\nBREITBART: Well, what's so important about this issue right now is that George Clooney is silent, and secondly, President-elect Barack Obama is against gay marriage. Joe Biden, Vice President-elect Joe Biden is against gay marriage. So were Bill and Hillary Clinton when they implemented don't ask, don't tell and the Defense of Marriage Act.\n\nWhat they have done specifically is isolate conservative groups, the Mormon Church, which is safe. I asked Michelangelo Signorile to go down to a local mosque with a group of angry activist left people and to protest the Islamic position on gay marriage. He won't do that.\n\nINGRAHAM: Yes.\n\nBREITBART: And he won't go after President-elect Barack Obama. President-elect Barack Obama has an aggressive attitude towards gay rights in this country, and they allow for him to get away with it.\n\nINGRAHAM: Well, Andrew, that is such a great point about the mosque. I mean, that would show true courage, OK? Go after the black churches and the mosques, and we'll see whether they're actually going to put their money where their mouths are.\n\nAndrew, thanks a lot.\n\nContent and Programming Copyright 2008 FOX News Network, LLC. ALL RIGHTS RESERVED. Transcription Copyright 2008 ASC LLC (www.ascllc.net), which takes sole responsibility for the accuracy of the transcription. ALL RIGHTS RESERVED. No license is granted to the user of this material except for the user's personal or internal use and, in such case, only one copy may be printed, nor shall user use any material for commercial purposes or in any fashion that may infringe upon FOX News Network, LLC'S and ASC LLC's copyrights or other proprietary rights or interests in the material. This is not a legal transcript for purposes of litigation.",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.9,
+            0.9,
+            0.9,
+            0.9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 21.36612319946289,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "According to a report in the L.A. Times, some gay rights supporters in Hollywood may be starting a blacklist against people who supported traditional marriage by giving money to Prop 8 advocates.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the term 'blacklist' carries a negative connotation and implies a judgment about the actions of the gay rights supporters, suggesting a punitive and unjust practice."
+                },
+                {
+                    "text": "Well, this is a more conspicuous form of blacklisting. It happens for conservatives every single day in Hollywood.",
+                    "bias_type": "Exaggeration Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The statement exaggerates the prevalence and severity of blacklisting in Hollywood, implying a widespread and constant practice without providing evidence."
+                },
+                {
+                    "text": "This FEC search mechanism is a way that the left, the activist left, not specifically gay groups, because there are a lot of gay people who are against gay marriage. There are a lot of people who think that it should be up for debate.",
+                    "bias_type": "Generalization Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "The generalization that 'the left, the activist left' uses the FEC search mechanism to target individuals broadly implies a uniform and coordinated effort within a diverse political and social movement."
+                },
+                {
+                    "text": "But this is the same group of people back in the 1980s, Michelangelo Signorile, who started OutWeek magazine, who started to out people who were actually gay who didn't agree with the activist left agenda for the gay community. So what's happening right now is those schoolyard bullies are back, playing a bigger game on a bigger playground.",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "Comparing the current actions of some individuals to 'schoolyard bullies' from the 1980s and attributing motives of personal attack and intimidation without a direct comparison or evidence is a clear ad hominem argument."
+                },
+                {
+                    "text": "It's there. That's exactly what they are doing. Scott Eckern, who is the musical \u2014 the director of the California Musical Theater, had his name initially exposed, and he had to step down. To me that's an effective blacklist.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of phrases like 'That's exactly what they are doing' and 'To me that's an effective blacklist' is designed to evoke a strong emotional response, emphasizing the perceived severity of the situation."
+                },
+                {
+                    "text": "So right now there clearly is no real free speech in Hollywood. There's no political free speech. If major Hollywood executives don't speak out against this intimidation, they have no credibility.",
+                    "bias_type": "Exaggeration Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The absolute statement that 'there clearly is no real free speech in Hollywood' and the call for major Hollywood executives to speak out against 'intimidation' without specifying the nature or extent of such actions exaggerates the situation."
+                },
+                {
+                    "text": "Well, what's so important about this issue right now is that George Clooney is silent, and secondly, President-elect Barack Obama is against gay marriage. Joe Biden, Vice President-elect Joe Biden is against gay marriage. So were Bill and Hillary Clinton when they implemented don't ask, don't tell and the Defense of Marriage Act.",
+                    "bias_type": "Whataboutism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The mention of prominent figures' positions on gay marriage, particularly in the context of their silence or past actions, serves to deflect from the main issue by raising different, albeit related, concerns."
+                },
+                {
+                    "text": "What they have done specifically is isolate conservative groups, the Mormon Church, which is safe. I asked Michelangelo Signorile to go down to a local mosque with a group of angry activist left people and to protest the Islamic position on gay marriage. He won't do that.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The assertion that conservative groups, including the Mormon Church, are 'safe' from criticism, and the hypothetical scenario proposed to Michelangelo Signorile, are speculative and not based on demonstrated actions or statements."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article is biased regarding the issue of gay rights and the response to Prop 8 in Hollywood, demonstrating a general bias tendency through the use of word choice, exaggeration, generalization, ad hominem attacks, emotional sensationalism, whataboutism, and speculation."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6749999999999999,
+            "percentage_of_biased_sentences": 0.22413793103448276,
+            "overall_rating": 0.44956896551724135
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Calif. gay marriage fundraiser reaches for stars",
+        "URL": "Calif. gay marriage fundraiser reaches for stars.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Alex Dobuzinskis      LOS ANGELES, Oct 16 (Reuters) - Battling to save the right  to same-sex marriage in what is expected to be a close state  vote next month, California gay rights backers are turning to  Hollywood celebrities for help at a major fundraiser.      Actress and singer Barbra Streisand is expected at the  event on Tuesday and singers Melissa Etheridge and Mary J.  Blige will perform, organizers said on Thursday.      Supermarket billionaire Ron Burkle will host the event at  his Beverly Hills home, with a private $25,000-a-plate dinner.  Among other entertainment figures planning to attend are  actor/director Rob Reiner.      In recent weeks, director Steven Spielberg and actor Brad  Pitt each donated $100,000 in support of the campaign to  preserve the right to gay marriage.      The fundraiser comes as backers of same-sex marriage fight  to stem a tide of support for Proposition 8, a Nov. 4 ballot  measure that seeks to define marriage under the California  Constitution as only between a man and a woman.      A poll released last week by Survey USA showed 47 percent  of Californians supported the measure, while 42 percent opposed  it.      'We're feeling very good about the surge in the campaign,'  said Sonja Eddings Brown, a spokeswoman for Protect Marriage,  the group advocating for a 'Yes' vote on Proposition 8.      The 'Yes' campaign has raised $25.4 million, compared with  $15.8 million for those who wish to maintain the right to gay  marriage.      In recent weeks, advocates of same-sex marriage have chided  the Hollywood community for failing to contribute cash to the  campaign to defeat Proposition 8.      But Geoff Kors, executive director of Equality California,  said the fundraiser would show Hollywood's support for   same-sex marriage rights.      'Having support from Hollywood leaders who are visible, who  reach a wide audience, is critical to our success,' Kors said.      'It's always really scary when you're being outspent 2 to   1 in an election, and when your rights are at stake and  someone's trying to take your rights away,' he added.      In recent days, opponents of same-sex marriage have stepped  up their television advertising and warned voters that if  Proposition 8 is defeated, children will be taught about gay  marriage in elementary schools.      Gay-marriage supporters call that argument misleading.      In California, an estimated 11,000 same-sex couples have  married since the state's highest court in May overturned a  state ban on same-sex marriage.      Talk show host Ellen DeGeneres and actress Portia de Rossi  wed in August in one the most high-profile same-sex unions.  Etheridge has said she plans to marry girlfriend Tammy Lynn  Michaels before Nov. 4.      DeGeneres released an online video message this week urging  California voters to strike down Proposition 8.      Gay and lesbian marriage was legalized last week in  Connecticut, bringing to three the number of U.S. states that  allow it.  (Reporting by Alex Dobuzinskis: Editing by Jill Serjeant and  Peter Cooney)   ((jill.serjeant1@thomsonreuters.com; +1 213 955 6749))    (To read more about our entertainment news, visit our blog  'Fan Fare' online at http://blogs.reuters.com/fanfare/)       Keywords: USA POLITICS/GAYMARRIAGE       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 21.02484130859375,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual overview of a fundraiser for the right to same-sex marriage in California, including details about the event and the current state of the campaign, without displaying any evident bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Gay marriage supporters rally across United States",
+        "URL": "Gay marriage supporters rally across United States.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Peter Henderson      SAN FRANCISCO, Nov 15 (Reuters) - Thousands of gay marriage  advocates held boisterous rallies on Saturday across the United  States and abroad in a coordinated protest of California's vote  this month to ban same-sex marriage.      In Manhattan, where some protesters were offering hula-hoop  demonstrations, Sean Petersen, 21, a musician from Brooklyn,  called the vote 'mean-spirited and divisive.'      In Chicago, Andy Thayer, a co-founder of the Gay Liberation  Network, exhorted a crowd that had listened to a gay men's  choir sing a peppy version of the hymn 'Down by the Riverside'  to follow through on the spirit of the protest.      'We can't just let this be a blowing-off-steam rally, as  satisfying as that might be,' he said. 'We're here to win equal  marriage rights right here in Illinois.'      Demonstrations had been organized for Saturday afternoon in  the United States and elsewhere, including Canada, Europe and  Australia, coordinated by a campaign on the Internet.      Los Angeles police estimated 8,000 attended, and thousands  filled the central plaza in San Francisco. Other cities had  crowds estimated in the hundreds or low thousands.      'I am here to protect my marriage and my family,' said  39-year-old Susan Ferris at Los Angeles City Hall.      On Nov. 4, California voters narrowly approved Proposition  8, which defines marriage as between a man and a woman. It  reversed the right of gays and lesbians to marry that had been  granted by the state's Supreme Court this year and triggered a  series of protests.      'A turning point has been reached,' landscape architect  James York, 45, said at the San Francisco rally.           $70 MILLION CAMPAIGN      Measures to ban gay marriage also passed in Florida and  Arizona, while Arkansas barred gay couples from adopting  children.      In 2003, Massachusetts became the first state to legalize  gay marriages. Last month, Connecticut became the second when  the state's top court overturned a ban on same-sex marriage.      The California measure passed by 52 percent after one of  the most expensive ballot campaigns in history in which both  sides combined raised some $70 million.      Gay marriage advocates have asked the California Supreme  Court to overturn the ban, arguing that more than a majority  vote is needed to make a fundamental change in the state  constitution. In May, the court had declared same-sex marriage  a right, unleashing a flood of weddings.      The rallies drew a few opponents of gay marriage.      'We're troubled by the intolerance on their side about what  obviously is the will of the American people,' Peter LaBarbera,  a board member of Protect Marriage Illinois, told Reuters. 'We  think they represent the minority viewpoint.'      Despite the setback in the country's most populous state,  gay marriage advocates said they were upbeat about their cause  in the long run.      'History is on our side,' said Ferris in Los Angeles.   (Reporting by Chris Michaud in New York, Matthew Lewis in  Chicago, Nichola Groom in Los Angeles, Peter Henderson in San  Francisco; Editing by Xavier Briand)   ((Reuters Messaging; peter.henderson.reuters.net@reuters.com,  e-mail peter.henderson@reuters.com, 213 955 6750))     Keywords: GAYMARRIAGE/PROTESTS        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 20.51898193359375,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to exhibit bias. It provides a factual account of the gay marriage supporters' rallies and includes statements from both advocates and opponents without showing a tendency to favor one perspective over the other."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Gay marriage backers set 'Day Without a Gay' event",
+        "URL": "Gay marriage backers set 'Day Without a Gay' event.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Peter Henderson      SAN FRANCISCO, Dec 9 (Reuters) - Same-sex marriage  advocates plan to 'Call in gay' on Wednesday in a protest  designed to show Americans how big a part of daily life -- and  the economy -- gays and their supporters are.      The Internet-organized project, which follows California's  passage of anti-same-sex-marriage Proposition 8, urges 'Day  Without a Gay' participants to skip work and volunteer in the  community.      The idea is creating a controversy over how to garner  support without protesters hurting their cause.      Californians struck down same-sex marriage last month,  reversing a court decision that had affirmed the right. The  Nov. 4 vote stopped gay unions in California -- one of a  handful of states, provinces and mostly European countries that  allowed it.      After the vote, protest marches targeted U.S. temples of  the Church of Jesus Christ of Latter-day Saints, the Mormons,  who were top supporters of California Proposition 8, which  limits marriage to a man and a woman. That led to a nationwide  protest day on Nov. 15.      'In order for this movement to continue it can't just be  about marching and being pissed off. It's got to be creative in  different ways to get into the hearts and minds of moderate  voters,' said daywithoutagay.org creator Sean Hetherington.      The Los Angeles comedian and his boyfriend, Aaron Hartzler,  put the focus on volunteering, although one of the groups  behind the Nov. 15 rallies, jointheimpact.com, urges people to  shut businesses and avoid spending anything.      The protest appears inspired by the 2004 film 'A Day  Without a Mexican' which imagines the effect on California of a  day when there are no Latinos, leading to chaos on the state.   (Editing by Mohammad Zargham)   ((Reuters Messaging: peter.henderson.reuters.com@reuters.net;  email: peter.henderson@reuters.com; +1 415 677 2541))  Keywords: GAYMARRIAGE/PROTEST        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 20.355838775634766,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to exhibit bias. It provides a factual overview of the 'Day Without a Gay' event and the context surrounding it without employing any of the typical bias types."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Swedish parties propose legalising gay marriage",
+        "URL": "Swedish parties propose legalising gay marriage.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    STOCKHOLM, Jan 21 (Reuters) - Three of the four parties in  Sweden's centre-right coalition government unveiled a bill on  Wednesday paving the way for legalising gay marriage.      Six out of the seven parties in Sweden's parliament have now  said they are in favour of gay marriage, which has raised the  likelihood of new legislation dramatically.      But the fourth member of the coalition, the Christian  Democrats, refused to back the bill which will now need the  support of at least one of the centre-left opposition parties.      The three opposition parties said they were ready to work  together with the centre-right parties, with the aim of having  the new legislation in place as soon as possible.      'We are very pleased to finally be able make these changes,'  Moderate party MP Lars Lindblad told a news conference.      'There is a firm basis for a broad agreement between six  parties,' he added, referring to a possible deal including all  parties in the Swedish Riksdag except the Christian Democrats.      The change in the law, which currently allows gay couples to  register unions but not formal marriage, would come into force  by May 1 this year under the timetable set out in the bill.      The proposed new legislation would eliminate legal  distinctions between heterosexual and homosexual spouses, but it  would not force dissenting clergy to wed gay couples.      The Swedish Lutheran church, which split from the state in  2000, has said it was open to celebrating and registering  same-sex unions, though it wanted to reserve the term matrimony  for heterosexual marriages.      The church already performs blessing ceremonies for gay  couples who have registered unions with civil authorities after  a church council decision in 2005 which outraged conservatives.   ((Reporting by Victoria Klesty and Johan Sennero; editing by  Myra MacDonald; tel: +46 8 700 1045; e-mail:  victoria.klesty@thomsonreuters.com))    Keywords: SWEDEN GAY/       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 20.254451751708984,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual report on the proposed legislation to legalize gay marriage in Sweden, including the positions of different political parties and the Swedish Lutheran church."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Prop 8 Protests Mysteriously Missing From Black Churches.txt",
+        "URL": "Prop 8 Protests Mysteriously Missing From Black Churches.txt.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/240px-Fox_News_Channel_logo.svg.png",
+        "Text": "So a gaggle of gays hit the streets of L.A., pissed off about Prop 8, which reversed the right to same-sex marriage. They've been venting their rage at white churches, but oddly, not the black ones.\n\nI say \"oddly\" because 78 percent of blacks are Protestant and most oppose gay marriage. For them, homosexuality is a sin. I don't agree, but then again, I'm a heathen who once bought an adjustable bed for recreational reasons.\n\nThe fact is, gays aren't picketing black churches because that would be hard and scary. Any moron who remembers Eddy Murphy's stand-up routine knows that blacks haven't always warmed to gay causes. They probably also don't enjoy comparisons between their civil rights struggle and gays not being allowed to marry. Yeah, I know gays have been treated like crap over the years, but they were never slaves, unless it was requested on Craigslist.\n\nBut, maybe instead of marching down Sunset on a Sunday, gays should hit the churches, community meetings and the like to promote their cause. It's what decent folk do to get their point across.\n\nAnd remember, it was David Geffen who helped picked Obama and it was Obama's main supporters who voted for Prop 8.\n\nSo blame Geffen, not the Mormons.\n\nLastly, although I don't give two poops about the right to marry, I wonder why they'd want it. Seriously, you're called gay for a reason. You get to leave the toilet seat up whenever you want.\n\nAnd if you disagree with me, then you sir are worse than Hitler.\n\nGreg Gutfeld hosts \"Red Eye with Greg Gutfeld\" weekdays at 3 a.m. ET. Send your comments to: redeye@foxnews.com",
+        "Histogram": [
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0.9,
+            0,
+            0,
+            0.7,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            1.0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 20.1965274810791,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "They've been venting their rage at white churches, but oddly, not the black ones.",
+                    "bias_type": "Discriminatory Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence implies a negative stereotype about black churches, suggesting an expectation of their opposition to gay marriage based on their racial and religious demographics, which can reinforce discriminatory biases."
+                },
+                {
+                    "text": "The fact is, gays aren't picketing black churches because that would be hard and scary.",
+                    "bias_type": "Generalization Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This statement generalizes the response of the LGBTQ+ community to black churches, implying a broad fear or difficulty in confronting these institutions, which oversimplifies a complex issue and attributes a generalized characteristic to a group."
+                },
+                {
+                    "text": "Yeah, I know gays have been treated like crap over the years, but they were never slaves, unless it was requested on Craigslist.",
+                    "bias_type": "Faulty Analogy Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "Comparing the historical struggles of different groups in this manner is a clear example of faulty analogy bias, as it trivializes the experiences of both groups by drawing an inappropriate and insensitive comparison."
+                },
+                {
+                    "text": "And remember, it was David Geffen who helped picked Obama and it was Obama's main supporters who voted for Prop 8.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.7,
+                    "bias_description": "This sentence implies a direct cause-and-effect relationship between David Geffen's influence, Obama's supporters, and the outcome of Prop 8, without considering the complexity of political and social factors that contribute to such decisions."
+                },
+                {
+                    "text": "Lastly, although I don't give two poops about the right to marry, I wonder why they'd want it. Seriously, you're called gay for a reason. You get to leave the toilet seat up whenever you want.",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence uses a lighthearted but ultimately dismissive ad hominem argument to undermine the importance of the right to marry for same-sex couples, focusing on a trivial stereotype rather than engaging with the substantive issues."
+                },
+                {
+                    "text": "And if you disagree with me, then you sir are worse than Hitler.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 1.0,
+                    "bias_description": "The use of hyperbolic language to evoke a strong emotional response, comparing a simple disagreement to being 'worse than Hitler', is a clear example of emotional sensationalism bias, designed to provoke without adding substance to the argument."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the discussion of Prop 8 and its impact on the LGBTQ+ community, particularly in its treatment of the relationship between the community and black churches, the historical struggles of marginalized groups, and the trivialization of the right to marry. The general bias tendency leans towards discriminatory, emotional sensationalism, and ad hominem biases."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.7333333333333334,
+            "percentage_of_biased_sentences": 0.15,
+            "overall_rating": 0.4416666666666667
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "California's top court ponders gay marriage",
+        "URL": "California's top court ponders gay marriage.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Adam Tanner      SAN FRANCISCO, March 4 (Reuters) - Four years after San  Francisco ignited passionate embraces and heated national  debate by briefly allowing gay marriage, California's top court  hears arguments on Tuesday as to whether matrimony should be  limited to a man and a woman.      The hearing brings into focus the highest-profile U.S.  fight over gay rights in recent years and the outcome could end  up influencing legislation and litigation in other states.      San Francisco Mayor Gavin Newsom forced the issue by suddenly  issuing gay marriage licenses in February 2004. More than 4,000  homosexual couples took him up on the offer, including comedian  Rosie O'Donnell and her partner, until a lower court halted the  process.      Later that year California's Supreme Court ruled that  Newsom, mayor of a city long at the forefront of gay rights,  had no authority to wed gays and voided the marriages.      The same court just across the street from City Hall where  the gay marriages took place now decides the larger question  whether California can legally bar same-sex matrimony.      Gay marriage supporters won an initial battle when a  Superior Court judge ruled in their favor in 2005. The  following year a state appeals court judge overruled that  decision and backed existing state law.      Californians in 2000 approved a ballot measure defining  marriage as the union of man and woman. But domestic  partnership legislation as of 2005 gave registered gay couples  many of the same privileges enjoyed by married couples.      Since 2005 California's legislature twice voted to allow gay  marriages, but Gov. Arnold Schwarzenegger, a Republican who is  liberal on many social issues, vetoed the bills, saying voters or  the courts should decide the issue.           UNUSUAL SESSION      It now falls to the seven justices of the California  Supreme Court to resolve the matter, and they have 90 days from  the hearing to issue an opinion. With six of the judges  appointed by Republican governors and one appointed by a  Democrat, the panel is considered politically moderate.      The court has made a rare exception to its one-hour total  limit on oral arguments and will hold a three-hour session.      'I can't recall any where there were three hours of  arguments, I really can't,' Cruz Reynoso told Reuters about his  years as a California Supreme Court justice from 1982-87.      'Not often, but sometimes, oral arguments actually make a  difference in difficult cases and I assume that the court  considers this a difficult case.'      More than half of U.S. states have passed constitutional  amendments barring gay marriage, and President George W. Bush has  proposed a U.S. Constitutional amendment.      State supreme courts in Massachusetts, New Jersey and  Vermont have ruled against limiting marriage to a man and a  woman. Massachusetts responded by becoming the only U.S. state  to allow gay marriage, while New Jersey and Vermont instead  passed civil union laws similar to those in California.      Several other state supreme courts, including those in New  York, Washington and Maryland, found that marriage can be  limited to one man, one woman.    (Editing by Mary Milliken and Eric Walsh)   ((adam.tanner@reuters.com, +1 415-677-2541; Reuters Messaging:  adam.tanner.reuters.com@reuters.net))  Keywords: RIGHTS CALIFORNIA/GAYS        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 19.920114517211914,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual overview of the legal and social context surrounding the debate on gay marriage in California, presenting information from various perspectives without promoting a particular bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "California set for gay marriage ballot showdown",
+        "URL": "California set for gay marriage ballot showdown.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Amanda Beck      SAN FRANCISCO, June 3 (Reuters) - U.S. opponents of gay  marriage pushed their campaign on both coasts this week,  setting it up as a potential hot-button issue in the Nov. 4  elections around the country.      Activists said on Tuesday California was set for its  biggest political battle in years after it was announced the  November ballot would include a constitutional amendment  limiting marriage to unions between men and women.      A similar measure also is on the November ballot in  Florida, which is likely to be closely fought in the election,  and there also are national implications.      'Values voters have even more reason to go to the polls in  2008,' said Tony Perkins, a leading religious conservative who  is president of the Family Research Council.      Initiatives to ban gay marriage played a role in President  George W. Bush's 2004 re-election as they propelled the  Republican Party's conservative Christian base to the polls.      In New York, conservative lawmakers were among those who  filed a suit against Gov. David Paterson on Tuesday, charging  that he overstepped his authority by ordering state agencies to  recognize out-of-state same-sex marriages.      California is scheduled to begin marrying gay couples later  this month but until then, Massachusetts is the only state that  allows same-sex marriage. More than 25 states have  constitutional amendments barring gay marriage.      Although Republican presidential candidate John McCain is  viewed by many religious conservatives as soft on core values  issues, gay marriage could affect turnout where it is on the  ballot.      'Which will actually be a larger draw in California? Will  the presidential choice motivate people or will the issue of  marriage motivate people?' said Ron Prentice, chairman of the  Protect Marriage Coalition, a group of 31 organizations that  are sponsoring the measure in California.      'We believe that this measure on the ballot will actually  bring significantly more people to vote,' he said.           BATTLE IN CALIFORNIA      If more than half of California voters approve the measure,  it would neutralize last month's state Supreme Court ruling  that said preventing same-sex couples from marrying was  unconstitutional and discriminatory.      'This will be the biggest battle on the West Coast since  the recall,' Randy Thomasson, president of the Campaign for  Children and Families in reference to the emotional 2003  election that recalled then-California Gov. Gray Davis.      Gay marriage opponents are urging county officials to  practice civil disobedience by refusing to marry same-sex  couples this month when the marriages are scheduled to begin.      The group behind the California ballot measure expects to  spend at least $10 million campaigning for it.      Gay marriage proponents have said they will match them  dollar-for-dollar. 'We believe that the time has passed that an  amendment like this could survive at the ballot box,' said Kate  Kendall of the National Center for Lesbian Rights.      Polls offer conflicting predictions. A Field poll published  last week showed 51 percent in favor of gay marriage with 42  percent opposed. But a Los Angeles Times poll the previous week  found 54 percent backed the amendment defining marriage as  between a man and a woman with 35 percent opposed.      Evangelical Protestants, who account for one in four  American adults, are especially keen to prohibit gay marriage,",
+        "Histogram": [
+            0,
+            0.6,
+            0,
+            0.6,
+            0.7,
+            0,
+            0,
+            0,
+            0,
+            0.5,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 19.74467658996582,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Activists said on Tuesday California was set for its biggest political battle in years after it was announced the November ballot would include a constitutional amendment limiting marriage to unions between men and women.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'biggest political battle in years' and the specific framing of the amendment as 'limiting marriage' to certain unions implies a judgment and suggests a significant conflict, influencing the reader's perception."
+                },
+                {
+                    "text": "'Values voters have even more reason to go to the polls in 2008,' said Tony Perkins, a leading religious conservative who is president of the Family Research Council.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The term 'values voters' and the emphasis on 'even more reason' to vote in 2008 suggest a positive framing of the group's actions, implying that their values are under threat and they must act, which can influence the reader's perception of the situation."
+                },
+                {
+                    "text": "Initiatives to ban gay marriage played a role in President George W. Bush's 2004 re-election as they propelled the Republican Party's conservative Christian base to the polls.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.7,
+                    "bias_description": "This sentence implies a direct cause-and-effect relationship between the initiatives to ban gay marriage and President George W. Bush's re-election, attributing the outcome solely to this factor without considering other influences."
+                },
+                {
+                    "text": "Although Republican presidential candidate John McCain is viewed by many religious conservatives as soft on core values issues, gay marriage could affect turnout where it is on the ballot.",
+                    "bias_type": "Political Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "The sentence suggests that John McCain's perceived stance on 'core values issues' is a significant concern for religious conservatives, implying a judgment about the candidate's political position and its impact on voter turnout."
+                },
+                {
+                    "text": "'Which will actually be a larger draw in California? Will the presidential choice motivate people or will the issue of marriage motivate people?' said Ron Prentice, chairman of the Protect Marriage Coalition, a group of 31 organizations that are sponsoring the measure in California.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This quote speculates on the potential impact of the presidential choice versus the issue of marriage on voter motivation, presenting it as a significant and uncertain factor without concrete evidence."
+                },
+                {
+                    "text": "If more than half of California voters approve the measure, it would neutralize last month's state Supreme Court ruling that said preventing same-sex couples from marrying was unconstitutional and discriminatory.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'neutralize' to describe the potential effect of the voter approval on the Supreme Court ruling introduces a conflict-oriented and judgmental tone, suggesting a power struggle between the voters and the court."
+                },
+                {
+                    "text": "'This will be the biggest battle on the West Coast since the recall,' Randy Thomasson, president of the Campaign for Children and Families in reference to the emotional 2003 election that recalled then-California Gov. Gray Davis.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Describing the upcoming event as 'the biggest battle' and drawing a comparison to a past 'emotional' election using charged language like 'recall' and 'battle' serves to sensationalize and dramatize the issue, influencing the reader's perception."
+                },
+                {
+                    "text": "Gay marriage opponents are urging county officials to practice civil disobedience by refusing to marry same-sex couples this month when the marriages are scheduled to begin.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'civil disobedience' and 'urging' frames the actions of the opponents in a positive, principled light, suggesting a morally justified resistance to an unjust law, which can bias the reader's interpretation of the situation."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article is biased regarding the topic of gay marriage, with a general bias tendency towards framing the issue as a significant and contentious battle between opposing values and groups. The use of charged language, speculative statements, and causal misunderstandings contributes to this bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.28,
+            "overall_rating": 0.44
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "RPT-Gay marriage votes may show changing U.S.",
+        "URL": "RPT-Gay marriage votes may show changing U.S..txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "(Repeats due to technical problem)      By Peter Henderson      LOS ANGELES, Nov 2 (Reuters) - Gay couples are not hiding  any more and that has made all the difference, said health care  administrator Linda Merkens before Tuesday's vote in California  that will decide the legality of same-sex marriage there.      It's one of several important ballot measures voters will  face in states across the country on Election Day.      'A lot more gays are more open about their relationships,  and a lot more people are willing to accept it,' Merkens said  in downtown Los Angeles recently.      Other passersby disagreed. 'Same sex marriage is a sin,'  said city planner Kim Chan.      Tuesday's results will show how far attitudes to gay  marriage have changed. Florida and Arizona will join California  in voting on whether to stop gay marriage.      In the past, such propositions have almost always been  approved, but polls show a close finish in California and many  undecided in all three states.      Legal abortion also faces a key challenge as South Dakotans  consider a measure to severely restrict the procedure. If it  passes, opponents are expected to challenge it all the way to  the U.S. Supreme Court. A poll by the state Argus Leader  newspaper showed that vote a toss-up.      Altogether, 150 measures in about 35 states will be put to  the vote on the same day the next U.S. president is chosen,  with other issues ranging from affirmative action to how farm  animals are treated. [ID:nN01396494].      A California court in May rejected limiting marriage to a  man and a woman. Only a few nations and states agree.      Now Hollywood stars like Brad Pitt are facing off with  conservative foes like the fast-growing Mormon church, the  Church of Jesus Christ of Latter-day Saints, over Proposition  8, which would ban same-sex marriage.      Both sides have broad, deep pockets: ban proponents have  raised about $30 million, and opponents recently topped that.           MORE IMPORTANT THAN PRESIDENCY      'This is the most important thing on the November 4th  ballot,' said Tony Perkins, president of the conservative  Family Research Council. 'We've made bad selections as  presidents but survived as a nation. But if we move down the  path towards the dissolution of marriage we cannot divorce  ourselves from the consequences of that.'      Episcopal Bishop Marc Andrus supports gay marriage and said  a ballot loss would slow the process -- not stop it.      Californians in 2000 passed a measure to define marriage as  between a man and a woman. At that time, the San Francisco Bay  Area was the only part of the state that supported gay  marriage, said pollster Mark DiCamillo of the Field Poll.      This year, all the coastal areas support gay marriage, and  support in the inland valleys, which have values similar to the  center of the United States, has grown but remains small.      Los Angeles County had the biggest swing, he said. 'It's  the moderates who have moved,' he said.      John Matsusaka, president of the Initiative and Referendum  Institute at the University of Southern California, said  voters, especially younger ones, were used to homosexuality.     'It doesn't have shock value any more,' Matsusaka said.      A ProtectMarriage.org flyer argues that gay marriage will  be taught in schools if the ban fails, a position their  opponents reject. Same-sex marriage supporters focus on equal  rights for all. 'People you know are asking you to vote no",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0
+        ],
+        "Relevance": 19.72479820251465,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Other passersby disagreed. 'Same sex marriage is a sin,' said city planner Kim Chan.",
+                    "bias_type": "Discriminatory Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence promotes a generalized and prejudiced statement against same-sex marriage, based on religious beliefs, reinforcing discrimination."
+                },
+                {
+                    "text": "A California court in May rejected limiting marriage to a man and a woman. Only a few nations and states agree.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'rejected' implies a negative judgment towards the traditional view of marriage, suggesting that it is outdated or wrong."
+                },
+                {
+                    "text": "Now Hollywood stars like Brad Pitt are facing off with conservative foes like the fast-growing Mormon church, the Church of Jesus Christ of Latter-day Saints, over Proposition 8, which would ban same-sex marriage.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The phrase 'conservative foes' and the framing of the conflict as a battle between Hollywood stars and the Mormon church imply a judgment and a negative connotation towards the church's stance on the issue."
+                },
+                {
+                    "text": "'This is the most important thing on the November 4th ballot,' said Tony Perkins, president of the conservative Family Research Council. 'We've made bad selections as presidents but survived as a nation. But if we move down the path towards the dissolution of marriage we cannot divorce ourselves from the consequences of that.'",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of dramatic language such as 'the dissolution of marriage' is designed to evoke strong emotions and exaggerate the potential consequences of legalizing same-sex marriage."
+                },
+                {
+                    "text": "A ProtectMarriage.org flyer argues that gay marriage will be taught in schools if the ban fails, a position their opponents reject.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence engages in speculation about the future consequences of legalizing same-sex marriage, without concrete evidence, to influence the reader's perception."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the topic of same-sex marriage, with a general tendency towards promoting the acceptance of same-sex marriage by framing opposition in a negative light and using emotionally charged or speculative language."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.22580645161290322,
+            "overall_rating": 0.4129032258064516
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Connecticut court overturns gay marriage ban",
+        "URL": "Connecticut court overturns gay marriage ban.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    BOSTON, Oct 10 (Reuters) - The Connecticut Supreme Court  overturned a ban on same-sex marriage on Friday in a victory  for gay-rights advocates that will allow couples to marry in  the New England state.      The court found that the state's law limiting marriage to  heterosexual couples discriminates on the basis of sexual  orientation.      Connecticut is now the third state in the country to allow  gay marriage, following neighboring Massachusetts, the first  state to allow it, and California.      Connecticut already permitted same-sex civil unions that  grant largely the same state rights as to married couples, but  lack the full, federal legal protections of marriage.   (Reporting by Svea Herbst-Bayliss)   ((Svea.Herbst@Reuters.com; +1 617 856 4331; Reuters Messaging:  svea.herbst.reuters.com@reuters.net))  Keywords: GAYMARRIAGE/CONNECTICUT        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 19.71396255493164,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual report on the Connecticut Supreme Court's decision to overturn the ban on same-sex marriage, including relevant context about the state's position in relation to gay marriage. The language used is neutral and does not exhibit any of the typical signs of bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "FACTBOX-U.S. laws on gay marriage, civil unions",
+        "URL": "FACTBOX-U.S. laws on gay marriage, civil unions.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    May 15 (Reuters) - The California Supreme Court ruled on  Thursday the state cannot bar same-sex marriages, marking a  major victory for gay rights advocates that may have national  implications.      Here is a look at laws on gay marriage and same-sex civil  unions in the United States:      * Massachusetts is the only U.S. state to allow gay  marriage. Its highest court ruled in 2003 that a ban on gay  marriage was unconstitutional, paving the way for America's  first same-sex marriages the following year.      * Connecticut, New Hampshire, New Jersey and Vermont permit  same-sex civil unions that grant largely the same state rights  as married couples -- from insurance coverage to tax benefits  and hospital visiting rights -- but lack the full, federal  legal protections of marriage.      * California, Maine, the District of Columbia, Hawaii and  Washington each offer gay couples some legal rights as  partners.      * Currently, 45 states have laws explicitly prohibiting  same-sex marriage, including 26 with constitutional amendments  restricting marriage to one man and one woman and 19 with  statutory laws barring same-sex unions.      * The patchwork of laws has caused some unusual  complications. Rhode Island's top court, for example, ruled in  December 2007 that a same-sex couple married in Massachusetts  could not legally divorce in Rhode Island, saying the state's  family court did not have authority over same-sex marriages.      * Massachusetts currently allows out-of-state same-sex  couples from just two states -- Rhode Island and New Mexico --  to marry there, since those states' laws do not clearly  prohibit gay marriage.      * More than 8,000 same-sex couples have married in  Massachusetts.      * The U.S. Supreme Court has not taken a case on gay  marriage, leaving states to decide the issue.      * The Arizona House of Representatives voted 33-25 on May  13 to put a proposed constitutional amendment to prohibit  same-sex marriage on the statewide ballot in November.      Sources: Reuters/Human Rights Campaign   (Writing by Paul Grant, Washington Editorial Reference Unit,  and Jason Szep in Boston; Editing by Cynthia Osterman)  ((paul.grant@reuters.com; +202 789 8015 Reuters Messaging:  paul.grant.reuters.com@reuters.net))  Keywords: RIGHTS GAYS/STATES        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 19.492488861083984,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it provides a factual overview of the laws on gay marriage and civil unions in the United States without employing any of the common bias types."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Portuguese parliament rejects gay marriage",
+        "URL": "Portuguese parliament rejects gay marriage.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Axel Bugge      LISBON, Oct 10 (Reuters) - Portugal's parliament rejected a  proposal on Friday to allow gay marriage, sparking anger among  gays who say they face discrimination in the conservative  Catholic country.      The proposal by the small Left Bloc and Green parties to  overturn an existing ban was overwhelmingly rejected as the  ruling Socialists, who hold a majority, joined the centre-right  opposition in opposing the move.      Parliament president Jaime Gaime did not give a final vote  breakdown but said the proposal had been rejected, the  legislature's television channel showed.      Outside parliament, about thirty gays protested by staging  two mock marriages.      'I am here because there are citizens who are full citizens  in their duties but not citizens in their rights and that is a  very serious mistake in a democracy,' Joana, a woman who married  her partner, told Reuters Television.      'Old homophobes!' a gay protester shouted inside the voting  chamber after the vote, before being led out by police.      Gays were encouraged that a referendum in Portugal last year  overturned a ban on abortion, hoping it would usher in what they  see as more progressive and modern values elsewhere in Europe.  Neighbouring Spain has allowed gay marriages since 2005.      But Catholic values still hold sway on many social issues in  Portugal. Cardinal Jose Policarpo, the patriarch of Lisbon,  warned that allowing gay marriages would be a violation of the  family.      'What is in question is breaking the profound conception of  the family,' he said on Radio Renascenca, a Catholic radio  station.      Alice Ferreira, a 70-year-old pensioner, told SIC television  that gays could have their own sexual preferences but they  should not be allowed to marry.      'I don't think they could be real marriages because  marriages are intended to create families,' she said.      Supporters of the change argue that the ban on gay marriage  included in Portugal's civil code is illegal under the 1975  constitution, which bans sexual discrimination.      Polls have shown under 30 percent of Portuguese approve of  gay marriage against an average around 45 percent in the  European Union, according to Eurobarometer.   (Additional reporting by Miguel Pereira; editing by Philippa  Fletcher)   ((Axel.Bugge@Reuters.Com, +351-213-509-201, Reuters Messaging:  axel.bugge.reuters.com@reuters.net))    Keywords: PORTUGAL GAY/        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 19.472957611083984,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "'Old homophobes!' a gay protester shouted inside the voting chamber after the vote, before being led out by police.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the term 'homophobes' to describe the opposition carries a negative connotation and implies judgment, suggesting that those who voted against the proposal are inherently prejudiced."
+                },
+                {
+                    "text": "But Catholic values still hold sway on many social issues in Portugal. Cardinal Jose Policarpo, the patriarch of Lisbon, warned that allowing gay marriages would be a violation of the family.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence presents the warning from Cardinal Jose Policarpo as a fact, without offering a counterpoint or acknowledging that this is a subjective opinion based on religious beliefs, blurring the line between objective reporting and personal perspective."
+                },
+                {
+                    "text": "Alice Ferreira, a 70-year-old pensioner, told SIC television that gays could have their own sexual preferences but they should not be allowed to marry. 'I don't think they could be real marriages because marriages are intended to create families,' she said.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The inclusion of this individual's opinion, particularly the assertion that gay marriages are not 'real marriages,' without a contrasting viewpoint, reflects a subjective belief presented as a valid argument, contributing to an overall bias in the article."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the topic of gay marriage in Portugal, with a general tendency towards presenting subjective opinions and using word choices that imply judgment, particularly against those opposing the proposal."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.23529411764705882,
+            "overall_rating": 0.41764705882352937
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Minorities fear trend from Calif. gay marriage ban",
+        "URL": "Minorities fear trend from Calif. gay marriage ban.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Peter Henderson      SAN FRANCISCO, Nov 24 (Reuters) - California's gay marriage  ban could open the door to legal discrimination against  unpopular groups if the state Supreme Court allows the  voter-approved measure to stand, blacks, Latinos, Asians and  other minorities said.      The Nov. 4 vote, supporting an end to legal same-sex  marriage in the most populous U.S. state, has caused a  nationwide furor as opponents of the measure decry what they  consider a civil rights violation.      California's highest court agreed on Nov. 19 to hear a  challenge, based on whether the state constitution requires  support from the legislature -- as well as a majority vote of  the people -- to strip rights from any group.      The court had recognized such marriages in May, and about  20,000 same-sex couples wed before the November vote. Those  marriages may now hang in the balance. Connecticut and  Massachusetts are the only states that allow gay marriage.      Legal scholars say the measure, which defines marriage as  between a man and a woman, breaks new ground by limiting the  courts' ability to protect minorities.      'They could take away any right from any group,' said  University of Southern California Law Professor David Cruz, who  filed a brief in favor of gay marriage in an earlier case.        EQUAL PROTECTION 'SUBVERSION'      The ban, California Proposition 8, amended the constitution  with 52 percent support -- less than is required to approve  some state bond measures.      'The entire purpose behind the constitutional principle of  equal protection would be subverted if the constitutional  protection of unpopular minorities were subject to simple  majority rule,' read a brief by black, Asian and Hispanic  groups challenging the ban. 'This case is not simply about gay  and lesbian equality.'      It is unlikely that relatively liberal California would  approve restrictions on racial and religious minorities,  especially ones that clash with the protections guaranteed by  the U.S. Constitution, Cruz and others say.      'We are past that as a realistic matter. We just elected an  African-American president, for Christ's sake,' said University  of California, Berkeley, law professor Jesse Choper, who also  filed on behalf of gay advocates in the original gay marriage  case.      Other groups -- from prisoners to undocumented workers --  might not have public opinion on their side.      'The history of California demonstrates with sobering  clarity the potential for disfavored minorities to be subjected  to oppression by hostile majorities,' the minority groups say  in their brief, pointing to segregation laws and one excluding  Asian-Americans from land ownership as examples.        'TRACK RECORD'      'It is not hypothetical. It's a track record,' said  Stanford University law professor Jane Schacter, who has not  filed briefs in the case.      Indeed, a central argument in support of the gay marriage  ban is that majority-vote constitutional amendments can change  rights.      'That power is broad and deep and, by nature, populist. It  has often been used to be make significant changes in state  government and to override judicial interpretations of the  Constitution with which the people disagree -- including  interpretations involving basic constitutional rights,' lawyer  Andrew Pugno argued in court papers.      He also argued that defining marriage as between a man and  a woman simply re-established the situation befo",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.5,
+            0.5,
+            0,
+            0.5,
+            0,
+            0.5,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 19.36797523498535,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "The Nov. 4 vote, supporting an end to legal same-sex marriage in the most populous U.S. state, has caused a nationwide furor as opponents of the measure decry what they consider a civil rights violation.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'fury' to describe the reaction of opponents of the measure implies a judgment about the intensity and nature of their response, suggesting it is irrational or overly emotional."
+                },
+                {
+                    "text": "Legal scholars say the measure, which defines marriage as between a man and a woman, breaks new ground by limiting the courts' ability to protect minorities.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence presents the opinion of 'legal scholars' as an objective fact, blurring the line between expert opinion and established legal principle."
+                },
+                {
+                    "text": "'They could take away any right from any group,' said University of Southern California Law Professor David Cruz, who filed a brief in favor of gay marriage in an earlier case.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This statement speculates on the potential consequences of the measure in a broad and unsubstantiated manner, suggesting a wide range of rights could be at risk without concrete evidence."
+                },
+                {
+                    "text": "'The entire purpose behind the constitutional principle of equal protection would be subverted if the constitutional protection of unpopular minorities were subject to simple majority rule,' read a brief by black, Asian and Hispanic groups challenging the ban. 'This case is not simply about gay and lesbian equality.'",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'subverted' and the argument that the case is 'not simply about gay and lesbian equality' introduces an emotional and provocative element to the legal argument, potentially overshadowing a more balanced discussion."
+                },
+                {
+                    "text": "It is unlikely that relatively liberal California would approve restrictions on racial and religious minorities, especially ones that clash with the protections guaranteed by the U.S. Constitution, Cruz and others say.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence speculates on the unlikelihood of California approving certain restrictions, relying on the state's perceived political orientation rather than concrete evidence or legal analysis."
+                },
+                {
+                    "text": "'We are past that as a realistic matter. We just elected an African-American president, for Christ's sake,' said University of California, Berkeley, law professor Jesse Choper, who also filed on behalf of gay advocates in the original gay marriage case.",
+                    "bias_type": "Anecdotal Evidence Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "The reference to the election of an African-American president as evidence of progress in minority rights is an anecdotal example that may not fully capture the complexities of legal and social issues."
+                },
+                {
+                    "text": "'The history of California demonstrates with sobering clarity the potential for disfavored minorities to be subjected to oppression by hostile majorities,' the minority groups say in their brief, pointing to segregation laws and one excluding Asian-Americans from land ownership as examples.",
+                    "bias_type": "Anecdotal Evidence Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "This statement relies on historical examples, which, while significant, may not directly correlate with the legal and social context of the current issue, thus oversimplifying the argument."
+                },
+                {
+                    "text": "'It is not hypothetical. It's a track record,' said Stanford University law professor Jane Schacter, who has not filed briefs in the case.",
+                    "bias_type": "Anecdotal Evidence Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "The assertion that it's 'not hypothetical' and citing a 'track record' without specific data or analysis introduces a level of certainty based on historical precedent that may not fully apply to the current situation."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article is biased regarding the discussion of California's gay marriage ban, with a general bias tendency towards presenting speculative, emotional, and anecdotal arguments as definitive evidence of potential harm to minorities' rights, while also using word choice and opinionated statements to influence the reader's perception."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.5625,
+            "percentage_of_biased_sentences": 0.45454545454545453,
+            "overall_rating": 0.5085227272727273
+        },
+        "combined_score": 0.0
+    }
+]

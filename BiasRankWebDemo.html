@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BiasRank: The Anti-Bias News Search Engine</title>
+  <style>
+    /* Updated color palette based on #e0251b (red), #ff6b00 (orange), #fff (white) */
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #e0251b;
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+      font-size: 24px;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+
+    /* Magnifying glass (watchglass) next to the input */
+    .search-icon {
+      font-size: 18px;
+    }
+
+    form input[type="text"] {
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      width: 300px;
+    }
+
+    form input[type="text"]::placeholder {
+      color: #999;
+    }
+
+    form input[type="range"] {
+      width: 200px;
+    }
+
+    /* Button changed to a more “search engine” text and color */
+    form input[type="submit"] {
+      padding: 8px 16px;
+      background-color: #ff6b00;
+      border: none;
+      color: #fff;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    form input[type="submit"]:hover {
+      background-color: #e25a00;
+    }
+
+    table {
+      width: 90%;
+      border-collapse: collapse;
+      margin: 20px auto;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left; /* Left-align so the preview looks better */
+      vertical-align: top;
+    }
+
+    th {
+      background-color: #f4f4f4;
+      font-weight: bold;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+
+    .histogram {
+      font-family: monospace;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    .bar-container {
+      display: inline-flex;
+      align-items: flex-end;
+      height: 50px; /* The maximum bar height */
+      margin-bottom: 5px;
+    }
+    .bar {
+      width: 6px;
+      background-color: #007BFF;
+      margin-right: 2px;
+      display: inline-block;
+    }
+
+    .bias-rating {
+      cursor: pointer;
+      text-decoration: underline;
+      color: #007BFF;
+    }
+
+    .bias-rating:hover {
+      text-decoration: none;
+      color: #0056b3;
+    }
+
+    /* Small styling for the logo, URL, and snippet container */
+    .preview-heading {
+      display: flex;
+      align-items: center;
+      margin-bottom: 5px;
+    }
+    .preview-logo {
+      width: 40px;
+      height: 40px;
+      object-fit: contain;
+      margin-right: 8px;
+      flex-shrink: 0;
+    }
+    .preview-url {
+      font-size: 0.85em;
+      color: #666;
+    }
+    .preview-title {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    .preview-snippet {
+      font-size: 0.95em;
+      line-height: 1.4;
+    }
+
+    /* --- Responsive Styles --- */
+    @media (max-width: 600px) {
+      /* Make table elements display as blocks for easier reflow */
+      table, thead, tbody, tr, th, td {
+        display: block;
+        width: 100%;
+      }
+
+      /* Optionally hide the header on mobile */
+      thead {
+        display: none;
+      }
+
+      /* Each row becomes a grid to control the ordering of cells */
+      tr {
+        margin-bottom: 1rem;
+        padding: 10px;
+        border: 1px solid #ddd;
+        display: grid;
+        grid-template-areas:
+          "index"
+          "bias"
+          "preview";
+        grid-row-gap: 10px;
+      }
+
+      td:nth-child(1) {
+        grid-area: index;
+        font-weight: bold;
+      }
+      td:nth-child(2) {
+        grid-area: bias;
+      }
+      td:nth-child(3) {
+        grid-area: preview;
+      }
+
+      /* Adjust cell padding on mobile */
+      td {
+        padding: 8px 5px;
+        border: none;
+        border-bottom: 1px solid #eee;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    BiasRank: The Anti-Bias News Search Engine
+  </header>
+  <main>
+    <form id="searchForm">
+      <span class="search-icon">🔍</span>
+      <label for="query" style="display:none;">Query:</label>
+      <!-- Placeholder text that disappears when typing -->
+      <input type="text" id="query" name="q" placeholder="Search with BiasRank…" />
+
+      <label for="weightingBias">Bias Weighting:</label>
+      <input type="range" id="weightingBias" name="weightingBias" min="0" max="1" step="0.01" value="0" />
+      <span id="biasValue">0.0</span>
+
+      <!-- Changed submit text to something more “search engine” like -->
+      <input type="submit" value="Search" />
+    </form>
+
+    <!-- Updated table: #, Bias, and Preview (title + snippet) -->
+    <table id="resultsTable" style="display:none;">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Bias</th>
+          <th>Preview</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </main>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"> </script>
+  <script src="wordvecs25000.js"></script>
+  <script src="queryvecs.js"></script>
+  <script src="queryresults.js"></script>
+  <script>
+
+async function showAlerts() {
+
+await Swal.fire({
+  icon: "info",
+  title: "Welcome to the BiasRank Demo!",
+  text: "This is a brief demonstration of how a search engine designed to help you find more objective news articles might look.",
+  footer: '<a href="#">See our paper</a>'
+});
+
+await Swal.fire({
+  icon: "info",
+  title: "Dataset",
+  text: "Our demonstration dataset includes articles from Fox News and Reuters covering topics relevant to public discourse in the United States from 2008 to 2010.",
+  footer: '<a href="#">See our data</a>'
+});
+
+await Swal.fire({
+  icon: "info",
+  title: "Queries",
+  text: "For performance reasons, all search results were pre-processed using Lucene and BM25. When you enter a query, the most relevant pre-indexed news results will be loaded.",
+  footer: '<a href="#">More information on lucene and BM25</a>'
+});
+
+await Swal.fire({
+  icon: "info",
+  title: "How to use - Bias Weighting",
+  text: "Use the slider to decide how much influence bias should have on the search ranking",
+  footer: '<a href="#">More information on lucene and BM25</a>'
+});
+
+
+await Swal.fire({
+  title: "How to use - Bias Overview",
+  text: "On the left, you will see a histogram displaying the distribution of biased sentences in the article and their intensity as identified by BiasScanner. By clicking on the overall bias rating, you will be redirected to the full bias report.",
+  imageUrl: "example_histo.png", // Path to your custom image
+  imageAlt: "Custom Image", // Optional: alt text for accessibility
+});
+
+
+
+
+
+}
+
+// Call the function to show the alerts
+showAlerts();
+
+
+
+
+
+    const predefinedQueries = [
+      "autoworkers union UAW",
+      "autoworkers union",
+      "Barack Obama hollywood",
+      "Barack Obama policy",
+      "Barack Obama tax plan",
+      "Barack Obama",
+      "Bush farewell to the nation",
+      "Bush visit",
+      "CIA and other U.S. intelligence agencies interrogation methods",
+      "Fairness Doctrine",
+      "gay adoption",
+      "gay marriage yes or no",
+      "Gitmo prisoners interrogations",
+      "Global warming",
+      "Global weather change",
+      "Greenspan tougher regulations",
+      "Gun free zones",
+      "Hillary Clinton 2008 election",
+      "Hillary Clinton in the media",
+      "illegal immigrants Los Angeles County",
+      "illegal immigration",
+      "Immigrants",
+      "Joe the Plumber",
+      "late-term abortions",
+      "Michelle Obama proud of country",
+      "Michelle Obama",
+      "Obama hike corporate and income taxes for the rich",
+      "obama stimulus history",
+      "obama stimulus package",
+      "Plumber",
+      "President Obama birther movement",
+      "president obama stimulus bill",
+      "President Obama",
+      "Prop 8 gay marriage",
+      "Roe Wade Abortion",
+      "Sarah Palin VP",
+      "Sarah Palin",
+      "Second Amendment and gun control",
+      "United States President Bush global financial crisis",
+      "US Media fairness"
+    ];
+
+
+    let weightingBias = 0.0; // Default bias weighting
+
+    const searchForm = document.getElementById("searchForm");
+    const weightingBiasSlider = document.getElementById("weightingBias");
+    const biasValueSpan = document.getElementById("biasValue");
+    const resultsTable = document.getElementById("resultsTable");
+
+    weightingBiasSlider.value = weightingBias;
+
+    weightingBiasSlider.addEventListener("input", function () {
+      weightingBias = parseFloat(weightingBiasSlider.value);
+      biasValueSpan.textContent = weightingBias.toFixed(2);
+      recalculateAndRenderResults();
+    });
+
+    searchForm.addEventListener("submit", function (e) {
+      closest_query = matchEmbeddings(document.getElementById("query").value);
+      jsonData = queryResults[closest_query];
+      e.preventDefault();
+      resultsTable.style.display = "table";
+      recalculateAndRenderResults();
+    });
+
+    function cosineSimilarity(vec1, vec2) {
+      const dotProduct = vec1.reduce((sum, v, i) => sum + v * vec2[i], 0);
+      const magnitude1 = Math.sqrt(vec1.reduce((sum, v) => sum + v * v, 0));
+      const magnitude2 = Math.sqrt(vec2.reduce((sum, v) => sum + v * v, 0));
+      return dotProduct / (magnitude1 * magnitude2);
+    }
+
+    function levenshtein(a, b) {
+      const tmp = [];
+      const alen = a.length;
+      const blen = b.length;
+      let i = 0;
+      let j = 0;
+      let res = 0;
+
+      if (alen === 0) { return blen === 0 ? 1 : 0; }
+      if (blen === 0) { return alen === 0 ? 1 : 0; }
+
+      // Initialize the matrix.
+      for (i = 0; i <= alen; i++) {
+        tmp[i] = [i];
+      }
+      for (j = 0; j <= blen; j++) {
+        tmp[0][j] = j;
+      }
+
+      // Fill the matrix.
+      for (i = 1; i <= alen; i++) {
+        for (j = 1; j <= blen; j++) {
+          const cost = (a[i - 1] === b[j - 1]) ? 0 : 1;
+          tmp[i][j] = Math.min(
+            tmp[i - 1][j] + 1,        // Deletion
+            tmp[i][j - 1] + 1,        // Insertion
+            tmp[i - 1][j - 1] + cost  // Substitution
+          );
+        }
+      }
+
+      // Calculate the Levenshtein distance.
+      const distance = tmp[alen][blen];
+
+      // Normalize the distance to a score between 0 and 1.
+      const maxLength = Math.max(alen, blen);
+      return 1 - (distance / maxLength);  // Higher score means more similar
+    }
+
+    function matchEmbeddings(query) {
+      const words = query.toLowerCase().split(/[\s-]+/);
+      const embeddings = [];
+
+      for (let word of words) {
+        const embedding = wordVecs[word];
+        if (embedding) {
+          embeddings.push(embedding);
+        } else {
+          console.log("No match for word: " + word);
+        }
+      }
+
+      const numEmbeddings = embeddings.length;
+      const numDimensions = embeddings.length > 0 ? embeddings[0].length : 0;
+      let mean = [];
+      let max = [];
+
+      for (let dimension = 0; dimension < numDimensions; dimension++) {
+        let sum = 0;
+        let maxValue = -1;
+        for (let i = 0; i < numEmbeddings; i++) {
+          const value = embeddings[i][dimension];
+          sum += value;
+          if (value > maxValue) {
+            maxValue = value;
+          }
+        }
+        mean.push(sum / numEmbeddings);
+        max.push(maxValue);
+      }
+
+      closest_query = ["", 0];
+
+      for (let saved_query in queryVecs) {
+        let combined_similarity = 0;
+        if (mean.length > 0) {
+          const mean_similarity = cosineSimilarity(mean, queryVecs[saved_query].mean);
+          const max_similarity = cosineSimilarity(max, queryVecs[saved_query].max);
+          combined_similarity = mean_similarity + max_similarity;
+        }
+
+        saved_words = saved_query.toLowerCase().split(/[\s-]+/);
+        let match = 0;
+        for (let word of words) {
+          for (saved_word of saved_words) {
+            match = match + levenshtein(word, saved_word);
+          }
+          match = match / saved_words.length;
+        }
+        match = match / words.length;
+        combined_similarity = combined_similarity + match;
+
+        if (combined_similarity > closest_query[1]) {
+          closest_query[0] = saved_query;
+          closest_query[1] = combined_similarity;
+        }
+      }
+
+      console.log(closest_query);
+      return closest_query[0];
+    }
+
+    function recalculateAndRenderResults() {
+      jsonData.forEach(article => {
+        article.combined_score =
+          (1.0 - weightingBias) * article.Relevance +
+          weightingBias * (1 - article.Scores.overall_rating);
+      });
+
+      jsonData.sort((a, b) => b.combined_score - a.combined_score);
+      const tbody = resultsTable.querySelector("tbody");
+      tbody.innerHTML = "";
+
+      jsonData.forEach((article, index) => {
+        const row = document.createElement("tr");
+
+        // Index cell
+        const indexCell = document.createElement("td");
+        indexCell.textContent = index + 1;
+        row.appendChild(indexCell);
+
+        // Bias cell
+        const biasCell = document.createElement("td");
+        biasCell.className = "histogram";
+        const barsHtml = article.Histogram.map(value => {
+          const barHeight = 2 + (value * 48);
+          return `<div class="bar" style="height:${barHeight}px;"></div>`;
+        }).join("");
+        biasCell.innerHTML = `
+          <div class="bar-container">${barsHtml}</div>
+          <div class="bias-rating"
+               title="${article.BiasReport.overall_bias.conclusion}"
+               onclick="showBiasReport(${index})">
+            ${article.Scores.overall_rating.toFixed(2)}
+          </div>
+        `;
+        row.appendChild(biasCell);
+
+        // Preview cell
+        const previewCell = document.createElement("td");
+        const logoSrc = article.Logo ? article.Logo : "";
+        const headingHtml = `
+          <div class="preview-heading">
+            <img class="preview-logo" src="${logoSrc}" alt="📰"/>
+            <div class="preview-url">${article.URL}</div>
+          </div>
+        `;
+        const titleHtml = `
+          <div class="preview-title">
+             <a href="#" onclick="openArticle(${index}); return false;">${article.Title}</a>
+          </div>
+        `;
+        const snippetHtml = `
+          <div class="preview-snippet">
+            ${article.Text.slice(0, 250)}${article.Text.length > 250 ? '...' : ''}
+          </div>
+        `;
+        previewCell.innerHTML = headingHtml + titleHtml + snippetHtml;
+        row.appendChild(previewCell);
+
+        tbody.appendChild(row);
+      });
+    }
+
+    function openArticle(index) {
+  // Get the selected article from the jsonData array
+  const article = jsonData[index];
+
+  // Open a new window (or tab)
+  const articleWindow = window.open("", "_blank");
+
+  // Write a new HTML document that displays the Title and full Text of the article
+  articleWindow.document.write(`
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>${article.Title}</title>
+      <style>
+        body {
+          font-family: Arial, sans-serif;
+          margin: 20px;
+          line-height: 1.6;
+          background-color: #fff;
+          color: #333;
+        }
+        h1 {
+          color: #333;
+        }
+        p {
+          white-space: pre-wrap;
+        }
+      </style>
+    </head>
+    <body>
+      <h1>${article.Title}</h1>
+      <p>${article.Text}</p>
+    </body>
+    </html>
+  `);
+
+  // Close the document to finish rendering
+  articleWindow.document.close();
+}
+
+
+
+    function showBiasReport(index) {
+      const article = jsonData[index];
+      const biasReportWindow = window.open("", "_blank");
+      biasReportWindow.document.write(`
+        <html>
+        <head>
+          <title>Bias Report</title>
+          <style>
+            body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
+            h1 { color: #333; }
+            h2 { color: #555; margin-top: 20px; }
+            table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f4f4f4; }
+          </style>
+        </head>
+        <body>
+          <h1>Bias Report for: ${article.Title}</h1>
+          <h2>Overall Bias Conclusion</h2>
+          <p>${article.BiasReport.overall_bias.conclusion}</p>
+          <h2>Sentence-Level Bias Analysis</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Sentence</th>
+                <th>Bias Type</th>
+                <th>Bias Strength</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${article.BiasReport.sentences.map(sentence => `
+                  <tr>
+                    <td>${sentence.text}</td>
+                    <td>${sentence.bias_type}</td>
+                    <td>${sentence.bias_strength}</td>
+                    <td>${sentence.bias_description}</td>
+                  </tr>
+              `).join("")}
+            </tbody>
+          </table>
+          <h2>Scores</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Metric</th>
+                <th>Value</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Average Bias Strength</td><td>${article.Scores.average_bias_strength}</td></tr>
+              <tr><td>Percentage of Biased Sentences</td><td>${article.Scores.percentage_of_biased_sentences}%</td></tr>
+              <tr><td>Overall Rating</td><td>${article.Scores.overall_rating}</td></tr>
+            </tbody>
+          </table>
+        </body>
+        </html>
+      `);
+      biasReportWindow.document.close();
+    }
+  </script>
+</body>
+</html>

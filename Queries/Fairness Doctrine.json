@@ -1,0 +1,1172 @@
+[
+    {
+        "Title": "Liberals Should Think Carefully About Fairness Doctrine Fight.txt",
+        "URL": "Liberals Should Think Carefully About Fairness Doctrine Fight.txt.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/240px-Fox_News_Channel_logo.svg.png",
+        "Text": "The trouble begins\u2026 now! Does John's My Word make your blood boil? Click here to listen live to The John Gibson Show on FOX News Radio (weekdays, 6-9 p.m. ET). It's your chance to call in and argue with John!\n\nToday John Kerry weighed in on an issue that is now all the rage among liberal politicians. The issue is called the Fairness Doctrine.\n\nThis is a rule that used to exist in broadcasting \u2014 radio and TV \u2014 which required that no opinion could be expressed without a countervailing opinion presented immediately. It was the old salt and pepper rule. If you were on the air with a salt shaker, you had to have a pepper shaker.\n\nNow what this is all about is talk radio. Liberals are complaining that their brand of talk radio fails whenever someone tries to put it on the air, and they have decided the answer is to shut up conservative talk radio. This is the \"Hush Rush\" movement.\n\nLiberals are angry that so many of you listen to talk radio \u2014 conservative talk radio \u2014 and that you cannot be dragged over to a liberal talk show. This argument ignores the fact that something like 20 million people a week listen to NPR, which is the very definition of liberal.\n\nWhat it also ignores is that the Fairness Doctrine applies to all broadcast, not just radio and especially not just talk radio. Liberals should be on notice it will apply to all the liberals who now operate on the airwaves in network TV news, in certain quarters of cable news and, of course, in entertainment TV.\n\nFace it. Liberals own Hollywood. Virtually every movie would be subject to the Fairness Doctrine. Think Al Gore's \"Inconvenient Truth\" could stand up to that scrutiny or Michael Moore's \"Fahrenheit 9/11\"? Not a chance.\n\nDo you think HBO can stand to have the Fairness Doctrine applied to what it airs? Bill Maher is going to have an awful time trying to conform to the Fairness Doctrine, and I can't think of a liberal anywhere who wants to shut him up.\n\nWhat John Kerry and Dianne Feinstein and Dick Durbin are asking for is to only restrict the broadcasting that conservatives do, mainly talk radio, though I have no doubt they have their plans for FOX News, too.\n\nThis is an attempt to take over the airwaves with liberal thought and make sure nothing else gets on. It's already a huge imbalance in favor of liberal thought on the airwaves, and the effort now is to make certain that echo chamber of so-called progressives is undisturbed by any irritating arguments from the right, or debates liberals can't win.\n\nThis is liberals in action. When you can't win the debate, make certain there is no debate. That is what the resurgence of the Fairness Doctrine debate is all about.\n\nThat's My Word.\n\nWatch John Gibson weekdays at 5 p.m. ET on \"The Big Story\" and send your comments to: myword@foxnews.com\n\nRead Your Word",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.9,
+            0.9,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.9,
+            0.9,
+            0.9,
+            0.9,
+            0.9,
+            0.6,
+            0.6,
+            0.6,
+            1.0,
+            1.0,
+            0.9,
+            0.9,
+            0.9,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 22.571250915527344,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Today John Kerry weighed in on an issue that is now all the rage among liberal politicians. The issue is called the Fairness Doctrine.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of phrases like 'all the rage' and 'liberal politicians' to describe the support for the Fairness Doctrine introduces a negative connotation and implies judgment, suggesting that the support is irrational or trendy."
+                },
+                {
+                    "text": "This is a rule that used to exist in broadcasting \u2014 radio and TV \u2014 which required that no opinion could be expressed without a countervailing opinion presented immediately. It was the old salt and pepper rule. If you were on the air with a salt shaker, you had to have a pepper shaker.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The analogy of the 'salt and pepper rule' simplifies the Fairness Doctrine in a way that downplays its complexity and potential impact, using a folksy metaphor to imply that the rule is unnecessary or overly simplistic."
+                },
+                {
+                    "text": "Now what this is all about is talk radio. Liberals are complaining that their brand of talk radio fails whenever someone tries to put it on the air, and they have decided the answer is to shut up conservative talk radio. This is the 'Hush Rush' movement.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "The phrase 'Hush Rush' movement is a clear example of Word Choice Bias, using a derogatory and emotionally charged term to frame the actions of liberals as malicious attempts to silence conservative voices, without acknowledging the broader context of the Fairness Doctrine."
+                },
+                {
+                    "text": "Liberals are angry that so many of you listen to talk radio \u2014 conservative talk radio \u2014 and that you cannot be dragged over to a liberal talk show. This argument ignores the fact that something like 20 million people a week listen to NPR, which is the very definition of liberal.",
+                    "bias_type": "Generalization Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence generalizes the attitudes of 'liberals' and 'you' (presumably non-liberals) towards talk radio, suggesting a uniform and simplistic view of a diverse group. It also oversimplifies the nature of NPR's audience and programming to fit a generalized narrative."
+                },
+                {
+                    "text": "What it also ignores is that the Fairness Doctrine applies to all broadcast, not just radio and especially not just talk radio. Liberals should be on notice it will apply to all the liberals who now operate on the airwaves in network TV news, in certain quarters of cable news and, of course, in entertainment TV.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This statement speculates on the impact of the Fairness Doctrine on TV and entertainment without providing evidence, suggesting a broad and negative consequence for 'liberals' in these media sectors based on the assumption of how the doctrine would be applied."
+                },
+                {
+                    "text": "Face it. Liberals own Hollywood. Virtually every movie would be subject to the Fairness Doctrine. Think Al Gore's 'Inconvenient Truth' could stand up to that scrutiny or Michael Moore's 'Fahrenheit 9/11'? Not a chance.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "The assertion that 'Liberals own Hollywood' is a clear example of Word Choice Bias, using a phrase with a strong positive connotation ('own') to imply control and influence, which is then used to suggest a negative outcome under the Fairness Doctrine, without providing a balanced or evidence-based perspective."
+                },
+                {
+                    "text": "Do you think HBO can stand to have the Fairness Doctrine applied to what it airs? Bill Maher is going to have an awful time trying to conform to the Fairness Doctrine, and I can't think of a liberal anywhere who wants to shut him up.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence speculates on the difficulties that would arise for HBO and Bill Maher under the Fairness Doctrine, implying negative consequences without a clear understanding of how the doctrine would be implemented or its actual impact on content providers."
+                },
+                {
+                    "text": "What John Kerry and Dianne Feinstein and Dick Durbin are asking for is to only restrict the broadcasting that conservatives do, mainly talk radio, though I have no doubt they have their plans for FOX News, too.",
+                    "bias_type": "Insinuative Questioning Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The suggestion that these politicians have undisclosed plans for FOX News introduces doubt and suspicion through insinuative questioning, implying a hidden agenda without direct evidence, and leading the audience towards a preconceived notion of the politicians' intentions."
+                },
+                {
+                    "text": "This is an attempt to take over the airwaves with liberal thought and make sure nothing else gets on. It's already a huge imbalance in favor of liberal thought on the airwaves, and the effort now is to make certain that echo chamber of so-called progressives is undisturbed by any irritating arguments from the right, or debates liberals can't win.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 1.0,
+                    "bias_description": "The use of phrases like 'take over the airwaves' and 'echo chamber of so-called progressives' employs highly charged language to convey a strong negative bias against 'liberal thought', suggesting a deliberate and unjust imbalance in media representation."
+                },
+                {
+                    "text": "This is liberals in action. When you can't win the debate, make certain there is no debate. That is what the resurgence of the Fairness Doctrine debate is all about.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "This concluding statement presents a subjective opinion on the motivations behind the support for the Fairness Doctrine as an objective truth, asserting that it is solely driven by a desire to silence opposition rather than a genuine concern for media diversity or balance."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article is biased regarding the discussion of the Fairness Doctrine, demonstrating a general bias tendency against 'liberal thought' and in favor of conservative viewpoints, particularly in the context of media regulation and representation. The biases identified include Word Choice Bias, Generalization Bias, Speculation Bias, Insinuative Questioning Bias, and Opinionated Bias, with varying strengths across the different instances."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.73,
+            "percentage_of_biased_sentences": 0.48484848484848486,
+            "overall_rating": 0.6074242424242424
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "US Senate backs ban on media 'Fairness Doctrine'",
+        "URL": "US Senate backs ban on media 'Fairness Doctrine'.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Kim Dixon      WASHINGTON, Feb 26 (Reuters) - The U.S. Senate passed an  amendment on Thursday that would bar regulators from requiring  broadcasters to give equal time to all points of view, a ban  strongly supported by some Republican lawmakers.      The legislative amendment, sponsored by Republican Sen. Jim  DeMint of South Carolina, would prevent the Federal  Communications Commission from reimposing the so-called  Fairness Doctrine to all broadcasters. It was repealed more  than 20 years ago.      Aides to President Barack Obama have said he has no  intention of trying to reinstate the Fairness Doctrine, but  that has not stopped some Republicans from raising the issue.      Free Press, a media advocacy group that opposes bringing  back the rule, said the issue was a distraction.      'An uncharitable interpretation is that they (Republicans)  need an issue that unites their base and is an easy talking  point for conservative radio,' said Ben Scott, policy director  at Free Press.      Conservative talk show icon Rush Limbaugh recently decried  the doctrine in a Wall Street Journal editorial.      DeMint said the doctrine violates the First Amendment and  would suppress free speech by letting the government decide  what is fair political dialogue.      An appeals court made that ruling, leading the FCC to  repeal it in 1987.      Scott's group agrees the government should not be decided  what is fair and balanced, but said there is no clamor to bring  it back.      The amendment was attached to an unrelated bill on voting  rights for Washington, D.C. residents. Whether it will survive  in the U.S. House of Representatives is uncertain.   (Reporting by Kim Dixon; editing by Jeffrey Benkoe)   ((kim.dixon@thomsonreuters.com; +1 202 354-5864))  Keywords: FAIRNESS FCC/       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 22.539958953857422,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "'An uncharitable interpretation is that they (Republicans)  need an issue that unites their base and is an easy talking  point for conservative radio,' said Ben Scott, policy director  at Free Press.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'uncharitable interpretation' and 'easy talking point for conservative radio' implies a negative judgment and suggests that the Republicans' support for the ban is not based on genuine reasons, but rather on manipulative tactics."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits a Word Choice Bias, suggesting a negative portrayal of the Republicans' support for the ban on the 'Fairness Doctrine' as being manipulative rather than principled."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.07692307692307693,
+            "overall_rating": 0.3384615384615385
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "No One Actually Likes the Fairness Doctrine.txt",
+        "URL": "No One Actually Likes the Fairness Doctrine.txt.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/240px-Fox_News_Channel_logo.svg.png",
+        "Text": "So if the Democrats win it all this year, you can bet the first thing they're going to do is gloat.\n\nThen, of course, they're going to get high and bang hookers.\n\nThen, finally, they will try to resuscitate the corpse that is the Fairness Doctrine.\n\nIf you don't know what this is, it's a creepy ploy to \"balance\" talk radio \u2014 meaning creating regulation to offset Rush Limbaugh with an opposing loudmouth. Think Jeanine Garofalo (without throwing up).\n\nThe Fairness Doctrine illustrates a key truth about lefty thinking: no one actually likes it. The fact that you'd need the government to force radio stations to broadcast this crap is proof that society has no need for it.\n\nFor an example of how successful liberal chat radio is on its own, see Air America. It was to radio broadcasting what crabs are to spring break.\n\nEven more, the Fairness Doctrine reveals a scurvy of insecurity that riddles the left. It's not enough for them to control nearly every media entity on the planet \u2014 including movies, television and off-Broadway one-woman shows \u2014 they must get their paws all over this too.\n\nIf the Fairness Doctrine happens, most likely talk radio would go bankrupt supporting liberal shows they'd be forced to run. And that's the left's real strategy: It's not about giving Randi Rhodes another outlet to ramble incoherently. It's about eliminating dissent.\n\nAnd if you disagree with me, then you sir, will die!\n\nGreg Gutfeld hosts \"Red Eye with Greg Gutfeld\" weekdays at 3 a.m. ET. Send your comments to: redeye@foxnews.com",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.9,
+            0.9,
+            1.0,
+            1.0,
+            0.9,
+            0.9,
+            0.9,
+            0.9,
+            0.9,
+            1.0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 17.83161735534668,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "If you don't know what this is, it's a creepy ploy to \"balance\" talk radio \u2014 meaning creating regulation to offset Rush Limbaugh with an opposing loudmouth. Think Jeanine Garofalo (without throwing up).",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'creepy' and 'opposing loudmouth' to describe the Fairness Doctrine and potential radio hosts introduces negative connotations and judgment, influencing the reader's perception."
+                },
+                {
+                    "text": "The Fairness Doctrine illustrates a key truth about lefty thinking: no one actually likes it. The fact that you'd need the government to force radio stations to broadcast this crap is proof that society has no need for it.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "Labeling the Fairness Doctrine as 'crap' and asserting that 'no one actually likes it' presents a subjective opinion as an objective truth, blurring the line between fact and personal perspective."
+                },
+                {
+                    "text": "For an example of how successful liberal chat radio is on its own, see Air America. It was to radio broadcasting what crabs are to spring break.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 1.0,
+                    "bias_description": "Comparing Air America's radio broadcasting to 'what crabs are to spring break' uses a highly negative and sensational analogy, undermining the network's success in a derogatory manner."
+                },
+                {
+                    "text": "Even more, the Fairness Doctrine reveals a scurvy of insecurity that riddles the left. It's not enough for them to control nearly every media entity on the planet \u2014 including movies, television and off-Broadway one-woman shows \u2014 they must get their paws all over this too.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "Describing the left's support for the Fairness Doctrine as 'a scurvy of insecurity' and mocking their involvement in various media forms with 'off-Broadway one-woman shows' presents a highly subjective and derogatory opinion."
+                },
+                {
+                    "text": "If the Fairness Doctrine happens, most likely talk radio would go bankrupt supporting liberal shows they'd be forced to run. And that's the left's real strategy: It's not about giving Randi Rhodes another outlet to ramble incoherently. It's about eliminating dissent.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "Asserting that the left's real strategy behind the Fairness Doctrine is 'about eliminating dissent' and characterizing liberal shows as 'forced to run' and 'ramble incoherently' reflects a strong, opinionated perspective presented as fact."
+                },
+                {
+                    "text": "And if you disagree with me, then you sir, will die!",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 1.0,
+                    "bias_description": "The use of hyperbolic language, suggesting death as a consequence of disagreement, is a clear example of emotional sensationalism designed to provoke a strong reaction, lacking accuracy or context."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article is biased regarding the topic of the Fairness Doctrine and its potential impact on talk radio, demonstrating a general bias tendency through the use of word choice, opinionated statements, and emotional sensationalism to discredit the Fairness Doctrine and those who support it."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.8833333333333333,
+            "percentage_of_biased_sentences": 0.3888888888888889,
+            "overall_rating": 0.6361111111111111
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Could _Fairness Doctrine_ Be Used to Police the Internet_.txt",
+        "URL": "Could _Fairness Doctrine_ Be Used to Police the Internet_.txt.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/240px-Fox_News_Channel_logo.svg.png",
+        "Text": "First radio, now the Web?\n\nMedia analysts and bloggers are warning that fresh efforts to bring back the so-called Fairness Doctrine could go too far, following a report that one prominent Democrat is looking into ways to apply the media control standards to the Internet.\n\nThe Fairness Doctrine is a policy created decades ago but abolished in the late 1980s that required broadcasters to provide opposing views on controversial issues.\n\nWhile some Democrats have talked about reviving the policy, The American Spectator reported Monday that Rep. Henry Waxman, D-Calif., is taking the call to a new level. The article said aides to the chairman of the House Energy and Commerce Committee met last week with Federal Communications Commission staff to discuss ways to not only enact those policies but give Waxman's panel greater oversight over the Internet.\n\n\"It's all about diversity in media,\" the Spectator quoted a House energy committee staff member as saying. \"Does one radio station or one station group control four of the five most powerful outlets in one community? ... Does one heavily trafficked Internet site present one side of an issue and not link to sites that present alternative views?\"\n\nThe committee vigorously denied the report. A spokesperson called the account \"fictitious\" in a statement to FOX News.\n\n\"The American Spectator report is false and was written without any documentation or attribution,\" the statement said.\n\nFCC spokesman David Fiske also disputed the claims in the piece, saying, \"We're not sure that it's an accurate article.\"\n\nAnalysts treated the report with a dose of skepticism as well -- but noted that the idea is not entirely foreign. Robert McDowell, the current FCC commissioner and a Bush appointee, warned in an interview last year that Fairness Doctrine advocates might try to extend their policies to the Web.\n\nIf that is the case, foes and supporters of the doctrine alike say policing fairness on the Internet will prove impossible. Plus they say it's unnecessary and well beyond the scope of the original policy.\n\n\"This borders between stupidity and sheer insanity,\" said conservative radio talk show host Mike Gallagher, when told about the Spectator report. \"I can't wait until they try to monitor how many conservative posts are on a thread versus how many liberal posts are on a thread.\"\n\nHe added that Democrats would be only neutralizing dominant liberal blogs that currently help them. He predicted any move to extend Fairness Doctrine principles to the Web would \"blow sky high.\"\n\nThe Fairness Doctrine was adopted in 1949 and held that broadcasters were obligated to provide opposing points of views on controversial issues of national importance. It was halted under the Reagan administration.\n\nThe policy is the scourge of conservative radio hosts, who say it would allow the federal government to skew content on their programs. Democratic lawmakers, some of whom have renewed the call to reinstate the doctrine in recent weeks, say it would bring accountability to the airwaves and help increase the number of liberal shows in a landscape dominated by conservatives like Rush Limbaugh.\n\nSteve Rendall, a Fairness Doctrine supporter and senior analyst with Fairness and Accuracy in Reporting, said liberals and conservatives both over-state the impact the doctrine would have on media content.\n\nHe said most talk shows, even those on the right, already comply with the requirements, which he said tread \"very lightly\" and do not call for absolute balance on the airwaves.\n\nBut he said there is \"no justification\" for applying the doctrine to the Internet, or any other form of media -- since the doctrine was only meant to apply standards to the privileged holders of limited broadcast licenses. The Internet, by contrast, has infinite outlets for opinion.\n\n\"Cable and Internet are, at least theoretically, limitless in the number of voices that they can present, and it's not at all the same as broadcast,\" Rendall said.\n\nBrent Bozell, president of the conservative Media Research Center, said it would be \"impossible\" to regulate balance and neutrality on the Internet. He said he thinks Democrats eventually want to bring those standards to the Web but are struggling to rally the political will to revisit the Fairness Doctrine.\n\nHe said any legislative efforts to reinstate it will probably occur behind closed doors, since doing it out in the open could cause political repercussions.\n\nThe Spectator reported that Waxman's advisers were discussing ways to implement Fairness Doctrine policies without actually calling it the \"Fairness Doctrine.\"\n\nOther Democrats have openly called for a modern-day Fairness Doctrine in recent weeks, though they were referring more to radio than the Internet.\n\n\"I absolutely think it's time to be bringing accountability to the airwaves,\" Sen. Debbie Stabenow, D-Mich., told liberal radio host Bill Press two weeks ago. She said she expects hearings soon on reviving the policy, though her office has reportedly backed off that prediction. (Stabenow's husband, Tom Athans, is and has been an executive at several liberal radio talk groups.)\n\nAnd Sen. Tom Harkin, D-Iowa, told Press last week: \"We gotta get the Fairness Doctrine back in law again.\"\n\nDuring the presidential campaign, a spokesman said then-candidate Barack Obama did not favor reinstating the Fairness Doctrine. But Obama's White House aides are now leaving open the question.\n\nAsked if the White House would rule out imposing the doctrine on \"FOX News Sunday,\" senior adviser David Axelrod ducked.\n\n\"I'm going to leave that issue to Julius Genachowski, our new head of the FCC ... and the president to discuss. So I don't have an answer for you now,\" he said.\n\nDespite the speculation, nobody has introduced a bill this session to reinstate those policies.\n\nMeanwhile, Oklahoma Sen. James Inhofe introduced a bill this year to prevent reinstatement of the Fairness Doctrine.\n\nFOXNews.com's Judson Berger and FOX News' Chad Pergram contributed to this report.",
+        "Histogram": [
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1.0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 13.430950164794922,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Media analysts and bloggers are warning that fresh efforts to bring back the so-called Fairness Doctrine could go too far, following a report that one prominent Democrat is looking into ways to apply the media control standards to the Internet.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The sentence speculates on the potential negative consequences of reviving the Fairness Doctrine for the Internet without concrete evidence, suggesting a possible overreach based on conjecture."
+                },
+                {
+                    "text": "It's all about diversity in media,",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The phrase 'It's all about diversity in media' uses positively connoted language to frame the issue, implying that any efforts to apply the Fairness Doctrine to the Internet are solely for the purpose of promoting diversity, which could influence the reader's perception."
+                },
+                {
+                    "text": "This borders between stupidity and sheer insanity,",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 1.0,
+                    "bias_description": "The use of extreme language such as 'stupidity' and 'sheer insanity' is designed to provoke a strong emotional response, undermining the argument through hyperbolic language rather than a reasoned critique."
+                },
+                {
+                    "text": "He added that Democrats would be only neutralizing dominant liberal blogs that currently help them. He predicted any move to extend Fairness Doctrine principles to the Web would \"blow sky high.\"",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence speculates on the potential negative impact of applying Fairness Doctrine principles to the Web, suggesting a dramatic and negative outcome without providing evidence to support such a claim."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the potential application of the Fairness Doctrine to the Internet, with a focus on speculation, emotional sensationalism, and word choice influencing the discussion. The general bias tendency leans towards portraying such efforts in a negative light, suggesting they would be detrimental without a balanced or evidence-based examination."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.7000000000000001,
+            "percentage_of_biased_sentences": 0.06382978723404255,
+            "overall_rating": 0.3819148936170213
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "It_s the Media_ Stupid.txt",
+        "URL": "It_s the Media_ Stupid.txt.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/240px-Fox_News_Channel_logo.svg.png",
+        "Text": "I worked in the dark ages of broadcasting under something called the Fairness Doctrine.\n\nUnder the Fairness Doctrine, an anchor or host or reporter could not present one opinion without presenting the opposing view \u2014 side by side, in close proximity \u2014 and it was virtually forbidden for the anchor or host to say what he or she thought.\n\nThe FCC voted the fairness doctrine out under the theory that so many new radio and television outlets were being created that the American public would be able to get the other side of the story by tuning in to the right TV or radio dial.\n\nThis is why Senate Majority Leader Tom Daschle is mad about Rush Limbaugh, Sean Hannity and other conservative talk show hosts. They have attracted a huge and highly motivated audience. There simply isn't a liberal version, at least on the radio.\n\nYou could argue that the liberals have four television networks that represent their point of view, but evidently... that isn't enough for\n\nDaschle.\n\nHe wants those voices he doesn't like silenced, and soon enough you are going to hear that the problem isn't just Limbaugh or Hannity... it's the demise of the Fairness Doctrine. You'll hear a call for a return to the days when a broadcaster's license could be taken away if there was even the perception of unfairness.\n\nThis is an easy one. The liberal leaders are blaming what they call conservative media for their losses, and they are teeing up scare politics to stifle, muzzle, silence and chill the media they don't like.\n\nI predict an attempt to bring back to life the old Fairness Doctrine. It was a good way to shut people up.\n\nThat's My Word .\n\nWhat do you think? We'd like to hear from you, so send us your comments at myword@foxnews.com. Some of your emails will be featured on the air or on our site.\n\n\u2022 Looking for some previous My Word columns? Click here!",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            1.0,
+            1.0,
+            0.9,
+            0.9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 12.66540813446045,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "This is why Senate Majority Leader Tom Daschle is mad about Rush Limbaugh, Sean Hannity and other conservative talk show hosts. They have attracted a huge and highly motivated audience. There simply isn't a liberal version, at least on the radio.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of phrases like 'is mad about' and 'There simply isn't a liberal version' implies a judgment and suggests a lack of balance, influencing the reader's perception."
+                },
+                {
+                    "text": "You could argue that the liberals have four television networks that represent their point of view, but evidently... that isn't enough for Daschle.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The phrase 'but evidently... that isn't enough for Daschle' suggests a dismissive attitude towards Daschle's concerns, implying that his perspective is unreasonable without providing a balanced view."
+                },
+                {
+                    "text": "He wants those voices he doesn't like silenced, and soon enough you are going to hear that the problem isn't just Limbaugh or Hannity... it's the demise of the Fairness Doctrine. You'll hear a call for a return to the days when a broadcaster's license could be taken away if there was even the perception of unfairness.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence speculates on future events and the intentions of political figures without concrete evidence, suggesting a negative outcome based on conjecture."
+                },
+                {
+                    "text": "This is an easy one. The liberal leaders are blaming what they call conservative media for their losses, and they are teeing up scare politics to stifle, muzzle, silence and chill the media they don't like.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 1.0,
+                    "bias_description": "The use of 'scare politics' and the repetition of 'stifle, muzzle, silence and chill' in a negative context strongly implies a judgment and a deliberate attempt to evoke a negative emotional response, indicating a high level of bias."
+                },
+                {
+                    "text": "I predict an attempt to bring back to life the old Fairness Doctrine. It was a good way to shut people up.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "The phrase 'It was a good way to shut people up' uses provocative language designed to evoke a strong emotional response, overshadowing a more balanced or neutral discussion on the topic."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article is biased regarding the discussion of media regulations and the perceived imbalance between conservative and liberal media, with a general bias tendency towards portraying conservative media in a negative light and suggesting a threat to free speech."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.74,
+            "percentage_of_biased_sentences": 0.3157894736842105,
+            "overall_rating": 0.5278947368421052
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "ANALYSIS-EU tries to avoid \"Sinatra doctrine\" in crisis",
+        "URL": "ANALYSIS-EU tries to avoid \"Sinatra doctrine\" in crisis.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Paul Taylor, European Affairs Editor      BRUSSELS, Oct 9 (Reuters) - As the Soviet empire began to  crumble in 1989, Soviet President Mikhail Gorbachev's spokesman  coined the phrase 'the Sinatra doctrine' to describe the process  of each nation going its own way.      'The days of the Brezhnev doctrine are over,' Gennady  Gerassimov said, referring to former leader Leonid Brezhnev's  iron rule that no communist state could leave the fold. 'We now  follow the Frank Sinatra doctrine: I'll do it my way.'      The European Union has struggled to overcome an outbreak of  the 'Sinatra doctrine' since the global financial crisis swept  into Europe from the United States last month, felling giant  banks, rattling markets and panicking savers.      Each country began by acting for itself, some taking  measures with negative consequences for neighbours or partners.      The Irish enacted an unlimited guarantee for deposits in  Irish-owned banks, sucking cash away from British rivals.  National regulators and governments in various countries banned  some or all short-selling of shares.      The Dutch and Italians called for a U.S.-style bank rescue  fund for Europe. France canvassed the idea privately, then  disowned it when Germany objected loudly.      French President Nicolas Sarkozy, holder of the 27-nation  bloc's revolving presidency, tried to assert leadership,  convening a summit of leaders of the major European economies  and EU institutions who pledged to coordinate their response.      That irked smaller EU states which felt excluded without  immediately instilling much more discipline.      The very next day, German Chancellor Angela Merkel issued a  blanket guarantee of savers' deposits apparently without having  informed EU partners or the European Commission in advance.            RENATIONALISATION?      By this week, European Commission President Jose Manuel  Barroso was warning: 'A succession of national responses may  cause the renationalisation of the European financial system,  which would be a setback for European integration.'      He rejected accusations that the Commission, seen by some  critics as a slave to free-market dogma, had failed to press for  greater European regulation of banks and markets.      'We all know that before this crisis there was no chance to  introduce more European regulation. Some of the most relevant  member states in economic and financial dimension would not ever  have accepted it,' he told the Friends of Europe think-tank.      Behind the finger-pointing is fear in Brussels of a rise of  protectionism and disregard for EU competition rules that could  wreak economic damage and lead to big gains for Eurosceptics in  next year's European Parliament elections.      Another casualty could be governments' willingness to adopt  ambitious but initially costly measures to fight climate change  and promote renewable energy, due to be enacted this year.      Public anger at bankers' excesses and fear for savings, jobs  and pensions may fuel support for the anti-globalisation left  and the nationalist right, while disenchanted mainstream voters  stay home.      'No' votes in 2005 to the EU constitution in France and the  Netherlands, and Ireland's rejection this year of the Lisbon  treaty containing the same reforms were warning signs.      'We will have a very, very tough election campaign because  the Eurosceptics ... are coming together. From Ireland to  Denmark, Austria and other countries,' ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0.6,
+            0,
+            0
+        ],
+        "Relevance": 10.768855094909668,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "The European Union has struggled to overcome an outbreak of the 'Sinatra doctrine' since the global financial crisis swept into Europe from the United States last month, felling giant banks, rattling markets and panicking savers.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'struggled to overcome an outbreak' and the dramatic imagery of 'felling giant banks, rattling markets and panicking savers' implies a judgment and negative connotation towards the actions and consequences of the European Union's response to the financial crisis."
+                },
+                {
+                    "text": "Each country began by acting for itself, some taking measures with negative consequences for neighbours or partners.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The phrase 'acting for itself' and the suggestion of 'negative consequences for neighbours or partners' without specific evidence introduces a negative judgment and implies a lack of cooperation or consideration within the European Union."
+                },
+                {
+                    "text": "That irked smaller EU states which felt excluded without immediately instilling much more discipline.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'irked' and 'without immediately instilling much more discipline' suggests a disapproving tone towards the reactions of smaller EU states, implying a lack of rational response or discipline on their part."
+                },
+                {
+                    "text": "By this week, European Commission President Jose Manuel Barroso was warning: 'A succession of national responses may cause the renationalisation of the European financial system, which would be a setback for European integration.'",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The warning about 'renationalisation of the European financial system' is speculative in nature, presenting a potential outcome as a certainty without concrete evidence, which could influence the reader's perception towards a negative view of national responses."
+                },
+                {
+                    "text": "Behind the finger-pointing is fear in Brussels of a rise of protectionism and disregard for EU competition rules that could wreak economic damage and lead to big gains for Eurosceptics in next year's European Parliament elections.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The sentence conveys a subjective opinion by stating 'Behind the finger-pointing is fear in Brussels', suggesting a speculative and negative outlook on the motivations and consequences of actions within the EU, particularly regarding the rise of protectionism and Euroscepticism."
+                },
+                {
+                    "text": "'No' votes in 2005 to the EU constitution in France and the Netherlands, and Ireland's rejection this year of the Lisbon treaty containing the same reforms were warning signs.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Describing the referendum results as 'warning signs' implies a negative judgment on the democratic decisions made by the citizens of France, the Netherlands, and Ireland, suggesting that these outcomes are indicative of broader problems within the EU."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias through the use of speculative language, negative word choices, and opinionated statements, particularly regarding the European Union's response to the global financial crisis and its internal dynamics. The biases are primarily manifested in portraying actions and outcomes in a negative light, implying a lack of cooperation, discipline, and foresight within the EU, and speculating on potential negative consequences without concrete evidence."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.13043478260869565,
+            "overall_rating": 0.3652173913043478
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Naomi Klein wins UK book award for Shock Doctrine",
+        "URL": "Naomi Klein wins UK book award for Shock Doctrine.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    LONDON, Feb 25 (Reuters) - Canadian journalist Naomi Klein  has won Britain's inaugural Warwick Prize for Writing for 'The  Shock Doctrine', her acclaimed investigation into neoliberal  economics which she calls 'disaster capitalism'.      The 2007 book argues that governments and companies use  natural disasters like the Asian tsunami or man-made shocks like  the Iraq war or the attacks of Sept. 11, 2001, to push through  corporate-friendly policies.      'The Shock Doctrine is a brilliant, provocative,  outstandingly written investigation into some of the great  outrages of our time,' said fantasy fiction author China  Mieville who chaired the judging panel.      Klein receives 50,000 pounds ($73,000) for winning the  biennial award, which is funded by the University of Warwick and  honours any 'substantial' piece of writing in the English  language, including works in translation.      'At a time when the news out of the publishing industry is  usually so bleak, it's thrilling to be part of a bold new prize  supporting writing, especially alongside such an exciting array  of other books,' Klein said in a statement.      Klein was up against 'Montano's Malady' by Spanish writer  Enrique Vila-Matas, Polish-born Lisa Appignanesi for 'Mad, Bad,  and Sad: A History of Women and the Mind Doctors from 1800' and  U.S. novelist Francisco Goldman for 'The Art of Political  Murder: Who Killed Bishop Gerardi?'.      Rounding off the shortlist of six were U.S. theoretical  biologist Stuart Kauffman ('Reinventing the Sacred: A New View  of Science, Reason, and Religion') and U.S. music critic Alex  Ross ('The Rest Is Noise: Listening to the Twentieth Century').    (Reporting by Mike Collett-White, editing by Paul Casciato)    (To read more about our entertainment news, visit our blog  'Fan Fare' online at http://blogs.reuters.com/fanfare)   ((London newsroom: tel +44 20 7542 4015; email:  mike.collett-white@reuters.com))    Keywords: BRITAIN BOOK/KLEIN        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 10.350828170776367,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports on the award received by Naomi Klein for her book 'The Shock Doctrine' without presenting any subjective or misleading information."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Rich Indian jailed in test of judicial fairness",
+        "URL": "Rich Indian jailed in test of judicial fairness.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    NEW DELHI, Sept 5 (Reuters) - The son of a wealthy Indian  arms dealer, whose drunken driving killed six people a decade  ago, was jailed for five years on Friday in a case seen as a test  of Indian courts' fairness in judging the rich and powerful.      Sanjeev Nanda, the grandson of a former navy chief, pleaded  innocent in the case that saw the convict's family being accused  of trying to bribe witnesses into lying.      The media kept up pressure on the high-profile case in a  country where the judiciary is often accused of favouring the  wealthy and powerful.      'I found Sanjeev Nanda guilty,' judge Vinod Kumar said,  sentencing him to five years in prison.      The court also jailed three other defendants for six months  to a year on charges of destroying evidence in the case which  came to be known as the BMW case after the car Nanda was driving.      Nanda's lawyer said they would appeal before a higher court  within a week.      Prosecutors said Nanda, who was a student of the Wharton  School of Business and on holiday in India, was returning from a  party with two friends when he ran over seven people. Six,  including three policemen, were killed.   (Reporting by R. Venkatraman; Writing by Tony Tharakan; Editing  by Krittivas Mukherjee and Jerry Norton)   ((For the latest Reuters news on India see: in.reuters.com, for  blogs see blogs.reuters.com/in/)   ((Reuters Messaging: tony.tharakan.reuters.com@reuters.net  Email: tony.tharakan@thomsonreuters.com; +91-11-4178-1027))  Keywords: INDIA JAIL/       ",
+        "Histogram": [
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 8.585878372192383,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "The media kept up pressure on the high-profile case in a country where the judiciary is often accused of favouring the wealthy and powerful.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The phrase 'judiciary is often accused of favouring the wealthy and powerful' implies a judgment about the judiciary's behavior without providing evidence, using language that suggests a negative connotation towards the judiciary's fairness."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article contains one instance of Word Choice Bias, suggesting a negative bias towards the judiciary's fairness in cases involving the wealthy and powerful. The general bias tendency leans towards questioning the fairness of the judiciary in such cases."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.1111111111111111,
+            "overall_rating": 0.3555555555555555
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Iran cleric calls for fairness from atomic body",
+        "URL": "Iran cleric calls for fairness from atomic body.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    TEHRAN, Nov 21 (Reuters) - The head of the U.N. nuclear  watchdog Mohamed ElBaradei should report on Iran's nuclear  programme neutrally and with fairness, an influential cleric  said on Friday after this week's report on Iran's atomic work.      Akbar Hashemi Rafsanjani, also a former president, said in a  sermon to worshippers at Friday prayers broadcast on state radio  that U.S. accusations that Iran was diverting its nuclear  programme to military purposes were not backed up by evidence.      Washington and its allies accuse Tehran of seeking to build  nuclear warheads under cover of a civilian atomic programme, a  charge Iran denies, insisting its aim is to generate electricity  so it can save more of its vast oil and gas reserves for export.      'We have announced everything. The (International Atomic  Energy) Agency (IAEA) has acknowledged ... that we have had no  diversion,' Rafsanjani said.      'But the Americans have raised a claim that we are not  announcing everything. Well, a claim of this nature has no  limits in scope and anybody can make such a claim in relation to  anything. They are not giving any document to support their  claim.'      The IAEA presented its latest report on Iran on Wednesday,  saying the Islamic Republic planned to start installing another  3,000 centrifuges early next year, adding to 3,800 already  enriching uranium and another 2,200 being gradually introduced.      The West worries about the enrichment programme because it  can have both civilian and military uses.       'As for Mr ElBaradei, whenever he speaks he does it  equivocally ... (saying) that, for instance, Iran is not letting  the agency inspect the Arak heavy water facility,' he said,  referring to one of Iran's disputed nuclear sites.      'This is again an example of trying to use compulsion in  relations to us. We ask the agency to judge neutrally and fairly  and avoid speaking equivocally,' the former president said.      'We will not let the certain right of a revolutionary and  innocent nation be trampled,' Rafsanjani added.      The IAEA has been investigating allegations that Iran  carried out research into nuclear warheads. The accusations were  based on intelligence which came from a laptop computer spirited  out of Iran by a defector in 2004 and passed on to Washington,  from some other Western states, and from IAEA inquiries.      Iran dismisses the allegations and says U.N. inspectors have  access in line with legal requirements to verify what it says is  the peaceful nature of the Islamic Republic's plans.   (Reporting by Hashem Kalantari, writing by Edmund Blair)   ((edmund.blair@thomsonreuters.com, +98 21 8820 8770, Reuters  Messaging: edmund.blair.reuters.com@reuters.net))      Keywords: IRAN NUCLEAR/RAFSANJANI       ",
+        "Histogram": [
+            0.6,
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 7.7209978103637695,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "The head of the U.N. nuclear watchdog Mohamed ElBaradei should report on Iran's nuclear programme neutrally and with fairness, an influential cleric said on Friday after this week's report on Iran's atomic work.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'neutrally' and 'with fairness' implies a judgment about the current reporting of the U.N. nuclear watchdog, suggesting that it may not be neutral or fair without providing evidence for such a claim."
+                },
+                {
+                    "text": "Akbar Hashemi Rafsanjani, also a former president, said in a sermon to worshippers at Friday prayers broadcast on state radio that U.S. accusations that Iran was diverting its nuclear programme to military purposes were not backed up by evidence.",
+                    "bias_type": "Unsubstantiated Claims Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence presents a statement as factual (that U.S. accusations are not backed up by evidence) without providing any evidence to support this claim, thus implying that the accusations are baseless."
+                },
+                {
+                    "text": "'We have announced everything. The (International Atomic Energy) Agency (IAEA) has acknowledged ... that we have had no diversion,' Rafsanjani said.",
+                    "bias_type": "Unsubstantiated Claims Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Similar to the previous sentence, this one asserts that everything has been announced and there has been no diversion, again without providing evidence to support this claim."
+                },
+                {
+                    "text": "'But the Americans have raised a claim that we are not announcing everything. Well, a claim of this nature has no limits in scope and anybody can make such a claim in relation to anything. They are not giving any document to support their claim.'",
+                    "bias_type": "Unsubstantiated Claims Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence dismisses the American claim without addressing it directly and implies that the absence of documents to support the claim invalidates it, which is a form of unsubstantiated dismissal."
+                },
+                {
+                    "text": "'As for Mr ElBaradei, whenever he speaks he does it equivocally ... (saying) that, for instance, Iran is not letting the agency inspect the Arak heavy water facility,' he said, referring to one of Iran's disputed nuclear sites.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'equivocally' to describe ElBaradei's statements suggests that his remarks are intentionally ambiguous or misleading, which implies a negative judgment about his character or intentions."
+                },
+                {
+                    "text": "'This is again an example of trying to use compulsion in relations to us. We ask the agency to judge neutrally and fairly and avoid speaking equivocally,' the former president said.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The accusation of 'compulsion' and the repeated demand for the agency to judge 'neutrally and fairly' are suggestive of a biased perspective, implying that the agency's actions are not neutral or fair without providing evidence."
+                },
+                {
+                    "text": "'We will not let the certain right of a revolutionary and innocent nation be trampled,' Rafsanjani added.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence uses emotionally charged language ('revolutionary and innocent nation') to evoke a strong, positive emotional response, framing the situation in a highly biased manner."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article is biased regarding the discussion of Iran's nuclear program, with a general bias tendency towards portraying Iran in a positive light and dismissing or discrediting the concerns and claims of other involved parties, particularly the U.S. and the International Atomic Energy Agency (IAEA). The biases identified include Word Choice Bias, Unsubstantiated Claims Bias, and Emotional Sensationalism Bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.5555555555555556,
+            "overall_rating": 0.5777777777777777
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "FINEWS-Bear Stearns deal helped calm market-Fed's Lockhart",
+        "URL": "FINEWS-Bear Stearns deal helped calm market-Fed's Lockhart.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "The Fed-backed move to rescue Bear Stearns <BSC.N> has helped  restore market confidence, but the question of fairness can  only be answered by shareholders, Atlanta Fed President Dennis  Lockhart said. 'I think overall the approach has been  effective, considering the focus is on financial system  stability. As to the fairness of the deal, I think that's  essentially for the board of Bear Stearns and JP Morgan to  determine.' Click on [ID:nWAT009198] for the full story.  Reuters Messaging rm://chris.reese.reuters.com@reuters.net  ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 6.093110084533691,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports on the opinion of Atlanta Fed President Dennis Lockhart regarding the Fed-backed rescue of Bear Stearns."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "(Sebi announcement) PR:: SEBI amends Equity Listing Agreement",
+        "URL": "(Sebi announcement) PR:: SEBI amends Equity Listing Agreement.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "Original source document can be found at: http://www.sebi.gov.in/press/2008/2008165.html  --------------------------------------------------------------------------------    PRESS RELEASE SEBI amends Equity Listing Agreement                                  PR. No. 165 /2008                                                                   SEBI amends Equity Listing Agreement                                                Securities and Exchange Board of India (SEBI) has amended Equity Listing            Agreement vide circular dated September 4, 2008. The highlights of the              amendments are:                                                                     1. 'Fairness Opinion' of independent merchant banker :                              In order to safeguard the interest of shareholders, the listed company as well      as the unlisted company which are getting merged shall each be required to          appoint an independent merchant banker for giving a fairness opinion on the         valuation done by valuers . Further, the 'Fairness opinion' of the merchant         bankers shall be made available to the shareholders at the time of approving the    resolution under Clause 24.                                                         2. Submission & Publication of Financial Results:                                   In order to bring more efficiency in the disclosures of financial results,          certain amendments have been made with regard to timeline for submitting            consolidated financial results to the stock exchange, publication thereof,          submission and placing of limited review reports before Board/Committee, etc.       The other amendments, inter alia , include provisions relating to notice period     for rights issues.                                                                  The full text of the circular is available on the website:   www.sebi.gov.in.       Mumbai,                                                                             September 4, 2008                                                                   --------------------------------------------------------------------------------       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 5.8239850997924805,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides information about the amendments made by SEBI to the Equity Listing Agreement without showing any signs of bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "(Sebi announcement) SEBI amends Equity Listing Agreement",
+        "URL": "(Sebi announcement) SEBI amends Equity Listing Agreement.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "Original source document can be found at: http://www.sebi.gov.in/press/2008/2008165.html  --------------------------------------------------------------------------------    PRESS RELEASE SEBI amends Equity Listing Agreement                                  PR. No. 165/2008                                                                    SEBI amends Equity Listing Agreement                                                Securities and Exchange Board of India (SEBI) has amended Equity Listing            Agreement vide circular dated September 4, 2008. The highlights of the              amendments are:                                                                     1. 'Fairness Opinion' of independent merchant banker :                              In order to safeguard the interest of shareholders, the listed company as well      as         the unlisted company which are getting merged shall each be required     to appoint an independent merchant banker for giving a fairness opinion on the      valuation done by valuers . Further, the 'Fairness opinion' of the merchant         bankers shall be made available to the shareholders at the time of approving the    resolution under Clause 24.                                                         2. Submission & Publication of Financial Results:                                   In order to bring more efficiency in the disclosures of financial results,          certain amendments have been made with regard to timeline for submitting            consolidated financial results to the stock exchange, publication thereof,          submission and placing of limited review reports before Board/Committee, etc.       The other amendments, inter alia , include provisions relating to notice period     for rights issues.                                                                  The full text of the circular is available on the website:   www.sebi.gov.in.       Mumbai,                                                                             September 4, 2008                                                                   --------------------------------------------------------------------------------       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 5.8239850997924805,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides information about the amendments made by SEBI to the Equity Listing Agreement without showing any signs of bias towards any particular viewpoint or group."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "FACTBOX-McCain running-mate Palin outlines foreign policy",
+        "URL": "FACTBOX-McCain running-mate Palin outlines foreign policy.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "     Sept 12 (Reuters) - Republican vice presidential candidate  Sarah Palin, a little-known Alaska governor before becoming  John McCain's running mate in the Nov. 4 U.S. presidential  election, has begun to outline her foreign policy views.      Following are some of the positions she took in a series of  interviews with ABC News this week.           * On Iran and Israel:      'I believe that under the leadership of (Iranian President  Mahmoud) Ahmadinejad, nuclear weapons in the hands of his  government are extremely dangerous to everyone on this globe,  yes.'      'We have got to make sure that these weapons of mass  destruction, that nuclear weapons are not given to those hands  of Ahmadinejad, not that he would use them, but that he would  allow terrorists to be able to use them. So we have got to put  the pressure on Iran and we have got to count on our allies to  help us, diplomatic pressure.'      Asked whether it would be acceptable for Israel, if it felt  threatened, to take military action against Iran's nuclear  facilities, Palin said: 'We cannot second-guess the steps that  Israel has to take to defend itself.'           * On the 'Bush doctrine':      Asked if she agreed with the 'Bush doctrine,' Palin paused  and then asked, 'In what respect?'      Asked what she interpreted the Bush doctrine to be, she  replied, 'His world view.'      When the interviewer explained he was referring to the  doctrine Bush enunciated in September 2002 before the Iraq war,  Palin said:      'I believe that what President Bush has attempted to do is  rid this world of Islamic extremism, terrorists who are hell  bent on destroying our nation.'      When the interviewer defined the doctrine as U.S. President  George W. Bush's belief the United States has a right to make  pre-emptive strikes against countries that may attack it, Palin  said: 'If there is legitimate and enough intelligence that  tells us that a strike is imminent against American people, we  have every right to defend our country. In fact, the president  has the obligation, the duty to defend.'           * On the pursuit of al Qaeda/Taliban into Pakistan:      Asked if the United States had the right to make  cross-border attacks into Pakistan from Afghanistan without the  approval of the Pakistani government, Palin said:      'As for our right to invade, we're going to work with these  countries, building new relationships, working with existing  allies, but forging new, also, in order to, Charlie, get to a  point in this world where war is not going to be a first  option. In fact, war has got to be, a military strike, a last  option.'           * Pressed on whether the United States had the right to  make such cross-border attacks without approval, Palin said:      'In order to stop Islamic extremists, those terrorists who  would seek to destroy America and our allies, we must do  whatever it takes and we must not blink.'      'I believe that America has to exercise all options in  order to stop the terrorists who are hell-bent on destroying  America and our allies. We have got to have all options out  there on the table.'           * On the Russia-Georgia war:      Asked if the United States should try to restore Georgian  sovereignty over South Ossetia and Abkhazia, Palin said:      'We're going to continue good relations with (Georgian  President Mikheil) Saakashvili there. I was able to speak with  him the other day and giving him my commitment, as John  McCain's running ma",
+        "Histogram": [
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0.6,
+            0,
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 5.772029876708984,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "'I believe that under the leadership of (Iranian President Mahmoud) Ahmadinejad, nuclear weapons in the hands of his government are extremely dangerous to everyone on this globe, yes.'",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The sentence uses emotionally charged language to emphasize the danger of nuclear weapons under Ahmadinejad's leadership, potentially evoking fear without a balanced perspective."
+                },
+                {
+                    "text": "'We have got to make sure that these weapons of mass destruction, that nuclear weapons are not given to those hands of Ahmadinejad, not that he would use them, but that he would allow terrorists to be able to use them. So we have got to put the pressure on Iran and we have got to count on our allies to help us, diplomatic pressure.'",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence employs a sense of urgency and fear regarding the possibility of terrorists obtaining nuclear weapons through Ahmadinejad's government, emphasizing the need for pressure and alliances in a dramatic manner."
+                },
+                {
+                    "text": "'We cannot second-guess the steps that Israel has to take to defend itself.'",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'cannot second-guess' implies a strong endorsement of Israel's actions without question, suggesting a bias towards unconditionally supporting Israel's military decisions."
+                },
+                {
+                    "text": "'I believe that what President Bush has attempted to do is rid this world of Islamic extremism, terrorists who are hell bent on destroying our nation.'",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This statement employs emotionally charged language to describe the intentions of terrorists, using phrases like 'hell bent on destroying our nation' to evoke a strong emotional response."
+                },
+                {
+                    "text": "'If there is legitimate and enough intelligence that tells us that a strike is imminent against American people, we have every right to defend our country. In fact, the president has the obligation, the duty to defend.'",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The assertion of 'every right' and 'obligation, the duty to defend' presents a subjective opinion as an unquestionable fact, blurring the line between personal perspective and objective reporting."
+                },
+                {
+                    "text": "'As for our right to invade, we're going to work with these countries, building new relationships, working with existing allies, but forging new, also, in order to, Charlie, get to a point in this world where war is not going to be a first option. In fact, war has got to be, a military strike, a last option.'",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence expresses a subjective opinion on the approach to international relations and conflict, advocating for a specific strategy (building relationships, avoiding war) without presenting it as one of many possible perspectives."
+                },
+                {
+                    "text": "'In order to stop Islamic extremists, those terrorists who would seek to destroy America and our allies, we must do whatever it takes and we must not blink.'",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'do whatever it takes' and 'must not blink' conveys a sense of urgency and absolutism in combating terrorism, potentially oversimplifying complex strategies and ethical considerations."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding foreign policy discussions, particularly in its portrayal of the dangers posed by certain leaders and the urgency of actions to combat terrorism. The biases tend to manifest through the use of emotionally charged language, opinionated assertions, and a strong endorsement of specific political and military strategies without a balanced presentation of alternative viewpoints."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.6111111111111112,
+            "overall_rating": 0.6055555555555556
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Nigerians doubt election fairness -- reform chief",
+        "URL": "Nigerians doubt election fairness -- reform chief.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Felix Onuah      ABUJA, Aug 12 (Reuters) - Most Nigerians question whether  the country can hold free and fair elections in an atmosphere of  political violence, vote-rigging and lax federal oversight, the  head of the election reform panel said on Tuesday.      Muhammadu Uwais, a former chief justice, said the government  must do more to ensure electoral bodies are independent enough  to conduct federal and state elections.      'Nigerians now express deep frustration over the lack of  credibility of the electoral process and their inability to  elect leaders of their choice,' he said after a meeting with  President Umaru Yar'Adua.      Yar'Adua, whose own electoral victory more than a year ago  is being challenged in court over alleged fraud, set up an  election reform panel in August 2007 shortly after he took  office.      The 21-member committee was charged with providing a report  to Yar'Adua by the end of August, but the president extended the  deadline on Tuesday to the end of the year.      The panel requested more time to digest all the suggestions  from public hearings on how to improve the electoral process.      Nigeria, a country of 140 million people and Africa's  biggest oil producer, returned to civilian rule in 1999 after  three decades of almost continuous military dictatorship.      Uwais said the committee would recommend that elections be  raised to international standards, the electoral body be made  autonomous, and the performance of political parties improved.      In setting up the committee last year, Yar'Adua noted that  almost every election since 1959 vote that ushered in  independence had been followed by controversy, which threatened  political stability and development.      Nigeria is one of the world's most corrupt countries,  according to independent watchdog Transparency International,  and public office is mostly seen as an avenue to personal  wealth.      Pro-democracy campaigners say politicians stop at almost  nothing to win office and get their slice of the cake.      (For full Reuters Africa coverage and to have your say on  the top issues, visit: http://africa.reuters.com/)   (Writing by Randy Fabi; Editing by Tume Ahemba and Andrew  Dobbie)   ((randolph.fabi@thomsonreuters.com; Abuja Newsroom + 234 9 461  3214, Reuters Messaging: randolph.fabi.thomsonreuters.com))    Keywords: NIGERIA ELECTIONS/       ",
+        "Histogram": [
+            0.6,
+            0,
+            0.5,
+            0.6,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0.9,
+            0,
+            0
+        ],
+        "Relevance": 5.568102836608887,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Most Nigerians question whether the country can hold free and fair elections in an atmosphere of political violence, vote-rigging and lax federal oversight, the head of the election reform panel said on Tuesday.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence presents a subjective opinion about the state of elections in Nigeria, implying judgment about the country's electoral process without providing concrete evidence."
+                },
+                {
+                    "text": "'Nigerians now express deep frustration over the lack of credibility of the electoral process and their inability to elect leaders of their choice,' he said after a meeting with President Umaru Yar'Adua.",
+                    "bias_type": "Anecdotal Evidence Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "The use of anecdotal evidence, in this case, the expression of frustration by Nigerians, to generalize about the credibility of the entire electoral process introduces bias by not considering a broader, more representative evidence."
+                },
+                {
+                    "text": "Yar'Adua, whose own electoral victory more than a year ago is being challenged in court over alleged fraud, set up an election reform panel in August 2007 shortly after he took office.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The phrase 'alleged fraud' implies a negative connotation and judgment about the electoral victory, suggesting wrongdoing without presenting a balanced or neutral perspective."
+                },
+                {
+                    "text": "Nigeria, a country of 140 million people and Africa's biggest oil producer, returned to civilian rule in 1999 after three decades of almost continuous military dictatorship.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The contrast between 'civilian rule' and 'almost continuous military dictatorship' uses word choice to emphasize a positive change in a way that could be seen as oversimplifying a complex historical and political transition."
+                },
+                {
+                    "text": "Nigeria is one of the world's most corrupt countries, according to independent watchdog Transparency International, and public office is mostly seen as an avenue to personal wealth.",
+                    "bias_type": "Generalization Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "This sentence generalizes the level of corruption in Nigeria and the motives of individuals in public office without providing a nuanced or statistically representative analysis, potentially reinforcing negative stereotypes."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the state of elections and governance in Nigeria, with a general bias tendency towards presenting subjective opinions, anecdotal evidence, and generalizations without a balanced or neutral perspective."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.64,
+            "percentage_of_biased_sentences": 0.16666666666666666,
+            "overall_rating": 0.4033333333333333
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "RPT-UPDATE 1 - Russia could strike Poland over U.S. shield-Ifax",
+        "URL": "RPT-UPDATE 1 - Russia could strike Poland over U.S. shield-Ifax.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "  (Repeats to additional subscribers, text unchanged)      MOSCOW, Aug 16 (Reuters) - A top Russian general on Friday  said Poland's deal with the United States to set up parts of a  missile defence shield on Polish territory lays it open to a  possible military strike, a Russian news agency reported.      Col-General Anatoliy Nogovitsyn, deputy chief of the general  staff, told Interfax that Russian military doctrine would allow  for a possible nuclear strike.      Poland agreed on Thursday to host elements of a U.S. global  anti-missile system after Washington agreed to boost Poland's  own military air defences.      'The USA is engaged in an anti-missile defence for its own  government, and not for Poland. And Poland, in deploying  (elements of the system) opens itself to a military strike. That  is 100 percent,' Interfax quoted Nogovitsyn as saying.      Nogovitsyn said Russia allows nuclear weapons to be used in  circumstances defined by its current security doctrine.      The Russian government revamped its national security  doctrine in 2000, broadening the range of conflicts in which  nuclear weapons could be used.      'It is written clearly: We will use it in instances against  governments that have nuclear weapons; against allies of  countries with nuclear weapons, if they somehow enable them,' he  said.      Washington says the missile system is aimed at protecting  the United States and its allies from long-range missiles that  could in the future be fired by Iran or groups such as al Qaeda.      The Kremlin has long said that was untrue, and has opposed  the shield as a threat to Russia. The 10 interceptor missiles to  be based at a site in northern Poland compare with Russia's own  nuclear arsenal of more than 5,000 ballistic warheads.      In agreeing to deploy elements of the U.S. missile shield,  Poland 'becomes an actionable object. Those targets are  destroyed in the first order,' Nogovitsyn said.      Tension between Moscow and Washington has risen in the past  week, since Georgia's attempt to re-take its separatist region  of South Ossetia by force provoked a massive counter-attack by  Russia.   (Reporting by Chris Baldwin, editing by Tim Pearce)  ((christopher.baldwin@reuters.com, Moscow Newsroom +7 495 775  1242))    Keywords: GEORGIA OSSETIA/POLAND        ",
+        "Histogram": [
+            0.6,
+            0,
+            0,
+            0.9,
+            0.9,
+            0.9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 5.511972427368164,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "A top Russian general on Friday  said Poland's deal with the United States to set up parts of a  missile defence shield on Polish territory lays it open to a  possible military strike, a Russian news agency reported.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence engages in speculation by suggesting that Poland's agreement with the United States for a missile defense shield could lead to a military strike, without concrete evidence to support such a claim."
+                },
+                {
+                    "text": "'The USA is engaged in an anti-missile defence for its own  government, and not for Poland. And Poland, in deploying  (elements of the system) opens itself to a military strike. That  is 100 percent,' Interfax quoted Nogovitsyn as saying.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "The use of 'That is 100 percent' in the context of a speculative claim about Poland's vulnerability to a military strike due to the missile defense deployment implies a strong, unsubstantiated opinion as fact."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the topic of Poland's agreement with the United States for a missile defense shield, with a general bias tendency towards speculative and opinionated assertions about the potential military implications for Poland."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.75,
+            "percentage_of_biased_sentences": 0.25,
+            "overall_rating": 0.5
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Bear Stearns deal helped calm markets - Lockhart",
+        "URL": "Bear Stearns deal helped calm markets - Lockhart.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    CHATTANOOGA, Tennessee, March 27 (Reuters) - The Federal  Reserve-backed move to rescue Bear Stearns <BSC.N> has helped  restore market confidence, but the question of fairness can  only be answered by shareholders, a top Fed policy-maker said  on Thursday.      'I think overall the approach has been effective,  considering the focus is on financial system stability. As to  the fairness of the deal, I think that's essentially for the  board of Bear Stearns and JP Morgan to determine,' said Atlanta  Federal Reserve Bank President Dennis Lockhart.      JP Morgan Chase <JPM.N> bought the ailing investment bank  for $2 a share on March 16 after the Fed agreed to take control  of a $30 billion portfolio of Bear Stearns assets. JP Morgan   has since lifted the purchase price to $10 a share and will  take the first $1 billion of loss on the portfolio.   (Reporting by Burton Frierson and Alister Bull; Editing by Dan  Grebler)   ((+1-202-354-5820, e-mail: alister.bull@reuters.com))  Keywords: USA FED/LOCKHART BEAR        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 5.471219062805176,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to exhibit bias. It provides a factual report on the Federal Reserve-backed rescue of Bear Stearns and includes statements from a top Fed policy-maker without introducing any elements of bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Turkey widens EU talks, expects French fairness",
+        "URL": "Turkey widens EU talks, expects French fairness.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By David Brunnstrom      LUXEMBOURG, June 17 (Reuters) - Turkey said on Tuesday it  expected France, long an opponent of Turkish EU membership, to  treat its entry negotiations fairly and openly during its  six-month presidency beginning next month.      At a Luxembourg accession conference, Turkey and the EU  opened two new 'chapters', covering company law and intellectual  property rights, bringing the total under discussion to eight of  35. Ankara, if successful in the slow-moving negotiations, is  not expected to join until 2015 at earliest.      Turkey's progress over the last three years has been  hindered by French resistance, disputes with EU member Cyprus,  EU concerns over human rights in Turkey and the perception in  Europe that Turkey is slow to put reforms into practice.      Turkey's chief EU negotiator, Foreign Minister Ali Babacan,  told a news conference after the talks in Luxembourg that Turkey  expected the EU to honour its commitments and open chapters with  Turkey once it met technical requirements.     'We expect that the French presidency will be a fair,  impartial and transparent presidency as we have been told on  various occasions. We believe our EU accession process will be  further advanced during the French presidency.'      Babacan reiterated complaints that Turkey's progress was  being held up by 'political' considerations of some EU states.            PARTNERSHIP?      'We would like to think that negotiations can advance in  line with the technical readiness of Turkey,' he said.      European Commission Director-General Michael Leigh said the  EU executive was ready to open seven more chapters with Turkey  -- in areas ranging from food safety to social policy -- as soon  as the country met the benchmarks required.      'I expect that during coming months, further progress can be  made,' he told the news conference.      To the annoyance of Ankara and many EU capitals, France  wants to restrict talks to those chapters which could be used as  the basis of a future 'privileged partnership', short of  membership. Turkey rejects any notion of such a 'partnership'.      The European Commission has called on Turkey to implement  stalled reforms on state aid, decentralisation, ombudsman law  and upgrading the powers of the Court of Auditors.      A bid by prosecutors to shut down the ruling AK Party for  alleged Islamist activities is seen casting further political  uncertainty over the accession process.       Opponents to Turkish membership argue that the vast country  would be a drain on EU finances, that as a Muslim nation it  could not integrate well with mainstream European culture, or  that its human rights policies are far short of requirements.      Ankara argues it has a fast growing economy with a young  population and that its cultural and religious roots, tempered  by a strong Western orientation, would allow it to act as a  bridge to the Muslim world.   (Editing by Ralph Boulton)   ((david.brunnstrom@reuters.com ; +32 2 287 6839; Reuters  Messaging: david.brunnstrom.reuters.com@reuters.net ))    Keywords: TURKEY EU/       ",
+        "Histogram": [
+            0.6,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.8,
+            0,
+            0.6,
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0.6,
+            0.6,
+            0
+        ],
+        "Relevance": 5.292967796325684,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Turkey said on Tuesday it expected France, long an opponent of Turkish EU membership, to treat its entry negotiations fairly and openly during its six-month presidency beginning next month.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'long an opponent' implies a negative connotation towards France's stance on Turkish EU membership, suggesting a historical and entrenched bias against Turkey's entry, which could influence the reader's perception."
+                },
+                {
+                    "text": "Turkey's progress over the last three years has been hindered by French resistance, disputes with EU member Cyprus, EU concerns over human rights in Turkey and the perception in Europe that Turkey is slow to put reforms into practice.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The phrase 'hindered by French resistance' and 'perception in Europe' introduces a negative framing, suggesting that external factors, particularly from France and the EU, are unjustly impeding Turkey's progress, which could bias the reader against these entities."
+                },
+                {
+                    "text": "Turkey's chief EU negotiator, Foreign Minister Ali Babacan, told a news conference after the talks in Luxembourg that Turkey expected the EU to honour its commitments and open chapters with Turkey once it met technical requirements. 'We expect that the French presidency will be a fair, impartial and transparent presidency as we have been told on various occasions. We believe our EU accession process will be further advanced during the French presidency.'",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The expectation of 'fair, impartial and transparent presidency' implies a preconceived judgment that past presidencies may not have been so, suggesting a biased view of the EU's treatment of Turkey's accession process."
+                },
+                {
+                    "text": "Babacan reiterated complaints that Turkey's progress was being held up by 'political' considerations of some EU states.",
+                    "bias_type": "Political Bias",
+                    "bias_strength": 0.8,
+                    "bias_description": "This sentence implies that certain EU states are intentionally using political considerations to hinder Turkey's progress, suggesting a one-sided view that portrays Turkey as a victim of unjust political interference within the EU."
+                },
+                {
+                    "text": "'We would like to think that negotiations can advance in line with the technical readiness of Turkey,' he said.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This statement implies a belief that Turkey's technical readiness is not being adequately recognized in the negotiation process, suggesting a subjective opinion on the matter rather than an objective assessment."
+                },
+                {
+                    "text": "To the annoyance of Ankara and many EU capitals, France wants to restrict talks to those chapters which could be used as the basis of a future 'privileged partnership', short of membership. Turkey rejects any notion of such a 'partnership'.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'annoyance' and the framing of Turkey's rejection of a 'partnership' as absolute without further context introduces a bias by portraying France's proposal and Turkey's stance in a negative light."
+                },
+                {
+                    "text": "Opponents to Turkish membership argue that the vast country would be a drain on EU finances, that as a Muslim nation it could not integrate well with mainstream European culture, or that its human rights policies are far short of requirements.",
+                    "bias_type": "Discriminatory Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence highlights negative stereotypes and generalized statements about Turkey as a Muslim nation, suggesting an inherent bias against its membership based on cultural and religious factors, which could influence the reader's perception negatively."
+                },
+                {
+                    "text": "Ankara argues it has a fast growing economy with a young population and that its cultural and religious roots, tempered by a strong Western orientation, would allow it to act as a bridge to the Muslim world.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'tempered by a strong Western orientation' is a positive framing that implies a favorable balance between Turkey's cultural and religious roots and Western values, suggesting a biased portrayal of Turkey's cultural integration and its role in the Muslim world."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the topic of Turkish EU membership, with a general tendency to portray Turkey in a positive light while casting France and certain EU states in a negative or obstructive role. The biases identified include Word Choice Bias, Opinionated Bias, Political Bias, and Discriminatory Bias, influencing the reader's perception of the fairness and justifiability of the EU accession process for Turkey."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6249999999999999,
+            "percentage_of_biased_sentences": 0.3157894736842105,
+            "overall_rating": 0.4703947368421052
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Regional leaders doubt fairness of Zimbabwe poll",
+        "URL": "Regional leaders doubt fairness of Zimbabwe poll.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "     MBABANE, June 25 (Reuters) - Southern African leaders said  on Wednesday that holding Zimbabwe's presidential election on  Friday could undermine the legitimacy of the result.     'It is the considered opinion of the organ summit that  holding the election under the current circumstances may  undermine the credibility and legitimacy of its outcome,' said a  security troika of the Southern African Development Community in  a statement.    Keywords: ZIMBABWE ELECTION/GROUP        ",
+        "Histogram": [
+            0,
+            0.6,
+            0
+        ],
+        "Relevance": 5.292967796325684,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "'It is the considered opinion of the organ summit that  holding the election under the current circumstances may  undermine the credibility and legitimacy of its outcome,' said a  security troika of the Southern African Development Community in  a statement.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence presents the opinion of the security troika as a fact, without providing evidence or allowing for alternative perspectives, thus blurring the line between objective reporting and personal perspective."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article contains an instance of Opinionated Bias regarding the Zimbabwe election, where the opinion of the security troika is presented as a definitive judgment without a balanced presentation of evidence or perspectives."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.3333333333333333,
+            "overall_rating": 0.4666666666666667
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Angola abuses threaten vote fairness -rights group",
+        "URL": "Angola abuses threaten vote fairness -rights group.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Michael Georgy      JOHANNESBURG, Aug 13 (Reuters) - Intimidation of Angola's  opposition and meddling in the country's electoral commission  threaten chances of a fair vote in the September parliamentary  election, Human Rights Watch said on Wednesday.      It is the first national vote for 16 years in Angola, which  is booming because of soaring oil revenues and recovery from  civil war. Angola wants the vote to set an example on the  continent after flawed polls in Kenya and Zimbabwe.      But Human Rights Watch said in a report that conditions  ahead of the Sept. 5 election did not point to a fair ballot.      'The conditions for free and fair elections start long  before election day,' said Georgette Gagnon, Africa director at  New York-based Human Rights Watch, in a report.      'Less than a month before elections, it's clear Angolans  aren't able to campaign free from intimidation or pressure. And  unless things change now, Angolans won't be able to cast their  votes freely.'      The official campaign kicked off on Aug. 5 with 10 parties  and four coalitions competing for votes. Each party will be  given five minutes of television time each day and 10 minutes on  the radio to lure voters.      A total of 5,198 candidates will fight for 220 parliamentary  seats in a country that rivals Nigeria as Africa's biggest oil  producer, but where two-thirds of the population live on less  than $2 a day.      Based on missions to Luanda and four provinces, Human Rights  Watch said Angola's government is 'failing to fully ensure the  right to free elections, and other rights critical to a fair  poll, including the freedoms of expression and of assembly'.            SECURITY CONCERNS      'Major areas of concern include the government's obligations  to safeguard freedom of assembly and expression and access to  the media by all stakeholders, and to establish an impartial  national electoral body,' it said.      'The government has also failed to provide adequate security  to political parties participating in elections and to ensure  political tolerance and full participation of citizens.'      Angola's government denies accusations of rights abuses.      In a rare radio address this month, dos Santos appealed to  all political parties to maintain the peace as the country  recovers from the 27-year civil war that ended in 2002. he  called for an election that is an example to the world.      On Monday, Angolan police detained 13 people campaigning for  the main UNITA opposition party in the Rangel area outside the  capital Luanda, Catholic Radio Ecclesia reported.      Police told the radio they were accused of holding a rally  without notifying authorities and for disrupting traffic.      Many political observers say UNITA, a former guerrilla  movement, is unlikely to unseat dos Santos's ruling MPLA, which  holds 129 seats out of 220. UNITA has 70 seats.      The parliamentary poll will be followed by a presidential  election in 2009. Dos Santos, who has ruled since 1979, is  expected to run.      The European Union has sent 90 election observers to Angola  and other missions are expected.   (Editing by Matthew Tostevin)   ((michael.georgy@reuters.com; +27 11 775 3168; Reuters  Messaging:michael.georgy.reuters.com@reuters.net))   (For full Reuters Africa coverage and to have your say on the  top issues, visit: http://africa.reuters.com/)    Keywords: ANGOLA ELECTION/       ",
+        "Histogram": [
+            0.6,
+            0,
+            0,
+            0.6,
+            0,
+            0.9,
+            0.9,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 5.292967796325684,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Intimidation of Angola's opposition and meddling in the country's electoral commission threaten chances of a fair vote in the September parliamentary election, Human Rights Watch said on Wednesday.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'intimidation' and 'meddling' carries a negative connotation and implies judgment about the actions, suggesting a lack of fairness without presenting a balanced view."
+                },
+                {
+                    "text": "But Human Rights Watch said in a report that conditions ahead of the Sept. 5 election did not point to a fair ballot.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence presents the opinion of Human Rights Watch as a fact, implying that the conditions are definitively unfair without providing a neutral perspective."
+                },
+                {
+                    "text": "'Less than a month before elections, it's clear Angolans aren't able to campaign free from intimidation or pressure. And unless things change now, Angolans won't be able to cast their votes freely.'",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "The use of emotionally charged language such as 'clear', 'free from intimidation or pressure', and 'won't be able to cast their votes freely' aims to evoke a strong emotional response, potentially at the expense of a balanced or evidence-based perspective."
+                },
+                {
+                    "text": "Based on missions to Luanda and four provinces, Human Rights Watch said Angola's government is 'failing to fully ensure the right to free elections, and other rights critical to a fair poll, including the freedoms of expression and of assembly'.",
+                    "bias_type": "Unsubstantiated Claims Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence presents the assertion by Human Rights Watch as a definitive judgment without providing specific evidence or references to support the claim that the government is 'failing to fully ensure' these rights."
+                },
+                {
+                    "text": "'Major areas of concern include the government's obligations to safeguard freedom of assembly and expression and access to the media by all stakeholders, and to establish an impartial national electoral body,' it said.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'major areas of concern' and the assertion of the government's 'obligations' without concrete evidence may speculate on the government's intentions or capabilities without a basis in fact."
+                },
+                {
+                    "text": "Angola's government denies accusations of rights abuses.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'denies accusations' implies a defensive stance and may subtly suggest guilt, especially when juxtaposed with preceding statements that carry negative connotations."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the upcoming parliamentary election in Angola, particularly in its portrayal of the government's actions and the fairness of the electoral process. The biases identified include Word Choice Bias, Opinionated Bias, Emotional Sensationalism Bias, Unsubstantiated Claims Bias, and Speculation Bias, indicating a general tendency to present a negative and potentially unbalanced view."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.65,
+            "percentage_of_biased_sentences": 0.21739130434782608,
+            "overall_rating": 0.43369565217391304
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Yoko Ono loses bid to bar use of \"Imagine\" in film",
+        "URL": "Yoko Ono loses bid to bar use of \"Imagine\" in film.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    NEW YORK, June 2 (Reuters) - John Lennon's sons and widow,  Yoko Ono, on Monday lost a battle to block the use of the song  'Imagine' in the documentary 'Expelled: No Intelligence  allowed.'      Ono, her son Sean Ono Lennon, and Julian Lennon, John  Lennon's son from his first marriage, along with privately held  publisher EMI Blackwood Music Inc filed suit in April in  Manhattan federal court seeking to bar the filmmakers and their  distributors from continuing to use 'Imagine' in the movie.      They said the film, which looks at alleged discrimination  against scientists and teachers who support so-called  intelligent design as an alternative to Darwin's theory of  evolution, used the song without their permission.      But on Monday U.S. District Judge Sidney Stein found in  favor of the filmmakers based on a 'fair use' doctrine. 'That  doctrine provides that the fair use of a copyrighted work for  purposes of criticism and commentary is not an infringement of  copyright,' the judge said.      The documentary features Ben Stein, an actor, comedian and  former speechwriter for President Richard Nixon.      The suit, which sought unspecified damages, named the  film's producers and distributors -- Premise Media Corporation,  C&S Production LP and Rocky Mountain Pictures.      Lennon recorded 'Imagine' in 1971 and in 2004, Rolling  Stone magazine ranked it No. 3 on their list of the 500  Greatest Songs of All Time, according to the lawsuit.   (Reporting by Christine Kearney; Editing by Michelle Nichols  and Cynthia Osterman)   ((nyc.buro@reuters.com, ph: +1 646 223 6280))  Keywords: LENNON/FILM       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 5.218098163604736,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual account of the legal battle over the use of the song 'Imagine' in the documentary 'Expelled: No Intelligence allowed,' without displaying any evident bias towards any of the involved parties or the subject matter."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    }
+]

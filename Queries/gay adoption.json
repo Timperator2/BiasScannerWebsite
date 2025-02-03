@@ -1,0 +1,1023 @@
+[
+    {
+        "Title": "The Gay Adoption Controversy.txt",
+        "URL": "The Gay Adoption Controversy.txt.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/240px-Fox_News_Channel_logo.svg.png",
+        "Text": "To watch \"the memo\" click here.\n\nHi, I'm Bill O'Reilly. Thank you for watching us tonight.\n\nWe would like to welcome our new viewers in south Florida on the Adelphia Cable System. We hope you like The Factor.\n\nThe Talking Points Memo this evening is a No Spin look at the Rosie O'Donnell gay adoption controversy. Let's take it step by step.\n\nThe primary objection to gay adoption is that it goes against nature, and that's true. Nature dictates that the primary caregivers for children should be a man and a woman, the people who created the child. That situation is undeniable.\n\nAlso undeniable is that homosexuality is an aberration, a departure from the normal state of nature. Now, whether that aberration is morally wrong is impossible to state as fact. In the consciousness of some, homosexuality is an acceptable alternative lifestyle. But for others, it is sinful. It depends on your belief system.\n\nBut since we live in a secular country where laws and policy are not based on religious beliefs, the immoral argument should not be a basis for banning gay adoption. America is not Saudi Arabia, and the fact that only three states limit gay adoption \u2014Florida, Mississippi, and Utah \u2014 tells us that a blanket rejection of gay adoption is certainly the minority view in this country.\n\nThat being said, there is no question that a child is better off in a mainstream home with responsible heterosexual parents. Confusion is diminished, security heightened. Kids need to feel as secure as possible in order to develop fully.\n\nBut in cases where children face a continuing merry-go-round of foster care as opposed to a stable home run by gays, a caring person must choose the latter. The concern should always be for the child, not for any hatred of an alternative lifestyle.\n\nThere are obviously many good, caring people who are gay. These people should not be rejected as adoptive parents by the state of Florida or anywhere else.\n\nNow, for Miss O'Donnell, I respect her cause but strongly disagree with her methods. There is no reason for her to define her sexuality in public. She could have led her crusade without getting into what she does in her private life. Does she have a right to \u2014 quote \u2014 \"come out\"? Sure she does. Is it a smart thing to do? No.\n\nFrom now on, many people will be judging Rosie O'Donnell. Some will dislike her because she dropped her sexuality into the consciousness of children. I really don't want to explain to a 7-year-old why Rosie called herself a dyke in a comedy club, OK? I don't even want a 7-year-old to know what a dyke is. Call me a Philistine, but kids should have a childhood free of sexual nuance.\n\nThe more famous people blab about what their sexual preferences are, the worse it is for society.\n\nRosie O'Donnell and every other American should just shut up about their sex lives. It's dumb to define yourself by sex anyway. O'Donnell is an Irish American woman, OK? There's your definition. This in-your-face sex stuff is all about power and acceptance. Many gays believe their proclivities should be considered normal, but that will never happen because of the nature thing.\n\nShould gays be denied the rights that other Americans have? Definitely not. They should be allowed to adopt and live their lives without harassment. Should gays embrace discretion and privacy? You bet they should. The kids and everybody else would be better for it.\n\nAnd that's The Memo.\n\nThe Most Ridiculous Item of the Day\n\nTime now for \"Most Ridiculous Item of the Day.\"\n\nAnd it's not ridiculous but informative. Earlier this week, we did a segment on the widow of Pedro Czecko who was killed on 9/11 at the World Trade Center. Because the woman was involved in a common law situation, her compensation by the federal government is in question. But special master Kenneth Feinberg writes to us, \"Based on the information provided on The O'Reilly Factor, the couple's three children should be eligible recipients. We will review the family's individual circumstances.\n\nWell, that is good news and not ridiculous at all. We passed Mr. Feinberg's note along to the family's lawyer.\n\n\u2014 You can watch Bill O'Reilly's Talking Points and \"Most Ridiculous Item\" weeknights at 8 & 11p.m. ET on the Fox News Channel. Send your comments to: oreilly@foxnews.com",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.5,
+            0.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 18.707366943359375,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "The primary objection to gay adoption is that it goes against nature, and that's true. Nature dictates that the primary caregivers for children should be a man and a woman, the people who created the child. That situation is undeniable.",
+                    "bias_type": "Discriminatory Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence promotes a discriminatory bias by making generalized and prejudiced statements about the suitability of gay individuals as caregivers, based on the premise that it goes against 'nature'. It reinforces stereotypes and unequal representation based on sexual orientation."
+                },
+                {
+                    "text": "Also undeniable is that homosexuality is an aberration, a departure from the normal state of nature. Now, whether that aberration is morally wrong is impossible to state as fact. In the consciousness of some, homosexuality is an acceptable alternative lifestyle. But for others, it is sinful. It depends on your belief system.",
+                    "bias_type": "Discriminatory Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence exhibits discriminatory bias by labeling homosexuality as an 'aberration' and suggesting it is a departure from the 'normal state of nature'. It also introduces a moral judgment, implying that being gay could be 'sinful', thus reinforcing discriminatory attitudes based on sexual orientation."
+                },
+                {
+                    "text": "But since we live in a secular country where laws and policy are not based on religious beliefs, the immoral argument should not be a basis for banning gay adoption. America is not Saudi Arabia, and the fact that only three states limit gay adoption \u2014Florida, Mississippi, and Utah \u2014 tells us that a blanket rejection of gay adoption is certainly the minority view in this country.",
+                    "bias_type": "Political Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "This sentence demonstrates political bias by comparing the U.S. to Saudi Arabia in the context of gay adoption laws, implying a moral superiority of the U.S. due to its secular nature. It also uses the term 'blanket rejection' to suggest that opposition to gay adoption is an extreme and minority political view."
+                },
+                {
+                    "text": "There are obviously many good, caring people who are gay. These people should not be rejected as adoptive parents by the state of Florida or anywhere else.",
+                    "bias_type": "Discriminatory Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence, while seemingly supportive, still exhibits discriminatory bias by implying that there is a risk of gay individuals being unjustly rejected as adoptive parents, thus reinforcing the notion that being gay could be a legitimate reason for discrimination in the adoption process."
+                },
+                {
+                    "text": "Now, for Miss O'Donnell, I respect her cause but strongly disagree with her methods. There is no reason for her to define her sexuality in public. She could have led her crusade without getting into what she does in her private life. Does she have a right to \u2014 quote \u2014 \"come out\"? Sure she does. Is it a smart thing to do? No.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence reflects opinionated bias by asserting a personal belief about the appropriateness of public figures, in this case, Rosie O'Donnell, disclosing their sexuality. The use of phrases like 'There is no reason' and 'Is it a smart thing to do? No.' presents a subjective opinion as an objective judgment."
+                },
+                {
+                    "text": "From now on, many people will be judging Rosie O'Donnell. Some will dislike her because she dropped her sexuality into the consciousness of children. I really don't want to explain to a 7-year-old why Rosie called herself a dyke in a comedy club, OK? I don't even want a 7-year-old to know what a dyke is. Call me a Philistine, but kids should have a childhood free of sexual nuance.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence employs emotional sensationalism by using provocative language to evoke discomfort and concern about children's exposure to discussions about sexuality, particularly through the example of Rosie O'Donnell. The use of phrases like 'I really don't want to explain' and 'Call me a Philistine' introduces a strong emotional and subjective element."
+                },
+                {
+                    "text": "The more famous people blab about what their sexual preferences are, the worse it is for society.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "This sentence is a clear example of opinionated bias, using dismissive and derogatory language ('blab') to express a strong, subjective opinion about the societal impact of public figures discussing their sexual orientation. The use of 'the worse it is for society' presents this opinion as a general truth without objective evidence."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article is biased regarding the topic of gay adoption and the public discussion of sexuality, demonstrating discriminatory, political, opinionated, and emotional sensationalism biases. The general bias tendency leans towards reinforcing stereotypes, promoting subjective beliefs as facts, and using provocative language to evoke strong emotions."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6285714285714287,
+            "percentage_of_biased_sentences": 0.3114754098360656,
+            "overall_rating": 0.47002341920374713
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Israel to expand same-sex adoption rights",
+        "URL": "Israel to expand same-sex adoption rights.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    JERUSALEM, Feb 10 (Reuters) - Israel's attorney general said  on Sunday that same sex-couples will be allowed to adopt  children that are not biologically linked to either partner.      Meni Mazuz decided that gay adults will be allowed to adopt  the biological or adopted child of their partner and, in some  cases, even adopt children not connected to them.      Courts in the Jewish state in the past have only allowed gay  adults to adopt the child of their partner, the justice ministry  said.      'It was decided there is no legal hindrance from approving  same-sex couples, or one of the partners, to adopt an unrelated  child who is not the child of either partner,' the justice  ministry said in a statement.      The statement said the decision, made after a debate to  determine the status of same-sex couples, deals only with legal  considerations and individual cases will be decided by Israel's  child welfare services.   (Writing by Ari Rabinovitch; Editing by Matthew Jones)   ((ari.rabinovitch@reuters.com; +972 2 632 2202; Reuters  Messaging: ari.rabinovitch.reuters.com@reuters.net))    Keywords: ISRAEL ADOPTION/       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 12.513406753540039,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual report on Israel's attorney general's decision to allow same-sex couples to adopt children, without introducing any biased language or perspectives."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Gay Republicans endorse McCain",
+        "URL": "Gay Republicans endorse McCain.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Ed Stoddard      ST. PAUL, Sept 2 (Reuters) - The Log Cabin Republicans  endorsed Arizona Sen. John McCain's bid for the presidency on  Tuesday, four years after the gay Republican group refused to  back President George W. Bush's bid for reelection.      The endorsement may boost McCain's reputation as a maverick  who reaches across partisan lines, but it may not go down well  with his party's conservative Christian base.      'Sen. McCain is no George Bush when it comes to gay issues.  We are much more optimistic and enthusiastic about Sen.  McCain,' Patrick Sammon, the group's president, told Reuters.      The 20,000-member group backed Bush in 2000, but did not  endorse him in 2004 when the Republican Party used opposition  to gay marriage as a 'wedge' issue to galvanize evangelical  Christian voters.      But the group appreciates McCain's opposition to a failed  attempt to enact a federal ban on gay marriage -- a position  that angered many conservative evangelical leaders.      'Sen. McCain stood with us. Now we stand with him ... Sen.  McCain showed courage by bucking his own party's leadership and  the president -- twice voting against the amendment,' the Log  Cabin Republicans said.      The group said it would take a 'wait and see approach'  regarding McCain's choice of Alaska Gov. Sarah Palin as his  vice presidential running mate.      'We have a wait and see approach with Gov. Palin about her  views on gay issues,' Sammon said.      Jimmy LaSalvia, the group's director of programs and  policy, said there were encouraging signs.      'We don't know that much about her ... In her public  statements she has said that she has gay friends and that she  doesn't judge,' he said.      Palin is a conservative Christian who has excited that wing  of the Republican Party mostly because of her strong opposition  to abortion rights.      Sammon said the organization was pleased that McCain's  campaign was not inflaming passions around the issue of gay  marriage. Proposals to ban same-sex unions will be on the  ballot during the Nov. 4 election in California and Florida.      The group said there were some two dozen openly gay  delegates at the convention in St. Paul.      Being openly gay is not easy in a party with a strong base  of evangelical Christians who read the Bible as the literal  word of God and believe there are biblical sanctions against  homosexuality.      Members of the Log Cabin Republicans say they stick with  the party because of core principles such as fiscal  conservatism and support for a strong national defense. Little  polling has been done on the topic, but most gay voters favor  the Democratic Party.      (Editing by Patricia Zengerle)    ((For more about the U.S. political campaign, visit Reuters  'Tales from the Trail: 2008' online at  http:/blogs.reuters.com/trail08/))    ((For a TAKE A LOOK on the campaign click on [US/VOTE]))  Keywords: USA POLITICS/REPUBLICANS GAYS       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 10.606847763061523,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual account of the Log Cabin Republicans' endorsement of John McCain's presidential bid and includes statements from the group's leaders and information about the political context without displaying any evident bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Gay rodeo undermines sexual stereotypes",
+        "URL": "Gay rodeo undermines sexual stereotypes.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Jon Hurdle      PHILADELPHIA, May 12 (Reuters Life) - Philadelphia's gay  community sought to dispel some sexual stereotypes when it held  the city's first gay rodeo.      About 50 contestants roped steers, cracked whips, and  wrestled cattle to the ground during the weekend in an attempt  to prove to themselves - and the rest of the world - that they  are just as capable of tackling a traditionally macho sport as  their straight counterparts.      'This proves that we are normal,' said Jen Vrana, president  and founder of the Liberty Gay Rodeo Association, a 240-member  group that was founded two years ago.      'This is an all-American sport, and we are all-American  people.'      But the event - like other longer-established gay rodeos  elsewhere in the United States - distinguishes itself from  mainstream rodeos by injecting a little fun along with the  strength and skill required to control a bucking animal.      Interspersed with familiar events like steer riding and  calf roping were 'goat dressing' - in which pairs of  contestants try to put hot-pink underwear on the hind quarters  of an uncooperative goat in the shortest time - and 'steer  decorating' in which one partner of a team has to tie a ribbon  on the tail of a struggling steer while the other tries to hold  on to its horns.      Chuck Curry, a 45-year-old contestant in three events, came  to the rodeo from Fort Lauderdale Florida. He said he had  already participated in five other gay rodeos over the last  three years and works two jobs, as a barman and a taxi driver,  to support his hobby.      Asked why the rodeo appeals to him so much, he replied: 'I  get to meet people - that's as politely as I can put it.'      Curry said gay rodeos, which were started in the mid-1970s,  have caught on so much that his father, who wanted him to  become a football player, comes to watch.      Scott Jackson, one of about 500 mostly male spectators,  said gay rodeos appeal to the gay community because they  reinforce a sense of masculinity among a population that has  stereotypically feminine traits. It also allows participants to  aspire to a 'country and western lifestyle' even if they are  city dwellers.      'It's a very dangerous event, and we are doing things that  the professionals do,' said Jackson, 38, a government worker  from Oklahoma City who had come to Philadelphia to support its  first gay rodeo.      Although the Philadelphia event was held in suburban Devon,  home to a blue-blood horse show, the gay crowd did its best to  create a western atmosphere, wearing cowboy hats and boots, and  tight jeans with oversize belt buckles.      Dan Williamson, 44, a graphic designer from Washington DC,  said he attends gay rodeos because they are a chance to be  among friends. 'It's not so much about being gay,' he said.  'It's like a church picnic, you know everybody, it's very  accepting.'      ((Reporting by John Hurdle; editing by Patricia Reaney; For  the latest Reuters lifestyle news see:  http://www.reuters.com/news/lifestyle))  Keywords: RODEO GAY        ",
+        "Histogram": [
+            0,
+            0,
+            0.6,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0.5,
+            0.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 10.476173400878906,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "'This proves that we are normal,' said Jen Vrana, president and founder of the Liberty Gay Rodeo Association, a 240-member group that was founded two years ago.",
+                    "bias_type": "Discriminatory Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The statement implies that the participants feel the need to prove their normalcy, suggesting a bias that challenges stereotypes about the 'normalcy' of the gay community."
+                },
+                {
+                    "text": "But the event - like other longer-established gay rodeos elsewhere in the United States - distinguishes itself from mainstream rodeos by injecting a little fun along with the strength and skill required to control a bucking animal.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'injecting a little fun' implies a judgment that mainstream rodeos lack this element, subtly suggesting that the gay rodeo is more enjoyable or lighthearted."
+                },
+                {
+                    "text": "Interspersed with familiar events like steer riding and calf roping were 'goat dressing' - in which pairs of contestants try to put hot-pink underwear on the hind quarters of an uncooperative goat in the shortest time - and 'steer decorating' in which one partner of a team has to tie a ribbon on the tail of a struggling steer while the other tries to hold on to its horns.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The description of the events, particularly 'goat dressing,' uses language designed to evoke a humorous or sensational response, potentially undermining the seriousness of the participants' skills."
+                },
+                {
+                    "text": "Asked why the rodeo appeals to him so much, he replied: 'I get to meet people - that's as politely as I can put it.'",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The phrasing of the response, particularly the need to qualify the statement as 'politely as I can put it,' suggests a judgment about the nature of interactions at the gay rodeo, implying a bias about the social dynamics of the event."
+                },
+                {
+                    "text": "Scott Jackson, one of about 500 mostly male spectators, said gay rodeos appeal to the gay community because they reinforce a sense of masculinity among a population that has stereotypically feminine traits. It also allows participants to aspire to a 'country and western lifestyle' even if they are city dwellers.",
+                    "bias_type": "Generalization Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "This sentence generalizes the gay community as having 'stereotypically feminine traits,' which could be seen as a biased oversimplification of the diversity within the community."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the portrayal of the gay community in the context of rodeo participation, particularly in terms of challenging stereotypes, social dynamics, and the generalization of traits within the community. The biases identified include Discriminatory Bias, Word Choice Bias, Emotional Sensationalism Bias, and Generalization Bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.58,
+            "percentage_of_biased_sentences": 0.16666666666666666,
+            "overall_rating": 0.3733333333333333
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "FACTBOX-Adoption in the United States",
+        "URL": "FACTBOX-Adoption in the United States.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    June 13 (Reuters) - Black children in foster care in the  United States are less likely to be adopted into a family than  children from other races and laws designed to rectify the  imbalance are failing, according to a new report.      Following are some facts about adoption in the United  States:           * Between 130,000 and 140,000 children are adopted each  year. Half of these are adopted by step-parents as new  relationships are formed.      * Around 20,000 children are adopted from abroad each year,  the majority of whom are adopted transracially.      * Between 50,000 and 60,000 children are adopted from  foster care each year, mostly by a parent or parents of the  same race.      * Black children are under-represented among children  adopted from foster care relative to the number of children  waiting in foster care for adoption.      * White children, who make up 58 percent of children in  U.S. society, represent 38 percent of those in foster care but  45 percent of those adopted, according to fiscal year 2006  figures.      * Black children make up 15 percent of total number of  children in the United States but represent 32 percent of those  in foster care and 27 percent of the total number adopted.      * Hispanic children make up 19 percent of children in  society, 20 percent of those waiting for adoption and 19  percent of those adopted.      * The two main laws governing the placement of children in  transracial adoption are the Multiethnic Placement Act of 1994  and the Removal of Barriers to Interethnic Adoption Provisions  of 1996.      (Source: Evan B. Donaldson Adoption Institute and U.S.  Department of Health and Human Services)   (Writing by Matthew Bigg; Editing by John O'Callaghan)   ((matt.bigg@reuters.com; +1 404 992-5745; Reuters Messaging:  matt.bigg.reuters.com@reuters.net))  Keywords: USA ADOPTION/FACTS        ",
+        "Histogram": [
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0.5,
+            0.5,
+            0.5,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 10.195798873901367,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Black children in foster care in the United States are less likely to be adopted into a family than children from other races and laws designed to rectify the imbalance are failing, according to a new report.",
+                    "bias_type": "Discriminatory Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence promotes a discriminatory bias by highlighting the disparity in adoption rates based on race and suggesting the failure of laws without providing a balanced or in-depth analysis of the complex factors involved."
+                },
+                {
+                    "text": "Black children are under-represented among children adopted from foster care relative to the number of children waiting in foster care for adoption.",
+                    "bias_type": "Generalization Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "This statement generalizes the experience of black children in foster care, implying a broad characteristic of under-representation without exploring the multifaceted reasons behind adoption dynamics."
+                },
+                {
+                    "text": "White children, who make up 58 percent of children in U.S. society, represent 38 percent of those in foster care but 45 percent of those adopted, according to fiscal year 2006 figures.",
+                    "bias_type": "Generalization Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "Similarly, this sentence generalizes the adoption statistics of white children, suggesting a discrepancy without delving into the complexities of adoption processes and family dynamics."
+                },
+                {
+                    "text": "Black children make up 15 percent of total number of children in the United States but represent 32 percent of those in foster care and 27 percent of the total number adopted.",
+                    "bias_type": "Generalization Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "This sentence generalizes the situation of black children in the United States, presenting statistics without a nuanced examination of the underlying causes for the disparities in foster care and adoption."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding adoption in the United States, particularly in its discussion of the adoption rates of children from different racial backgrounds. The general bias tendency leans towards discriminatory and generalization biases, as it oversimplifies complex issues and presents statistics without a comprehensive analysis of the factors at play."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.525,
+            "percentage_of_biased_sentences": 0.09090909090909091,
+            "overall_rating": 0.3079545454545455
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Portuguese parliament rejects gay marriage",
+        "URL": "Portuguese parliament rejects gay marriage.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Axel Bugge      LISBON, Oct 10 (Reuters) - Portugal's parliament rejected a  proposal on Friday to allow gay marriage, sparking anger among  gays who say they face discrimination in the conservative  Catholic country.      The proposal by the small Left Bloc and Green parties to  overturn an existing ban was overwhelmingly rejected as the  ruling Socialists, who hold a majority, joined the centre-right  opposition in opposing the move.      Parliament president Jaime Gaime did not give a final vote  breakdown but said the proposal had been rejected, the  legislature's television channel showed.      Outside parliament, about thirty gays protested by staging  two mock marriages.      'I am here because there are citizens who are full citizens  in their duties but not citizens in their rights and that is a  very serious mistake in a democracy,' Joana, a woman who married  her partner, told Reuters Television.      'Old homophobes!' a gay protester shouted inside the voting  chamber after the vote, before being led out by police.      Gays were encouraged that a referendum in Portugal last year  overturned a ban on abortion, hoping it would usher in what they  see as more progressive and modern values elsewhere in Europe.  Neighbouring Spain has allowed gay marriages since 2005.      But Catholic values still hold sway on many social issues in  Portugal. Cardinal Jose Policarpo, the patriarch of Lisbon,  warned that allowing gay marriages would be a violation of the  family.      'What is in question is breaking the profound conception of  the family,' he said on Radio Renascenca, a Catholic radio  station.      Alice Ferreira, a 70-year-old pensioner, told SIC television  that gays could have their own sexual preferences but they  should not be allowed to marry.      'I don't think they could be real marriages because  marriages are intended to create families,' she said.      Supporters of the change argue that the ban on gay marriage  included in Portugal's civil code is illegal under the 1975  constitution, which bans sexual discrimination.      Polls have shown under 30 percent of Portuguese approve of  gay marriage against an average around 45 percent in the  European Union, according to Eurobarometer.   (Additional reporting by Miguel Pereira; editing by Philippa  Fletcher)   ((Axel.Bugge@Reuters.Com, +351-213-509-201, Reuters Messaging:  axel.bugge.reuters.com@reuters.net))    Keywords: PORTUGAL GAY/        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 10.181488037109375,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "'Old homophobes!' a gay protester shouted inside the voting chamber after the vote, before being led out by police.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the term 'homophobes' to describe the opposition carries a negative connotation and implies judgment, suggesting that those who voted against the proposal are inherently prejudiced."
+                },
+                {
+                    "text": "But Catholic values still hold sway on many social issues in Portugal. Cardinal Jose Policarpo, the patriarch of Lisbon, warned that allowing gay marriages would be a violation of the family.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence presents the warning from Cardinal Jose Policarpo as a fact, without offering a counterpoint or acknowledging that this is a subjective opinion based on religious beliefs, blurring the line between objective reporting and personal perspective."
+                },
+                {
+                    "text": "Alice Ferreira, a 70-year-old pensioner, told SIC television that gays could have their own sexual preferences but they should not be allowed to marry. 'I don't think they could be real marriages because marriages are intended to create families,' she said.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The inclusion of this individual's opinion, particularly the assertion that gay marriages are not 'real marriages,' without a contrasting viewpoint, reflects a subjective belief presented as a valid argument, contributing to an overall bias in the article."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the topic of gay marriage in Portugal, with a general tendency towards presenting subjective opinions and using word choices that imply judgment, particularly against those opposing the proposal."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.23529411764705882,
+            "overall_rating": 0.41764705882352937
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Malawi government backs Madonna on adoption",
+        "URL": "Malawi government backs Madonna on adoption.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Mabvuto Banda      LILONGWE, April 3 (Reuters) - Malawi's government has  recommended that its High Court approve American pop star  Madonna's adoption of David Banda, the child she met in a  Malawian orphanage a year and a half ago.      Madonna began adoption proceedings in 2006 and the  2-year-old has been living with the pop star and her film  director husband Guy Ritchie in their London home since then.      The adoption has been controversial, with critics accusing  the government of skirting laws that ban non-residents from  adopting children in Malawi, which has been badly hit by an AIDS  epidemic leaving more than one million orphans.      But in a confidential report dated March 25, 2008, signed by  Probation Officer S. Chisale at the Ministry of Women and Child  Development, the government said Madonna and Ritchie had proved  to be suitable parents for the Malawian boy.      'In the best interest of the child, I do recommend the  petitioners to your Lordship for your consideration that they be  granted an adoption order having proved that they are suitable  parents and satisfied the conditions in the Interim Adoption  Order,' the report.      In February, Malawian Information Minister Patricia Kaliati  praised Madonna's efforts to rally support for orphans in the  impoverished country and said it would be wrong for the  government to deny the pop star's adoption of a child there.      Meanwhile, Madonna's lawyers have asked the courts to delay  the singer's appearance in court for the adoption hearing from  next week to the end of April, because she has another  engagement in the United States.      'They have made that application at (the) High Court today  and the judge is expected to respond this afternoon,' a court  official said.   (Editing by Gordon Bell and Giles Elgood)   ((gordon.bell@reuters.com; +27 11 775 3151; Reuters Messaging:  gordon.bell.reuters.com@reuters.net))    (For full Reuters Africa coverage and to have your say on the  top issues, visit: http://africa.reuters.com/ )         Keywords: MALAWI MADONNA/       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 10.115447998046875,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to exhibit bias. It provides a factual report on the Malawi government's recommendation for Madonna's adoption of David Banda, including the controversy surrounding the adoption and the government's stance. The information is presented in a neutral manner without the inclusion of subjective opinions or judgmental language."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Hollywood sees cracks in gay 'glass closet'",
+        "URL": "Hollywood sees cracks in gay 'glass closet'.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Alex Dobuzinskis      LOS ANGELES, June 5 (Reuters) - Hollywood's 'glass closet'  may not be shattered, but with stars such as Ellen DeGeneres  and T.R. Knight openly out and shows like 'The L Word' proving  popular in recent years, insiders say being gay or lesbian is  no longer a career breaker for celebrities.      The California Supreme Court on Wednesday gave a final  approval for gay marriages in the state, clearing the way for  talk show host DeGeneres and her girlfriend of four years,  actress Portia de Rossi, to marry as planned.      Last week actress Lindsay Lohan, 21, was the subject of  widespread talk in celebrity magazines that she was having a  lesbian affair with friend Samantha Ronson, prompting some in  Hollywood to encourage her to go public with the relationship.      If she did, it might not hurt her career, as it most  definitely would have only a few years ago. In fact, say many  gay Hollywood players, it has not hurt theirs.      'After publicly coming out, I haven't noticed a  difference,' 'Grey's Anatomy' star T.R. Knight told Reuters at  an event to celebrate gay marriage in West Hollywood.      But Knight, who was forced by a colleague to disclose  publicly he was gay, noted he had a steady job, which cannot be  said for others.      Actor Rock Hudson kept his homosexuality a secret for  decades for fear it would hurt his ability to win leading-man  roles. His death to AIDS-related illness in 1985 shocked  Americans, and when DeGeneres publicly came out in the late  1990s it caused a media sensation.      But by early this decade, TV show 'Will & Grace,' about the  lives of a gay man and straight woman, had become a critical    and audience hit, a sign of increasing public acceptance.           CRACKS IN 'GLASS CLOSET'      Still, experts say a 'glass closet' exists for some actors,  but because many openly gay celebrities such as Knight,  DeGeneres, De Rossi and Rosie O'Donnell are breaking barriers  that have stood for years, that closet is cracking.      Ilene Chaiken, creator and executive producer of 'The L  Word,' the popular lesbian-themed show on the cable channel  Showtime, said Hollywood's attitude toward gay content has  improved and that soon any gay 'stigma' will be irrelevant.      'Our kids think it's absurd gay people can't get married,  and by the time they are the dominant consumer culture, most of  these issues are going to be non-issues,' she said.      But some actors, especially men, still fear coming out.      Film and TV fans are more likely to warm to a lesbian  actress than a gay actor, the experts said. Women are less  likely to feel threatened by a lesbian woman. Some men see them  as sexy, and gay men as challenging their own sexuality.       Howard Bragman, a veteran Hollywood publicist who is  openly gay, noted that Hollywood still has no shining example  of a megastar leading man who came out of the closet and  thrived in his career.      Still, in recent years, a few gay actors such as Knight and  Neil Patrick Harris, who plays a womanizing man about town on  TV's 'How I Met Your Mother,' have remained high-profile stars  since breaking out of the glass closet.      Compare that to actor Leslie Jordan, 53, of the former NBC  program 'Will & Grace' and author of the recently released book  'My Trip Down the Pink Carpet,' who faced steep adversity when  he stepped off the bus in Hollywood more than 25 years ago.      Jordan has always been openly gay, but early in his ca",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 10.096814155578613,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "But Knight, who was forced by a colleague to disclose publicly he was gay, noted he had a steady job, which cannot be said for others.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence implies a negative judgment on the colleague's actions and suggests a generalization about the difficulties faced by gay individuals in the industry, blurring the line between fact and personal perspective."
+                },
+                {
+                    "text": "Still, experts say a 'glass closet' exists for some actors, but because many openly gay celebrities such as Knight, DeGeneres, De Rossi and Rosie O'Donnell are breaking barriers that have stood for years, that closet is cracking.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'glass closet' and the dramatic imagery of it 'cracking' evokes strong emotions and sensationalizes the issue, potentially at the expense of a more balanced or neutral portrayal."
+                },
+                {
+                    "text": "Ilene Chaiken, creator and executive producer of 'The L Word,' the popular lesbian-themed show on the cable channel Showtime, said Hollywood's attitude toward gay content has improved and that soon any gay 'stigma' will be irrelevant.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence engages in speculation about the future of gay stigma in Hollywood, presenting it as a definitive outcome based on the opinion of a single industry figure rather than concrete facts."
+                },
+                {
+                    "text": "Film and TV fans are more likely to warm to a lesbian actress than a gay actor, the experts said. Women are less likely to feel threatened by a lesbian woman. Some men see them as sexy, and gay men as challenging their own sexuality.",
+                    "bias_type": "Discriminatory Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This statement generalizes about the attitudes of film and TV fans, women, and men towards gay and lesbian individuals, potentially reinforcing stereotypes and promoting unequal representation based on sexual orientation."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the portrayal of gay and lesbian individuals in Hollywood, with instances of Opinionated Bias, Emotional Sensationalism Bias, Speculation Bias, and Discriminatory Bias. The general bias tendency leans towards highlighting the challenges and discrimination faced by gay individuals in the entertainment industry, often through the lens of subjective opinions, speculative assertions, and emotionally charged language."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.13043478260869565,
+            "overall_rating": 0.3652173913043478
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Malawi court delays Madonna adoption ruling",
+        "URL": "Malawi court delays Madonna adoption ruling.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    LILONGWE, May 15 (Reuters) - Malawi's High Court has delayed  its final ruling on whether U.S. pop diva Madonna may adopt a  two-year-old Malawian boy until next week, her lawyer said on  Thursday.      'We are finished with the proceedings today from our side,  and the judge has decided to reserve his ruling on the case  until next week because he has to review the recommendations  from the Malawi Human Rights Commission on the adoption laws of  Malawi,' Alan Chinula said.      The Human Rights Commission is set up by the government. Its  position on the adoption of toddler David Banda has not been  made public. An exact date for next week's ruling was not  announced.      The adoption has been controversial, with critics accusing  the government of skirting laws that ban non-residents from  adopting children in Malawi, which has been ravaged by an AIDS  epidemic leaving more than one million orphans.      But Malawi's government and David's father -- his only  surviving parent -- had endorsed the adoption, and a local  rights group that had opposed the case said earlier this week it  was no longer interested in pursuing the case, removing another  obstacle.      Madonna could not attend the court session on Thursday  because she was too busy with other engagements, her lawyer said  earlier this week.      Madonna began adoption proceedings for David in 2006 and the  boy has been living with her and her film director husband Guy  Ritchie in their London home since then. She took David when he  was 13 months old after his father had placed him in an  orphanage following the death of his wife.   (Editing by Caroline Drees)   ((caroline.drees@reuters.com; +27 11 775 3168; Reuters  Messaging: caroline.drees.reuters.com@reuters.net))   (For full Reuters Africa coverage and to have your say on the  top issues, visit: http://africa.reuters.com/)          Keywords: MALAWI MADONNA/ADOPTION        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 10.050289154052734,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual account of the legal proceedings regarding Madonna's adoption of a Malawian boy, including the involvement of the Human Rights Commission and the controversy surrounding the case. The information is presented in a neutral manner without evident bias towards any particular viewpoint."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Nepal lists foreign agencies for adoption",
+        "URL": "Nepal lists foreign agencies for adoption.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    KATHMANDU, Oct 27 (Reuters) - Nepal's Maoist-led government  said on Monday it would allow 58 foreign agencies to process  requests by families wishing to adopt children from the Himalayan  nation, ending months of uncertainty.      Nepal put on hold adoption of its children last year after  news of widespread corruption and criticism that some children  were being sold off, leaving hundreds of families in confusion.      Prakash Kumar Adhikari, a senior official in the Ministry of  Women, Children and Social Welfare said foreign agencies could  work as 'intermediaries' between potential adopting families in  their respective countries and the Nepali authorities.      He said the government would accept requests through firms  from Germany, France, Sweden, Denmark, Belgium, Italy, Spain,  Norway, the United States and Canada for adoption of Nepali  children.      'These countries have a good social security system,  including education and health care,' he said.      'We'll soon start accepting applications from prospective  families for adoption through the accredited agencies.'      The United Nations Children's Fund (UNICEF) and a Swiss child  relief agency, Terre des hommes (Tdh), said in a report in August  that the sale, abduction and trafficking of children was common  and Nepal should press for adoption by local families.   (Reporting by Gopal Sharma; Editing by Bappa Majumdar)   (For the latest Reuters news on Nepal see:  http://in.reuters.com, for blogs see  http://blogs.reuters.com/in/)   ((Reuters Messaging: gopal.sharma.reuters.com@reuters.net;  E-mail: gopal.sharma@thomsonreuters.com; +977 1 437-2152))  Keywords: NEPAL ADOPTION/       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 10.014457702636719,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to exhibit bias. It provides factual information about Nepal's decision to allow foreign agencies to process adoption requests, addressing concerns of corruption and child welfare. The topic of adoption in Nepal is discussed in a neutral manner without a general bias tendency."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Anti-gay violence mars Hungarian parade",
+        "URL": "Anti-gay violence mars Hungarian parade.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Sandor Peto and Krisztina Than      BUDAPEST, July 5 (Reuters) - Hungarian riot police used  water cannon and tear gas on Saturday to stop far-right  extremists from throwing petrol bombs and breaking up the annual  gay parade in the capital Budapest.      Hundreds of far-right demonstrators threw petrol bombs and  stones at the police as the police tried to separate them from  the participants of the 'Gay Pride' march. They also threw eggs  and firecrackers at people in the parade.      Riot police detained 45 people, police spokeswoman Eva  Tafferner said.      Ambulance workers and police said at least eight people were  wounded in the clashes, including two policemen.      The anti-gay demonstrators attacked a police car carrying  Socialist European Parliament member and human rights activist  Katalin Levai. They slammed a stone through the window of the  police car but she was not hurt.      'This is outrageous and shameful that some 20 years after  the change of regime, this is what we have ... such  intolerance,' Levai told Reuters.      'This (violence) is sad,' said 32-year-old book editor  Istvan Ruzsacz, who took part in the parade.      'Those people simply don't accept that gays exist and use  this as an opportunity to advertise themselves.'      A leading liberal politician Gabor Horn was also attacked  according to local news agency Index.      Although homosexuality was legalised in eastern Europe after  the collapse of communism, same-sex couples rarely display   their affection publicly and gay parades have sparked scorn and  violence in several other countries in the region.      A week ago, about 60 far-right extremists were arrested in  Bulgaria's capital, Sofia, after they tried to break up the  country's first gay parade.      Participants in a parade in the Czech city of Brno were also  attacked by anti-gay activists last week.      Hungary passed a law last year which will legalise  registered partnerships of same-sex couples from 2009. Hungarian  gay groups have argued they should be allowed to adopt children.      Last year, when participants of the gay parade were pelted  with eggs in Budapest, rights group Amnesty International  criticised Hungary for what it said was a failure of police to  protect the peaceful march.   (Editing by Elizabeth Piper)   ((krisztina.than@reuters.com; +36 1 327 4745; Reuters  Messaging: krisztina.than.reuters.com@reuters.net))    Keywords: HUNGARY GAYS/RIOT        ",
+        "Histogram": [
+            0,
+            0.9,
+            0.9,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 10.004861831665039,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Hundreds of far-right demonstrators threw petrol bombs and stones at the police as the police tried to separate them from the participants of the 'Gay Pride' march. They also threw eggs and firecrackers at people in the parade.",
+                    "bias_type": "Discriminatory Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "This sentence exhibits discriminatory bias by highlighting the violent actions of the far-right demonstrators towards the 'Gay Pride' march, emphasizing the negative and discriminatory behavior of a specific group."
+                },
+                {
+                    "text": "The anti-gay demonstrators attacked a police car carrying Socialist European Parliament member and human rights activist Katalin Levai. They slammed a stone through the window of the police car but she was not hurt.",
+                    "bias_type": "Discriminatory Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence also shows discriminatory bias by specifically detailing the violent actions of the anti-gay demonstrators, which targets an individual and highlights the aggression towards a prominent figure, emphasizing the discriminatory nature of the attack."
+                },
+                {
+                    "text": "'This is outrageous and shameful that some 20 years after the change of regime, this is what we have ... such intolerance,' Levai told Reuters.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of emotionally charged language such as 'outrageous' and 'shameful' to describe the situation by Katalin Levai introduces emotional sensationalism bias, aiming to evoke strong emotional responses from the reader."
+                },
+                {
+                    "text": "'This (violence) is sad,' said 32-year-old book editor Istvan Ruzsacz, who took part in the parade.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Similarly, the quote expressing sadness over the violence at the parade introduces emotional sensationalism bias, using the emotion of sadness to emphasize the negative impact of the violence."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article is biased regarding the treatment of the 'Gay Pride' march in Hungary, exhibiting discriminatory bias by highlighting the violent and discriminatory actions of the far-right demonstrators. Additionally, emotional sensationalism bias is present through the use of emotionally charged language to describe the events, aiming to evoke strong emotional responses from the reader."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.675,
+            "percentage_of_biased_sentences": 0.2777777777777778,
+            "overall_rating": 0.4763888888888889
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "California's top court ponders gay marriage",
+        "URL": "California's top court ponders gay marriage.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Adam Tanner      SAN FRANCISCO, March 4 (Reuters) - Four years after San  Francisco ignited passionate embraces and heated national  debate by briefly allowing gay marriage, California's top court  hears arguments on Tuesday as to whether matrimony should be  limited to a man and a woman.      The hearing brings into focus the highest-profile U.S.  fight over gay rights in recent years and the outcome could end  up influencing legislation and litigation in other states.      San Francisco Mayor Gavin Newsom forced the issue by suddenly  issuing gay marriage licenses in February 2004. More than 4,000  homosexual couples took him up on the offer, including comedian  Rosie O'Donnell and her partner, until a lower court halted the  process.      Later that year California's Supreme Court ruled that  Newsom, mayor of a city long at the forefront of gay rights,  had no authority to wed gays and voided the marriages.      The same court just across the street from City Hall where  the gay marriages took place now decides the larger question  whether California can legally bar same-sex matrimony.      Gay marriage supporters won an initial battle when a  Superior Court judge ruled in their favor in 2005. The  following year a state appeals court judge overruled that  decision and backed existing state law.      Californians in 2000 approved a ballot measure defining  marriage as the union of man and woman. But domestic  partnership legislation as of 2005 gave registered gay couples  many of the same privileges enjoyed by married couples.      Since 2005 California's legislature twice voted to allow gay  marriages, but Gov. Arnold Schwarzenegger, a Republican who is  liberal on many social issues, vetoed the bills, saying voters or  the courts should decide the issue.           UNUSUAL SESSION      It now falls to the seven justices of the California  Supreme Court to resolve the matter, and they have 90 days from  the hearing to issue an opinion. With six of the judges  appointed by Republican governors and one appointed by a  Democrat, the panel is considered politically moderate.      The court has made a rare exception to its one-hour total  limit on oral arguments and will hold a three-hour session.      'I can't recall any where there were three hours of  arguments, I really can't,' Cruz Reynoso told Reuters about his  years as a California Supreme Court justice from 1982-87.      'Not often, but sometimes, oral arguments actually make a  difference in difficult cases and I assume that the court  considers this a difficult case.'      More than half of U.S. states have passed constitutional  amendments barring gay marriage, and President George W. Bush has  proposed a U.S. Constitutional amendment.      State supreme courts in Massachusetts, New Jersey and  Vermont have ruled against limiting marriage to a man and a  woman. Massachusetts responded by becoming the only U.S. state  to allow gay marriage, while New Jersey and Vermont instead  passed civil union laws similar to those in California.      Several other state supreme courts, including those in New  York, Washington and Maryland, found that marriage can be  limited to one man, one woman.    (Editing by Mary Milliken and Eric Walsh)   ((adam.tanner@reuters.com, +1 415-677-2541; Reuters Messaging:  adam.tanner.reuters.com@reuters.net))  Keywords: RIGHTS CALIFORNIA/GAYS        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 9.974838256835938,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual overview of the legal and social context surrounding the debate on gay marriage in California, presenting information from various perspectives without promoting a particular bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Swedish parties propose legalising gay marriage",
+        "URL": "Swedish parties propose legalising gay marriage.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    STOCKHOLM, Jan 21 (Reuters) - Three of the four parties in  Sweden's centre-right coalition government unveiled a bill on  Wednesday paving the way for legalising gay marriage.      Six out of the seven parties in Sweden's parliament have now  said they are in favour of gay marriage, which has raised the  likelihood of new legislation dramatically.      But the fourth member of the coalition, the Christian  Democrats, refused to back the bill which will now need the  support of at least one of the centre-left opposition parties.      The three opposition parties said they were ready to work  together with the centre-right parties, with the aim of having  the new legislation in place as soon as possible.      'We are very pleased to finally be able make these changes,'  Moderate party MP Lars Lindblad told a news conference.      'There is a firm basis for a broad agreement between six  parties,' he added, referring to a possible deal including all  parties in the Swedish Riksdag except the Christian Democrats.      The change in the law, which currently allows gay couples to  register unions but not formal marriage, would come into force  by May 1 this year under the timetable set out in the bill.      The proposed new legislation would eliminate legal  distinctions between heterosexual and homosexual spouses, but it  would not force dissenting clergy to wed gay couples.      The Swedish Lutheran church, which split from the state in  2000, has said it was open to celebrating and registering  same-sex unions, though it wanted to reserve the term matrimony  for heterosexual marriages.      The church already performs blessing ceremonies for gay  couples who have registered unions with civil authorities after  a church council decision in 2005 which outraged conservatives.   ((Reporting by Victoria Klesty and Johan Sennero; editing by  Myra MacDonald; tel: +46 8 700 1045; e-mail:  victoria.klesty@thomsonreuters.com))    Keywords: SWEDEN GAY/       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 9.954710006713867,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual report on the proposed legislation to legalize gay marriage in Sweden, including the positions of different political parties and the Swedish Lutheran church."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Turkish court closes Istanbul gay association",
+        "URL": "Turkish court closes Istanbul gay association.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    ISTANBUL, May 29 (Reuters) - A Turkish court closed  Istanbul's only gay rights association on Thursday after the  prosecutor said it broke public morality laws.      The prosecutor argued the association's aims broke the law  for the protection of family and public morality, and a court  ruled in favour of closing the association.      LambdaIstanbul, set up in 1993, will be the first gay rights  association to be closed in the European Union candidate nation.      Homosexuality is legal in Turkey and central Istanbul has a  thriving gay night scene, but there are no laws to protect gay  men and lesbians from discrimination.      State-run Anatolian news agency said the judge made the  ruling at a court in Istanbul's central Beyoglu district.      'We are in a country where a closure case has been opened  against the ruling party. The political atmosphere is  anti-democratic and it lacks tolerance,' Bawer Cakir, a gay  rights activist in LambdaIstanbul, told Reuters.      Turkey's ruling AK Party faces possible closure in a  Constitutional Court case, and 71 members including Prime  Minister Tayyip Erdogan could be banned, because of alleged  anti-secular activities.      The association will appeal against the court decision at  the Court of Appeals and, if necessary, will go to the European  Court of Human Rights, Cakir said.   (Reporting by Selcuk Gokoluk; editing by Robert Woodward)   ((selcuk.gokoluk@thomsonreuters.com; +90 312 292 7012; Reuters  messaging: selcuk.gokoluk.reuters.com@reuters.net))    Keywords: TURKEY RIGHTS/HOMOSEXUAL       ",
+        "Histogram": [
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0.5,
+            0.5,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 9.915229797363281,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "The prosecutor argued the association's aims broke the law for the protection of family and public morality, and a court ruled in favour of closing the association.",
+                    "bias_type": "Discriminatory Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence exhibits discriminatory bias by implying that the existence of the gay rights association threatens family and public morality, promoting stereotypes and prejudices against the LGBTQ+ community."
+                },
+                {
+                    "text": "'We are in a country where a closure case has been opened against the ruling party. The political atmosphere is anti-democratic and it lacks tolerance,' Bawer Cakir, a gay rights activist in LambdaIstanbul, told Reuters.",
+                    "bias_type": "Political Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "This sentence shows political bias by suggesting that the closure of the gay rights association is a result of an anti-democratic and intolerant political atmosphere, favoring the viewpoint that the ruling party's actions are unjust."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the closure of Istanbul's gay rights association, with discriminatory and political biases present. The general bias tendency leans towards portraying the legal action as unjust and as a result of an intolerant and anti-democratic political climate."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.55,
+            "percentage_of_biased_sentences": 0.3,
+            "overall_rating": 0.42500000000000004
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Madonna seeks delay in Malawi adoption case-lawyer",
+        "URL": "Madonna seeks delay in Malawi adoption case-lawyer.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    BLANTYRE, April 19 (Reuters) - U.S. pop star Madonna has  asked a Malawian court to delay a hearing to finalise her  adoption of a boy from the southern African nation, a lawyer  close to the case said.      The singer's law firm in Malawi filed an application  requesting the High Court in Lilongwe to hear her adoption of  David Banda on May 15 instead of April 22, as originally  scheduled, the lawyer said, speaking on condition of anonymity.      Madonna's need to travel to the United States for business  reasons was cited as the reason for the delay, the lawyer said.      Court officials refused to confirm the application.      'Adoption is a confidential matter and we separate adoption  files from the regular case files,' Thomson Ligowe, assistant  registrar in the High Court, told Reuters.      Malawi's government recommended earlier this month that the  court approve the adoption of Banda.      The pop diva met the boy in an orphanage in 2006 and began  adoption proceedings soon after. He has been living with Madonna  and her film director husband Guy Ritchie in London since  shortly after the adoption process began.      The adoption has been controversial, with critics accusing  the government of skirting laws that ban non-residents from  adopting children in Malawi, one of the countries in Africa  hardest hit by AIDS.      The epidemic has left an estimated one million orphans in  the country.   (Reporting by Frank Phiri; Editing by Paul Simao and Caroline  Drees)   ((paul.simao@reuters.com; +27 11 775 3165; Reuters Messaging:  paul.simao.reuters.com@reuters.net))    Keywords: MALAWI MADONNA/       ",
+        "Histogram": [
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0
+        ],
+        "Relevance": 9.915201187133789,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Madonna's need to travel to the United States for business reasons was cited as the reason for the delay, the lawyer said.",
+                    "bias_type": "Unsubstantiated Claims Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence presents Madonna's need to travel for business as the sole reason for the delay in the adoption hearing, without providing evidence to support the claim that this was the only factor influencing the decision. It implies a definitive cause without substantiation."
+                },
+                {
+                    "text": "The pop diva met the boy in an orphanage in 2006 and began adoption proceedings soon after. He has been living with Madonna and her film director husband Guy Ritchie in London since shortly after the adoption process began.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'pop diva' to describe Madonna carries a connotation of triviality or superficiality, which can be seen as a judgmental word choice. It implies a lack of seriousness in her actions, including the adoption process."
+                },
+                {
+                    "text": "The adoption has been controversial, with critics accusing the government of skirting laws that ban non-residents from adopting children in Malawi, one of the countries in Africa hardest hit by AIDS.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Describing the adoption as 'controversial' and stating that 'critics accuse the government of skirting laws' introduces a judgmental tone and implies wrongdoing without presenting a balanced view or evidence. This choice of words suggests a negative interpretation of the adoption process."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding Madonna's adoption case in Malawi, particularly through the use of unsubstantiated claims and judgmental word choices. The topics discussed include the reasons for a hearing delay and the controversial nature of the adoption, with a general bias tendency towards portraying the adoption in a negative light."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.18181818181818182,
+            "overall_rating": 0.3909090909090909
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Power struggle complicates NY bid for gay marriage",
+        "URL": "Power struggle complicates NY bid for gay marriage.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Edith Honan      NEW YORK, Nov 26  (Reuters) - New York is close to becoming  the first U.S. state to pass legislation making gay marriage  legal but, like many political issues in the state capital  Albany, it has fallen victim to a power struggle.      Democrats won a majority in the upper house Senate for the  first time in more than 40 years in the Nov. 4 election, but  three Democratic senators refuse to back fellow Democratic Sen.  Malcolm Smith as majority leader without concessions.      The Republicans could regain their power in the Senate if  the three Democratic senators, who include longtime gay  marriage opponent Sen. Ruben Diaz, opt to vote with them.      'I will not give my vote to a leader that will bring gay  marriage to the state,' Diaz, a Pentecostal minister, said in  an interview. 'Have a voter referendum. Let the people  decide.'      Connecticut and Massachusetts are the only U.S. states that  allow same-sex marriage as a result of court rulings. No state  legislature has instituted gay marriage into law.      After Californian voters passed Prop 8 on Nov. 4 reversing  the state's Supreme Court decision in May to allow same-sex  marriage, the next battleground state for gay mariage is  expected to be New York. The New York Assembly passed a  marriage bill in June 2007 but the Senate has yet to act.      The Senate power struggle has delayed appointment of a  majority leader until January and upset gay rights activists  who believed gay marriage would be legalized once Democrats  took control of the Senate.      Albany has a reputation for bickering and power struggles,  which critics say was demonstrated when the legislature last  week rejected Democratic Gov. David Paterson's emergency budget  cuts for many reasons, including the Senate leadership battle.      Gay marriage has broad support in the Democratic-controlled  lower house, the State Assembly, where it passed in a vote of  85 to 61 last year. It was never put to a vote in the upper  house when the Republicans controlled the Senate.      Paterson, who in May ordered all state agencies to  recognize out-of-state gay marriages, has said he would sign  such a bill into law.      'It's going to happen. It's not an if, it's a when,' said  Sen. Tom Duane, a same-sex marriage campaigner.      Gay rights groups say they are still hopeful New York and  New Jersey legislatures will pass gay marriage bills as soon as  2009 and are unfazed by the New York State Senate leadership  struggle.      'When the dust settles, and we do consider it dust, there  will be a Democratic majority leader who will put forth a  marriage equality bill,' said Marty Rouse, national field  director for Human Rights Campaign, a major U.S. gay rights  group.      Alan Van Capelle, executive director of Empire State Pride  Agenda, said the gay marriage issue had not proven to be toxic  as none of the Republican assembly members who voted for  same-sex marriage in 2007 were voted out of office.      But Duane Motley, executive director of the Christian lobby  group New Yorkers for Constitutional Freedoms, said that even  if Smith is named majority leader, passage of gay marriage is  by no means assured.      'It's not a done deal,' he said. 'The rank and file people  of New York State are not in favor of homosexual marriages.'      Smith has not said publicly how he will handle the gay  marriage issue if he is made majority leader at the next  legislative session in January.      'Re",
+        "Histogram": [
+            0,
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0
+        ],
+        "Relevance": 9.90023136138916,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Democrats won a majority in the upper house Senate for the first time in more than 40 years in the Nov. 4 election, but three Democratic senators refuse to back fellow Democratic Sen. Malcolm Smith as majority leader without concessions.",
+                    "bias_type": "Political Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence exhibits political bias by portraying the Democratic senators' refusal to support Sen. Malcolm Smith as a power struggle within the Democratic party, suggesting internal disarray and undermining the party's recent electoral victory."
+                },
+                {
+                    "text": "'I will not give my vote to a leader that will bring gay marriage to the state,' Diaz, a Pentecostal minister, said in an interview. 'Have a voter referendum. Let the people decide.'",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This quote from Sen. Ruben Diaz introduces opinionated bias by advocating for a voter referendum on gay marriage, implying that the decision should not be left to legislative processes. This presents a subjective opinion as a valid alternative to the legislative procedure."
+                },
+                {
+                    "text": "After Californian voters passed Prop 8 on Nov. 4 reversing the state's Supreme Court decision in May to allow same-sex marriage, the next battleground state for gay mariage is expected to be New York. The New York Assembly passed a marriage bill in June 2007 but the Senate has yet to act.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The sentence uses emotionally charged language, referring to New York as the 'next battleground state for gay marriage,' which sensationalizes the issue and implies a dramatic conflict, potentially evoking strong emotions in the reader."
+                },
+                {
+                    "text": "Albany has a reputation for bickering and power struggles, which critics say was demonstrated when the legislature last week rejected Democratic Gov. David Paterson's emergency budget cuts for many reasons, including the Senate leadership battle.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'bickering' to describe political disagreements in Albany introduces word choice bias, suggesting trivial or petty arguments rather than substantive policy debates, and undermining the seriousness of the legislative process."
+                },
+                {
+                    "text": "But Duane Motley, executive director of the Christian lobby group New Yorkers for Constitutional Freedoms, said that even if Smith is named majority leader, passage of gay marriage is by no means assured. 'It's not a done deal,' he said. 'The rank and file people of New York State are not in favor of homosexual marriages.'",
+                    "bias_type": "Unsubstantiated Claims Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This statement presents the opposition to gay marriage as a widely held and unchallenged view ('the rank and file people of New York State are not in favor of homosexual marriages'), without providing evidence to support the claim, thus introducing unsubstantiated claims bias."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the issue of gay marriage in New York, with multiple instances of political bias, opinionated bias, emotional sensationalism bias, word choice bias, and unsubstantiated claims bias. The general bias tendency leans towards portraying the legislative process and public opinion on gay marriage in a divisive and emotionally charged manner, potentially skewing the reader's perception of the issue."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.38461538461538464,
+            "overall_rating": 0.49230769230769234
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Gay activists march in Romania despite opposition",
+        "URL": "Gay activists march in Romania despite opposition.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    BUCHAREST, May 24 (Reuters) - Around 200 gay activists  marched through Bucharest on Saturday in a heavily policed pride  parade that defied efforts by religious and far-right groups to  have the annual event banned.      Earlier this week, anti-gay groups tried to get a court to  rule against the march, Romania's fifth annual gay festival.      Two counter-demonstrations were held ahead of the parade. At  one, members of a far-right group chanted 'Romania does not want  you' in a protest they said was 'against sin'.      Romania decriminalised homosexuality in 2001, but gay people  often face hostility in this largely conservative country of 22  million where the powerful Orthodox church views homosexuality  as a sin and a disease.      Police said the gay rights march passed off without  incident.      'It is encouraging,' riot police spokesman Marius Militaru  told reporters. 'People are becoming aware that we are heading  towards a degree of normality.'      Last year riot police detained dozens of protesters who  tried to break up a gay rights march.       About 1,200 police were deployed to protect the parade this  year.      'I want to thank the police here today ... but we should be  able to march and be ourselves without the police marching  along,' Michael Cashman, a British member of the European  Parliament, told activists.      (Reporting by Luiza Ilie; Editing by Giles Elgood)   ((luiza.ilie@reuters.com ; +40 21 315 8320; Reuters Messaging:  luiza.ilie.reuters.com@reuters.net ))    Keywords: ROMANIA GAYS/        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 9.890448570251465,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to exhibit bias. It provides a factual account of a gay pride parade in Romania, including the opposition it faced and the police's role in ensuring its safety."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "U.S. accuses Vietnam of corrupt adoption system",
+        "URL": "U.S. accuses Vietnam of corrupt adoption system.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    HANOI, April 28 (Reuters) - U.S. investigators said they had  found evidence of baby trafficking and corruption in Vietnam's  adoption system, prompting Hanoi to end adoptions to the United  States, officials said on Monday.      Communist-run Vietnam's adoption system has had a turbulent  history and it came under the spotlight a year ago when actress  Angelina Jolie visited the Southeast Asian country to adopt a  boy.      A U.S. embassy spokeswoman said the Vietnamese government  sent a letter to the Hanoi embassy saying it would stop taking  adoption applications after July 1.      Official figures show that Americans adopted 828 Vietnamese  children in 2007.      U.S. investigators said it received credible reports from  current and former employees of Adoption Service Providers  working in Vietnam regarding corruption in the adoption system,  beginning with the licensing procedures.      'The survey reflects findings from investigation of hundreds  of cases,' said U.S. embassy spokeswoman Angela Aggeler.      Vietnamese officials denied the corruption and bribery  allegations in the report.      Investigators said several providers reported they were told  they had to fund tours to the United States for government  officials in order to receive their licenses and that the tours  included shopping sprees, where the agencies were expected to  pay for all of the purchases of the Vietnamese delegation.      Others said they had to pay bribes for provincial licences.      Agencies also reported that cash and in-kind donations were  diverted by orphanage officials and used to finance personal  property, private cars, jewellery and, in one case, a commercial  real estate development, the report said.      Aggeler said the government would process cases of families  matched with babies before July 1 until an adoption agreement  between Hanoi and Washington expires on Sept. 1.      The United States resumed adoptions from Vietnam in 2006  after the two governments signed a new agreement following the  suspension of an earlier pact in 2003 over suspicions of  corruption.      (Reporting by Grant McCool)   ((grant.mccool@thomsonreuters.com; +844-825 96 23; Reuters  Messaging: grant.mccool.reuters.com@thomsonreuters.net))     Keywords: VIETNAM ADOPTION/       ",
+        "Histogram": [
+            0.6,
+            0,
+            0.6,
+            0,
+            0.4,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 9.86829948425293,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "U.S. investigators said they had found evidence of baby trafficking and corruption in Vietnam's adoption system, prompting Hanoi to end adoptions to the United States, officials said on Monday.",
+                    "bias_type": "Unsubstantiated Claims Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The sentence presents the claim of 'baby trafficking and corruption' as a fact without providing specific evidence, thus implying a judgment about the entire adoption system in Vietnam."
+                },
+                {
+                    "text": "U.S. embassy spokeswoman said the Vietnamese government sent a letter to the Hanoi embassy saying it would stop taking adoption applications after July 1.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'sent' and the phrase 'stop taking adoption applications' without further context can imply a negative connotation about the Vietnamese government's actions, suggesting a unilateral and possibly abrupt decision."
+                },
+                {
+                    "text": "U.S. investigators said it received credible reports from current and former employees of Adoption Service Providers working in Vietnam regarding corruption in the adoption system, beginning with the licensing procedures.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.4,
+                    "bias_description": "This sentence implies a direct cause-and-effect relationship between the reports received and the existence of corruption in the adoption system, without acknowledging the possibility of bias or the complexity of the issue."
+                },
+                {
+                    "text": "Vietnamese officials denied the corruption and bribery allegations in the report.",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The sentence could be seen as targeting the credibility or motives of the Vietnamese officials by highlighting their denial without providing a balanced view or evidence to support or refute the allegations."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the topic of adoption in Vietnam, particularly in its portrayal of the adoption system as corrupt and the actions of the Vietnamese government and officials. The biases identified include Unsubstantiated Claims, Word Choice, Causal Misunderstanding, and Ad Hominem, indicating a general tendency to present a one-sided and possibly misleading view of the situation."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.55,
+            "percentage_of_biased_sentences": 0.23076923076923078,
+            "overall_rating": 0.39038461538461544
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Gay marriage backers set 'Day Without a Gay' event",
+        "URL": "Gay marriage backers set 'Day Without a Gay' event.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Peter Henderson      SAN FRANCISCO, Dec 9 (Reuters) - Same-sex marriage  advocates plan to 'Call in gay' on Wednesday in a protest  designed to show Americans how big a part of daily life -- and  the economy -- gays and their supporters are.      The Internet-organized project, which follows California's  passage of anti-same-sex-marriage Proposition 8, urges 'Day  Without a Gay' participants to skip work and volunteer in the  community.      The idea is creating a controversy over how to garner  support without protesters hurting their cause.      Californians struck down same-sex marriage last month,  reversing a court decision that had affirmed the right. The  Nov. 4 vote stopped gay unions in California -- one of a  handful of states, provinces and mostly European countries that  allowed it.      After the vote, protest marches targeted U.S. temples of  the Church of Jesus Christ of Latter-day Saints, the Mormons,  who were top supporters of California Proposition 8, which  limits marriage to a man and a woman. That led to a nationwide  protest day on Nov. 15.      'In order for this movement to continue it can't just be  about marching and being pissed off. It's got to be creative in  different ways to get into the hearts and minds of moderate  voters,' said daywithoutagay.org creator Sean Hetherington.      The Los Angeles comedian and his boyfriend, Aaron Hartzler,  put the focus on volunteering, although one of the groups  behind the Nov. 15 rallies, jointheimpact.com, urges people to  shut businesses and avoid spending anything.      The protest appears inspired by the 2004 film 'A Day  Without a Mexican' which imagines the effect on California of a  day when there are no Latinos, leading to chaos on the state.   (Editing by Mohammad Zargham)   ((Reuters Messaging: peter.henderson.reuters.com@reuters.net;  email: peter.henderson@reuters.com; +1 415 677 2541))  Keywords: GAYMARRIAGE/PROTEST        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 9.86293888092041,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to exhibit bias. It provides a factual overview of the 'Day Without a Gay' event and the context surrounding it without employing any of the typical bias types."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Singapore TV fined $11,000 for 'pro-gay' scene- paper",
+        "URL": "Singapore TV fined $11,000 for 'pro-gay' scene- paper.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    SINGAPORE, April 25 (Reuters) - Singapore's state-owned  television was fined S$15,000 ($11,040) by the country's censor  for promoting gay lifestyle by airing a programme that showed a  gay couple and their adopted baby, a newspaper said on Friday.      The Straits Times reported that Singapore's Media Development  Authority said the episode of home and decor series Find and  Design, in which the host helped the couple decorate a nursery,  'normalises and promotes a gay lifestyle'.      The pro-government newspaper said the censor had also  objected to scenes of the couple and their baby as well as the  host's acknowledgement of them as a family, because it broke a  rule 'which disallows programmes that promote, justify or  glamorise gay lifestyles'.      Under Singapore law, homosexuality is illegal and a man who  is found to have committed an act of 'gross indecency' with  another man can be jailed for up to two years, though  prosecutions are rare.      Authorities have banned gay festivals and censored gay films  in the past, saying homosexuality should not be advocated as a  lifestyle. But, despite the official ban, Singapore has a  thriving gay scene.   (Reporting by Jan Dahinten; Editing by Sanjeev Miglani)   ((jan.dahinten@thomsonreuters.com; +65 6403 5659; Reuters  Messaging: jan.dahinten.reuters.com@reuters.net))   ($1=1.359 Singapore Dollar)  Keywords: SINGAPORE GAY/       ",
+        "Histogram": [
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 9.86196231842041,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "The Straits Times reported that Singapore's Media Development Authority said the episode of home and decor series Find and Design, in which the host helped the couple decorate a nursery, 'normalises and promotes a gay lifestyle'.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'normalises and promotes a gay lifestyle' carries a judgmental connotation, implying that being gay is something that needs normalization or promotion, which can influence the reader's perception negatively towards the subject."
+                },
+                {
+                    "text": "The pro-government newspaper said the censor had also objected to scenes of the couple and their baby as well as the host's acknowledgement of them as a family, because it broke a rule 'which disallows programmes that promote, justify or glamorise gay lifestyles'.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The choice of words such as 'promote, justify or glamorise gay lifestyles' suggests a negative judgment towards the portrayal of gay individuals as families, implying that such representations are inappropriate or excessive, and therefore, should be restricted."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the portrayal of gay lifestyles in Singapore, particularly through the use of judgmental word choices that imply a negative stance towards the normalization and acknowledgment of gay families. The general bias tendency leans towards a disapproval of the promotion of gay lifestyles in the country."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.14285714285714285,
+            "overall_rating": 0.37142857142857144
+        },
+        "combined_score": 0.0
+    }
+]

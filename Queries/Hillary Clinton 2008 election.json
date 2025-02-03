@@ -1,0 +1,1051 @@
+[
+    {
+        "Title": "Hillary Clinton places third in Iowa setback -CNN",
+        "URL": "Hillary Clinton places third in Iowa setback -CNN.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    DES MOINES, Iowa, Jan 3 (Reuters) - Sen. Hillary Clinton  placed third in the Iowa Democratic caucus on Thursday, a big  setback for the one-time national front-runner in the first  nominating contest of the 2008 U.S. presidential election, CNN  reported.      Sen. Barack Obama placed first in the vote and former Sen.  John Edwards came in second.     The third-place finish put pressure on Clinton, the former  first lady who is seeking to become the country's first woman  president, to regain her national front-runner status as she  heads into the Jan 8. primary vote in New Hampshire.     ((joanne.kenen@reuters.com; +1 202 310 5491; Reuters  Messaging: joanne.kenen.reuters.com@reuters.net))        Keywords: USA POLITICS/CLINTON THIRD        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 18.33867073059082,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to exhibit bias. It provides a factual report on the outcome of the Iowa Democratic caucus and the implications for Sen. Hillary Clinton without employing any of the common bias types."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "FEATURE-Hillary Clinton may unite Republicans",
+        "URL": "FEATURE-Hillary Clinton may unite Republicans.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Carey Gillam      KANSAS CITY, Mo., Feb 4 (Reuters) - Tom Effertz is 73 and a  wheat farmer. Rosie Erganian is 52 and lives in a town on the  Missouri River. He's a Republican. She's a Democrat. Both  Missourians want anyone but Democrat Hillary Clinton for U.S.  president.      'We're tired of the Hillary thing,' Effertz said. 'We'd had  enough of Bill and Hillary.'      'I do not like the way they've been kind of nasty,' said  Erganian, of Rocheport, Missouri. 'I don't want anybody in  office like that.'      Tuesday is 'Super Tuesday' when 24 states, Missouri among  them, hold nominating contests for one or both parties. It is  the biggest date in the six-month process to decide which of  each party will face off in the Nov. 4 election to succeed  President George W. Bush.       When it comes to the November election, Missouri, home to  the plain-speaking late President Harry Truman in the heart of  America, has long been viewed as a bellwether, having voted for  the winner in every presidential ballot except one since 1904.      The former first lady is virtually tied with Illinois Sen.  Barack Obama among Democrats in Missouri, according to a  Reuters/C-SPAN/Zogby poll released on Sunday. Super Tuesday  could be a tight race nationwide for the two Democrats.      On the Republican side Sen. John McCain leads former  Massachusetts governor Mitt Romney in most states, but not in  the big-prize state of California.      Strong anti-Clinton feeling has people in both parties  speculating that if the New York senator wins the Democratic  nomination she could become a powerful unifying force -- for  Republicans.           'VETTED, TESTED'      The Clintons have been on the national political stage  since Bill Clinton won the presidency in 1992. Once his second  term ended in 2001, Hillary Clinton began her own, official,  political career by winning a Senate seat from New York.      'I've been taking the incoming fire from Republicans for  about 16 years now, and I'm still here, because I have been  vetted, I have been tested,' she said on Sunday on ABC's 'This  Week.'      Obama's supporters and Republican leaders alike say  although many voters passionately support Clinton, at least as  many passionately dislike her. They offer various explanations  and acknowledge that at least some are unfair.      Some anger at her is residual resentment of her husband  whose second term was mired in a long impeachment process  stemming from an extramarital relationship.  For some it's  about her policies -- pro-gun control, for universal health  care.       Others cite a personality they see as too aggressive and  insincere.      Clinton's campaign has brushed aside the concerns, saying  she has a proven track record of winning, in her New York  campaigns and in voting last month in New Hampshire and Nevada.  Obama won in Iowa and South Carolina.      'I can go up against Senator McCain or any of the  Republicans and be able to defend our positions, put them  forward to the American people and make an affirmative case as  to why I should be the president,' Clinton said on ABC.      'Her record of reaching out across the aisle to find common  solutions is the reason ... she has such a strong record of  getting results,' said Clinton spokesman Mo Elleithee,  insisting that Clinton had growing support among Republicans  and independent voters.           'HIGH NEGATIVES'      Concerns among Democrats about how Clinton might energize  Republicans",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.7,
+            0.7,
+            0.7,
+            0,
+            0,
+            0,
+            0,
+            0.6
+        ],
+        "Relevance": 18.033939361572266,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "'We're tired of the Hillary thing,' Effertz said. 'We'd had enough of Bill and Hillary.'",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'the Hillary thing' and 'We'd had enough of Bill and Hillary' employs a dismissive and negative tone, suggesting a bias through the choice of words that imply judgment and a lack of respect."
+                },
+                {
+                    "text": "'I do not like the way they've been kind of nasty,' said Erganian, of Rocheport, Missouri. 'I don't want anybody in office like that.'",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence attacks the character of Bill and Hillary Clinton by labeling them as 'nasty' without addressing specific policies or actions, thus falling into the ad hominem bias category."
+                },
+                {
+                    "text": "Strong anti-Clinton feeling has people in both parties speculating that if the New York senator wins the Democratic nomination she could become a powerful unifying force -- for Republicans.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The speculation that Clinton could become a 'powerful unifying force' for Republicans is based on conjecture rather than concrete evidence, fitting the criteria for speculation bias."
+                },
+                {
+                    "text": "'I've been taking the incoming fire from Republicans for about 16 years now, and I'm still here, because I have been vetted, I have been tested,' she said on Sunday on ABC's 'This Week.'",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'incoming fire' and 'vetted, tested' implies a defensive stance and portrays Clinton in a victimized yet resilient light, suggesting a bias through the choice of words that evoke sympathy and resilience."
+                },
+                {
+                    "text": "Obama's supporters and Republican leaders alike say although many voters passionately support Clinton, at least as many passionately dislike her. They offer various explanations and acknowledge that at least some are unfair.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence introduces subjective opinions about Clinton's support and dislike, implying a widespread and intense negative sentiment towards her without providing concrete evidence, thus falling into the category of opinionated bias."
+                },
+                {
+                    "text": "Some anger at her is residual resentment of her husband whose second term was mired in a long impeachment process stemming from an extramarital relationship. For some it's about her policies -- pro-gun control, for universal health care. Others cite a personality they see as too aggressive and insincere.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.7,
+                    "bias_description": "The sentence attributes reasons for the anger towards Clinton, including her husband's impeachment and her policy positions, without acknowledging the complexity of public opinion formation, thus demonstrating a causal misunderstanding bias."
+                },
+                {
+                    "text": "Concerns among Democrats about how Clinton might energize Republicans",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence speculates on the potential impact of Clinton's candidacy on Republicans without presenting concrete evidence, falling into the category of speculation bias."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the portrayal of Hillary Clinton, with instances of word choice bias, ad hominem bias, speculation bias, opinionated bias, and causal misunderstanding bias. The biases are primarily negative in nature, suggesting a general bias tendency against Clinton."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6142857142857142,
+            "percentage_of_biased_sentences": 0.3448275862068966,
+            "overall_rating": 0.4795566502463054
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Hillary Clinton and Illegal Immigration.txt",
+        "URL": "Hillary Clinton and Illegal Immigration.txt.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/240px-Fox_News_Channel_logo.svg.png",
+        "Text": "As you know if you watch us on a regular basis, we are fair to Senator Clinton. We treat her the same way we treat all the other candidates, with a healthy dose of skepticism but an open mind. Looking back on my campaign analysis so far, I've been much tougher on John Edwards than Mrs. Clinton because I believe Mr. Edwards is a charlatan and his campaign of class warfare is foolish.\n\nHillary Clinton is waging a conventional campaign. She has a strong machine, unlimited money, and the heavy odds are she will win the Democratic nomination. But her performance on illegal aliens getting driving credentials has been abysmal.\n\nAfter two weeks, two weeks she now says she would not give driver's licenses to people in the U.S. illegally. But why? Why would Hillary Clinton deny driver's licenses to illegal aliens? The senator will not say.\n\n\"Talking Points\" went to a website. No mention of why no licenses. We contacted her press secretary Felipe Reines. He couldn't tell us why. We called Senator Clinton's main man Howard Wolfson. He would not take the call.\n\nThe truth is nobody knows why Hillary Clinton doesn't want to give illegals driving privileges because she simply doesn't want to tell us. Doesn't want to define the issue.\n\nThat's what bothers me about Senator Clinton. I can't figure out what she believes. Most politicians are shifty. Most change positions to get votes, but there comes a time when specific questions have to be answered.\n\nMillions of Americans will vote for Hillary Clinton no matter what she says. And millions will vote against her no matter what she says. But for those of us who take an independent view, and we will decide the presidential election, the failure to address important issues in a clear way is a huge deficit.\n\nI strongly believe Senator Clinton believes she can become president without ever having to reveal who she really is or what she really thinks. This illegal license deal reinforces my belief.\n\nPinheads and Patriots\n\nAs you may know, the entertainment writers are on strike, and that means no money for them. But our pal David Letterman says he will pay his writers and his entire staff out of his own pocket for the next few weeks. That is very generous. And tonight, David Letterman is a patriot.\n\nOn the pinhead front, in Sydney, Australia, Sari Haggerty, the national Santa coordinator for a company which supplies Santas to department stores and such, has ordered St. Nick not to say, \"Ho, ho, ho\" this season. Apparently, Ms. Haggerty believes some Australian women may be offended by \"ho, ho, ho,\" so Santa must now say, \"Ha, ha, ha.\"\n\nThis is not a joke. This is stupid. So Sari Haggerty is a pinhead. Leave Santa alone, mate.\n\n\u2014 You can catch Bill O'Reilly's \"Talking Points Memo\" and \"Pinheads and Patriots\" weeknights at 8 and 11 p.m. ET on the FOX News Channel and any time on foxnews.com/oreilly. Send your comments to: oreilly@foxnews.com",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0.9,
+            0.9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 17.968040466308594,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Hillary Clinton is waging a conventional campaign. She has a strong machine, unlimited money, and the heavy odds are she will win the Democratic nomination. But her performance on illegal aliens getting driving credentials has been abysmal.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'abysmal' to describe Hillary Clinton's performance introduces a negative connotation, implying a strong judgment about her actions regarding illegal aliens without providing a balanced perspective."
+                },
+                {
+                    "text": "That's what bothers me about Senator Clinton. I can't figure out what she believes. Most politicians are shifty. Most change positions to get votes, but there comes a time when specific questions have to be answered.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence expresses a subjective opinion about Senator Clinton's character, labeling her as 'shifty' without providing objective evidence, thus blurring the line between fact and personal perspective."
+                },
+                {
+                    "text": "I strongly believe Senator Clinton believes she can become president without ever having to reveal who she really is or what she really thinks. This illegal license deal reinforces my belief.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "The use of 'I strongly believe' and 'without ever having to reveal who she really is' presents a highly subjective and speculative opinion about Senator Clinton's motives and intentions as if they were established facts."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias through the use of word choice and opinionated statements, particularly regarding Senator Clinton's stance on illegal aliens getting driving credentials. The general bias tendency leans towards portraying Senator Clinton in a negative light, suggesting a lack of transparency and criticizing her performance without a fully objective analysis."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.7000000000000001,
+            "percentage_of_biased_sentences": 0.175,
+            "overall_rating": 0.4375
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "FACTBOX-What does Hillary Clinton want?",
+        "URL": "FACTBOX-What does Hillary Clinton want?.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    June 4 (Reuters) - Hillary Clinton lost a historic and  grueling race for the Democratic presidential nomination to  Barack Obama on Tuesday but refused to concede, raising  questions about what she wants next.      The question was so prevalent, in fact, that Clinton asked  it herself during a rally in New York after voting concluded.   'I understand that a lot of people are asking, 'What does  Hillary want?'' she said.      'Now the question is: Where do we go from here? Given how  far we've come and where we need to go as a party, it's a  question I don't take lightly. This has been a long campaign,  and I will be making no decisions tonight,' the New York  senator and former first lady said.      Here are some possible reasons why the former front-runner  is delaying a final decision to end her presidential bid.           * After 17 months of campaigning, Clinton is exhausted and  could simply need a few days to adjust to the idea that the race  is over.      * Clinton told New York lawmakers in a conference call on  Tuesday she is open to the idea of being Obama's running mate in  the November presidential election. If she really wants the job,  her political clout is greater if she keeps her bid alive.      * Clinton attracted more than 17 million votes in the  lengthy nominating race, and Obama needs her supporters if he  has any hope of beating Republican John McCain. Clinton may  want to keep the pressure on Obama to pay respect to her  campaign and accommodate her supporters.      * Clinton, whose campaign is more than $20 million in debt,  may need a few more days to look for ways to pay off her  campaign debts, including the more than $11 million she has  given the campaign from her own pocket.      * She could be looking for the most graceful way to bow out  and protect her legacy and that of her husband, former President  Bill Clinton. His image in particular has been tarnished by the  difficult campaign, particularly in the black community, which  backed Obama heavily.   (Writing by John Whitesides; editing by Patricia Wilson)   (To read more about the U.S. political campaign, visit Reuters  'Tales from the Trail: 2008' online at  http:/blogs.reuters.com/trail08/)   ((For a TAKE A LOOK on the campaign, click on [US/VOTE]))  Keywords: USA POLITICS/CLINTON SCENARIOS        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 17.916025161743164,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "'I understand that a lot of people are asking, 'What does Hillary want?'' she said.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'a lot of people' without specifying who these people are or providing evidence implies a broad consensus questioning Hillary's intentions, influencing the reader's perception through word choice."
+                },
+                {
+                    "text": "Here are some possible reasons why the former front-runner is delaying a final decision to end her presidential bid.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The sentence engages in speculation about Hillary's motives for delaying her decision, presenting conjecture as to why she is acting in a certain way rather than relying on concrete facts."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias through the use of word choice and speculation, implying a broad consensus questioning Hillary's intentions and presenting speculative reasons for her actions without concrete evidence."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.1111111111111111,
+            "overall_rating": 0.3555555555555555
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "FACTBOX-Hillary Clinton and loyalty",
+        "URL": "FACTBOX-Hillary Clinton and loyalty.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    April 4 (Reuters) - New York Sen. Hillary Clinton is  counting on loyalty from Democratic Party leaders to help her  beat Illinois Sen. Barack Obama for their party's nomination  for the White House.      Here are a few facts about loyalty and the former first  lady:           * When New Mexico Gov. Bill Richardson endorsed Obama, he  was compared to Judas by Clinton backer James Carville.  Richardson, who served as energy secretary and ambassador under  President Bill Clinton, said he was still loyal to the  Clintons.           * Hillary Clinton is known to be fiercely loyal to her own  staff, many of whom have been with her since her time as first  lady in a group affectionately referred to as 'Hillaryland.'           * Clinton retained campaign manager Patti Solis Doyle until  early February when a string of primary losses to Obama  prompted a change to Maggie Williams, another loyalist, who was  a top aide to Clinton as first lady.           * Clinton is wooing so-called superdelegates, party leaders  and other officials, to help her beat Obama for the nomination,  but the Illinois senator has announced more of those  endorsements than she since the Feb. 5 'Super Tuesday'  nominating contests across the country.           * Analysts say loyalty plays a big role in U.S. politics.  Clinton is relying on backing from women voters to help her win  the nomination, while Obama has won support from black voters  in many state contests.   (Writing by Jeff Mason in Washington; Editing by Xavier  Briand)   ((jeff.mason@reuters.com; Reuters Messaging:  jeff.mason.reuters.com@reuters.net, +1 202 898 8300))     Keywords: USA POLITICS/CLINTON LOYALTY        ",
+        "Histogram": [
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0.5,
+            0.5,
+            0
+        ],
+        "Relevance": 17.293338775634766,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "When New Mexico Gov. Bill Richardson endorsed Obama, he was compared to Judas by Clinton backer James Carville. Richardson, who served as energy secretary and ambassador under President Bill Clinton, said he was still loyal to the Clintons.",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The comparison of Bill Richardson to Judas by a Clinton backer attacks Richardson's character and motives for endorsing Obama, rather than addressing the substance of his decision. This undermines the endorsement through a personal attack."
+                },
+                {
+                    "text": "Analysts say loyalty plays a big role in U.S. politics. Clinton is relying on backing from women voters to help her win the nomination, while Obama has won support from black voters in many state contests.",
+                    "bias_type": "Generalization Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "This sentence generalizes the support base for Clinton and Obama, attributing broad characteristics to groups of voters without specific evidence for the extent of the role of loyalty in their support."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the topic of loyalty in U.S. politics, particularly in the context of the Clinton-Obama nomination race. The biases identified include Ad Hominem Bias and Generalization Bias, with a tendency to undermine certain endorsements and oversimplify voter support."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.55,
+            "percentage_of_biased_sentences": 0.4,
+            "overall_rating": 0.47500000000000003
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Hillary Clinton, Condoleezza Rice have dinner date",
+        "URL": "Hillary Clinton, Condoleezza Rice have dinner date.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WASHINGTON, Dec 8 (Reuters) - Guess who was coming to  dinner Monday evening at Secretary of State Condoleezza Rice's  place? The woman nominated to succeed her as top U.S. diplomat:  Sen. Hillary Clinton.      Clinton was invited to have dinner with Rice at Rice's  apartment in Washington's exclusive Watergate complex, a State  Department official said.      Earlier on Monday Clinton made her first visit to the State  Department since Democratic President-elect Barack Obama named  her as his choice for the next secretary of state, the official  said.      Clinton spent several hours with members of the  department's transition team, who had prepared a number of  briefing books for her.      Rice has said Obama's choice of Clinton for the post was  'terrific.' If confirmed by the U.S. Senate, Clinton will be  the third woman to be secretary of state, after Rice and  Madeleine Albright, who was appointed by Hillary Clinton's  husband, former President Bill Clinton, in the 1990s.      Susan Rice, Obama's nominee to be U.S. ambassador to the  United Nations, also visited the State Department on Monday and  saw the transition team.   (Editing by Vicki Allen)   ((susan.cornwell@thomsonreuters.com; +1 202-898-8300; Reuters  Messaging: susan.cornwell.reuters.com@reuters.net))  Keywords: USA OBAMA/CLINTON       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 16.76787567138672,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual report on a dinner meeting between Secretary of State Condoleezza Rice and Sen. Hillary Clinton, along with details about Clinton's visit to the State Department. The information is presented in a neutral manner without any indication of bias towards any individual or group."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "ANALYSIS-Hillary Clinton faces bright, uncertain future",
+        "URL": "ANALYSIS-Hillary Clinton faces bright, uncertain future.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Thomas Ferraro      WASHINGTON, June 5 (Reuters) - What does Hillary Clinton  want and what will she get -- other than, perhaps, returning to  the U.S. Senate where she's a bona fide star?      The answer may emerge soon as the failed Democratic  presidential contender gets ready to finally concede defeat --  amid signals she might like to be the vice presidential running  mate of presumptive White House nominee Barack Obama.      'The clock is ticking,' said Paul Light of New York  University's Center for the Study of Congress. He said she must  quickly end her presidential campaign or face party backlash.      'But if she withdraws gracefully, she will have an enormous  range of opportunities,' Light said. 'She could eventually  become a Senate leader or end up on the Supreme Court.'      Others have suggested she might want to be New York  governor -- or make another run for the White House in 2012 if  Republican John McCain defeats Obama in the general election.      Clinton riled some Democrats by declining to concede when  the Illinois senator wrapped up the nomination on Tuesday  night. She has since announced she will do so on Saturday.      Democratic Sen. Dianne Feinstein of California, who backed  Clinton's bid to become the first woman president, said, 'I  have no doubt that if she comes back to the Senate -- as  opposed to becoming the vice presidential nominee or whatever  -- she will continue to be a tremendous senator.'      'And that's not too shabby,' Feinstein said.      Clinton, who joined the Senate in January 2001 after eight  years in the White House as a top aide and wife of President  Bill Clinton.      Some have suggested Clinton follow the lead of Sen. Edward  Kennedy of Massachusetts, a Democratic icon and workhorse.      After he failed to wrest the Democratic nomination from  President Jimmy Carter in 1980, Kennedy returned to the Senate  and became one of its most effective legislators, helping craft  landmark bills, many to help the disadvantaged.      'I've got to believe, as trite as it may sound, that her  role model now is Ted Kennedy,' said Norm Ornstein, a  congressional scholar at the American Enterprise Institute.       The New York Democrat 'could become a real go-to person in  the Senate who has the ability to attract and keep great staff,  who has a real grasp for important issues, who can build  relationships and has a driving desire to figure out how to  make things happen,' he said.      And with the 76-year-old Kennedy being treated for a  malignant brain tumor, Clinton could help fill the void his  illness may leave in the Senate, Ornstein said.           'WHAT DOES HILLARY WANT'      Increased clout -- not a prestigious new title -- is  probably the most Clinton can hope for back in the Senate. At  least for now.      There are no leadership positions open for her to fill, and  after nearly eight years in the Senate, she still lacks the  seniority to chair any major committees.      In her home state Tuesday night, Clinton told supporters:  'A lot of people are asking, 'What does Hillary want?''      'Well, I want what I have always fought for in this whole  campaign. I want to end the war in Iraq. I want to turn this  economy around. I want health care for every American. I want  every child to live up to his or her God-given potential, and I  want the nearly 18 million Americans who voted for me to be  respected, to be heard and no longer to be invisible.'      While Clinton has ",
+        "Histogram": [
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 16.620820999145508,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "The answer may emerge soon as the failed Democratic  presidential contender gets ready to finally concede defeat --  amid signals she might like to be the vice presidential running  mate of presumptive White House nominee Barack Obama.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'failed' to describe Hillary Clinton's presidential campaign carries a negative connotation, implying judgment and potentially influencing the reader's perception negatively towards her. Additionally, the phrase 'finally concede defeat' and 'might like to be' suggest a lack of agency or certainty, further undermining her position."
+                },
+                {
+                    "text": "Clinton riled some Democrats by declining to concede when  the Illinois senator wrapped up the nomination on Tuesday  night. She has since announced she will do so on Saturday.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'riled' to describe the reaction of some Democrats to Clinton's actions introduces a negative tone, suggesting that her behavior caused unnecessary agitation or annoyance. This choice of word implies a judgment about her actions and the impact they had on others."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias through the use of word choice, particularly in describing Hillary Clinton's presidential campaign and her actions following the nomination. The bias tends to undermine her position and actions, suggesting a negative portrayal overall."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.07407407407407407,
+            "overall_rating": 0.337037037037037
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "US court to decide anti-Hillary Clinton movie case",
+        "URL": "US court to decide anti-Hillary Clinton movie case.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By James Vicini      WASHINGTON, Nov 14 Reuters - The U.S. Supreme Court agreed  on Friday to rule on a new challenge to the federal campaign  finance law by a conservative group that wants to broadcast and  promote a movie critical of Democratic Sen. Hillary Clinton.      The group, Citizens United, released the 90-minute  documentary film 'Hillary: The Movie' in January when the New  York senator was running for president.      The legal battle over the film is continuing even though  she long ago ended her presidential campaign. Clinton this week  emerged as a candidate for secretary of state or another senior  job in President-elect Barack Obama's administration.      Citizens United released the movie to theaters and for  store sales on DVD. The group also planned to broadcast the  movie on cable television video on-demand, and to pay the fee  for viewers to be able to see the movie.      But that was rejected by a federal court which said under  the campaign finance law the group had to disclose its donors  and include a disclaimer to run its advertisements promoting  the movie.      The federal court also ruled the movie clearly was intended  to influence people to vote against Clinton and thus was  covered by the law's ban on airing ads or 'electioneering  communications' right before an election.      The Justice Department, arguing on behalf of the Federal  Election Commission, urged the court to uphold the lower court  ruling.      Citizens United also prepared a similar critical film about  Obama titled 'Hype: The Obama Effect,' and it also was released  during the campaign.      The campaign finance law at issue in the case was named  after Sen. John McCain of Arizona, the unsuccessful Republican  presidential candidate, and Sen. Russell Feingold, a Democrat  from Wisconsin.      The Supreme Court will hear arguments in the case at the  end of February, with a decision expected by the end of June.   (Editing by Vicki Allen)   ((jim.vicini@thomsonreuters.com; 202-898-8397; Reuters  Messaging: jim.vicini.reuters.com@reuters.net))  Keywords: USA COURT/CLINTON       ",
+        "Histogram": [
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 16.613784790039062,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "The group, Citizens United, released the 90-minute documentary film 'Hillary: The Movie' in January when the New York senator was running for president.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the term 'Hillary: The Movie' with negative connotations implies a judgment about the subject, suggesting a critical and potentially biased portrayal of Hillary Clinton."
+                },
+                {
+                    "text": "The federal court also ruled the movie clearly was intended to influence people to vote against Clinton and thus was covered by the law's ban on airing ads or 'electioneering communications' right before an election.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence presents the court's ruling as a fact without acknowledging that intention can be subjective and open to interpretation, thus obscuring the line between fact and the court's opinion."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias through word choice and opinionated statements, particularly in its discussion of the legal battle over the film 'Hillary: The Movie.' The biases are directed towards a critical portrayal of Hillary Clinton and a subjective presentation of the court's ruling as a definitive fact."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.07692307692307693,
+            "overall_rating": 0.3384615384615385
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "UPDATE 1-Hillary Clinton mum on political future",
+        "URL": "UPDATE 1-Hillary Clinton mum on political future.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "  (Adds details, changes dateline from WASHINGTON)      CHICAGO, Nov 14 (Reuters) - U.S. Sen. Hillary Clinton  declined to say on Friday whether she was in the running to be  secretary of state, a day after a reported meeting with  President-elect Barack Obama in Chicago.      Clinton, wife of former President Bill Clinton, this week  emerged as a candidate for the chief U.S. diplomatic post or  another job in the coming Obama administration.      In introductory remarks at a speech in Albany, New York,  Clinton did not confirm or deny news reports that she had a  secret meeting with Obama on Thursday.      'I'm not going to speculate or address anything about the  president-elect's incoming administration. And I am going to  respect his process and any inquiries should be directed to his  transition team,' Clinton said.      The Obama transition office refused to comment.      Obama defeated Clinton in a sometimes bitter duel for the  Democratic presidential nomination.      Then he picked Sen. Joe Biden as his vice presidential  running mate instead of Clinton, a decision that angered her  ardent supporters and widened a rift in the party that Obama  and Clinton later worked hard to heal.      Considering Clinton for secretary of state would mean Obama  was expanding his search beyond other candidates mentioned for  the job, such as Massachusetts Sen. John Kerry, a Democrat who  lost the 2004 presidential election to George W. Bush, and  Nebraska Sen. Chuck Hagel, a Republican who backed Obama over  Republican John McCain this year.      Obama has been closeted all week in meetings in his  transition office as he prepares to take over the presidency on  Jan. 20.      New Jersey Democratic Gov. Jon Corzine said on MSNBC that  Clinton would be great at the job.      'She probably knows every major foreign leader. There's  already a relationship where she can sit and talk directly  about the problems that exist either on a bilateral or  multilateral basis,' he said.      Corzine would not address speculation that he is a  candidate to be Obama's treasury secretary.   (Reporting by Steve Holland; Editing by Doina Chiacu)  ((steve.a.holland@thomsonreuters.com))  ((For more about the U.S. political scene please visit Reuters  'Tales from the Trail: 2008' online at  http:blogs.reuters.com/trail08/))   ((For full U.S. political coverage double click on  [US/VOTE]))  Keywords: USA OBAMA/CLINTON        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 16.5230712890625,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to exhibit bias as it primarily reports on Senator Hillary Clinton's response to speculation about her potential role in the Obama administration without introducing subjective or misleading information."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Hillary Clinton mum on political future",
+        "URL": "Hillary Clinton mum on political future.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WASHINGTON, Nov 14 (Reuters) - U.S. Sen. Hillary Clinton  declined to comment on Friday on speculation that  President-elect Barack Obama could offer her a job in his new  administration.      Some U.S. media have reported that Obama is considering her  for secretary of state. U.S. television network CNN said on  Friday that the pair had held talks in Chicago on Thursday.      'I'm not going to speculate or address anything about the  president-elect's incoming administration. And I am going to  respect his process and any inquiries should be directed to his  transition team,' Clinton told a conference in Albany, New  York, which was broadcast by CNN.      ((ross.colvin@thomsonreuters.com; +1 2020 898 8309; Reuters  Messaging: ross.colvin.reuters.com@reuters.net))  Keywords: USA OBAMA/CLINTON        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 16.21628189086914,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It is a straightforward report on Hillary Clinton's response to speculation about her potential role in President-elect Barack Obama's administration."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "FACTBOX-Why does Hillary Clinton keep running?",
+        "URL": "FACTBOX-Why does Hillary Clinton keep running?.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    May 8 (Reuters) - Hillary Clinton has shrugged off calls to  drop out of the Democratic presidential race and said she will  keep running 'until there is a nominee.'      But rival Barack Obama has opened an insurmountable lead in  pledged delegates in their fight for the right to face  Republican John McCain in November's presidential election.      Here are some possible reasons why Clinton, a New York  senator and former first lady, is staying in the race until the  final six contests have been concluded on June 3.      * Given that she is favored in three of the upcoming  contests -- West Virginia, Kentucky and Puerto Rico -- she may  want to continue until all the contests are concluded in order  to feel like she has exhausted her options and explored every  last possible avenue.      * She could be staying in the race to see if Obama makes a  gaffe or becomes embroiled in another controversy that would  rekindle voter concerns about his inexperience and make her  appear to be the stronger candidate. That would let her make  the case to superdelegates that she has the best chance to beat  McCain.      * She could be trying to pressure Obama to add her to the  ticket as his vice presidential nominee. That idea was floated  by a former Clinton aide, ABC News television personality  George Stephanopoulos.      * Clinton, whose campaign ended March in heavy debt and has  since loaned $6.4 million from her own pocket to fund her bid,  could need more time to raise money, pay off her debts and  repay her loans.      * She and her husband, former President Bill Clinton, could  be interested in protecting their legacy and ensuring the duel  ends on a graceful note that would repair her image and revive  their fading reputation in the black community, which has  backed Obama heavily.      * She could be angling for a leadership role in the U.S.  Senate.      * She may want to keep a high-profile role until the August  nominating convention, where she could claim prime-time  exposure.   (Writing by John Whitesides; editing by Eric Beech)   (To read more about the U.S. political campaign, visit Reuters  'Tales from the Trail: 2008' online at  http:/blogs.reuters.com/trail08/)   ((For a TAKE A LOOK on the campaign, click on [US/VOTE]))      Keywords: USA POLITICS/CLINTON SCENARIOS        ",
+        "Histogram": [
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0.6,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 16.159114837646484,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "But rival Barack Obama has opened an insurmountable lead in pledged delegates in their fight for the right to face Republican John McCain in November's presidential election.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'insurmountable lead' implies a judgment about the difficulty of overcoming Obama's lead, suggesting a negative connotation towards Clinton's chances."
+                },
+                {
+                    "text": "She could be staying in the race to see if Obama makes a gaffe or becomes embroiled in another controversy that would rekindle voter concerns about his inexperience and make her appear to be the stronger candidate. That would let her make the case to superdelegates that she has the best chance to beat McCain.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence speculates on future events (Obama making a gaffe) and its potential impact, without concrete evidence, implying a strategy based on external factors beyond Clinton's control."
+                },
+                {
+                    "text": "She could be trying to pressure Obama to add her to the ticket as his vice presidential nominee. That idea was floated by a former Clinton aide, ABC News television personality George Stephanopoulos.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Similar to the previous sentence, this one speculates on Clinton's motives and strategies without direct evidence, suggesting a speculative approach to understanding her actions."
+                },
+                {
+                    "text": "She and her husband, former President Bill Clinton, could be interested in protecting their legacy and ensuring the duel ends on a graceful note that would repair her image and revive their fading reputation in the black community, which has backed Obama heavily.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The speculation about the Clintons' motives regarding legacy and image repair, particularly in the context of the black community's support for Obama, introduces speculative elements without clear evidence."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article contains instances of Word Choice Bias and Speculation Bias, particularly in the discussion of Hillary Clinton's motivations for staying in the presidential race. The biases tend to imply judgments about the difficulty of Clinton's position and speculate on her strategies and personal motives without concrete evidence, suggesting a general bias tendency towards undermining her candidacy."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.21428571428571427,
+            "overall_rating": 0.40714285714285714
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Ardent Clinton supporters eyed in U.S. election",
+        "URL": "Ardent Clinton supporters eyed in U.S. election.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Andrea Hopkins      CINCINNATI, June 19 (Reuters) - Homemaker Mary Mardis, 52,  liked U.S. presidential candidate Hillary Clinton but now she's  not sure who she'll vote for in November. Maybe Barack Obama,  who beat Clinton to win the Democratic nomination. Maybe  Republican John McCain.      'I was leaning toward Hillary. Now I'm undecided,' said  Mardis as she wheeled her baby nephew through a Cincinnati  bookstore. 'I will vote, but I'll probably be one of those  people who decide two days beforehand.'      Since Clinton conceded to rival Obama in the Democratic  race on June 7, there has been endless speculation about the  intentions of her disappointed female supporters.      Would they refuse to support Obama? Not vote in November's  presidential election? Or worse, throw their support to  Republican McCain?      Everywhere, it seems, there are examples of each.      Furious loyalists of the former first lady protested at a  Democratic Party meeting in Washington, vowing to bolt from the  party if Clinton did not win the nomination.      Last week, the co-chairs of the University of Iowa Students  for Hillary told followers they should vote for McCain, or, if  they could not 'stomach' that, consider Cynthia McKinney, the  presumptive Green Party candidate.      On the other hand, prominent feminist and women's rights  organizations, including Emily's List and Planned Parenthood,  have rallied behind Obama and begun attacking McCain for his  conservative record on issues like abortion.      Clinton endorsed Obama and urged her backers to throw their  support behind the Illinois senator.      American women have tended to be more Democratic than  Republican since 1980, though their party loyalty varies  depending on the election year and candidates. This year, too,  polls show most American women prefer Obama to McCain -- by a  wide margin.      An NBC/Wall Street Journal poll last week showed 52 percent  of women favored Obama, while 33 percent preferred McCain.      But the same poll showed 19 percent of voters who cast  ballots for Clinton in the Democratic primaries preferred  McCain over Obama -- a large number considering Clinton and  Obama agree on most policies, while McCain's platform is  strikingly different.           TEMPERS WILL COOL      Lingering intraparty bitterness over the U.S. primary  process is nothing new. McCain denied reports earlier this year  that he did not vote for George W. Bush in 2000 after losing to  him in the Republican primaries that year.      That somehow Clinton's female supporters would be  especially bitter because the New York senator missed her  chance to be the first female U.S. president does not strike  Kristi Andersen, a political science professor at Syracuse  University, as terribly plausible.      'Even if people meant that when they said it right after  Clinton dropped out, as the differences between Obama and  McCain are more clearly drawn, it's pretty hard for me to  imagine that there will be a significant group (switching to  McCain),' said Andersen.      Kay Schlozman, political science professor at Boston  College, agreed. But she said the reason the issue is getting  attention is because even a segment of disaffected Clinton  supporters could have an impact if the election is close.      'If older, Democratic women either vote less Democratic  than they usually do or have the propensity to stay home more  than they usually do, then we can say that's the thing that  ti",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 16.14341926574707,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Everywhere, it seems, there are examples of each.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The phrase 'Everywhere, it seems' implies a broad and general phenomenon without specific evidence, suggesting a judgment about the prevalence of the described behavior."
+                },
+                {
+                    "text": "Furious loyalists of the former first lady protested at a Democratic Party meeting in Washington, vowing to bolt from the party if Clinton did not win the nomination.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'Furious loyalists' and 'vowing to bolt from the party' employs emotionally charged language to dramatize the reaction of Clinton supporters, potentially exaggerating the significance of their actions."
+                },
+                {
+                    "text": "Last week, the co-chairs of the University of Iowa Students for Hillary told followers they should vote for McCain, or, if they could not 'stomach' that, consider Cynthia McKinney, the presumptive Green Party candidate.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The phrase 'could not 'stomach' that' uses a strong negative connotation to suggest a strong aversion, which may overstate the level of disagreement or dissatisfaction among Clinton supporters."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the reactions of Clinton supporters to her concession, particularly through the use of emotionally charged and speculative language that may overstate the significance and prevalence of certain behaviors. The general bias tendency leans towards portraying Clinton supporters in a more dramatic and divided light than may be warranted."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.038461538461538464,
+            "overall_rating": 0.3192307692307692
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "UPDATE 1-ANALYSIS-Hillary Clinton faces bright, uncertain future",
+        "URL": "UPDATE 1-ANALYSIS-Hillary Clinton faces bright, uncertain future.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": " (Updates with Lieberman comments)      By Thomas Ferraro      WASHINGTON, June 5 (Reuters) - What does Hillary Clinton  want and what will she get -- other than, perhaps, returning to  the U.S. Senate where she's still a star?      The answer may emerge soon as Clinton gets ready to finally  concede defeat as the first viable woman contender for the  White House -- amid signs she may like to be the vice  presidential running mate of Democratic presidential candidate  Barack Obama.      Paul Light of New York University's Center for the Study of  Congress said Clinton must quickly end her historic  presidential bid or face party backlash.      'But if she withdraws gracefully, she will have an enormous  range of opportunities,' Light said. 'She could eventually  become a Senate leader or end up on the Supreme Court.'      Others have suggested she might want to be New York  governor -- or make another run for the White House in 2012 if  Republican John McCain defeats Obama in the general election.      Clinton riled some Democrats by declining to concede when  the Illinois senator wrapped up the nomination on Tuesday. She  has since announced she will do so on Saturday.      Democratic Sen. Dianne Feinstein of California, who backed  Clinton, said, 'I have no doubt that if she comes back to the  Senate -- as opposed to becoming the vice presidential nominee  or whatever -- she will continue to be a tremendous senator.'      'And that's not too shabby,' Feinstein said.      Clinton joined the Senate in January 2001 after eight years  in the White House as a top aide and wife of President Bill  Clinton.      Some have suggested Clinton, 60, follow the lead of Sen.  Edward Kennedy of Massachusetts, a Democratic icon and  workhorse.      After he failed to wrest the Democratic nomination from  President Jimmy Carter in 1980, Kennedy returned to the Senate  and became one of its most effective legislators, helping craft  landmark bills, many to help the disadvantaged.      'I've got to believe, as trite as it may sound, that her  role model now is Ted Kennedy,' said Norm Ornstein, a  congressional scholar at the American Enterprise Institute.      The New York Democrat 'could become a real go-to person in  the Senate who has the ability to attract and keep great staff,  who has a real grasp for important issues, who can build  relationships and has a driving desire to figure out how to  make things happen,' he said.      And with the 76-year-old Kennedy being treated for brain  cancer, Clinton could help fill the void his illness may create  in the Senate, Ornstein said.           'WHAT DOES HILLARY WANT'      Increased clout -- not a prestigious title -- is probably  the most Clinton can hope for back in the Senate.      There are no leadership positions open for her to fill, and  she lacks the seniority needed to chair any major committee.      In her home state on Tuesday night, Clinton told  supporters: 'A lot of people are asking, 'What does Hillary  want?'      'Well, I want what I have always fought for in this whole  campaign. I want to end the war in Iraq. I want to turn this  economy around. I want health care for every American. I want  every child to live up to his or her God-given potential, and I  want the nearly 18 million Americans who voted for me to be  respected, to be heard and no longer to be invisible.'      While Clinton backers have said she's open to being the  vice presidential nominee if it helps unite the party,  ",
+        "Histogram": [
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 16.142263412475586,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Paul Light of New York University's Center for the Study of Congress said Clinton must quickly end her historic presidential bid or face party backlash.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence implies a subjective opinion about the consequences of Clinton's actions, suggesting that not ending her bid quickly would lead to a party backlash, without providing evidence for this prediction."
+                },
+                {
+                    "text": "Others have suggested she might want to be New York governor -- or make another run for the White House in 2012 if Republican John McCain defeats Obama in the general election.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence engages in speculation about Clinton's future political ambitions without concrete evidence, presenting these possibilities as if they were likely outcomes."
+                },
+                {
+                    "text": "Clinton riled some Democrats by declining to concede when the Illinois senator wrapped up the nomination on Tuesday. She has since announced she will do so on Saturday.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'riled' to describe the reaction of some Democrats to Clinton's actions carries a negative connotation, implying a judgment about her behavior and its effect on others."
+                },
+                {
+                    "text": "Increased clout -- not a prestigious title -- is probably the most Clinton can hope for back in the Senate. There are no leadership positions open for her to fill, and she lacks the seniority needed to chair any major committee.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence speculates on the limitations of Clinton's future in the Senate, suggesting what she can 'probably' hope for without presenting concrete evidence for this assertion."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding Hillary Clinton's political future, particularly in its speculative and opinionated language about the consequences of her actions and the limitations of her potential roles. The biases include Opinionated Bias, Speculation Bias, and Word Choice Bias, indicating a tendency to present subjective opinions and speculative outcomes as facts."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.12,
+            "overall_rating": 0.36
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Democrat Hillary Clinton hoping for late comeback",
+        "URL": "Democrat Hillary Clinton hoping for late comeback.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Jeff Mason      SHEPHERDSTOWN, W.Va., May 7 (Reuters) - Hillary Clinton  pressed ahead with her come-from-behind presidential bid on  Wednesday, putting a brave face on a slim victory in Indiana  and vowing to fight on until the last Democratic nominating  contest concludes.      The New York senator, whose loss to Illinois Sen. Barack  Obama in North Carolina on Tuesday added to his nearly  insurmountable lead in the race for their party's nomination,  rearranged her schedule to begin campaigning in the next state  she hopes to win.      'It's a new day, it's a new state, it's a new election,'  Clinton told reporters after a rally in West Virginia, which  holds its nominating contest next week.      The Clinton campaign arranged the event hastily, telling  reporters traveling with her from Indianapolis shortly before 3  a.m. on Wednesday that it would take place.      She had been scheduled to remain in Washington, meeting  with superdelegates -- party leaders and elected officials  whose support she needs to overcome Obama's lead -- and holding  an evening fundraiser.      Advisers said Clinton wanted to show her determination to  keep fighting by campaigning on Wednesday, and she used the  opportunity to remind voters she would compete in all of the  remaining contests, which wrap up in early June.      'I'm staying in this race until there's a nominee,' she  said. 'I obviously am going to work as hard as I can to become  that nominee. That is what I've done. That's what I'm  continuing to do.'      Tired staff said Clinton remained 'unflappable' and focused  on winning the nomination.      At times appearing subdued, the former first lady, who  slept about three hours on Tuesday night according to an aide,  ran through her campaign speech before the crowd of students.  She made only brief mention of her proposal to lift a tax on  gasoline this summer without mentioning Obama's opposition.      A sampling of people in the crowd, including Obama  supporters as well as one Republican, said she should stay in  the race.      'I want her to keep fighting until the very end,' said  Maggie Lauria, 58, a retired school teacher and Clinton  supporter.      'I think she has a shot. She's a fighter. I think when the  superdelegates look at the big picture, they may go her way.'      At a news conference, Clinton reiterated her call for a  solution to the disqualified Florida and Michigan votes and  said she had the best chance to beat Republican John McCain in  the November election.      But she did not openly criticize her opponent, and kept the  news conference short in order to return to Washington.      'We're getting on the road again,' she said.      (Editing by Sandra Maler)    ((jeff.mason@thomsonreuters.com; Reuters Messaging:  jeff.mason.reuters.com@reuters.net))  Keywords: USA POLITICS/CLINTON        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 16.12798309326172,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to exhibit bias as it primarily reports on Hillary Clinton's campaign activities without employing language or framing that would indicate a biased perspective."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "WRAPUP 4-Backers of Hillary Clinton cloud Obama show",
+        "URL": "WRAPUP 4-Backers of Hillary Clinton cloud Obama show.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": " (Updates with Clinton comments)      By Steve Holland,      DENVER, Aug 25 (Reuters) - Defeated Democrat Hillary  Clinton urged her frustrated followers to fall in line behind  Barack Obama on Monday as a party rift threatened to rain on  Obama's nominating parade.      Obama, 47, faces three challenges at a party convention  opening in Denver: unite Democrats, draw a sharp contrast with  Republican rival John McCain and back up soaring oratory with a  policy for leading the country.      Opening day, scheduled to start at 5 p.m. EDT (2100 GMT),  had an agenda focused on Obama's personal story. His wife  Michelle Obama was due to speak.      A new opinion poll showed how much work lay ahead to rally  Clinton supporters behind him. The CNN/Opinion Research Corp.  poll said the race between Obama and McCain was dead even, each  with 47 percent support.      It said 66 percent of Clinton supporters backed Obama, down  from 75 percent at the end of June. Twenty-seven percent of  them said they would support McCain in the Nov. 4 election, up  from 16 percent in late June.      Clinton appeared before a chanting, sign-waving crowd of  delegates from her home state of New York and spoke of the need  for party unity. 'We are after all Democrats, so it may take a  while,' she said. 'We're not the fall-in-line party. We are  diverse. But make no mistake, we are unified.'      'We are united and we are together and we are determined,'  she said. 'We're going to make sure that we win on Nov. 4. So  let's have a great convention.'           REHEARSAL      Michelle Obama took the stage in the half-empty hall along  with her children and some family members early on Monday to  see the layout of the place ahead of her speech.      The hall's dominant feature is a giant, multi-tiered screen  set behind the speaker that will be used to project party logos  and a film about Obama's life. Each state delegation's seating  space is marked with a vertical banner.      Asked whether the convention would be harmonious, she said:  'Yes, I am sure of that.'      Obama spokesman Robert Gibbs told CNN the choice for voters  was between Obama and McCain, and noted that Clinton was  publicly throwing her support behind the Illinois senator, who  will deliver his acceptance speech on Thursday.      'If we put the choice in front of delegates here and voters  all across this country, who's going to help rebuild this  economy and put your family back to work, who's going keep your  family safe at night, who's going to reduce our dependence on  foreign oil ... The best person to do those things isn't John  McCain, it's Barack Obama,' Gibbs said.      The McCain campaign has sought to take advantage of the  Democratic divide. Senior McCain aide Carly Fiorina said  disgruntled women supporters of Hillary Clinton 'want a leader  whose judgment and experience they can trust.'           'STUNNED,' FIORINA SAYS      Fiorina said many Democratic women were 'stunned' that  Obama praised his vice presidential running mate, Sen. Joe  Biden, as a good debater and campaigner 'when Hillary Clinton  was clearly in the Democratic primaries the woman who, the  person who, gathered the most votes -- 18 million of them --  was a great debater and a great campaigner.'      Some Clinton supporters had wanted Obama to pick her as his  running mate.      Many delegates in Denver were looking to see how far  Clinton, and her husband, former President Bill Clinton, would  rally her supporters ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 16.07101821899414,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual account of the events and statements surrounding the Democratic National Convention without displaying any evident bias towards a particular viewpoint or through the use of subjective language."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "WRAPUP 5-Backers of Hillary Clinton cloud Obama show",
+        "URL": "WRAPUP 5-Backers of Hillary Clinton cloud Obama show.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    * Democratic National Convention opens      * Edward Kennedy to be honored      * Vice presidential pick Biden arrives in convention city           By Steve Holland,      DENVER, Aug 25 (Reuters) - Defeated Democratic presidential  hopeful Hillary Clinton urged her frustrated followers to fall  in line behind Barack Obama on Monday as a party rift  threatened to rain on Obama's nominating parade.      Democratic Party chairman Howard Dean pounded a gavel to  open a four-day convention that Democrats say Obama must use to  unite Democrats, draw a sharp contrast with Republican rival  John McCain and back up soaring oratory with a policy for  leading the country.      'Looking out from this podium tonight, I see this diverse  assembly of Democrats as a testament to the strength and unity   of our party and the fruition of our 50-state strategy,' Dean    said.     The day's agenda was focused on outlining Obama's personal  story. His wife, Michelle Obama, was due to give a keynote  address on Monday night.     The son of a black father from Kenya and a white mother  from Kansas, Obama, 47, spent formative years in Hawaii and  Indonesia, worked his way through college and began his  political career as a community organizer in Chicago.      Democrats hoped a tribute to Massachusetts Sen. Edward  Kennedy, a Democratic Party icon battling brain cancer, would  generate party enthusiasm. An aide to Kennedy said the senator  would attend but not speak.      Casting a cloud over the convention was ongoing resentment  from supporters of New York Sen. Clinton, miffed that she lost  the nomination and upset that she was not picked as Obama's  vice presidential running mate. Obama chose veteran Delaware  Sen. Joe Biden, who arrived at the convention on Monday.      Clinton, speaking to sign-waving supporters from her home  state delegation before the convention began, urged party  unity.      'We are after all Democrats, so it may take a while,' she  said. 'We're not the fall-in-line party. We are diverse. But  make no mistake, we are unified,' she said.      Amid reports that former President Bill Clinton was upset  that he was asked to speak about foreign policy on Wednesday  night instead of the U.S. economy, Obama told reporters  traveling with him that he had told Clinton in a phone  conversation last week he could talk about whatever he wanted.      'I said, Mr. President, you can say whatever you like. Bill  Clinton is a unique figure in our politics,' Obama said.      Obama also said in Moline, Illinois, that Hillary Clinton  had been on his vice presidential short list. He played down a  rift with the Clintons.      'I am absolutely convinced that both Hillary Clinton and  Bill Clinton understand the stakes,' he said.      A new opinion poll showed how much work lay ahead to rally  Clinton supporters behind him. The CNN/Opinion Research Corp.  poll said the race between Obama and McCain was even, each with  47 percent support.      It said 66 percent of Clinton supporters backed Obama, down  from 75 percent at the end of June. Twenty-seven percent of  them said they would support McCain in the Nov. 4 election, up  from 16 percent in late June.           REHEARSAL      Michelle Obama took the stage in the half-empty hall along  with her children and some family members early on Monday to  check the layout ahead of her speech.      The hall's dominant feature is a giant, multi-tiered screen  set behind the speaker that will project party l",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 16.07101821899414,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to exhibit bias as it primarily reports on the Democratic National Convention and the efforts to unite the party behind Barack Obama, without showing a tendency to favor or disfavor any particular viewpoint or group."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "ANALYSIS-Road gets rockier for Hillary Clinton",
+        "URL": "ANALYSIS-Road gets rockier for Hillary Clinton.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Steve Holland      WASHINGTON, May 7 (Reuters) - The road just got rockier for  Democrat Hillary Clinton in her battle to win her party's  presidential nomination.      The New York senator and former first lady barely survived  a strong challenge from rival Barack Obama in Indiana and was  routed by him in North Carolina. Obama inched ever closer to  clinching the right to face Republican John McCain in the  November election.      'I take her at her word that she's going to go forward,'  said Democratic strategist Jim Duffy. 'But the math simply  doesn't change. Two plus two still equals four in this race.  You can't change the numbers. The question becomes at what  point is she willing to decide to concede.'      Her defeat in North Carolina was particularly biting  because she has done some of her best campaigning in the last  few weeks and because her politically astute husband, former  President Bill Clinton, had swept small towns across the state  trying to drum up support for his wife.      Clinton portrayed her slender win in Indiana as a  come-from-behind victory although polls had shown her leading  ahead of the vote. Before all the votes were counted, she vowed  'full speed on to the White House.'      But she made some conciliatory noises.      'I can assure you as I have said on many occasions, that no  matter what happens, I will work for the nominee of the  Democratic Party ... and I know that Senator Obama feels the  same way,' she said.      Obama's North Carolina victory and strong showing in  Indiana was a sign he had survived the furor over racially  charged rhetoric from his former pastor, the Rev. Jeremiah  Wright, although race still simmers in the contest.      Voters surveyed in exit polls reported that the Wright  issue was a major factor for them. White working-class voters  went heavily for Clinton, while Obama won overwhelming black  support.           UPHILLL STRUGGLE      The 60-year-old Clinton is left with an uphill task.      She must win the lion's share of nominating delegates from  the remaining contests -- West Virginia on May 13, Kentucky and  Oregon on May 20, Puerto Rico on June 1, and Montana and South  Dakota on June 3.      At the same time, she must convince enough of the  Democrats' 'superdelegates,' those party officials who can vote  for whomever they want, that she is a more electable Democrat  and they should side with her.      That effort was already well under way. Top Clinton adviser  Harold Ickes was quoted as telling Time Magazine's The Page on  Tuesday that questions still remained about Obama.     'We don't know enough about Senator Obama yet. We don't need  an 'October surprise.' And (the chance of) an 'October  surprise' with Hillary is remote,' he said.      Plus, Clinton must convince the Democrats to seat delegates  from Florida and Michigan, whose votes she won earlier in the  race but have not been recognized because the voting contests  were held before national Democratic Party rules allowed.      'I think it's most likely that Obama wins,' said Merle  Black, a political science professor at Emory University in  Atlanta. 'I can't see a way that she wins the nomination  without really tearing up the party.'      Democratic strategist Liz Chadderdon said the close contest  needs to end long before the Democrats' nominating convention  in Denver in August because a convention battle would be  damaging and could help the Republicans.      'The truth is that the way t",
+        "Histogram": [
+            0,
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0.6,
+            0
+        ],
+        "Relevance": 15.782535552978516,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "The New York senator and former first lady barely survived a strong challenge from rival Barack Obama in Indiana and was routed by him in North Carolina.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'routed' carries a negative connotation, implying a significant and humiliating defeat, which could influence the reader's perception of the event."
+                },
+                {
+                    "text": "'I take her at her word that she's going to go forward,' said Democratic strategist Jim Duffy. 'But the math simply doesn't change. Two plus two still equals four in this race. You can't change the numbers. The question becomes at what point is she willing to decide to concede.'",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The analogy 'Two plus two still equals four' is used to emphasize the inevitability of the outcome, suggesting a simplistic and irrefutable logic that undermines the complexity of the political situation."
+                },
+                {
+                    "text": "Her defeat in North Carolina was particularly biting because she has done some of her best campaigning in the last few weeks and because her politically astute husband, former President Bill Clinton, had swept small towns across the state trying to drum up support for his wife.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The phrase 'particularly biting' conveys a sense of sharp disappointment and personal failure, attributing emotional weight to the defeat that may not be objectively supported."
+                },
+                {
+                    "text": "Clinton portrayed her slender win in Indiana as a come-from-behind victory although polls had shown her leading ahead of the vote. Before all the votes were counted, she vowed 'full speed on to the White House.'",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Describing the win as 'slender' and the vow to move 'full speed on to the White House' introduces a narrative of struggle and determination that may be interpreted as an attempt to downplay the actual situation."
+                },
+                {
+                    "text": "But she made some conciliatory noises. 'I can assure you as I have said on many occasions, that no matter what happens, I will work for the nominee of the Democratic Party ... and I know that Senator Obama feels the same way,' she said.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The phrase 'made some conciliatory noises' diminishes the sincerity of Clinton's statement, suggesting it was a calculated gesture rather than a genuine expression of unity."
+                },
+                {
+                    "text": "Obama's North Carolina victory and strong showing in Indiana was a sign he had survived the furor over racially charged rhetoric from his former pastor, the Rev. Jeremiah Wright, although race still simmers in the contest.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'survived' and 'furor' to describe the impact of the controversy implies a dramatic struggle and resilience, framing the narrative in a way that highlights Obama's ability to overcome adversity."
+                },
+                {
+                    "text": "The 60-year-old Clinton is left with an uphill task.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Describing Clinton's situation as an 'uphill task' immediately sets a tone of difficulty and struggle, suggesting a daunting challenge that may be presented in a way to evoke sympathy or admiration for her efforts."
+                },
+                {
+                    "text": "That effort was already well under way. Top Clinton adviser Harold Ickes was quoted as telling Time Magazine's The Page on Tuesday that questions still remained about Obama. 'We don't know enough about Senator Obama yet. We don't need an 'October surprise.' And (the chance of) an 'October surprise' with Hillary is remote,' he said.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The statement speculates about potential unknown negative aspects of Obama, suggesting there could be surprises in the future that would harm his candidacy, without providing evidence for such concerns."
+                },
+                {
+                    "text": "Democratic strategist Liz Chadderdon said the close contest needs to end long before the Democrats' nominating convention in Denver in August because a convention battle would be damaging and could help the Republicans.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Chadderdon's assertion that a prolonged contest would be damaging and beneficial to the Republicans is presented as a definitive opinion rather than a possibility, without acknowledging the potential benefits of a robust primary process."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article is biased regarding the Democratic primary race, particularly in its portrayal of the challenges and strategies of Hillary Clinton. It exhibits a tendency to use word choice and speculation to influence the reader's perception of the candidates' positions and chances of success."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.5,
+            "overall_rating": 0.55
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "TAKE A LOOK-Hillary Clinton visits Asia",
+        "URL": "TAKE A LOOK-Hillary Clinton visits Asia.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    U.S. Secretary of State Hillary Clinton is in Japan, the  first stop on a week-long trip to Asia that will also take her to  Indonesia, South Korea and China.      She is expected to focus on expanding cooperation with Asia  to deal with the global financial crisis, address growing  concerns about a possible North Korean missile test as well as  discuss issues such as climate change.         LATEST STORIES  > Clinton starts Asia trip with warm words for Japan  [nN16308398]  > Issues to be raised on Clinton's Asia trip           [nSP436545]  > U.S. plans to press Pyongyang on Japanese abductees [nN15286037]  > North Korea says has right to launch missiles       [nSEO100055]  > N.Korea may opt for tensions over US peace offer     [nSEO73698]  > Clinton makes offer to N.Korea, appeals to China    [nN13542583]  > PREVIEW-Clinton aims to soothe jittery allies, woo  [nN11400240]  > Q+A-Where do sputtering N.Korea nuclear talks stand [nN09517057]  > Clinton's Asian hosts need economic diplomacy       [nN12457626]      (Compiled by World Desk, Asia +65 6870 3815)   ((dean.yates@reuters.com; Reuters Messaging:   dean.yates.reuters.com@reuters.net))  Keywords: ASIA CLINTON/        ",
+        "Histogram": [
+            0,
+            0,
+            0
+        ],
+        "Relevance": 15.76919174194336,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual overview of U.S. Secretary of State Hillary Clinton's trip to Asia, outlining the expected focus areas and countries she will visit without introducing any biased language or perspectives."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Clinton finances are better for general election",
+        "URL": "Clinton finances are better for general election.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Jeff Mason      NEW YORK, March 22 (Reuters) - Democratic U.S. presidential  hopeful Hillary Clinton has more money at her disposal for a  general election -- which she may or may not be able to use --  than for the current contests against rival Barack Obama,  records show.      Obama, a senator from Illinois, and Clinton, a senator from  New York, both had record fundraising totals in February. Obama  raised some $55 million and Clinton $35 million.      Both have out-raised John McCain, the presumptive  Republican nominee for the November election to determine who  will succeed President George W. Bush in the White House.      But Clinton has significantly less money available than her  Democratic rival because of higher debt and funds raised that  can only be used if she becomes their party's nominee.      Clinton had some $10.9 million in cash left at the end of  February compared with $31.6 million for Obama, according to an  analysis by the Washington-based Campaign Finance Institute of  the candidates' filings with the Federal Election Commission  late this week.      Clinton had significantly higher debts -- she owed $8.7  million, not including the $5 million she herself lent to her  campaign. Obama had about $625,000 in debt to be paid.      Subtracting the debt from her cash in hand leaves the  former first lady with only $2.2 million for the upcoming  primaries in Pennsylvania and elsewhere, which will be crucial  to her candidacy as she tries to close the gap with Obama, who  has accumulated more of the pledged delegates who determine the  eventual Democratic nominee.      Clinton has $22 million raised that can only be used in the  general election under FEC rules. Obama, who has beaten her in  overall fundraising, has $7 million.      A Clinton spokesman said the campaign debt would be paid  and was not a worry.      'We're going to have the resources that we need to compete  and do well in Pennsylvania and the states after that,'  communications director Howard Wolfson told a conference call  with reporters on Saturday.      'Fundraising continues to be strong.'      Wolfson said the financial support that kept coming in was  a sign that Democrats did not want the Clinton-Obama race to  end, and the campaign pointed out that despite being outspent  by Obama, Clinton won contests in Ohio and Texas this month.      McCain, whose candidacy almost imploded last year when his  campaign nearly ran out of money, has run a bare-bones  operation since then and is now spending much of his time  trying to fill his coffers.      After spending the past week on an overseas trip to the  Middle East and Europe, the Arizona senator will go on a  fundraising spree through a handful of Western states starting  on Monday.    (Editing by Mohammad Zargham)    ((jeff.mason@reuters.com; Reuters Messaging:  jeff.mason.reuters.com@reuters.net))          Keywords: USA POLITICS/FUNDRAISING       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 15.505030632019043,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to exhibit bias as it primarily focuses on the financial aspects of the U.S. presidential candidates' campaigns without using language or framing that suggests a particular viewpoint or narrative."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "UPDATE 1-Democrat Hillary Clinton hoping for late comeback",
+        "URL": "UPDATE 1-Democrat Hillary Clinton hoping for late comeback.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "  (Adds quotes; changes dateline from SHEPHERDSTOWN)      By Jeff Mason      WASHINGTON, May 7 (Reuters) - Hillary Clinton pressed ahead  with her long-shot presidential bid on Wednesday, putting a  brave face on a slim victory in Indiana and vowing to fight on  until the last state Democratic primaries are concluded.      The New York senator, whose loss to Illinois Sen. Barack  Obama in North Carolina on Tuesday added to his nearly  insurmountable lead in the race for their party's nomination,  projected a defiant tone at a fundraising event honoring  women.      'I've been counted out more than once. But thanks to all of  you, I've come back,' she told the crowd of mostly women, many  of whom urged her to continue competing.     'I am in this race. I am staying in this race,' she said to  applause. 'Too many people have fought too hard to see a woman  continue in this race.'      Clinton said she planned to send a letter to Obama and  Democratic Party Chairman Howard Dean saying that disqualified  primary elections in Florida and Michigan were a 'civil rights  issue' and 'a voting rights issue.'      The former first lady needs the votes from those two  elections to count in order to close the gap with Obama's big  lead in votes and delegates who determine the party's nominee.      The fundraiser, attended by her daughter, Chelsea, and  mother, Dorothy Rodham, came after a day that included a  hastily arranged stop in West Virginia, which holds its primary  next week.      'It's a new day, it's a new state, it's a new election,'  Clinton said after a rally in Shepherdstown, West Virginia.           DETERMINED      Clinton had been scheduled to spend the whole day in  Washington, meeting with superdelegates -- party leaders and  elected officials whose support she needs to overcome Obama's  lead -- and holding the fundraiser.      But her advisers said she wanted to show her determination  to keep fighting by going out and campaigning. She used the  opportunity to remind voters she would compete in all of the  remaining state election contests, which wrap up in early  June.      'I'm staying in this race until there's a nominee,' she  said. 'I obviously am going to work as hard as I can to become  that nominee.'      Tired campaign staff said Clinton remained 'unflappable'  and was focused on winning her party's nomination to face  Republican John McCain in the November general election.      At times appearing subdued, the former first lady, who  slept about three hours on Tuesday night according to an aide,  ran through her campaign speech before a crowd of students in  Shepardstown.      She made only brief mention of her proposal to suspend a  tax on gasoline this summer.      'I want her to keep fighting until the very end,' said  Maggie Lauria, 58, a retired school teacher and Clinton  supporter who attended the event.      'I think she has a shot. She's a fighter. I think when the  superdelegates look at the big picture, they may go her way.'      At a news conference Clinton said she had the best chance  of beating McCain in the November election, but she did not  openly criticize Obama, and kept the news conference short to  return to Washington.      'We're getting on the road again,' she said.   (Editing by Chris Wilson)   ((jeff.mason@thomsonreuters.com; Reuters Messaging:  jeff.mason.reuters.com@reuters.net))  Keywords: USA POLITICS/CLINTON        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 15.500079154968262,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to exhibit bias. It provides a factual account of Hillary Clinton's determination to continue her presidential bid, including her strategies and statements, without introducing any subjective or misleading information."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    }
+]

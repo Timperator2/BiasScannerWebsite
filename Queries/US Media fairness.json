@@ -1,0 +1,882 @@
+[
+    {
+        "Title": "US Senate backs ban on media 'Fairness Doctrine'",
+        "URL": "US Senate backs ban on media 'Fairness Doctrine'.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Kim Dixon      WASHINGTON, Feb 26 (Reuters) - The U.S. Senate passed an  amendment on Thursday that would bar regulators from requiring  broadcasters to give equal time to all points of view, a ban  strongly supported by some Republican lawmakers.      The legislative amendment, sponsored by Republican Sen. Jim  DeMint of South Carolina, would prevent the Federal  Communications Commission from reimposing the so-called  Fairness Doctrine to all broadcasters. It was repealed more  than 20 years ago.      Aides to President Barack Obama have said he has no  intention of trying to reinstate the Fairness Doctrine, but  that has not stopped some Republicans from raising the issue.      Free Press, a media advocacy group that opposes bringing  back the rule, said the issue was a distraction.      'An uncharitable interpretation is that they (Republicans)  need an issue that unites their base and is an easy talking  point for conservative radio,' said Ben Scott, policy director  at Free Press.      Conservative talk show icon Rush Limbaugh recently decried  the doctrine in a Wall Street Journal editorial.      DeMint said the doctrine violates the First Amendment and  would suppress free speech by letting the government decide  what is fair political dialogue.      An appeals court made that ruling, leading the FCC to  repeal it in 1987.      Scott's group agrees the government should not be decided  what is fair and balanced, but said there is no clamor to bring  it back.      The amendment was attached to an unrelated bill on voting  rights for Washington, D.C. residents. Whether it will survive  in the U.S. House of Representatives is uncertain.   (Reporting by Kim Dixon; editing by Jeffrey Benkoe)   ((kim.dixon@thomsonreuters.com; +1 202 354-5864))  Keywords: FAIRNESS FCC/       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 15.517976760864258,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "'An uncharitable interpretation is that they (Republicans)  need an issue that unites their base and is an easy talking  point for conservative radio,' said Ben Scott, policy director  at Free Press.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'uncharitable interpretation' and 'easy talking point for conservative radio' implies a negative judgment and suggests that the Republicans' support for the ban is not based on genuine reasons, but rather on manipulative tactics."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits a Word Choice Bias, suggesting a negative portrayal of the Republicans' support for the ban on the 'Fairness Doctrine' as being manipulative rather than principled."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.07692307692307693,
+            "overall_rating": 0.3384615384615385
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "No One Actually Likes the Fairness Doctrine.txt",
+        "URL": "No One Actually Likes the Fairness Doctrine.txt.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/240px-Fox_News_Channel_logo.svg.png",
+        "Text": "So if the Democrats win it all this year, you can bet the first thing they're going to do is gloat.\n\nThen, of course, they're going to get high and bang hookers.\n\nThen, finally, they will try to resuscitate the corpse that is the Fairness Doctrine.\n\nIf you don't know what this is, it's a creepy ploy to \"balance\" talk radio \u2014 meaning creating regulation to offset Rush Limbaugh with an opposing loudmouth. Think Jeanine Garofalo (without throwing up).\n\nThe Fairness Doctrine illustrates a key truth about lefty thinking: no one actually likes it. The fact that you'd need the government to force radio stations to broadcast this crap is proof that society has no need for it.\n\nFor an example of how successful liberal chat radio is on its own, see Air America. It was to radio broadcasting what crabs are to spring break.\n\nEven more, the Fairness Doctrine reveals a scurvy of insecurity that riddles the left. It's not enough for them to control nearly every media entity on the planet \u2014 including movies, television and off-Broadway one-woman shows \u2014 they must get their paws all over this too.\n\nIf the Fairness Doctrine happens, most likely talk radio would go bankrupt supporting liberal shows they'd be forced to run. And that's the left's real strategy: It's not about giving Randi Rhodes another outlet to ramble incoherently. It's about eliminating dissent.\n\nAnd if you disagree with me, then you sir, will die!\n\nGreg Gutfeld hosts \"Red Eye with Greg Gutfeld\" weekdays at 3 a.m. ET. Send your comments to: redeye@foxnews.com",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.9,
+            0.9,
+            1.0,
+            1.0,
+            0.9,
+            0.9,
+            0.9,
+            0.9,
+            0.9,
+            1.0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 12.30649471282959,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "If you don't know what this is, it's a creepy ploy to \"balance\" talk radio \u2014 meaning creating regulation to offset Rush Limbaugh with an opposing loudmouth. Think Jeanine Garofalo (without throwing up).",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'creepy' and 'opposing loudmouth' to describe the Fairness Doctrine and potential radio hosts introduces negative connotations and judgment, influencing the reader's perception."
+                },
+                {
+                    "text": "The Fairness Doctrine illustrates a key truth about lefty thinking: no one actually likes it. The fact that you'd need the government to force radio stations to broadcast this crap is proof that society has no need for it.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "Labeling the Fairness Doctrine as 'crap' and asserting that 'no one actually likes it' presents a subjective opinion as an objective truth, blurring the line between fact and personal perspective."
+                },
+                {
+                    "text": "For an example of how successful liberal chat radio is on its own, see Air America. It was to radio broadcasting what crabs are to spring break.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 1.0,
+                    "bias_description": "Comparing Air America's radio broadcasting to 'what crabs are to spring break' uses a highly negative and sensational analogy, undermining the network's success in a derogatory manner."
+                },
+                {
+                    "text": "Even more, the Fairness Doctrine reveals a scurvy of insecurity that riddles the left. It's not enough for them to control nearly every media entity on the planet \u2014 including movies, television and off-Broadway one-woman shows \u2014 they must get their paws all over this too.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "Describing the left's support for the Fairness Doctrine as 'a scurvy of insecurity' and mocking their involvement in various media forms with 'off-Broadway one-woman shows' presents a highly subjective and derogatory opinion."
+                },
+                {
+                    "text": "If the Fairness Doctrine happens, most likely talk radio would go bankrupt supporting liberal shows they'd be forced to run. And that's the left's real strategy: It's not about giving Randi Rhodes another outlet to ramble incoherently. It's about eliminating dissent.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "Asserting that the left's real strategy behind the Fairness Doctrine is 'about eliminating dissent' and characterizing liberal shows as 'forced to run' and 'ramble incoherently' reflects a strong, opinionated perspective presented as fact."
+                },
+                {
+                    "text": "And if you disagree with me, then you sir, will die!",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 1.0,
+                    "bias_description": "The use of hyperbolic language, suggesting death as a consequence of disagreement, is a clear example of emotional sensationalism designed to provoke a strong reaction, lacking accuracy or context."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article is biased regarding the topic of the Fairness Doctrine and its potential impact on talk radio, demonstrating a general bias tendency through the use of word choice, opinionated statements, and emotional sensationalism to discredit the Fairness Doctrine and those who support it."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.8833333333333333,
+            "percentage_of_biased_sentences": 0.3888888888888889,
+            "overall_rating": 0.6361111111111111
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Liberals Should Think Carefully About Fairness Doctrine Fight.txt",
+        "URL": "Liberals Should Think Carefully About Fairness Doctrine Fight.txt.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/240px-Fox_News_Channel_logo.svg.png",
+        "Text": "The trouble begins\u2026 now! Does John's My Word make your blood boil? Click here to listen live to The John Gibson Show on FOX News Radio (weekdays, 6-9 p.m. ET). It's your chance to call in and argue with John!\n\nToday John Kerry weighed in on an issue that is now all the rage among liberal politicians. The issue is called the Fairness Doctrine.\n\nThis is a rule that used to exist in broadcasting \u2014 radio and TV \u2014 which required that no opinion could be expressed without a countervailing opinion presented immediately. It was the old salt and pepper rule. If you were on the air with a salt shaker, you had to have a pepper shaker.\n\nNow what this is all about is talk radio. Liberals are complaining that their brand of talk radio fails whenever someone tries to put it on the air, and they have decided the answer is to shut up conservative talk radio. This is the \"Hush Rush\" movement.\n\nLiberals are angry that so many of you listen to talk radio \u2014 conservative talk radio \u2014 and that you cannot be dragged over to a liberal talk show. This argument ignores the fact that something like 20 million people a week listen to NPR, which is the very definition of liberal.\n\nWhat it also ignores is that the Fairness Doctrine applies to all broadcast, not just radio and especially not just talk radio. Liberals should be on notice it will apply to all the liberals who now operate on the airwaves in network TV news, in certain quarters of cable news and, of course, in entertainment TV.\n\nFace it. Liberals own Hollywood. Virtually every movie would be subject to the Fairness Doctrine. Think Al Gore's \"Inconvenient Truth\" could stand up to that scrutiny or Michael Moore's \"Fahrenheit 9/11\"? Not a chance.\n\nDo you think HBO can stand to have the Fairness Doctrine applied to what it airs? Bill Maher is going to have an awful time trying to conform to the Fairness Doctrine, and I can't think of a liberal anywhere who wants to shut him up.\n\nWhat John Kerry and Dianne Feinstein and Dick Durbin are asking for is to only restrict the broadcasting that conservatives do, mainly talk radio, though I have no doubt they have their plans for FOX News, too.\n\nThis is an attempt to take over the airwaves with liberal thought and make sure nothing else gets on. It's already a huge imbalance in favor of liberal thought on the airwaves, and the effort now is to make certain that echo chamber of so-called progressives is undisturbed by any irritating arguments from the right, or debates liberals can't win.\n\nThis is liberals in action. When you can't win the debate, make certain there is no debate. That is what the resurgence of the Fairness Doctrine debate is all about.\n\nThat's My Word.\n\nWatch John Gibson weekdays at 5 p.m. ET on \"The Big Story\" and send your comments to: myword@foxnews.com\n\nRead Your Word",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.9,
+            0.9,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.9,
+            0.9,
+            0.9,
+            0.9,
+            0.9,
+            0.6,
+            0.6,
+            0.6,
+            1.0,
+            1.0,
+            0.9,
+            0.9,
+            0.9,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 10.776002883911133,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Today John Kerry weighed in on an issue that is now all the rage among liberal politicians. The issue is called the Fairness Doctrine.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of phrases like 'all the rage' and 'liberal politicians' to describe the support for the Fairness Doctrine introduces a negative connotation and implies judgment, suggesting that the support is irrational or trendy."
+                },
+                {
+                    "text": "This is a rule that used to exist in broadcasting \u2014 radio and TV \u2014 which required that no opinion could be expressed without a countervailing opinion presented immediately. It was the old salt and pepper rule. If you were on the air with a salt shaker, you had to have a pepper shaker.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The analogy of the 'salt and pepper rule' simplifies the Fairness Doctrine in a way that downplays its complexity and potential impact, using a folksy metaphor to imply that the rule is unnecessary or overly simplistic."
+                },
+                {
+                    "text": "Now what this is all about is talk radio. Liberals are complaining that their brand of talk radio fails whenever someone tries to put it on the air, and they have decided the answer is to shut up conservative talk radio. This is the 'Hush Rush' movement.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "The phrase 'Hush Rush' movement is a clear example of Word Choice Bias, using a derogatory and emotionally charged term to frame the actions of liberals as malicious attempts to silence conservative voices, without acknowledging the broader context of the Fairness Doctrine."
+                },
+                {
+                    "text": "Liberals are angry that so many of you listen to talk radio \u2014 conservative talk radio \u2014 and that you cannot be dragged over to a liberal talk show. This argument ignores the fact that something like 20 million people a week listen to NPR, which is the very definition of liberal.",
+                    "bias_type": "Generalization Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence generalizes the attitudes of 'liberals' and 'you' (presumably non-liberals) towards talk radio, suggesting a uniform and simplistic view of a diverse group. It also oversimplifies the nature of NPR's audience and programming to fit a generalized narrative."
+                },
+                {
+                    "text": "What it also ignores is that the Fairness Doctrine applies to all broadcast, not just radio and especially not just talk radio. Liberals should be on notice it will apply to all the liberals who now operate on the airwaves in network TV news, in certain quarters of cable news and, of course, in entertainment TV.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This statement speculates on the impact of the Fairness Doctrine on TV and entertainment without providing evidence, suggesting a broad and negative consequence for 'liberals' in these media sectors based on the assumption of how the doctrine would be applied."
+                },
+                {
+                    "text": "Face it. Liberals own Hollywood. Virtually every movie would be subject to the Fairness Doctrine. Think Al Gore's 'Inconvenient Truth' could stand up to that scrutiny or Michael Moore's 'Fahrenheit 9/11'? Not a chance.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "The assertion that 'Liberals own Hollywood' is a clear example of Word Choice Bias, using a phrase with a strong positive connotation ('own') to imply control and influence, which is then used to suggest a negative outcome under the Fairness Doctrine, without providing a balanced or evidence-based perspective."
+                },
+                {
+                    "text": "Do you think HBO can stand to have the Fairness Doctrine applied to what it airs? Bill Maher is going to have an awful time trying to conform to the Fairness Doctrine, and I can't think of a liberal anywhere who wants to shut him up.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence speculates on the difficulties that would arise for HBO and Bill Maher under the Fairness Doctrine, implying negative consequences without a clear understanding of how the doctrine would be implemented or its actual impact on content providers."
+                },
+                {
+                    "text": "What John Kerry and Dianne Feinstein and Dick Durbin are asking for is to only restrict the broadcasting that conservatives do, mainly talk radio, though I have no doubt they have their plans for FOX News, too.",
+                    "bias_type": "Insinuative Questioning Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The suggestion that these politicians have undisclosed plans for FOX News introduces doubt and suspicion through insinuative questioning, implying a hidden agenda without direct evidence, and leading the audience towards a preconceived notion of the politicians' intentions."
+                },
+                {
+                    "text": "This is an attempt to take over the airwaves with liberal thought and make sure nothing else gets on. It's already a huge imbalance in favor of liberal thought on the airwaves, and the effort now is to make certain that echo chamber of so-called progressives is undisturbed by any irritating arguments from the right, or debates liberals can't win.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 1.0,
+                    "bias_description": "The use of phrases like 'take over the airwaves' and 'echo chamber of so-called progressives' employs highly charged language to convey a strong negative bias against 'liberal thought', suggesting a deliberate and unjust imbalance in media representation."
+                },
+                {
+                    "text": "This is liberals in action. When you can't win the debate, make certain there is no debate. That is what the resurgence of the Fairness Doctrine debate is all about.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "This concluding statement presents a subjective opinion on the motivations behind the support for the Fairness Doctrine as an objective truth, asserting that it is solely driven by a desire to silence opposition rather than a genuine concern for media diversity or balance."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article is biased regarding the discussion of the Fairness Doctrine, demonstrating a general bias tendency against 'liberal thought' and in favor of conservative viewpoints, particularly in the context of media regulation and representation. The biases identified include Word Choice Bias, Generalization Bias, Speculation Bias, Insinuative Questioning Bias, and Opinionated Bias, with varying strengths across the different instances."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.73,
+            "percentage_of_biased_sentences": 0.48484848484848486,
+            "overall_rating": 0.6074242424242424
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Lottomatica, Medstroms raise Boss Media bid",
+        "URL": "Lottomatica, Medstroms raise Boss Media bid.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    STOCKHOLM, Feb 13 (Reuters) - Lottomatica <LTO.MI>  subsidiary GTech and Medstroms on Wednesday raised their joint  cash bid for Boss Media <BOSS.ST> by a third and said they owned  28.6 percent of the Swedish software developer.      The public offer was raised to 25 Swedish crowns per Boss  Media share from the original bid of 19 crowns per share  announced early this month. The raised offer implied a valuation  of Boss Media of about 131 million euros ($190 million).      'The Board of Directors of Boss Media, supported by a  fairness opinion rendered by HDR Partners, unanimously  recommends the shareholders in Boss Media to accept the Offer,'  the firms said in a statement.      (Reporting by Niklas Pollard)      ((niklas.pollard@reuters.com; +46 8 700 1110, Reuters  messaging: niklas.pollard.reuters.com@reuters.net))      ($1=.6882 Euro)    Keywords: BOSSMEDIA/       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 9.623678207397461,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides factual information about the bid raise for Boss Media without exhibiting any of the typical signs of bias such as emotional sensationalism, unsubstantiated claims, or discriminatory language."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Rich Indian jailed in test of judicial fairness",
+        "URL": "Rich Indian jailed in test of judicial fairness.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    NEW DELHI, Sept 5 (Reuters) - The son of a wealthy Indian  arms dealer, whose drunken driving killed six people a decade  ago, was jailed for five years on Friday in a case seen as a test  of Indian courts' fairness in judging the rich and powerful.      Sanjeev Nanda, the grandson of a former navy chief, pleaded  innocent in the case that saw the convict's family being accused  of trying to bribe witnesses into lying.      The media kept up pressure on the high-profile case in a  country where the judiciary is often accused of favouring the  wealthy and powerful.      'I found Sanjeev Nanda guilty,' judge Vinod Kumar said,  sentencing him to five years in prison.      The court also jailed three other defendants for six months  to a year on charges of destroying evidence in the case which  came to be known as the BMW case after the car Nanda was driving.      Nanda's lawyer said they would appeal before a higher court  within a week.      Prosecutors said Nanda, who was a student of the Wharton  School of Business and on holiday in India, was returning from a  party with two friends when he ran over seven people. Six,  including three policemen, were killed.   (Reporting by R. Venkatraman; Writing by Tony Tharakan; Editing  by Krittivas Mukherjee and Jerry Norton)   ((For the latest Reuters news on India see: in.reuters.com, for  blogs see blogs.reuters.com/in/)   ((Reuters Messaging: tony.tharakan.reuters.com@reuters.net  Email: tony.tharakan@thomsonreuters.com; +91-11-4178-1027))  Keywords: INDIA JAIL/       ",
+        "Histogram": [
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 9.610647201538086,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "The media kept up pressure on the high-profile case in a country where the judiciary is often accused of favouring the wealthy and powerful.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The phrase 'judiciary is often accused of favouring the wealthy and powerful' implies a judgment about the judiciary's behavior without providing evidence, using language that suggests a negative connotation towards the judiciary's fairness."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article contains one instance of Word Choice Bias, suggesting a negative bias towards the judiciary's fairness in cases involving the wealthy and powerful. The general bias tendency leans towards questioning the fairness of the judiciary in such cases."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.1111111111111111,
+            "overall_rating": 0.3555555555555555
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Iran cleric calls for fairness from atomic body",
+        "URL": "Iran cleric calls for fairness from atomic body.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    TEHRAN, Nov 21 (Reuters) - The head of the U.N. nuclear  watchdog Mohamed ElBaradei should report on Iran's nuclear  programme neutrally and with fairness, an influential cleric  said on Friday after this week's report on Iran's atomic work.      Akbar Hashemi Rafsanjani, also a former president, said in a  sermon to worshippers at Friday prayers broadcast on state radio  that U.S. accusations that Iran was diverting its nuclear  programme to military purposes were not backed up by evidence.      Washington and its allies accuse Tehran of seeking to build  nuclear warheads under cover of a civilian atomic programme, a  charge Iran denies, insisting its aim is to generate electricity  so it can save more of its vast oil and gas reserves for export.      'We have announced everything. The (International Atomic  Energy) Agency (IAEA) has acknowledged ... that we have had no  diversion,' Rafsanjani said.      'But the Americans have raised a claim that we are not  announcing everything. Well, a claim of this nature has no  limits in scope and anybody can make such a claim in relation to  anything. They are not giving any document to support their  claim.'      The IAEA presented its latest report on Iran on Wednesday,  saying the Islamic Republic planned to start installing another  3,000 centrifuges early next year, adding to 3,800 already  enriching uranium and another 2,200 being gradually introduced.      The West worries about the enrichment programme because it  can have both civilian and military uses.       'As for Mr ElBaradei, whenever he speaks he does it  equivocally ... (saying) that, for instance, Iran is not letting  the agency inspect the Arak heavy water facility,' he said,  referring to one of Iran's disputed nuclear sites.      'This is again an example of trying to use compulsion in  relations to us. We ask the agency to judge neutrally and fairly  and avoid speaking equivocally,' the former president said.      'We will not let the certain right of a revolutionary and  innocent nation be trampled,' Rafsanjani added.      The IAEA has been investigating allegations that Iran  carried out research into nuclear warheads. The accusations were  based on intelligence which came from a laptop computer spirited  out of Iran by a defector in 2004 and passed on to Washington,  from some other Western states, and from IAEA inquiries.      Iran dismisses the allegations and says U.N. inspectors have  access in line with legal requirements to verify what it says is  the peaceful nature of the Islamic Republic's plans.   (Reporting by Hashem Kalantari, writing by Edmund Blair)   ((edmund.blair@thomsonreuters.com, +98 21 8820 8770, Reuters  Messaging: edmund.blair.reuters.com@reuters.net))      Keywords: IRAN NUCLEAR/RAFSANJANI       ",
+        "Histogram": [
+            0.6,
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 8.316393852233887,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "The head of the U.N. nuclear watchdog Mohamed ElBaradei should report on Iran's nuclear programme neutrally and with fairness, an influential cleric said on Friday after this week's report on Iran's atomic work.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'neutrally' and 'with fairness' implies a judgment about the current reporting of the U.N. nuclear watchdog, suggesting that it may not be neutral or fair without providing evidence for such a claim."
+                },
+                {
+                    "text": "Akbar Hashemi Rafsanjani, also a former president, said in a sermon to worshippers at Friday prayers broadcast on state radio that U.S. accusations that Iran was diverting its nuclear programme to military purposes were not backed up by evidence.",
+                    "bias_type": "Unsubstantiated Claims Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence presents a statement as factual (that U.S. accusations are not backed up by evidence) without providing any evidence to support this claim, thus implying that the accusations are baseless."
+                },
+                {
+                    "text": "'We have announced everything. The (International Atomic Energy) Agency (IAEA) has acknowledged ... that we have had no diversion,' Rafsanjani said.",
+                    "bias_type": "Unsubstantiated Claims Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Similar to the previous sentence, this one asserts that everything has been announced and there has been no diversion, again without providing evidence to support this claim."
+                },
+                {
+                    "text": "'But the Americans have raised a claim that we are not announcing everything. Well, a claim of this nature has no limits in scope and anybody can make such a claim in relation to anything. They are not giving any document to support their claim.'",
+                    "bias_type": "Unsubstantiated Claims Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence dismisses the American claim without addressing it directly and implies that the absence of documents to support the claim invalidates it, which is a form of unsubstantiated dismissal."
+                },
+                {
+                    "text": "'As for Mr ElBaradei, whenever he speaks he does it equivocally ... (saying) that, for instance, Iran is not letting the agency inspect the Arak heavy water facility,' he said, referring to one of Iran's disputed nuclear sites.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'equivocally' to describe ElBaradei's statements suggests that his remarks are intentionally ambiguous or misleading, which implies a negative judgment about his character or intentions."
+                },
+                {
+                    "text": "'This is again an example of trying to use compulsion in relations to us. We ask the agency to judge neutrally and fairly and avoid speaking equivocally,' the former president said.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The accusation of 'compulsion' and the repeated demand for the agency to judge 'neutrally and fairly' are suggestive of a biased perspective, implying that the agency's actions are not neutral or fair without providing evidence."
+                },
+                {
+                    "text": "'We will not let the certain right of a revolutionary and innocent nation be trampled,' Rafsanjani added.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence uses emotionally charged language ('revolutionary and innocent nation') to evoke a strong, positive emotional response, framing the situation in a highly biased manner."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article is biased regarding the discussion of Iran's nuclear program, with a general bias tendency towards portraying Iran in a positive light and dismissing or discrediting the concerns and claims of other involved parties, particularly the U.S. and the International Atomic Energy Agency (IAEA). The biases identified include Word Choice Bias, Unsubstantiated Claims Bias, and Emotional Sensationalism Bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.5555555555555556,
+            "overall_rating": 0.5777777777777777
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "It_s the Media_ Stupid.txt",
+        "URL": "It_s the Media_ Stupid.txt.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/240px-Fox_News_Channel_logo.svg.png",
+        "Text": "I worked in the dark ages of broadcasting under something called the Fairness Doctrine.\n\nUnder the Fairness Doctrine, an anchor or host or reporter could not present one opinion without presenting the opposing view \u2014 side by side, in close proximity \u2014 and it was virtually forbidden for the anchor or host to say what he or she thought.\n\nThe FCC voted the fairness doctrine out under the theory that so many new radio and television outlets were being created that the American public would be able to get the other side of the story by tuning in to the right TV or radio dial.\n\nThis is why Senate Majority Leader Tom Daschle is mad about Rush Limbaugh, Sean Hannity and other conservative talk show hosts. They have attracted a huge and highly motivated audience. There simply isn't a liberal version, at least on the radio.\n\nYou could argue that the liberals have four television networks that represent their point of view, but evidently... that isn't enough for\n\nDaschle.\n\nHe wants those voices he doesn't like silenced, and soon enough you are going to hear that the problem isn't just Limbaugh or Hannity... it's the demise of the Fairness Doctrine. You'll hear a call for a return to the days when a broadcaster's license could be taken away if there was even the perception of unfairness.\n\nThis is an easy one. The liberal leaders are blaming what they call conservative media for their losses, and they are teeing up scare politics to stifle, muzzle, silence and chill the media they don't like.\n\nI predict an attempt to bring back to life the old Fairness Doctrine. It was a good way to shut people up.\n\nThat's My Word .\n\nWhat do you think? We'd like to hear from you, so send us your comments at myword@foxnews.com. Some of your emails will be featured on the air or on our site.\n\n\u2022 Looking for some previous My Word columns? Click here!",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            1.0,
+            1.0,
+            0.9,
+            0.9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 8.055940628051758,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "This is why Senate Majority Leader Tom Daschle is mad about Rush Limbaugh, Sean Hannity and other conservative talk show hosts. They have attracted a huge and highly motivated audience. There simply isn't a liberal version, at least on the radio.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of phrases like 'is mad about' and 'There simply isn't a liberal version' implies a judgment and suggests a lack of balance, influencing the reader's perception."
+                },
+                {
+                    "text": "You could argue that the liberals have four television networks that represent their point of view, but evidently... that isn't enough for Daschle.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The phrase 'but evidently... that isn't enough for Daschle' suggests a dismissive attitude towards Daschle's concerns, implying that his perspective is unreasonable without providing a balanced view."
+                },
+                {
+                    "text": "He wants those voices he doesn't like silenced, and soon enough you are going to hear that the problem isn't just Limbaugh or Hannity... it's the demise of the Fairness Doctrine. You'll hear a call for a return to the days when a broadcaster's license could be taken away if there was even the perception of unfairness.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence speculates on future events and the intentions of political figures without concrete evidence, suggesting a negative outcome based on conjecture."
+                },
+                {
+                    "text": "This is an easy one. The liberal leaders are blaming what they call conservative media for their losses, and they are teeing up scare politics to stifle, muzzle, silence and chill the media they don't like.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 1.0,
+                    "bias_description": "The use of 'scare politics' and the repetition of 'stifle, muzzle, silence and chill' in a negative context strongly implies a judgment and a deliberate attempt to evoke a negative emotional response, indicating a high level of bias."
+                },
+                {
+                    "text": "I predict an attempt to bring back to life the old Fairness Doctrine. It was a good way to shut people up.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "The phrase 'It was a good way to shut people up' uses provocative language designed to evoke a strong emotional response, overshadowing a more balanced or neutral discussion on the topic."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article is biased regarding the discussion of media regulations and the perceived imbalance between conservative and liberal media, with a general bias tendency towards portraying conservative media in a negative light and suggesting a threat to free speech."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.74,
+            "percentage_of_biased_sentences": 0.3157894736842105,
+            "overall_rating": 0.5278947368421052
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Could _Fairness Doctrine_ Be Used to Police the Internet_.txt",
+        "URL": "Could _Fairness Doctrine_ Be Used to Police the Internet_.txt.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/240px-Fox_News_Channel_logo.svg.png",
+        "Text": "First radio, now the Web?\n\nMedia analysts and bloggers are warning that fresh efforts to bring back the so-called Fairness Doctrine could go too far, following a report that one prominent Democrat is looking into ways to apply the media control standards to the Internet.\n\nThe Fairness Doctrine is a policy created decades ago but abolished in the late 1980s that required broadcasters to provide opposing views on controversial issues.\n\nWhile some Democrats have talked about reviving the policy, The American Spectator reported Monday that Rep. Henry Waxman, D-Calif., is taking the call to a new level. The article said aides to the chairman of the House Energy and Commerce Committee met last week with Federal Communications Commission staff to discuss ways to not only enact those policies but give Waxman's panel greater oversight over the Internet.\n\n\"It's all about diversity in media,\" the Spectator quoted a House energy committee staff member as saying. \"Does one radio station or one station group control four of the five most powerful outlets in one community? ... Does one heavily trafficked Internet site present one side of an issue and not link to sites that present alternative views?\"\n\nThe committee vigorously denied the report. A spokesperson called the account \"fictitious\" in a statement to FOX News.\n\n\"The American Spectator report is false and was written without any documentation or attribution,\" the statement said.\n\nFCC spokesman David Fiske also disputed the claims in the piece, saying, \"We're not sure that it's an accurate article.\"\n\nAnalysts treated the report with a dose of skepticism as well -- but noted that the idea is not entirely foreign. Robert McDowell, the current FCC commissioner and a Bush appointee, warned in an interview last year that Fairness Doctrine advocates might try to extend their policies to the Web.\n\nIf that is the case, foes and supporters of the doctrine alike say policing fairness on the Internet will prove impossible. Plus they say it's unnecessary and well beyond the scope of the original policy.\n\n\"This borders between stupidity and sheer insanity,\" said conservative radio talk show host Mike Gallagher, when told about the Spectator report. \"I can't wait until they try to monitor how many conservative posts are on a thread versus how many liberal posts are on a thread.\"\n\nHe added that Democrats would be only neutralizing dominant liberal blogs that currently help them. He predicted any move to extend Fairness Doctrine principles to the Web would \"blow sky high.\"\n\nThe Fairness Doctrine was adopted in 1949 and held that broadcasters were obligated to provide opposing points of views on controversial issues of national importance. It was halted under the Reagan administration.\n\nThe policy is the scourge of conservative radio hosts, who say it would allow the federal government to skew content on their programs. Democratic lawmakers, some of whom have renewed the call to reinstate the doctrine in recent weeks, say it would bring accountability to the airwaves and help increase the number of liberal shows in a landscape dominated by conservatives like Rush Limbaugh.\n\nSteve Rendall, a Fairness Doctrine supporter and senior analyst with Fairness and Accuracy in Reporting, said liberals and conservatives both over-state the impact the doctrine would have on media content.\n\nHe said most talk shows, even those on the right, already comply with the requirements, which he said tread \"very lightly\" and do not call for absolute balance on the airwaves.\n\nBut he said there is \"no justification\" for applying the doctrine to the Internet, or any other form of media -- since the doctrine was only meant to apply standards to the privileged holders of limited broadcast licenses. The Internet, by contrast, has infinite outlets for opinion.\n\n\"Cable and Internet are, at least theoretically, limitless in the number of voices that they can present, and it's not at all the same as broadcast,\" Rendall said.\n\nBrent Bozell, president of the conservative Media Research Center, said it would be \"impossible\" to regulate balance and neutrality on the Internet. He said he thinks Democrats eventually want to bring those standards to the Web but are struggling to rally the political will to revisit the Fairness Doctrine.\n\nHe said any legislative efforts to reinstate it will probably occur behind closed doors, since doing it out in the open could cause political repercussions.\n\nThe Spectator reported that Waxman's advisers were discussing ways to implement Fairness Doctrine policies without actually calling it the \"Fairness Doctrine.\"\n\nOther Democrats have openly called for a modern-day Fairness Doctrine in recent weeks, though they were referring more to radio than the Internet.\n\n\"I absolutely think it's time to be bringing accountability to the airwaves,\" Sen. Debbie Stabenow, D-Mich., told liberal radio host Bill Press two weeks ago. She said she expects hearings soon on reviving the policy, though her office has reportedly backed off that prediction. (Stabenow's husband, Tom Athans, is and has been an executive at several liberal radio talk groups.)\n\nAnd Sen. Tom Harkin, D-Iowa, told Press last week: \"We gotta get the Fairness Doctrine back in law again.\"\n\nDuring the presidential campaign, a spokesman said then-candidate Barack Obama did not favor reinstating the Fairness Doctrine. But Obama's White House aides are now leaving open the question.\n\nAsked if the White House would rule out imposing the doctrine on \"FOX News Sunday,\" senior adviser David Axelrod ducked.\n\n\"I'm going to leave that issue to Julius Genachowski, our new head of the FCC ... and the president to discuss. So I don't have an answer for you now,\" he said.\n\nDespite the speculation, nobody has introduced a bill this session to reinstate those policies.\n\nMeanwhile, Oklahoma Sen. James Inhofe introduced a bill this year to prevent reinstatement of the Fairness Doctrine.\n\nFOXNews.com's Judson Berger and FOX News' Chad Pergram contributed to this report.",
+        "Histogram": [
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1.0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 7.665870189666748,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Media analysts and bloggers are warning that fresh efforts to bring back the so-called Fairness Doctrine could go too far, following a report that one prominent Democrat is looking into ways to apply the media control standards to the Internet.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The sentence speculates on the potential negative consequences of reviving the Fairness Doctrine for the Internet without concrete evidence, suggesting a possible overreach based on conjecture."
+                },
+                {
+                    "text": "It's all about diversity in media,",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The phrase 'It's all about diversity in media' uses positively connoted language to frame the issue, implying that any efforts to apply the Fairness Doctrine to the Internet are solely for the purpose of promoting diversity, which could influence the reader's perception."
+                },
+                {
+                    "text": "This borders between stupidity and sheer insanity,",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 1.0,
+                    "bias_description": "The use of extreme language such as 'stupidity' and 'sheer insanity' is designed to provoke a strong emotional response, undermining the argument through hyperbolic language rather than a reasoned critique."
+                },
+                {
+                    "text": "He added that Democrats would be only neutralizing dominant liberal blogs that currently help them. He predicted any move to extend Fairness Doctrine principles to the Web would \"blow sky high.\"",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence speculates on the potential negative impact of applying Fairness Doctrine principles to the Web, suggesting a dramatic and negative outcome without providing evidence to support such a claim."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the potential application of the Fairness Doctrine to the Internet, with a focus on speculation, emotional sensationalism, and word choice influencing the discussion. The general bias tendency leans towards portraying such efforts in a negative light, suggesting they would be detrimental without a balanced or evidence-based examination."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.7000000000000001,
+            "percentage_of_biased_sentences": 0.06382978723404255,
+            "overall_rating": 0.3819148936170213
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "FXNEWS-US Sen McCain wins NH Rep. primary -media",
+        "URL": "FXNEWS-US Sen McCain wins NH Rep. primary -media.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "Arizona Sen McCain takes NH primary among Republicans, while  former Mass. Gov Romney comes in second, US media report. Click  on [nN07407096]      Reuters Messaging: naomi.tajitsu.reuters.com@reuters.net  ",
+        "Histogram": [
+            0,
+            0,
+            0
+        ],
+        "Relevance": 6.76770544052124,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it simply reports the results of the New Hampshire Republican primary without any indication of subjective or prejudiced language."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "STOCKS NEWS US-Media co's down after Media General posts loss",
+        "URL": "STOCKS NEWS US-Media co's down after Media General posts loss.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    Stocks on the move [HOT-RTRS]  Real-time Equity news [U E]  [RESF/US]      U.S. stock market report [.N]       1441 ET 29Jan2009-Media co's down after Media General posts loss  ------------------------------------------------------------------------------      Shares of media companies tumbled on Thursday, after Media General <MEG.N>  reported a fourth-quarter loss and eliminated its dividend, hurt by the  recession and a steep decline in advertising revenue. [ID:nN29254298]      The stock tumbled 19 percent to $2.31 while the Dow Jones U.S. Media Index  <.DJUSME> was down 3.2 percent to 171.74. Among its peers, New York Times Co  <NYT.N> dropped 4.5 percent to $5.71 and Washington Post Co <WPO.N> was off 2.8  percent to $409.02.      Reuters Messaging: ryan.vlastelica.reuters.com@reuters.net       1433 ET 29Jan2009-All Dow components down except 3M Co  ------------------------------------------------------------------------------      Of the 30 components of the Dow Jones industrial average <.DJI>, 29  tradedlower on Thursday, with 3M Co <MMM.N> the only bright spot.      Diversified manufacturer 3M rose 2.3 percent to $56.70 on Thursday, rising  as investors bet that the company was well-positioned to grow in the second  half of the year. Earlier on Thursday, 3M reported fourth-quarter earnings that  beat expectations, along with revenue that was down 11.2 percent from the prior  year. [ID:nN29263164]      The worst-performing company on the Dow was Boeing Co <BA.N>, which slid  5.2 percent to $41 after Russian airline S7 canceled a contract to buy 15 of  the company's 787 Dreamliner airplanes. It will lease the planes instead.  [ID:nLT533016]      The Dow fell 2.1 percent to 8,196.51 on Thursday.      Reuters Messaging: ryan.vlastelica.reuters.com@reuters.net       1415 ET 29Jan2009-Crude oil down on economic data, stockpiles  ------------------------------------------------------------------------------      March crude futures fell on Thursday, pressured by weak economic data and  swelling stockpiles in the U.S., signs that the recession was severely weighing  on demand at the world's largest oil consumer.      'Holding above $40 will become increasingly difficult as reportage  enumerate evidence of contracting demand,' said John Kilduff, senior vice  president of MF Global in New York. [ID:nSP148153]      The contract slid 1.9 percent to $41.33.       1405 ET 29Jan2009-Merrill Lynch skeptical on 'bad bank' rallies  ------------------------------------------------------------------------------      Merrill Lynch on Thursday expressed skepticism about market rallies related  to the idea that the government may form a 'bad bank' to help stabilize the  banking sector, noting that similar relief rallies occurred after the TARP  program was announced, after which 'recession realities and their implications  for corporate profits sank back in.'      When TARP was first unveiled, the firm wrote, the S&P 500 <.SPX> was at  1,255, dropping to 1,114 by the time it was signed and delivered to Congress.      'Today, we sit at 874 and most folks we talk to have the same euphoric look  in their eye with the latest 'aggregator bank' idea, as if this is now going to  be the savior for the credit cycle,' it wrote.      Reuters Messaging: ryan.vlastelica.reuters.com@reuters.net       1345 ET 29Jan2009-Top U.S. manufacturers cutting capex to preserve cash  ------------------------------------------------------------------------------      Several",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 6.735135555267334,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports on the financial performance of media companies, the stock market, crude oil prices, and the impact of economic policies on the banking sector without displaying any evident bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Obama wins Maryland Democratic vote -- US media",
+        "URL": "Obama wins Maryland Democratic vote -- US media.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "   WASHINGTON, Feb 12 (Reuters) - Sen. Barack Obama won the  Maryland primary to choose a Democratic presidential candidate  on Tuesday, the latest in a string of victories over rival Sen.  Hillary Clinton in their closely fought race to represent the  party in the November election, U.S. media projected.     With his victories in Washington, Virginia and Maryland on  Tuesday, the Illinois senator has won eight straight contests  against the former first lady, every one since the 'Super  Tuesday' voting on Feb. 5, when nearly half the U.S. states  selected presidential candidates.   ((donna.smith@reuters.com; tel: 202-898-8391; Reuters  Messaging: donna.smith.reuters.com@reuters.net))  Keywords: US POLITICS/MARYLAND DEMOCRATS       ",
+        "Histogram": [
+            0,
+            0,
+            0
+        ],
+        "Relevance": 6.603089332580566,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it simply reports the outcome of the Maryland Democratic primary without using language or presenting information in a way that would indicate bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Obama wins U.S. presidential election - US media",
+        "URL": "Obama wins U.S. presidential election - US media.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WASHINGTON, Nov 4 (Reuters) - Democrat Barack Obama won a  grueling two-year struggle for the White House on Tuesday, U.S.  media projected, beating Republican John McCain to become the  first black president in U.S. history.      Obama, 47, a first-term senator from Illinois, will be  sworn in as the 44th U.S. president on Jan. 20, 2009. He will  face a crush of immediate challenges, including easing the  economic crisis, ending the war in Iraq and striking a  compromise on overhauling the health care system.      (Reporting by John Whitesides; editing by Jackie Frank)   ((david.alexander@reuters.com; 202 354-5866;  david.alexander.reuters.com@reuters.net))   (For more about the U.S. political campaign, visit Reuters  'Tales from the Trail: 2008' online at  http:/blogs.reuters.com/trail08/)   (For full campaign coverage double click on [US/VOTE])    Keywords: USA ELECTION/WINNER             Washington, 05. Nov (Reuters) - Der Demokrat Barack Obama  hat nach einer Projektion von CNN die US-Pr\u00c3\u00a4sidentenwahl  gewonnen.       (B\u00c3\u00bcro Washington, bearbeitet von Sabine Ehrhardt, redigiert  von Alexander Ratz)      ((Sabine.Ehrhardt@thomsonreuters.com; +49-30-2888-5120;  Reuters Messaging: Sabine.Ehrhardt.reuters.com@reuters.net))                ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 6.5849103927612305,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it simply reports the factual event of Barack Obama winning the U.S. presidential election without introducing any subjective or misleading information."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "FXNEWS-Media leaks push US FDIC to find WaMu buyer",
+        "URL": "FXNEWS-Media leaks push US FDIC to find WaMu buyer.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "A top US bank regulator says her agency acted swiftly to find a  buyer for struggling mortgage lender Washington Mutual to quell  customer anxiety fueled by media leaks. All the deposits and  assets of the Seattle-based lender were acquired by JPMorgan  Chase in a transaction that stamped WaMu as the biggest failure  in US bank history, Federal Deposit Insurance Corp Chairman Bair  says. Click on [nN25194950]      Messaging: chikako.mogi.reuters.com@reuters.net  ",
+        "Histogram": [
+            0.6,
+            0.6,
+            0
+        ],
+        "Relevance": 6.534676551818848,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "A top US bank regulator says her agency acted swiftly to find a buyer for struggling mortgage lender Washington Mutual to quell customer anxiety fueled by media leaks.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'swiftly' implies a positive judgment about the regulator's actions, suggesting efficiency and effectiveness, which could influence the reader's perception without providing evidence for the speed or quality of the actions taken."
+                },
+                {
+                    "text": "All the deposits and assets of the Seattle-based lender were acquired by JPMorgan Chase in a transaction that stamped WaMu as the biggest failure in US bank history, Federal Deposit Insurance Corp Chairman Bair says.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The phrase 'stamped WaMu as the biggest failure in US bank history' uses language that emphasizes and dramatizes the negative aspect of the event, potentially sensationalizing the news and influencing the reader's perception through the use of emotionally charged language."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias through the use of word choice, which influences the reader's perception of the events surrounding the acquisition of Washington Mutual by JPMorgan Chase. The bias is primarily manifested in the positive framing of the regulator's actions and the negative, sensational language used to describe the outcome for Washington Mutual."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.3333333333333333,
+            "overall_rating": 0.4666666666666667
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "NYSE Media General Inc (us;MEG) No MOC Imbalance <MEG.N>",
+        "URL": "NYSE Media General Inc (us;MEG) No MOC Imbalance <MEG.N>.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    (C) Reuters 2008 All rights reserved. Republication or redistribution of Reuters content, including by caching, framing, or similar means, is expressly prohibited without the prior written consent of Reuters. Reuters and the Reuters sphere logo are registered trademarks and trademarks of  the Reuters group of companies around the world.   Media://Analytics/Pages::/cmd=us;MEG/T ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 6.364815711975098,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to contain any biased sentences. It is a factual report about the NYSE Media General Inc with no evident bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "NYSE Dolan Media Co (us;DM) No MOC Imbalance <DM.N>",
+        "URL": "NYSE Dolan Media Co (us;DM) No MOC Imbalance <DM.N>.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    (C) Reuters 2008 All rights reserved. Republication or redistribution of Reuters content, including by caching, framing, or similar means, is expressly prohibited without the prior written consent of Reuters. Reuters and the Reuters sphere logo are registered trademarks and trademarks of  the Reuters group of companies around the world.   Media://Analytics/Pages::/cmd=us;DM/T ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 6.364815711975098,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not contain any biased sentences as it solely provides factual information about media and analytics without expressing any subjective opinions or promoting specific viewpoints."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "DIARY - Today in Washington - July 30",
+        "URL": "DIARY - Today in Washington - July 30.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    July 30      ALL TIMES IN EDT/GMT      ---------------------------------------------------------      0900/1300 - U.S. Treasury Department announces 10-year note  and 30-year bond offerings as part of quarterly refunding.      1000/1400 - Anthony Ryan, acting undersecretary of the  treasury for domestic finance, holds a briefing on quarterly  refunding.      1035/1435 - Energy Information Administration weekly  petroleum stocks and output data.      1400/1800 - House Financial Services Committee drafts  Municipal Bond Fairness Act.      ----------------------------------------------------------            DIARY - Federal Reserve Events                [FED/DIARY]      U.S. Indicators                                  [US/ECI]      U.S. Treasury new issues calendar                  [US/C]  ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 6.267829895019531,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it only contains factual information about upcoming events and announcements in Washington."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Western observers say Russia election raises questions",
+        "URL": "Western observers say Russia election raises questions.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    MOSCOW, March 3 (Reuters) - Western election observers said  Russia's presidential election on Sunday raised questions about  democracy.      Presenting a report on the vote, Andreas Gross, head of the  group from the Parliamentary Assembly of the Council of Europe  (PACE), said Sunday's election 'repeats most of the flaws seen  in the parliamentary elections last December'.      Candidates lacked equal access to the media, 'putting into  question the fairness of the election', he said.   (Reporting by Conor Sweeney, writing by Michael Stott)   ((michael.stott@reuters.com +7 495 775 1203))    Keywords: RUSSIA ELECTION        ",
+        "Histogram": [
+            0,
+            0.6,
+            0.7,
+            0
+        ],
+        "Relevance": 6.207662105560303,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Presenting a report on the vote, Andreas Gross, head of the group from the Parliamentary Assembly of the Council of Europe (PACE), said Sunday's election 'repeats most of the flaws seen in the parliamentary elections last December'.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence implies a negative judgment about the election by stating that it 'repeats most of the flaws', which is an opinion rather than a fact."
+                },
+                {
+                    "text": "Candidates lacked equal access to the media, 'putting into question the fairness of the election', he said.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.7,
+                    "bias_description": "This sentence assumes a direct cause-and-effect relationship between candidates' media access and the fairness of the election without considering other factors that could influence fairness."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article is biased regarding the Russia election, showing a general bias tendency towards questioning the fairness and democratic aspects of the election process, with a mix of opinionated and causal misunderstanding biases."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6499999999999999,
+            "percentage_of_biased_sentences": 0.25,
+            "overall_rating": 0.44999999999999996
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Malaysia's Media Prima plans $150mln media fund",
+        "URL": "Malaysia's Media Prima plans $150mln media fund.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    KUALA LUMPUR, March 25 (Reuters) - Malaysian media group  Media Prima <MPRM.KL> will set up an ASEAN media asset fund worth  $100-$150 million, the company said on Tuesday.      Media Prima will invest the sum over 5-7 years, it said in a  statement.   (Reporting by Yoko Nishikawa; Editing by Tomasz Janowski)      ((y-sing.liau@reuters.com; +603 2333 8083; Reuters Messaging:  y-sing.liau.reuters.com@reuters.net))  Keywords: MEDIAPRIMA/        ",
+        "Histogram": [
+            0,
+            0,
+            0
+        ],
+        "Relevance": 6.1515302658081055,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it simply reports on Media Prima's plan to set up an ASEAN media asset fund without including any subjective language or presenting information in a way that supports a particular narrative."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "FINEWS-Bear Stearns deal helped calm market-Fed's Lockhart",
+        "URL": "FINEWS-Bear Stearns deal helped calm market-Fed's Lockhart.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "The Fed-backed move to rescue Bear Stearns <BSC.N> has helped  restore market confidence, but the question of fairness can  only be answered by shareholders, Atlanta Fed President Dennis  Lockhart said. 'I think overall the approach has been  effective, considering the focus is on financial system  stability. As to the fairness of the deal, I think that's  essentially for the board of Bear Stearns and JP Morgan to  determine.' Click on [ID:nWAT009198] for the full story.  Reuters Messaging rm://chris.reese.reuters.com@reuters.net  ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 6.093110084533691,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports on the opinion of Atlanta Fed President Dennis Lockhart regarding the Fed-backed rescue of Bear Stearns."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "NYSE GateHouse Media Inc (us;GHS) MOC Sell Imbalance: 352,600 shrs. <GHS.N>",
+        "URL": "NYSE GateHouse Media Inc (us;GHS) MOC Sell Imbalance: 352,600 shrs. <GHS.N>.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "   (C) Reuters 2008 All rights reserved. Republication or redistribution of Reuters content, including by caching, framing, or similar means, is expressly prohibited without the prior written consent of Reuters. Reuters and the Reuters sphere logo are registered trademarks and trademarks of  the Reuters group of companies around the world.   Media://Analytics/Pages::/cmd=us;GHS/T ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 6.072604179382324,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The provided text is a financial news snippet that reports a sell imbalance of shares for GateHouse Media Inc. It does not contain any biased sentences as it simply conveys factual information about stock market activity."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    }
+]

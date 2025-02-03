@@ -1,0 +1,663 @@
+[
+    {
+        "Title": "UPDATE 1-Bush to host summit on global financial crisis",
+        "URL": "UPDATE 1-Bush to host summit on global financial crisis.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": " (Updates with summit plan, previous WASHINGTON)      By Tabassum Zakaria      CAMP DAVID, Md., Oct 18 (Reuters) - President George W.  Bush will announce on Saturday that the United States will host  a summit of world leaders on the global financial crisis, a  senior U.S. administration official said.      'President Bush will announce that he will host a summit of  world leaders in the near future to discuss the global response  to the financial crisis, ideas to prevent such a crisis from  recurring in the future in a way that preserves our free market  system,' the official said on condition of anonymity.      'The president wants participation and ideas from both  developed and developing nations in these discussions,' the  official said.      Bush will meet French President Nicolas Sarkozy and  European Commission President Jose Manuel Barroso later  Saturday at the Camp David presidential retreat in Maryland,  about the financial crisis that sent tremors through world  economies.      A credit crisis that swept around the globe has pummeled   markets, leaving the United States and its European allies  searching for ways to cushion the shock to financial systems.      Sarkozy has called for an overhaul of the current  international financial architecture established just after  World War II at the 1944 Bretton Woods conference.      Bush has not made any public comments about that proposal  and White House aides say the focus at the Camp David meeting  will be addressing the immediate crisis.      'Many leaders and economies have ideas to improve the  global financial system,' White House spokesman Tony Fratto  said. 'We should be listening to all good ideas. I'm certain  leaders in Europe aren't recommending that we simply impose a  structure on the rest of the world without the input from other  economies,' he said.      Sarkozy, whose country holds the rotating European Union  presidency, said he would like to see a Group of Eight leading  nations summit next month in New York. The White House said a  date and venue for the global leaders meeting, expected by year  end, would not be set at the three-hour meeting.      Treasury Secretary Henry Paulson and Secretary of State  Condoleezza Rice accompanied Bush to Camp David. The White  House said no new policy announcements were expected.           BANK EQUITY SHARES      In his weekly Saturday radio address, Bush sought to  reassure Americans the U.S. government had no intention of  becoming a permanent shareholder in private banks.      Bush said the $700 billion rescue package the government  will use to buy equity shares in some banks and purchase some  troubled assets will help get loans flowing to consumers and  businesses.      'Had the government not acted, the hole in our financial  system would have grown larger,' Bush said.      The plan to inject $250 billion in capital into U.S. banks  in exchange for preferred shares has raised concerns about  government interference in the private sector.      Bush sought to allay those fears by saying the government's  involvement would be limited and the goal was to encourage  banks to buy back their shares when markets stabilized.      'The government will not exercise control over any private  firm, and federal officials will not have a seat around your  local bank's boardroom table,' Bush said.      'The shares owned by the government will have voting rights  that can be used only to protect the taxpayer's investment --  not to ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 20.87883758544922,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Sarkozy has called for an overhaul of the current international financial architecture established just after World War II at the 1944 Bretton Woods conference.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence implies a subjective opinion about the need for an overhaul, suggesting that the current international financial architecture is outdated without presenting a balanced view or objective analysis."
+                },
+                {
+                    "text": "Many leaders and economies have ideas to improve the global financial system,' White House spokesman Tony Fratto said. 'We should be listening to all good ideas. I'm certain leaders in Europe aren't recommending that we simply impose a structure on the rest of the world without the input from other economies,' he said.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of phrases like 'impose a structure' and 'simply' implies a negative judgment about the approach suggested by European leaders, suggesting it is overly assertive or lacking in complexity."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the discussion of global financial crisis responses, particularly in the way it presents the need for an overhaul of the international financial architecture and the approach suggested by European leaders, with a general tendency towards opinionation and word choice biases."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.14285714285714285,
+            "overall_rating": 0.37142857142857144
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Bush spoke with Germany's Merkel on financial crisis",
+        "URL": "Bush spoke with Germany's Merkel on financial crisis.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WASHINGTON, Oct 8 (Reuters) - President George W. Bush on  Wednesday called German Chancellor Angela Merkel and discussed  actions the United States is taking to deal with the financial  crisis that has hit markets worldwide, the White House said.      Bush discussed 'the various measures that the United States  is taking to bring stability to the markets, as well as the  importance for all countries to work together to coordinate our  actions to address problems facing the global economy,' White  House spokeswoman Dana Perino said.      Bush also returned a call to Brazilian President Luiz  Inacio Lula da Silva on the same issue, she said.      (Reporting by Tabassum Zakaria; Editing by Chizu Nomiyama)  ((toby.zakaria@reuters.com ; +1 202 898 8300; Reuters  Messaging: toby.zakaria.reuters.com@reuters.net ))  Keywords: FINANCIAL/BUSH MERKEL        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 20.59129524230957,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports on a diplomatic conversation between President George W. Bush and German Chancellor Angela Merkel regarding the global financial crisis without displaying any evident bias through the language used or the topics discussed."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Bush: Financial crisis needs coordinated response",
+        "URL": "Bush: Financial crisis needs coordinated response.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WASHINGTON, Oct 11 (Reuters) - U.S. President George W.  Bush on Saturday said the financial crisis will require a  global coordinated response and the top industrial nations will  work together to solve it as quickly as possible.      'All of us recognize that this is a serious global crisis  and therefore requires a serious global response,' he told  reporters after an unusual Saturday gathering with the Group of  Seven economic chiefs. 'I'm confident that the world's major  economies can overcome the challenges we face.'      He said the crisis would require a coordinated global  response and the United States will use all the tools at its  disposal to deal with the crisis. But he cautioned that it will  take time to resolve the credit crunch.   (Reporting by Jeremy Pelofsky and David Lawder; Editing by  Neil Stempleman)   ((jeremy.pelofsky@thomsonreuters.com; +1 202 898 8392;  jeremy.pelofsky.reuters.com@reuters.net))   ((Multimedia versions of Reuters Top News are now available  for: * 3000 Xtra: visit http://topnews.session.rservices.com       * BridgeStation: view story .134  For more information on Top News: http://topnews.reuters.com))         Keywords: FINANCIAL/G7 BUSH        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 20.12799644470215,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a straightforward report on U.S. President George W. Bush's statements regarding the financial crisis and the need for a global coordinated response."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Bush to host summit of world leaders on financial crisis",
+        "URL": "Bush to host summit of world leaders on financial crisis.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    CAMP DAVID, Md., Oct 18 (Reuters) - President George W.  Bush will announce on Saturday that the United States will host  a summit of world leaders on the global financial crisis, a  senior U.S. administration official said.      'President Bush will announce that he will host a summit of  world leaders in the near future to discuss the global response  to the financial crisis, ideas to prevent such a crisis from  recurring in the future in a way that preserves our free market  system,' the official said on condition of anonymity.      'The President wants participation and ideas from both  developed and developing nations in these discussions,' the  official said.      Bush will meet French President Nicolas Sarkozy and  European Commission President Jose Manuel Barroso later  Saturday at the Camp David presidential retreat in Maryland.  (Reporting by Tabassum Zakaria, editing by Jackie Frank)  ((toby.zakaria@reuters.com ; +1 202 898 8300; Reuters  Messaging: toby.zakaria.reuters.com@reuters.net ))    Keywords: FINANCIAL/BUSH MEETING        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 20.048606872558594,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports on the announcement of a summit of world leaders on the global financial crisis without introducing any subjective or misleading information."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "RPT-Bush to host summit of world leaders on financial crisis",
+        "URL": "RPT-Bush to host summit of world leaders on financial crisis.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": " (Repeats with no change to text)      CAMP DAVID, Md., Oct 18 (Reuters) - President George W.  Bush will announce on Saturday that the United States will host  a summit of world leaders on the global financial crisis, a  senior U.S. administration official said.      'President Bush will announce that he will host a summit of  world leaders in the near future to discuss the global response  to the financial crisis, ideas to prevent such a crisis from  recurring in the future in a way that preserves our free market  system,' the official said on condition of anonymity.      'The President wants participation and ideas from both  developed and developing nations in these discussions,' the  official said.      Bush will meet French President Nicolas Sarkozy and  European Commission President Jose Manuel Barroso later  Saturday at the Camp David presidential retreat in Maryland.  (Reporting by Tabassum Zakaria, editing by Jackie Frank)  ((toby.zakaria@reuters.com ; +1 202 898 8300; Reuters  Messaging: toby.zakaria.reuters.com@reuters.net ))    Keywords: FINANCIAL/BUSH MEETING        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 19.75930404663086,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports on the announcement of a summit of world leaders on the global financial crisis without using language or framing that indicates a bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Bush promises \"strong action\" in financial crisis",
+        "URL": "Bush promises \"strong action\" in financial crisis.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WASHINGTON, Oct 9 (Reuters) - U.S. President George W. Bush  on Thursday said he assured Slovak President Ivan Gasparovic  that the United States will take 'strong action' to deal with  the economic crisis.      'I assured him that the United States will take strong  action in dealing with the current economic situation,' Bush  said in the Oval Office after meeting with Gasparovic.   (Reporting by Andy Sullivan; Editing by James Dalgleish)   ((andy.sullivan@reuters.com; +1 202 898 8360; Reuters  Messaging: andy.sullivan.reuters.com@reuters.net))   ((Multimedia versions of Reuters Top News are now available  for: * 3000 Xtra: visit http://topnews.session.rservices.com       * BridgeStation: view story .134  For more information on Top News: http://topnews.reuters.com))  Keywords: FINANCIAL/BUSH        ",
+        "Histogram": [
+            0,
+            0,
+            0
+        ],
+        "Relevance": 19.627683639526367,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it simply reports a statement made by U.S. President George W. Bush regarding the assurance of 'strong action' to deal with the economic crisis."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "UPDATE 1-Bush: don't turn inward due to financial crisis",
+        "URL": "UPDATE 1-Bush: don't turn inward due to financial crisis.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": " (Updates with Bush comments throughout)      WASHINGTON, Oct 21 (Reuters) - President George W. Bush on  Tuesday said it would be a 'serious mistake' to turn inward as  a result of the global financial crisis and the United States  must stay committed to helping the world's poor.      It was in the security, economic and moral interests of the  United States to promote international development, he said at  a White House summit on international development.      'We meet in the middle of a serious global financial  crisis. Over the past few weeks, we have seen how the world's  economies are more interconnected than ever before,' Bush  said.      'During times of economic crisis, some may be tempted to  turn inward -- focusing on our problems here at home, while  ignoring our interests around the world,' Bush said. 'This  would be a serious mistake.'      Secretary of State Condoleezza Rice, who spoke earlier at  the conference, said that when times were hard, it was to be  expected that states would focus on protecting their own  interests, but countries must maintain their commitment to  development aid.      'Reneging on our commitments to the world's poor cannot be  an austerity measure,' Rice told representatives of private aid  groups, beneficiary countries and U.S. government officials.      She said she hoped whoever replaces Bush in January, either  Republican John McCain or Democrat Barack Obama, would sustain  the U.S. aid commitment.      Bush said over the weekend that he would host the first in  a series of global financial crisis summits as the world  grapples with the biggest economic crisis since the Great  Depression.      Since the Bush administration came to office in 2001, the  United States had doubled development assistance to Latin  America, quadrupled it to Africa and tripled it world wide,  Rice said.      It also made over $7.5 billion in grants to developing  countries through its Millennium Challenge Corporation  program.   (Editing by Jackie Frank)   ((susan.cornwell@thomsonreuters.com; +1 202-898-8300; Reuters  Messaging: susan.cornwell.reuters.com@reuters.net))  Keywords: FINANCIAL USA/POOR        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 19.612560272216797,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to exhibit bias as it primarily reports on President George W. Bush's and Secretary of State Condoleezza Rice's statements regarding the global financial crisis and the United States' commitment to international development and aid."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Bush urges common global financial principles",
+        "URL": "Bush urges common global financial principles.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WASHINGTON, Oct 25 (Reuters) - President George W. Bush,  who will host a global summit on the financial crisis next  month, said on Saturday that agreeing on common principles to  reform regulators would be essential to preventing another  disaster.      His comments came one day after a worldwide sell-off in  stock markets amid growing fears of a global recession.  Friday's session was the lowest closing level for all three  major U.S. stock indexes since the spring of 2003.      'In recent weeks, concerns about the availability of  credit, the safety of financial assets, and the volatility of  the stock market have made many families understandably anxious  about their economic future,' Bush said in his weekly radio  address.      He sought to reassure Americans that the government's  actions to ease the credit crunch were starting to show  results, but said the full impact on the economy would take  time.      The United States will host a summit of global leaders on  Nov. 15 in Washington to discuss the underlying causes of the  crisis and start developing principles of reform for financial  regulators and institutions.      'This crisis is global in reach -- and addressing it will  require further international cooperation,' Bush said.      'While the specific solutions pursued by every country may  not be the same, agreeing on a common set of principles will be  an essential step toward preventing similar crises in the  future,' he said.      Bush warned against taking a protectionist turn in response  to the current financial turbulence, saying free markets and  free trade were fundamental to long-term economic growth.      'These policies have shown themselves time and time again  to be the surest path to creating jobs, increasing commerce,  and fostering progress,' Bush said. 'And this moment of global  economic uncertainty would be precisely the wrong time to  reject such proven methods for creating prosperity and hope.'   (Reporting by Tabassum Zakaria; Editing by Peter Cooney)   ((toby.zakaria@reuters.com ; +1 202 898 8300; Reuters  Messaging: toby.zakaria.reuters.com@reuters.net ))  Keywords: FINANCIAL/BUSH        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 19.2293701171875,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual report on President George W. Bush's statements regarding the global financial crisis and the upcoming summit, without exhibiting any evident bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Bush: working with govts to address financial crisis",
+        "URL": "Bush: working with govts to address financial crisis.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WASHINGTON, Oct 13 (Reuters) - U.S. President George W.  Bush on Monday said the United States was working with other  governments to address the global financial crisis and restore  economic growth.      'In these times of economic turmoil, we're working with  other governments to resolve the troubles of the financial  markets,' Bush said as he greeted visiting Italian Prime  Minister Silvio Berlusconi to the White House.      After meeting the Group of Seven finance ministers over the  weekend, Bush said: 'All of us will continue taking  responsible, decisive action to restore credit and stability  and return to vigorous growth.'   (Reporting by Jeremy Pelofsky; Editing by Theodore d'Afflisio)   ((jeremy.pelofsky@thomsonreuters.com; +1 202 898 8392;  jeremy.pelofsky.reuters.com@reuters.net))   ((Multimedia versions of Reuters Top News are now available  for: * 3000 Xtra: visit http://topnews.session.rservices.com *  BridgeStation: view story .134 For more information on Top  News: http://topnews.reuters.com))  Keywords: FINANCIAL/BUSH GROWTH        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 19.189809799194336,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a straightforward report on President George W. Bush's statements regarding the global financial crisis and the efforts to restore economic growth, without exhibiting any evident bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "US ex-president Carter slams Bush on market crisis",
+        "URL": "US ex-president Carter slams Bush on market crisis.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    BRUSSELS, Oct 10 (Reuters) - Former U.S. President Jimmy  Carter said on Friday the 'atrocious economic policies' of the  Bush administration had caused the worst global financial crisis  since the Great Depression of the 1930s.      Carter told reporters on a stopover in Brussels that  'profligate spending', massive borrowing and dramatic tax cuts  since President George W. Bush took office in 2001 were behind  the market turmoil and economic crisis.      'I think it's because of the atrocious economic policies of  the Bush administration,' said the 84-year-old Democrat, who  served in the White House from 1977-1981 during a period of high  inflation and energy crisis.      Whoever wins next month's U.S. presidential election would  inherit economic problems that would force them to postpone  implementing some of their proposed reforms, he said.      'The economic situation is an entrenched problem. It is  going to take years to correct what has been done economically,'  Carter said, adding he hoped Democrat Barrack Obama would win  and immediately improve Washington's image in the world.      Eight years ago, the United States had a budget surplus, low  inflation and a stable, strong economy, he said.      Carter said he was astonished that the United States now  owed China 'in the neighbourhood of $1 trillion'.      Deregulation and what he called a withdrawal of supervision  of Wall Street had encouraged irresponsible elements in the U.S.  financial system, enabling banks to borrow 30 times their value.      Carter was on his way back from a private peace mission to  Cyprus with fellow elder statesmen Lakhdar Brahimi of Algeria  and Archbishop Desmond Tutu of South Africa, intended to give a  push to talks between the Greek Cypriot and Turkish Cypriot  leaders on a settlement to reunite the divided island.   (Reporting by Paul Taylor; editing by Sami Aboudi)   ((paul.taylor@thomsonreuters.com; +322 2876801; Reuters   Messaging: paul.taylor.reuters.com@reuters.net))    Keywords: FINANCIAL/USA CARTER       ",
+        "Histogram": [
+            0.9,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0.6,
+            0,
+            0.6,
+            0,
+            0
+        ],
+        "Relevance": 19.11232566833496,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Former U.S. President Jimmy Carter said on Friday the 'atrocious economic policies' of the Bush administration had caused the worst global financial crisis since the Great Depression of the 1930s.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "The use of the word 'atrocious' to describe the economic policies of the Bush administration carries a highly negative connotation, implying a severe judgment without a neutral presentation of facts."
+                },
+                {
+                    "text": "'profligate spending', massive borrowing and dramatic tax cuts since President George W. Bush took office in 2001 were behind the market turmoil and economic crisis.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The choice of words such as 'profligate' and 'massive' to describe the administration's actions introduces a negative bias by suggesting irresponsibility and excessiveness without a balanced view."
+                },
+                {
+                    "text": "'I think it's because of the atrocious economic policies of the Bush administration,' said the 84-year-old Democrat, who served in the White House from 1977-1981 during a period of high inflation and energy crisis.",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence employs ad hominem by directly attacking the character of the Bush administration's policies as 'atrocious', focusing on personal judgment rather than a substantive critique of the policies themselves."
+                },
+                {
+                    "text": "Whoever wins next month's U.S. presidential election would inherit economic problems that would force them to postpone implementing some of their proposed reforms, he said.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The assertion that the next president would be forced to postpone reforms due to economic problems is speculative, as it assumes the outcome of the election and the specific nature of the economic challenges without concrete evidence."
+                },
+                {
+                    "text": "Eight years ago, the United States had a budget surplus, low inflation and a stable, strong economy, he said.",
+                    "bias_type": "Cherry Picking Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This statement selectively highlights a positive period in the U.S. economy's history to contrast with the current situation, omitting context and complexities that could provide a more balanced understanding."
+                },
+                {
+                    "text": "Deregulation and what he called a withdrawal of supervision of Wall Street had encouraged irresponsible elements in the U.S. financial system, enabling banks to borrow 30 times their value.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The assertion that deregulation and reduced supervision 'encouraged irresponsible elements' in the financial system presents a subjective opinion as a fact, without acknowledging differing perspectives or the complexity of the issue."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the discussion of the U.S. economic policies during the Bush administration, with a general bias tendency towards portraying these policies and their outcomes in a highly negative light. The biases identified include Word Choice Bias, Ad Hominem Bias, Speculation Bias, Cherry Picking Bias, and Opinionated Bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.65,
+            "percentage_of_biased_sentences": 0.2727272727272727,
+            "overall_rating": 0.46136363636363636
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Bush confident global leaders can overcome crisis",
+        "URL": "Bush confident global leaders can overcome crisis.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WASHINGTON, Nov 14 (Reuters) - U.S. President George W.  Bush said on Friday he was confident that global leaders  gathering in Washington for a summit could overcome the  financial crisis that has threatened world economies.      'By working together, I'm confident that with time we can  overcome this crisis and return our economies to the path of  growth and vitality,' Bush said in his weekly radio address  which was released on Friday ahead of the G20 summit.      'Nations around the world have responded to this situation  with bold measures, and our actions are having an impact,' Bush  said. He said credit markets were starting to thaw and  businesses were gaining access to short-term financing.      'It will require more time for these improvements to fully  take hold and there will be more difficult days ahead, but the  United States and our partners are taking the right steps to  get through the crisis,' he said.   (Reporting by Tabassum Zakaria; Editing by James Dalgleish)   ((toby.zakaria@thomsonreuters.com; +1 202 898 8300; Reuters  Messaging: toby.zakaria.reuters.com@reuters.net))   ((Multimedia versions of Reuters Top News are now available  for: * 3000 Xtra: visit http://topnews.session.rservices.com       * BridgeStation: view story .134  For more information on Top News: http://topnews.reuters.com))  Keywords: FINANCIAL/SUMMIT BUSH        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 19.040613174438477,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports on a statement made by U.S. President George W. Bush regarding his confidence in global leaders' ability to overcome the financial crisis. The language used is neutral and does not exhibit any of the typical markers of bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "FXNEWS-Bush: US in serious financial crisis",
+        "URL": "FXNEWS-Bush: US in serious financial crisis.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "President George W. Bush says the United States was in a serious  financial crisis as he tried to convince Americans to support a  $700 bln financial rescue plan. He warned that 'the market is not  functioning properly,' there is widespread loss of confidence,  major sectors are at risk, and more banks could fail and threaten  sending the US economy into recession. 'We must not let this  happen,' Bush said. Click on [nN24483504]      Reuters Messaging: masayuki.kitano.reuters.com@reuters.net  ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 19.031681060791016,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports on statements made by President George W. Bush regarding the financial crisis in the United States without introducing any subjective or misleading information."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Bush: U.S. in midst of serious financial crisis",
+        "URL": "Bush: U.S. in midst of serious financial crisis.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WASHINGTON, Sept 24 (Reuters) - President George W. Bush on  Wednesday said the United States was in a serious financial  crisis as he tried to convince Americans to support a $700  billion financial rescue plan.      'We are in the midst of a serious financial crisis and the  federal government is responding with decisive action,' Bush  said in a televised national address.      He warned that 'the market is not functioning properly,'  there is widespread loss of confidence, major sectors are at  risk, and more banks could fail and threaten sending the U.S.  economy into recession. 'We must not let this happen,' Bush  said.   (Reporting by Tabassum Zakaria; Editing by Chris Wilson)  ((toby.zakaria@reuters.com ; +1 202 898 8300; Reuters  Messaging: toby.zakaria.reuters.com@reuters.net ))  Keywords: FINANCIAL/BUSH SPEECH        ",
+        "Histogram": [
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0
+        ],
+        "Relevance": 18.842302322387695,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "'We are in the midst of a serious financial crisis and the federal government is responding with decisive action,' Bush said in a televised national address.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'serious financial crisis' and 'decisive action' is designed to evoke strong emotions and create a sense of urgency, potentially at the expense of a more balanced or nuanced view of the situation."
+                },
+                {
+                    "text": "He warned that 'the market is not functioning properly,' there is widespread loss of confidence, major sectors are at risk, and more banks could fail and threaten sending the U.S. economy into recession. 'We must not let this happen,' Bush said.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence also employs emotionally charged language, such as 'widespread loss of confidence' and the dire consequence of 'sending the U.S. economy into recession,' to provoke a strong reaction from the audience."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the financial crisis, particularly through the use of emotionally charged language that aims to provoke fear and urgency in the reader. The general bias tendency leans towards portraying the situation in a more dramatic light than a balanced, objective analysis might warrant."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.4,
+            "overall_rating": 0.5
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Bush says to host global financial summit",
+        "URL": "Bush says to host global financial summit.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    CAMP DAVID, Md., Oct 18 (Reuters) - U.S. President George  W. Bush said on Saturday he would host a global summit in the  near future to look at strategies to combat the global  financial crisis.      'It is essential that we work together because we are in  this crisis together,' Bush said before a meeting at the Camp  David presidential retreat with French President Nicolas  Sarkozy and European Union President Jose Manuel Barroso.      (Reporting by Tabassum Zakaria; editing by Sandra Maler)  Keywords: FINANCIAL/BUSH SUMMIT        ",
+        "Histogram": [
+            0,
+            0,
+            0
+        ],
+        "Relevance": 18.39242935180664,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports on a statement made by U.S. President George W. Bush regarding his intention to host a global summit to address the global financial crisis. The content is straightforward and does not exhibit any of the typical signs of bias discussed."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "UPDATE 1-Bush: Financial crisis needs coordinated response",
+        "URL": "UPDATE 1-Bush: Financial crisis needs coordinated response.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": " (Adds comments, background.)      By Jeremy Pelofsky      WASHINGTON, Oct 11 (Reuters) - U.S. President George W.  Bush on Saturday said the financial crisis will require a  global, coordinated response and the top industrial nations  will work together to solve it quickly, but cautioned it would  not be fixed overnight.      'All of us recognize that this is a serious global crisis  and therefore requires a serious global response,' he told  reporters after an unusual Saturday gathering with the Group of  Seven economic chiefs and leaders of the International Monetary  Fund and World Bank.      'I'm confident that the world's major economies can  overcome the challenges we face,' Bush said. He argued the  United States had a leadership role to play to resolve the  crisis.      Credit markets seized up as the U.S. housing market  crumbled over the last year, which sent global stocks  plummeting and forced the Bush administration to take  extraordinary steps to shore up the U.S. financial system.      Bush has insisted the $700 billion bailout package approved  a week ago by the U.S. Congress is adequate to address the  problems but it will take time to implement.      'These extraordinary efforts are being implemented as  quickly and as effectively as possible,' he said, flanked by  the G7 finance ministers as well as key members of his own  Cabinet, including Treasury Secretary Henry Paulson.      'The benefits will not be realized overnight, but as these  actions take effect, they will help restore stability to our  markets and confidence to our financial institutions,' Bush  said.      To address the credit crunch, global central banks have cut  lending costs and Washington intervened to offer additional  liquidity to lenders and protect more bank deposits.      The Treasury Department is also working on a plan to take  equity stakes in financial institutions to further boost their  balance sheets, which have been damaged by the housing losses.      Without credit, economic growth will collapse, and  investors have been looking to G7 for a comprehensive plan to  get credit flowing smoothly again.      Bush urged the Group of Seven leading industrial nations to  continue to work collaboratively and coordinate their responses  to help thaw the frozen credit markets, pointing to that  interest rate cut by central banks this week as a good  example.      'As our nations confront challenges unique to our  individual financial systems, we must continue to work  collaboratively and ensure that our actions are coordinated,'  he said.      Bush said the G7 would do what it takes to address the  crisis and praised the work by the group to implement measures  to get credit flowing again and ensure banks could raise money  again.      'As our nations carry out this plan we must ensure the  actions of one country do not contradict or undermine the  actions of another,' Bush said. 'We're in this together, we  will come through it together.'      The G7 finance ministers on Friday, however, stopped short  of endorsing a British proposal to guarantee lending between  banks as another way to get credit flowing again. The G7 is  made up of the United States, Germany, France, Japan, Canada,  Great Britain and Italy.   (Additional reporting by David Lawder; Editing by Neil  Stempleman)   ((jeremy.pelofsky@thomsonreuters.com; +1 202 898 8392;  jeremy.pelofsky.reuters.com@reuters.net))   ((Multimedia versions of Reuters Top News are now available  for: *",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 18.304946899414062,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to exhibit bias as it primarily reports on statements and actions related to the global financial crisis without introducing subjective opinions, speculative claims, or discriminatory language."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "TOPWRAP 2-Bush says U.S. to host global financial summit",
+        "URL": "TOPWRAP 2-Bush says U.S. to host global financial summit.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    * Bush to announce global financial summit      * U.S. consumer confidence in steepest-ever drop      * IMF says to investigate chief over affair      (For full crisis coverage, double click on [nCRISIS])      By Andrew Quinn      WASHINGTON, Oct 18 (Reuters) - President George W. Bush  will announce on Saturday that the United States will soon host  a summit to discuss the global financial crisis, a senior U.S.  administration official said.      The announcement came as Bush prepared to meet French  President Nicolas Sarkozy -- who has been publicly advocating  for an emergency summit --  and European Commission President  Jose Manuel Barroso at the presidential Camp David presidential  retreat on Saturday.      With the world gripped by the worst financial crisis since  the Great Depression, Sarkozy has called for an overhaul of the  international financial architecture established after World  War II at the 1944 Bretton Woods conference.      But Bush, who leaves office in January after the Nov. 4  U.S. presidential elections, has not made any public comments  about that proposal and White House aides say the Camp David  meeting was intended to focus on the immediate crisis.      Fears of a full-blown recession were fueled by figures  showing sharp declines in U.S. consumer confidence and new-home  construction, and stock markets around the world remain  volatile as investors count their losses and ponder if and when  the financial gloom may ease.      Interbank lending rates fell this week for the first time  since July, providing some hope that the worst of the worldwide  banking crisis may have passed.      Global financial institutions continued work to shore up  the shaky world economy, with Ukraine saying it may receive up  to $14 billion from the International Monetary Fund to  stabilize   its financial system [ID:nLH301115].      The IMF, meanwhile, said it was investigating whether its  chief Dominique Strauss-Kahn abused his power in an affair with  a subordinate who has since left the institution -- a potential  distraction as world leaders seek to reassess how the world  organizes its financial affairs [ID:nL1559086].      SUMMIT WINS U.S. SUPPORT      U.S. officials revealed plans for Bush's announcement after  earlier downplaying the Camp David meeting with Sarkozy, whose  country holds the rotating European Union presidency.      But the French leader got backing from Canada for the  summit proposal during a stop in Quebec, and U.N. Secretary  General Ban Ki-moon offered U.N. headquarters in New York as a  venue for the meeting [ID:nN18494581].      A senior U.S. official, speaking on condition of anonymity  before Saturday's meeting, said Bush now planned to announce  that the United States would host a summit 'in the near future'  to map out ways to resolve the current crisis and avoid future  financial shocks.      'The president wants participation and ideas from both  developed and developing nations in these discussions,' the  official said [ID:n18486390].      Sarkozy had earlier suggested the summit should include  China, India and other key countries which were not members of  the Group of Eight industrialized   nations.      The credit crunch continued to squeeze countries across the  globe.      Iceland, pushed close to financial collapse by the bank  crisis, faced more uncertainty as Russia indicated it was not  yet convinced it should issue it a loan. [ID:nLH574738]      In Russia, Finance Minister Al",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 18.194236755371094,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to contain biased sentences. It provides a factual overview of the global financial crisis and the proposed summit without exhibiting any evident bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "TOPWRAP 3-Bush says U.S. to host global financial summit",
+        "URL": "TOPWRAP 3-Bush says U.S. to host global financial summit.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    * Bush to announce global financial summit      * U.S. consumer confidence in steepest-ever drop      * IMF says to investigate chief over affair      (For full crisis coverage, double click on [nCRISIS])      By Andrew Quinn      WASHINGTON, Oct 18 (Reuters) - President George W. Bush  will announce on Saturday that the United States will soon host  a summit to discuss the global financial crisis, a senior U.S.  administration official said.      The announcement came as Bush prepared to meet French  President Nicolas Sarkozy -- who has been publicly advocating  for an emergency summit --  and European Commission President  Jose Manuel Barroso at the Camp David presidential retreat on  Saturday.      With the world gripped by the worst financial crisis since  the Great Depression, Sarkozy has called for an overhaul of the  international financial architecture established after World  War II at the 1944 Bretton Woods conference.      But Bush, who leaves office in January after the Nov. 4  U.S. presidential elections, has not made any public comments  about that proposal and White House aides say the Camp David  meeting was intended to focus on the immediate crisis.      Fears of a full-blown recession were fueled by figures  showing sharp declines in U.S. consumer confidence and new-home  construction, and stock markets around the world remain  volatile as investors count their losses and ponder if and when  the financial gloom may ease.      Despite the uncertainty European shares ended higher on  Friday. The U.S. Dow Jones Industrial average ended 127 points  down on Friday, but was still up 4.75 percent on the week.      Interbank lending rates fell this week for the first time  since July, providing some hope that the worst of the worldwide  banking crisis may have passed.      Global financial institutions continued work to shore up  the shaky world economy, with Ukraine saying it may receive up  to $14 billion from the International Monetary Fund to  stabilize  its financial system [ID:nLH301115].      The IMF, meanwhile, said it was investigating whether its  chief Dominique Strauss-Kahn abused his power in an affair with  a subordinate who has since left the institution -- a potential  distraction as world leaders seek to reassess how the world  organizes its financial affairs [ID:nL1559086].      SUMMIT WINS U.S. SUPPORT      U.S. officials revealed plans for Bush's announcement after  earlier downplaying the Camp David meeting with Sarkozy, whose  country holds the rotating European Union presidency.      But the French leader got backing from Canada for the  summit proposal during a stop in Quebec, and U.N. Secretary  General Ban Ki-moon offered U.N. headquarters in New York as a  venue for the meeting [ID:nN18494581].      A senior U.S. official, speaking on condition of anonymity  before Saturday's meeting, said Bush now planned to announce  that the United States would host a summit 'in the near future'  to map out ways to resolve the current crisis and avoid future  financial shocks.      'The president wants participation and ideas from both  developed and developing nations in these discussions,' the  official said [ID:n18486390].      Sarkozy had earlier suggested the summit should include  China, India and other key countries which were not members of  the Group of Eight industrialized   nations.      The credit crunch continued to squeeze countries across the  globe.      Iceland, pushed close to financial colla",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 18.112733840942383,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to contain biased sentences. It provides factual information about the announcement of a global financial summit and the context of the financial crisis without displaying any evident bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "UPDATE 1-Bush confident global leaders can overcome crisis",
+        "URL": "UPDATE 1-Bush confident global leaders can overcome crisis.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": " (Updates with quotes, details)      WASHINGTON, Nov 14 (Reuters) - U.S. President George W.  Bush said on Friday he was confident world leaders gathering  for a summit would eventually resolve the global financial  crisis and return their economies to a path of growth.      'By working together, I'm confident that with time we can  overcome this crisis and return our economies to the path of  growth and vitality,' Bush said in his weekly radio address, to  air Saturday. The White House released it on Friday ahead of  the G20 summit.      Leaders from G20 countries will attend a dinner at the  White House on Friday evening and hold meetings on Saturday to  discuss the financial crisis.      Bush said he would work with leaders to establish  principles of reform, such as greater market transparency and  ensuring proper regulation of markets, firms and financial  products.      'This is a decisive moment for the global economy,' he  said.      Bush argued against reinventing the system, and said the  solution was to 'fix the problems we face' and adhere to free  market principles.      White House spokeswoman Dana Perino said that the  administration has been supportive of an early warning system  and a college of supervisors for oversight of the world's  biggest financial institutions.      'These are things that we have been supportive of in the  past,' she told reporters.      Bush said the U.S. economy will recover from the current  turmoil. 'In the long run, Americans can be confident in the  future of our economy,' he said.      The 'bold measures' taken by countries around the world in  response to the financial crisis are having an impact as credit  markets start to thaw and businesses gain access to short-term  financing, Bush said.      'It will require more time for these improvements to fully  take hold and there will be more difficult days ahead, but the  United States and our partners are taking the right steps to  get through the crisis,' he said.   (Reporting by Tabassum Zakaria and David Alexander; Editing by  Dan Grebler)   ((toby.zakaria@thomsonreuters.com; +1 202 898 8300; Reuters  Messaging: toby.zakaria.reuters.com@reuters.net))   ((Multimedia versions of Reuters Top News are now available  for: * 3000 Xtra: visit http://topnews.session.rservices.com       * BridgeStation: view story .134  For more information on Top News: http://topnews.reuters.com))  Keywords: FINANCIAL/SUMMIT BUSH        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 18.046354293823242,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports on statements made by U.S. President George W. Bush regarding the global financial crisis and the upcoming G20 summit."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "China's Hu, Bush talk on financial crisis",
+        "URL": "China's Hu, Bush talk on financial crisis.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    BEIJING, Sept 22 (Reuters) - Chinese President Hu Jintao and U.S. President  George W. Bush spoke by telephone on Monday about the financial crisis engulfing  Wall Street, China News Service reported.      The state-run news agency said the two leaders spoke at Bush's request.      Hu expressed hope that U.S. government efforts would succeed in stabilising  the U.S. financial system, which he said would be in the interests of both the  United States and China.      China Investment Corp, the country's $200 billion sovereign wealth fund, is  in talks to increase its stake in Morgan Stanley <MS.N>.   (Reporting by Zhou Xin; Editing by Ken Wills)   ((alan.wheatley@thomsonreuters.com; +86 10 6627 1235;  alan.wheatley@reuters.com@reuters.net))  Keywords: CHINA USA/ECONOMY       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 17.965797424316406,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a straightforward report on the telephone conversation between Chinese President Hu Jintao and U.S. President George W. Bush regarding the financial crisis without exhibiting any of the typical signs of bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Bush: Economic challenges await new president",
+        "URL": "Bush: Economic challenges await new president.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WASHINGTON, Nov 6 (Reuters) - President George W. Bush said  on Thursday the United States faces economic challenges that  'will not pause' to let a new president settle into the job, as  he promised to work for an orderly transfer of power to  Democrat Barack Obama.      'Ensuring that this transition is as smooth as possible is  a priority for the rest of my presidency,' Bush told more than  a thousand federal employees at the White House.      'We face economic challenges that will not pause to let a  new president settle in,' Bush said, referring to the economic  and financial crisis that has roiled world markets.      (Editing by Sandra Maler)    ((Reuters Messaging: matt.spetalnick.reuters.com@reuters.net;  +1 202 898 8300))  Keywords: FINANCIAL BUSH/        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 17.79730224609375,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual report on President George W. Bush's statement regarding the economic challenges facing the United States and his commitment to a smooth transition of power to President-elect Barack Obama."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    }
+]

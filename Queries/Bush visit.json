@@ -1,0 +1,885 @@
+[
+    {
+        "Title": "Bush to visit Africa in February",
+        "URL": "Bush to visit Africa in February.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WASHINGTON, Jan 25 (Reuters) - U.S. President George W.  Bush will travel to Africa in February to highlight efforts to  boost economic development and fight AIDS and other diseases,  the White House said on Friday.      Bush will visit Benin, Tanzania, Rwanda, Ghana and Liberia  between Feb. 15 and Feb. 21 and meet with their heads of state,  the White House said.      Bush last visited Africa in 2003.      (Reporting by Andy Sullivan, editing by Vicki Allen)      ((andy.sullivan@reuters.com; +1 202 898 8360; Reuters  Messaging: andy.sullivan.reuters.com@reuters.net))  Keywords: USA BUSH/AFRICA       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 12.801307678222656,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it simply reports on U.S. President George W. Bush's upcoming visit to Africa to focus on economic development and healthcare initiatives."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Bush makes farewell visit to Iraq",
+        "URL": "Bush makes farewell visit to Iraq.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    BAGHDAD, Dec 14 (Reuters) - U.S. President George W. Bush  made an unannounced farewell visit to Baghdad on Sunday, just  weeks before he leaves office and bequeaths the unpopular Iraq  war to President-elect Barack Obama.      'Bush has come to meet Iraqi leaders, thank the troops and  celebrate the new security agreement,' a White House official  said.    ((Reuters Messaging: matt.spetalnick.reuters.com@reuters.net;  +1 202 898 8300, fax +1 202 898 8383))      Keywords: IRAQ/BUSH        ",
+        "Histogram": [
+            0,
+            0,
+            0
+        ],
+        "Relevance": 12.782453536987305,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual report of U.S. President George W. Bush's farewell visit to Baghdad without exhibiting any evident bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Tanzanian Muslims demonstrate against Bush visit",
+        "URL": "Tanzanian Muslims demonstrate against Bush visit.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Wangui Kanina       DAR ES SALAAM, Feb 15 (Reuters) - About 2,000 Muslims  marched through Tanzania's capital on Friday and burned U.S.  flags in protest against a visit by President George W. Bush.     Chanting 'Bush is an oil thief' and 'evil is not a foreign  policy', the demonstrators, some wearing traditional Muslim  dress including the Islamic women's black bui-bui, tried to  march from the city's centre to the U.S. embassy on its northern  outskirts.       They were diverted to open ground by a small force of police  but tore down U.S. flags erected for Bush's visit this weekend  and burned them. The police did not intervene and there was no  violence.       The protesters chanted 'Who is a terrorist? Bush.'       The demonstration, which began after Friday prayers, caused  a major traffic jam across the narrow Selander bridge leading  out of Dar es Salaam.       One of the march organisers, Sheikh Mussa Kundecha, told  Reuters: 'We will be the first to receive Bush by protesting  against him and cursing his visit.'      Bush is scheduled to arrive on Saturday night on the second  and longest leg of a five-nation African tour. Tanzania is  considered one of Africa's most stable and democratic nations  and President Jakaya Kikwete is a favourite of Washington.       But Muslims are angered by the wars in Iraq and Afghanistan,  by U.S. backing of an Ethiopian invasion of Somalia to help  defeat Islamists -- and the subsequent rendition of Muslim  suspects -- and by Tanzanian anti-terrorism laws which they say  discriminates against them.       The fortified U.S. embassy was moved to its current location  after the previous building was badly damaged in a 1998 bomb  blast linked to al Qaeda and coordinated with a devastating  attack on the American mission in neighbouring Kenya.    (Additional reporting by Anthony Njuguna; Writing by Barry  Moody; Editing by Michael Winfrey)   ((barry.moody@reuters.com; +254 20 224717; Reuters Messaging:  barry.moody.reuters.com@reuters.net))    Keywords: AFRICA BUSH/DEMONSTRATION        ",
+        "Histogram": [
+            0,
+            0.6,
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 12.686712265014648,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Chanting 'Bush is an oil thief' and 'evil is not a foreign policy', the demonstrators, some wearing traditional Muslim dress including the Islamic women's black bui-bui, tried to march from the city's centre to the U.S. embassy on its northern outskirts.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'Bush is an oil thief' and 'evil is not a foreign policy' employs strong negative connotations and adjectives to describe President Bush, implying a judgment and bias against him and his policies."
+                },
+                {
+                    "text": "The protesters chanted 'Who is a terrorist? Bush.'",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Posing the question 'Who is a terrorist? Bush.' directly attributes the label of 'terrorist' to Bush, using provocative language to imply a judgment and bias without presenting a balanced perspective."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias through the use of word choice, employing strong negative connotations and adjectives to describe President Bush and attributing the label of 'terrorist' to him. The general bias tendency is against President Bush's policies and actions, particularly in the context of Muslim demonstrations in Tanzania."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.23076923076923078,
+            "overall_rating": 0.41538461538461535
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Bush to visit Ukraine this month - Yushchenko",
+        "URL": "Bush to visit Ukraine this month - Yushchenko.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    BRUSSELS, March 13 (Reuters) - U.S. President George W. Bush  will visit Ukraine at the end of the month, Ukrainian President  Viktor Yushchenko said on Thursday.      'I can now officially state that President Bush will make an  official visit to Ukraine from March 31 to April 1,' Yushchenko  told reporters.      The visit will come days before an April 2-4 NATO summit in  Bucharest where allies are due to discuss ex-Soviet Ukraine's  request for a framework setting out steps towards ultimate  membership of the military alliance. Russia is deeply opposed to  Kiev's membership aspirations.   (Reporting by David Brunnstrom, writing by William Schomberg)   ((david.brunnstrom@reuters.com ; +32 2 287 6839; Reuters  Messaging: david.brunnstrom.reuters.com@reuters.net ))    Keywords: UKRAINE USA/        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 12.52595329284668,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it simply reports on the upcoming visit of U.S. President George W. Bush to Ukraine and the context of Ukraine's NATO membership aspirations without introducing any subjective or misleading information."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Bush on visit to Afghanistan - White House",
+        "URL": "Bush on visit to Afghanistan - White House.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WASHINGTON, Dec 14 (Reuters) - U.S. President George W.  Bush arrived in Afghanistan late on Sunday, a pool report from  Air Force One said.      The White House said Bush will meet with Afghan President  Hamid Karzai and address U.S. troops during his visit.      Bush's plane landed in darkness at Bagram Air Base outside  Kabul.     (Writing by Joanne Allen; Editing by Jackie Frank)   ((joanne.allen@thomsonreuters.com; +1 202 898 8322))       Keywords: BUSH AFGHANISTAN/        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 12.46699333190918,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it simply reports on U.S. President George W. Bush's visit to Afghanistan without including any biased language or perspectives."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Hamas dismisses Bush Mideast visit as \"photo op\"",
+        "URL": "Hamas dismisses Bush Mideast visit as \"photo op\".txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    GAZA, Jan 5 (Reuters) - Palestinian Islamist group Hamas on  Saturday dismissed U.S. President George W. Bush's upcoming  visit to the Middle East as a 'photo opportunity' and said he  was not welcome in the region.      Hamas, which seized control of the Gaza Strip in June and  opposes Palestinian President Mahmoud Abbas's bid to make peace  with Israel, said Bush's visit was aimed at shoring up support  for the Jewish state and its occupation of Palestinian land.      'Bush's visit is unwelcome because it aims to serve the  occupation and provide it with political and psychological  support,' Hamas official Sami Abu Zuhri said in a statement.      'The visit is nothing but a farewell visit to get some photo  opportunities as Bush prepares to leave the White House.'      Israeli Prime Minister Ehud Olmert and Abbas agreed at a  conference in Annapolis, Maryland, in November to try to forge a  deal on Palestinian statehood by the time Bush leaves office in  early 2009.      Sceptics say the president's hands-off approach to Middle  East peacemaking during his almost seven years in office as well  as Hamas's control of Gaza undermine chances for a breakthrough.      Hoping to bolster fragile peace efforts, Bush will make his  first presidential visit to Israel and the West Bank next week.      Israel and its Western allies are trying to bolster Abbas  against his Hamas rivals and have shunned the Islamist group for  refusing to renounce violence and recognise the Jewish state.      Abu Zuhri said Bush's visit was meant to fuel internal  Palestinian divisions, and said the president's policies were  'completely biased' in favour of Israel.      Hamas seized control of Gaza after routing Abbas's Fatah  forces in June, prompting Abbas to sack a Hamas-led government  and appoint a new administration led by Western-educated Salam  Fayyad, paving the way for U.S. talks with Israel.      Fayyad told a Palestinian radio station on Saturday  Palestinians would press Bush on Israel's settlement activity --  an issue that has already soured talks and which Bush this week  called 'an impediment' to peace efforts.      Talks launched at Annapolis have faltered since Israel  announced plans to build hundreds of new homes on occupied land  -- a move the Palestinians say contravenes its obligations under  a 2003 U.S. peace 'road map'.      Israel argues the Palestinians have failed to meet their own  road map commitments on reining in militants.   (Reporting by Nidal al-Mughrabi; Writing by Rebecca Harrison;  Editing by Stephen Weeks)   ((rebecca.harrison@reuters.com; +972 2 632 2202; Reuters  Messaging: rebecca.harrison.reuters.com@reuters.net))    Keywords: PALESTINIANS HAMAS/BUSH       ",
+        "Histogram": [
+            0,
+            0.6,
+            0.9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.9,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 12.260125160217285,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Hamas, which seized control of the Gaza Strip in June and opposes Palestinian President Mahmoud Abbas's bid to make peace with Israel, said Bush's visit was aimed at shoring up support for the Jewish state and its occupation of Palestinian land.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'occupation of Palestinian land' carries a negative connotation and implies a judgment about the situation, suggesting a bias against Israel."
+                },
+                {
+                    "text": "'Bush's visit is unwelcome because it aims to serve the occupation and provide it with political and psychological support,' Hamas official Sami Abu Zuhri said in a statement.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "This sentence presents a subjective opinion as a fact, portraying the purpose of Bush's visit in a negative light without objective evidence."
+                },
+                {
+                    "text": "Abu Zuhri said Bush's visit was meant to fuel internal Palestinian divisions, and said the president's policies were 'completely biased' in favour of Israel.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "Again, this sentence attributes a strong negative judgment ('completely biased') to the president's policies without providing a balanced perspective or evidence."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the Israeli-Palestinian conflict, with a general tendency towards portraying Israel negatively and suggesting that external support, particularly from the U.S., is unjust or detrimental."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.7999999999999999,
+            "percentage_of_biased_sentences": 0.14285714285714285,
+            "overall_rating": 0.4714285714285714
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "UPDATE 1-Bush makes unannounced visit to Afghanistan",
+        "URL": "UPDATE 1-Bush makes unannounced visit to Afghanistan.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": " (Adds details)      By Matt Spetalnick      KABUL, Dec 15 (Reuters) - President George W. Bush made an  unannounced visit to Afghanistan on Monday with assurances that  the United States will stand by the war-torn country despite a  transition of power at the White House.       Moving from one war zone to another, Bush flew secretly from  Baghdad to Kabul, landing under cover of darkness for talks with  Afghan President Hamid Karzai and meetings with U.S. troops  spearheading the fight against a resurgent Taliban.       'I want to be in Afghanistan to say thank you to President  Karzai and let the people of Afghanistan know that the United  States has stood with them and will stand with them,' Bush told  reporters before landing at Bagram Air Base outside the capital.      On his farewell visit to Baghdad on Sunday, meant to mark  greater security in Iraq after years of bloodshed, an Iraqi  reporter called Bush a 'dog' and threw his shoes at him.       After Air Force One touched down under heavy security, Bush  strode across the tarmac and into a giant tent where hundreds of  troops greeted him with raucous cheers as he thanked them for  their service. 'I am confident we will succeed in Afghanistan  because our cause is just,' he told them.       Bush, who has ordered a troop increase in Afghanistan,  appeared to lend tacit support to President-elect Barack Obama's  pledge to increase troop levels after he takes office on Jan. 20.       'I recognized that we needed more troops. President-elect  Obama is going to make decisions on troops. And we've been  calling on our NATO allies to put in more troops,' Bush said.       Obama has promised to make Afghanistan a higher priority,  saying the Bush administration has been too distracted by the  unpopular Iraq war to pay Afghanistan the attention it deserves.       Bush also said it was important for the United States to  keep working with Pakistan to pressure militants along its border  with Afghanistan. Osama bin Laden and his top al Qaeda lieuteants  are believed to be hiding out in the remote, lawless region.       'If Pakistan is a place from which people feel comfortable  attacking infrastructure, citizens, troops, it's going to make it  difficult to succeed in Afghanistan,' Bush said.       'The more we can get Pakistan and Afghanistan to cooperate,  the easier it will be to enforce that part of the border  regions,' Bush added.   (Reporting by Matt Spetalnick; Editing by Bill Tarrant)   ((william.tarrant.reuters.com; +65 6870-3815)       Keywords: BUSH/AFGHANISTAN         (Adds details)      By Matt Spetalnick      KABUL, Dec 15 (Reuters) - President George W. Bush made an  unannounced visit to Afghanistan on Monday with assurances that  the United States will stand by the war-torn country despite a  transition of power at the White House.       Moving from one war zone to another, Bush flew secretly from  Baghdad to Kabul, landing under cover of darkness for talks with  Afghan President Hamid Karzai and meetings with U.S. troops  spearheading the fight against a resurgent Taliban.       'I want to be in Afghanistan to say thank you to President  Karzai and let the people of Afghanistan know that the United  States has stood with them and will stand with them,' Bush told  reporters before landing at Bagram Air Base outside the capital.      On his farewell visit to Baghdad on Sunday, meant to mark  greater security in Iraq after years of bloodshed, an Iraqi  reporter called Bush a '",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0.9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.9
+        ],
+        "Relevance": 12.195125579833984,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "On his farewell visit to Baghdad on Sunday, meant to mark greater security in Iraq after years of bloodshed, an Iraqi reporter called Bush a 'dog' and threw his shoes at him.",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "This sentence exhibits Ad Hominem Bias by focusing on a personal attack against President Bush, rather than the substance of his visit or the issues at hand. The use of derogatory language and the physical act of throwing shoes are aimed at discrediting Bush's character, not his policies or actions."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article contains Ad Hominem Bias, specifically targeting President Bush with a personal attack during his visit to Baghdad. This bias detracts from the objective reporting of the visit's significance and the broader issues in Afghanistan and Iraq."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.9,
+            "percentage_of_biased_sentences": 0.05263157894736842,
+            "overall_rating": 0.47631578947368425
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Olmert, Abbas consider meeting ahead of Bush visit",
+        "URL": "Olmert, Abbas consider meeting ahead of Bush visit.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    JERUSALEM, Jan 6 (Reuters) - Israeli Prime Minister Ehud  Olmert and Palestinian President Mahmoud Abbas are considering  meeting ahead of a visit by U.S. President George W. Bush, an  Israeli government official said on Sunday.      Olmert and Abbas had not been expected to meet before Bush's  visit to Israel and the occupied West Bank later this week.      'We are examining the possibility of holding a meeting  between Olmert and Abbas before the arrival of President Bush  later this week,' said the Israeli official, speaking on  condition of anonymity. Olmert and Abbas last met in Jerusalem  on December 27.           Keywords: PALESTINIANS ISRAEL/MEETING       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 12.097146987915039,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a straightforward report on the consideration of a meeting between Israeli Prime Minister Ehud Olmert and Palestinian President Mahmoud Abbas ahead of a visit by U.S. President George W. Bush."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Israeli barrier, Arafat memory loom over Bush visit",
+        "URL": "Israeli barrier, Arafat memory loom over Bush visit.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Matt Spetalnick and Mohammed Assadi      RAMALLAH, West Bank, Jan 10 (Reuters) - Making his first  presidential visit to the occupied West Bank on Thursday,   George W. Bush passed potent symbols of the conflict he hopes to  solve -- Jewish settlements and Israel's imposing barrier.      On day two of a trip to Israel and the West Bank to try to  invigorate Middle East peace talks, Bush was forced by bad  weather to travel to a meeting with Palestinian President  Mahmoud Abbas by motorcade instead of helicopter.      The drive to the city of Ramallah took him past Israel's  towering concrete and barbed wire barrier, through a military  checkpoint and around craggy West Bank hills dotted with the  red-roofed houses of Jewish settlements -- highlighting some of  the thorniest problems facing peacemakers.      Bush and Abbas met at the presidential 'Muqata' compound --  spruced up with a fresh coat of paint -- which stirred memories  of late Palestinian leader Yasser Arafat, who spent the last  three years of his life under siege there by Israeli forces.      Arafat came to embody the Palestinian struggle against  Israel but was reviled by Bush as an obstacle to peace. A  photograph of the leader in his trademark chequered kaffiyeh  hung above Bush as the U.S. president voiced confidence that a  deal to create a state of Palestine was in reach.      After the meeting, Bush's helicopter took off from a  re-paved parking lot next to Arafat's mausoleum -- which the  president bypassed. Snipers stood atop the muqata.      Many in Ramallah said Bush was biased in favour of Israel  and doubt he will press the Jewish state to halt settlement  activity in the West Bank and ease security restrictions they  say amount to collective punishment.      While echoing Israel's argument that military checkpoints  are needed to protect its citizens, Bush also acknowledged the  'massive frustrations' they cause Palestinians and joked about  his own journey to the West Bank.      'You'll be happy to hear that my motorcade of 45 cars was  able to make it through without being stopped but I'm not  exactly sure that's what happens to the average person,' he  said.      Ramallah, usually a bustling business hub, came to a  standstill for the visit -- the first by a sitting U.S.  president to the city about 20 km (12 miles) from downtown  Jerusalem.      Shops straddling the road to Abbas's compound closed and  pedestrians were banned from the streets, while hundreds of  armed Palestinian security officers patrolled key intersections.      Some locals complained about the disruption, especially  given scant hopes for the visit.      'His weapons are being used to kill our kids so he cannot be  an honest mediator,' said Abu Haitham, a father of eight who  sells spinach in Ramallah's market. 'I'm incurring losses  because of him.'      A devout Christian, Bush headed to Bethlehem to visit the  traditional birthplace of Jesus on Thursday.   (Writing by Rebecca Harrison; Editing by Dominic Evans)   ((rebecca.harrison@reuters.com; +972 2 632 2202; Reuters  Messaging: rebecca.harrison.reuters.com@reuters.net))    Keywords: BUSH MIDEAST/SCENE        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0
+        ],
+        "Relevance": 12.006705284118652,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Many in Ramallah said Bush was biased in favour of Israel and doubt he will press the Jewish state to halt settlement activity in the West Bank and ease security restrictions they say amount to collective punishment.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence presents a subjective opinion about Bush's bias in favor of Israel as a fact, without providing evidence or a balanced perspective, thus obscuring the line between fact and personal perspective."
+                },
+                {
+                    "text": "Some locals complained about the disruption, especially given scant hopes for the visit. 'His weapons are being used to kill our kids so he cannot be an honest mediator,' said Abu Haitham, a father of eight who sells spinach in Ramallah's market. 'I'm incurring losses because of him.'",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This quote uses emotionally charged language to evoke a strong, negative response towards Bush, implying a direct responsibility for the deaths of Palestinians without a balanced or factual discussion."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the portrayal of George W. Bush's role in the Israeli-Palestinian conflict, with a tendency towards Opinionated Bias and Emotional Sensationalism Bias. The topics discussed include Bush's perceived bias in favor of Israel and the emotional impact of his policies on Palestinians."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.2222222222222222,
+            "overall_rating": 0.4111111111111111
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "PREVIEW-Bush visit to boost Croatia's Balkan role",
+        "URL": "PREVIEW-Bush visit to boost Croatia's Balkan role.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Zoran Radosavljevic      ZAGREB, April 1 (Reuters) - U.S. President George W. Bush  visits Croatia on Friday as the West seeks to strengthen NATO's  presence in the Balkans around Serbia after Kosovo's  independence.      Bush will spend almost two days in Zagreb after visiting  Ukraine and attending a NATO summit in Bucharest, expected to  yield an invitation to join the alliance for Croatia and  possibly two more Balkan states, Macedonia and Albania.      Croatian Prime Minister Ivo Sanader said the length of  Bush's stay showed particular importance Washington attached to  the visit.      'President Bush is coming to celebrate what we expect will  be Croatia's invitation (to join NATO) and to recognise the hard  work Croatia has done,' U.S. Ambassador Robert Bradtke told  reporters in Zagreb on Tuesday.      'It should also show other countries in the region that if  they do the hard work in economic, political and military  reforms, the door to NATO is open,' he said.      An EU diplomat with extensive knowledge of the region, said  the visit had more important undertones.      'The NATO invite and the Bush visit are coordinated. This is  not because the West really cares so much about Croatia, but  because they are protectively creating a safety cordon around  Serbia and potential instability there,' the diplomat said.      Political analyst Zeljko Trkanjec said Washington obviously  aimed to put most of Serbia's neighbours under NATO's umbrella.      'This will put Serbia under pressure to turn to the West and  not Russia, and reduce possibilities for the spillover of any  crisis,' Trkanjec said.      Kosovo declared independence from Serbia in February,  reviving bitter anti-NATO feelings among Serbs. NATO bombed  parts of Serbia in 1999 to try to halt ethnic cleansing in  Kosovo.            PATH TO EU      Croatia hopes NATO could also boost its bid for European  Union membership -- which Zagreb expects around 2011 -- as was  the case with eight east European countries that joined the  alliance in 2002 and the EU two years later.      'The visit of the U.S. president is an honour for every  country, including Croatia. It will boost our image,' said  President Stjepan Mesic, who will host Bush and his wife Laura  at a dinner in the presidential palace in Zagreb.      On Saturday morning, Bush will address the Croatian public  at the historic St. Mark's square, which houses government and  parliament buildings.      He will later have lunch with Mesic, Prime Minister Ivo  Sanader and their counterparts from Macedonia and Albania.      But not all Zagreb residents were happy about the visit.      Citizens feared traffic jams and several local  anti-globalisation groups announced protest rallies in Zagreb.      And a busker who plays the guitar and sings near the  government building will be asked to move a few blocks away.      'It's a shame. I know quite a few American rock'n'roll songs  I could play for him,' said the man, who gave his name as Vlado.   (Reporting by Zoran Radosavljevic; Editing by Charles Dick)   ((zoran.radosavljevic@reuters.com; Reuters Messaging:  zoran.radosavljevic.reuters.com@reuters.net, +385 1 4899 971))    Keywords: BUSH CROATIA/        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.8,
+            0.8,
+            0.8,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0
+        ],
+        "Relevance": 11.986474990844727,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "An EU diplomat with extensive knowledge of the region, said the visit had more important undertones. 'The NATO invite and the Bush visit are coordinated. This is not because the West really cares so much about Croatia, but because they are protectively creating a safety cordon around Serbia and potential instability there,' the diplomat said.",
+                    "bias_type": "Political Bias",
+                    "bias_strength": 0.8,
+                    "bias_description": "This sentence exhibits political bias by suggesting that the West's interest in Croatia is not genuine, but rather a strategic move to contain potential instability in Serbia. It implies a dismissive attitude towards Croatia's significance, favoring a political perspective that downplays the importance of the visit."
+                },
+                {
+                    "text": "Political analyst Zeljko Trkanjec said Washington obviously aimed to put most of Serbia's neighbours under NATO's umbrella. 'This will put Serbia under pressure to turn to the West and not Russia, and reduce possibilities for the spillover of any crisis,' Trkanjec said.",
+                    "bias_type": "Political Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The statement reflects political bias by framing NATO's expansion as a deliberate strategy to influence Serbia's geopolitical orientation. It suggests a manipulative intent by the U.S. to encircle Serbia with NATO members, favoring a narrative that portrays the West's actions as coercive rather than cooperative."
+                },
+                {
+                    "text": "But not all Zagreb residents were happy about the visit. Citizens feared traffic jams and several local anti-globalisation groups announced protest rallies in Zagreb. And a busker who plays the guitar and sings near the government building will be asked to move a few blocks away. 'It's a shame. I know quite a few American rock'n'roll songs I could play for him,' said the man, who gave his name as Vlado.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence demonstrates word choice bias by using the phrase 'It's a shame' to express disapproval of the busker being asked to move. The choice of words implies a negative judgment on the situation, suggesting that the request made to the busker is unjust or regrettable, thus influencing the reader's perception."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the topic of U.S. President George W. Bush's visit to Croatia and its implications for the region. The biases identified include political bias, particularly in the context of NATO's role in the Balkans and the perceived motivations behind U.S. actions, as well as word choice bias in the portrayal of public reactions to the visit. The general bias tendency leans towards a skeptical view of the visit's significance and the underlying motives of the involved parties."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6666666666666666,
+            "percentage_of_biased_sentences": 0.3333333333333333,
+            "overall_rating": 0.5
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "UPDATE 4-Bush makes farewell visit to Iraq",
+        "URL": "UPDATE 4-Bush makes farewell visit to Iraq.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": " (Adds quotes after meeting with Talabani, reaction)      By Matt Spetalnick      BAGHDAD, Dec 14 (Reuters) - U.S. President George W. Bush  made a farewell visit to Baghdad on Sunday, flying in secret out  of Washington just weeks before he bequeaths the unpopular Iraq  war to President-elect Barack Obama.      Bush held talks with President Jalal Talabani and Prime  Minister Nuri al-Maliki, and was due to address U.S. troops. He  made a show of the improved security in Baghdad after five years  of sectarian bloodshed by landing in daylight and venturing out  beyond the heavily fortified international Green Zone.      Bush's visit was intended to thank U.S. troops for their  efforts and 'pat the Iraqis on the back for all they've  accomplished this last year', said General Douglas Lute, White  House coordinator for Iraq and Afghanistan.      Bush arrived first by helicopter at the presidential palace  for talks with Talabani and his two vice-presidents.      Talabani called Bush a great friend of the Iraqi people 'who  helped us to liberate our country and to reach this day, which  we have democracy, human rights, and prosperity gradually in our  country'. He said he hoped that friendship would continue when  Bush went back to Texas after leaving the presidency.      Bush's trip -- his fourth to Iraq since the 2003 U.S.-led  invasion -- follows approval of a security pact between  Washington and Baghdad last month that paves the way for U.S.  forces to withdraw by the end of 2011.      Bush, beaming with obvious delight during the meeting with  Talabani, said he had come to herald the passage of the security  pact. 'And the work hasn't been easy, but it has been necessary  for American security, Iraqi hope, and world peace,' he said.      The pact has its critics in Iraq, who doubt the United  States will live up to its promise to leave Iraqi cities by the  end of June next year and withdraw completely by end-2011.      'We reject this visit, as it occurs at a time when Iraq is  still under the U.S. occupation and the U.S army has the upper  hand in controlling the security situation,' said Ahmed  al-Massoudi, a spokesman for the parliamentary bloc loyal to  anti-American Shi'ite cleric Moqtada al-Sadr.      'This visit is a show of force.'            SHOWCASE SECURITY GAINS      The brief visit was meant to showcase recent security gains  in Iraq but was also a stark reminder of how heavily the war  will weigh on the Republican president's foreign policy legacy.      Though Iraq has slipped down the list of Americans' concerns  as the recession-hit U.S. economy has taken center stage, polls  show most people think the war was a mistake.      It will now be left to Obama, a Democrat and early opponent  of U.S. military involvement in Iraq, to sort out an exit  strategy after he takes office on Jan. 20.      About 140,000 U.S. troops will still be in Iraq nearly six  years into a war that has killed more than 4,200 American  military personnel and tens of thousands of Iraqis.      Bush was greeted on the heavily guarded tarmac in Baghdad by  the top U.S. commander in Iraq, General Ray Odierno, and U.S.  Ambassador Ryan Crocker.      The decision to land in broad daylight reflected confidence  that Baghdad was more secure this time than in Bush's last visit  to the capital in 2006 when sectarian violence was raging.      Until Air Force One touched down, Bush's trip was conducted  in strictest secrecy. The presidential jet was rolled out",
+        "Histogram": [
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 11.94632339477539,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Bush made a show of the improved security in Baghdad after five years of sectarian bloodshed by landing in daylight and venturing out beyond the heavily fortified international Green Zone.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The phrase 'made a show' implies a deliberate, possibly insincere, display for the purpose of impressing others, suggesting a judgment about the nature of the visit's intentions."
+                },
+                {
+                    "text": "Bush's visit was intended to thank U.S. troops for their efforts and 'pat the Iraqis on the back for all they've accomplished this last year', said General Douglas Lute, White House coordinator for Iraq and Afghanistan.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the colloquial expression 'pat the Iraqis on the back' can be seen as diminishing the significance of the visit's purpose, implying a condescending or dismissive attitude."
+                },
+                {
+                    "text": "Talabani called Bush a great friend of the Iraqi people 'who helped us to liberate our country and to reach this day, which we have democracy, human rights, and prosperity gradually in our country'. He said he hoped that friendship would continue when Bush went back to Texas after leaving the presidency.",
+                    "bias_type": "Mud Praise Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence excessively praises Bush without regard for an objective evaluation, presenting a one-sided and overly positive view of his role in Iraq's development."
+                },
+                {
+                    "text": "Bush, beaming with obvious delight during the meeting with Talabani, said he had come to herald the passage of the security pact. 'And the work hasn't been easy, but it has been necessary for American security, Iraqi hope, and world peace,' he said.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The description of Bush as 'beaming with obvious delight' and the dramatic assertion of the work being 'necessary for American security, Iraqi hope, and world peace' are designed to evoke strong emotions and overstate the significance of the visit."
+                },
+                {
+                    "text": "'We reject this visit, as it occurs at a time when Iraq is still under the U.S. occupation and the U.S army has the upper hand in controlling the security situation,' said Ahmed al-Massoudi, a spokesman for the parliamentary bloc loyal to anti-American Shi'ite cleric Moqtada al-Sadr.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'we reject this visit' and the framing of the U.S. presence as 'occupation' with 'the upper hand' in a negative context reflects a biased perspective against the visit and the U.S. role in Iraq."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the portrayal of George W. Bush's visit to Iraq, particularly in the choice of words and the emotional framing of the events and reactions. The biases identified include Word Choice Bias, Mud Praise Bias, and Emotional Sensationalism Bias, all of which contribute to a general bias tendency towards presenting the visit and its significance in a more positive light than may be warranted."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.18181818181818182,
+            "overall_rating": 0.3909090909090909
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Laura Bush, on Afghan visit, urges strong support",
+        "URL": "Laura Bush, on Afghan visit, urges strong support.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Matt Spetalnick      KABUL, June 8 (Reuters) - U.S. first lady Laura Bush made  an unannounced visit to Afghanistan on Sunday with an appeal to  the international community not to abandon the war-torn country  in the face of resurgent Taliban violence.      She flew into Kabul under tight security for an 8-1/2-hour  trip to a place that her husband, President George W. Bush, has  declared a main front in the battle against Muslim militants.      Mrs. Bush depicted her visit as a chance to showcase  'hopeful signs' of reconstruction and improved women's rights  since U.S.-led forces ousted the fundamentalist Taliban  government more than six years ago.      Another major thrust of her mission was to shore up the  international commitment to the country as Afghan, U.S. and  NATO forces struggle to contain a Taliban guerrilla war.      'We don't need to be intimidated by them,' Mrs. Bush,  making her third visit to Afghanistan, told reporters on her  plane heading for Kabul.      'The international community can't drop Afghanistan now at  this very crucial time,' she said.      It was important for the Afghan people to get the message  that 'the rest of the world is with you and that we're not  going to leave you right now when the Taliban and al Qaeda is  trying to intimidate you,' she said.      Washington, the biggest contributor to NATO's force in  Afghanistan, has met resistance from some of its European  allies to its calls to boost troop levels.      Aid donors have also become increasingly alarmed by rising  violence in the country, which over the past two years has been  the bloodiest since the Taliban's ouster.      Mindful of the Taliban threat, the White House kept a tight  lid of secrecy on Mrs. Bash's travels until the moment she  landed. Only then were journalists accompanying her allowed to  report her arrival.           MUCH TO BE DONE      Mrs. Bush said she hoped her visit would help her make the  case at an Afghan donors conference in Paris next week that the  international community 'needs to stay with Afghanistan.'      Some partners in Europe have been irked by the calls to do  more in a war they believe the United States neglected to focus  on Iraq. Bush's critics say Afghanistan is the more important  battle against Islamic militants.      The Taliban and their al Qaeda allies have vowed to step up  suicide bombings in an effort to wear down Western public  opinion about keeping international forces in Afghanistan.      Asked whether she was concerned that the international  community would abandon Afghanistan, Mrs. Bush said: 'I don't  think they will. I just don't want them to be discouraged.'      Her visit was to begin with a helicopter ride to Bamiyan  province, an impoverished region on the ancient Silk Road trade  route, to inspect a U.S.-funded road building project.      On the way, she was to get an aerial view of the ruins of  two ancient Buddha statues carved into a mountainside. The  Taliban drew international condemnation in 2001 when it blew  them up, considering them un-Islamic.      Mrs. Bush planned to meet women setting up their own  businesses, training as police officers and studying at  university -- activities forbidden to them under the Taliban.      She was to talk with Afghan President Hamid Karzai and  visit U.S. troops before heading for Slovenia, where she will  be joined by her husband on Monday at a U.S.-European summit.      Defending Karzai, she insisted it is was wrong to bl",
+        "Histogram": [
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.8,
+            0.8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 11.94632339477539,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Mrs. Bush depicted her visit as a chance to showcase 'hopeful signs' of reconstruction and improved women's rights since U.S.-led forces ousted the fundamentalist Taliban government more than six years ago.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'hopeful signs' and the framing of the narrative around 'improved women's rights' without a balanced perspective suggests an opinionated bias, where the positive aspects are emphasized without a neutral presentation of facts."
+                },
+                {
+                    "text": "It was important for the Afghan people to get the message that 'the rest of the world is with you and that we're not going to leave you right now when the Taliban and al Qaeda is trying to intimidate you,' she said.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence uses emotionally charged language to convey a sense of solidarity and urgency, implying a dramatic narrative of support against intimidation. The use of phrases like 'the rest of the world is with you' and 'trying to intimidate you' evokes a strong emotional response."
+                },
+                {
+                    "text": "Some partners in Europe have been irked by the calls to do more in a war they believe the United States neglected to focus on Iraq. Bush's critics say Afghanistan is the more important battle against Islamic militants.",
+                    "bias_type": "Political Bias",
+                    "bias_strength": 0.8,
+                    "bias_description": "This sentence exhibits political bias by framing the issue in a way that suggests a hierarchy of importance in battles against Islamic militants, with a clear preference for the Afghanistan conflict over the Iraq war. The language used implies a judgment on the United States' priorities and criticizes the decision to focus on Iraq."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the portrayal of the situation in Afghanistan, particularly in the context of reconstruction, women's rights, and the international community's support. The biases identified include Opinionated Bias, Emotional Sensationalism Bias, and Political Bias, indicating a tendency to present a subjective and emotionally charged perspective that favors certain narratives over a more balanced or neutral portrayal."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6666666666666666,
+            "percentage_of_biased_sentences": 0.08695652173913043,
+            "overall_rating": 0.37681159420289856
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Bush to visit South Korea Aug 5-6 - White House",
+        "URL": "Bush to visit South Korea Aug 5-6 - White House.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WASHINGTON, July 1 (Reuters) - President George W. Bush  will visit South Korea Aug. 5-6 before he goes to China for the  Olympics, the White House said on Tuesday.      Bush will meet South Korean President Lee Myung-bak on July  9 on the sidelines of the Group of Eight summit in Japan and  that 'will be an opportunity to lay the groundwork for the  visit that President Bush will make to South Korea, which is  now scheduled for August 5th and 6th,' Dennis Wilder, National  Security Council director for Asian Affairs, said.      There have been violent protests in Seoul over a U.S.-South  Korean beef deal.     (Reporting by Tabassum Zakaria; Editing by David Alexander)  ((toby.zakaria@reuters.com ; +1 202 898 8300; Reuters  Messaging: toby.zakaria.reuters.com@reuters.net ))  Keywords: BUSH KOREA/        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 11.846212387084961,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides factual information about President George W. Bush's upcoming visit to South Korea and the context of violent protests over a U.S.-South Korean beef deal without exhibiting any evident bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Bush says will visit Russia after April NATO summit",
+        "URL": "Bush says will visit Russia after April NATO summit.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WASHINGTON, March 26 (Reuters) - President George W. Bush  said on Wednesday he will visit Russia after the April 2-4 NATO  summit and was hopeful of reaching agreement with President  Vladimir Putin on 'some very important matters.'      Bush told reporters at the White House that the outgoing  Russian president had invited him to visit Russia following the  summit of the North Atlantic Treaty Organization in Romania and  that final details were still being worked out.      'It's important that we have good relations with Russia,'  Bush said.      'We're optimistic we can reach an accord on some very  important matters,' he added.      The meeting, which follows a trip to Russia by Defense  Secretary Robert Gates and Secretary of State Condoleezza Rice,  will give Bush an opportunity to meet with Dmitry Medvedev, the  incoming president who is due to be sworn in on May 7 to  replace Putin.      Putin is expected to become prime minister in the new  government.   (Editing by Mohammad Zargham)   ((david.alexander@reuters.com; +1 202 354 5866; Reuters  Messaging: david.alexander.reuters.com@reuters.net))  Keywords: USA RUSSIA/       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 11.81341552734375,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a straightforward report on President George W. Bush's upcoming visit to Russia and his hopes for reaching agreements with Russian leadership, without displaying any evident bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Bush to visit biblical site on peacemaking tour",
+        "URL": "Bush to visit biblical site on peacemaking tour.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Tabassum Zakaria      JERUSALEM, Jan 11 (Reuters) - U.S. President George W.  Bush visits the Church of the Beatitudes on the shore of  the Sea of Galilee on Friday during a Holy Land visit aimed  at breathing life into Middle East peace talks.      After separate meetings with Palestinian President  Mahmoud Abbas in Ramallah and Israeli Prime Minister Ehud  Olmert in Jerusalem, Bush is leaving them with the message:  'now is the time to make difficult choices.'      His first visit to Israel and the West Bank in seven  years as president sought to create momentum towards  establishing a Palestinian state, after a November summit  in Annapolis, Maryland intended to jump-start peace talks.      The White House said he was likely to return to the  region before his term ends in January 2009.      The Church of the Beatitudes, a Catholic Franciscan  chapel, marks the spot where Jesus is believed to have  preached his Sermon on the Mount, laying out core teachings  and his call to 'turn the other cheek'.      The church's shape represents the sermon's eight  Beatitudes listed in the Gospel of Matthew, including  'Blessed are the peacemakers.'      Bush was also expected to visit the ruins of the  ancient city of Capernaum where Christians believe Jesus  performed miracles.      Bush said on Thursday he expected a treaty to be signed  before he leaves office.      'Achieving an agreement will require painful political  concessions by both sides,' he added.      He said the establishment of a Palestinian state was  'long overdue' and would improve regional stability.      'The peace agreement should happen, and can happen, by  the end of this year,' he said. 'I am committed to doing  all I can to achieve it.'            ARABS CAN 'REACH OUT'      Bush is scheduled to leave for Kuwait later on Friday  followed by visits to Arab allies in Bahrain, the United  Arab Emirates, Saudi Arabia, and Egypt.      He will ask them to support his Israeli-Palestinian  peacemaking efforts and to help curb the growing regional  influence of Iran.      'They can do a lot of things,' Bush said.      Arab allies could provide diplomatic support to Abbas,  give him greater financial support, and 'begin to reach out  to Israel and indicate in a tangible way that they support  this diplomatic process', he said.      Bush's efforts to curb Iran's growing influence comes  at a time of new U.S.-Iranian tensions over an incident  involving ships in the Strait of Hormuz.      The United States protested formally to the Iranian  government on Thursday over the incident, in which it says  Iranian speedboats aggressively approached U.S. Navy ships.      Bush warned Iran this week of 'serious consequences' if  it happened again and said all options were on the table.   (Editing by Andrew Roche)        Keywords: BUSH MIDEAST/       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 11.78857707977295,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Bush said on Thursday he expected a treaty to be signed before he leaves office.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence engages in speculation about the future, specifically about the signing of a treaty, without concrete evidence or definitive outcome."
+                },
+                {
+                    "text": "'Achieving an agreement will require painful political concessions by both sides,' he added.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the term 'painful' to describe the political concessions introduces an emotional and provocative element, designed to evoke a strong reaction."
+                },
+                {
+                    "text": "He said the establishment of a Palestinian state was 'long overdue' and would improve regional stability.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence presents the establishment of a Palestinian state as a fact ('long overdue') rather than a matter of opinion, blurring the line between objective reporting and personal perspective."
+                },
+                {
+                    "text": "Bush is scheduled to leave for Kuwait later on Friday followed by visits to Arab allies in Bahrain, the United Arab Emirates, Saudi Arabia, and Egypt.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the term 'allies' to describe the relationship with the mentioned Arab countries implies a positive connotation and judgment, influencing perceptions."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the topic of Bush's peacemaking tour in the Middle East, with a general bias tendency towards presenting speculative outcomes, using emotionally charged language, expressing subjective opinions as facts, and influencing perceptions through word choice."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.1,
+            "overall_rating": 0.35
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "REFILE-Laura Bush, on Afghan visit, urges strong support",
+        "URL": "REFILE-Laura Bush, on Afghan visit, urges strong support.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "   (Refiles to fix typo in paragraph 10)      By Matt Spetalnick      KABUL, June 8 (Reuters) - U.S. first lady Laura Bush made  an unannounced visit to Afghanistan on Sunday with an appeal to  the international community not to abandon the war-torn country  in the face of resurgent Taliban violence.      She flew into Kabul under tight security for an 8-1/2-hour  trip to a place that her husband, President George W. Bush, has  declared a main front in the battle against Muslim militants.      Mrs. Bush depicted her visit as a chance to showcase  'hopeful signs' of reconstruction and improved women's rights  since U.S.-led forces ousted the fundamentalist Taliban  government more than six years ago.      Another major thrust of her mission was to shore up the  international commitment to the country as Afghan, U.S. and  NATO forces struggle to contain a Taliban guerrilla war.      'We don't need to be intimidated by them,' Mrs. Bush,  making her third visit to Afghanistan, told reporters on her  plane heading for Kabul.      'The international community can't drop Afghanistan now at  this very crucial time,' she said.      It was important for the Afghan people to get the message  that 'the rest of the world is with you and that we're not  going to leave you right now when the Taliban and al Qaeda is  trying to intimidate you,' she said.      Washington, the biggest contributor to NATO's force in  Afghanistan, has met resistance from some of its European  allies to its calls to boost troop levels.      Aid donors have also become increasingly alarmed by rising  violence in the country, which over the past two years has been  the bloodiest since the Taliban's ouster.      Mindful of the Taliban threat, the White House kept a tight  lid of secrecy on Mrs. Bush's travels until the moment she  landed. Only then were journalists accompanying her allowed to  report her arrival.           MUCH TO BE DONE      Mrs. Bush said she hoped her visit would help her make the  case at an Afghan donors conference in Paris next week that the  international community 'needs to stay with Afghanistan.'      Some partners in Europe have been irked by the calls to do  more in a war they believe the United States neglected to focus  on Iraq. Bush's critics say Afghanistan is the more important  battle against Islamic militants.      The Taliban and their al Qaeda allies have vowed to step up  suicide bombings in an effort to wear down Western public  opinion about keeping international forces in Afghanistan.      Asked whether she was concerned that the international  community would abandon Afghanistan, Mrs. Bush said: 'I don't  think they will. I just don't want them to be discouraged.'      Her visit was to begin with a helicopter ride to Bamiyan  province, an impoverished region on the ancient Silk Road trade  route, to inspect a U.S.-funded road building project.      On the way, she was to get an aerial view of the ruins of  two ancient Buddha statues carved into a mountainside. The  Taliban drew international condemnation in 2001 when it blew  them up, considering them un-Islamic.      Mrs. Bush planned to meet women setting up their own  businesses, training as police officers and studying at  university -- activities forbidden to them under the Taliban.      She was to talk with Afghan President Hamid Karzai and  visit U.S. troops before heading for Slovenia, where she will  be joined by her husband on Monday at a U.S.-European summit.      Defending ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 11.65474796295166,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports on the unannounced visit of U.S. first lady Laura Bush to Afghanistan and her appeal to the international community to support the country in the face of resurgent Taliban violence. The reporting is factual and does not exhibit any clear bias towards a particular viewpoint or group."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Bush arrives in Israel at start of Mideast visit",
+        "URL": "Bush arrives in Israel at start of Mideast visit.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    TEL AVIV, Jan 9 (Reuters) - U.S. President George W. Bush  arrived in Israel on Wednesday at the start of a Middle East  visit he hopes will put Israelis and Palestinians on course for  a peace agreement within a year.      Air Force One landed at Tel Aviv's Ben-Gurion Airport, where  President Shimon Peres, Prime Minister Ehud Olmert and other  Israeli officials waited to greet Bush, seen by many Israelis as  the best friend the Jewish state has had in the White House.   (Writing by Jeffrey Heller, Editing by Alastair Macdonald)   ((jeffrey.heller@reuters.com; +972 2 632 2202; Reuters  Messaging: jeffrey.heller.reuters.com@reuters.net))    Keywords: BUSH MIDEAST/ARRIVAL        ",
+        "Histogram": [
+            0,
+            0,
+            0
+        ],
+        "Relevance": 11.531203269958496,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual report on U.S. President George W. Bush's arrival in Israel for a Middle East visit, focusing on the reception by Israeli officials and the general perception of Bush's relationship with Israel."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "UPDATE 1-Laura Bush, on Afghan visit, urges more support",
+        "URL": "UPDATE 1-Laura Bush, on Afghan visit, urges more support.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": " (Adds details, previous KABUL)      By Matt Spetalnick      BAMIYAN, Afghanistan, June 8 (Reuters) - U.S. first lady  Laura Bush made an unannounced visit to Afghanistan on Sunday  with an appeal to the international community not to abandon the  war-torn country in the face of resurgent Taliban violence.      She arrived under tight security for an 8-1/2-hour trip to a  country her husband, President George W. Bush, has declared a  main front in the battle against Islamist militants.      Mrs. Bush said her visit was a chance to showcase 'hopeful  signs' of reconstruction and improved women's rights since  U.S.-led and Afghan forces ousted the hardline Taliban government  more than six years ago.      Another major thrust of her mission was to shore up the  international commitment to the country as Afghan, U.S. and NATO  forces struggle to contain a Taliban guerrilla war.      'We don't need to be intimidated by them,' Mrs. Bush, making  her third visit to Afghanistan, told reporters on her plane  heading for the Afghan capital, Kabul. 'The international  community can't drop Afghanistan now at this very crucial time.'      It was important Afghans understood 'the rest of the world is  with you and that we're not going to leave you right now when the  Taliban and al Qaeda is trying to intimidate you,' she said.      After a brief stop in Kabul, Mrs. Bush boarded a helicopter  to the central town of Bamiyan, where in 2001 the Taliban blew up  two ancient giant statues of Buddha carved into a mountainside.      In the shadow of the now empty caves where the Buddhas once  stood, Mrs. Bush was met by New Zealand troops who performed the  traditional Maori haka dance, thrusting spears, and poking out  tongues as U.S. bodyguards looked on slightly nervously.      The New Zealand troops in Bamiyan form one of 26 Provincial  Reconstruction Teams across the country, units aimed at bringing  aid and development meant to undercut the insurgency.       But Bamiyan, one of the most peaceful places in Afghanistan,  has received much less aid than other provinces. The United  States and others have focused their assistance on the more  violent south where the Taliban insurgency is most virulent.            MORE TO BE DONE      Mrs. Bush visited a police academy in Bamiyan, the only one  of 34 Afghan provinces to have a female governor, and spoke to  around a dozen women police recruits. She is later due to  inaugurate a U.S.-funded road building project in the town.      Mrs. Bush said she hoped her visit would help her make the  case at an Afghan donors conference in Paris next week that the  international community 'needs to stay with Afghanistan'.      Some partners in Europe have been slow to do more in a war  they believe the United States neglected to focus on Iraq. Bush's  critics say Afghanistan is the more important battle.      The Taliban and their al Qaeda allies have vowed to step up  suicide bombings in an effort to wear down Western public support  for keeping international forces in Afghanistan.      Asked whether she was concerned that the international  community would abandon Afghanistan, Mrs. Bush said: 'I don't  think they will. I just don't want them to be discouraged.'      Mrs. Bush was to talk with Afghan President Hamid Karzai and  visit U.S. troops before heading for Slovenia, where she will be  joined by her husband on Monday at a U.S.-European summit.      Defending Karzai, she insisted it is was wrong to blame him  for",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 11.528785705566406,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to exhibit bias regarding the topics discussed, presenting the information about Laura Bush's visit to Afghanistan in a neutral manner."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "UPDATE 2-Bush makes farewell visit to Iraq",
+        "URL": "UPDATE 2-Bush makes farewell visit to Iraq.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": " (Adds details, background)      By Matt Spetalnick      BAGHDAD, Dec 14 (Reuters) - U.S. President George W. Bush  made an unannounced farewell visit to Baghdad on Sunday, just  weeks before he leaves office and bequeaths the unpopular Iraq  war to President-elect Barack Obama.      Slipping out of the White House over the weekend, Bush flew  secretly to the Iraqi capital to hold talks with Prime Minister  Nuri al-Maliki and address a rally of U.S. troops.      'Bush has come to meet Iraqi leaders, thank the troops and  celebrate the new security agreement,' a White House official  said.      Bush arrived first by helicopter at the presidential palace  for talks with President Jalal Talabani and his two  vice-presidents. He planned to meet later with Maliki.      Bush's trip -- his fourth to Iraq since the 2003 U.S.-led  invasion -- follows approval of a security pact between  Washington and Baghdad last month that paves the way for U.S.  forces to withdraw by the end of 2011.       Bush was greeted on the heavily guarded tarmac in Baghdad  by General Raymond Odierno and Ambassador Ryan Crocker.      The decision to land in broad daylight reflected confidence  that Baghdad was more secure this time than during Bush's last  visit to the capital in 2006 when sectarian violence was raging.     Though Iraq has slipped down the list of Americans' concerns  as the recession-hit U.S. economy has taken center stage, polls  show most people think the war was a mistake.      It will now be left to Obama, a Democrat and early opponent  of U.S. military involvement in Iraq, to sort out an exit  strategy after he takes office on Jan. 20.      About 140,000 U.S. troops will still be in Iraq nearly six  years into a war that has killed more than 4,200 American  military personnel and tens of thousands of Iraqis.      Bush's visit, just 11 days before Christmas, was a final  chance for him to bid farewell to troops on the ground there.      Mindful of the threat still posed by militants, the White  House kept a tight lid of secrecy on Bush's trip before he  landed at Baghdad International Airport.      His movements were expected to be limited to the heavily  fortified sites in and around the Iraqi capital.      Bush was last in Iraq in September 2007, when he flew into a  U.S. air base in the restive Anbar province to underscore  improved security amid a 30,000-troop buildup and growing  support of Sunni tribal chiefs in the fight against al Qaeda.      Since then, there has been further progress in Baghdad and  elsewhere, and Iraqi security forces are increasingly taking  charge of policing streets and going after militants.            PULLOUT TIMETABLE      U.S. Gen. David Petraeus said last week that violence in  Iraq in the past few weeks had fallen to its lowest level since  mid-2003 and that security gains, while still at risk of  reversal, were less fragile than before. Car bombings and  suicide blasts are still common.      Bush will meet Maliki for the first time since the Iraqi  government won a key concession -- Washington's agreement on a  pullout timetable, something the U.S. president long opposed.      Obama pledged during the campaign to withdraw U.S. combat  troops in 16 months, which will now have to reconciled with the  timetable set in the new security deal.      As he prepares to step down, Bush has insisted toppling  Iraqi dictator Saddam Hussein was the right thing to do.      But he said in a recent ABC interview that the 'big",
+        "Histogram": [
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0.6,
+            0.5,
+            0.6,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 11.521154403686523,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Slipping out of the White House over the weekend, Bush flew secretly to the Iraqi capital to hold talks with Prime Minister Nuri al-Maliki and address a rally of U.S. troops.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'slipping out' and 'flew secretly' implies a negative connotation, suggesting an element of deceit or evasion, which could influence the reader's perception of the action."
+                },
+                {
+                    "text": "Bush's trip -- his fourth to Iraq since the 2003 U.S.-led invasion -- follows approval of a security pact between Washington and Baghdad last month that paves the way for U.S. forces to withdraw by the end of 2011.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The phrase 'paves the way for U.S. forces to withdraw' implies a positive outcome, suggesting progress and resolution, which could influence the reader's perception of the policy's impact."
+                },
+                {
+                    "text": "Though Iraq has slipped down the list of Americans' concerns as the recession-hit U.S. economy has taken center stage, polls show most people think the war was a mistake.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence includes an opinion ('most people think the war was a mistake') presented as a fact, blurring the line between objective reporting and personal perspective."
+                },
+                {
+                    "text": "It will now be left to Obama, a Democrat and early opponent of U.S. military involvement in Iraq, to sort out an exit strategy after he takes office on Jan. 20.",
+                    "bias_type": "Political Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "The framing of Obama as 'a Democrat and early opponent of U.S. military involvement in Iraq' could imply a positive bias towards his stance, contrasting it with the previous administration's actions."
+                },
+                {
+                    "text": "About 140,000 U.S. troops will still be in Iraq nearly six years into a war that has killed more than 4,200 American military personnel and tens of thousands of Iraqis.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence uses emotionally charged statistics ('killed more than 4,200 American military personnel and tens of thousands of Iraqis') to evoke a strong emotional response, potentially overshadowing a more balanced discussion."
+                },
+                {
+                    "text": "Mindful of the threat still posed by militants, the White House kept a tight lid of secrecy on Bush's trip before he landed at Baghdad International Airport.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The phrase 'tight lid of secrecy' conveys a sense of danger or urgency, potentially exaggerating the security concerns and dramatizing the situation."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the portrayal of the U.S. administration's actions and policies in Iraq, with instances of word choice bias, opinionated bias, political bias, and emotional sensationalism bias. The general bias tendency leans towards critiquing the past administration's approach to the Iraq war and highlighting the challenges and negative impacts."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.5833333333333334,
+            "percentage_of_biased_sentences": 0.045454545454545456,
+            "overall_rating": 0.3143939393939394
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "UPDATE 3-Bush makes farewell visit to Iraq",
+        "URL": "UPDATE 3-Bush makes farewell visit to Iraq.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": " (Adds details)      By Matt Spetalnick      BAGHDAD, Dec 14 (Reuters) - U.S. President George W. Bush  made an unannounced farewell visit to Baghdad on Sunday, just  weeks before he leaves office and bequeaths the unpopular Iraq  war to President-elect Barack Obama.      Bush flew secretly to the Iraqi capital to hold talks with  Prime Minister Nuri al-Maliki and address a rally of U.S.  troops.      'Bush has come to meet Iraqi leaders, thank the troops and  celebrate the new security agreement,' a White House official  said.      Bush arrived first by helicopter at the presidential palace  for talks with President Jalal Talabani and his two  vice-presidents. He planned to meet later with Maliki.      Bush's trip -- his fourth to Iraq since the 2003 U.S.-led  invasion -- follows approval of a security pact between  Washington and Baghdad last month that paves the way for U.S.  forces to withdraw by the end of 2011.      The brief visit was meant to showcase recent security gains  in Iraq but was also a stark reminder of how heavily the war  will weigh on the Republican president's foreign policy legacy.      Though Iraq has slipped down the list of Americans' concerns  as the recession-hit U.S. economy has taken center stage, polls  show most people think the war was a mistake.      It will now be left to Obama, a Democrat and early opponent  of U.S. military involvement in Iraq, to sort out an exit  strategy after he takes office on Jan. 20.      About 140,000 U.S. troops will still be in Iraq nearly six  years into a war that has killed more than 4,200 American  military personnel and tens of thousands of Iraqis.      Bush's visit, just 11 days before Christmas, was a final  chance for him to bid farewell to troops on the ground there.      He was greeted on the heavily guarded tarmac in Baghdad by  the top U.S. commander in Iraq, General Ray Odierno, and U.S.  Ambassador Ryan Crocker.      The decision to land in broad daylight reflected confidence  that Baghdad was more secure this time than in Bush's last visit  to the capital in 2006 when sectarian violence was raging.            'REGRET'      Until Air Force One touched down, Bush's trip was conducted  in strictest secrecy. The presidential jet was rolled out of its  giant hangar only after everyone was onboard. Journalists'  electronic devices, from cellphones to iPods, were confiscated  until mid-flight.      Bush, dressed casually and wearing a black baseball cap  after his night-time getaway from the White House, made a rare  appearance in the press cabin just before takeoff.      'Nobody knew who I was,' he joked when an aide complimented  him on his disguise.      His movements were expected to be limited to the heavily  fortified sites in and around the Iraqi capital.      Bush was last in Iraq in September 2007, when he flew into a  U.S. air base in the restive Anbar province to underscore  improved security amid a 30,000-troop build-up and growing  support of Sunni tribal chiefs in the fight against al Qaeda.      Since then, there has been further progress in Baghdad and  elsewhere, and Iraqi security forces are increasingly taking  charge of policing streets and going after militants.      U.S. General David Petraeus said last week that violence in  Iraq in the past few weeks had fallen to its lowest level since  mid-2003 and that security gains, while still at risk of  reversal, were less fragile than before. Car bombings and  suicide blasts are still common.      B",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 11.512991905212402,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to exhibit bias as it primarily reports on the factual details of U.S. President George W. Bush's farewell visit to Baghdad and the current situation in Iraq without employing any of the common bias types."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    }
+]

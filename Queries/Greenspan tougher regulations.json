@@ -1,0 +1,860 @@
+[
+    {
+        "Title": "FXNEWS-Lombard St says Fed may ditch Greenspan/Bernanke put",
+        "URL": "FXNEWS-Lombard St says Fed may ditch Greenspan/Bernanke put.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    Minneapolis Fed President Stern's comments this week that  there may be some practical ways to identify asset price  bubbles could spell the end to the 'Greenspan/Bernanke put,'  says Lombard Street Research's Gabriel Stein. While Greenspan  was right to say it's tough to identify asset bubbles and  tougher to prick them, Stein says stepping in to save markets  on the downside is equally dangerous. He says other countries  such as Australia have shown it's possible to have a bull  market even with a central bank that is more vigilant against  excesses. 'It simply means that if you profit with the bulls,  you may have to suffer with the bears,' he writes.     Reuters Messaging:  rm://steven.c.johnson.reuters.com@reuters.net  ",
+        "Histogram": [
+            0.6,
+            0.6,
+            0,
+            0.6,
+            0
+        ],
+        "Relevance": 12.76290225982666,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Minneapolis Fed President Stern's comments this week that  there may be some practical ways to identify asset price  bubbles could spell the end to the 'Greenspan/Bernanke put,'  says Lombard Street Research's Gabriel Stein.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the term 'Greenspan/Bernanke put' implies a judgment about the actions of these individuals as unconditionally supporting the market, which could influence the reader's perception negatively towards their policies."
+                },
+                {
+                    "text": "While Greenspan  was right to say it's tough to identify asset bubbles and  tougher to prick them, Stein says stepping in to save markets  on the downside is equally dangerous.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence presents an opinion on the danger of central banks intervening in markets as a fact, blurring the line between objective reporting and personal perspective."
+                },
+                {
+                    "text": "'It simply means that if you profit with the bulls,  you may have to suffer with the bears,' he writes.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the metaphor 'profit with the bulls, suffer with the bears' implies a judgment about the consequences of market behavior, potentially influencing the reader's perception through emotionally charged language."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the discussion of central bank policies and their impact on financial markets, particularly through the use of word choice and opinionated statements that could influence the reader's perception in a negative or emotionally charged manner."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.4,
+            "overall_rating": 0.5
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Greenspan sees many casualties from crisis - FT",
+        "URL": "Greenspan sees many casualties from crisis - FT.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    LONDON, March 17 (Reuters) - There will be many casualties  from the unfolding financial market crisis, which will lead to a  large-scale overhaul of international banking regulations, codes  and risk management, former Federal Reserve Chairman Alan  Greenspan said.      Writing in the Financial Times, the former Fed chief said  much of the financial system's risk-valuation models failed, not  because they were too complex but because they were 'too simple  to capture the full array of variables governing that drive  global economic reality'.      'The crisis will leave many casualties. Particularly hard  hit will be much of today's financial risk-valuation system,' he  wrote.      While insisting that current risk management models and  econometric forecasting methods remain 'soundly rooted in the  real world,' he said risk management can never be perfect.      'It will eventually fail and a disturbing reality will be  laid bare, prompting an unexpected and sharp discontinuous  response,' Greenspan said.      He added, however, that he hoped one of the casualties from  the worst U.S. financial crisis since World War Two would not be  the spirit of broad self-regulation within financial markets.      Although he said the Basel II international banking  regulatory framework would almost definitely be revamped and  financial institutions' financial models would need to be  re-drafted, Greenspan warned against over-regulation.      'It is important, indeed crucial, that any reforms in, and  adjustments to, the structure of markets and regulation not  inhibit our most reliable and effective safeguards against  cumulative economic failure: market flexibility and open  competition,' he said.      For full article, click on:  http://www.ft.com/cms/s/0/edbdbcf6-f360-11dc-b6bc-0000779fd2ac.html?nclick_check=1   (Reporting by Jamie McGeever and Ian Chua; editing by Mike  Peacock)   ((Reuters Messaging: jamie.mcgeever.reuters.com@reuters.net;  +44 207 542 8510))    Keywords: ECONOMY/GREENSPAN       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 12.521041870117188,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to contain biased sentences. It provides a report on Alan Greenspan's views regarding the financial market crisis and the necessary regulatory changes without displaying a general bias tendency."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "ANALYSIS-Obama takes aim at the Greenspan era",
+        "URL": "ANALYSIS-Obama takes aim at the Greenspan era.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Emily Kaiser      WASHINGTON, Nov 5 (Reuters) - U.S. President-elect Barack  Obama can rewrite the Greenspan-era rules of finance, backed by  a solid Democratic majority in Congress and an American public  furious about the credit crisis.      Exit polls showed the economy was the dominant factor in  Obama's decisive victory over Republican Sen. John McCain on  Tuesday, giving the new president a clear mandate to pursue the  more populist approach to capitalism that he promoted  throughout his campaign.      'At a moment like this, we can't afford four more years of  spending increases, poorly designed tax cuts, or the complete  lack of regulatory oversight that even former Federal Reserve  Chairman Alan Greenspan now believes was a mistake,' Obama  wrote in a Wall Street Journal editorial this week.      For Wall Street -- and other finance capitals that followed  New York's lead -- that probably means a flurry of laws aimed  at protecting homeowners and borrowers while tightening  restrictions on banks and the investments they sell.      Obama has also proposed an economic stimulus plan that  would include money for infrastructure, and he favors reforming  the bankruptcy code to help homeowners and make it easier to  restructure troubled mortgages.      Greenspan, a firm believer in free markets, was nicknamed  'the maestro' after his tenure at the U.S. central bank  coincided with a lengthy period of strong economic growth.      But he has since become a symbol of deregulation and  critics have blamed him for allowing financial firms to outgrow  government oversight. As losses piled up around the world in  late October, Greenspan acknowledged that he was 'partially'  wrong to resist regulation of some securities.      'Those of us who have looked to self-interest of lending  institutions to protect shareholder's equity -- myself  especially -- are in a state of shocked disbelief,' Greenspan  told members of Congress.           CLOCK TICKING      Obama will not have the luxury of time. There is little  doubt that the U.S. economy is slipping into a recession,  perhaps the deepest since the 1970s, and the global economy is  in grave danger of its first downturn in seven years.      World leaders are not waiting for the January inauguration  to plan the broadest reform of the global financial system  since the aftermath of the Great Depression in the 1930s. Obama  is not expected to attend a Nov. 15 meeting of the Group of 20  rich and emerging nations to discuss the financial crisis.      Investors are certain that tougher rules are coming.      'Those in the broad financial services industry should  understand that Senator Obama has sent a very clear signal that  he intends to pursue an activist agenda as president,' said  William Donovan, a partner at the Venable law firm in  Washington and former general counsel of the National  Association of Federal Credit Unions.      'Overhaul of the government's financial services regulatory  structure, consolidation of charter types, tougher liquidity  and capital requirements, bankruptcy and credit card reform are  all on the table,' he said.           POISONED CHALICE?      Obama faces the unenviable task of tackling a recession  with a budget deficit swelled by the Iraq war and the $700  billion financial rescue plan. Global investors will be  scrutinizing his every move.      'It's not a good time for anyone to be elected president,  given the problems there,' said Rob Henderson, he",
+        "Histogram": [
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0.6,
+            0.7,
+            0.7,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6
+        ],
+        "Relevance": 11.974535942077637,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "At a moment like this, we can't afford four more years of spending increases, poorly designed tax cuts, or the complete lack of regulatory oversight that even former Federal Reserve Chairman Alan Greenspan now believes was a mistake,' Obama wrote in a Wall Street Journal editorial this week.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of phrases like 'poorly designed tax cuts' and 'complete lack of regulatory oversight' carries a negative connotation, implying judgment and criticism towards the previous administration's policies without a neutral presentation of facts."
+                },
+                {
+                    "text": "For Wall Street -- and other finance capitals that followed New York's lead -- that probably means a flurry of laws aimed at protecting homeowners and borrowers while tightening restrictions on banks and the investments they sell.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence speculates on the future actions of the Obama administration, suggesting a 'flurry of laws' without concrete evidence, which could influence the reader's perception towards expecting a certain regulatory approach."
+                },
+                {
+                    "text": "Greenspan, a firm believer in free markets, was nicknamed 'the maestro' after his tenure at the U.S. central bank coincided with a lengthy period of strong economic growth.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the nickname 'the maestro' and the positive framing of 'firm believer in free markets' without acknowledging any potential drawbacks or criticisms introduces a bias through positive connotations and selective presentation."
+                },
+                {
+                    "text": "But he has since become a symbol of deregulation and critics have blamed him for allowing financial firms to outgrow government oversight. As losses piled up around the world in late October, Greenspan acknowledged that he was 'partially' wrong to resist regulation of some securities.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.7,
+                    "bias_description": "This sentence implies a direct cause-and-effect relationship between Greenspan's beliefs and the global financial crisis, attributing blame without a comprehensive analysis of the complex factors involved, thus misunderstanding the causal relationship."
+                },
+                {
+                    "text": "Obama will not have the luxury of time. There is little doubt that the U.S. economy is slipping into a recession, perhaps the deepest since the 1970s, and the global economy is in grave danger of its first downturn in seven years.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of phrases like 'little doubt' and 'grave danger' is designed to evoke a strong emotional response, emphasizing the negative outlook of the economy without a balanced presentation of the underlying data or factors."
+                },
+                {
+                    "text": "World leaders are not waiting for the January inauguration to plan the broadest reform of the global financial system since the aftermath of the Great Depression in the 1930s. Obama is not expected to attend a Nov. 15 meeting of the Group of 20 rich and emerging nations to discuss the financial crisis.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence speculates on the significance of the upcoming financial reforms and Obama's absence from a meeting, implying a high level of importance and urgency that may not be fully justified, thus leading to a biased portrayal of the situation."
+                },
+                {
+                    "text": "'It's not a good time for anyone to be elected president, given the problems there,' said Rob Henderson",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This quote presents a subjective opinion as a fact, suggesting an objective measure of the 'good time' to be elected president based on the current problems, without providing a balanced perspective or empirical evidence."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the discussion of financial regulations and the challenges faced by the Obama administration in addressing the economic crisis. The biases identified include Word Choice Bias, Speculation Bias, Causal Misunderstanding Bias, Emotional Sensationalism Bias, and Opinionated Bias, indicating a general tendency to present information in a manner that favors certain viewpoints and evokes specific emotional or judgmental responses."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6142857142857142,
+            "percentage_of_biased_sentences": 0.25,
+            "overall_rating": 0.4321428571428571
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Greenspan Says Economic Crisis Not His Fault_ Calls It _Once_in_a_Century Tsunami_.txt",
+        "URL": "Greenspan Says Economic Crisis Not His Fault_ Calls It _Once_in_a_Century Tsunami_.txt.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/240px-Fox_News_Channel_logo.svg.png",
+        "Text": "Badgered by lawmakers, former Federal Reserve Chairman Alan Greenspan denied the nation's economic crisis was his fault on Thursday but conceded the meltdown had revealed a flaw in a lifetime of economic thinking and left him in a \"state of shocked disbelief.\"\n\nGreenspan, who stepped down in 2006, called the banking and housing chaos a \"once-in-a-century credit tsunami\" that led to a breakdown in how the free market system functions. And he warned that things would get worse before they get better, with rising unemployment and no stabilization in housing prices for \"many months.\"\n\nGloomy economic reports backed him up. New jobless claims soared to just under 500,000 for last week, and Goldman Sachs, Chrysler and Xerox all said they were cutting thousands more workers. On Wall Street, the Dow Jones industrials bounced erratically all day before finishing up 172 points \u2014 after a two-day drop of nearly 750.\n\nThe financial crisis even prompted the Republican Greenspan, a staunch believer in free markets, to propose that government consider tougher regulations, including requiring financial firms that package mortgages into securities to keep a portion as a check on quality.\n\nHe said other regulatory changes should be considered, too, in such areas as fraud.\n\nAlso looking for solutions, another banking regulator told Congress the government was working on a loan-guarantee plan that could help many homeowners escape foreclosure as part of the $700 billion bailout legislation. That plan is being discussed by the Treasury Department and the Federal Deposit Insurance Corp., said FDIC Chairman Sheila Bair, who is pushing the idea.\n\nGreenspan's interrogation by the House Oversight Committee was a far cry from his 18 1/2 years as Fed chairman, when he presided over the longest economic boom in the country's history. He was viewed as a free-market icon on Wall Street and held in respect bordering on awe by most members of Congress.\n\nNot now. At an often contentious four-hour hearing, Greenspan, former Treasury Secretary John Snow and Securities and Exchange Commission Chairman Christopher Cox were repeatedly accused by Democrats on the committee of pursuing an anti-regulation agenda that set the stage for the biggest financial crisis in 70 years.\n\n\"The list of regulatory mistakes and misjudgments is long,\" panel chairman Henry Waxman declared.\n\nGreenspan, 82, acknowledged under questioning that he had made a \"mistake\" in believing that banks, operating in their own self-interest, would do what was necessary to protect their shareholders and institutions. Greenspan called that \"a flaw in the model ... that defines how the world works.\"\n\nHe acknowledged that he had also been wrong in rejecting fears that the five-year housing boom was turning into an unsustainable speculative bubble that could harm the economy when it burst. Greenspan maintained during that period that home prices were unlikely to post a significant decline nationally because housing was a local market.\n\nHe said Thursday that he held to that belief because until the current housing slump there had never been such a significant decline in prices nationwide. He said the current financial crisis had \"turned out to be much broader than anything that I could have imagined.\"\n\nGreenspan's much-anticipated appearance before the House panel came as the Senate Banking Committee held its own hearing on what the government is doing now to get out of the mess.\n\nAssistant Treasury Secretary Neel Kashkari, who is overseeing the $700 billion financial rescue effort that passed Congress on Oct. 3, said the administration was not only working to get federal purchases of bank stock started quickly but also the program to mop up troubled mortgage-related assets. He also said the government was working to make sure that directives in the legislation to help struggling homeowners avoid foreclosure were being addressed.\n\nKashkari said the plan could include setting standards that banks should follow for reworking mortgages to make them more affordable. He said the administration was considering a recommendation to provide government loan guarantees to cover the reworked mortgages to make the program more attractive to banks.\n\n\"We are passionate about doing everything we can to avoid preventable foreclosures,\" Kashkari told the committee.\n\nThe FDIC's Bair told the same Senate panel that the government needs to do more to help tens of thousands of people avoid foreclosure.\n\nShe said the FDIC was working \"closely and creatively\" with the Treasury Department to come up with a plan.\n\nGreenspan was asked to defend a variety of actions he took as Federal Reserve chairman \u2014 resisting recommendations to use the Fed's powers to crack down on subprime mortgages, for one. And opposing efforts to impose regulations on derivatives, the complex financial instruments that include credit default swaps, which have also figured prominently in the current crisis.\n\nHe said that outside of credit default swaps, the bulk of financial derivatives had not caused major problems. He said the boom in subprime lending occurred because of the huge demand for investment opportunities in a global economy, and he blamed the crash on a failure by investors to properly assess the risks from such mortgages, which went to borrowers with weak credit.\n\nAs for firms that package mortgages into securities, he said, \"As much as I would prefer it otherwise, in this financial environment I see no choice but to require that all securitizers retain a meaningful part of the securities they issue.\"\n\nOn the billions of dollars of losses suffered by financial institutions because of their investments in subprime mortgages, Greenspan said he had been shocked by the failure of banking officials to protect their shareholders from their bad loan decisions.\n\n\"A critical pillar to market competition and free markets did break down,\" Greenspan said. \"I still do not fully understand why it happened.\"\n\nSEC Chairman Cox told the House panel that \"somewhere in this terrible mess, laws were broken.\" And Snow said that lawmakers should have responded more quickly to his pleas for stronger regulation for mortgage giants Fannie Mae and Freddie Mac, which were taken over by the government last month.\n\nIn the meantime, Kashkari, the Treasury official overseeing the bailout program, said there has been much progress, resulting in \"numerous signs of improvement in our markets and in the confidence in our financial institutions.\" Still, he cautioned, \"the markets remain fragile.\"",
+        "Histogram": [
+            0.6,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0.7,
+            0.7,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 11.851333618164062,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Badgered by lawmakers, former Federal Reserve Chairman Alan Greenspan denied the nation's economic crisis was his fault on Thursday but conceded the meltdown had revealed a flaw in a lifetime of economic thinking and left him in a \"state of shocked disbelief.\"",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'badgered' to describe the lawmakers' questioning implies a negative and aggressive tone towards Greenspan, suggesting a judgment about the nature of the interaction."
+                },
+                {
+                    "text": "Gloomy economic reports backed him up. New jobless claims soared to just under 500,000 for last week, and Goldman Sachs, Chrysler and Xerox all said they were cutting thousands more workers. On Wall Street, the Dow Jones industrials bounced erratically all day before finishing up 172 points \u2014 after a two-day drop of nearly 750.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The description of economic reports as 'gloomy' and the use of 'soared' and 'erratically' to describe the jobless claims and stock market movements, respectively, are designed to evoke a strong emotional response, emphasizing negativity."
+                },
+                {
+                    "text": "Not now. At an often contentious four-hour hearing, Greenspan, former Treasury Secretary John Snow and Securities and Exchange Commission Chairman Christopher Cox were repeatedly accused by Democrats on the committee of pursuing an anti-regulation agenda that set the stage for the biggest financial crisis in 70 years.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'contentious' to describe the hearing and the assertion that the officials were 'repeatedly accused' of pursuing an 'anti-regulation agenda' without further context or balance implies a negative judgment and bias against the officials."
+                },
+                {
+                    "text": "He acknowledged that he had also been wrong in rejecting fears that the five-year housing boom was turning into an unsustainable speculative bubble that could harm the economy when it burst. Greenspan maintained during that period that home prices were unlikely to post a significant decline nationally because housing was a local market.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.7,
+                    "bias_description": "This sentence implies a clear cause-and-effect relationship that Greenspan misunderstood, suggesting that his perspective directly led to the housing crisis without acknowledging the complexity of the factors involved."
+                },
+                {
+                    "text": "Greenspan's much-anticipated appearance before the House panel came as the Senate Banking Committee held its own hearing on what the government is doing now to get out of the mess.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Referring to the situation as 'the mess' is a form of word choice bias, using a negatively connoted term to describe the economic crisis, which can influence the reader's perception of the severity and nature of the issue."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the portrayal of the economic crisis and the actions of key figures, particularly through the use of word choice and causal misunderstanding, suggesting a negative and judgmental perspective without a balanced or nuanced analysis."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.62,
+            "percentage_of_biased_sentences": 0.14634146341463414,
+            "overall_rating": 0.3831707317073171
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Greenspan \"uncomfortable\" with sovereign funds",
+        "URL": "Greenspan \"uncomfortable\" with sovereign funds.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    VANCOUVER, Jan 24 (Reuters) - Former Federal Reserve  Chairman Alan Greenspan said on Thursday he was a little  uncomfortable with sovereign wealth funds, but they were  desirable overall.      'I must admit I am a little uncomfortable  (with sovereign  wealth funds)... but I must admit there is very little evidence  that they are being used inappropriately,', Greenspan told a  financial audience in Vancouver.      'On balance I think they are desirable', he added.   (Reporting by Nicole Mordant and Allan Dowd;  Writing by  Renato Andrade; Editing by Janet Guttsman)   ((nicole.mordant@reuters.com; +1 604 664 7315; Reuters  Messaging: nicole.mordant.reuters.com@reuters.net))       Keywords: GREENSPAN/FUNDS        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 11.403159141540527,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It presents the statement of Alan Greenspan regarding sovereign wealth funds without introducing any subjective or misleading information."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Greenspan says U.S. 'on edge' of recession",
+        "URL": "Greenspan says U.S. 'on edge' of recession.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "   HOUSTON, Feb 14 (Reuters) - Former U.S. Federal Reserve  Chairman Alan Greenspan on Thursday said the U.S. economy is  'clearly on the edge' of a recession.     Greenspan said the economy will continue to erode until there  is a stabilization of U.S. housing prices.     'We have a long way to go' before housing prices hit a bottom,  Greenspan told energy executives at the CERA conference.    (Reporting by Anna Driver in Houston, editing by Phil  Berlowitz)   ((anna.driver@reuters.com; 1 713 210 8509; Reuters Messaging:  anna.driver.reuters.com@reuters.net))  Keywords: CERA ENERGY/GREENSPAN        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 11.30313491821289,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It reports a statement from Alan Greenspan about the U.S. economy's proximity to a recession without introducing any subjective or misleading information."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Greenspan says stagflation a possibility",
+        "URL": "Greenspan says stagflation a possibility.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    MONTREAL, May 30 (Reuters) - Former U.S. Federal Reserve  Chairman Alan Greenspan said on Friday that stagflation is a  possibility for the U.S. economy.      Asked if stagflation was a very real possibility, he  replied: 'Oh  certainly.'   (Reporting by Louise Egan, writing by John McCrank; editing by  Janet Guttsman)   ((john.mccrank@thomsonreuters.com; +1 416 941 8083; Reuters  Messaging: john.mccrank.reuters.com@reuters.net))  Keywords: GREENSPAN CANADA/STAGFLATION        ",
+        "Histogram": [
+            0.6,
+            0.6,
+            0
+        ],
+        "Relevance": 11.192816734313965,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Former U.S. Federal Reserve Chairman Alan Greenspan said on Friday that stagflation is a possibility for the U.S. economy.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence engages in speculation about a future economic condition (stagflation) without concrete evidence, relying on the opinion of a single individual, which may lead readers to form speculative conclusions without a full understanding of the economic factors at play."
+                },
+                {
+                    "text": "Asked if stagflation was a very real possibility, he replied: 'Oh certainly.'",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'Oh certainly' to affirm the possibility of stagflation may imply a higher degree of certainty than actually exists, potentially influencing readers to overestimate the likelihood of this economic scenario based solely on the confidence expressed by the source."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the possibility of stagflation in the U.S. economy, primarily through speculative language and the use of affirming word choice that may lead readers to overestimate the certainty of this economic condition."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.6666666666666666,
+            "overall_rating": 0.6333333333333333
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Greenspan doesn't expect more market bubbles",
+        "URL": "Greenspan doesn't expect more market bubbles.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    MONTREAL, May 30 (Reuters) - Former U.S. Federal Reserve  Chairman Alan Greenspan said on Friday that he does not expect  another 'bubble' in world markets for a long time, and that  central banks at any rate do not control the long-term interest  rates that can be related to bubbles.      Speaking in Montreal, Greenspan said bubbles do not form  when inflation pressures begin to emerge.   (Reporting by Louise Egan, writing by John McCrank; editing by  Peter Galloway)   ((john.mccrank@thomsonreuters.com; +1 416 941 8083; Reuters  Messaging: john.mccrank.reuters.com@reuters.net))  Keywords: GREENSPAN CANADA/BUBBLES        (Adds details)      MONTREAL, May 30 (Reuters) - Former U.S. Federal Reserve  Chairman Alan Greenspan said on Friday that he does not expect  another 'bubble' in world markets for a long time, and that  central banks at any rate do not control the long-term interest  rates that can be related to bubbles.      He conceded that stagflation -- a combination of weak  growth and high inflation -- was a real concern.      'Oh certainly,' he said when asked if stagflation was a  possible.      Speaking to an audience of 2,000 in Montreal, Greenspan  said asset bubbles do not form when inflation pressures begin  to emerge.      As inflation pressures emerge around the world, he said the  critical issue was a political one. Central bankers will no  doubt act to keep inflation under control, but Greenspan mused  about whether politicians were 'wise enough' to realize that  low inflation is a major factor in economic growth, citing  political pressures on the Fed back in the 1990s when central  bankers were perceived to be more hawkish than the government.      He also said past experience at the Fed has showed that  central banks can do little to pre-emptively act to prevent  bubbles in financial markets, referring to interest rate hikes  in the early 1990s failing to prevent excessive confidence in  stock markets.   (Reporting by Louise Egan; editing by Rob Wilson)   ((john.mccrank@thomsonreuters.com; +1 416 941 8083; Reuters  Messaging: john.mccrank.reuters.com@reuters.net))  Keywords: GREENSPAN CANADA/BUBBLES        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 11.170376777648926,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports on the statements made by Alan Greenspan regarding the expectation of market bubbles and the role of central banks. The content is presented in a factual manner without employing any of the common bias types."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "U.S. in \"awfully pale recession\", Greenspan quoted",
+        "URL": "U.S. in \"awfully pale recession\", Greenspan quoted.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    NEW YORK, May 5 (Reuters) - The United States has fallen  into an 'awfully pale recession' and may remain stagnant for the  rest of the year, former Federal Reserve chairman Alan Greenspan  was quoted on Monday saying.      'We're in a recession,' Bloomberg news agency reported   Greenspan had said in a television interview. 'But this is an  awfully pale recession at the moment. The declines in employment  have not been as big as you'd expect to see.'      Last week a government report showed employers shed jobs in  April at a slower rate than had been feared, providing some  relief about the slowing economy.      Greenspan doubted there would be an immediate recovery,  saying stagnation for the rest of the year was the most likely  outcome. 'That's certainly the most benevolent scenario,' he  said. 'It's not all that far from being the most probable.'      The economy would not start turning around until home prices  started settling and eased pressure on finance companies to  write off mortgage-related losses, Greenspan said.      Greenspan has said before that the economy is in a  recession, although he also said at that time that it was too  soon to say how deep or prolonged the downturn would be. His  office could not be reached immediately for comment.   (Reporting by Aarthi Sivaraman; editing by David Stamp)      ((aarthi.sivaraman@thomsonreuters.com; +1 646 223 6000;  Reuters Messaging: aarthi.sivaraman.reuters.com@reuters.net))      Keywords: GREENSPAN RECESSION/       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 11.090775489807129,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual report on Alan Greenspan's comments about the U.S. economy without exhibiting any of the typical signs of bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Greenspan sees U.S. interest rates rising",
+        "URL": "Greenspan sees U.S. interest rates rising.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    MEXICO CITY, June 13 (Reuters) - Former U.S. Federal  Reserve Chairman Alan Greenspan said on Friday the U.S. central  bank would have to put pressure on the money supply to curb  inflation, and predicted higher U.S. interest rates.      'If you're going to keep inflation rates down ... the  Federal Reserve is going to have to put increasing pressure on  the money supply and reserves, and as a result we're going to  see interest rates rising,' Greenspan said via video link to an  event in Mexico.   (Reporting by Jason Lange, Editing by Chizu Nomiyama)   ((catherine.bremer@thomsonreuters.com; +52 55 5282 7147;  Reuters Messaging: catherine.bremer.reuters.com@reuters.net))  Keywords: USA ECONOMY/GREENSPAN RATES        ",
+        "Histogram": [
+            0,
+            0.4,
+            0
+        ],
+        "Relevance": 11.087434768676758,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "'If you're going to keep inflation rates down ... the Federal Reserve is going to have to put increasing pressure on the money supply and reserves, and as a result we're going to see interest rates rising,' Greenspan said via video link to an event in Mexico.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.4,
+                    "bias_description": "This sentence implies a direct and exclusive causal relationship between the Federal Reserve's actions on the money supply and interest rates, without considering other factors that might influence interest rates, such as global economic conditions or fiscal policies."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article contains one instance of Causal Misunderstanding Bias, suggesting a simplistic cause-and-effect relationship between the Federal Reserve's actions and interest rates without considering broader economic factors. The general bias tendency leans towards oversimplification of monetary policy's impact on interest rates."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.4,
+            "percentage_of_biased_sentences": 0.3333333333333333,
+            "overall_rating": 0.3666666666666667
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "BRIEF-Greenspan sees significant rise in layoffs- CNBC",
+        "URL": "BRIEF-Greenspan sees significant rise in layoffs- CNBC.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    Oct 23 (Reuters) -:   * Greenspan says credit agencies supported subprime with unrealistically     positive ratings- CNBC   * Greenspan says there will be a significant rise in layoffs and unemployment--     CNBC   * Greenspan says he is in a state of shocked disbelief that markets did not     self-regulate - CNBC    ((New York Equities Desk; tel: +1 646 223 6000))    ",
+        "Histogram": [
+            0
+        ],
+        "Relevance": 11.035346984863281,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Greenspan says credit agencies supported subprime with unrealistically positive ratings- CNBC",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.7,
+                    "bias_description": "This sentence implies a direct cause-and-effect relationship between the actions of credit agencies and the subprime crisis, without considering other factors that contributed to the complex financial collapse."
+                },
+                {
+                    "text": "Greenspan says he is in a state of shocked disbelief that markets did not self-regulate - CNBC",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.7,
+                    "bias_description": "This sentence suggests a simplistic understanding of market regulation, attributing the crisis solely to a lack of self-regulation without acknowledging the intricate systemic issues involved."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the causes of the subprime crisis and the role of market regulation, with a tendency to oversimplify complex financial issues and attribute them to single factors."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.7,
+            "percentage_of_biased_sentences": 1.0,
+            "overall_rating": 0.85
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Greenspan says recession still likely in U.S. - FT",
+        "URL": "Greenspan says recession still likely in U.S. - FT.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    LONDON, May 27 (Reuters) - Former Federal Reserve chairman  Alan Greenspan was quoted on Tuesday as saying the United  States was still more likely than not to have a recession  despite relative stabilisation in the economy in recent weeks.      'I still believe there is a greater than 50 percent  probability of recession,' Greenspan told the Financial Times  in an interview published on the newspaper's website.      '(But) that probability has receded a little and I think  the probability of a severe recession has come down markedly,'  said Greenspan.      He said it was 'too soon to tell' whether the worst of the  financial crisis was over as this would depend on what happened  to house prices.      The Financial Times said Greenspan estimated house prices  would fall by another 10 percent from their February levels,  for a total peak-to-trough decline of roughly 25 percent.      If the economy was weak and the market overshot, house  prices could decline by another 5 percent, he said.      'Such house price declines imply a major contraction in the  level of equity in owner-occupied homes, the ultimate  collateral for mortgage-backed securities,' said Greenspan.      He said it was still not clear whether big financial  institutions had taken all the writedowns they would need to  take on higher rated tranches of mortgage-backed credit  products.      Greenspan said he believed there was a 'tug of war' taking  place in the economy, with financial sector stress pulling one  way and strong corporate liquidity pulling the other. Corporate  liquidity was being eroded, but only gradually.      'No one knows how this tug of war will end -- specifically,  whether the financial crisis will end before it drags down the  real economy,' said Greenspan.      The Financial Times said the main risk that Greenspan saw  was that the household savings rate would move up more rapidly  than most analysts expected as home equity fell, the labour  market weakened and access to credit declined.   (Writing by Ralph Gowling; Editing by James Dalgleish)   ((ralph.gowling@thomsonreuters.com; +44 20 7542 7918))  Keywords: USA GREENSPAN       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 11.004497528076172,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual report on Alan Greenspan's assessment of the U.S. economy without employing any of the typical bias types."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "U.S. could face mild recession, Greenspan quoted",
+        "URL": "U.S. could face mild recession, Greenspan quoted.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    SINGAPORE, May 14 (Reuters) - U.S. economic data suggests the  world's biggest economy could face a mild recession, former  Federal Reserve chairman Alan Greenspan was quoted as telling  Asian investors on Wednesday.      'He said that the data coming out of the U.S. so far suggests  a mild recession. The risk is really on the housing side,' a  participant quoted Greenspan as telling a private Deutsche Bank  event.      The former Fed chairman spoke to the meeting in Singapore via  videolink from Washington.      Greenspan, who was quoted as saying earlier this month that  the U.S. had fallen into an 'awfully pale recession', also told  the investor meeting that the credit crisis would end when home  prices in the United States begin to stabilise, members of the  audience said.      'When home prices stabilise that would mark the end of the  credit crisis,' the participant quoted Greenspan as saying.      'The last part of liquidation will only occur in early 2009,  but he argued that it is likely home prices could well stabilise  before that,' the participant, who declined to be identified,  added.      The U.S economy is reeling from a housing-led slowdown. Some  analysts are convinced the economy is already in a recession  despite a 0.6 percent annualised growth rate in the first quarter  of 2008.      The Fed has cut it's key overnight lending rate by 3.25  percentage points to 2.0 percent since mid-September in a bid to  cushion the broader economy from the housing downturn and credit  crisis.      Greenspan also said that global price pressures could remain  firm because the effect of China's cheap exports is waning.      'We are entering a period where the disinflationary pressure  from the exports of China have bottomed out,' the participant  quoted Greenspan as saying.      'Low cost labour in China probably reached its peak in late  2006 and early 2006. We are beginning to see gradually rising  inflationary pressures, which would be probably subdued during  the current period of slowdown, but will surely re-emerge when  the economy begins to pickup,' he quoted Greenspan as saying.   (Reporting by Saeed Azhar; editing by Neil Fullick)   ((saeed.azhar@reuters.com; Reuters Messaging:  saeed.azhar.reuters.com@reuters.net; +65 6403-5664))  Keywords: USA ECONOMY/GREENSPAN       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 11.000597953796387,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to exhibit bias as it primarily reports on statements made by Alan Greenspan regarding the U.S. economy without introducing subjective or misleading information."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Greenspan says unfairly blamed, has no regrets-WSJ",
+        "URL": "Greenspan says unfairly blamed, has no regrets-WSJ.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    SINGAPORE, April 8 (Reuters) - Former Federal Reserve  Chairman Alan Greenspan has lashed out again at his critics,  saying he was being blamed unfairly for the credit crisis and  that he had no regrets about decisions he took while at the helm.      In an interview in Tuesday's Wall Street Journal, Greenspan,  who left the Fed in early 2006, says critics are ignoring  evidence in his favour and failing to give credit to the thinking  behind the Fed's decision to lower rates when he was in charge.      Critics say Greenspan, under whom U.S. rates went from 6.5  percent in late 2000 to 1 percent in mid-2003, eased policy too  much and then took too long to tighten again. That, they say,  spurred excessive mortgage borrowing and stoked the housing  bubble that is now the root cause of the credit crisis.      But Greenspan said the Fed cut rates to spur growth and  prevent deflation and, at that time, dissenting votes on the  policy committee were from those who wanted rates even lower.      Analysts also blame Greenspan for failing to press for  stricter rules for bank lending to consumers with weaker credit  records, and for not anticipating the subprime mortgage meltdown.      'I was praised for things I didn't do,' Greenspan told the  newspaper. 'I am now being blamed for things that I didn't do.'      In the interview, Greenspan admits he was wrong about the  improbability of a housing bubble.       But WSJ reporter Greg Ip says Greenspan does not share some  foreign central bankers' belief that their job is to defend  against excessive asset-price inflation. No sensible policy, he  maintains, could have prevented the housing bubble.      'I am reasonably certain that I am right here,' Greenspan is  quoted as saying. If proved wrong, he says, 'I will change. I do  not have a vested interest in holding wrong ideas.'      Greenspan said rock-bottom interest rates actually went  against his '19th century' aversion to easy money. 'My inner soul  didn't feel comfortable,' he is quoted as saying.      But he also denies intimidating others into falling in line.      'What I find amusing is that history is being rewritten with  me being portrayed as a force that overwhelms and persuades all  these highly educated, very intelligent people to do my bidding,'  he says in the interview.       'That's just silliness. It's a terrible rewrite of history.'   (Reporting by Vidya Ranganathan; Editing by Alan Raybould)  ((vidya.ranganathan@reuters.com; +65-68703090; Reuters Messaging:  vidya.ranganathan.reuters.com@reuters.net))    Keywords: ECONOMY CREDIT/GREENSPAN       ",
+        "Histogram": [
+            0,
+            0.6,
+            0.7,
+            0.7,
+            0,
+            0.7,
+            0.6,
+            0.6,
+            0.3,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0.9,
+            0.9,
+            0.9,
+            0
+        ],
+        "Relevance": 10.981613159179688,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "In an interview in Tuesday's Wall Street Journal, Greenspan, who left the Fed in early 2006, says critics are ignoring evidence in his favour and failing to give credit to the thinking behind the Fed's decision to lower rates when he was in charge.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence implies that Greenspan's critics are unjustly ignoring evidence and not acknowledging the rationale behind his decisions, suggesting a subjective opinion that discredits opposing viewpoints."
+                },
+                {
+                    "text": "Critics say Greenspan, under whom U.S. rates went from 6.5 percent in late 2000 to 1 percent in mid-2003, eased policy too much and then took too long to tighten again. That, they say, spurred excessive mortgage borrowing and stoked the housing bubble that is now the root cause of the credit crisis.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.7,
+                    "bias_description": "This sentence implies a direct cause-and-effect relationship between Greenspan's policy decisions and the housing bubble without considering other factors, suggesting a misunderstanding or oversimplification of the complex issue."
+                },
+                {
+                    "text": "Analysts also blame Greenspan for failing to press for stricter rules for bank lending to consumers with weaker credit records, and for not anticipating the subprime mortgage meltdown.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.7,
+                    "bias_description": "Similar to the previous sentence, this one attributes blame to Greenspan for specific regulatory actions without a comprehensive analysis of the multiple factors contributing to the subprime mortgage crisis."
+                },
+                {
+                    "text": "'I was praised for things I didn't do,' Greenspan told the newspaper. 'I am now being blamed for things that I didn't do.'",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This quote from Greenspan uses emotionally charged language to highlight the perceived injustice of being praised for the wrong reasons and unfairly blamed, which may evoke a strong emotional response from readers."
+                },
+                {
+                    "text": "In the interview, Greenspan admits he was wrong about the improbability of a housing bubble.",
+                    "bias_type": "Admission of Bias",
+                    "bias_strength": 0.3,
+                    "bias_description": "While not a negative bias, the admission of being wrong about a significant economic event can still influence the reader's perception of Greenspan's overall competence and judgment."
+                },
+                {
+                    "text": "But WSJ reporter Greg Ip says Greenspan does not share some foreign central bankers' belief that their job is to defend against excessive asset-price inflation. No sensible policy, he maintains, could have prevented the housing bubble.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence presents Greg Ip's interpretation of Greenspan's stance as a definitive rejection of other central bankers' approaches, implying a subjective judgment on the sensibility of different policies regarding asset-price inflation."
+                },
+                {
+                    "text": "'I am reasonably certain that I am right here,' Greenspan is quoted as saying. If proved wrong, he says, 'I will change. I do not have a vested interest in holding wrong ideas.'",
+                    "bias_type": "Self-Promotion Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Greenspan's confident assertion and willingness to change his position are presented in a way that could be seen as self-promotion, emphasizing his openness to correction while still asserting his certainty."
+                },
+                {
+                    "text": "Greenspan said rock-bottom interest rates actually went against his '19th century' aversion to easy money. 'My inner soul didn't feel comfortable,' he is quoted as saying.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'my inner soul didn't feel comfortable' introduces a personal, emotional element to Greenspan's explanation, potentially appealing to readers' emotions rather than presenting a purely rational argument."
+                },
+                {
+                    "text": "'What I find amusing is that history is being rewritten with me being portrayed as a force that overwhelms and persuades all these highly educated, very intelligent people to do my bidding,' he says in the interview. 'That's just silliness. It's a terrible rewrite of history.'",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "This statement strongly dismisses the idea that Greenspan had significant influence over others, using dismissive language ('That's just silliness') to assert his perspective as the only reasonable interpretation of historical events."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding Alan Greenspan's role in the credit crisis, with a tendency to present his perspective in a favorable light while discrediting or oversimplifying the criticisms against him. The biases identified include Opinionated Bias, Causal Misunderstanding Bias, Emotional Sensationalism Bias, Admission of Bias, Self-Promotion Bias, and a high-strength instance of Opinionated Bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6222222222222222,
+            "percentage_of_biased_sentences": 0.7142857142857143,
+            "overall_rating": 0.6682539682539683
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Greenspan sees U.S. in or near recession-WSJ",
+        "URL": "Greenspan sees U.S. in or near recession-WSJ.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": " (Releads with Greenspan interview, comments on recession)      NEW YORK, Jan 15 (Reuters) - The U.S. economy is probably in  a recession or about to slide into it, former U.S. Federal  Reserve Chairman Alan Greenspan said in an interview with The  Wall Street Journal.      The odds are 'not overwhelming but they are marginally in  that direction' Greenspan was quoted as saying in the interview,  published on Tuesday.      'The symptoms are clearly there. Recessions don't happen  smoothly. They are usually signaled by a discontinuity in the  market place, and the data of recent weeks could very well be  characterized in that manner,' he said.      Greenspan was reported in December as saying that he saw  chances of a U.S. economic recession at around 50 percent,  compared with his previous view of a 30 percent chance.      In the latest interview, Greenspan referred to a drop in the  Institute for Supply Management's purchasing managers index as  well as the rise in unemployment in December, and said the odds  of a recession were still close to 50 percent but 'more likely  higher than lower.'      Greenspan is set to join hedge-fund firm Paulson & Co. as an  adviser, the Journal said.      New York-based Paulson, with assets of $28 billion, is set to  make the announcement on Tuesday, it said.      Greenspan has been criticized by some for keeping the  trendsetting federal funds rate at a low 1 percent from June 2003  through June 2004, which some say contributed to a housing bubble  that is now bursting.      Paulson & Co. was among hedge fund industry's big winners in  2007 after it bet against subprime mortgages.   (Reporting by Ritsuko Ando; Editing by Tomasz Janowski)   ((ritsuko.ando@reuters.com ; +1 646 223 6000; Reuters Messaging:  ritsuko.ando.reuters.com@reuters.net))  Keywords: GREENSPAN FUND/        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 10.972887992858887,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports on statements made by Alan Greenspan regarding the U.S. economy and his personal career decisions without introducing subjective or misleading information."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "FXNEWS-Greenspan says US 'on edge' of recession",
+        "URL": "FXNEWS-Greenspan says US 'on edge' of recession.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "Former US Fed Chairman Greenspan says the US economy is 'clearly  on the edge' of a recession. Greenspan says the economy will  continue to erode until there is a stabilization of US housing  prices. 'We have a long way to go' before housing prices hit a  bottom, Greenspan tells energy executives at the CERA conference.  Click on [nN14506967]      Reuters Messaging: chikako.mogi.reuters.com@reuters.net  ",
+        "Histogram": [
+            0,
+            0.6,
+            0.6,
+            0
+        ],
+        "Relevance": 10.971969604492188,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Greenspan says the economy will continue to erode until there is a stabilization of US housing prices.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence implies a direct cause-and-effect relationship between the stabilization of housing prices and the overall economy, without considering other factors that could contribute to economic stability or decline."
+                },
+                {
+                    "text": "'We have a long way to go' before housing prices hit a bottom, Greenspan tells energy executives at the CERA conference.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'a long way to go' and the context of speaking to energy executives at a conference could evoke a sense of alarm or concern about the housing market, potentially sensationalizing the issue."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the state of the US economy, particularly in its discussion of the relationship between housing prices and economic stability. The biases identified include Causal Misunderstanding and Emotional Sensationalism, suggesting a tendency to present the information in a way that may exaggerate the risks or causes of economic recession."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.5,
+            "overall_rating": 0.55
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Greenspan: subprime risky but helped home ownership",
+        "URL": "Greenspan: subprime risky but helped home ownership.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    VANCOUVER, British Columbia, Jan 24 (Reuters) - Former  Federal Reserve Chairman Alan Greenspan said on Thursday that  subprime mortgages were risky, but they helped broaden home  ownership.      During a speech to a financial audience in the Canadian  West Coast city of Vancouver, Greenspan said subprime mortgages  financed an increase in housing among minorities.     Subprime mortgages were risky, but they were worth the risk,  he said.   (Reporting by Nicole Mordant and Allan Dowd; Editing by Peter  Galloway)   ((nicole.mordant@reuters.com; +1 604 664 7315; Reuters  Messaging: nicole.mordant.reuters.com@reuters.net))  Keywords: GREENSPAN/SUBPRIME        ",
+        "Histogram": [
+            0.6,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 10.97016429901123,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Subprime mortgages were risky, but they helped broaden home ownership.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence implies a direct positive cause-and-effect relationship between subprime mortgages and broadened home ownership without considering the negative consequences or the broader economic context, thus misunderstanding the complex causal factors involved."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the impact of subprime mortgages on home ownership, specifically through a causal misunderstanding bias, suggesting a simplistic and positive causal relationship without acknowledging the risks and broader implications. The general bias tendency leans towards justifying the use of subprime mortgages for the purpose of broadening home ownership."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.25,
+            "overall_rating": 0.425
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Hedge fund Paulson hires former Fed chief Greenspan",
+        "URL": "Hedge fund Paulson hires former Fed chief Greenspan.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    BOSTON, Jan 15 (Reuters) - Hedge fund manager John Paulson,  who earned billions of dollars last year by betting against the  housing market, said on Tuesday that former Federal Reserve  board chairman Alan Greenspan will advise his firm.      Greenspan, whose words can still move financial markets,  will advise Paulson on the global economy for an undisclosed  amount of money, the hedge fund said in a statement.      By joining the New York-based fund, Greenspan becomes the  latest former Washington insider to work in the fast growing $2  trillion hedge fund industry. Former Treasury Secretaries  Lawrence Summers and John Snow provide advice to D.E. Shaw and  Cerberus.   (Reporting by Svea Herbst-Bayliss; Editing by Derek Caney)   ((Svea.Herbst@Reuters.com; +1 617 367 4171; Reuters Messaging:  svea.herbst.reuters.com@reuters.net))  Keywords: HEDGEFUNDS/GREENSPAN        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 10.879456520080566,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports on the hiring of Alan Greenspan by John Paulson's hedge fund without introducing any subjective or misleading information."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "FXNEWS-Greenspan: More banks, firms may founder",
+        "URL": "FXNEWS-Greenspan: More banks, firms may founder.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "More banks and financial institutions are likely to face  insolvency and need bailouts before the global financial crisis  is over, says former Fed chairman Greenspan. Writing in the  Financial Times, Greenspan calls the current crisis a once or  twice in a century event and says insolvency will only end once  US house prices stabilised, underpinning MBSs. 'Fears of  insolvency have not, as yet, been fully set aside,' Greenspan  writes in an article published online. 'There may be numbers of  banks and other financial institutions that, at the edge of  defaulting, will end up being bailed out by governments.' Click  on [nL4246120]      Reuters Messaging: rika.otsuka.reuters.com@reuters.net  ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 10.85453987121582,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to contain biased sentences. It provides a factual report on the opinions of former Fed chairman Greenspan regarding the global financial crisis without exhibiting any evident bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "UPDATE 2-Greenspan upbeat on credit crisis-sources",
+        "URL": "UPDATE 2-Greenspan upbeat on credit crisis-sources.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "  (Adds details, background)      NEW YORK, May 8 (Reuters) - Former Federal Reserve Chairman  Alan Greenspan said on Thursday that the worst of the credit  crisis is over, according to sources who attended a speech he  delivered in New York.      Greenspan said while the current credit crisis was the  worst he had ever seen, the worst was over as low interest  rates meant companies could borrow more cheaply long-term, the  sources who attended his speech at the Alternative Public  Strategies Conference told Reuters.      Conference organizers said Greenspan had requested that  members of the media intending to cover his speech could only  do so in their personal capacity and would not be allowed to  report on whatever he said.      Greenspan also said U.S. house prices still had a long way  to fall and that it was unlikely they would stabilize by  year-end, the sources said.      As chairman of the Federal Reserve, Greenspan oversaw the  reduction of the federal funds rate 1.0 percent in 2003 which  some critics charge provided fuel for the U.S. real estate  bubble that followed.      Greenspan has vehemently rejected assertions that his  monetary policy was the cause of the problem. Low interest  rates and lending practises that saw loans being advanced to  home owners with poor credit histories have been blamed for the  U.S. housing market meltdown.      The U.S economy is reeling from a housing-led slowdown,  with some analysts convinced it is already in a recession  despite a 0.6 percent growth rate in the first quarter of  2008.      The Fed has cut it's key overnight lending rate by 3.25  percentage points to 2.0 percent since mid-September in a bid  to prevent the housing downturn from spilling over to the  broader economy. The aggressive rate cuts were also directed at  healing the fractured credit markets.      According the sources, Greenspan mentioned that United  States growth was likely to be sluggish for an extended period  of time but that a so-called doomsday scenario was unlikely to  materialize.      On Monday, Greenspan was quoted by Bloomberg news agency as  saying that the U.S. growth had fallen into an 'awfully pale  recession' and might remain stagnant for the rest of the year.      (Reporting by Lucia Mutikani;)   ((lucia.mutikani@thomsonreuters.com; 1 646 223 6314; Reuters  Messaging: lucia.mutikani.reuters.com@reuters.net))  Keywords: USA ECONOMY/GREENSPAN        ",
+        "Histogram": [
+            0,
+            0.6,
+            0.6,
+            0,
+            0.6,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0.6,
+            0,
+            0
+        ],
+        "Relevance": 10.83958625793457,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Greenspan said while the current credit crisis was the worst he had ever seen, the worst was over as low interest rates meant companies could borrow more cheaply long-term, the sources who attended his speech at the Alternative Public Strategies Conference told Reuters.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence implies a direct cause-and-effect relationship between the improvement in the credit crisis and low interest rates, without considering other factors that may contribute to the crisis' resolution."
+                },
+                {
+                    "text": "Conference organizers said Greenspan had requested that members of the media intending to cover his speech could only do so in their personal capacity and would not be allowed to report on whatever he said.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'only' and the restriction on reporting are suggestive of a control measure that could imply a lack of transparency or an attempt to manipulate the narrative."
+                },
+                {
+                    "text": "As chairman of the Federal Reserve, Greenspan oversaw the reduction of the federal funds rate 1.0 percent in 2003 which some critics charge provided fuel for the U.S. real estate bubble that followed.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence attributes the U.S. real estate bubble directly to Greenspan's decision to reduce the federal funds rate, oversimplifying a complex economic phenomenon."
+                },
+                {
+                    "text": "The U.S economy is reeling from a housing-led slowdown, with some analysts convinced it is already in a recession despite a 0.6 percent growth rate in the first quarter of 2008.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'reeling' and 'convicted' introduces a negative and possibly exaggerated tone to describe the state of the U.S. economy, potentially influencing the reader's perception."
+                },
+                {
+                    "text": "According the sources, Greenspan mentioned that United States growth was likely to be sluggish for an extended period of time but that a so-called doomsday scenario was unlikely to materialize.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The mention of a 'doomsday scenario' introduces a dramatic and sensational element, designed to evoke fear or concern, which may not be warranted by the actual economic outlook."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the portrayal of the U.S. economy's condition and the role of Alan Greenspan in the credit crisis, with a general tendency towards causal misunderstanding, word choice, and emotional sensationalism."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.07692307692307693,
+            "overall_rating": 0.3384615384615385
+        },
+        "combined_score": 0.0
+    }
+]

@@ -1,0 +1,992 @@
+[
+    {
+        "Title": "FACTBOX-Obama's orders on Guantanamo, interrogations",
+        "URL": "FACTBOX-Obama's orders on Guantanamo, interrogations.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    Jan 22 (Reuters) - U.S. President Barack Obama signed  executive orders on Thursday to close Guantanamo military  prison and overseas CIA jails.      He also ordered more humane treatment for terrorism  suspects and an end to renditions, the practice of transporting  foreign detainees to other countries for interrogation that has  caused friction with close allies.      Here are details of the three orders Obama signed:           EXECUTIVE ORDER ON GUANTANAMO BAY DETAINEES      The prison at a U.S. naval base in Cuba, where hundreds of  foreign terrorism suspects have been held for years without  trial, is to be closed within a year.      'Closure of the facility is the ultimate goal but not the  first step. The order establishes a review process with the  goal of disposing of the detainees before closing the  facility,' the order says.      There is to be an immediate review to determine whether the  250 detainees still at Guantanamo can be transferred to third  countries. It instructs Secretary of State Hillary Clinton to  negotiate transfers with foreign countries. If the transfers  are not approved, a second review will decide whether  prosecutions are possible and in what forum.      'The preference is for prosecution in Article III courts or  under the Uniform Code of Military Justice, but military  commissions, perhaps with revised authorities, would remain an  option,' it says.      The order directs Defense Secretary Robert Gates to halt  all military commission proceedings pending the review and to  ensure detainees are held in conditions that comply with the  Geneva Conventions on the humane treatment of prisoners.           EXECUTIVE ORDER ON INTERROGATIONS      It requires all questioning of detainees, by any U.S.  government agency, to follow the Army Field Manual  interrogation guidelines, which ensure prisoners get humane  treatment under the Geneva Conventions.      It junks the legal advice on interrogations issued by the  Bush administration, which said that terrorism suspects were  not entitled to protection under the Geneva Conventions.      It orders the CIA to close all detention facilities, set up  in third countries to interrogate foreign terrorism suspects.      It also orders establishment of a special task force to  review the policy of rendition to ensure that individuals do  not face torture or cruel treatment.      The task force will also conduct a review of the Army Field  Manual interrogation guidelines to determine 'whether different  or additional guidance is necessary for the CIA.'           PRESIDENTIAL MEMORANDUM ON THE DETENTION OF ALI AL-MARRI      Obama ordered a review of the status of Marri, accused of  being an al Qaeda 'sleeper' agent and held for 5-1/2 years at a  U.S. military prison in South Carolina. He is the only person  still held in the United States as an enemy combatant.   (Compiled by Ross Colvin in Washington, Editing by John  O'Callaghan)   ((ross.colvin@thomsonreuters.com; +1 2020 898 8309; Reuters  Messaging: ross.colvin.reuters.com@reuters.net))  Keywords: GUANTANAMO/OBAMA        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 13.307705879211426,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to exhibit bias. It provides factual information about the executive orders signed by President Barack Obama regarding Guantanamo, interrogations, and the detention of Ali al-Marri without introducing any biased language or perspectives."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Report faults FBI handling of agents' Gitmo complaints-NYT",
+        "URL": "Report faults FBI handling of agents' Gitmo complaints-NYT.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    NEW YORK, May 17 (Reuters) - A new Justice Department  report praises FBI agents for refusing to join in the U.S.  military's abusive questioning of prisoners in Guantanamo Bay,  Iraq and Afghanistan, but faults the bureau's for responding  slowly to complaints from its own agents about the tactics, The  New York Times reported on Saturday.      Citing people with knowledge of the still-secret report,  expected to be released as early as Tuesday, the Times reported  that the department's inspector general's office is said to  have concluded that no FBI agents participated in the rough  interrogations by the military.      But the report is also expected to take the bureau to task  for its slow response to agents' complaints about the tactics,  and for its unclear guidelines and training on handling the  complaints, the Times said.      'The FBI should be credited for its conduct and  professionalism in detainee interrogations in the military  zones,' the newspaper quoted the inspector general as saying in  the report.      One FBI memo referred to 'torture techniques' that were  used by military interrogators, with agents describing inmates  who were handcuffed in a fetal position for up to 24 hours at a  time, the newspaper reported. They were intimidated by dogs,  made to wear women's undergarments and subjected to strobe  lights and extreme temperatures, it said.      'Could we have done more, more quickly? Or could we have  provided better guidance?' asked an FBI official with knowledge  of the report who said the answer was likely yes. But, he  added, 'It was difficult to tell agents what the rules were  because we didn't know ourselves,' the Times reported.      The inspector general's office refused to comment on the  investigation, which began more than three years ago, and many  details remain unknown, the Times said, including whether it  will address CIA interrogations that may have been witnessed by  FBI agents.      FBI Director Robert Mueller said on Friday that the agency  was helping to get information from detainees and prepare  terrorism cases against suspects at Guantanamo Bay despite  differences with the CIA over interrogation techniques.      'The policy of the bureau ... is not to use coercion,' he  said in an appearance at the National Press Club, adding 'I  will speak for the FBI.'      ((Editing by Stacey Joyce; nyc.buro@reuters.com; +1 646 223  6280; Reuters Messaging:  daniel.trotta.reuters.com@reuters.net))  Keywords: SECURITY USA/FBI INTERROGATION       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 13.29894733428955,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "'The FBI should be credited for its conduct and  professionalism in detainee interrogations in the military  zones,' the newspaper quoted the inspector general as saying in  the report.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the words 'conduct and professionalism' implies a positive judgment about the FBI's actions in detainee interrogations, potentially influencing the reader's perception without providing a balanced view."
+                },
+                {
+                    "text": "One FBI memo referred to 'torture techniques' that were  used by military interrogators, with agents describing inmates  who were handcuffed in a fetal position for up to 24 hours at a  time, the newspaper reported. They were intimidated by dogs,  made to wear women's undergarments and subjected to strobe  lights and extreme temperatures, it said.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The detailed and emotionally charged description of the torture techniques, such as being 'handcuffed in a fetal position for up to 24 hours at a time' and 'intimidated by dogs', is designed to evoke a strong emotional response from the reader, potentially at the expense of a balanced presentation of facts."
+                },
+                {
+                    "text": "'Could we have done more, more quickly? Or could we have  provided better guidance?' asked an FBI official with knowledge  of the report who said the answer was likely yes. But, he  added, 'It was difficult to tell agents what the rules were  because we didn't know ourselves,' the Times reported.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This statement presents the opinion of an FBI official as a fact, suggesting that the lack of clarity on rules was a widespread issue within the FBI without providing evidence for this generalization."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the FBI's handling of detainee interrogations, particularly through the use of word choice, emotional sensationalism, and opinionated statements that may influence the reader's perception of the FBI's actions without presenting a balanced view."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.42857142857142855,
+            "overall_rating": 0.5142857142857142
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Pentagon seeks uniformity on taping interrogations",
+        "URL": "Pentagon seeks uniformity on taping interrogations.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WASHINGTON, March 13 (Reuters) - The U.S. Defense  Department is reviewing the practice of videotaping  interrogations with the aim of developing a uniform policy on  recording those sessions, the Pentagon said on Thursday.      The U.S. military does not regularly videotape  interrogations and so far its review has found fewer than 50  tapes, according to Pentagon press secretary Geoff Morrell.      The recordings are typically destroyed after 90 days, once  interrogators and other military officials determine the  videotapes no longer serve any intelligence or training  purpose, the Pentagon said.      'Once the tape has outlived its usefulness, it is certainly  within the rights, in fact I think it's within the orders of  some divisions, to destroy those tapes,' Morrell said.      The Pentagon's top intelligence official, Undersecretary of  Defense for Intelligence James Clapper, in late January ordered  military commands to report their videotaping practices.      That came after the Central Intelligence Agency  acknowledged it destroyed videotapes of harsh interrogations  conducted by CIA officers. The destruction of those tapes is  the subject of criminal and congressional investigations.      'We want to know to what extent that they are using  videotaping, when they choose to preserve it, when they choose  to destroy it, what are the criteria they use for making those  decisions,' Morrell said.      'The effort here is to try to ... ensure that we have a  uniform use, policy with regards to videotaping.'      The videotapes would be kept if there was any evidence of  abuse during the interrogations, Morrell said.      The Pentagon would not discuss the content of the tapes.      The New York Times, which first reported the review of  videotaping practices, said one of the tapes showed what a  military spokesman described as the forcible gagging of a  terrorism suspect.      In that case, interrogators used force to put duct tape  over the mouth of a detainee, the newspaper said.      Morrell would not say whether that practice was abusive.      'I'm not going to go into what's abuse or not abuse. I  would talk to people who are experts on interrogation. I doubt  that they would characterize what you're describing as abuse,'  he said.      Many of the tapes documented interrogations of Jose  Padilla, the newspaper said. Padilla is a Chicago gang member  once accused of plotting a radioactive bomb attack, but  sentenced in January to more than 17 years in prison for  supporting terrorism.      The U.S. military organizes itself into geographic and  functional commands, four of which were ordered to report on  their videotaping practices.      That included U.S. Southern Command, responsible for the  military prison holding al Qaeda and Taliban suspects at the  naval base at Guantanamo Bay, Cuba, and Central Command,  responsible for operations in Iraq and Afghanistan.      All except Central Command have completed the review.   (Reporting by Kristin Roberts, Editing by David Wiessler)   ((kristin.roberts@reuters.com; +1 202 898 8398; Reuters  Messaging: kristin.roberts.reuters.com@reuters.net))  Keywords: SECURITY USA/TAPES       ",
+        "Histogram": [
+            0,
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 12.130292892456055,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "The U.S. military does not regularly videotape interrogations and so far its review has found fewer than 50 tapes, according to Pentagon press secretary Geoff Morrell.",
+                    "bias_type": "Cherry Picking Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence emphasizes the scarcity of taped interrogations, potentially downplaying the significance of the issue by cherry-picking information that suggests a limited scope of the practice."
+                },
+                {
+                    "text": "'Once the tape has outlived its usefulness, it is certainly within the rights, in fact I think it's within the orders of some divisions, to destroy those tapes,' Morrell said.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of phrases like 'outlived its usefulness' and 'certainly within the rights' introduces a subjective opinion regarding the justification for destroying the tapes, blurring the line between fact and personal perspective."
+                },
+                {
+                    "text": "The Pentagon's top intelligence official, Undersecretary of Defense for Intelligence James Clapper, in late January ordered military commands to report their videotaping practices.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The choice of words such as 'top intelligence official' and 'ordered' conveys a sense of authority and importance, potentially influencing the reader's perception of the significance of the directive."
+                },
+                {
+                    "text": "The New York Times, which first reported the review of videotaping practices, said one of the tapes showed what a military spokesman described as the forcible gagging of a terrorism suspect.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'forcible gagging' and 'terrorism suspect' employs emotionally charged and negatively connoted language, potentially biasing the reader's interpretation of the events."
+                },
+                {
+                    "text": "In that case, interrogators used force to put duct tape over the mouth of a detainee, the newspaper said.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The specific description of the method used, 'duct tape over the mouth', is a form of word choice bias that can evoke a strong emotional response, potentially leading to a biased interpretation of the action."
+                },
+                {
+                    "text": "Many of the tapes documented interrogations of Jose Padilla, the newspaper said. Padilla is a Chicago gang member once accused of plotting a radioactive bomb attack, but sentenced in January to more than 17 years in prison for supporting terrorism.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The framing of Jose Padilla as a 'Chicago gang member' and the mention of 'plotting a radioactive bomb attack' without context may introduce bias through the use of negatively connoted language and the omission of details that could provide a more balanced view."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the topic of videotaping interrogations in the U.S. military, with a general bias tendency towards downplaying the significance of the issue, using subjective opinions, and employing emotionally charged or negatively connoted language to influence the reader's perception."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.13043478260869565,
+            "overall_rating": 0.3652173913043478
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "The Truth About Guantanamo Bay___.txt",
+        "URL": "The Truth About Guantanamo Bay___.txt.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/240px-Fox_News_Channel_logo.svg.png",
+        "Text": "The truth about Guantanamo Bay: that is the subject of this evening's \"Talking Points Memo\".\n\nAs we told you last week, the detainee abuse story is being used to undermine the war on terror, at least the way the Bush administration is fighting it. Check out my column posted on billoreilly.com for details on that.\n\nNow over the weekend, Senator Joseph Biden joined the abuse chorus and called for the shutting down of Guantanamo Bay (search).\n\n(BEGIN VIDEO CLIP)\n\nSEN. JOSEPH BIDEN (D), DELAWARE: [It]...has become the greatest propaganda tool that exists for recruiting of terrorists around the world. And it is unnecessary to be in that position, but the end result is I think we should end up shutting it down, moving those prisoners. Those that we have reason to keep, keep. And those we don't, let go.\n\n(END VIDEO CLIP)\n\nWe asked the senator to appear this evening, but as always, Biden turned us down. He does not like close questioning.\n\nBut it's amazing to me that he and others actually believe that closing Gitmo would accomplish anything. The entire Gitmo situation has been driven by the anti-Bush press and the far left human rights organizations.\n\nAs \"Talking Points\" mentioned a week ago, there have been abuses by U.S. interrogators down there, but not many. And now we have some stats to back that up.\n\nThe Pentagon report found that there have been more than 28,000 Gitmo interrogations over the past three years, and only five cases of Koran abuse, two of which were accidental.\n\nAnd the chief critic from inside Gitmo, former Army translator Eric Saar (search), said this on \u201cThe Factor\u201d a few days ago.\n\n(BEGIN VIDEO CLIP)\n\nO'REILLY: What was the worst thing you ever saw?\n\nERIC SAAR: You know, sir, I would have to say the worst thing I saw was actually some of the sexual tactics that were used in the interrogation booth. And I would have to say the reason for that is because it really defied the values we stand for as a country.\n\n(END VIDEO CLIP)\n\nAnd those techniques were unbuttoning blouses, women interrogators, things like that, but no touching or anything like that.\n\nSo what are we talking about here? Some minor cases of abuse, that's what. And we should shut down Gitmo because the anti-Bush press doesn't like it? Come on.\n\nThe truth is that any closing of Gitmo would send a signal that the USA did indeed abuse Gitmo prisoners on a mass scale. That's not true, but it is a perception the anti-Bush people want out there.\n\nOnce again, you can't fight a war on terror when every small mistake is magnified into a page one scandal or a book! Also once again, the Bush administration should set up an independent commission to investigate American detainee policy across the board. The president must take the offensive on this, or else the country's image will continue to suffer and the jihadists and their enablers will win another victory.\n\nAnd that's \"The Memo.\"\n\nThe Most Ridiculous Item of the Day\n\nA bunch of \"Factor\" items: First the results of our billoreilly.com poll, which asks, \"Is Mark Felt aka Deep Throat, a hero, a villain, or is it too hard to say?\"\n\nSixty-four percent of the 25,000 of you who voted believe the man's a villain. Twenty-four percent say it is too hard to say. And just 12 percent think he's a hero. Very interesting.\n\nSecond, the lead item in Liz Smith's column today was about \"The Factor's\" investigation into the money Angelina Jolie (search), the actress, reportedly donated to help third world causes through the U.N.\n\nMs. Smith writes, quote, \"On the heels of the oil-for-food scan (search)dal, is there a chance that Angelina is being taken for a ride by some in the United Nations? Bill O'Reilly says he will answer that question. Soon.\"\n\nWell, that's true, we're finishing up our investigation into Ms. Jolie's donations. It's very fascinating. The story is probably going to be on Thursday, but we want to be certain so we're taking the time to echeck everything. Rechecking is never ridiculous.\n\n\u2014You can watch Bill O'Reilly's \"Talking Points Memo\" and \"Most Ridiculous Item\" weeknights at 8 and 11 p.m. ET on the FOX News Channel. Send your comments to: oreilly@foxnews.com",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.8,
+            0.8,
+            0.8,
+            0.8,
+            0.8,
+            0.8,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 12.099679946899414,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "The entire Gitmo situation has been driven by the anti-Bush press and the far left human rights organizations.",
+                    "bias_type": "Political Bias",
+                    "bias_strength": 0.8,
+                    "bias_description": "This sentence exhibits political bias by attributing the criticism of Guantanamo Bay solely to the 'anti-Bush press' and 'far left human rights organizations', suggesting a dismissive and partisan perspective."
+                },
+                {
+                    "text": "So what are we talking about here? Some minor cases of abuse, that's what. And we should shut down Gitmo because the anti-Bush press doesn't like it? Come on.",
+                    "bias_type": "Political Bias",
+                    "bias_strength": 0.8,
+                    "bias_description": "This statement shows political bias by downplaying the significance of the reported abuse in Guantanamo Bay as 'minor cases' and attributing the call for its closure to the disapproval of the 'anti-Bush press', again suggesting a dismissive and partisan viewpoint."
+                },
+                {
+                    "text": "The truth is that any closing of Gitmo would send a signal that the USA did indeed abuse Gitmo prisoners on a mass scale. That's not true, but it is a perception the anti-Bush people want out there.",
+                    "bias_type": "Political Bias",
+                    "bias_strength": 0.8,
+                    "bias_description": "This sentence demonstrates political bias by asserting that the desire to close Guantanamo Bay is driven by a false perception promoted by 'anti-Bush people', implying a manipulative or dishonest agenda on the part of those advocating for its closure."
+                },
+                {
+                    "text": "Once again, you can't fight a war on terror when every small mistake is magnified into a page one scandal or a book!",
+                    "bias_type": "Political Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This statement shows political bias by framing legitimate concerns about detainee treatment as 'small mistakes' that are unfairly sensationalized, suggesting a dismissive attitude towards accountability in the context of the war on terror."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article is biased regarding the topic of Guantanamo Bay, showing a general bias tendency towards dismissing criticisms of detainee treatment as politically motivated and insignificant."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.7500000000000001,
+            "percentage_of_biased_sentences": 0.1111111111111111,
+            "overall_rating": 0.4305555555555556
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Japan tightens rules for police interrogations",
+        "URL": "Japan tightens rules for police interrogations.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    TOKYO, Jan 24 (Reuters) - Japan tightened rules for police  interrogations on Thursday, barring officers from touching  suspects or grilling them for long hours after several cases in  which the accused were later found to be innocent.      All interrogation rooms should be equipped with see-through  mirrors so questioning can be monitored from outside, while  verbal abuse will also not be allowed, a statement by the  National Police Agency said.      The new rules follow recent high-profile cases in which  suspects were forced into making confessions.      In 2003, 13 people were arrested and indicted in a  vote-buying scandal in southern Japan but they were later  acquitted by a district court which said their confessions had  been forced and lacked credibility.      The National Police Agency said recent acquittals had hurt  the public's confidence in their practices.      'With these guidelines, we will do our best to strengthen the  public's trust in police interrogations,' it said.      In Japan, about 99.9 percent of indictments lead to  convictions, an astounding success rate that critics say is a  symptom of problems in the criminal justice system.      Most criminal trials are based on confessions extracted in a  detention period which can last 23 days without charge, during  which no sound or video recordings are made.      The justice system is undergoing a gradual transformation,  however, with video recording of interrogations having begun on a  small-scale trial basis.      Japan is also to introduce a lay judge system by 2009 that  will make ordinary citizens a part of the trial of serious  crimes, a move the National Police Agency said raised the urgency  for officers to improve their interrogation methods.    (Reporting by Chisa Fujioka; Editing by David Fox)   ((chisa.fujioka@reuters.com; +81-3 3432-8972; Reuters Messaging:  chisa.fujioka.reuters.com@reuters.net))    Keywords: JAPAN POLICE/       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 11.87053394317627,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual report on Japan's decision to tighten rules for police interrogations, citing recent cases and the National Police Agency's response. The topic discussed is the reform of police interrogation practices in Japan, and the article maintains a neutral stance, presenting information without evident bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "UPDATE 1-U.S. interrogations successful, lawful -spy chief",
+        "URL": "UPDATE 1-U.S. interrogations successful, lawful -spy chief.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": " (Updates with comments after closed congressional hearing)      By Randall Mikkelsen      ST. MARY'S CITY, Md., Jan 16 (Reuters) - The CIA's harsh  questioning of terrorism suspects was legal and saved lives,  the U.S. national intelligence director said on Wednesday, as  Congress questioned a CIA lawyer about the agency's destruction  of interrogation videotapes.      'It has saved lives. And so from my point of view, we've  accomplished the mission within the bounds of U.S. law,' the  director, Michael McConnell, told students at St. Mary's  College in Maryland.      The CIA's disclosure last month it destroyed hundreds of  hours of videotapes depicting harsh interrogations, believed to  have included a simulated form of drowning called  waterboarding, cast U.S. treatment of terrorism suspects under  the spotlight and drew criticism from human rights groups.      Waterboarding has been condemned internationally as a form  of illegal torture, and McConnell was quoted in the current  issue of The New Yorker magazine as saying he would consider  the practice torture if it were applied to him.      'The United States does not engage in torture. We do use  enhanced interrogation techniques,' McConnell said. 'There are  Americans today that are alive, that are living and breathing  because of those interrogation techniques.'      While McConnell spoke, the House of Representatives  Intelligence Committee met behind closed doors to question CIA  attorney John Rizzo, who is reported to have been involved in  the decision to destroy the tapes. The recordings depicted the  interrogations of two suspected al Qaeda members in 2002, and  the tapes were destroyed in 2005.      The committee had also subpoenaed Jose Rodriguez, the  former head of the CIA's clandestine branch who is believed to  have made the decision to destroy the tapes.      But the panel decided against calling him to testify after  his attorney indicated Rodriguez would not answer questions, a  House aide said. He remains under subpoena and may be called in  the future to testify.      Rep. Peter Hoekstra of Michigan, the committee's ranking  Republican, told reporters after the hearing with Rizzo, 'We  need to get Jose Rodriguez in here to testify.'      'Jose was responsible for this -- or it appears that most  press reports and other reports indicate that Jose was  responsible for this decision to destroy the tapes,' Hoekstra  said.      The Washington Post reported that CIA lawyers and officials  told Rodriguez he had the legal right to order the  destruction.      Hoekstra and Intelligence Committee Chairman Silvestre  Reyes, a Texas Democrat, said Rizzo was a cooperative witness.  They did not disclose specifics.      Reyes said in a statement: 'We will be identifying  additional officials to talk to in the coming days and weeks. I  urge members of the executive branch to cooperate with this  investigation and let the truth be told.'      The Justice Department has launched a criminal  investigation, and sought to discourage congressional probes,  fearing they could undermine its efforts.      Human rights activists and some intelligence analysts and  congressional critics have questioned the validity of  information gained under harsh interrogations and called for a  ban on waterboarding. McConnell said it was important to keep  suspects guessing about the techniques they would face.   (Additional reporting by Thomas Ferraro in Washington; Editing  by Peter Cooney)   ((R",
+        "Histogram": [
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0.7,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 10.285636901855469,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "The CIA's harsh questioning of terrorism suspects was legal and saved lives, the U.S. national intelligence director said on Wednesday, as Congress questioned a CIA lawyer about the agency's destruction of interrogation videotapes.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the term 'harsh questioning' instead of 'torture' or 'enhanced interrogation techniques' implies a judgment and downplays the severity of the actions, influencing the reader's perception."
+                },
+                {
+                    "text": "'It has saved lives. And so from my point of view, we've accomplished the mission within the bounds of U.S. law,' the director, Michael McConnell, told students at St. Mary's College in Maryland.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This statement presents a subjective opinion ('It has saved lives') as a fact without providing evidence, blurring the line between objective reporting and personal perspective."
+                },
+                {
+                    "text": "Waterboarding has been condemned internationally as a form of illegal torture, and McConnell was quoted in the current issue of The New Yorker magazine as saying he would consider the practice torture if it were applied to him.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.7,
+                    "bias_description": "The article implies that the legality or morality of waterboarding is contingent on personal experience ('if it were applied to him'), which oversimplifies the ethical and legal complexities of the issue."
+                },
+                {
+                    "text": "'The United States does not engage in torture. We do use enhanced interrogation techniques,' McConnell said. 'There are Americans today that are alive, that are living and breathing because of those interrogation techniques.'",
+                    "bias_type": "Unsubstantiated Claims Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This assertion that lives were saved due to the use of enhanced interrogation techniques is presented as a fact without providing concrete evidence to support this claim."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the topic of CIA interrogation techniques, particularly in its word choice, presentation of opinions as facts, and the use of unsubstantiated claims to support the effectiveness of these techniques. The general bias tendency leans towards justifying the use of controversial interrogation methods."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.625,
+            "percentage_of_biased_sentences": 0.2916666666666667,
+            "overall_rating": 0.45833333333333337
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Greece passes law to release 3,270 prisoners",
+        "URL": "Greece passes law to release 3,270 prisoners.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    ATHENS, Dec 5 (Reuters) - Greece passed a law on Friday to  release 3,270 prisoners, part of deal agreed last month for  thousands of inmates to end an 18-day hunger strike over poor  living conditions.      'We kept our promise to give prisoners a second chance,'  Justice Minister Sotiris Hatzigakis said after parliament  approved the law.      Amnesty International said in a report this year that  Greece's prisons were overcrowded, had a poor standard of  hygiene and that ill-treatment of prisoners was widely reported.      About 6,500 prisoners ended their protest in late November.      Hatzigakis, who had praised the inmates for ending their  protest peacefully, said the ministry wanted prisoners to be  able to spend Christmas with their families.      But prisoner rights organisations said it was a short-term  solution.      'The prisoners are disappointed,' said Annita Michaelidou,  member of the Initiative for Prisoners Rights. 'Releasing  thousands of prisoners just for one time doesn't solve the  problem in the long run.'   (Reporting by Renee Maltezou; Editing by Daniel Flynn)   ((renee.maltezou@reuters.com; +30 210 3376439, Reuters  Messaging:renee.maltezou.reuters.com@reuters.net))    Keywords: GREECE PRISONERS/       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 10.211882591247559,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual report on Greece passing a law to release prisoners due to overcrowding and poor living conditions, including statements from the Justice Minister and prisoner rights organizations."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Israel postpones release of Palestinian prisoners",
+        "URL": "Israel postpones release of Palestinian prisoners.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    JERUSALEM, Dec 8 (Reuters) - Israel has decided to delay the  release of 230 Palestinian prisoners until Dec. 15, a week later  than planned, Israeli and Palestinian officials said on Monday.      Saeb Erekat, an aide to Palestinian President Mahmoud Abbas,  said the delay stemmed from legal issues on the Israeli side.      But Israeli officials, speaking on condition of anonymity,  said the delay had been coordinated with Abbas, who was  attending the haj pilgrimage in Mecca, Saudi Arabia.      The prisoners make up only a fraction of the 11,000  Palestinians held by Israel. The release, meant as a goodwill  gesture to Abbas, had been scheduled for Tuesday to coincide  with the Muslim holiday of Eid al-Adha.      Israel announced last month that it would free 250  prisoners, but officials said a ministerial committee on Sunday  approved a list of only 230 names.      Olmert's office said the prisoners would come from the ranks  of Abbas's Fatah secular faction and other non-Islamist groups.      Such releases are highly emotive for Palestinians, who  regard prisoners as symbols of resistance to Israeli occupation.      Israel freed nearly 200 prisoners in August.      U.S.-sponsored peace talks between Olmert and Abbas,  rejected by Hamas, the Islamist group that controls the Gaza  Strip, have shown little sign of progress.   (Writing by Adam Entous; Editing by Kevin Liffey)   ((adam.entous@reuters.com ; +972 2 632 2202; Reuters Messaging:  adam.entous.reuters.com@reuters.net))    Keywords: PALESTINIANS ISRAEL/PRISONERS       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 10.147106170654297,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to exhibit bias. It provides factual information about Israel's decision to delay the release of Palestinian prisoners, including the reasons for the delay and the context of the release as a goodwill gesture. The reporting appears neutral and does not show a tendency to favor any particular viewpoint or to distort the information presented."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "The Treatment of Prisoners at Guantanamo Bay.txt",
+        "URL": "The Treatment of Prisoners at Guantanamo Bay.txt.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/240px-Fox_News_Channel_logo.svg.png",
+        "Text": "Hi, I'm Bill O'Reilly. Thanks for watching us tonight.\n\nWell, those folks at CNN are pretty crafty. They read my book The O'Reilly Factor, in which I said I had a crush on Connie Chung, so they go out and hire her away from ABC and will put her up against The Factor.\n\nWe'll analyze that move a bit later on in the broadcast.\n\nThe Talking Points memo this evening concerns the treatment of captured terrorists in Cuba. As an American, I'm offended that some dopey European newspapers are criticizing the way the Al Qaeda prisoners are being treated at Guantanamo Bay. Number one, those Europeans have no idea who these people are and what they've done, because that information's being kept secret.\n\nNumber two, these are not prisoners of war, they're criminals. If they're in chains, it's because they're violent. If they are made to kneel down, it's because of security concerns.\n\nOnce again, people who kill or condone the killing of civilians in a sneak attack aren't soldiers, they are criminals, with no Geneva Convention rights. And what's up with the Red Cross? As the ABC News commentator Paul Harvey pointed out today on the radio, took the Red Cross months before it got some of the donated money to the 9/11 families, but just days before it began criticizing America's treatment of the Muslim criminals. What's wrong with the Red Cross these days? Has that agency been hijacked by ideological nitwits?\n\nI think America has been too soft on the captured terrorists. They're getting much better treatment than the Taliban provided them. We need information from these people. We need intense interrogations. This isn't some touchy-feely encounter group going on here, these prisoners support the destruction of America and the vicious killing of civilians. I would give them the bare minimum.\n\nAnd those foreigners who criticize us? Well, they got a hell of a nerve. The United States is carrying the load in the war on terrorism around the world with some help from our allies. But we are doing the heavy lifting and heavy spending. Those pinheads who sympathize with the captured terrorists really have another agenda, in my opinion. They simply hate America.\n\nTalking Points has said this before. Behind most overseas sniping at this country lies a mean streak of jealousy.\n\nAnd this terrorism business is mean. Thousands of lives are at stake, foreign terrorists do not deserve due process or constitutional rights. They should not be brutalized, but they should not be getting cozy either. The USA needs to send a message that terrorists will pay a huge price for their actions.\n\nMost Americans I know agree with me on this, but overseas, I don't expect much. The USA is simply too rich and powerful to engender much sympathy around the world. So we should ignore the critics and do what's best for America. We need protection from terrorists, and we need those who trespass against us to pay a major price.\n\nAnd that's the memo.\n\nThe Most Ridiculous Item of the Day\n\nTime now for \"The Most Ridiculous Item of the Day,\"\n\nThere's a new Harris poll out that asked Americans to name their favorite TV personalities. Number one was Drew Carey. Number two, Regis Philbin. Three, Oprah. Four, David Letterman. Five, Ray Romano. Six, Jay Leno. Seven, Bill O'Reilly.\n\nWait a minute! Hold it. What? Can you believe this? There's got to be a mistake. I actually beat out Kelsey Grammar, Katie Couric and Rosie O'Donnell. They rank eight, nine, and 10. I demand a recount. No way I should be on that list. It's ridiculous. Where's Buffy? Come on.\n\n\u2014 You can watch Bill O'Reilly's Talking Points and \"Most Ridiculous Item\" weeknights at 8 & 11p.m. ET on the Fox News Channel. Send your comments to: oreilly@foxnews.com",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.9,
+            0.9,
+            0.9,
+            0,
+            0.9,
+            0.9,
+            0.9,
+            0.9,
+            0.9,
+            0.9,
+            0.9,
+            0.9,
+            0.8,
+            0.8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 10.10124397277832,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "As an American, I'm offended that some dopey European newspapers are criticizing the way the Al Qaeda prisoners are being treated at Guantanamo Bay.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'dopey' to describe European newspapers implies a dismissive and derogatory attitude towards their opinions, suggesting a judgmental and biased perspective."
+                },
+                {
+                    "text": "Number two, these are not prisoners of war, they're criminals. If they're in chains, it's because they're violent. If they are made to kneel down, it's because of security concerns.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The deliberate choice of the word 'criminals' over 'prisoners of war' and the justification for their treatment using phrases like 'it's because they're violent' and 'it's because of security concerns' implies a biased portrayal that justifies harsh treatment without a balanced perspective."
+                },
+                {
+                    "text": "And what's up with the Red Cross? As the ABC News commentator Paul Harvey pointed out today on the radio, took the Red Cross months before it got some of the donated money to the 9/11 families, but just days before it began criticizing America's treatment of the Muslim criminals. What's wrong with the Red Cross these days? Has that agency been hijacked by ideological nitwits?",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence attacks the character and motives of the Red Cross by suggesting incompetence ('took the Red Cross months before it got some of the donated money to the 9/11 families') and questioning its integrity ('Has that agency been hijacked by ideological nitwits?'). This deflects from the discussion on the treatment of prisoners by targeting the Red Cross's credibility."
+                },
+                {
+                    "text": "I think America has been too soft on the captured terrorists. They're getting much better treatment than the Taliban provided them. We need information from these people. We need intense interrogations. This isn't some touchy-feely encounter group going on here, these prisoners support the destruction of America and the vicious killing of civilians. I would give them the bare minimum.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "This statement presents a subjective opinion on the treatment of prisoners as a fact, using emotionally charged language ('too soft', 'touchy-feely encounter group', 'vicious killing of civilians') to influence the reader's perception without a balanced presentation of the issue."
+                },
+                {
+                    "text": "And those foreigners who criticize us? Well, they got a hell of a nerve. The United States is carrying the load in the war on terrorism around the world with some help from our allies. But we are doing the heavy lifting and heavy spending. Those pinheads who sympathize with the captured terrorists really have another agenda, in my opinion. They simply hate America.",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "This sentence attacks the character and motives of the critics by using derogatory terms ('pinheads') and suggesting their criticism stems from a personal bias ('simply hate America'), rather than addressing the substance of their concerns."
+                },
+                {
+                    "text": "Talking Points has said this before. Behind most overseas sniping at this country lies a mean streak of jealousy.",
+                    "bias_type": "Projection Bias",
+                    "bias_strength": 0.8,
+                    "bias_description": "This sentence attributes negative motives ('mean streak of jealousy') to the critics of the U.S., without providing evidence for such a broad and dismissive generalization, thereby projecting assumptions onto others."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article is biased regarding the treatment of prisoners at Guantanamo Bay, demonstrating a general bias tendency through the use of word choice, ad hominem attacks, opinionated statements, and projection without a balanced or objective presentation of the issue."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.7333333333333333,
+            "percentage_of_biased_sentences": 0.27419354838709675,
+            "overall_rating": 0.503763440860215
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Israel to free Palestinian prisoners after delays",
+        "URL": "Israel to free Palestinian prisoners after delays.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    JERUSALEM, Dec 15 (Reuters) - Israel prepared to free some  230 Palestinian prisoners on Monday, nearly a week later than  planned, in a move it described as a goodwill gesture to  Palestinian President Mahmoud Abbas.      The prisoners being freed are a fraction of the 11,000  Palestinians held by Israel. Their release was originally due to  take place last week, in the Muslim holiday of Eid al-Adha.      Israeli officials said Palestinians sought a delay for  logistical reasons. Abbas had been attending the haj pilgrimage  in Mecca, Saudi Arabia.      Palestinian officials denied requesting any postponement,  saying it stemmed from Israeli legal procedures.      The release was further delayed for several hours on Monday  as Israel's high court heard an appeal from Israeli rightists  who customarily object to freeing Palestinian prisoners.      But Yaron Zamir, a spokesman for Israel's prison services,  said 227 prisoners would  be freed around noon local time (1000  GMT).      Israel announced last month that it would free 250  prisoners, but the final list included only 227 names and it was  not immediately clear exactly how many would be freed.      Most of the prisoners would be sent to the Israeli-occupied  West Bank, where Abbas's government is based. Ten were expected  to go to the Gaza Strip, which Hamas Islamists seized in June  2007 after routing secular Fatah forces loyal to Abbas.      Aides to outgoing Israeli Prime Minister Ehud Olmert said  the prisoners came from the ranks of Fatah and other  non-Islamist groups.      Such releases are highly emotive for Palestinians, who  regard prisoners as symbols of resistance to Israeli occupation.      Israel freed nearly 200 prisoners in August.      U.S.-sponsored peace talks between Olmert and Abbas,  rejected by Hamas, the Islamist group that controls the Gaza  Strip, have shown little sign of progress.   (Editing by Ralph Boulton)   ((adam.entous@reuters.com ; +972 2 632 2202; Reuters Messaging:  adam.entous.reuters.com@reuters.net))    Keywords: PALESTINIANS ISRAEL/PRISONERS       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 10.033687591552734,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to exhibit bias. It provides factual information about Israel's release of Palestinian prisoners, including details about the delay and the number of prisoners being freed, without showing any signs of subjective or prejudiced reporting."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "\"Loving\" Myanmar junta frees 9,002 prisoners",
+        "URL": "\"Loving\" Myanmar junta frees 9,002 prisoners.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    YANGON, Sept 23 (Reuters) - Myanmar's junta is releasing  9,002 prisoners as a gesture of 'loving kindness and goodwill',  official media said on Tuesday, although political detainees are  unlikely to be on the list.      'We haven't heard of any political prisoners being freed,'  said Nyan Win, a spokesman for the opposition National League for  Democracy (NLD), whose leader, Nobel laureate Aung San Suu Kyi,  has been under house arrest for the last five years.      'I do hope they will be released, but I don't think it will  happen.'      Myanmar, or Burma as it used to be called, has more than  2,000 people behind bars on account of their political or  religious beliefs, human rights groups say.      The junta, which has ruled unchecked since 1962, denies the  existence of any political prisoners, saying all detainees have  committed crimes.      Official newspapers said the prisoners were being released  for the 'social consideration of their families' and to take part  in elections scheduled for 2010, part of a seven-step 'roadmap to  democracy'. Western governments dismiss the roadmap as a charade.   (Reporting by Aung Hla Tun; Writing by Ed Cropley; Editing by  Alan Raybould)   ((edward.cropley@thomsonreuters.com; Reuters Messaging:  edward.cropley.reuters.com@reuters.net; +66 2 648 9722))  Keywords: MYANMAR PRISONERS/       ",
+        "Histogram": [
+            0,
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0,
+            0.9,
+            0
+        ],
+        "Relevance": 9.90134048461914,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "'We haven't heard of any political prisoners being freed,' said Nyan Win, a spokesman for the opposition National League for Democracy (NLD), whose leader, Nobel laureate Aung San Suu Kyi, has been under house arrest for the last five years.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'loving kindness and goodwill' by the junta is juxtaposed with the stark reality of political prisoners not being included in the release, implying a judgment on the junta's sincerity through the choice of contrasting words."
+                },
+                {
+                    "text": "Myanmar, or Burma as it used to be called, has more than 2,000 people behind bars on account of their political or religious beliefs, human rights groups say.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The mention of the historical name 'Burma' alongside the reference to 'more than 2,000 people behind bars on account of their political or religious beliefs' serves to evoke a sense of historical context and human rights violations, using specific word choices to emphasize the gravity of the situation."
+                },
+                {
+                    "text": "The junta, which has ruled unchecked since 1962, denies the existence of any political prisoners, saying all detainees have committed crimes.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The phrase 'ruled unchecked' and the denial of political prisoners with the assertion that all detainees have committed crimes introduce a bias through the choice of words that imply a lack of accountability and transparency in the junta's governance, as well as a dismissal of human rights concerns."
+                },
+                {
+                    "text": "Western governments dismiss the roadmap as a charade.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "This sentence presents the viewpoint of 'Western governments' as a definitive judgment ('dismiss the roadmap as a charade'), without providing a balanced perspective or evidence to support the claim that the junta's roadmap to democracy is indeed a 'charade.' This conveys a strong opinion as an established fact."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the Myanmar junta's actions and policies, particularly in the portrayal of the junta's language and actions through the use of specific word choices and the presentation of opinions as facts. The general bias tendency leans towards highlighting human rights concerns and skepticism towards the junta's assertions, with a focus on political prisoners and the junta's roadmap to democracy."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6749999999999999,
+            "percentage_of_biased_sentences": 0.125,
+            "overall_rating": 0.39999999999999997
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "S.African prisoners face ARV funding crunch",
+        "URL": "S.African prisoners face ARV funding crunch.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    CAPE TOWN, July 29 (Reuters) - A funding shortfall could  hurt HIV-positive South African prisoners in need of  antiretroviral drugs, a senior correctional services official  said on Tuesday.       Subashini Moodley, chief deputy commissioner in the  Department of Correctional Services told parliament the number  of prisoners requiring the anti-Aids medication was seen rising  to 4,800 by March.      This would force officials to increase funding to cater for  the prisoners' requirements.      'National Treasury has informed us that we will now have to  start paying for the ARV treatment... It's a budget that we  don't have,' Moodley said, adding the medication costs the  government 284 rand ($37.9) per offender each month.      South Africa has one of the world's highest rate of HIV, the  virus that causes Aids, with an estimated 500,000 people  infected each year.      About 1,000 people die every day from Aids-related diseases,  and this high mortality rate resonated in skyrocketing prison  deaths at the turn of the millennium.      Moodley said the department paid about 1.3 million rand to  provide 2718 prisoners with antiretroviral (ARV) therapy, but  this was expected to escalate to 10 million rand by the end of  March.      A recent study, partly funded by U.S President George W.  Bush's Presidential Emergency Plan for Aids Relief (PEPFAR),  showed a national HIV prevalence of 9.9 percent among prison  staff and 19.8 percent among prisoners.      According to South Africa's Judicial Inspectorate of Prisons  (JIP), the total number of prisoners who died declined to 1249  in 2007 from 1315 in 2006.      'The decline in the number of deaths is directly linked to  the distribution of ARVs among inmates and we welcome any  initiative to provide ill prisoners with adequate treatment, and  not only for Aids,' Gideon Morris, director at JIP told Reuters.      He said there was a strong correlation between overcrowded  prisons and prison mortality rates, with an estimated 165,000  (52,000 awaiting trial) incarcerated in prisons designed to hold  114,000 in total.   (Reporting by Wendell Roelf)   ((wendell.roelf@thomsonreuters.com; +27 82 893 6088))   (For full Reuters Africa coverage and to have your say on the  top issues, visit: http://africa.reuters.com/ )   ($1=7.491 Rand)   ($1=7.491 Rand)    Keywords: SAFRICA PRISONS/HIV       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 9.814056396484375,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides factual information about the funding challenges for HIV-positive South African prisoners in need of antiretroviral drugs without exhibiting any of the common forms of bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "INTERVIEW-UN rights chief urges more Obama action on prisoners",
+        "URL": "INTERVIEW-UN rights chief urges more Obama action on prisoners.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Stephanie Nebehay      GENEVA, Jan 22 (Reuters) - The U.N's top human rights  official on Thursday applauded new U.S. President Barack Obama's  decision to close Guantanamo jail and urged him to look also at  prisoners' rights at U.S.-run centres in Afghanistan and Iraq.      U.N. High Commissioner for Human Rights Navi Pillay also  urged Obama to hold to account the perpetrators of torture or  unlawful methods of interrogation carried out in the U.S. 'war  on terror'.      'As High Commissioner and spokesperson for victims of  torture and incarceration all over the world, I welcome most  heartily this commitment by President Obama to close  Guantanamo,' Pillay told Reuters. 'I hope that it happens soon.'      A draft executive order obtained by Reuters in Washington on  Wednesday sets a one-year deadline to close the controversial  U.S. military prison at Guantanamo Bay, Cuba, where foreign  terrorism suspects have been detained for years without trial.       The United States still holds about 250 men there and wants  to try about 80 of them on terrorism charges.            EUROPEAN RESPONSIBILITY      Pillay said European countries should take in some of the  Guantanamo detainees cleared for release who cannot return to  their homelands because of a risk they could be tortured or  persecuted there.      'Europe cooperated in the first instance in the rendition  and the unlawful removal of these persons from various  countries,' she said.      Guantanamo Bay prison was established at a U.S. naval base  in the wake of the Sept. 11, 2001 attacks on the United States  and the launching of the 'war on terror' by the administration  of President George W. Bush.      Pillay said that she believed Obama would ensure that U.S.  federal law applied to the detainees and that any trials were  conducted in the ordinary courts rather than military  commissions which she said should be disbanded.       'I appeal to President Obama to also look into similar  detention regimes which have been set up or supported by the  U.S. government in Afghanistan and Iraq and ensure that those  detainees have judicial review of their detention and their  prospects of release or trial,' she said.      Obama will also ban abusive interrogations and order a  review of detention policies for captured militants, according  to congressional aides and a White House official. Military  commissions would be halted during the review.      'I think it is essential that the president sets up  structures to look into effective accountability for past  practices by perpetrators and interrogations and sets good  practices in place,' said Pillay, a former judge at the  International Criminal Court.      The United States has a strong judicial tradition of  protection of fundamental freedoms and prevention of torture and  unlawful methods of interrogation, she said.      'We always call for accountability of violations and this  would include individuals who controlled centres like Guantanamo  and Abu Ghraib and other centres,' Pillay said.      Revelations of prisoner abuse by U.S. military personnel at  Abu Ghraib prison in Baghdad caused an international outcry in  2004.   (Editing by Jonathan Lynn and Andrew Roche)   ((geneva.newsroom@reuters.com; +41 22 733 3831))    Keywords: GUANTANAMO OBAMA/PILLAY        ",
+        "Histogram": [
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0.5,
+            0.5,
+            0,
+            0,
+            0.5,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 9.79534912109375,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "U.N. High Commissioner for Human Rights Navi Pillay also urged Obama to hold to account the perpetrators of torture or unlawful methods of interrogation carried out in the U.S. 'war on terror'.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence implies a judgment about the U.S.'s actions in the 'war on terror' by suggesting that there were perpetrators of torture or unlawful methods of interrogation that need to be held accountable, blurring the line between fact and personal perspective."
+                },
+                {
+                    "text": "Pillay said European countries should take in some of the Guantanamo detainees cleared for release who cannot return to their homelands because of a risk they could be tortured or persecuted there.",
+                    "bias_type": "Political Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "This statement implies a political stance by suggesting that European countries have a responsibility to take in Guantanamo detainees, potentially favoring a particular political viewpoint on immigration and human rights."
+                },
+                {
+                    "text": "'Europe cooperated in the first instance in the rendition and the unlawful removal of these persons from various countries,' she said.",
+                    "bias_type": "Political Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "This sentence suggests a political bias by attributing blame to Europe for its role in the 'rendition and the unlawful removal' of individuals, implying a judgment about the actions of European countries in the context of U.S. counterterrorism efforts."
+                },
+                {
+                    "text": "Pillay said that she believed Obama would ensure that U.S. federal law applied to the detainees and that any trials were conducted in the ordinary courts rather than military commissions which she said should be disbanded.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'believed' and the suggestion that military commissions 'should be disbanded' reflects an opinionated bias, as it presents the speaker's belief as a fact and advocates for a specific course of action based on personal perspective rather than objective reporting."
+                },
+                {
+                    "text": "'I appeal to President Obama to also look into similar detention regimes which have been set up or supported by the U.S. government in Afghanistan and Iraq and ensure that those detainees have judicial review of their detention and their prospects of release or trial,' she said.",
+                    "bias_type": "Political Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "This sentence exhibits a political bias by urging President Obama to address 'similar detention regimes' in Afghanistan and Iraq, implying a judgment about the U.S. government's actions in these countries and advocating for a specific policy approach."
+                },
+                {
+                    "text": "Obama will also ban abusive interrogations and order a review of detention policies for captured militants, according to congressional aides and a White House official. Military commissions would be halted during the review.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'abusive interrogations' and the decision to 'halt' military commissions are examples of word choice bias, as they carry negative connotations and imply judgment about past practices without a neutral presentation of the facts."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the U.S.'s actions in the 'war on terror', particularly in the context of Guantanamo Bay and related detention and interrogation policies. The biases identified include Opinionated Bias, Political Bias, and Word Choice Bias, with a general tendency to imply judgment about past actions and advocate for specific policy approaches based on subjective perspectives."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.55,
+            "percentage_of_biased_sentences": 0.2222222222222222,
+            "overall_rating": 0.3861111111111111
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Israel says will release 250 Palestinian prisoners",
+        "URL": "Israel says will release 250 Palestinian prisoners.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "     JERUSALEM, Nov 19 (Reuters) - Israel plans to release 250  Palestinian prisoners, a spokesman for Prime Minister Ehud  Olmert said on Monday after the Israeli leader held talks with  Palestinian President Mahmoud Abbas.      'The 250 prisoners will be released in advance of the  upcoming Muslim holiday,' the spokesman, describing the move as  a goodwill gesture towards Abbas, said, in reference to next  month's Eid al-Adha feast. 'They are aligned with (Abbas's)  Fatah movement.'    Keywords: PALESTINIANS ISRAEL/PRISONERS        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 9.760751724243164,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it simply reports on Israel's plan to release 250 Palestinian prisoners as a goodwill gesture towards Abbas."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Israel approves release of 250 Palestinian prisoners",
+        "URL": "Israel approves release of 250 Palestinian prisoners.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    JERUSALEM, Nov 30 (Reuters) - Israel approved on Sunday the  release of 250 Palestinian prisoners in a bid to bolster  President Mahmoud Abbas in his power struggle with Hamas  Islamists who control the Gaza Strip.      The prisoners, a fraction of the 11,000 Palestinians held,  will be released in the occupied West Bank, where Abbas's  government holds sway, before next month's Muslim holiday of Eid  al-Adha, officials said of the decision, which was approved 13  to 5 by Israel's cabinet.      Outgoing Prime Minister Ehud Olmert had promised to free the  prisoners earlier this month during a meeting with Abbas, who  launched peace talks with Israel a year ago after Gaza's violent  takeover by Hamas.      'This is a confidence-building measure,' said Olmert  spokesman Mark Regev.      He said Israel will release prisoners from the ranks of  Abbas's secular Fatah faction and other non-Islamist groups.       Israel has not said whether it would consider freeing high  profile Fatah inmates such as uprising leader Marwan Barghouthi,  who is seen as a possible successor to Abbas as Palestinian  president.      Nearly 200 prisoners were freed by Israel in August. Such  releases are highly emotive for Palestinians, who regard  prisoners as symbols of resistance to Israeli occupation.      U.S.-sponsored peace talks between Olmert and Abbas,  rejected by Hamas, have shown little sign of progress.   (Writing by Adam Entous; Editing by Dominic Evans)   ((adam.entous@reuters.com; +972 2 632 2202; Reuters Messaging:  adam.entous.reuters.com@reuters.net))     Keywords: PALESTINIANS ISRAEL/       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 9.737014770507812,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to exhibit bias. It provides a factual report on Israel's decision to release Palestinian prisoners, outlining the context and implications without introducing any subjective or misleading information."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "India returns bodies of 2 Pakistani prisoners",
+        "URL": "India returns bodies of 2 Pakistani prisoners.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    ISLAMABAD, June 13 (Reuters) - Pakistan expressed 'deep  concern' over the treatment of Pakistani prisoners in Indian  jails after the bodies of a young man and 60-year-old woman were  handed over at the border on Friday.      'We have called upon the Indian authorities to thoroughly  investigate the causes leading to the deaths of these unfortunate  Pakistani prisoners,' a foreign office spokesman said in a  statement.      Many Pakistanis were angered earlier this year when the  bodies of two other prisoners were returned, after Pakistan had  released a Indian man who had been sentence to hang for spying.      Relatives waited at the Wagha border on the outskirts of the  the eastern city of Lahore to receive the bodies of Rashida Bibi,  60, and Abdul Alim, a man in his mid-twenties,       Alim was arrested in 2001 while crossing into India, and   Bibi was taken into custody upon her arrival in India in 2006,  relatives told journalists.      They said they found no signs of physical abuse on the  bodies, but they would request autopsies.      The Pakistani spokesman hoped that the Pakistan-India  judicial committee on prisoners would take note of the matter  when it goes to meet Pakistani prisoners in Indian jails.      The nuclear-armed rivals began a peace process more than four  years ago, having gone to the brink of a fourth war in 2002.   (Reporting by Mubasher Bukhari; Writing by Augustine Anthony)   ((augustine.anthony@thomsonreuters.com; +92-51-281-0017; Reuters  Messaging; augustine.anthony.reuters.com@reuters.net))        Keywords: PAKISTAN INDIA/PRISONERS        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 9.737014770507812,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual report on the return of bodies of Pakistani prisoners by India and the concerns expressed by Pakistan, without displaying any evident bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "UPDATE 1-Israel frees Palestinian prisoners after delays",
+        "URL": "UPDATE 1-Israel frees Palestinian prisoners after delays.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": " (Adds prisoners freed, previous JERUSALEM, details, quotes)      By Ali Sawafta      RAMALLAH, West Bank, Dec 15 (Reuters) - Israel began freeing  224 Palestinian prisoners on Monday, nearly a week later than  planned, in a move it described as a goodwill gesture to  Palestinian President Mahmoud Abbas.      'We hope these releases will be seen as an important       confidence-building measure designed to strengthen the trust and  the confidence in the (peace) negotiations,' said Mark Regev, a  spokesman for Israeli Prime Minister Ehud Olmert.      Since last year, Regev said, Israel has released some 1,000  Palestinian prisoners. He did not say how many have been  arrested by Israel in that same time frame. Israel freed nearly  200 prisoners in August.      The prisoners freed on Monday are a fraction of the 11,000  Palestinians held by Israel. Their release was originally due to  take place last week, in the Muslim holiday of Eid al-Adha.      Israeli officials said Palestinians sought a delay for  logistical reasons. Abbas had been attending the haj pilgrimage  in Mecca, Saudi Arabia.      Palestinian officials denied requesting any postponement,  saying the delay was due to Israeli legal procedures.      The release was further delayed for several hours on Monday  as Israel's high court heard an appeal from right-wing Israelis  who customarily object to freeing Palestinian prisoners.      But the prisoners began being liberated at about noon local  time (1000 GMT), most of them at the Ofer Prison near the West  Bank town of Ramallah, said Yaron Zamir of Israel's prison  services. A smaller group was bused from a prison in the  southern Israeli town of Ashkelon to the Gaza Strip.      Most of the prisoners would be sent to the Israeli-occupied  West Bank, where Abbas's government is based.      Eighteen were expected to go to Gaza, which Hamas Islamists  seized in June 2007 after routing secular Fatah forces loyal to  Abbas.      Such releases are highly emotive for Palestinians, who  regard prisoners as symbols of resistance to Israeli occupation.      Aides to outgoing Israeli Prime Minister Ehud Olmert said  the prisoners came from the ranks of Fatah and other  non-Islamist groups.      U.S.-sponsored peace talks between Olmert and Abbas,  rejected by Hamas, the Islamist group that controls the Gaza  Strip, have shown little sign of progress.   (Editing by Dominic Evans)   ((adam.entous@reuters.com ; +972 2 632 2202; Reuters Messaging:  adam.entous.reuters.com@reuters.net))    Keywords: PALESTINIANS ISRAEL/PRISONERS        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 9.714493751525879,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to exhibit bias. It provides a factual account of the release of Palestinian prisoners by Israel and includes statements from both Israeli and Palestinian officials without showing a tendency towards a particular viewpoint or narrative."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Prisoners hold police officers in Lebanon jail",
+        "URL": "Prisoners hold police officers in Lebanon jail.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    BEIRUT, April 24 (Reuters) - Prisoners rioted, seized  control of a building and held seven police officers captive at  a jail in Lebanon on Thursday, a security source said.      Negotiators were trying to secure the release of the police  officers after the riot at the jail in Roumiyeh, northeast of  Beirut, the source said.      No one was wounded in the rioting, during which the  prisoners had set ablaze clothing, he added.      The prisoners' demands were not immediately clear, he said.   ((thomas.perry@reuters.com; +961 1 983 885; Reuters Messaging:  thomas.perry.reuters.com@reuters.net))      Keywords: LEBANON PRISON/        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 9.688505172729492,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual account of a prison riot in Lebanon without introducing any subjective or misleading information."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "U.S. transfers 20 more prisoners to Afghan custody",
+        "URL": "U.S. transfers 20 more prisoners to Afghan custody.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    KABUL, Feb 10 (Reuters) - The U.S. military has handed over  a group of 20 suspected Taliban fighters to Afghan custody under  a programme to transfer all Afghan prisoners from U.S.  detention, the Afghan Defence Ministry said on Sunday.      The prisoners were transferred from Bagram detention centre,  the hub of U.S.-led military operation to the north of Kabul,  and will be kept in Pul-i-Charkhi prison on the outskirts of the  capital, it said.      'These prisoners ... were actively involved in terrorist ...  operations against government forces and international troops,'  it said in a statement referring to the foreign forces stationed  in Afghanistan under the command of the U.S. military and NATO.      Saturday's transfer was the 15th round of its kind since  last year when the U.S. military agreed to hand over all  suspected Taliban prisoners after repeated Afghan government  requests.      Under the deal, all Afghan detainees kept at the U.S.  detention centre in Guantanamo Bay jail in Cuba, will be also  transferred to Afghan custody.      The ministry did not say how many Afghan prisoners have been  handed over so far and how many are still held in Guantanamo  Bay, Bagram and other U.S. detention centres in Afghanistan.      The U.S. military has arrested thousands of suspected  Taliban and al Qaeda militants since invading Afghanistan in  2001 and helping topple the Taliban government.      It has released several hundred detainees from Guantanamo  Bay and its facilities in Afghanistan since, but an unknown  nunmber are still held.      Taliban prisoners have staged at least two revolts in  Pul-i-Charkhi before it was refurbished and in the past have  complained of being badly treated. Several have managed to  escape.      Transferred inmates are set to be tried by a joint Afghan  commission. Those acquitted will be freed, according to Afghan  officials.      Human rights groups have criticised the U.S. government for  holding suspected Taliban and al Qaeda prisoners indefinitely  and without trial. Many former prisoners have complained of ill  treatment.   (Writing by Sayed Salahuddin, editing by Matthew Jones)   ((Kabul newsroom, tel: + 93 799 335 285))    Keywords: AFGHAN PRISONERS/       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0.5,
+            0.5,
+            0,
+            0,
+            0.5,
+            0.5,
+            0
+        ],
+        "Relevance": 9.676950454711914,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "'These prisoners ... were actively involved in terrorist ... operations against government forces and international troops,' it said in a statement referring to the foreign forces stationed in Afghanistan under the command of the U.S. military and NATO.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'actively involved in terrorist ... operations' carries a strong negative connotation and implies judgment without a legal trial, potentially influencing the reader's perception negatively towards the prisoners."
+                },
+                {
+                    "text": "The ministry did not say how many Afghan prisoners have been handed over so far and how many are still held in Guantanamo Bay, Bagram and other U.S. detention centres in Afghanistan.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence speculates on the number of prisoners still held without providing concrete evidence, potentially leading the reader to assume a larger scale of detainment than is actually known."
+                },
+                {
+                    "text": "Taliban prisoners have staged at least two revolts in Pul-i-Charkhi before it was refurbished and in the past have complained of being badly treated. Several have managed to escape.",
+                    "bias_type": "Anecdotal Evidence Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "The focus on specific incidents of revolts, complaints, and escapes without broader context may lead to an overemphasis on the negative aspects of the prison conditions, potentially biasing the reader's perception."
+                },
+                {
+                    "text": "Human rights groups have criticised the U.S. government for holding suspected Taliban and al Qaeda prisoners indefinitely and without trial. Many former prisoners have complained of ill treatment.",
+                    "bias_type": "Anecdotal Evidence Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "Similar to the previous sentence, this one relies on the complaints and criticisms of human rights groups and former prisoners, presenting anecdotal evidence that may bias the reader against the U.S. government's actions without a comprehensive view."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the treatment and transfer of Afghan prisoners by the U.S. military, particularly through the use of word choice, speculation, and anecdotal evidence to influence the reader's perception negatively towards the prisoners and the U.S. government's actions."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.55,
+            "percentage_of_biased_sentences": 0.2,
+            "overall_rating": 0.375
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Four Russian prisoners die after attacking staff",
+        "URL": "Four Russian prisoners die after attacking staff.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    MOSCOW, June 2 (Reuters) - Four Russian prisoners died after  guards beat them following an attack on staff at a Urals prison,  the regional prosecutor's office said on Monday.      Authorities in the city of Chelyabinsk said the four men had  behaved aggressively when transported to the local prison to  serve out their sentences, calling on other prisoners to join  them in rising up against the guards in their bus.      'The convicts attacked administrative staff with  self-fashioned blades ... Five staff were injured to varying  degrees,' the  prosecutor's office said on its Internet site  www.chelproc.ru.      Guards used rubber truncheons and handcuffs to control the  prisoners and later isolated the men in separate cells.  Authorities said a medical worker looked in on the men, but  towards evening their health deteriorated and all four died.      The Chelyabinsk prosecutor's office said it had opened an  investigation into the deaths.   (Reporting by Chris Baldwin)   ((christopher.baldwin@reuters.com, Moscow Newsroom +7 495 775  1242))    Keywords: RUSSIA PRISONERS/       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 9.641695022583008,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual report on an incident in a Russian prison without employing any of the common bias types."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    }
+]

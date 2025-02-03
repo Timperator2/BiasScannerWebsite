@@ -1,0 +1,654 @@
+[
+    {
+        "Title": "PROPOSED ISSUE: Los Angeles County Metropolitan Transportation A",
+        "URL": "PROPOSED ISSUE: Los Angeles County Metropolitan Transportation A.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "ISSUER: Los Angeles County Metropolitan Transportation Authority, CA  AMOUNT: $162,715,000  DESCRIPTION: Proposition C Sales Tax Revenue Refunding Bonds Second Senior Bonds, Series 2008-A  ------------------------------------------------------------------------  SELLING: Week of Jun 09  MANAGER: Banc of America Securities LLC  ------------------------------------------------------------------------  ",
+        "Histogram": [
+            0
+        ],
+        "Relevance": 20.43283462524414,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The provided information about the Los Angeles County Metropolitan Transportation Authority's Proposition C Sales Tax Revenue Refunding Bonds does not contain any biased sentences. The content is purely factual and financial in nature, without any indication of subjective or misleading language."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "L_A_ Emergency Rooms Full of Illegal Immigrants.txt",
+        "URL": "L_A_ Emergency Rooms Full of Illegal Immigrants.txt.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/240px-Fox_News_Channel_logo.svg.png",
+        "Text": "This is part three of a five-part series looking at how illegal immigration affects U.S. border security, the criminal, health care and education systems, as well as the economy. Watch the series this week on FOX News Channel.\n\nOverburdened by the uninsured and overwhelmed by illegal immigration (search), public health care in Los Angeles is on life support.\n\nSixty percent of the county's uninsured patients are not U.S. citizens. More than half are here illegally. About 2 million undocumented aliens in Los Angeles County alone are crowding emergency rooms because they can't afford to see a doctor.\n\nAccording to the State Association of Hospitals (search), California's public health system is \"on the brink of collapse.\" In Los Angeles County, patients can wait four days for a hospital bed and up to two years for gallbladder surgery.\n\n\"The hospitals are closing because of the totality of the uninsured,\" said Dr. Thomas Garthwaite, director of the Los Angeles County Health Department (search). \"If you're legally a resident in California and you're poor, you have a right to basic services.\"\n\nBut some critics say the taxpayers can't be the HMO (search) to the world. Last year, Los Angeles County spent $340 million to treat the uninsured; that's roughly $1,000 for every taxpayer.\n\n\"We're citizens here. Why should somebody from another country that's here illegally get anything that we can't get? I mean that's dumb, that's not right,\" said Don Schenck, whose son, Bill, is mentally disabled.\n\nThough the Schencks are uninsured, and considered poor by county standards, his father had to find a way to pay for his Bill's care while thousands of others, in the country illegally, get it for free.\n\n\"It makes you feel pretty bad when you're born in that country and you're handicapped and you've got a learning disability and you can't get medical,\" Schenck said.\n\nMike Antonovich, the Los Angeles County supervisor, said the system has been \"basically bankrupted.\"\n\nThe Department of Health has a $1.2 billion deficit. Caring for illegals is siphoning money from other services and forcing clinics, trauma centers and emergency rooms to close, he said.\n\n\"We cannot afford to have a open-door policy to encourage illegals to continue to come here and receive all the medical care, because it's too expensive,\" he said.\n\nImmigrants like Yolanda Hernandez, however, argue that if there were cheap insurance plans available to her community, people would buy them.\n\n\"[Americans] have enough money to pay for insurance,\" she said. \"They make good money and are educated. Unfortunately, we are not.\"\n\nThe fourth installment of this series focuses on how border states are dealing with educating Mexican immigrants and the strain it's putting on California's education system. Look for it on FOX News and FOX News.com.\n\nClick on the video box above for a complete report by FOX News' William LaJeunesse.",
+        "Histogram": [
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0.9,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0.7,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 20.095840454101562,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Overburdened by the uninsured and overwhelmed by illegal immigration (search), public health care in Los Angeles is on life support.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'overburdened' and 'on life support' to describe the state of public health care in Los Angeles is designed to evoke strong emotions, suggesting a dire situation without providing a balanced view."
+                },
+                {
+                    "text": "But some critics say the taxpayers can't be the HMO (search) to the world. Last year, Los Angeles County spent $340 million to treat the uninsured; that's roughly $1,000 for every taxpayer.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The phrase 'taxpayers can't be the HMO to the world' uses a negative connotation to imply judgment about the situation, suggesting that taxpayers are unreasonably burdened without presenting a neutral perspective."
+                },
+                {
+                    "text": "We're citizens here. Why should somebody from another country that's here illegally get anything that we can't get? I mean that's dumb, that's not right,",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "This sentence presents a subjective opinion about the fairness of the situation as an unquestionable truth, using strong language ('that's dumb, that's not right') to obscure the line between fact and personal perspective."
+                },
+                {
+                    "text": "Though the Schencks are uninsured, and considered poor by county standards, his father had to find a way to pay for his Bill's care while thousands of others, in the country illegally, get it for free.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The contrast between 'had to find a way to pay' and 'get it for free' uses word choice to imply a judgment about the fairness of the situation, suggesting an unfair advantage for illegal immigrants without a balanced presentation."
+                },
+                {
+                    "text": "It makes you feel pretty bad when you're born in that country and you're handicapped and you've got a learning disability and you can't get medical,",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence uses personal, emotional language ('It makes you feel pretty bad') to evoke sympathy and emphasize the perceived injustice, potentially skewing the reader's perception without a neutral presentation of the facts."
+                },
+                {
+                    "text": "Mike Antonovich, the Los Angeles County supervisor, said the system has been \"basically bankrupted.\"",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'basically bankrupted' is a strong, emotionally charged statement that suggests a catastrophic financial situation without providing a detailed, balanced analysis."
+                },
+                {
+                    "text": "We cannot afford to have a open-door policy to encourage illegals to continue to come here and receive all the medical care, because it's too expensive,\" he said.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.7,
+                    "bias_description": "This statement implies a direct cause-and-effect relationship between an 'open-door policy' and the expense of medical care, without considering other factors that contribute to the healthcare system's financial challenges."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article is biased regarding the topic of illegal immigration's impact on public health care in Los Angeles, employing emotional sensationalism, word choice, opinionated, and causal misunderstanding biases to present a one-sided and negative view without a balanced or objective analysis."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6571428571428573,
+            "percentage_of_biased_sentences": 0.17857142857142858,
+            "overall_rating": 0.4178571428571429
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "SEALED BIDS: Los Angeles County Capital Asset Leasing Corporatio",
+        "URL": "SEALED BIDS: Los Angeles County Capital Asset Leasing Corporatio.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "ISSUER: Los Angeles County Capital Asset Leasing Corporation, CA  AMOUNT: $24,670,000  DESCRIPTION: Lease Revenue Bonds, 2008 Series A (LAC-CAL Equipment Program)  ------------------------------------------------------------------------  SELLING: Mar 4  TIME: 12 PM., EST  FINANCIAL ADVISOR: Lamont Financial  ------------------------------------------------------------------------  ",
+        "Histogram": [
+            0
+        ],
+        "Relevance": 20.00388526916504,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides factual information about a financial transaction without any indication of bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "$8.87M LOS ANGELES COUNTY SCHOOLS REGIONALIZED  RBC Capital Mark",
+        "URL": "$8.87M LOS ANGELES COUNTY SCHOOLS REGIONALIZED  RBC Capital Mark.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "RE: $8,874,474  LOS ANGELES COUNTY SCHOOLS REGIONALIZED BUSINESS SERVICES CORPORATION-SOUTH PASADENA  UNIFIED SCHOOL DISTRICT  Certificates of Participation (Los Angeles County Schools Pooled Financing Program)  2008 Series A  BANK QUALIFIED  Award:             05/01/2008  Award Time:        6:25PM Eastern  Delivery:          05/15/2008 (Firm)  Initial trade:     05/02/2008  Date of Execution: 05/02/2008  Time of Execution: 1:00PM Eastern     MATURITY     CUSIP    COUPON    ----------  ---------  ------    05/01/2012  545152SF8   3.250    05/01/2013  545152SG6   3.100    05/01/2014  545152SH4   3.250    05/01/2015  545152SJ0   3.400    05/01/2016  545152SK7   3.500    05/01/2018  545152SM3   3.875    05/01/2020  545152SP6   4.000    05/01/2023  545152SS0   4.125    05/01/2028  545152SX9   4.550    05/01/2033  545152TC4   4.650    05/01/2036  545152TF7   4.700     MATURITY     CUSIP    COUPON    ----------  ---------  ------    05/01/2037  545152TG5    NA    05/01/2038  545152TH3    NA    05/01/2039  545152TJ9    NA    05/01/2040  545152TK6    NA  This Issue is book entry. This issue is clearing through DTC.  RBC Capital Markets  E.J. De La Rosa & Co., Inc.  By: RBC Capital Markets  San Francisco, CA  ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 19.602693557739258,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily contains financial data and transaction details without any subjective or opinionated language."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "CS: $500.00M COUNTY OF LOS ANGELES Lehman Brothers",
+        "URL": "CS: $500.00M COUNTY OF LOS ANGELES Lehman Brothers.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "RE: $500,000,000  COUNTY OF LOS ANGELES  2008-09 TAX AND REVENUE ANTICIPATION NOTES,  SERIES A  This issue is book entry through DTC.       Award:              06/05/2008       Delivery:           07/01/2008 (Firm)       Initial trade:      06/06/2008       Date of Execution:  06/06/2008       Time of Execution:             MATURITY                       CUSIP            ----------                    ---------            06/30/2009                    544657HA0  Lehman Brothers  Banc of America Securities LLC  J.P. Morgan Securities Inc.  Ramirez & Co., Inc.  S.B.K- Brooks Investment Corp.  By: Lehman Brothers  New York, NY  ",
+        "Histogram": [
+            0,
+            0
+        ],
+        "Relevance": 19.504728317260742,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The provided text does not contain any biased sentences. It is a factual announcement regarding a financial transaction."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Spain says fewer illegal immigrants reach its coasts",
+        "URL": "Spain says fewer illegal immigrants reach its coasts.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    MADRID, Jan 12 (Reuters) - Spain reduced the number of  illegal immigrants landing on its beaches by 26 percent last  year thanks to better cooperation with African countries, the  Interior Minister said on Monday.      A total of 13,424 illegal immigrants arrived last year, most  of them arriving on the Canary Islands, down from a peak of  39,180 in 2006, Interior Minister Alfredo Perez Rubalcaba said.      'The policies we have put in place to avoid the departure of  immigrants from their countries is gradually producing results,'  Rubalcaba told a news conference.       Spain has offered more aid to west African countries, where  most illegal immigrants to Spain come from. It has also beefed  up cooperation with local police forces and persuaded several  developing nations to accept the return of illegal immigrants.      Every year thousands of Africans sailing in overcrowded,  wooden boats try to reach Europe via Spain in search of jobs and  a better life. Scores have died in the attempt.      The ministry said the number of illegal immigrants who were  repatriated to their countries of origin from Spain fell by 17  percent to 46,426 people, compared with the previous year.      Rubalcaba said he doubted Spain's economic crisis was  dissuading Africans from trying to reach its shores.      'My impression is that the situation is so bad in Africa it  has very little effect.'      Spain's Socialist government was heavily criticised in 2005  for granting a three-month amnesty to about 700,000 illegal  immigrants already living in the country. Other EU countries and  the conservative opposition said the move would encourage  illegal immigration.   (Reporting by Teresa Larraz; Writing by Sarah Morris; Editing  by Katie Nguyen)   ((sarah.morris@reuters.com; +34 91 585 8328; Reuters Messaging  sarah.morris.reuters.com@reuters.net))    Keywords: SPAIN IMMIGRANTS/       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 18.68891716003418,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides factual information about Spain's efforts to reduce illegal immigration, including statistics and government policies, without displaying any evident bias towards a particular viewpoint or group."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "FT: $128.75M LOS ANGELES COUNTY METROPOLITAN TRANSPOR Banc of Am",
+        "URL": "FT: $128.75M LOS ANGELES COUNTY METROPOLITAN TRANSPOR Banc of Am.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "RE: $128,745,000  LOS ANGELES COUNTY METROPOLITAN TRANSPORTATION AUT  Proposition C Sales Tax Revenue  Refunding Bonds  Second Senior Bonds, Series 2008-A  Effective at 10:30 A.M. E.D.T., Friday, June 13, 2008  all syndicate terms and price restrictions are removed  and the bonds will be free to trade.  Banc of America Securities LLC  E.J. De La Rosa & Co., Inc.  RBC Capital Markets  By: Banc of America Securities LLC  San Francisco, CA  ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 18.66854476928711,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it only provides factual information about the bond issuance."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Thirteen illegal immigrants dead in Istanbul-media",
+        "URL": "Thirteen illegal immigrants dead in Istanbul-media.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    ISTANBUL, July 30 (Reuters) - Thirteen illegal immigrants,  mostly Pakistanis, were found dead in a field on the outskirts  of Istanbul on Wednesday and were believed to have died from  asphyxiation, Turkish media reported.      No other details were immediately available.      Turkey is a major trafficking route for illegal immigrants  trying to enter the European Union from southeast Asia and the  former Soviet Union. They are often transported in small,  overcrowded vehicles.   (Reporting by Thomas Grove; Editing by Stephen Weeks)   ((thomas.grove@reuters.com; Telephone: +90 212 350 7051;  Reuters Messaging: thomas.grove.reuters.com@reuters.net))    Keywords: TURKEY IMMIGRANTS/       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 18.5102481842041,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual report on the discovery of deceased illegal immigrants in Istanbul, without introducing any biased language or perspectives."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "UPDATE 2-Moderate earthquake shakes downtown Los Angeles",
+        "URL": "UPDATE 2-Moderate earthquake shakes downtown Los Angeles.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": " (Adds details throughout)      LOS ANGELES, July 29 (Reuters) - A moderate earthquake  struck east of Los Angeles on Tuesday, shaking tall buildings  in the city but there were no immediate reports of serious  injuries or major damage.      The earthquake, which was measured at magnitude 5.8, was  centered about 30 miles (48 km) east of Los Angeles near the  community of Chino Hills, where it was felt strongly.      Witnesses reported feeling the shaking strongly in  neighboring Orange County and as far south as San Diego.      The Los Angeles Fire Department said there were no injuries  reported.      In downtown Los Angeles, tall buildings swayed from side to  side for a few seconds and workers poured into the streets.      Los Angeles city officials evacuated City Hall.      People returned to many buildings after some 15 minutes.      A spokesman for Los Angeles International Airport said  there were no flight delays as a result of the quake.      Magnitude 5 quakes are considerate moderate but are still  capable of causing considerable damage.      Los Angeles is the most populous city in California and the   second-most populous urban area in the United States.  According to 2000 Census Bureau figures, about 3.6 million  people live in Los Angeles.   (Reporting by Dan Whitcomb; Editing by Frances Kerry)    ((Reuters e-mail: dan.whitcomb@thomsonreuters.com; 1-213-380  2014))  Keywords: QUAKE LOSANGELES/        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 18.361772537231445,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual report on the earthquake in Los Angeles without introducing any subjective or misleading information."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Wave of illegal immigrants hits Italian shores",
+        "URL": "Wave of illegal immigrants hits Italian shores.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    ROME, July 31 (Reuters) - About 800 illegal immigrants  landed in Southern Italy on Thursday, with emergency services  warning that already crowded holding centres are near collapse  in a country that has declared an immigration emergency.      Early on Thursday about 400 immigrants on a 17-metre  (55-foot) boat, which was listing dangerously, were guided by  Italian coastguard officers into the port of Lampedusa, a small  island south of the Italian mainland.      Four smaller boats were later intercepted at sea off the  island and 400 more immigrants were brought into port by  coastguards.      Most of the arrivals, who included women and children,  appeared to be of African origin. Many were not wearing shoes as  they had been told to remove them on boarding the boats before  departure, most probably on the Libyan coast.      The local holding centre in Lampedusa is already housing  some 700 illegal immigrants who arrived in the last few days and  is close to its capacity of 1,500 people.      Italy's centre-right government is cracking down on illegal  immigration, with tough new laws aimed at making it easier to  expel them and imposing tougher sentences on those committing  crimes. Last Friday it declared a state of emergency over the  influx of immigrants arriving on Italy's long shoreline.      (Reporting by Eleanor Biles; writing by Olivia Scarlett;  editing by Robert Hart)      ((stephen.brown@reuters.com; +39 06 8522 4351; Reuters  Messaging: stephen.brown.reuters.com@reuters.net))    Keywords: ITALY IMMIGRANTS/        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 18.311933517456055,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to exhibit bias. It provides factual information about the influx of illegal immigrants in Italy without employing any of the typical bias indicators."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "UPDATE 1-Major earthquake shakes downtown Los Angeles",
+        "URL": "UPDATE 1-Major earthquake shakes downtown Los Angeles.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": " (Adds details, upgrade)      LOS ANGELES, July 29 (Reuters) - An earthquake struck near  Los Angeles on Tuesday, shaking tall buildings and was  described by fire officials as a major seismic event.      There were no immediate reports of serious damage or  injuries but a spokesman for the Los Angeles Fire Department  said that the quake was a 'major seismic event.'      The temblor was centered near Chino Hills, about 30 miles  (48 km) east of Los Angeles, and witnesses reported feeling the  shaking strongly in neighboring Orange County and as far south  as San Diego.      The U.S. Geological Survey said the quake measured 5.8  magnitude  after initially saying it was 5.6 magnitude.     (Reporting by Dan Whitcomb, Editing by Frances Kerry)    ((Reuters e-mail: dan.whitcomb@thomsonreuters.com; 1-213-380  2014))  Keywords: QUAKE LOSANGELES/        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 18.269437789916992,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports factual information about the earthquake near Los Angeles without introducing any subjective or misleading elements."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "MMNEWS-Los Angeles-area 2008 airport traffic sagged",
+        "URL": "MMNEWS-Los Angeles-area 2008 airport traffic sagged.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    'Traffic at local airports during December fell off the  table. And the year 2008 numbers were bad as well,' the Los  Angeles County Economic Development Corp reports. At Los  Angeles International Airport, December traffic declined by  16.3 percent over the year. For full-year 2008, total passenger  traffic at the airport declined by 4.7 percent to 59.5 million  passengers.      Reuters Messaging:  rm://jim.christie.reuters.com@reuters.net  ",
+        "Histogram": [
+            0,
+            0.6,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 18.24496841430664,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Traffic at local airports during December fell off the table. And the year 2008 numbers were bad as well,' the Los Angeles County Economic Development Corp reports.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of phrases like 'fell off the table' and 'bad' to describe the decline in airport traffic evokes a strong emotional response, emphasizing the negativity without providing a balanced perspective."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the decline in airport traffic, specifically through the use of emotionally charged language to describe the situation, indicating a general bias tendency towards sensationalism."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.4,
+            "overall_rating": 0.5
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "TEXT-Moody's on Los Angeles County Museum of Art, Calif.",
+        "URL": "TEXT-Moody's on Los Angeles County Museum of Art, Calif..txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    (The following statement was released by the ratings agency)      Feb 19 - Moody's Investors Service has assigned an initial underlying A2  rating to the Los Angeles County Museum of Art's (LACMA) outstanding $176.2  million Series 2004 A, B, and C and $200 million Series 2007 A, B, C, and D  Revenue Bonds. The outlook is stable. The bonds are also insured by FGIC, whose  current financial strength rating is A3-on watch for possible downgrade.      LEGAL SECURITY: The bonds are an unconditional general and unsecured  obligation of the Museum. LACMA covenants to maintain 0.95 times adjusted  unrestricted net assets relative to debt beginning June 30, 2008 and there is  an additional bonds test that requires adjusted unrestricted net assets to  equal 0.95 times existing and proposed debt. As of December 31, 2007, the  adjusted unrestricted net assets to debt ratio was approximately 1.2 times.      INTEREST RATE DERIVATIVES: LACMA has five interest rate swap agreements  outstanding, with Citibank acting as the counterparty, in order to hedge its  interest rate exposure on a portion of its variable rate debt. All of the  swaps are variable to fixed rate swaps, with LACMA paying a fixed rate and  receiving a percentage of LIBOR. The swaps have a notional amount of $256  million and synthetically fix approximately two-thirds of the Museum's  outstanding debt. As of December 31, 2007, the termination value of the swaps  was a liability of approximately $11.4 million. We believe that the swaps and  LACMA's 100% variable rate debt structure add an element of risk to the  rating, but that it is manageable at the A2 level.      STRENGTHS      *Strongly established relationship with Los Angeles County through a  99-year funding agreement that commenced in 1994. As per the agreement, LACMA  receives annual support from the County in the form of direct cash and in-kind  payments. In FY 2007, the direct cash payments from the County totaled $14.0  million. The County has also provided $15 million of unrestricted  extraordinary support to LACMA in connection with its fundraising campaign.      *The premier encyclopedic art museum in the Western United States, and one  of the most prominent cultural institutions in Los Angeles, with a collection  of over 150,000 artworks from around the world.      *Growing financial resource base (expendable financial resources of $291.3  million), bolstered by successful fundraising from a generous and high profile  Board of Trustees.      *Currently in the second phase of a capital transformation of its campus;  this will include several new and renovated buildings and exhibition spaces,  parking structures, and park improvements that are intended to position LACMA  to diversify its visitor profile and become more of a tourist destination.      CHALLENGES      *Leveraged balance sheet, with expendable financial resources (net assets  that are available over the medium term) covering pro-forma debt 0.8 times.      *Higher operating costs associated with new buildings may impact LACMA's  operating performance in the near-term, although higher admissions ticket  prices and projected higher attendance and membership levels may offset  increased expenses.      *Construction risk associated with capital projects that are part of Phase  II of LACMA's three phase campus transformation.      *While fundraising has been strong (averaging $53.9 million annually over  the past three years), significant additional funds are n",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 18.16522216796875,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "The premier encyclopedic art museum in the Western United States, and one of the most prominent cultural institutions in Los Angeles, with a collection of over 150,000 artworks from around the world.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'premier' and 'most prominent' implies a subjective judgment and elevates the institution above others without providing a clear, objective basis for comparison, influencing the reader's perception."
+                },
+                {
+                    "text": "Growing financial resource base (expendable financial resources of $291.3 million), bolstered by successful fundraising from a generous and high profile Board of Trustees.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The terms 'growing' and 'generous and high profile' suggest a positive, possibly exaggerated, view of the financial situation and the Board of Trustees, lacking a neutral or critical perspective."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias through the use of word choice, specifically in the positive framing of the museum's status and financial situation. The general bias tendency leans towards portraying the Los Angeles County Museum of Art in an overly positive light, potentially influencing the reader's perception of its standing and prospects."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.045454545454545456,
+            "overall_rating": 0.3227272727272727
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "BW: $25.36M Los Angeles County Capital Asset Leasing Morgan Stan",
+        "URL": "BW: $25.36M Los Angeles County Capital Asset Leasing Morgan Stan.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "RE: $25,360,000.00  Los Angeles County Capital Asset Leasing  Lease Revenue bond 2008 Ser A  REGISTERED  --      MOODY'S:                          S&P: A+              FITCH: A      Delivery Date: 03/13/2008 Expected                                                              Add'l                                                  Concess    Takedown  Maturity         Balance     Coupon    List       (pt)       (pt)    Cusip  --------------------------------------------------------------------------------  06/01/2009           645M    3.00        3.00                         54466LEA1  12/01/2009         3,825M    3.00        3.00                         54466LEB9  06/01/2010         1,995M    3.25        3.25                         54466LEC7  12/01/2010         1,510M    3.25        3.25                         54466LED5  06/01/2011           235M    3.50        3.50                         54466LEE3  CALL FEATURES: No optional call    Total:           8,210M  --  Morgan Stanley & Co. Incorporated [GWMSF]  Citigroup Global Markets Inc.  Stone & Youngberg LLC  By: Morgan Stanley & Co. Incorporated [GWMSF]  San Francisco, CA  ",
+        "Histogram": [
+            0,
+            0,
+            0
+        ],
+        "Relevance": 18.06471824645996,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The provided text is financial data regarding a capital asset leasing in Los Angeles County. It consists of bond details and the involved financial institutions. There are no biased sentences in this text as it primarily presents factual information without any subjective or misleading language."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Illegal immigrants increasingly go north inside US",
+        "URL": "Illegal immigrants increasingly go north inside US.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Robin Emmott      NUEVO LAREDO, Mexico, Jan 15 - Illegal immigrants from  Latin America are heading deeper into the United States to find  work and avoid deportation as crackdowns in border states like  Texas and Arizona make life more difficult for them.      The U.S. Border Patrol has ramped up surveillance along the  porous Mexican border aided by National Guard troops since  2005, while police and state legislatures have increasingly  targeted illegal immigrants in some border states.      'Texas is crawling with Border Patrol agents and the locals  are so tuned in that if they see you walking down the street,  they phone the Border Patrol, who come and deport you,' said Joe  Reyes, 45, who lived for seven years in Houston before being  deported in November.      'I'm heading for North Carolina if I can get back across,'  he said at the Catholic-run migrant shelter in Nuevo Laredo,  across the border from Laredo, Texas.      Washington hired thousands more Border Patrol agents last  year to help deport immigrants who entered illegally or  outstayed their visas, carry out workplace raids, jail illegals  and push police to enforce immigration laws.      While workplace raids are common in central and northern  states, Arizona and Texas are now arguably the toughest places  for undocumented immigrants.      In Arizona, once a popular state for fresh arrivals due to  its desert border with Mexico, companies are laying off  undocumented workers after a new law came into effect on Jan. 1  punishing companies who hire illegal immigrants.      Family networks in border states are still a strong pull  for new immigrants and some are willing to risk living in  Texas, which has a Hispanic heritage and big Hispanic  population.      But migrant shelters and people smugglers are warning  illegal immigrants that they need to go farther north to last  long in the United States.      'Our message to new migrants, and those trying to get back  to the United States after being deported, is that if they  really want to go, avoid California, Arizona, New Mexico and  Texas,' said Eduardo Carrera, a volunteer at a shelter in Nuevo  Laredo, where migrants stop on their way to the United States.           BETTER PAY UP NORTH      For decades, illegal immigrants have crossed the border  into the United States, where an estimated 12 million live and  work in the shadows. Many would traditionally settle in the  four border states, where there are plenty of temporary jobs on  farms, in construction and in the service economy.      But better wages in northern states -- such as Virginia,  Maryland and Washington -- amid a slowing U.S. economy are also  changing that trend.      'There is a growing economic incentive to migrate to  non-traditional destinations. The fact that surveillance may be  less intense in these areas is an added benefit,' said Wayne  Cornelius, an immigration expert at the University of  California, San Diego.      According to a study by Pew Hispanic Center research  institute, some 57 U.S. counties in mainly northern and central  states doubled their population of Hispanics, including both  legal and illegal immigrants, between 2000 and 2006.      'Very few are in the traditional Hispanic areas of the  southwest,' said Jeffrey Passel, a demographer at the center.  'There is a very big concentration in Virginia, mostly in the  Washington D.C. suburbs,' he added.      People smugglers in Tijuana near San Diego say they are  taking m",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 18.001739501953125,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to exhibit bias as it primarily focuses on the movement patterns of illegal immigrants within the United States and the factors influencing these movements, without presenting information in a way that would indicate a particular bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Los Angeles-area Redondo 8 power unit on-line",
+        "URL": "Los Angeles-area Redondo 8 power unit on-line.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    LOS ANGELES, July 11 (Reuters) - The AES Corp <AES.N>  496-megawatt Redondo Beach Unit 8 natural gas-fired power  station in California was back on-line after a one-day  unplanned outage, the California Independent System Operator  said in a Friday report.       Unit 493-MW Redondo Unit 7 remained off-line, the Cal ISO  said.      Both units are 41 years old.      The plant is in Redondo Beach in Los Angeles County, about  20 miles south of downtown Los Angeles.      One megawatt powers about 650 homes in Southern California.   (Reporting by Bernie Woodall)   ((bernie.woodall@thomsonreuters.com; +1 213 955 6752))  Keywords: UTILITIES OPERATIONS/AES REDONDO       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 17.949066162109375,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it simply reports on the operational status of a power unit in California without introducing any subjective or prejudiced viewpoints."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "P: $8.87M LOS ANGELES COUNTY SCHOOLS REGIONALIZED  RBC Capital M",
+        "URL": "P: $8.87M LOS ANGELES COUNTY SCHOOLS REGIONALIZED  RBC Capital M.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "RE: $8,874,474  LOS ANGELES COUNTY SCHOOLS REGIONALIZED BUSINESS SERVICES CORPORATION-SOUTH PASADENA  UNIFIED SCHOOL DISTRICT  Certificates of Participation (Los Angeles County Schools Pooled Financing Program)  2008 Series A  BANK QUALIFIED    MOODY'S: Aaa/A3              S&P: AAA/A+              FITCH:    FSA Insured    DATED:05/15/2008   FIRST COUPON:11/01/2008   INTEREST ACCRUES:05/15/2008    DUE: 05/01  MATURITY      AMOUNT    COUPON    PRICE  05/01/2012       205M     3.25%     3.00                       (Approx. $ Price 100.926)  05/01/2013       210M     3.10%     3.20                       (Approx. $ Price 99.543)  05/01/2014       220M     3.25%     3.35                       (Approx. $ Price 99.462)  05/01/2015       225M     3.40%     3.57                       (Approx. $ Price 98.959)  05/01/2016       235M     3.50%     3.74                       (Approx. $ Price 98.359)  05/01/2018       490M       NRO  05/01/2020       530M       NRO  05/01/2023       880M       NRO  05/01/2028     1,750M     4.55%     4.55  05/01/2033     2,180M     4.65%     4.66                       (Approx. $ Price 99.851)  05/01/2036     1,565M     4.70%     4.70                      ---------------------------------------  CALL FEATURES:  Optional call in 05/01/2012 @ 100.00                      ---------------------------------------                          Capital Appreciation Bonds  DATED (zeros): Date of Delivery                                                 APPROX.                                                 $ PRICE                PRINCIPAL     MATURITY   YLD TO  PER  MATURITY      AMOUNT        VALUE      MAT     $100  05/01/2037   105,840.00         575M   5.93     18.407  05/01/2038    98,963.00         575M   5.96     17.211  05/01/2039    92,759.00         575M   5.98     16.132  05/01/2040    86,911.00         575M   6.00     15.115                      ---------------------------------------  CALL FEATURES:  Optional call in 05/01/2012 @ 100.00  Callable 5/1/12 @ 100% of CAV                      ---------------------------------------  PRIORITY OF ORDERS AS FOLLOWS:  1. Group Net  2. Member  The compliance addendum MSRB Rule G-11 will apply.  The Award is final for Thursday, May 1, 2008 at 6:25PM Eastern .  Delivery is firm for Thursday, May 15, 2008.  This Issue is book entry. This issue is clearing through DTC.                                                 Participation  RBC Capital Markets                                  70.000%  E.J. De La Rosa & Co., Inc.                          30.000%  By: RBC Capital Markets  San Francisco, CA  ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 17.908906936645508,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The provided text does not contain any biased sentences. It consists of financial data and information regarding the issuance of Certificates of Participation, lacking subjective opinions, speculative claims, or any form of bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "CS: $24.67M Los Angeles County Capital Asset Leasing Morgan Stan",
+        "URL": "CS: $24.67M Los Angeles County Capital Asset Leasing Morgan Stan.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "RE: $24,670,000.00  Los Angeles County Capital Asset Leasing  Lease Revenue bond 2008 Ser A  REGISTERED  This issue is book entry through DTC.       Award:              03/04/2008       Delivery:           03/13/2008 (Firm)       Initial trade:      03/04/2008       Date of Execution:  03/04/2008       Time of Execution:  12:00 pm noon pacific             MATURITY                  CUSIP                   COUPON            ----------               ---------                 ------            06/01/2008               54466LDY0                  3.000            12/01/2008               54466LDZ7                  3.000            06/01/2009               54466LEA1                  3.000            12/01/2009               54466LEB9                  3.000            06/01/2010               54466LEC7                  3.250            12/01/2010               54466LED5                  3.250            06/01/2011               54466LEE3                  3.500  Morgan Stanley & Co. Incorporated [GWMSF]  Citigroup Global Markets Inc.  Stone & Youngberg LLC  By: Morgan Stanley & Co. Incorporated [GWMSF]  San Francisco, CA  ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 17.90709686279297,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The provided text does not contain any biased sentences. It is a factual report on a financial transaction without any indication of subjective or misleading information."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "FT: $524.85M LOS ANGELES UNIFIED SCHOOL DISTRICT Lehman Brothers",
+        "URL": "FT: $524.85M LOS ANGELES UNIFIED SCHOOL DISTRICT Lehman Brothers.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "RE: $524,845,000  LOS ANGELES UNIFIED SCHOOL DISTRICT  (County of Los Angeles, California)  General Obligation Bonds  Effective at 3:15 P.M. E.S.T., Thursday, February 8, 2007  all syndicate terms and price restrictions are removed  and the bonds will be free to trade.  Lehman Brothers  Citigroup Global Markets Inc.  E.J. De La Rosa & Co., Inc.  J.P. Morgan Securities Inc.  Loop Capital Markets  By: Lehman Brothers  New York, NY  ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 17.884336471557617,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It is a straightforward announcement of the release of bonds for the Los Angeles Unified School District, detailing the involved parties and the date of the event."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Los Angeles-area Redondo 8 power unit off-line",
+        "URL": "Los Angeles-area Redondo 8 power unit off-line.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    LOS ANGELES, July 10 (Reuters) - The AES Corp <AES.N>  496-megawatt Redondo Beach Unit 8 natural gas-fired power  station in California was off-line for unplanned maintenance on  Thursday, the California Independent System Operator said in a  report.      Now, both Unit 7 with a capacity of 493 MW and Unit 8 are  down, the Cal ISO said.      Both units are 41 years old.      The plant is in Redondo Beach in Los Angeles County, about  20 miles south of downtown Los Angeles.      One megawatt powers about 650 homes in Southern  California.   (Reporting by Bernie Woodall)   ((bernie.woodall@thomsonreuters.com; +1 213 955 6752))  Keywords: UTILITIES OPERATIONS/AES REDONDO       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 17.829483032226562,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it simply reports the status of the Redondo Beach Unit 8 power station in California without any indication of prejudice or skewed perspective."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    }
+]

@@ -1,0 +1,1049 @@
+[
+    {
+        "Title": "UPDATE 1-Hike NY City income taxes, spur bio-tech-official",
+        "URL": "UPDATE 1-Hike NY City income taxes, spur bio-tech-official.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": " (Adds byline, details, new paragraphs: 2-5, 7-15)      By Joan Gralla      NEW YORK, Feb 12 (Reuters) - New York City should raise  taxes on wealthy individuals, cut spending by $500 million and  add 1,000 jobs by growing biotech firms with a $250,000 tax  credit, the city council's speaker said on Thursday.      Luxury apartment developments, which failed to find   buyers, could be turned into affordable homes with the city  negotiating the lowest possible price, council speaker  Christine Quinn told the council in her annual state of the  city address.      To help close a $4 billion deficit, the Democrat proposed  raising millions of dollars by buying the Internet domain name  '.NYC' and selling it as a new web address.      She further proposed that the city defer the purchase of  new cars for police officers by a year, merge agencies, forego  electronic road signs and stop marketing city jobs, she said.      Cutting 10 percent of the $117 million spent on  administration will pay for 250 more police officers or 40  senior centers.      Quinn proposed raising income taxes for the city's top 4  percent income-earners under three new brackets in a move that  would raise $1 billion. That would avoid the sales tax increase  Mayor Michael Bloomberg has proposed.      If the mayor approved the new rates, incomes of $297,000 to  $532,000 would be taxed at 4.25 percent, up from 3.683 percent.  Taxpayers who earn $532,000 to $1.2 million would pay 4.45  percent; above $1.2 million the rate would be 4.65 percent.      Households with incomes of up to $46,000 a year, who pay no  state or federal taxes, would save $321 on average because the  city would end its current 2.907 to 3.591 percent levy. But  middle-class income households, with annual incomes of up to  $106,000, would not benefit; they would still pay the exact  range of rates that working class families now pay.      The mayor, an independent, in January said he expected    the state to raise income taxes on rich individuals to close  its historic deficit and warned this could drive these  individuals to move to lower-tax areas.      'For those who say this will cause a mass migration of  millionaires to Westchester and New Jersey, the facts simply  don't bear that out,' Quinn said, citing a Princeton University  study that found less than 0.2 percent of its millionaires  pulled up stakes after an income tax hike.      Quinn's income tax plan and her criticisms of the mayor   were a departure. Civic advocates and council historians have  bashed Quinn, who was expected to seek the Democratic mayoral  nomination until Bloomberg decided to seek a third term, for  hewing too closely to the mayor's positions.      The speaker slammed the administration for giving up $4  billion a year in failed job-creating tax credits, and vowed to  stiffen controls. 'We've developed an honor system of corporate  welfare,' she said, noting the Board of Trade got almost $1  million of aid in 2000 but cut its workers to 170 from 4,731.      Though fiscal monitors praise Bloomberg's unpopular plan to  curb newly hired workers' pensions and charge health care  contributions, Quinn said only that unions must 'play their  part,' like homeowners paying higher property taxes.      To spur new small businesses, Quinn proposed a one-stop  application process and waiving permitting fees for 12 months.  The city should abolish a law requiring it to take the low bid  -- though its costs will rise -- to hire local f",
+        "Histogram": [
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 18.60247039794922,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Luxury apartment developments, which failed to find buyers, could be turned into affordable homes with the city negotiating the lowest possible price, council speaker Christine Quinn told the council in her annual state of the city address.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'failed to find buyers' carries a negative connotation, implying a judgment about the success of the developments, which could influence the reader's perception negatively towards the projects."
+                },
+                {
+                    "text": "To help close a $4 billion deficit, the Democrat proposed raising millions of dollars by buying the Internet domain name '.NYC' and selling it as a new web address.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The proposal to raise money through buying and selling domain names is speculative in nature, as it assumes a certain demand and price for the '.NYC' domain, without concrete evidence to support the feasibility of this plan."
+                },
+                {
+                    "text": "She further proposed that the city defer the purchase of new cars for police officers by a year, merge agencies, forego electronic road signs and stop marketing city jobs, she said.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'forego' and 'stop' in relation to city expenditures implies a judgment that these expenses are unnecessary or excessive, reflecting a subjective opinion rather than an objective analysis."
+                },
+                {
+                    "text": "The mayor, an independent, in January said he expected the state to raise income taxes on rich individuals to close its historic deficit and warned this could drive these individuals to move to lower-tax areas.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The statement about the potential migration of rich individuals due to tax increases is speculative, as it predicts future behavior based on a hypothetical scenario, without concrete evidence of such outcomes."
+                },
+                {
+                    "text": "'For those who say this will cause a mass migration of millionaires to Westchester and New Jersey, the facts simply don't bear that out,' Quinn said, citing a Princeton University study that found less than 0.2 percent of its millionaires pulled up stakes after an income tax hike.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "While citing a study, the assertion that 'the facts simply don't bear that out' regarding the migration of millionaires after tax hikes is still speculative, as it generalizes from one study to a broad claim about the behavior of wealthy individuals in response to tax policy changes."
+                },
+                {
+                    "text": "Quinn's income tax plan and her criticisms of the mayor were a departure. Civic advocates and council historians have bashed Quinn, who was expected to seek the Democratic mayoral nomination until Bloomberg decided to seek a third term, for hewing too closely to the mayor's positions.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'bashed' to describe the criticism of Quinn by civic advocates and council historians introduces a negative connotation, suggesting harsh or unjust criticism, which could bias the reader's perception of the nature and validity of the critiques."
+                },
+                {
+                    "text": "The speaker slammed the administration for giving up $4 billion a year in failed job-creating tax credits, and vowed to stiffen controls. 'We've developed an honor system of corporate welfare,' she said, noting the Board of Trade got almost $1 million of aid in 2000 but cut its workers to 170 from 4,731.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'slammed' and 'failed' to describe the administration's actions and the outcomes of the tax credits conveys a highly critical and negative tone, suggesting a judgment about the effectiveness and integrity of the policies without a balanced presentation of evidence."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the proposals and actions discussed, particularly in the portrayal of certain policies and individuals in a negative light through the use of speculative language, opinionated assertions, and negatively connotated word choices. The general bias tendency leans towards criticizing the current administration's fiscal policies and the responses to them, as well as promoting the speaker's proposals as solutions without a fully objective analysis."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.2,
+            "overall_rating": 0.4
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Democrat Obama fights Republican McCain over taxes",
+        "URL": "Democrat Obama fights Republican McCain over taxes.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Steve Holland      KAUKAUNA, Wis., June 12 (Reuters) - Democratic presidential  hopeful Barack Obama on Thursday accused Republican John McCain  of mischaracterizing his tax plan and said most Americans would  not see taxes go up.      Obama, an Illinois senator, has drawn heavy fire from rival  Arizona Sen. McCain this week on the issue of taxes, with the  Republican repeatedly accusing Obama of seeking the largest  increase since World War Two.      'It's just not true,' Obama said at a town hall meeting in  rainy Wisconsin, telling a crowd inside a high school gymnasium  that Republicans have wrongly subjected him to charges of being  a 'tax-and-spend liberal.'      Obama, visiting a Midwestern state likely to be a  battleground in the race to the November presidential election,  is enjoying a modest bump in public opinion polls in the days  since dispatching rival Hillary Clinton from the Democratic  nominating contest.      A poll by NBC and the Wall Street Journal put him ahead of  McCain by 47 percent to 41 percent among registered voters.      Obama says he would raise taxes on Americans making  $250,000 a year or more and raise the capital gains tax for  those in higher income brackets while exempting small  investors. He would use the money to pay for a middle-class tax  cut of $1,000 a year.      McCain and other Republican leaders argue that any tax  increase at a time the U.S. economy is struggling could be  devastating.      Obama's campaign pointed to a study by the Tax Policy  Center that said his plan would offer middle-class families  three times the tax relief that they would receive under  McCain's plan.      The report said McCain would give tax cuts to the rich:  one-quarter of the benefits in McCain's plan go to households  making over $2.8 million annually      'Both John McCain and I favor tax cuts,' Obama said. 'No  matter what he says, both of us favor tax cuts. The difference  is that Senator McCain wants to continue the Bush tax code that  rewards wealth and I want to reform our tax code so it rewards  work.'      Obama called McCain's plan to continue President George W.  Bush's across-the-board tax cuts, and add corporate tax  reductions, fiscally irresponsible.      'You know, I often say that John McCain is running to serve  out George Bush's third term, but that's not fair to George  Bush, because the fact is Sen. McCain is now calling for this  new round of tax relief that is twice as expensive as the Bush  plan and three times as regressive,' Obama said.      Obama also took aim at a McCain statement on Wednesday in  which he appeared to play down a timetable for withdrawing U.S.  troops from Iraq. McCain said the most important factor was  keeping U.S. casualties low and reiterated that U.S. troops for  decades have played peace-keeping roles around the world.      The notion of leaving U.S. troops in Iraq 'in perpetuity'  ignored the burden placed on troops and their families from  repeated tours of duty and was also costly to the U.S. economy,  Obama said.      (Editing by David Wiessler)      (To read more about the U.S. political campaign, visit  Reuters 'Tales from the Trail: 2008' online at  http://blogs.reuters.com/trail08/)   ((For a TAKE A LOOK on the campaign [US/VOTE]))   ((steve.holland@reuters.com; +1 646 897 1898; Reuters  Messaging: steve.holland.reuters.com@reuters.net))  Keywords: USA POLITICS/OBAMA       ",
+        "Histogram": [
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0.4,
+            0.5,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 16.77602195739746,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Democratic presidential hopeful Barack Obama on Thursday accused Republican John McCain of mischaracterizing his tax plan and said most Americans would not see taxes go up.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'accused' and 'mischaracterizing' implies a judgment about McCain's actions, suggesting he intentionally misrepresented Obama's tax plan, which could influence the reader's perception negatively towards McCain."
+                },
+                {
+                    "text": "'It's just not true,' Obama said at a town hall meeting in rainy Wisconsin, telling a crowd inside a high school gymnasium that Republicans have wrongly subjected him to charges of being a 'tax-and-spend liberal.'",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "By dismissing the opposition's claims as 'just not true' and attributing them to the general label of 'tax-and-spend liberal,' Obama attacks the character of those criticizing his tax plan without directly addressing the substance of their arguments."
+                },
+                {
+                    "text": "Obama, visiting a Midwestern state likely to be a battleground in the race to the November presidential election, is enjoying a modest bump in public opinion polls in the days since dispatching rival Hillary Clinton from the Democratic nominating contest.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'enjoying a modest bump' and 'dispatching rival' employs positive connotations for Obama's success and negative connotations for Clinton's defeat, subtly biasing the reader's perception towards the narrative of Obama's triumph."
+                },
+                {
+                    "text": "McCain and other Republican leaders argue that any tax increase at a time the U.S. economy is struggling could be devastating.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.4,
+                    "bias_description": "This sentence implies a direct cause-and-effect relationship between tax increases and economic devastation without considering other factors, such as the potential benefits of increased government revenue during economic downturns."
+                },
+                {
+                    "text": "Obama's campaign pointed to a study by the Tax Policy Center that said his plan would offer middle-class families three times the tax relief that they would receive under McCain's plan.",
+                    "bias_type": "Anecdotal Evidence Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "Relying on a single study to support the effectiveness of Obama's tax plan for middle-class families over McCain's plan overlooks the complexity of tax policy and the multitude of factors that could influence its impact."
+                },
+                {
+                    "text": "'You know, I often say that John McCain is running to serve out George Bush's third term, but that's not fair to George Bush, because the fact is Sen. McCain is now calling for this new round of tax relief that is twice as expensive as the Bush plan and three times as regressive,' Obama said.",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The statement insinuates that McCain's policies are not only aligned with Bush's, but also more extreme in their negative impact, indirectly attacking McCain's credibility by associating him with unpopular policies."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias through the use of word choice, ad hominem attacks, causal misunderstandings, anecdotal evidence, and speculative comparisons, all of which contribute to a narrative favoring Obama's tax plan over McCain's. The general bias tendency leans towards portraying Obama's position more positively and McCain's more negatively regarding tax policies."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.5499999999999999,
+            "percentage_of_biased_sentences": 0.2222222222222222,
+            "overall_rating": 0.38611111111111107
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "WRAPUP 5-McCain and Obama clash on taxes early in debate",
+        "URL": "WRAPUP 5-McCain and Obama clash on taxes early in debate.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    * McCain and Obama clash on taxes in final debate      * Polls show Obama with edge over McCain      * Both candidates visit debate site ahead of showdown           By John Whitesides, Political Correspondent      HEMPSTEAD, N.Y., Oct 15 (Reuters) - Republican John McCain  and Democrat Barack Obama fought over their tax plans and  promised to help working Americans like 'Joe the plumber' early  in their final presidential debate on Wednesday.      McCain went on the offensive quickly, criticizing Obama's  proposal to raise taxes on Americans who make more than  $250,000 a year and saying it would hurt small business owners  like a plumber named Joe who Obama met on the campaign trail.      'Why would you want to raise anybody's taxes right now?'  McCain asked Obama. 'We need to encourage businesses.'      Obama said his plan would cut taxes for 95 percent of  Americans and raise them on only a small slice of the most  high-income Americans, while McCain would give tax breaks to  oil and gas companies.      'We both want to cut taxes,' Obama, an Illinois senator,  said in their third and last White House debate at Hofstra  University. 'The difference is who we want to cut taxes for.'      McCain, an Arizona senator, entered the debate under  intense pressure to turn in a strong performance that could  turn around a presidential race that has shifted decisively in  Obama's favor after weeks of economic turmoil and plunging  stock markets.      Opinion polls three weeks before the Nov. 4 election show  more voters say they trust Obama's leadership on the economy,  which has dominated the campaign-trail discussion and dwarfed  McCain's expertise in foreign and military policy.   (Editing by David Wiessler)   ((For more about the U.S. political campaign, visit Reuters  'Tales from the Trail: 2008' online at  http:/blogs.reuters.com/trail08/))   ((For full campaign coverage double click on [US/VOTE]))  Keywords: USA POLITICS/        ",
+        "Histogram": [
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0
+        ],
+        "Relevance": 16.734172821044922,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "McCain went on the offensive quickly, criticizing Obama's proposal to raise taxes on Americans who make more than $250,000 a year and saying it would hurt small business owners like a plumber named Joe who Obama met on the campaign trail.",
+                    "bias_type": "Anecdotal Evidence Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence employs anecdotal evidence by focusing on a single individual, 'Joe the plumber', to illustrate the potential negative impact of Obama's tax proposal, rather than presenting broader, more representative evidence."
+                },
+                {
+                    "text": "'Why would you want to raise anybody's taxes right now?' McCain asked Obama. 'We need to encourage businesses.'",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'We need to encourage businesses' in the context of questioning tax policies introduces emotional sensationalism, implying dire consequences if taxes are raised without a balanced, factual argument."
+                },
+                {
+                    "text": "Opinion polls three weeks before the Nov. 4 election show more voters say they trust Obama's leadership on the economy, which has dominated the campaign-trail discussion and dwarfed McCain's expertise in foreign and military policy.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The choice of words such as 'dwarfed' to describe the comparison between Obama's and McCain's expertise introduces a word choice bias, suggesting a significant imbalance in their capabilities without a neutral presentation of facts."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the discussion on tax policies and the candidates' capabilities, with a general tendency towards using anecdotal evidence, emotional sensationalism, and word choice to influence the reader's perception."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.45454545454545453,
+            "overall_rating": 0.5272727272727272
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "WRAPUP 3-McCain, Obama present different views on taxes",
+        "URL": "WRAPUP 3-McCain, Obama present different views on taxes.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    * McCain would keep Bush's tax cuts      * Obama sees tax relief for middle class      * McCain asks, 'What kind of change?'      * Obama doubts McCain can pay for tax cuts           By Jeff Mason      WASHINGTON, June 10 (Reuters) - Republican John McCain and  Democrat Barack Obama staked out starkly opposing stances on  taxes on Tuesday, with McCain promising corporate tax breaks  and Obama pledging tax increases for many.      McCain in a speech in Washington accused Obama of seeking  the single largest tax increase since World War Two while  Obama, in a television interview, said he would increase taxes  on the wealthy and on stock profits to pay for a middle-class  tax cut of $1,000 a year.      'No matter which of us wins in November, there will be  change in Washington. The question is what kind of change?'  McCain told a conference for small businesses.      Obama told CNBC that he would raise taxes on Americans  making $250,000 a year or more and raise the capital gains tax  for those in higher income brackets while exempting small  investors. He said the U.S. economy has been 'out of balance  for too long.'      'The general principle of raising taxes on higher income  Americans, like myself, and providing relief to those who  haven't benefited as much from this new global economy, I  think, is a sound one,' Obama said.      But Obama, 46, said he would consider deferring some of the  tax increases, depending on the economic situation he inherits  from President George W. Bush should he win the November  election.      The differences on how to spur new growth in the sluggish  U.S. economy, at a time of rising unemployment, record-high  gasoline prices and a persistent housing crisis, represented a  key point of argument for the two candidates in their battle to  determine who wins the presidency.      Obama and other Democrats believe economic conditions,  including $4-a-gallon gasoline, will persuade many Americans to  vote for them in November. McCain wants to fight the election  on national security, which he considers his strength.           WOULD KEEP BUSH TAX CUTS      McCain, 71, vowed to maintain Bush's tax cuts, lower  corporate tax rates from 35 percent to 25 percent and allow  companies to expense new equipment and technology in their  first year.      He supported keeping capital gains taxes as they are now,  doubling a tax exemption for children, and phasing out the  Alternative Minimum Tax, which he said would save some 25  million middle-class families up to $2,000 in a year.      He said he could pay for the plan by cutting what he called  wasteful government spending, including ethanol and sugar  subsidies and weapons systems.      'We're going to scrub every agency of government and we're  going to make them justify their existence. And if they can't,  they're going to go out of existence,' he said on CNBC.      Democrats argue not enough cuts could be made in the  federal budget to pay for McCain's tax cuts, which Obama said  would total $300 billion.      'I've said that John McCain is running to serve out a third  Bush term, but the truth is when it comes to taxes, that's not  being fair to George Bush,' Obama told reporters in St. Louis,  where he traveled to talk up his proposals on revamping the  U.S. health care system.      McCain was equally dismissive of Obama's economic plan,  which he said would hurt the 100 million Americans who own  stock.      'Under Senator Obama's tax plan, Americans of ",
+        "Histogram": [
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.5,
+            0.5,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0.5,
+            0,
+            0
+        ],
+        "Relevance": 16.61354637145996,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "McCain in a speech in Washington accused Obama of seeking the single largest tax increase since World War Two while Obama, in a television interview, said he would increase taxes on the wealthy and on stock profits to pay for a middle-class tax cut of $1,000 a year.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'accused' and 'single largest tax increase since World War Two' in reference to Obama's tax proposals carries a negative connotation, implying judgment and sensationalism."
+                },
+                {
+                    "text": "'No matter which of us wins in November, there will be change in Washington. The question is what kind of change?' McCain told a conference for small businesses.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence uses emotionally charged language ('what kind of change?') to provoke a response, suggesting a negative view of change without providing a balanced perspective."
+                },
+                {
+                    "text": "Obama and other Democrats believe economic conditions, including $4-a-gallon gasoline, will persuade many Americans to vote for them in November. McCain wants to fight the election on national security, which he considers his strength.",
+                    "bias_type": "Political Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "The sentence implies a cynical strategy by Democrats to exploit economic hardships for political gain, contrasting it with McCain's supposedly principled focus on national security."
+                },
+                {
+                    "text": "He said he could pay for the plan by cutting what he called wasteful government spending, including ethanol and sugar subsidies and weapons systems. 'We're going to scrub every agency of government and we're going to make them justify their existence. And if they can't, they're going to go out of existence,' he said on CNBC.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "McCain's confident assertion about cutting wasteful spending without detailed evidence or a balanced discussion implies a subjective opinion presented as an objective plan."
+                },
+                {
+                    "text": "'I've said that John McCain is running to serve out a third Bush term, but the truth is when it comes to taxes, that's not being fair to George Bush,' Obama told reporters in St. Louis, where he traveled to talk up his proposals on revamping the U.S. health care system.",
+                    "bias_type": "Political Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "This statement suggests a nuanced critique of McCain's tax policies by comparing them to Bush's, implying a negative association with Bush's economic legacy."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the discussion on tax policies, with instances of Word Choice Bias, Emotional Sensationalism Bias, Political Bias, and Opinionated Bias. The biases are directed towards portraying certain tax proposals and their proponents in a negative light, often through the use of emotionally charged language, subjective opinions presented as facts, and politically motivated comparisons."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.5599999999999999,
+            "percentage_of_biased_sentences": 0.36363636363636365,
+            "overall_rating": 0.4618181818181818
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "WRAPUP 2-McCain, Obama stake out divergent paths on taxes",
+        "URL": "WRAPUP 2-McCain, Obama stake out divergent paths on taxes.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    * McCain would keep Bush's tax cuts      * Obama sees tax relief for middle class      * McCain asks, 'What kind of change?'      * Obama doubts McCain can pay for tax cuts           By Jeff Mason      WASHINGTON, June 10 (Reuters) - Republican John McCain and  Democrat Barack Obama staked out starkly opposing stances on  taxes on Tuesday, with McCain promising corporate tax breaks  and Obama pledging tax increases for many.      McCain in a speech in Washington accused Obama of seeking  the single largest tax increase since World War Two while  Obama, in a television interview, said he would increase taxes  on the wealthy and on stock profits to pay for a middle-class  tax cut of $1,000 a year.      'No matter which of us wins in November, there will be  change in Washington. The question is what kind of change?'  McCain told a conference for small businesses.      Obama told CNBC that he would raise taxes on Americans  making $250,000 a year or more and raise the capital gains tax  for those in higher income brackets while exempting small  investors. He said the U.S. economy has been 'out of balance  for too long.'      'The general principle of raising taxes on higher income  Americans, like myself, and providing relief to those who  haven't benefited as much from this new global economy, I  think, is a sound one,' Obama said.      But Obama, 46, said he would consider deferring some of the  tax increases, depending on the economic situation he inherits  from President George W. Bush should he win the November  election.      The differences on how to spur new growth in the sluggish  U.S. economy, at a time of rising unemployment, record-high  gasoline prices and a persistent housing crisis, represented a  key point of argument for the two candidates in their battle to  determine who wins the presidency.      Obama and other Democrats believe economic conditions,  including $4-a-gallon gasoline, will persuade many Americans to  vote for them in November. McCain wants to fight the election  on national security, which he considers his strength.           WOULD KEEP BUSH TAX CUTS      McCain, 71, vowed to maintain Bush's tax cuts, lower  corporate tax rates from 35 percent to 25 percent and allow  companies to expense new equipment and technology in their  first year.      He supported keeping capital gains taxes as they are now,  doubling a tax exemption for children, and phasing out the  Alternative Minimum Tax, which he said would save some 25  million middle-class families up to $2,000 in a year.      He said he could pay for the plan by cutting what he called  wasteful government spending.      Democrats argue not enough cuts could be made in the  federal budget to pay for McCain's tax cuts.      'I've said that John McCain is running to serve out a third  Bush term, but the truth is when it comes to taxes, that's not  being fair to George Bush,' Obama told reporters in St. Louis,  where he traveled to talk up his proposals on revamping the  U.S. health care system.      McCain was equally dismissive of Obama's economic plan.      'Under Senator Obama's tax plan, Americans of every  background would see their taxes rise -- seniors, parents,  small business owners and just about everyone who has even a  modest investment in the market,' McCain said.      Anti-Iraq war protesters interrupted McCain's speech a  handful of times, standing up and saying war was bad for small  business before they were escorted out of the room.     ",
+        "Histogram": [
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0.6,
+            0,
+            0.5,
+            0.5,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 16.43678092956543,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "McCain in a speech in Washington accused Obama of seeking the single largest tax increase since World War Two while Obama, in a television interview, said he would increase taxes on the wealthy and on stock profits to pay for a middle-class tax cut of $1,000 a year.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'the single largest tax increase since World War Two' by McCain and 'increase taxes on the wealthy and on stock profits' by Obama employs word choice that carries negative connotations, influencing perceptions about the tax policies in question."
+                },
+                {
+                    "text": "'No matter which of us wins in November, there will be change in Washington. The question is what kind of change?' McCain told a conference for small businesses.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence uses emotionally charged language ('what kind of change?') to provoke a strong reaction, suggesting that the nature of change is a critical and potentially alarming issue without providing a neutral context."
+                },
+                {
+                    "text": "Obama told CNBC that he would raise taxes on Americans making $250,000 a year or more and raise the capital gains tax for those in higher income brackets while exempting small investors. He said the U.S. economy has been 'out of balance for too long.'",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The assertion that the U.S. economy has been 'out of balance for too long' reflects an opinion presented as a fact, blurring the line between objective reporting and personal perspective."
+                },
+                {
+                    "text": "But Obama, 46, said he would consider deferring some of the tax increases, depending on the economic situation he inherits from President George W. Bush should he win the November election.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence engages in speculation about the future economic situation and Obama's potential actions, rather than relying on concrete facts and evidence, introducing a speculative bias."
+                },
+                {
+                    "text": "Obama and other Democrats believe economic conditions, including $4-a-gallon gasoline, will persuade many Americans to vote for them in November. McCain wants to fight the election on national security, which he considers his strength.",
+                    "bias_type": "Political Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "The framing of Democrats' and Obama's strategies as reliant on economic conditions and McCain's focus on national security introduces a political bias by emphasizing strategic differences in a way that could favor one approach over the other."
+                },
+                {
+                    "text": "He said he could pay for the plan by cutting what he called wasteful government spending.",
+                    "bias_type": "Unsubstantiated Claims Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "McCain's claim that he could pay for the tax plan by cutting 'wasteful government spending' is presented without evidence or specifics, making it an unsubstantiated claim."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the discussion on tax policies, with instances of Word Choice Bias, Emotional Sensationalism Bias, Opinionated Bias, Speculation Bias, Political Bias, and Unsubstantiated Claims Bias. The biases are primarily directed towards portraying the tax proposals and the candidates' positions in a manner that could influence the reader's perception through the use of emotionally charged language, speculative assertions, and unsubstantiated claims."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.5833333333333334,
+            "percentage_of_biased_sentences": 0.3333333333333333,
+            "overall_rating": 0.45833333333333337
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Obama says would consider corporate tax cut - WSJ",
+        "URL": "Obama says would consider corporate tax cut - WSJ.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    NEW YORK, June 17 (Reuters) - Democrat Barack Obama said he  would consider trimming corporate tax rates as part of a  simplification of the U.S. tax code if he is elected to the  White House, the Wall Street Journal reported on Tuesday.      Obama said the tax code had too many loopholes and other  special breaks for some companies.      'How much you pay in taxes as a corporation a lot of times  is going to depend on how good your lobbyist is,' the Illinois  senator told the newspaper in an interview.      'If we could eliminate loopholes in taxes, create a  level playing field, then I think there's the possibility to  reducing corporate rates.'      Obama did not offer specifics and said his economic team  was taking a look at the issue.      He has criticized a proposal for broader corporate tax cuts  favored by Republican John McCain, saying they would widen the  budget deficit without boosting overall economic growth.      'I've seen no evidence that ... would actually boost the  economic growth and productivity,' Obama said.      McCain, an Arizona senator who will face Obama in  November's presidential election, has pledged to cut corporate  tax rates to 25 percent from 35 percent. He would also keep in  place all of President George W. Bush's tax cuts for the  country's wealthier individuals.      Obama also suggested the possibility of giving start-up  companies a break from capital gains taxes.      He would allow the Bush tax cuts to expire for the  wealthiest Americans and has said he would consider boosting  the rate on capital gains and dividend taxes.      Obama's Republican critics contend that allowing rates on  individuals in the highest income brackets to rise would harm  small business owners.      Obama said in the Wall Street Journal interview that any  tax breaks for start-ups would need to come with clear  guidelines to prevent abuse.      'There are always folks who are interested in gaming the  system, and obviously one of the things you have to do with tax  policy generally is to pin down definitions so they're not  twisted beyond recognition,' he said.      'Companies that are starting off ... should be allowed to  accumulate capital, reinvest profits, if there are any, to the  point that they stabilize.'   (Reporting by Matt Daily; Editing by caren Bohan and John  O'Callaghan)   ((Reuters Messaging: matt.daily.reuters.com@reuters.net;  E-mail: matt.daily@reuters.com; +1 646 223 6121))     Keywords: USA POLITICS/OBAMA TAXES       ",
+        "Histogram": [
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0.7,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 16.425193786621094,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "'How much you pay in taxes as a corporation a lot of times is going to depend on how good your lobbyist is,' the Illinois senator told the newspaper in an interview.",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence attacks the influence of lobbyists on corporate tax payments, suggesting that the system is unfairly influenced by the quality of a corporation's lobbyists rather than the merits of the tax code itself."
+                },
+                {
+                    "text": "He has criticized a proposal for broader corporate tax cuts favored by Republican John McCain, saying they would widen the budget deficit without boosting overall economic growth.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.7,
+                    "bias_description": "This sentence assumes a direct cause-and-effect relationship between corporate tax cuts, budget deficits, and economic growth without considering other factors that could influence these outcomes."
+                },
+                {
+                    "text": "Obama's Republican critics contend that allowing rates on individuals in the highest income brackets to rise would harm small business owners.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence engages in speculation about the potential negative effects on small business owners without providing concrete evidence for the claim."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the discussion of corporate tax policy, with a tendency to use ad hominem attacks, causal misunderstandings, and speculative assertions to support certain viewpoints over others."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6333333333333333,
+            "percentage_of_biased_sentences": 0.0625,
+            "overall_rating": 0.34791666666666665
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "WRAPUP 1-McCain, Obama stake out divergent paths on taxes",
+        "URL": "WRAPUP 1-McCain, Obama stake out divergent paths on taxes.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    * McCain would keep Bush's tax cuts      * Obama sees tax relief for middle class      * McCain asks 'What kind of change?'      * Obama doubts McCain can pay for tax cuts           By Jeff Mason      WASHINGTON, June 10 (Reuters) - Republican John McCain and  Democrat Barack Obama staked out starkly opposing stances on  taxes on Tuesday, with McCain promising corporate tax breaks  and Obama pledging tax increases for many.      McCain in a speech in Washington accused Obama of seeking  the single largest tax increase since World War Two while  Obama, in a television interview, said he would increase taxes  on the wealthy and on stock profits to pay for a middle-class  tax cut of $1,000 a year.      'No matter which of us wins in November, there will be  change in Washington. The question is what kind of change?'  McCain told a conference for small businesses.      Obama told CNBC that he would raise taxes on Americans  making $250,000 a year or more and raise the capital gains tax  for those in higher income brackets while exempting small  investors. He said the U.S. economy has been 'out of balance  for too long.'      'So the general principle of raising taxes on higher income  Americans, like myself, and providing relief to those who  haven't benefited as much from this new global economy, I  think, is a sound one,' Obama said.      But Obama, 46, said the tax increases he seeks would be  dependent on the economic situation he inherits from President  George W. Bush should he win the November election.      'Some of those you could possibly defer,' he said. 'But I  think the basic principle of restoring fairness to our economy  and encouraging bottom up economic growth is important.'      The differences on how to spur new growth in the sluggish  U.S. economy, at a time of rising unemployment, record-high  gasoline prices and a persistent housing crisis, represented a  key point of argument for the two candidates in their battle to  determine who wins the presidency.      Obama and other Democrats believe economic conditions,  including $4-a-gallon gasoline, will persuade many Americans to  vote for them in November. McCain wants to fight the election  on national security, which he considers his strength.           WOULD KEEP BUSH TAX CUTS      McCain, 71, vowed to maintain Bush's tax cuts, lower  corporate tax rates from 35 percent to 25 percent and allow  companies to expense new equipment and technology in their  first year.      He supported keeping capital gains taxes as they are now,  doubling a tax exemption for children, and phasing out the  'alternative minimum tax' which he said would save some 25  million middle-class families up to $2,000 in a year.      He said he could pay for the plan by cutting what he called  wasteful government spending. Democrats argue not enough cuts  could be made in the federal budget to pay for McCain's tax  cuts.     'He hasn't come remotely close to figuring out how to pay  for it,' Obama told reporters in St. Louis, where he traveled  to talk up his proposals on revamping the U.S. health care  system.      McCain was equally dismissive of Obama's economic plan.      'Under Senator Obama's tax plan, Americans of every  background would see their taxes rise -- seniors, parents,  small business owners and just about everyone who has even a  modest investment in the market,' McCain said.      Anti-Iraq war protesters interrupted McCain's speech a  handful of times, standing up and saying w",
+        "Histogram": [
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.5,
+            0.5,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 16.295785903930664,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "McCain in a speech in Washington accused Obama of seeking the single largest tax increase since World War Two while Obama, in a television interview, said he would increase taxes on the wealthy and on stock profits to pay for a middle-class tax cut of $1,000 a year.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'the single largest tax increase since World War Two' by McCain and 'increase taxes on the wealthy and on stock profits' by Obama employs word choice that carries negative connotations, influencing perceptions about the tax policies in question."
+                },
+                {
+                    "text": "'No matter which of us wins in November, there will be change in Washington. The question is what kind of change?' McCain told a conference for small businesses.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence uses a rhetorical question to imply a dramatic shift, suggesting that the nature of change is a critical and emotionally charged issue, which can influence the reader's perception of the candidates' platforms."
+                },
+                {
+                    "text": "Obama and other Democrats believe economic conditions, including $4-a-gallon gasoline, will persuade many Americans to vote for them in November. McCain wants to fight the election on national security, which he considers his strength.",
+                    "bias_type": "Political Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "This sentence subtly implies a strategic manipulation of voter concerns by Democrats, suggesting they exploit economic hardships for political gain, while portraying McCain's focus on national security as a principled stance."
+                },
+                {
+                    "text": "He supported keeping capital gains taxes as they are now, doubling a tax exemption for children, and phasing out the 'alternative minimum tax' which he said would save some 25 million middle-class families up to $2,000 in a year.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The phrase 'which he said would save' introduces an element of subjective interpretation, blurring the line between factual reporting and the candidate's perspective, thus reflecting an opinionated bias."
+                },
+                {
+                    "text": "He said he could pay for the plan by cutting what he called wasteful government spending. Democrats argue not enough cuts could be made in the federal budget to pay for McCain's tax cuts.",
+                    "bias_type": "False Dichotomy Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This statement presents the issue as a binary choice between accepting McCain's proposed cuts and the Democrats' skepticism, oversimplifying the complex budgetary considerations involved, and implying that there are no other possible solutions."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the discussion on tax policies, with instances of Word Choice Bias, Emotional Sensationalism Bias, Political Bias, Opinionated Bias, and False Dichotomy Bias, indicating a general bias tendency towards framing the tax proposals and their implications in a manner that could influence the reader's perception of the candidates' positions."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.58,
+            "percentage_of_biased_sentences": 0.2608695652173913,
+            "overall_rating": 0.4204347826086956
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Obama rips McCain for $5 million 'rich' definition",
+        "URL": "Obama rips McCain for $5 million 'rich' definition.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    ALBUQUERQUE, N.M., Aug. 18 (Reuters) - How much money makes  a person rich?      That's the latest question dividing Democrats and  Republicans in the U.S. presidential race.      Democratic presidential candidate Barack Obama ripped  Republican rival John McCain on Monday for joking during a  televised discussion on values that $5 million fit the  definition for being monetarily rich.      'I guess if you're making $3 million a year, you're middle  class,' Obama told a campaign event in New Mexico.      'That's reflected in ... his policies,' Obama said, adding  McCain would give a $500,000 tax credit to people making more  than $2.5 million.      McCain, who made the comment to evangelical pastor Rick  Warren on Saturday, caught himself immediately and said the  remark would likely be taken out of context.      The ailing U.S. economy and soaring energy prices have  become the top issue in the race for the White House.      (Reporting by Jeff Mason; Editing by Cynthia Osterman)      ((jeff.mason@thomsonreuters.com; Reuters Messaging:  jeff.mason.reuters.com@reuters.net))  Keywords: USA POLITICS/RICH       ",
+        "Histogram": [
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 15.74451732635498,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Democratic presidential candidate Barack Obama ripped Republican rival John McCain on Monday for joking during a televised discussion on values that $5 million fit the definition for being monetarily rich.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'ripped' to describe Obama's reaction to McCain's comment implies a strong, negative, and possibly aggressive response, suggesting a judgment about Obama's behavior rather than neutrally reporting the event."
+                },
+                {
+                    "text": "'I guess if you're making $3 million a year, you're middle class,' Obama told a campaign event in New Mexico.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This quote from Obama, particularly the use of 'I guess,' could be interpreted as downplaying the significance of earning $3 million a year, implying a judgment about what constitutes 'middle class' that may not be universally shared."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias through the use of word choice, particularly in the framing of Obama's response to McCain's comment on wealth, suggesting a tendency to portray the issue in a way that could influence the reader's perception of the candidates' positions."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.25,
+            "overall_rating": 0.425
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "ANALYSIS-US states eye income tax rises as rich pay less",
+        "URL": "ANALYSIS-US states eye income tax rises as rich pay less.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Joan Gralla      NEW YORK, Feb 25 (Reuters) - U.S. states, already battered  by the financial crisis, risk suffering a further hit to their  coffers when individuals file their income tax returns in  April.      Falling income tax receipts from wealthy individuals could  further gouge their already battered budgets, according to  state officials and financial analysts.      Raising income taxes, as California did just last week, may  fail to raise more tax dollars as the incomes of some wealthy  people are falling too precipitously.      Yet most U.S. states by law must balance their budgets. The  risk that their credit ratings will be cut if they borrow or  sell assets, from hospitals to water systems, to close deficits  may force states into difficult spending cuts.      Congress hoped to stave off job-killing spending cuts by  the states by including $150 billion in its new economic  stimulus plan for them. But states face a total of $311 billion  of deficits in the next two years and can only use about $8  billion of the new federal aid to fill in budget holes.      Rich individuals who pay state income taxes cut their  estimated payments in January, which means their final bills  due in April likely will be smaller than expected. These  taxpayers, typically the self-employed, who are paid bonuses or  reap capital gains, may even be owed refunds.      California, New York, Connecticut, New Jersey,  Massachusetts, Virginia, and Maryland, which all rely heavily  on income taxes paid by well-to-do residents, saw these tax  revenues plunge 15 percent to 30 percent. The main culprit was   the fall in the stock market, officials said.      The federal government faces the same problem. The top 5  percent of U.S. taxpayers paid nearly 44 percent of all income  taxes in 2005, according to the Congressional Budget Office.      The drop in Maryland's revenues is particularly troubling  because it increased millionaires' income tax rates in 2008,  noted David Roose, director of Maryland's Bureau of Revenue  Estimates. The levy rose to 6.25 percent from 4.75 percent.      Democratic President Barack Obama deficit-cutting plan  includes letting Republican President George W. Bush's tax cuts  expire in 2011, which will push the top rate above 39 percent.  But by then the economy could have rebounded. In contrast, some  states, including New York, might raise millionaires taxes  now.      Advocates of such a move note that on an historical basis  the highest U.S. tax rate at 35 percent is just about one-third  of the 94 percent rate paid by wealthy individuals in the last  two years of World War Two.      Foes of wringing more income tax dollars out of wealthy  people say this will prolong the recession.      For example, Kenneth Adams, chairman of The Business  Council, says New York should cut spending more deeply instead  of adding two percentage points to push the top rate to 10.3  percent, as some Democratic lawmakers proposed.      'The massive increase in the personal income tax...would  devastate New York's economy and undermine our chances for  recovery from this deep recession,' he said.      Joel Slemrod, a University of Michigan economics professor,  said state tax increases or budget reductions could thwart the  national economic stimulus plan.      'I think either way, cutting spending or raising taxes, is  the opposite of what we want to stimulate the economy.'        A recent JPMorgan Chase report demonstrated just how much ",
+        "Histogram": [
+            0,
+            0,
+            0.7,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0.7,
+            0.7,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.7,
+            0,
+            0.9,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 15.352666854858398,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Raising income taxes, as California did just last week, may fail to raise more tax dollars as the incomes of some wealthy people are falling too precipitously.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.7,
+                    "bias_description": "This sentence assumes a direct cause-and-effect relationship between raising income taxes and the inability to raise more tax dollars due to falling incomes, without considering other factors that could influence tax revenue."
+                },
+                {
+                    "text": "Rich individuals who pay state income taxes cut their estimated payments in January, which means their final bills due in April likely will be smaller than expected. These taxpayers, typically the self-employed, who are paid bonuses or reap capital gains, may even be owed refunds.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'rich individuals' and the focus on their tax situation with phrases like 'may even be owed refunds' could imply a judgment about the financial status of these taxpayers, influencing the reader's perception."
+                },
+                {
+                    "text": "The drop in Maryland's revenues is particularly troubling because it increased millionaires' income tax rates in 2008, noted David Roose, director of Maryland's Bureau of Revenue Estimates. The levy rose to 6.25 percent from 4.75 percent.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.7,
+                    "bias_description": "This sentence implies a direct negative consequence (the drop in revenues) as a result of increasing millionaires' income tax rates, suggesting a causal relationship without exploring other potential reasons for the revenue decline."
+                },
+                {
+                    "text": "Democratic President Barack Obama deficit-cutting plan includes letting Republican President George W. Bush's tax cuts expire in 2011, which will push the top rate above 39 percent. But by then the economy could have rebounded. In contrast, some states, including New York, might raise millionaires taxes now.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The speculation about the economy rebounding by a specific time and the potential effects of tax policy changes in different states introduces conjecture without concrete evidence, influencing the reader's perception of the future outcomes."
+                },
+                {
+                    "text": "Advocates of such a move note that on an historical basis the highest U.S. tax rate at 35 percent is just about one-third of the 94 percent rate paid by wealthy individuals in the last two years of World War Two.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'advocates' and the historical comparison of tax rates with evocative language like 'just about one-third' and '94 percent rate' could be aimed at influencing the reader's opinion through the selection of specific words and historical context."
+                },
+                {
+                    "text": "Foes of wringing more income tax dollars out of wealthy people say this will prolong the recession.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.7,
+                    "bias_description": "This sentence suggests a direct cause-and-effect relationship between taxing wealthy individuals and economic recession, attributing the recession's length to tax policy without considering the complexity of economic factors."
+                },
+                {
+                    "text": "'The massive increase in the personal income tax...would devastate New York's economy and undermine our chances for recovery from this deep recession,' he said.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "The use of 'massive increase' and 'devastate' employs emotionally charged language designed to evoke a strong response, overshadowing a more balanced discussion on the potential economic impacts of tax policy changes."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the discussion of income tax policies, particularly in the context of taxing wealthy individuals. The biases identified include Causal Misunderstanding, Word Choice, Speculation, and Emotional Sensationalism, indicating a tendency to influence the reader's perception through the presentation of selective information, speculative outcomes, and emotionally charged language."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6857142857142857,
+            "percentage_of_biased_sentences": 0.24,
+            "overall_rating": 0.46285714285714286
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "McCain wants low corporate taxes, regulate CEO pay",
+        "URL": "McCain wants low corporate taxes, regulate CEO pay.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WASHINGTON, June 10 (Reuters) - Republican White House  candidate John McCain will promise on Tuesday to lower  corporate tax rates if he wins the U.S. presidency and ease the  tax burden on middle-class workers to help revive the faltering  economy.      The Arizona senator who has wrapped up his party's  presidential nomination, also said he would propose a simpler,  alternative tax system and insist that chief executives' pay  and severance packages have shareholder approval.      'No matter which of us wins in November, there will be  change in Washington. The question is what kind of change?'  McCain will tell a conference for small businesses, referring  to his Democratic opponent, Sen. Barack Obama of Illinois.      'Will we enact the single largest tax increase since the  Second World War as my opponent proposes, or will we keep taxes  low for families and employers?' he will say, according to  excerpts released before his speech.      McCain will pledge to act quickly to lower corporate taxes  from 'the second highest in the world to one on par with our  trading partners to keep businesses and jobs in this country.'      He will also propose a law to allow companies to expense  new equipment and technology in their first year.      He supports keeping capital gains taxes low, doubling a tax  exemption for children, and phasing out the 'alternative  minimum tax' which he said would save some 25 million  middle-class families up to $2,000 in a year.      McCain criticized Obama for wanting to increase dividend  and capital gains taxes and aiming to raise the minimum wage  and link it to an index.      But the Republican also takes aim at top corporate  executives with big salaries and excessive severance packages.      'Under my reforms, all aspects of a CEO's pay, including  any severance arrangements, must be approved by shareholders,'  he will say.   (Reporting by Jeff Mason, editing by Chris Wilson)   ((jeff.mason@thomsonreuters.com; Reuters Messaging:  jeff.mason.reuters.com@reuters.net))       Keywords: USA POLITICS/MCCAIN       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0
+        ],
+        "Relevance": 15.222254753112793,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "McCain criticized Obama for wanting to increase dividend and capital gains taxes and aiming to raise the minimum wage and link it to an index.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The sentence uses the word 'criticized' to negatively frame Obama's proposed policies, implying judgment and suggesting that these proposals are inherently negative without presenting a balanced view."
+                },
+                {
+                    "text": "But the Republican also takes aim at top corporate executives with big salaries and excessive severance packages.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The phrase 'takes aim at' suggests a confrontational or aggressive stance towards corporate executives, using a negative connotation that implies a one-sided or hostile approach."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias through the use of word choice, particularly in framing policy criticisms and approaches towards corporate executives. The general bias tendency leans towards portraying certain policy proposals and positions in a negative light, particularly those associated with the Democratic party and corporate leadership."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.07142857142857142,
+            "overall_rating": 0.3357142857142857
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Obama: Could cut corporate tax if loopholes closed",
+        "URL": "Obama: Could cut corporate tax if loopholes closed.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WASHINGTON, Feb 23 (Reuters) - U.S. President Barack Obama  said it would be possible to lower the rate on corporate taxes  if the many loopholes in the tax code were closed.      'If you closed loopholes you could actually lower rates.  That's an area where there should be the potential for some  bipartisan agreement,' Obama said at a White House 'Fiscal  Responsibility Summit.'     (Reporting by Caren Bohan; Editing by Sandra Maler)    ((caren.bohan@thomsonreuters.com; +1 202 898 8300))  Keywords: OBAMA/BUDGET TAXES        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 15.017316818237305,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it simply reports a statement made by U.S. President Barack Obama regarding the possibility of lowering corporate taxes by closing loopholes in the tax code."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Study says most corporations pay no US income taxes",
+        "URL": "Study says most corporations pay no US income taxes.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WASHINGTON, Aug 12 (Reuters) - Most U.S. and foreign  corporations doing business in the United States avoid paying  any federal income taxes, despite trillions of dollars worth of  sales, a government study released on Tuesday said.      The Government Accountability Office said 72 percent of all  foreign corporations and about 57 percent of U.S. companies  doing business in the United States paid no federal income  taxes for at least one year between 1998 and 2005.      More than half of foreign companies and about 42 percent of  U.S. companies paid no U.S. income taxes for two or more years  in that period, the report said.      During that time corporate sales in the United States  totaled $2.5 trillion, according to Democratic Sens. Carl Levin  of Michigan and Byron Dorgan of North Dakota, who requested the  GAO study.      The report did not name any companies. The GAO said  corporations escaped paying federal income taxes for a variety  of reasons including operating losses, tax credits and an  ability to use transactions within the company to shift income  to low tax countries.      With the U.S. budget deficit this year running close to the  record $413 billion that was set in 2004 and projected to hit a  record $486 billion next year, lawmakers are looking to plug  holes in the U.S. tax code and generate more revenues.      Dorgan in a statement called the report 'a shocking  indictment of the current tax system.' Levin said it made clear  that 'too many corporations are using tax trickery to send  their profits overseas and avoid paying their fair share in the  United States.'      The study showed about 28 percent of large foreign  corporations, those with more than $250 million in assets,  doing business in the United States paid no federal income  taxes in 2005 despite $372 billion in gross receipts, the  senators said. About 25 percent of the largest U.S. companies  paid no federal income taxes in 2005 despite $1.1 trillion in  gross sales that year, they said.    (Reporting by Donna Smith, Editing by David Wiessler)    ((Donna.M.Smith@ThomsonReuters.com;Reuters Messaging:  donna.smith.reuters.com@reuters.net))  Keywords: USA TAXES/CORPORATIONS       ",
+        "Histogram": [
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.9,
+            0.9,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 14.994955062866211,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "The Government Accountability Office said 72 percent of all foreign corporations and about 57 percent of U.S. companies doing business in the United States paid no federal income taxes for at least one year between 1998 and 2005.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'avoid' in the context of tax payment implies a deliberate and possibly unethical action by the corporations, suggesting a negative judgment without providing evidence of intent."
+                },
+                {
+                    "text": "More than half of foreign companies and about 42 percent of U.S. companies paid no U.S. income taxes for two or more years in that period, the report said.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The repetition of 'paid no' without further context or exploration of the reasons behind these tax payment patterns implies a judgment of wrongdoing on the part of the companies."
+                },
+                {
+                    "text": "Dorgan in a statement called the report 'a shocking indictment of the current tax system.' Levin said it made clear that 'too many corporations are using tax trickery to send their profits overseas and avoid paying their fair share in the United States.'",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "The use of emotionally charged language such as 'shocking indictment' and 'tax trickery' to describe the actions of corporations introduces a strong negative bias, suggesting unethical behavior without a balanced examination of the complexities of the tax system."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the tax practices of corporations in the United States, particularly through the use of word choice that implies unethical behavior and a lack of context to fully understand the reasons behind the tax payment patterns. The general bias tendency leans towards portraying corporations in a negative light regarding their tax obligations."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.7000000000000001,
+            "percentage_of_biased_sentences": 0.23076923076923078,
+            "overall_rating": 0.4653846153846154
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "NY Gov says legislature won't hike income taxes now",
+        "URL": "NY Gov says legislature won't hike income taxes now.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    NEW YORK, Nov 12 (Reuters) - New York Gov David Paterson on  Wednesday unveiled his plan to clip yawning deficits spawned by  Wall Street's dismal performance by reducing spending, adding  legislative leaders had agreed not to increase personal income  taxes in next week's special session.      Next year's deficit will swell to $8.8 billion if $5.2  billion of cuts are made that start this year and carry into  the following year, the Democrat said at a news conference.      (Reporting by Joan Gralla in New York; Editing by Chizu  Nomiyama)   ((joan.gralla@thomsonreuters.com +1-646-223-6345; Reuters  Messaging: joan.gralla.reuters.com@reuters.net ))  Keywords: NEWYORKSTATE BUDGET/        ",
+        "Histogram": [
+            0,
+            0,
+            0
+        ],
+        "Relevance": 14.708069801330566,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports on the actions and statements of New York Gov David Paterson regarding the state's budget deficit and tax policies without introducing any subjective or misleading information."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "INTERVIEW-Obama supports trade deals, taxes on oil firms",
+        "URL": "INTERVIEW-Obama supports trade deals, taxes on oil firms.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    EDINBURG, Texas, Feb 22 (Reuters) - Democratic presidential  frontrunner Barack Obama supports multi-lateral trade deals,  does not view himself as 'protectionist,' and does not believe   the overall corporate tax rate should rise, one of his top  economic advisers said.      However, Austan Goolsbee, a key economic official in the  Illinois senator's inner circle, told Reuters in an interview  that he believed Obama does want oil and gas companies and  private equity firms to pay higher taxes.   (Reporting by Jeff Mason, editing by Sandra Maler)   ((jeff.mason@reuters.com; Reuters Messaging:  jeff.mason.reuters.com@reuters.net, 1 202 898 8300))  Keywords: USA/POLITICS/OBAMA ECONOMY        ",
+        "Histogram": [
+            0,
+            0,
+            0
+        ],
+        "Relevance": 14.674859046936035,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it presents factual information about Barack Obama's economic policies without using language or framing that indicates a particular bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "NY's Paterson: He and Spitzer vowed not to hike taxes",
+        "URL": "NY's Paterson: He and Spitzer vowed not to hike taxes.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    NEW YORK, March 13 (Reuters) - New York's incoming  Democratic governor, Lt. Governor David Paterson, said on  Thursday he and Gov. Eliot Spitzer promised not to raise the  state's personal income taxes when they ran for office in  2006.      Speaking at his first news conference since Spitzer  announced his resignation on Wednesday, Paterson said: 'Gov.  Spitzer made a promise to the public that both he and I  believed we don't want to raise the personal income tax.'      The Democratic-led Assembly has proposed raising $1.5  billion by increasing personal income taxes for the 70,000  millionaires who work in New York. Spitzer rejected the plan.      'We are looking at a recession, and I think the stock  market's in flux, our major investment houses are under siege,  our banks are in a sense borrowing from other countries. We  have a huge economic problem in this country,' said Paterson,  who takes office on Monday.      He added: 'I don't know when that will become an issue, but  I'm hoping that it won't be in the near future.'   (Reporting by Joan Gralla; Editing by Dan Grebler)   ((joan.gralla@reuters.com;+1 646-223-6345; Reuters Messaging;   joan.gralla.reuters.com@reuters.net))  Keywords: NEWYORK PATERSON/TAXES        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 14.642422676086426,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "The Democratic-led Assembly has proposed raising $1.5 billion by increasing personal income taxes for the 70,000 millionaires who work in New York. Spitzer rejected the plan.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the term 'millionaires' with a focus on their number and location in New York carries a negative connotation, implying a judgment about a specific group's wealth and suggesting they are a target for taxation due to their status."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits a Word Choice Bias regarding tax proposals in New York, implying a negative judgment towards a specific group based on their wealth and suggesting they are unfairly targeted for taxation."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.18181818181818182,
+            "overall_rating": 0.3909090909090909
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "RPT-INTERVIEW-Obama supports trade deals, taxes on oil firms",
+        "URL": "RPT-INTERVIEW-Obama supports trade deals, taxes on oil firms.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Jeff Mason      EDINBURG, Texas, Feb 22 (Reuters) - Democratic presidential  frontrunner Barack Obama supports multi-lateral trade deals,  does not view himself as 'protectionist' and does not believe  the overall corporate tax rate should rise, one of his top  economic advisers said.      However, Austan Goolsbee, a key economic official in the  Illinois senator's inner circle, told Reuters that he believed  Obama does want oil and gas companies and private equity firms  to pay higher taxes.      'As an overall matter do corporate rates need to go up?  No,' Goolsbee said in an interview on Thursday.      'There are many corporations for whom he does think they  need to go up,' Goolsbee added. 'When he says we need to close  all the loopholes for the oil and gas industry, he is saying  their corporate taxes need to go up. They're not paying their  fair share.'      As Obama takes a commanding lead over New York Sen. Hillary  Clinton in the race for the Democratic nomination, investors  are hungry for a clearer picture of how the first-term senator  would alter U.S. financial policies if he wins the White  House.      Goolsbee, an economics professor at the University of  Chicago Graduate School of Business, sketched out Obama's  positions and sought to assuage concerns on Wall Street that he  would be less open to global trade than President George W.  Bush.      'I don't think he views himself as a protectionist,'  Goolsbee said. He said Obama favored expanding access to global  markets through trade deals such as the World Trade  Organization's Doha round so long as labor and environmental  standards were in place.      Obama has won labor support for his criticisms of the North  American Free Trade Agreement, NAFTA, which he says he wants to  amend.      Goolsbee criticized the Bush administration for not  enforcing existing trade agreements and bringing too few cases  before for the WTO. Such cases would likely rise significantly  in an Obama administration, he indicated. China, he said, was  one example where a host of violations had been overlooked.      The senator is also 'very concerned' about the country's  current account deficit with China and other nations.      'We have major imbalances with many parts of the world,' he  said. 'This is naturally what happens when you're running huge  deficits and the country doesn't have a lot of savings. You  have to borrow the money from abroad. He's very concerned about  that.'           THE FED, ECONOMY AND TAXES      Obama's plan to address the situation is based largely on  getting people to save. He has proposed an automatic saving  mechanism so that workers put money into a retirement account  on a regular basis, unless they opt out.      Both Obama and Clinton have emphasized their economic  proposal as voters worry about a potential recession.      But Goolsbee declined to comment on the performance of one  of the economy's key stewards, the U.S. Federal Reserve, and  its chairman, Ben Bernanke.      'The Fed's independent for good reason and it's not the  place of presidential candidates or the president to...evaluate  how they think the head of the Fed is doing,' Goolsbee said.       He expressed sympathy for the central bank's job -- and  personal praise for its leader. 'It's a tough position for it  to be in the middle of all this credit turmoil,' he said.  'Bernanke himself is a good guy. I know him as an academic.  He's a very nice guy.'      On taxes, Goolsbee said ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 14.429683685302734,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily focuses on presenting the economic policies and positions of Barack Obama and his adviser, Austan Goolsbee, without using language or framing that would indicate a bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "UPDATE 1-McCain wants low corporate taxes, regulated CEO pay",
+        "URL": "UPDATE 1-McCain wants low corporate taxes, regulated CEO pay.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "  (Adds quotes, background)      By Jeff Mason      WASHINGTON, June 10 (Reuters) - Republican White House  candidate John McCain will promise on Tuesday to lower  corporate tax rates if he wins the U.S. presidency and ease the  tax burden on middle-class workers to help revive the faltering  economy.      The Arizona senator, who has wrapped up his party's  presidential nomination, also would propose a simpler,  alternative tax system and insist that chief executives' pay  and severance packages have shareholder approval.      'No matter which of us wins in November, there will be  change in Washington. The question is what kind of change?'  McCain will tell a conference for small businesses, referring  to his Democratic opponent, Sen. Barack Obama of Illinois.      'Will we enact the single largest tax increase since the  Second World War as my opponent proposes, or will we keep taxes  low for families and employers?' he will say, according to  excerpts released before his speech.      McCain will pledge to act quickly to lower corporate taxes  from 'the second highest in the world to one on par with our  trading partners to keep businesses and jobs in this country.'      He will propose a law to allow companies to expense new  equipment and technology in their first year.      He supports keeping capital gains taxes low, doubling a tax  exemption for children, and phasing out the 'alternative  minimum tax' which he said would save some 25 million  middle-class families up to $2,000 in a year.      On Monday Obama drew a sharp contrast with McCain, his  opponent in the November election, accusing him of wanting to  widen President George W. Bush's tax cuts and plunge the United  States deeper into debt.      He charged that McCain's support for extending Bush's tax  cuts would allow $2 trillion in corporate tax breaks.      U.S. taxes were too complicated overhaul, McCain will say  in his speech, in which he will argue for an alternative  system.      'As president, I will propose an alternative tax system.   When this reform is enacted, all who wish to file under the  current system could still do so,' he will say.      'Everyone else could choose a vastly less complicated  system with two tax rates and a generous standard deduction.'      McCain criticizes Obama for wanting to increase dividend  and capital gains taxes and aiming to raise the minimum wage  and link it to an index.      But he also takes aim at top corporate executives with big  salaries and excessive severance packages.      'Americans are right to be offended when the extravagant  salaries and severance deals of CEOs ... bear no relation to  the success of the company or the wishes of shareholders,' he  will say, adding that some of those chief executives helped  bring on the country's housing crisis and market troubles.      'If I am elected president, I intend to see that wrongdoing  of this kind is called to account by federal prosecutors. And  under my reforms, all aspects of a CEO's pay, including any  severance arrangements, must be approved by shareholders,' he  will say.   (Editing by Chris Wilson)   ((jeff.mason@thomsonreuters.com; Reuters Messaging:  jeff.mason.reuters.com@reuters.net))       Keywords: USA POLITICS/MCCAIN        ",
+        "Histogram": [
+            0,
+            0,
+            0.5,
+            0.5,
+            0.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.5,
+            0.6,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 14.386676788330078,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "'No matter which of us wins in November, there will be change in Washington. The question is what kind of change?' McCain will tell a conference for small businesses, referring to his Democratic opponent, Sen. Barack Obama of Illinois.",
+                    "bias_type": "Political Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "This sentence shows a political bias by framing the upcoming election as a choice between different kinds of change, implicitly suggesting that McCain's proposed changes are more favorable than those of his opponent."
+                },
+                {
+                    "text": "On Monday Obama drew a sharp contrast with McCain, his opponent in the November election, accusing him of wanting to widen President George W. Bush's tax cuts and plunge the United States deeper into debt.",
+                    "bias_type": "Political Bias",
+                    "bias_strength": 0.8,
+                    "bias_description": "This sentence exhibits political bias by using charged language ('plunge the United States deeper into debt') to criticize McCain's tax policies, implying a negative outcome without a balanced discussion of the potential effects."
+                },
+                {
+                    "text": "McCain criticizes Obama for wanting to increase dividend and capital gains taxes and aiming to raise the minimum wage and link it to an index.",
+                    "bias_type": "Political Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "This sentence demonstrates political bias by highlighting McCain's criticism of Obama's tax and wage policies, suggesting through the choice of information that McCain's perspective is more reasonable or favorable."
+                },
+                {
+                    "text": "But he also takes aim at top corporate executives with big salaries and excessive severance packages.",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence exhibits ad hominem bias by singling out corporate executives for their high salaries and severance packages, implying moral judgment and targeting their personal attributes rather than focusing on the broader economic or policy implications."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article is biased regarding the political positions and criticisms of John McCain and Barack Obama, with a tendency to frame McCain's proposals and criticisms in a more favorable or reasonable light compared to Obama's, particularly in the context of tax and wage policies."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.13636363636363635,
+            "overall_rating": 0.36818181818181817
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "NYC should hike income tax for wealthy-Council Spkr",
+        "URL": "NYC should hike income tax for wealthy-Council Spkr.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    NEW YORK, Feb 11 (Reuters) - New York City should overhaul  its income taxes with three new higher brackets for the wealthy  while abolishing income taxes for poor and working-class  families, according to a speech the Democratic City Council  speaker will make on Thursday.      That would raise $1 billion and enable the city to avoid  raising sales taxes, said the speech by Speaker Christine  Quinn. Everyone who earns more than $90,000 currently pays the  same income tax rate.      'It's shameful -- Bernie Madoff pays the exact same tax  rate as a public school principal,' she said.      If Mayor Michael Bloomberg approved the new rates, incomes  of $297,000 to $532,000 would be taxed at 4.25 percent, up from  3.683 percent. Taxpayers who earn $532,000 to $1.2 million  would pay 4.45 percent; above $1.2 million the rate would rise  to 4.65 percent.      (Reporting by Joan Gralla)   ((joan.gralla@thomsonreuters.com; Tel: +1-646-223-6345;  Reuters Messaging: joan.gralla.reuters.com@reuters.net))  Keywords: NEWYORKCITY TAXES/        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 14.368754386901855,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "It's shameful -- Bernie Madoff pays the exact same tax rate as a public school principal,' she said.",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence attacks the fairness of the tax system by comparing the tax rates of a notorious criminal (Bernie Madoff) with those of a public school principal, using their characters to argue for tax policy change."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article contains one instance of Ad Hominem Bias, specifically targeting the fairness of the tax system, suggesting a bias towards advocating for tax policy change to address perceived inequalities."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.14285714285714285,
+            "overall_rating": 0.37142857142857144
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "UPDATE 1-Obama: Can cut corporate tax if loopholes closed",
+        "URL": "UPDATE 1-Obama: Can cut corporate tax if loopholes closed.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WASHINGTON, Feb 23 (Reuters) - U.S. President Barack Obama  said it would be possible to lower the rate on corporate taxes  if the many loopholes in the tax code were closed.      'If you closed loopholes you could actually lower rates.  That's an area where there should be the potential for some  bipartisan agreement,' Obama said at a White House 'Fiscal  Responsibility Summit.'      He said that the tax rate 'on the books' was high in the  United States.      But Obama added, 'In practice, depending on who it is --  what kind of accountant you can hire -- they're not so high.  That's an area we can work on,' Obama added.     (Reporting by Caren Bohan; Editing by Sandra Maler)    ((caren.bohan@thomsonreuters.com; +1 202 898 8300))  Keywords: OBAMA/BUDGET TAXES        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 14.23888111114502,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a straightforward report on President Obama's statements regarding the possibility of lowering corporate taxes by closing loopholes in the tax code."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Obama may delay high-income tax-cut repeal-aide",
+        "URL": "Obama may delay high-income tax-cut repeal-aide.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WASHINGTON, Nov 23 (Reuters) - U.S. President-elect Barack  Obama may consider delaying an election promise - to roll back   tax cuts on high-income Americans - as part of his economic  recovery strategy, a senior aide and an adviser said on  Sunday.      David Axelrod, one of Obama's closest confidants chosen to  be a senior White House adviser, was asked if the tax cut could  be ended later than Obama called for during the campaign.  'Considerations will be made,' he said on 'Fox News Sunday.'      (Reporting by Randall Mikkelsen; Editing by Doina Chiacu)   ((randall.mikkelsen@thomsonreuters.com; +1 202 898 8300;  Reuters Messaging: randall.mikkelsen.reuters.com@reuters.net))  Keywords: USA OBAMA/TAXES        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 14.205392837524414,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a straightforward report on a potential decision by President-elect Barack Obama regarding high-income tax-cut repeal, without introducing any subjective or misleading information."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    }
+]

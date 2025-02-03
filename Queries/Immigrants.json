@@ -1,0 +1,809 @@
+[
+    {
+        "Title": "Canada welfare system seen letting down immigrants",
+        "URL": "Canada welfare system seen letting down immigrants.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Natalie Armstrong      TORONTO, Jan 9 (Reuters Life!) - Well-educated immigrants  earn less money after they leave the welfare system than do  less-educated native-born Canadians, new research says.      And, it says, the earnings gap widens quickly with time.      'The disadvantage that immigrants faced got worse after  they went through a welfare-to-work program,' Ernie Lightman,  an economist at the University of Toronto and co-author of the  study published in the Social Policy and Society journal.      '(Immigrants will) go from one dead-end job to another,  it's as if there's a ceiling that they just can't break  through.'      The study, based on a 2001 telephone poll of 800 people in  Toronto who left Ontario's provincial welfare system, found  that 74 percent of native-born Canadians made more than C$10  ($9.90) an hour, compared with 58 percent of immigrants.      Meanwhile, the study said immigrants overall tended to be  better educated than native-born Canadians. More than one-third  of the immigrants polled had post-secondary education or  greater, compared with 20 percent of native-born Canadians.      The poll found a C$2.52 hourly wage gap between immigrants,  who made C$11.96, compared to native-born Canadians, who made  C$14.48.      When native-born Canadians moved on to their second job,  they reported a 44 percent wage increase while immigrants'  wages grew only by 3.2 percent.      Lightman said that native-born Canadians were generally  better off once they moved on to their second job after leaving  welfare, compared with immigrants doing the same.      'There was essentially no step up, they just make a lateral  shift from one appalling job to another,' Lightman said, adding  new welfare-to-work programs are needed specifically targeted  at immigrants.      'It doesn't help them break out of the cycle of  dependency.... We need to look more specifically at what the  labor-market needs of immigrants are, and we don't do that.'      ($1=$1.01 Canadian)   (Editing by Rob Wilson)   ((natalie.armstrong@reuters.com; 416.941.8180; Reuters  Messaging: @reuters.net;))  Keywords: CANADA IMMIGRANTS/       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0.7,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.9,
+            0,
+            0
+        ],
+        "Relevance": 10.704673767089844,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "The disadvantage that immigrants faced got worse after they went through a welfare-to-work program,' Ernie Lightman, an economist at the University of Toronto and co-author of the study published in the Social Policy and Society journal.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.7,
+                    "bias_description": "This sentence implies a direct cause-and-effect relationship between immigrants going through a welfare-to-work program and their worsening disadvantage, without considering other factors that could contribute to this outcome."
+                },
+                {
+                    "text": "'(Immigrants will) go from one dead-end job to another, it's as if there's a ceiling that they just can't break through.'",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of emotionally charged language like 'dead-end job' and 'ceiling that they just can't break through' is designed to evoke a strong emotional response, potentially at the expense of a more balanced or neutral portrayal of the situation."
+                },
+                {
+                    "text": "Lightman said that native-born Canadians were generally better off once they moved on to their second job after leaving welfare, compared with immigrants doing the same.",
+                    "bias_type": "Comparison Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence sets up a comparison between native-born Canadians and immigrants in a way that suggests a systemic disadvantage for immigrants, without exploring the complexities of the labor market or other potential contributing factors."
+                },
+                {
+                    "text": "'There was essentially no step up, they just make a lateral shift from one appalling job to another,' Lightman said, adding new welfare-to-work programs are needed specifically targeted at immigrants.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "The use of subjective language such as 'appalling job' and the assertion that new welfare-to-work programs are 'needed specifically targeted at immigrants' reflects a strong personal opinion that is presented as a necessary solution without a balanced examination of the issue."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the treatment of immigrants in Canada's welfare system, particularly in the way it presents the challenges and outcomes for immigrants compared to native-born Canadians. The biases identified include Causal Misunderstanding, Emotional Sensationalism, Comparison, and Opinionated Bias, indicating a tendency to frame the issue in a way that may not fully consider all relevant factors or perspectives."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.7,
+            "percentage_of_biased_sentences": 0.2857142857142857,
+            "overall_rating": 0.4928571428571428
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Italy police scuffle with barricaded immigrants",
+        "URL": "Italy police scuffle with barricaded immigrants.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    NAPLES, July 28 (Reuters) - Italian police scuffled with  tens of homeless African immigrants who had barricaded  themselves in Naples's main cathedral on Monday, police said.      The scuffles occurred when police tried to carry out  identity checks of the immigrants, who were staging a sit-in  inside the cathedral after a fire razed the building they were  living in last week.      They accuse authorities of finding new homes for Italians  living in the building while turning a blind eye to them.      Union officials and others supporting the immigrants said  police charged the protesters, but police denied it, saying  there were only moments of 'contact.'      Two immigrants out of the roughly 50 protesting were  detained, police said.      A Naples city official criticised police for 'assaulting and  wildly pounding' peaceful protesters while the Cgil union called  it 'premeditated and violent aggression against the poor and  desperate.'      The incident comes a few days after Italy's government  declared a national emergency on illegal immigration, sparking  an uproar from leftists and other critics who accuse it of  exaggerating the situation and stoking fear and racism.   (Reporting by Laura Viggiano, writing by Deepa Babington;  Editing by Jon Boyle)   ((deepa.babington@reuters.com; + 39 06 8522 4369; Reuters  Messaging: deepa.babington.reuters.com@reuters.net))    Keywords: ITALY IMMIGRANTS/       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0.6,
+            0.8,
+            0
+        ],
+        "Relevance": 10.485738754272461,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Union officials and others supporting the immigrants said police charged the protesters, but police denied it, saying there were only moments of 'contact.'",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'contact' by the police to describe the interaction with the protesters implies a minimizing of the physical force used, potentially downplaying the severity of the situation. This choice of word can influence the reader's perception of the event."
+                },
+                {
+                    "text": "A Naples city official criticised police for 'assaulting and wildly pounding' peaceful protesters while the Cgil union called it 'premeditated and violent aggression against the poor and desperate.'",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The language used by the city official and the Cgil union employs emotionally charged and provocative terms such as 'assaulting,' 'wildly pounding,' and 'premeditated and violent aggression' to describe the police's actions. This choice of language is designed to evoke a strong emotional response from the reader, potentially skewing their perception of the event."
+                },
+                {
+                    "text": "The incident comes a few days after Italy's government declared a national emergency on illegal immigration, sparking an uproar from leftists and other critics who accuse it of exaggerating the situation and stoking fear and racism.",
+                    "bias_type": "Political Bias",
+                    "bias_strength": 0.8,
+                    "bias_description": "This sentence exhibits political bias by framing the government's declaration of a national emergency on illegal immigration as controversial and criticized by 'leftists and other critics' for 'exaggerating the situation and stoking fear and racism.' The use of language suggests a negative portrayal of the government's actions, implying they are unjustified and politically motivated to evoke fear and discrimination."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article is biased regarding the treatment of immigrants in Italy, with a general bias tendency towards portraying the police's actions in a negative light through the use of word choice, emotional sensationalism, and political bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6666666666666666,
+            "percentage_of_biased_sentences": 0.375,
+            "overall_rating": 0.5208333333333333
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "US to step up deportation of jailed immigrants",
+        "URL": "US to step up deportation of jailed immigrants.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WASHINGTON, Jan 14 (Reuters) - The United States expects to  deport more than 200,000 immigrants this year who are serving  time in prisons and jails across the country, the top U.S.  immigration enforcement official said.      The move to speed the deportation of foreign-born criminals  aims to help federal and state prisons reduce the costs of  housing immigrants, Julie Myers, head of the U.S. Immigration  and Customs Enforcement agency, told The New York Times.      Illegal immigration has emerged as one of the most  passionate in the campaign for the 2008 U.S. presidential  election.      In 2007, ICE brought formal immigration charges against  164,000 immigrants who are behind bars nationwide, the Times  reported on Tuesday.      Many of those immigrants are slated for deportation this  year, she told the newspaper.      The Times said in 2006, the agency identified 64,000  immigrants behind bars, most of whom were deported.      Myers said in the past year, federal agents have stepped up  efforts to find immigrants behind bars and complete immigration  proceedings so they could be deported directly from prison  without being released into the streets, Myers said.      Foreigners behind bars include large numbers of immigrants  who were legal residents, but lost their legal status as a  result of being convicted of crimes, Myers told the Times.      In 2007, ICE sent 276,912 immigrants to their home  countries, including many who had never been arrested for  crimes, but were deported for civil immigration violations, The  New York Times reported.      The newspaper said Myers also confirmed that ICE adopted a  new policy last week requiring a court order for medical staff  members to give sedation drugs to immigrants being deported.    (Writing by Joanne Allen, editing by Doina Chiacu)      ((joanne.allen@.reuters.com; +1 202 898 8300; Reuters  Messaging: joanne.allen.reuters.com@reuters.net))  Keywords: USA IMMIGRATION/DEPORTATIONS       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 10.331799507141113,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to contain biased sentences. It provides factual information about the United States' plan to deport immigrants who are serving time in prisons and jails, discussing the reasons behind the decision and the actions taken by the U.S. Immigration and Customs Enforcement agency."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Wave of illegal immigrants hits Italian shores",
+        "URL": "Wave of illegal immigrants hits Italian shores.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    ROME, July 31 (Reuters) - About 800 illegal immigrants  landed in Southern Italy on Thursday, with emergency services  warning that already crowded holding centres are near collapse  in a country that has declared an immigration emergency.      Early on Thursday about 400 immigrants on a 17-metre  (55-foot) boat, which was listing dangerously, were guided by  Italian coastguard officers into the port of Lampedusa, a small  island south of the Italian mainland.      Four smaller boats were later intercepted at sea off the  island and 400 more immigrants were brought into port by  coastguards.      Most of the arrivals, who included women and children,  appeared to be of African origin. Many were not wearing shoes as  they had been told to remove them on boarding the boats before  departure, most probably on the Libyan coast.      The local holding centre in Lampedusa is already housing  some 700 illegal immigrants who arrived in the last few days and  is close to its capacity of 1,500 people.      Italy's centre-right government is cracking down on illegal  immigration, with tough new laws aimed at making it easier to  expel them and imposing tougher sentences on those committing  crimes. Last Friday it declared a state of emergency over the  influx of immigrants arriving on Italy's long shoreline.      (Reporting by Eleanor Biles; writing by Olivia Scarlett;  editing by Robert Hart)      ((stephen.brown@reuters.com; +39 06 8522 4351; Reuters  Messaging: stephen.brown.reuters.com@reuters.net))    Keywords: ITALY IMMIGRANTS/        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 10.316116333007812,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to exhibit bias. It provides factual information about the influx of illegal immigrants in Italy without employing any of the typical bias indicators."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Thirteen illegal immigrants dead in Istanbul-media",
+        "URL": "Thirteen illegal immigrants dead in Istanbul-media.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    ISTANBUL, July 30 (Reuters) - Thirteen illegal immigrants,  mostly Pakistanis, were found dead in a field on the outskirts  of Istanbul on Wednesday and were believed to have died from  asphyxiation, Turkish media reported.      No other details were immediately available.      Turkey is a major trafficking route for illegal immigrants  trying to enter the European Union from southeast Asia and the  former Soviet Union. They are often transported in small,  overcrowded vehicles.   (Reporting by Thomas Grove; Editing by Stephen Weeks)   ((thomas.grove@reuters.com; Telephone: +90 212 350 7051;  Reuters Messaging: thomas.grove.reuters.com@reuters.net))    Keywords: TURKEY IMMIGRANTS/       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 10.26408576965332,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual report on the discovery of deceased illegal immigrants in Istanbul, without introducing any biased language or perspectives."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Spain says fewer illegal immigrants reach its coasts",
+        "URL": "Spain says fewer illegal immigrants reach its coasts.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    MADRID, Jan 12 (Reuters) - Spain reduced the number of  illegal immigrants landing on its beaches by 26 percent last  year thanks to better cooperation with African countries, the  Interior Minister said on Monday.      A total of 13,424 illegal immigrants arrived last year, most  of them arriving on the Canary Islands, down from a peak of  39,180 in 2006, Interior Minister Alfredo Perez Rubalcaba said.      'The policies we have put in place to avoid the departure of  immigrants from their countries is gradually producing results,'  Rubalcaba told a news conference.       Spain has offered more aid to west African countries, where  most illegal immigrants to Spain come from. It has also beefed  up cooperation with local police forces and persuaded several  developing nations to accept the return of illegal immigrants.      Every year thousands of Africans sailing in overcrowded,  wooden boats try to reach Europe via Spain in search of jobs and  a better life. Scores have died in the attempt.      The ministry said the number of illegal immigrants who were  repatriated to their countries of origin from Spain fell by 17  percent to 46,426 people, compared with the previous year.      Rubalcaba said he doubted Spain's economic crisis was  dissuading Africans from trying to reach its shores.      'My impression is that the situation is so bad in Africa it  has very little effect.'      Spain's Socialist government was heavily criticised in 2005  for granting a three-month amnesty to about 700,000 illegal  immigrants already living in the country. Other EU countries and  the conservative opposition said the move would encourage  illegal immigration.   (Reporting by Teresa Larraz; Writing by Sarah Morris; Editing  by Katie Nguyen)   ((sarah.morris@reuters.com; +34 91 585 8328; Reuters Messaging  sarah.morris.reuters.com@reuters.net))    Keywords: SPAIN IMMIGRANTS/       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 10.230328559875488,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides factual information about Spain's efforts to reduce illegal immigration, including statistics and government policies, without displaying any evident bias towards a particular viewpoint or group."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Canadians, immigrants share similar values - study",
+        "URL": "Canadians, immigrants share similar values - study.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Lara Hertel      TORONTO, June 25 (Reuters Life!) - Canada is now home to  more immigrants than at any time in the past 75 years and they  have more in common with home-grown Canucks than one might  think, according to a new report.      A national survey of 2,299 Canadians found that they placed  the highest value on freedom, democracy and equality,  regardless of where they were born.      This comes as no surprise to Jason Klinck, coordinator for  the Centre for Newcomers in Calgary, Alberta, a non-profit  organization that provides settlement services to new  Canadians.      'Canadians share many of the same values with immigrants  because our connection with them is stronger,' he said in an  interview.      'We have a whole generation of people who were born in  Canada to parents who were born elsewhere.'      A 2006 Statistics Canada report indicates that   approximately one in five Canadians were born outside the  country, bringing the number of foreign-born Canadians to a  75-year high.      Figures released the same year show that most immigrants,  13 percent, come from China, followed by India with 12 percent  and the Philippines with seven percent.      'Immigrations is becoming more and more a part of the  Canadian identity  -- it's not on the fringes anymore,' Klinck  said.         The national poll commissioned by credit card company  MasterCard comes days before Canadians celebrate their national  identity on July 1st.      'We really wanted to find out how people who weren't born  here feel about being Canadian, and we found there's a lot of  pride in being associated with this country,' said Julie  Wilson, director of public affairs, MasterCard Canada in  Toronto.      'We assume that people want to come to Canada for political  reasons, but immigrants usually said they're here because their  families are here too. Family truly makes the home,' Wilson  added.      Economic reasons are also a big pull, said Klinck.      Those born outside of Canada were more likely to cite  diversity as a key Canadian value, the survey found.      The poll also found that immigrants share many of the same  culinary tastes as their home-grown peers, with Canadian beef  being the favorite, followed by maple syrup, poutine, which is  a potato dish topped with sauce and cheese, and hamburgers.      (Reporting by Lara Hertel; editing by Patricia Reaney)  ((Reuters messaging: lara.hertel.reuters.net@reuters.com; +1  416 941 8135))         Keywords: CANADA IMMIGRANTS       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 10.126014709472656,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily focuses on the shared values and experiences between Canadians and immigrants, without presenting information in a way that would indicate a bias towards any particular group or issue."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Immigrants thrown overboard off Italian coast",
+        "URL": "Immigrants thrown overboard off Italian coast.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    ROME, Oct 13 (Reuters) - Italian police have arrested five  Nigerian traffickers accused of throwing 13 illegal immigrants  off their boat because of fears that they brought bad luck,  investigative sources said on Monday.       Twelve of the victims, all men, were from Nigeria and one  from Ghana. All are presumed dead.       The sources said survivors from the boat -- which arrived in  Sicily carrying 59 immigrants on Sept. 11 -- reported that the  13 had been thrown overboard alive after part of the ship's  navigation equipment broke down.      The five men arrested have been accused of aggravated  multiple murder.      'Some horrifying details have emerged from our  investigation,' state prosecutor Ugo Rossi was quoted as saying  by ANSA news agency.      'Food and water were running out so it is possible that  these desperate 13 people were thrown into the sea alive using  superstition as a pretext,' he said.   ((Reporting by Wladimir Pantaleone, Rome newsroom +39 068522  4392, silvia.aloisi@reuters.com)    Keywords: ITALY IMMIGRANTS/       ",
+        "Histogram": [
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0
+        ],
+        "Relevance": 10.125495910644531,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Italian police have arrested five Nigerian traffickers accused of throwing 13 illegal immigrants off their boat because of fears that they brought bad luck, investigative sources said on Monday.",
+                    "bias_type": "Discriminatory Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence promotes stereotypes and generalized statements about immigrants, specifically Nigerians, by attributing their actions to superstition without providing a broader context or individual motivations."
+                },
+                {
+                    "text": "'Some horrifying details have emerged from our investigation,' state prosecutor Ugo Rossi was quoted as saying by ANSA news agency. 'Food and water were running out so it is possible that these desperate 13 people were thrown into the sea alive using superstition as a pretext,' he said.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of emotionally charged language such as 'horrifying details' and 'desperate 13 people' is designed to evoke strong emotions, potentially at the expense of a more balanced or neutral presentation of the facts."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the treatment of immigrants, particularly through the lenses of discriminatory bias and emotional sensationalism. The focus on superstition as a motive for the actions of the Nigerian traffickers and the use of emotionally charged language by the state prosecutor contribute to a biased portrayal of the events."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.375,
+            "overall_rating": 0.4875
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Illegal immigrants increasingly go north inside US",
+        "URL": "Illegal immigrants increasingly go north inside US.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Robin Emmott      NUEVO LAREDO, Mexico, Jan 15 - Illegal immigrants from  Latin America are heading deeper into the United States to find  work and avoid deportation as crackdowns in border states like  Texas and Arizona make life more difficult for them.      The U.S. Border Patrol has ramped up surveillance along the  porous Mexican border aided by National Guard troops since  2005, while police and state legislatures have increasingly  targeted illegal immigrants in some border states.      'Texas is crawling with Border Patrol agents and the locals  are so tuned in that if they see you walking down the street,  they phone the Border Patrol, who come and deport you,' said Joe  Reyes, 45, who lived for seven years in Houston before being  deported in November.      'I'm heading for North Carolina if I can get back across,'  he said at the Catholic-run migrant shelter in Nuevo Laredo,  across the border from Laredo, Texas.      Washington hired thousands more Border Patrol agents last  year to help deport immigrants who entered illegally or  outstayed their visas, carry out workplace raids, jail illegals  and push police to enforce immigration laws.      While workplace raids are common in central and northern  states, Arizona and Texas are now arguably the toughest places  for undocumented immigrants.      In Arizona, once a popular state for fresh arrivals due to  its desert border with Mexico, companies are laying off  undocumented workers after a new law came into effect on Jan. 1  punishing companies who hire illegal immigrants.      Family networks in border states are still a strong pull  for new immigrants and some are willing to risk living in  Texas, which has a Hispanic heritage and big Hispanic  population.      But migrant shelters and people smugglers are warning  illegal immigrants that they need to go farther north to last  long in the United States.      'Our message to new migrants, and those trying to get back  to the United States after being deported, is that if they  really want to go, avoid California, Arizona, New Mexico and  Texas,' said Eduardo Carrera, a volunteer at a shelter in Nuevo  Laredo, where migrants stop on their way to the United States.           BETTER PAY UP NORTH      For decades, illegal immigrants have crossed the border  into the United States, where an estimated 12 million live and  work in the shadows. Many would traditionally settle in the  four border states, where there are plenty of temporary jobs on  farms, in construction and in the service economy.      But better wages in northern states -- such as Virginia,  Maryland and Washington -- amid a slowing U.S. economy are also  changing that trend.      'There is a growing economic incentive to migrate to  non-traditional destinations. The fact that surveillance may be  less intense in these areas is an added benefit,' said Wayne  Cornelius, an immigration expert at the University of  California, San Diego.      According to a study by Pew Hispanic Center research  institute, some 57 U.S. counties in mainly northern and central  states doubled their population of Hispanics, including both  legal and illegal immigrants, between 2000 and 2006.      'Very few are in the traditional Hispanic areas of the  southwest,' said Jeffrey Passel, a demographer at the center.  'There is a very big concentration in Virginia, mostly in the  Washington D.C. suburbs,' he added.      People smugglers in Tijuana near San Diego say they are  taking m",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 10.005577087402344,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to exhibit bias as it primarily focuses on the movement patterns of illegal immigrants within the United States and the factors influencing these movements, without presenting information in a way that would indicate a particular bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Study finds immigrants commit less California crime",
+        "URL": "Study finds immigrants commit less California crime.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    SAN FRANCISCO, Feb 26 (Reuters) - Immigrants are far less  likely than the average U.S.-born citizen to commit crime in  California, the most populous state in the United States,  according to a report issued late on Monday.      People born outside the United States make up about 35 percent  of California's adult population but account for about 17 percent  of the adult prison population, the report by the Public Policy  Institute of California showed.      According to the report's authors the findings suggest that  long-standing fears of immigration as a threat to public safety  are unjustified. The report also noted that U.S.-born adult men  are incarcerated at a rate more than 2 1/2 times greater than that  of foreign-born men.      'Our research indicates that limiting immigration,  requiring higher educational levels to obtain visas, or  spending more money to increase penalties against criminal  immigrants will have little impact on public safety,' said  Kristin Butcher, co-author of the report and associate  professor of economics at Wellesley College.      The study did not differentiate between documented immigrants  and illegal immigrants.      The question of what to do about the millions of undocumented  workers living in the United States has been one of the major  issues in the U.S. presidential election. Mexico, which accounts  for a high proportion of illegal immigrants in California, was  deeply disappointed at the U.S. Congress' failure to pass  President George W. Bush's overhaul of immigration laws last  year.      When Butcher and her co-author, Anne Morrison Piehl,  associate professor of economics at Rutgers University,  considered all those committed to institutions including  prison, jails, halfway houses and the like, they found an even  greater disparity.      Among men 18 to 40, the population most likely to be in  institutions because of criminal activity, the report found  that in California, U.S.-born men were institutionalized 10  times more often than foreign-born men (4.2 percent vs. 0.42  percent).      Among other findings in the report, non-citizen men from  Mexico 18 to 40 -- a group disproportionately likely to have  entered the United States illegally -- are more than eight  times less likely than U.S.-born men in the same age group to  be in a correctional institution (0.48 percent vs. 4.2  percent).      'From a public safety standpoint, there would be little  reason to further limit immigration, to favor entry by  high-skilled immigrants, or to increase penalties against  criminal immigrants,' the report said.   (Reporting by Duncan Martell; Editing by Adam Tanner and Bill  Trott)   ((duncan.martell@reuters.com; Tel +1 415 677-2536))  Keywords: USA IMMIGRATION/CRIME       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 9.987866401672363,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It presents findings from a report by the Public Policy Institute of California regarding the relationship between immigration and crime in California, and the conclusions drawn are based on the data and analysis provided."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Immigrants seek aid to flee Spanish economy crisis",
+        "URL": "Immigrants seek aid to flee Spanish economy crisis.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Andrew Hay      MADRID, Aug 7 (Reuters) - The number of immigrants seeking  government aid to leave Spain has doubled in 2008 as  unemployment soars following the collapse of a decade-long  economic boom, official data show.      Spain's Socialist government received 2,100 requests up to  July from immigrants who say they cannot afford to return home,  compared with 1,184 during all of last year, and this year's   funds for the subsidy scheme are exhausted.      'We've already spent our budget because there's a flood of  requests during the economic crisis,' said a spokeswoman for  Spain's department of immigration and emigration.      Over 4 million immigrants, mostly from Latin America and  eastern Europe, have flocked to Spain since around 2000 looking  for work in construction and jobs like cleaning and child care.      They are among the first workers to be laid off as building  firms go bankrupt and companies and households cut back staff in  a country teetering on the brink of recession.      A total of 457,000 workers have lost their jobs over the  last 12 months, giving Spain the highest unemployment rate in  the European Union as the end of its housing boom coincides with  the global credit crisis and inflation at a 13-year high.      Spain has some 5 million immigrants, about 11 percent of the  population, and unemployment is rising three times faster among  immigrants than in the wider workforce, increasing 69 percent in  the past year to 266,458 registered jobless, government data  show.      Bolivians, Argentines, Colombians and Ecuadoreans are  leaving Spain in the greatest numbers, the government said.      The travel subsidy scheme, with a 1.7 million euro budget,  is only one government programme to encourage immigrants to  leave Spain rather than join the ranks of jobless which swelled  to a 10-year high of 2.43 million in June.      The government has also said it wants to tighten  requirements for family reunification to restrict immigrant  flows.      More than 100,000 immigrants are expected to leave Spain  from September onwards, taking advantage of a separate programme  to pay jobless immigrants the equivalent of two years  unemployment benefit if they go home.      The travel subsidy scheme is operated by Spanish non-profit  groups and gives each immigrant between 50 and 400 euros ($77.50  and $620) to journey home, plus 400 to 1400 euros per family.      Groups such as the International Organization for Migration,  the Spanish Red Cross and the Spanish Catholic Commission  Association for Immigration say they have more than 2,000  immigrants on waiting lists seeking funds to return home.   (Reporting by Andrew Hay; editing by Tim Pearce)   ((andrew.hay@reuters.com, Reuters Messaging:  andrew.hay.reuters.com@reuters.net +34 91585 2158))   ($1=7.432 Andorran Franc)   ($1=.6451 EURO)    Keywords: SPAIN IMMIGRATION/       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 9.978982925415039,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to exhibit bias. It provides factual information about the increase in immigrants seeking government aid to leave Spain due to the economic crisis, without displaying any evident bias towards any group or issue."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "US to open military to temporary immigrants-report",
+        "URL": "US to open military to temporary immigrants-report.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WASHINGTON, Feb 14 (Reuters) - The U.S. military will begin  recruiting immigrants with special skills who are in the United  States on temporary visas, offering a chance to become citizens  in as little as six months, The New York Times reported.      A report on the newspaper's website on Saturday said it  would be the first time since the Vietnam War that the armed  forces would be open to temporary immigrants, provided they  have lived in the United States for at least two years.      Immigrants with permanent resident status, or 'green  cards,' are eligible to enlist in the U.S. military.      A Pentagon spokesman said he knew of the program but had no  details.      The Times said the program could help the military fill  shortages in medical care, language interpretation and field  intelligence analysis. It will be limited to 1,000 enlistees in  its first year, most for the Army and some for other services.      Temporary immigrants who want to enlist would have to prove  they had lived in the United States for two years and had not  been out of the country for more than 90 days during that time.  They would also have to pass an English test.   (Reporting by Glenn Somerville; Editing by Peter Cooney)   ((glenn.somerville@thomsonreuters.com; +1-202-898-8377;  Reuters Messaging: glenn.somerville.reuters.com@reuters.net))       Keywords: USA MILITARY/IMMIGRANTS       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 9.965435028076172,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it provides factual information about the U.S. military's decision to recruit immigrants with special skills on temporary visas, without displaying any evident bias through the language used or the way the information is presented."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Spain rebukes Italy for treatment of immigrants",
+        "URL": "Spain rebukes Italy for treatment of immigrants.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    MADRID, May 16 (Reuters) - Spain rebuked Italy on Friday for  its clampdown on suspected illegal immigrants, calling the  arrest of hundreds of foreigners racist and xenophobic.      Italian police announced on Thursday they had arrested 268  foreigners as part of a week-long operation, with 53 immediately  taken to the border for expulsion.      'The government rejects violence, racism and xenophobia and  therefore cannot agree with what is happening in Italy,' Spanish  Deputy Prime Minister Maria Teresa Fernandez de la Vega said at  the cabinet's weekly news conference.      The comments were the latest exchange of harsh words between  the Socialist government of Spain and Silvio Berlusconi's  right-wing administration, both recently re-elected.      Berlusconi raised tempers in Spain last month by dubbing   the newly formed cabinet, with its majority of female members,  'too pink'.      Berlusconi swept back to power for a third term as Italian  prime minister promising to crack down on illegal immigrants,  blamed by many for crime.      In contrast, Spanish Prime Minister Jose Luis Rodriguez was  widely criticized in 2005 for being too soft on immigration  after he granted an amnesty to nearly 700,000 illegal workers in  an attempt to bring them into the tax net.      A short distance from Africa, Spain is an entry point to  Europe for many illegal immigrants.   (Reporting by Sonya Dowsett; Editing by Giles Elgood)   ((sonya.dowsett@reuters.com; +34 91 585 83 28; Reuters  Messaging: sonya.dowsett.reuters.com@reuters.net))    Keywords: SPAIN IMMIGRANTS/       ",
+        "Histogram": [
+            0.6,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 9.86220932006836,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Spain rebuked Italy on Friday for  its clampdown on suspected illegal immigrants, calling the  arrest of hundreds of foreigners racist and xenophobic.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the words 'racist and xenophobic' to describe the arrest of illegal immigrants in Italy implies a strong negative judgment and attributes discriminatory motives to the actions, without providing a balanced perspective."
+                },
+                {
+                    "text": "'The government rejects violence, racism and xenophobia and  therefore cannot agree with what is happening in Italy,' Spanish  Deputy Prime Minister Maria Teresa Fernandez de la Vega said at  the cabinet's weekly news conference.",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence indirectly attacks the character or motives of the Italian government by suggesting that their actions are inherently violent, racist, and xenophobic, without addressing the specific policies or circumstances."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the treatment of immigrants, particularly in the context of Spain's criticism of Italy. The biases identified include Word Choice Bias and Ad Hominem Bias, with a general tendency to portray the actions of the Italian government in a negative light without a balanced or objective perspective."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.2222222222222222,
+            "overall_rating": 0.4111111111111111
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "REFILE-Illegal immigrants increasingly go north inside US",
+        "URL": "REFILE-Illegal immigrants increasingly go north inside US.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": " (Refile to fix typo in dateline)      By Robin Emmott      NUEVO LAREDO, Mexico, Jan 15 (Reuters) - Illegal immigrants  from Latin America are heading deeper into the United States to  find work and avoid deportation as crackdowns in border states  like Texas and Arizona make life more difficult for them.      The U.S. Border Patrol has ramped up surveillance along the  porous Mexican border aided by National Guard troops since  2005, while police and state legislatures have increasingly  targeted illegal immigrants in some border states.      'Texas is crawling with Border Patrol agents and the locals  are so tuned in that if they see you walking down the street,  they phone the Border Patrol, who come and deport you,' said Joe  Reyes, 45, who lived for seven years in Houston before being  deported in November.      'I'm heading for North Carolina if I can get back across,'  he said at the Catholic-run migrant shelter in Nuevo Laredo,  across the border from Laredo, Texas.      Washington hired thousands more Border Patrol agents last  year to help deport immigrants who entered illegally or  outstayed their visas, carry out workplace raids, jail illegals  and push police to enforce immigration laws.      While workplace raids are common in central and northern  states, Arizona and Texas are now arguably the toughest places  for undocumented immigrants.      In Arizona, once a popular state for fresh arrivals due to  its desert border with Mexico, companies are laying off  undocumented workers after a new law came into effect on Jan. 1  punishing companies who hire illegal immigrants.      Family networks in border states are still a strong pull  for new immigrants and some are willing to risk living in  Texas, which has a Hispanic heritage and big Hispanic  population.      But migrant shelters and people smugglers are warning  illegal immigrants that they need to go farther north to last  long in the United States.      'Our message to new migrants, and those trying to get back  to the United States after being deported, is that if they  really want to go, avoid California, Arizona, New Mexico and  Texas,' said Eduardo Carrera, a volunteer at a shelter in Nuevo  Laredo, where migrants stop on their way to the United States.           BETTER PAY UP NORTH      For decades, illegal immigrants have crossed the border  into the United States, where an estimated 12 million live and  work in the shadows. Many would traditionally settle in the  four border states, where there are plenty of temporary jobs on  farms, in construction and in the service economy.      But better wages in northern states -- such as Virginia,  Maryland and Washington -- amid a slowing U.S. economy are also  changing that trend.      'There is a growing economic incentive to migrate to  non-traditional destinations. The fact that surveillance may be  less intense in these areas is an added benefit,' said Wayne  Cornelius, an immigration expert at the University of  California, San Diego.      According to a study by Pew Hispanic Center research  institute, some 57 U.S. counties in mainly northern and central  states doubled their population of Hispanics, including both  legal and illegal immigrants, between 2000 and 2006.      'Very few are in the traditional Hispanic areas of the  southwest,' said Jeffrey Passel, a demographer at the center.  'There is a very big concentration in Virginia, mostly in the  Washington D.C. suburbs,' he added.      People smugglers in ",
+        "Histogram": [
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0.6,
+            0,
+            0.5,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 9.786828994750977,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "'Texas is crawling with Border Patrol agents and the locals are so tuned in that if they see you walking down the street, they phone the Border Patrol, who come and deport you,' said Joe Reyes, 45, who lived for seven years in Houston before being deported in November.",
+                    "bias_type": "Anecdotal Evidence Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence relies on a personal story to generalize the level of surveillance and deportation in Texas, suggesting a widespread and constant threat to illegal immigrants based on a single anecdote."
+                },
+                {
+                    "text": "While workplace raids are common in central and northern states, Arizona and Texas are now arguably the toughest places for undocumented immigrants.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'arguably' and the general statement about toughness without specific evidence introduces a subjective opinion about the difficulty faced by undocumented immigrants in certain states, blurring the line between fact and interpretation."
+                },
+                {
+                    "text": "Family networks in border states are still a strong pull for new immigrants and some are willing to risk living in Texas, which has a Hispanic heritage and big Hispanic population.",
+                    "bias_type": "Generalization Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "This sentence generalizes the willingness of immigrants to 'risk' living in Texas based on the state's Hispanic heritage and population, attributing broad characteristics to a group without specific evidence for each individual's decision-making process."
+                },
+                {
+                    "text": "'Our message to new migrants, and those trying to get back to the United States after being deported, is that if they really want to go, avoid California, Arizona, New Mexico and Texas,' said Eduardo Carrera, a volunteer at a shelter in Nuevo Laredo, where migrants stop on their way to the United States.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The advice given by Eduardo Carrera is presented as a general recommendation without a balanced discussion of the reasons behind it, implying a one-sided perspective on the challenges faced by migrants in specific U.S. states."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the experiences of illegal immigrants in the United States, particularly in states like Texas and Arizona. The biases identified include Anecdotal Evidence Bias, Opinionated Bias, and Generalization Bias, which collectively suggest a tendency to present subjective opinions and generalized statements as facts, influencing the reader's perception of the challenges faced by undocumented immigrants."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.575,
+            "percentage_of_biased_sentences": 0.10526315789473684,
+            "overall_rating": 0.3401315789473684
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Spain rescues 67 immigrants from sea, 2 dead",
+        "URL": "Spain rescues 67 immigrants from sea, 2 dead.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    MADRID, May 25 (Reuters) - Spanish coastguard boats rescued  67 immigrants, including two corpses, from the sea near the  Canary Islands on Sunday, an emergency services spokesman said.      The immigrants were in a bad state and three have been taken  to hospital with hypothermia, a Red Cross spokesman told state  radio.      Thousands of illegal immigrants attempt the journey from  Africa to Spain's Canary Islands every year in open-topped  wooden boats. Many die trying to reach Europe in search of work.      Most choose to set sail in the summer when conditions are  less treacherous for the crossing to the Spanish islands, which  lie hundreds of miles from the African coast.   (Reporting by Teresa Larraz, Writing by Sonya Dowsett)   ((sonya.dowsett@reuters.com; +34 91 585 83 28; Reuters  Messaging: sonya.dowsett.reuters.com@reuters.net))    Keywords: SPAIN IMMIGRANTS         (Adds report of migrant dying on arrival at hospital)      MADRID, May 25 (Reuters) - Spanish coastguard boats  rescued 65 migrants from the sea and recovered two corpses  near the Canary Islands on Sunday, an emergency services  spokesman said.      Three of the 65 were taken to hospital with  hypothermia, a Red Cross spokesman told state radio.      Spanish media reported one of the three taken to the  Insular Hospital on the island of Gran Canaria had died on  arrival. The hospital and emergency services could not  immediately confirm this.      Thousands of migrants attempt the journey from Africa  to Spain's Canary Islands every year in open-topped wooden  boats. Many die trying to reach Europe in search of work.      Most choose to set sail in the summer, when conditions  are less treacherous for the crossing to the Spanish  islands, which lie hundreds of miles from the African  coast.   (Reporting by Teresa Larraz and Sonya Dowsett; editing by  Andrew Roche)   ((sonya.dowsett@reuters.com; +34 91 585 83 28; Reuters  Messaging: sonya.dowsett.reuters.com@reuters.net))    Keywords: SPAIN IMMIGRANTS        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 9.737529754638672,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual account of the rescue of immigrants from the sea near the Canary Islands without introducing any biased language or perspectives."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Italy arrests hundreds in illegal immigrants swoop",
+        "URL": "Italy arrests hundreds in illegal immigrants swoop.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    ROME, May 15 (Reuters) - Italian police arrested hundreds of  suspected illegal immigrants on Thursday in a sign of the new  right-wing government's determination to clamp down.      Some of those held in the operation, which stretched from  northern Italy to the Campania region around Naples, were  ordered to be immediately expelled.      Silvio Berlusconi swept back to power for a third term as  prime minister last week promising to get tough on illegal  immigrants, who are blamed by many Italians for crime. His  government is preparing new laws to screen immigrants.      In Rome, the police raided at least one makeshift camp of  Roma people from Eastern Europe, who bear the brunt of  widespread public concern about immigrant crime.      Television showed police loading some Roma men onto buses in  Rome's biggest settlement for people known in Italy as 'nomads'.      Romania, a fellow EU member which has Europe's biggest Roma  population, has warned Italy against an outbreak of 'xenophobia'  against its people, though Berlusconi's government has reassured  Bucharest that Romanians are not being targeted.      Illegal Roma camps in Naples had to be evacuated by police  this week after local people, angry at an alleged baby-snatching  incident involving a 17-year-old Roma girl, set fire to their  shacks repeatedly during the night. Nobody was injured.      Italy's new interior minister, Roberto Maroni from the  anti-immigrant Northern League party, is rushing out emergency  legislation that could bring back passport checks on Italy's  European Union borders, despite its membership of the Schengen  passport-free zone.      He also wants to make illegal immigration a jailable offense  and speed up the deportation process.      (Writing by Stephen Brown, editing by Mark Trevelyan)   ((stephen.brown@reuters.com; +39 06 8522 4351; Reuters  Messaging: stephen.brown.reuters.com@reuters.net))    Keywords: ITALY IMMIGRANTS/        ",
+        "Histogram": [
+            0,
+            0,
+            0.7,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0
+        ],
+        "Relevance": 9.671751022338867,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Silvio Berlusconi swept back to power for a third term as prime minister last week promising to get tough on illegal immigrants, who are blamed by many Italians for crime.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.7,
+                    "bias_description": "This sentence implies a direct cause-and-effect relationship between illegal immigrants and crime in Italy, attributing blame without considering other factors that contribute to crime rates."
+                },
+                {
+                    "text": "His government is preparing new laws to screen immigrants.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'screen' implies a negative connotation, suggesting a suspicion towards all immigrants, which can influence the reader's perception of the government's actions."
+                },
+                {
+                    "text": "In Rome, the police raided at least one makeshift camp of Roma people from Eastern Europe, who bear the brunt of widespread public concern about immigrant crime.",
+                    "bias_type": "Discriminatory Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence generalizes the Roma people as being disproportionately associated with immigrant crime, reinforcing stereotypes and promoting unequal representation based on ethnicity and nationality."
+                },
+                {
+                    "text": "Television showed police loading some Roma men onto buses in Rome's biggest settlement for people known in Italy as 'nomads'.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'nomads' with quotes can be seen as a pejorative term, implying a negative and outdated stereotype about the Roma people, which influences the reader's perception of the situation."
+                },
+                {
+                    "text": "Illegal Roma camps in Naples had to be evacuated by police this week after local people, angry at an alleged baby-snatching incident involving a 17-year-old Roma girl, set fire to their shacks repeatedly during the night. Nobody was injured.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The description of the incident in a sensational manner, focusing on the dramatic actions of the locals and the alleged crime, is designed to evoke strong emotions and sensationalize the event."
+                },
+                {
+                    "text": "Italy's new interior minister, Roberto Maroni from the anti-immigrant Northern League party, is rushing out emergency legislation that could bring back passport checks on Italy's European Union borders, despite its membership of the Schengen passport-free zone.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Describing the Northern League party as 'anti-immigrant' directly implies a negative stance without providing a balanced perspective, influencing the reader's perception through the choice of words."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding immigration in Italy, particularly against illegal immigrants and the Roma people, through the use of causal misunderstanding, discriminatory bias, word choice, and emotional sensationalism. The general bias tendency leans towards portraying these groups in a negative light and endorsing policies that may be perceived as targeting them unfairly."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6166666666666667,
+            "percentage_of_biased_sentences": 0.16666666666666666,
+            "overall_rating": 0.39166666666666666
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "UPDATE 1-13 illegal immigrants dead in Istanbul-police",
+        "URL": "UPDATE 1-13 illegal immigrants dead in Istanbul-police.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": " (Adds details)      ISTANBUL, July 30 (Reuters) - Thirteen illegal immigrants,  found dead in a field on the outskirts of Istanbul on Wednesday,  suffocated in a packed truck, Turkish police said.      The truck was carrying 138 illegal immigrants through  Istanbul, Turkey's largest city, local official Dogan Azat told  the state-run news agency Anatolian.      The bodies were dumped in a field on the outskirts of the  European part of the city, Azat said in Istanbul's Kucukcekmece  district.      Turkey is a major trafficking route for illegal immigrants  trying to enter the European Union from southeast Asia and the  former Soviet Union. They are often transported in overcrowded  vehicles.      Television images showed a hilly rock-strewn area cordoned  off by police near a narrow two-lane road. Security officials  were carrying large bundles into a forensics vehicle.      'Our investigations are continuing,' a police officer, who  declined to be named, told Reuters.      Media reports said the majority of the dead were Pakistani,  but no other details were immediately available.   (Reporting by Thomas Grove; editing by Stephen Weeks)   ((thomas.grove@reuters.com; Telephone: +90 212 350 7051;  Reuters Messaging: thomas.grove.reuters.com@reuters.net))    Keywords: TURKEY IMMIGRANTS/        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 9.649847984313965,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports on the factual details of the incident without introducing subjective opinions or misleading information."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "18 illegal immigrants killed in crash in Turkey",
+        "URL": "18 illegal immigrants killed in crash in Turkey.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    ANKARA, Oct 5 (Reuters) - A small truck carrying illegal  immigrants overturned on a Turkish highway near the border with  Greece on Sunday, killing 18 people and injuring 23 others,  Anatolian state news agency said.      It said most the dead were from Myanmar. The accident  happened in the town of Malkara, west of Istanbul, a local  official told Anatolia.      Turkey is a major trafficking route for illegal immigrants  trying to enter the European Union from southeast Asia and the  former Soviet Union. They are often transported in overcrowded  vehicles.      (Editing by Mark Trevelyan)    Keywords: TURKEY CRASH/       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 9.57763957977295,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to exhibit bias as it primarily reports on a tragic event involving illegal immigrants in Turkey without using language or framing that suggests a particular bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Hundreds of immigrants poisoned at Greek centre",
+        "URL": "Hundreds of immigrants poisoned at Greek centre.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    ATHENS, Oct 15 (Reuters) - Hundreds of illegal immigrants  held in a detention centre on the Greek island of Lesbos have  fallen ill after drinking contaminated water from rusty and  mouldy pipes, police said on Wednesday.      Police said hospital staff rushed to provide emergency  medication after the weekend incident at the centre, where  medical charity Doctors Without Borders (MSF) denounced a  'humanitarian crisis' in July.      'Almost all of the immigrants at the detention centre have  been poisoned,' a police official, who declined to be named,  told Reuters.       'They are in a bad condition, but they can not be  transferred to hospital as they are too many and in a bad  state,' the official said.      About 600 immigrants, many of them from war-torn Somalia and  Afghanistan, were detained on the eastern Aegean island. The  police official said water pipes at the centre were old and  toilets were not working properly.      Greece has been criticised internationally for the poor  conditions in its six detention centres and its harsh treatment  of migrants who arrived in Greece without identity papers to  seek asylum from war-torn countries such as Afghanistan.      MSF ended an emergency programme at the Lesbos detention  centre last month, saying Greece's conservative government was  providing no support for its efforts to improve conditions  there.      'We hope this will finally push the government into taking  some action,' said Nondas Paschos, a spokesman for MSF Greece.      Greece, with just 11 million inhabitants and one of the  lowest per capita GDPs in the euro zone, is struggling to cope  with a rising tide of migrants swamping its long coastline and  border with Turkey. Police registered 112,000 illegal migrants  last year, versus just 40,000 in 2005.      EU leaders were due to approve a new pact on immigration and  asylum at a summit this week, aimed at tightening border  controls and easing the repatriation of illegal migrants.   (Reporting by Renee Maltezou and Daniel Flynn; Editing by Jon  Boyle)   ((daniel.flynn@thomsonreuters.com; +30 210 33 76 438; Reuters  messaging: daniel.flynn.reuters.com@reuters.net, Athens  Newsroom))    Keywords: GREECE IMMIGRANTS/       ",
+        "Histogram": [
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 9.552322387695312,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "'Almost all of the immigrants at the detention centre have been poisoned,' a police official, who declined to be named, told Reuters.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'poisoned' and the dramatic statement that 'almost all' immigrants have been affected is designed to evoke strong emotions, potentially at the expense of a more balanced or cautious description of the situation."
+                },
+                {
+                    "text": "Greece has been criticised internationally for the poor conditions in its six detention centres and its harsh treatment of migrants who arrived in Greece without identity papers to seek asylum from war-torn countries such as Afghanistan.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The phrase 'harsh treatment' and the general framing of the sentence imply a negative judgment about Greece's handling of migrants, using language that suggests a lack of empathy or fairness."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the treatment of immigrants in Greece, particularly through the use of emotional sensationalism and word choice that implies a negative judgment without presenting a balanced perspective."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.07692307692307693,
+            "overall_rating": 0.3384615384615385
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Spain to pay jobless immigrants to go home",
+        "URL": "Spain to pay jobless immigrants to go home.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    MADRID, Sept 19 (Reuters) - Spain will try to persuade  jobless immigrants to leave by offering to pay them a lump sum  and then provide unemployment benefits in their home countries,  the government said on Friday.      The move continues a radical policy shift by Spain's  Socialist government, which granted an amnesty to 700,000  illegal immigrants in 2004, but this year said it would slash  the number of new work permits and limit family reunion visas.      With unemployment jumping by a quarter in a year to 2.5  million, the government is worried that immigrant workers will  not find jobs and will overstretch public services.      'This decree will helps us manage immigration flows,' Labour  Minister Celestino Corbacho told a news conference.      Friday's law will give almost 300,000 unemployed immigrants  the option to be paid two years of benefit if they leave the  country. An intiial 40 percent would be paid as a lump sum  before they leave and the rest gradually once they return home.      The sums involved vary greatly depending on individual  factors such as how long an immigrant had contributed to the  Spanish social security system.      Immigrant groups have complained that the measure does not  provide enough money for it really to be worth their while to go  back and also that it brands foreigners as a problem.      'The immigrant stops being someone who brings wealth and  becomes someone we want to get off our backs,' said Juan Carlos  Rois of AESCO, which represents Latin Americans in Spain.      The government's offer will not be open to Spain's largest  immigrant community, Romanians, or residents in Spain from other  European Union member states.      Over 10 percent of Spain's population is made up of  immigrants who have arrived in the country over the last decade  to fill low-paid job vacancies in the once-booming construction  industry and the restaurant and commerce sectors.      A punctured property bubble has left these two pillars of  growth crumbling and many analysts expect the Spain to enter  recession in the second half, a sharp fall from the robust 3.7  percent GDP rise in 2007.   (Reporting by Paul Day and Jonathan Gleave, editing by Keith  Weir)   ((paul.e.day@thomsonreuters.com; Tel + 34 91 385 21 53; Reuters  Messaging: paul.e.day.com@reuters.net))      Keywords: SPAIN IMMIGRANTS/       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.9,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 9.527640342712402,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "'The immigrant stops being someone who brings wealth and becomes someone we want to get off our backs,' said Juan Carlos Rois of AESCO, which represents Latin Americans in Spain.",
+                    "bias_type": "Discriminatory Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "This sentence promotes discriminatory bias by generalizing immigrants as a burden and implying a negative stereotype, which can reinforce discrimination or biases against certain groups based on nationality."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article contains discriminatory bias regarding immigrants in Spain, particularly in the context of unemployment policies. The general bias tendency leans towards portraying immigrants in a negative light, suggesting a need for more balanced and unbiased reporting on immigration issues."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.9,
+            "percentage_of_biased_sentences": 0.07692307692307693,
+            "overall_rating": 0.4884615384615385
+        },
+        "combined_score": 0.0
+    }
+]

@@ -1,0 +1,1028 @@
+[
+    {
+        "Title": "CAW says autoworkers pensions must be protected",
+        "URL": "CAW says autoworkers pensions must be protected.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    CALGARY, Alberta, Feb 20 (Reuters) - The Canadian Auto  Workers Union said on Friday that the pensions of its members  must be protected in any restructuring of the Canadian  operations of General Motors Corp <GM.N> and Chrysler  <CBS.UL>.      Ken Lewenza, president of the union that represents 33,000  autoworkers, said he was happy that the restructuring plans  submitted by the two companies to the Canadian and Ontario  governments did not contain any new bad news for his members.      But he stressed that pensions for CAW members must be  protected and the proportion of the firms' manufacturing  operations in Canada must be maintained.   (Reporting by Scott Haggett; editing by Rob Wilson)   ((scott.haggett@thomsonreuters.com; Reuters Messaging:  scott.haggett.reuters.com@reuters.net; +1 403 531-1622))    Keywords: AUTOS CANADA/CAW        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 13.740904808044434,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a straightforward report on the Canadian Auto Workers Union's stance on protecting autoworkers' pensions during the restructuring of General Motors Corp and Chrysler in Canada."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "GM Canada and autoworkers in court over blockade",
+        "URL": "GM Canada and autoworkers in court over blockade.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    TORONTO, June 12 (Reuters) - The fate of the blockade of  General Motors of Canada's <GM.N> headquarters in Oshawa,  Ontario by the Canadian Auto Workers union, now in its ninth  day, is in the hands of a judge on Thursday.      GM is arguing for an injunction to end the action and for  C$1.5 million ($1.47 million) in compensation from the Oshawa  local of the CAW and five of its members.      Shortly after the case began in a Whitby, Ontario, court  room, several hundred Canadian autoworkers and their supporters  kicked off a 'solidarity' rally near the Oshawa truck plant  that GM plans to close late next year.      The plant, which employs 2,600 union members, is one of  four in North America GM plans to shutter as it shifts its  focus to producing more fuel efficient vehicles in response to  changing customer demand as gasoline prices soar.      GM announced the September 2009 closure about a  week-and-a-half ago, just two weeks after it signed a  three-year labor agreement with the CAW in which it said it  would keep the plant open until 2011.      That set off cries of betrayal from the union and the  blockade of GM Canada's headquarters, which has forced about  1,000 GM office staff to work from home.      A high-level meeting between CAW leadership and top GM  officials in Detroit last Friday was fruitless, the union  said.      The CAW ramped up its protests the following day, halting  production at GM's Oshawa complex for about 45 minutes by way  of a convoy of hundreds of cars that slowly circled the plants,  preventing shipments from coming or going.      Aside from the truck plant, which produces the Chevrolet  Silverado and the GMC Sierra, the complex includes a car plant  where the Chevrolet Impala is currently built and the Camaro is  set to begin production. The province of Ontario has said it is  in discussions with GM about adding a third car to that line.   ($1=$1.02 Canadian)   (Reporting by John McCrank; Editing by Frank McGurty)                ((john.mccrank@thomsonreuters.com; +1 416 941 8083;  Reuters Messaging: john.mccrank.reuters.com@reuters.net))  Keywords: GM/CAW       ",
+        "Histogram": [
+            0,
+            0.6,
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 11.546672821044922,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "GM is arguing for an injunction to end the action and for C$1.5 million ($1.47 million) in compensation from the Oshawa local of the CAW and five of its members.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'action' to describe the blockade by the CAW can imply a negative connotation, suggesting it is an unjust or inappropriate behavior, which could influence the reader's perception."
+                },
+                {
+                    "text": "Shortly after the case began in a Whitby, Ontario, court room, several hundred Canadian autoworkers and their supporters kicked off a 'solidarity' rally near the Oshawa truck plant that GM plans to close late next year.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The phrase 'kicked off' to describe the start of the 'solidarity' rally may downplay the significance of the event, implying informality or lack of seriousness, which could subtly undermine the workers' cause."
+                },
+                {
+                    "text": "GM announced the September 2009 closure about a week-and-a-half ago, just two weeks after it signed a three-year labor agreement with the CAW in which it said it would keep the plant open until 2011.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The timing and language used to describe GM's announcement of the closure, particularly the phrase 'just two weeks after', could suggest a lack of transparency or integrity on GM's part, framing the situation in a way that favors the union's perspective."
+                },
+                {
+                    "text": "That set off cries of betrayal from the union and the blockade of GM Canada's headquarters, which has forced about 1,000 GM office staff to work from home.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Describing the union's reaction as 'cries of betrayal' and the blockade's impact on GM office staff in such a dramatic manner introduces emotional sensationalism, aiming to evoke strong empathy for the union's position."
+                },
+                {
+                    "text": "A high-level meeting between CAW leadership and top GM officials in Detroit last Friday was fruitless, the union said.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'fruitless' to characterize the outcome of the meeting is a subtle way to suggest that GM's efforts or intentions were insincere or unproductive, again framing the narrative in favor of the union's perspective."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias through the use of word choice and emotional sensationalism, particularly in how it frames the actions and responses of GM and the CAW regarding the plant closure and the subsequent blockade. The bias tends to favor the perspective of the union over GM, portraying the union's actions and reactions in a more sympathetic light."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.09090909090909091,
+            "overall_rating": 0.34545454545454546
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Senate plays role of Grinch for U.S. autoworkers",
+        "URL": "Senate plays role of Grinch for U.S. autoworkers.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Tom Doggett      WASHINGTON, Dec 12 (Reuters) - The U.S. Senate took on the  role of Christmas Grinch for autoworkers when it failed on  Thursday to pass a $14 billion rescue package for Detroit's  three major car manufacturers.      Attention now turns to the Bush administration's Treasury  Department, who Reid and other supporters of a bailout said  should dip into the $700 billion fund Congress created to help  Wall Street firms and banks, and lend automakers the money they  need to avoid bankruptcy and save millions of jobs.      The Senate late on Thursday came only a few 'yes' votes  short of the 60 needed to block a filibuster on the bailout  bill, effectively killing any chance of Congress providing a  lifeline to the financially drowning automakers this year.      'It's going to be a very, very bad Christmas for a lot of  people based on what takes place here tonight,' Senate Majority  Leader Harry Reid told his colleagues before the vote. 'It's  over with.'      A Treasury Department official declined to comment on the  Senate's failure to approve the rescue package and said it was  up to the White House to respond.      White House spokesman Tony Fratto said the administration  would evaluate its options 'in light of the breakdown in  Congress,' saying the legislation had 'presented the best  chance to avoid a disorderly bankruptcy while ensuring taxpayer  funds only go to firms whose stakeholders were prepared to make  difficult decisions to become viable.'      Markets across the Asia-Pacific region were down more than  3 percent after news the talks had collapsed, with Japan's  Nikkei average and Hong Kong's Hang Seng both down more than 5  percent.      U.S. crude oil prices fell more $2 toward $45 a barrel on  news of the bailout bust.      Senators negotiated late into the night on a possible  compromise that participants said fell apart over proposed wage  concessions by the powerful United Auto Workers union.      'We were three words away from a deal,' said Sen. Bob    Corker, a Tennessee Republican who proposed the alternative and  led the talks.      Sen. Christopher Dodd, a Connecticut Democrat, said the  main issue of disagreement was the date to require the Detroit  autoworkers' pay parity with foreign-based U.S. auto  manufacturers.      General Motors Corp <GM.N> and Chrysler LLC are seeking  billions of dollars in immediate aid, while Ford Motor Co <F.N>  wants a hefty line of credit.      The industry is reeling from depressed sales, made worse by  the credit crunch and the recession and GM and Chrysler said  government intervention was required now to avert potential  failure.      The House of Representatives passed its version of a  Democratic-sponsored bailout on Wednesday, but Senate  Republicans rejected that measure.    (Additional reporting by John Crawley; Editing by Eric  Walsh)   ((tom.doggett@thomsonreuters.com; + 1 202 898-8320; Reuters  Messaging: tom.doggett.reuters.com@reuters.net))  Keywords: AUTOS BAILOUT/SENATE       ",
+        "Histogram": [
+            0.9,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 11.424968719482422,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Senate plays role of Grinch for U.S. autoworkers",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "The use of the term 'Grinch' to describe the Senate's actions in relation to U.S. autoworkers evokes a strong emotional response, comparing the Senate to a character known for spoiling Christmas. This language is designed to provoke strong emotions and portrays the Senate's decision in an overly negative and sensational manner."
+                },
+                {
+                    "text": "'It's going to be a very, very bad Christmas for a lot of people based on what takes place here tonight,' Senate Majority Leader Harry Reid told his colleagues before the vote. 'It's over with.'",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Senator Harry Reid's statement about it being a 'very, very bad Christmas' for many people and declaring 'It's over with' uses emotionally charged language to dramatize the impact of the Senate's decision. This framing aims to evoke strong emotions rather than providing a neutral assessment of the situation."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article is biased regarding the Senate's decision on the bailout for U.S. autoworkers, employing Emotional Sensationalism Bias to evoke strong emotions and portray the Senate's actions in an overly negative and dramatic light."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.75,
+            "percentage_of_biased_sentences": 0.3125,
+            "overall_rating": 0.53125
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "CAW union, CP Rail seal tentative 3-year contract",
+        "URL": "CAW union, CP Rail seal tentative 3-year contract.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    TORONTO, Jan 27 (Reuters) - The Canadian Autoworkers Union  reached a tentative three-year contract with Canadian Pacific  Railway Ltd <CP.TO> on Sunday, lifting the threat of a strike  that could have started as early as this week.      The union, which represents 2,500 rail workers in 22 Canadian  locations, said in a statement its bargaining committee was  recommending that workers accept the agreement, which was reached  after four months of negotiations.      It said ratification meetings were likely to start next week,  after local union leadership had reviewed the deal. 'No details  of the agreement will be released until after workers vote on the  contract,' it said.      The union earlier this month set a Jan. 29 strike deadline  against CP Rail, which is Canada's second-largest railway.   (Reporting by Janet Guttsman; Editing by Valerie Lee)   ((janet.guttsman@reuters.com; +1 416 941 8100; Messaging:  janet.guttsman.reuters.com@reuters.com))    Keywords: CPRAIL UNION/       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 10.89231014251709,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it provides a straightforward report on the Canadian Autoworkers Union's tentative three-year contract with Canadian Pacific Railway Ltd, without employing any biased language or tactics."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "US autoworkers, Chrysler warn against Korea deal",
+        "URL": "US autoworkers, Chrysler warn against Korea deal.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Doug Palmer      WASHINGTON, Sept 24 (Reuters) - U.S. autoworkers and  troubled automaker Chrysler urged Congress on Wednesday not to  approve a free trade pact with South Korea until it has been  renegotiated to address their concerns.      The deal struck in April 2007 by the Bush administration  'would threaten the jobs of tens of thousands of American  workers, exacerbating the already serious difficulties facing  the U.S. auto industry and its workers and retirees,' said Ron  Gettelfinger, president of the United Auto Workers union.      Gettelfinger told the Senate Commerce Committee the  agreement fails to tear down South Korean regulatory barriers  that have long thwarted sales of U.S. and other foreign cars,  even though South Korea would be required to immediately  eliminate its tariffs on U.S. cars and trucks.      John Bozzella, Chrysler's vice president for external  affairs and public policy, said the agreement 'narrows, but  does not eliminate discrimination against U.S. auto importers'  in South Korea and rewards that country for failing to live up  to previous auto trade deals.      The warnings came on the same day the U.S. House of  Representatives approved $25 billion in loans to help Chrysler,  Ford <F.N> and General Motors <GM.N> through current hard  times. That legislation now goes to the Senate for a vote.      Last year, South Korea exported 668,000 autos to the United  States, but imported only 6,500 U.S. vehicles      Presidential Democratic candidate Barack Obama has promised  to negotiate the trade deal if elected. His Republican rival  John McCain has urged approval of the pact.      The agreement enjoys broad support outside the auto sector  from many farm and business groups eager to increase sales in  South Korea's $1 trillion economy.      Myron Brilliant, president of the U.S.-Korea Business  Council, said the pact does tackle many 'non-tariff barriers'  the U.S. auto sector has long complained about.      South Korea also pledged not to 'discourage the purchase or  use of U.S. goods or services -- an important commitment in  light of the past anti-import campaigns in Korea,' he said.      The U.S. International Trade Commission has estimated the  agreement would likely have a 'negligible' effect on overall  U.S. auto trade, Brilliant said.      The independent trade panel forecast auto imports from  South Korea would increase under the pact, but said most gains  would come at the expense of other foreign suppliers.      The Bush administration still hopes lawmakers will approve  the agreement this year in a possible lame duck session of  Congress after the Nov. 4 elections.      Senate Commerce Committee Chairman Bryon Dorgan, a North  Dakota Democrat and foe of Bush administration trade deals,  said lawmakers would not approve the pact in 2008.      'I believe unless it's modified in a very substantial way  it's not going to be approved by any Congress,' Dorgan said.    ((Editing by Todd Eastham; doug.palmer@reuters.com; +1 202  898 8341; Reuters Messaging:  doug.palmer.reuters.com@reuters.net))       Keywords: USA TRADE/KOREA       ",
+        "Histogram": [
+            0,
+            0.6,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0.5,
+            0.6,
+            0.6,
+            0,
+            0.6,
+            0.4,
+            0.6,
+            0,
+            0.6,
+            0
+        ],
+        "Relevance": 10.082136154174805,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "The deal struck in April 2007 by the Bush administration 'would threaten the jobs of tens of thousands of American workers, exacerbating the already serious difficulties facing the U.S. auto industry and its workers and retirees,' said Ron Gettelfinger, president of the United Auto Workers union.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence uses emotionally charged language to evoke concern about the impact of the trade deal on American workers, without providing a balanced or evidence-based perspective."
+                },
+                {
+                    "text": "John Bozzella, Chrysler's vice president for external affairs and public policy, said the agreement 'narrows, but does not eliminate discrimination against U.S. auto importers' in South Korea and rewards that country for failing to live up to previous auto trade deals.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'discrimination' and the suggestion that South Korea is 'rewarded' in a negative context implies a judgment and bias against South Korea in the trade agreement."
+                },
+                {
+                    "text": "Presidential Democratic candidate Barack Obama has promised to negotiate the trade deal if elected. His Republican rival John McCain has urged approval of the pact.",
+                    "bias_type": "Political Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "This sentence introduces a political perspective by highlighting the positions of the Democratic and Republican candidates, which could influence the reader's perception of the trade deal based on their political affiliations."
+                },
+                {
+                    "text": "The agreement enjoys broad support outside the auto sector from many farm and business groups eager to increase sales in South Korea's $1 trillion economy.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'enjoys broad support' and the description of groups as 'eager' introduces a subjective opinion about the level of support for the agreement, without providing objective evidence."
+                },
+                {
+                    "text": "Myron Brilliant, president of the U.S.-Korea Business Council, said the pact does tackle many 'non-tariff barriers' the U.S. auto sector has long complained about.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Similar to the previous sentence, this statement presents a subjective opinion as a fact, suggesting that the agreement effectively addresses concerns without a balanced perspective."
+                },
+                {
+                    "text": "The U.S. International Trade Commission has estimated the agreement would likely have a 'negligible' effect on overall U.S. auto trade, Brilliant said.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'negligible' to describe the agreement's effect introduces a negative connotation, implying that the impact is not significant, which could bias the reader against the agreement."
+                },
+                {
+                    "text": "The independent trade panel forecast auto imports from South Korea would increase under the pact, but said most gains would come at the expense of other foreign suppliers.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.4,
+                    "bias_description": "This sentence implies a direct negative consequence for other foreign suppliers due to the increase in auto imports from South Korea, without considering the broader economic context or the possibility of overall market growth."
+                },
+                {
+                    "text": "The Bush administration still hopes lawmakers will approve the agreement this year in a possible lame duck session of Congress after the Nov. 4 elections.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the term 'lame duck session' to describe the timing of the agreement's approval introduces a negative and dismissive tone, suggesting that the approval process is somehow illegitimate or lacking in authority."
+                },
+                {
+                    "text": "'I believe unless it's modified in a very substantial way it's not going to be approved by any Congress,' Dorgan said.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This statement presents a personal belief about the agreement's approval without providing a balanced view or evidence to support the assertion that it would not be approved by any Congress without substantial modification."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article is biased regarding the trade agreement with South Korea, showing a general bias tendency through the use of emotionally charged language, subjective opinions presented as facts, negative word choices, and political and causal misunderstandings, particularly regarding the impact on the U.S. auto industry and the broader economic implications."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.5666666666666667,
+            "percentage_of_biased_sentences": 0.17647058823529413,
+            "overall_rating": 0.3715686274509804
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Union blockades GM Canada headquarters after job cuts",
+        "URL": "Union blockades GM Canada headquarters after job cuts.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    TORONTO, June 4 (Reuters) - Angry autoworkers blockaded the  entrance to General Motors of Canada <GM.N> headquarters in  Oshawa, Ontario on Wednesday, one day after GM said it would  shut its Oshawa truck plant.      'We're not allowing any GM of Canada employees to enter the  headquarters building,' said Chris Buckley, of the Canadian  Auto Workers union, which says 2,600 jobs will go if the truck  plant closes.      'We are going to stay here until General Motors reverses  the decision they made yesterday, or at the very least commits  to a product for the Oshawa truck plant, or sits down  face-to-face with this union to try to explain why they have  broken our brand new agreement.'      TV pictures showed some 100 autoworkers on a road leading  to the Oshawa plant, which is to be closed as GM tries to shore  up a restructuring plan that has been overtaken by a steep  decline in U.S. sales of pickup trucks and SUVs in the face of  surging gas prices and tighter credit.      Two plants in the United States and one in Mexico are also  slated to close.      The CAW says the closure of the Oshawa plant is a betrayal.  GM and the CAW signed a new three-year collective bargaining  agreement on May 15 that included a wage freeze and GM promises  to boost production in Canada rather than cut it.      Under that deal, GM said it would start producing hybrid  versions of two of its trucks at the Oshawa plant.      The plant currently produces the Chevrolet Silverado and  the GMC Sierra crew-cab and extended-cab pickup trucks, which  GM Canada spokesman Stew Low said are taking the biggest hit of  GM's products in the U.S.      He said the hybrid versions of the Silverado and Sierra  would still be built and rolled out at the end of the year, but  at other plants, either in the United States or in Mexico.      'Our main customer is the U.S. and there is a huge and very  drastic shift away from trucks and SUVs and we have to react to  that because we can't continue to buy vehicles that people  aren't buying,' Low said.      U.S. auto sales figures released on Tuesday showed that GM  truck sales were down 39 percent in May from May last year.  Sales of the Silverado down 44 percent and those of the GMC  Sierra down 33.9 percent.   (Editing by Janet Guttsman)   ((john.mccrank@thomsonreuters.com; +1 416 941 8083; Reuters  Messaging: john.mccrank.reuters.com@reuters.net))       Keywords: GM/CANADA        ",
+        "Histogram": [
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 9.59372615814209,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "'We're not allowing any GM of Canada employees to enter the  headquarters building,' said Chris Buckley, of the Canadian  Auto Workers union, which says 2,600 jobs will go if the truck  plant closes.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'not allowing' and the framing of the union's action as a blockade with the word 'angry' implies a negative and confrontational stance, suggesting a judgment about the union's actions."
+                },
+                {
+                    "text": "The CAW says the closure of the Oshawa plant is a betrayal.  GM and the CAW signed a new three-year collective bargaining  agreement on May 15 that included a wage freeze and GM promises  to boost production in Canada rather than cut it.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Describing the closure as a 'betrayal' and emphasizing the terms of the agreement in a way that portrays GM negatively suggests a subjective opinion and implies that GM's actions are morally wrong."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias through the use of word choice and opinionated language, particularly in the portrayal of the union's actions and the framing of GM's decision as a 'betrayal.' The general bias tendency leans towards sympathizing with the union's perspective and criticizing GM's actions."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.14285714285714285,
+            "overall_rating": 0.37142857142857144
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Autoworkers Union Keeps _6 Million Golf Course for Members at _33 Million Lakeside Retreat.txt",
+        "URL": "Autoworkers Union Keeps _6 Million Golf Course for Members at _33 Million Lakeside Retreat.txt.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/240px-Fox_News_Channel_logo.svg.png",
+        "Text": "The United Auto Workers may be out of the hole now that President Bush has approved a $17 billion bailout of the U.S. auto industry, but the union isn't out of the bunker just yet.\n\nEven as the industry struggles with massive losses, the UAW brass continue to own and operate a $33 million lakeside retreat in Michigan, complete with a $6.4 million designer golf course. And it's costing them millions each year.\n\n\u2022 Click here to see photos of the UAW's $33 million retreat.\n\nThe UAW, known more for its strikes than its slices, hosts seminars and junkets at the Walter and May Reuther Family Education Center in Onaway, Mich., which is nestled on \"1,000 heavily forested acres\" on Michigan's Black Lake, according to its Web site.\n\nBut the Black Lake club and retreat, which are among the union's biggest fixed assets, have lost $23 million in the past five years alone, a heavy albatross around the union's neck as it tries to manage a multibillion-dollar pension plan crisis.\n\nCritics call it a resort for union leaders that wastes money from union dues.\n\n\"It's their members' money that they're spending on this thing,\" said Justin Wilson, managing director of the Center for Union Facts, a union watchdog group. \"The union has bigger issues at hand than managing a golf course.\"\n\nManaging the course may become a burden for the union. The UAW covers costs for the Reuther Center from the interest it earns on its strike fund, according to tax documents, but massive losses in the past five years have forced the union to make heavy loans to keep the center afloat. Critics call it a poor investment for a group with over $1.25 billion in assets.\n\n\"Unions certainly have had real estate investments in the past, but investments are supposed to make money, not bleed money,\" said Wilson.\n\nThe UAW did not return calls from FOXNews.com, and a spokesman could not be reached for comment.\n\nThe Reuther Center is open 11 months of the year to offer courses on leadership, political action, civil rights and other topics; it hosts nearly 10,000 visitors annually. The UAW says it sends workers there to \"learn, experience unionism (and) commit to labor's cause,\" according to their Web site.\n\nThe center was purchased in 1967 and underwent massive renovations in the '90s under the careful watch of former UAW president Steve Yokich. \"Today's Black Lake might not exist if not for Steve Yokich,\" said union member Bob Reidt, whom Yokich appointed as Black Lake's director. \"Yokich is responsible for rebuilding Black Lake.\"\n\nThe UAW erected a monument to its longtime president Walter Reuther \u2014 the center's namesake \u2014 which bears an inscription of his words: \"There is no greater calling than to serve your brother. There is no greater satisfaction than to have done it well.\"\n\nBut Reuther, who died in a plane crash en route to the center in 1970, never knew the satisfaction of Black Lake's \"well-groomed fairways,\" a course that Michigan Golf Magazine called a \"stunning visual marvel.\"\n\nUnion members can play golf at discounted rates on one of the country's top 100 courses, designed in 2000 by famed course architect Rees Jones at a cost of $6 million.\n\nThe center has a storied history. Reuther had his ashes scattered at the site, and Lucille Ball and Desi Arnaz honeymooned there in 1940, well before it was bought by the UAW.\n\n\"It's funny that they call it an education center \u2014 it's a resort,\" said Wilson. \"If I was a union member, I would prefer that they rented out a room at the Ramada Inn.\"",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0.6,
+            0.6
+        ],
+        "Relevance": 9.37941837310791,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "The UAW, known more for its strikes than its slices, hosts seminars and junkets at the Walter and May Reuther Family Education Center in Onaway, Mich., which is nestled on \"1,000 heavily forested acres\" on Michigan's Black Lake, according to its Web site.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The phrase 'known more for its strikes than its slices' uses a word choice that subtly undermines the UAW's activities by emphasizing negative aspects (strikes) over potentially positive ones (slices, referring to golf). This implies a judgment about the union's priorities."
+                },
+                {
+                    "text": "Critics call it a resort for union leaders that wastes money from union dues.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence presents the opinion of critics as a fact, without providing evidence or a balanced perspective. It implies a negative judgment on the center's purpose and financial management, obscuring the line between fact and opinion."
+                },
+                {
+                    "text": "\"It's their members' money that they're spending on this thing,\" said Justin Wilson, managing director of the Center for Union Facts, a union watchdog group. \"The union has bigger issues at hand than managing a golf course.\"",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Again, this quote presents a subjective opinion about the union's priorities as a definitive truth, suggesting that the union's spending on the center is inherently misplaced without acknowledging potential benefits or counterarguments."
+                },
+                {
+                    "text": "Managing the course may become a burden for the union. The UAW covers costs for the Reuther Center from the interest it earns on its strike fund, according to tax documents, but massive losses in the past five years have forced the union to make heavy loans to keep the center afloat. Critics call it a poor investment for a group with over $1.25 billion in assets.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This paragraph frames the situation in a negative light, using phrases like 'massive losses' and 'forced the union to make heavy loans' to emphasize financial struggle. The use of 'Critics call it a poor investment' further injects opinion into what could be a more balanced discussion of financial strategy."
+                },
+                {
+                    "text": "The center was purchased in 1967 and underwent massive renovations in the '90s under the careful watch of former UAW president Steve Yokich. \"Today's Black Lake might not exist if not for Steve Yokich,\" said union member Bob Reidt, whom Yokich appointed as Black Lake's director. \"Yokich is responsible for rebuilding Black Lake.\"",
+                    "bias_type": "Mud Praise Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This passage excessively praises the role of Steve Yokich in the center's history, attributing its existence and success solely to his efforts without a balanced or critical evaluation. This can create a misleadingly positive impression."
+                },
+                {
+                    "text": "The UAW erected a monument to its longtime president Walter Reuther \u2014 the center's namesake \u2014 which bears an inscription of his words: \"There is no greater calling than to serve your brother. There is no greater satisfaction than to have done it well.\"",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of emotionally charged language, such as 'There is no greater calling than to serve your brother,' can evoke a strong, positive emotional response towards the UAW's leadership and the center's mission, potentially overshadowing a more objective analysis."
+                },
+                {
+                    "text": "But Reuther, who died in a plane crash en route to the center in 1970, never knew the satisfaction of Black Lake's \"well-groomed fairways,\" a course that Michigan Golf Magazine called a \"stunning visual marvel.\"",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence uses a poignant anecdote about Walter Reuther's tragic death to emphasize the significance of the golf course, employing emotional sensationalism to elevate the course's status and importance."
+                },
+                {
+                    "text": "\"It's funny that they call it an education center \u2014 it's a resort,\" said Wilson. \"If I was a union member, I would prefer that they rented out a room at the Ramada Inn.\"",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The dismissive tone and comparison to a commercial hotel suggest a strong negative opinion about the center's amenities and the union's priorities, presented without a balanced consideration of the center's educational activities or the potential benefits of such facilities for union members."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the UAW's ownership and management of the Walter and May Reuther Family Education Center, particularly in its portrayal of the center as a wasteful expenditure and a mismanagement of union funds. The biases identified include Word Choice Bias, Opinionated Bias, Mud Praise Bias, Emotional Sensationalism Bias, all of which contribute to a general bias tendency against the UAW's investment in the center."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.5185185185185185,
+            "overall_rating": 0.5592592592592592
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "UPDATE 1-US autoworkers, Chrysler warn against Korea deal",
+        "URL": "UPDATE 1-US autoworkers, Chrysler warn against Korea deal.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "  (Adds South Korean prime minister, paragraph 16-17)      By Doug Palmer      WASHINGTON, Sept 24 (Reuters) - U.S. autoworkers and  troubled automaker Chrysler urged Congress on Wednesday not to  approve a free trade pact with South Korea until it has been  renegotiated to address their concerns.      The deal struck in April 2007 by the Bush administration  'would threaten the jobs of tens of thousands of American  workers, exacerbating the already serious difficulties facing  the U.S. auto industry and its workers and retirees,' said Ron  Gettelfinger, president of the United Auto Workers union.      Gettelfinger told the Senate Commerce Committee the  agreement fails to tear down South Korean regulatory barriers  that have long thwarted sales of U.S. and other foreign cars,  even though South Korea would be required to immediately  eliminate its tariffs on U.S. cars and trucks.      John Bozzella, Chrysler's vice president for external  affairs and public policy, said the agreement 'narrows, but  does not eliminate discrimination against U.S. auto importers'  in South Korea and rewards that country for failing to live up  to previous auto trade deals.      The warnings came on the same day the U.S. House of  Representatives approved $25 billion in loans to help Chrysler,  Ford and General Motors through current hard times. That  legislation now goes to the Senate for a vote.      Last year, South Korea exported 668,000 autos to the United  States, but imported only 6,500 U.S. vehicles      Presidential Democratic candidate Barack Obama has promised  to negotiate the trade deal if elected. His Republican rival  John McCain has urged approval of the pact.           SUPPORT FROM FARM, BUSINESS GROUPS      The agreement enjoys broad support outside the auto sector  from many farm and business groups eager to increase sales in  South Korea's $1 trillion economy.      Myron Brilliant, president of the U.S.-Korea Business  Council, said the pact does tackle many 'non-tariff barriers'  the U.S. auto sector has long complained about.      South Korea also pledged not to 'discourage the purchase or  use of U.S. goods or services -- an important commitment in  light of the past anti-import campaigns in Korea,' he said.      The U.S. International Trade Commission has estimated the  agreement would likely have a 'negligible' effect on overall  U.S. auto trade, Brilliant said.      The independent trade panel forecast auto imports from  South Korea would increase under the pact, but said most gains  would come at the expense of other foreign suppliers.      The Bush administration still hopes lawmakers will approve  the agreement this year in a possible lame duck session of  Congress after the Nov. 4 elections.      Senate Commerce Committee Chairman Bryon Dorgan, a North  Dakota Democrat and foe of Bush administration trade deals,  said lawmakers would not approve the pact in 2008.      'I believe unless it's modified in a very substantial way  it's not going to be approved by any Congress,' Dorgan said.      Speaking to the Asia Society think tank in New York, South  Korean Prime Minister Han Seung-soo said his country still  hoped for the bill's passage -- if necessary in a lame duck  session of Congress after the Nov. 4 election.      'It will be beneficial not only to Korea, but also to the  United States and to the world,' Han said.    (Additonal reporting by Paul Eckert in New York)    ((Editing by Todd Eastham; doug.palmer@reuters.com; +",
+        "Histogram": [
+            0,
+            0.6,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 9.077585220336914,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "The deal struck in April 2007 by the Bush administration 'would threaten the jobs of tens of thousands of American workers, exacerbating the already serious difficulties facing the U.S. auto industry and its workers and retirees,' said Ron Gettelfinger, president of the United Auto Workers union.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence uses emotionally charged language to evoke concern about the impact of the deal on American workers, without providing a balanced or neutral perspective."
+                },
+                {
+                    "text": "John Bozzella, Chrysler's vice president for external affairs and public policy, said the agreement 'narrows, but does not eliminate discrimination against U.S. auto importers' in South Korea and rewards that country for failing to live up to previous auto trade deals.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'discrimination' and the suggestion of 'rewards' without a clear factual basis implies a negative judgment and bias against South Korea in the trade agreement context."
+                },
+                {
+                    "text": "Presidential Democratic candidate Barack Obama has promised to negotiate the trade deal if elected. His Republican rival John McCain has urged approval of the pact.",
+                    "bias_type": "Political Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "This sentence subtly implies a positive stance towards renegotiation by Barack Obama, a Democrat, and a less favorable position by John McCain, a Republican, suggesting a bias based on political affiliations."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the trade deal between the U.S. and South Korea, particularly in its portrayal of the deal's potential impact on American workers and the stance of political figures. The biases identified include Emotional Sensationalism, Word Choice, and Political Bias, indicating a tendency to present the issue in a manner that could influence the reader's perception negatively towards the trade deal."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.5666666666666667,
+            "percentage_of_biased_sentences": 0.10526315789473684,
+            "overall_rating": 0.33596491228070174
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "CAW vows to stay competitive with U.S. auto union",
+        "URL": "CAW vows to stay competitive with U.S. auto union.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    TORONTO, Feb 17 (Reuters) - The Canadian Auto Workers union  said on Tuesday it would find cost cutting measures to remain  competitive with the U.S. arms of General Motors Corp <GM.N> and  Chrysler [CBS.UL] after the companies reached agreements in  principal with the United Autoworkers union.      'We are going to measure what the UAW just recently concluded  in bargaining and then we're going to measure it to what the  Canadian operations are, then we're going to maintain our  competitive advantage,' CAW President Ken Lewenza told reporters.      Lewenza said he did not want to speculate on what the union  might do to save the automakers money. He added that the CAW had  yet to see the terms and conditions the companies need to meet to  qualify for loans from the governments of Canada and the province  of Ontario.      GM and Chrysler are due to present their viability plans to  Ottawa on Friday.      The Detroit-based automakers presented their restructuring  plans to U.S. officials earlier on Tuesday and both asked for more  government funding to stay afloat than originally planned.      For its part, GM said it was looking for up to $30 billion  more in U.S. government aid, while Chrysler was looking for  another $5 billion.      GM said it was working to reach agreements with the UAW and  bondholders to reduce around $47 billion in debt.      GM also said it would cut its U.S. workforce by another 20,000  jobs by 2012, with most of those reductions coming earlier.      Chrysler said it plans to cut its total manpower by 3,000  people in 2009.      Lewenza called for the Canadian government to make sure that  the companies maintain a healthy job count in Canada as a  condition of giving them any loans.      'The only way that you can repay the loans, which we are  committed to do, not just as a company, but as CAW members, is to  have a manufacturing footprint in Canada that is profitable,' he  said.      Chrysler said on Tuesday it planned to start talks with the  CAW next week and GM said it planned to reach a deal on a new  contract with the union by the end of March.   ($1=$1.26 Canadian)   (Reporting by John McCrank)   ((john.mccrank@thomsonreuters.com; +1 416 941 8083; Reuters  Messaging: john.mccrank.reuters.com@reuters.net))  Keywords: AUTOS CANADA/CAW       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 8.589570999145508,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides factual information about the Canadian Auto Workers union's efforts to remain competitive with U.S. auto unions and the actions of General Motors Corp and Chrysler, without displaying any evident bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Canada union acknowledges Oshawa plant to shut",
+        "URL": "Canada union acknowledges Oshawa plant to shut.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By John McCrank      TORONTO, June 26 (Reuters) - Canadian autoworkers  acknowledged that General Motors Corp's <GM.N> decision to  close a Oshawa, Ontario, truck plant next year was irrevocable,  a union leader said on Thursday after a meeting with company  officials.      'Are we accepting it? Eventually, if someone keeps hitting  you over the head with a sledgehammer, you're going to wake  up,' said Buzz Hargrove, president of the Canadian Auto  Workers, said at the union's headquarters.      Hargrove said GM told the union it may decide to build a  new model in its Oshawa car plant, where the new Chevrolet  Camaro muscle car is set to begin production, but he added the  situation looked bleak.      'We talked about putting together an incentive program that  will help with the downsizing of the Oshawa operation over the  next four or five years,' said Hargrove.      The CAW said it would take a couple of weeks to look at the  GM proposal on incentives before responding.      About 2,600 unionized workers will lose their jobs when the  truck plant is closed.      GM's announcement of the closure ignited a firestorm of  protest that included a 12-day blockade of GM Canada's  headquarters. It came just two-weeks after the company signed a  new three-year labor agreement with the union in which it said  it would keep the plant open until at least 2011.      An Ontario judge ordered an end to the blockade, but added  that GM acted with 'almost deceitful behavior' in the contract  negotiations, which could make future bargaining difficult.      The union has not totally given up hope on the fate of the  plant, hoping the cyclical nature of the auto industry will  allow GM to reopen it in the future, said Chris Buckley,  president of CAW Local 222, in Oshawa.      'Their business is changing every month ... so we're hoping  that over the next year or two... things will turn around  somewhat,' he said, saying the union hoped GM could eventually  find a vehicle that could fit into the Oshawa truck plant  without a huge capital expenditure.      'The key is for them not to demolish that facility,' he  said.      GM shares dropped to their lowest in 53 years on Thursday  after Goldman Sachs cut the struggling U.S. auto industry's  largest manufacturer to a 'sell rating' and warned it would  have to raise capital. See [ID:nN26451117]      The housing and credit crises in the United States, along  with the high price of gasoline, has put a big dent in U.S.  auto sales, especially trucks and SUV's.      GM makes the Chevrolet Silverado and the GMC Sierra at the  Oshawa truck plant. It is one of four truck plants in North  America the company said it would shutter to scale back  production.      GM officials left the meeting without speaking to  reporters.   (Editing by Frank McGurty)  ((john.mccrank@thomsonreuters.com; +1 416 941 8083; Reuters  Messaging: john.mccrank.reuters.com@reuters.net))           Keywords: GM/CAW       ",
+        "Histogram": [
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 8.47248649597168,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Are we accepting it? Eventually, if someone keeps hitting you over the head with a sledgehammer, you're going to wake up,' said Buzz Hargrove, president of the Canadian Auto Workers, said at the union's headquarters.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the metaphor 'hitting you over the head with a sledgehammer' to describe the situation implies a strong negative judgment and portrays the decision in a highly aggressive and unjust manner, influencing the reader's perception."
+                },
+                {
+                    "text": "GM's announcement of the closure ignited a firestorm of protest that included a 12-day blockade of GM Canada's headquarters. It came just two-weeks after the company signed a new three-year labor agreement with the union in which it said it would keep the plant open until at least 2011.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The phrase 'ignited a firestorm of protest' and the mention of a '12-day blockade' use emotionally charged language to describe the reaction, emphasizing conflict and drama over a more neutral description of events."
+                },
+                {
+                    "text": "An Ontario judge ordered an end to the blockade, but added that GM acted with 'almost deceitful behavior' in the contract negotiations, which could make future bargaining difficult.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Describing GM's behavior as 'almost deceitful' introduces a negative judgment and implies a lack of honesty or integrity without providing specific evidence, influencing the reader to view GM's actions in a highly negative light."
+                },
+                {
+                    "text": "The union has not totally given up hope on the fate of the plant, hoping the cyclical nature of the auto industry will allow GM to reopen it in the future, said Chris Buckley, president of CAW Local 222, in Oshawa.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of phrases like 'not totally given up hope' and 'hoping the cyclical nature of the auto industry will allow' introduces a sense of uncertainty and pessimism, subtly biasing the reader towards a negative outlook on the plant's future."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias through the use of emotionally charged language and negative word choices, particularly in describing the reactions to GM's decision and the judgments made about GM's behavior. The general bias tendency leans towards portraying the situation in a more negative and conflict-driven light, especially regarding the impact on the workers and the nature of the decision-making processes involved."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.15789473684210525,
+            "overall_rating": 0.3789473684210526
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "GM Ohio union says will fight plant closure",
+        "URL": "GM Ohio union says will fight plant closure.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    CINCINNATI, June 3 (Reuters) - The union representing  autoworkers at the General Motors Corp <GM.N> truck plant in  Moraine, Ohio, said on Tuesday it will fight plans to close the  assembly plant, one of four on the chopping block.      Gaylen Turner, president of IUE-CWA Local 798 representing  some 2,300 current workers at the Moraine plant, said GM's  decision to shutter the plant, announced earlier on Tuesday,  was not a surprise but would be opposed by the union.      'We anticipate having additional meetings, sitting down and  talking about contractual issues, meeting with the  international union to see where we go from here and what can  be done,' Turner said.      'Never never means never. Until they tell me there is no  other chance, I'm going to continue to fight to do what we can  do to keep the place open. I'm going to fight as long as I  can,' he added.      He said the Detroit automaker's decision to close the  Moraine plant is sad but not unanticipated, since it was  already being downsized and lacked product plans after 2010.      'I don't know if you're ever ready for it. People  understood that it was something that could happen. But you  always hold out hope,' Turner said.      GM said on Tuesday it was closing four truck plants and  could sell its Hummer brand to cut its output of slow-selling  trucks and SUVs in response to higher gasoline prices that the  automaker now sees as a permanent threat to its business.      The Moraine plant makes GM's Envoy, Trailblazer and Saab  models. As of Monday, more than 300 workers had accepted  'special attrition packages,' Turner said.      Tony Curington, a union representative for displaced  workers in the area, said the plant closing would only add to  an already stressed economy.      'Some people were hoping they'd keep that facility open.  But now this has sealed their fate,' Curington said. 'You are  going to have a lot of dislocated workers who will be depending  on a lot of social services. There is nowhere for them to turn.  The manufacturing industry has dried up around here. It is  really going to devastate the area.'      GM said the latest steps would cut $1 billion from its  structural costs by 2010, but analysts questioned whether the  steps would improve the automaker's turnaround prospects in the  face of a U.S. market now seen slumping well into 2009.      GM Chief Executive Rick Wagoner said higher gasoline prices  have caused consumers to swap out of higher-margin trucks and  SUVs faster than GM had expected.      'U.S. economic and market conditions have become  significantly more difficult,' he said.      GM shares, which have lost almost 60 percent since peaking  in October last year, were up 29 cents or 1.7 percent at $17.73  in afternoon trading on the New York Stock Exchange.   (Reporting by Carey Gillam and Andrea Hopkins, editing by  Gerald E. McCormick)   ((andrea.hopkins@thomsonreuters.com; +1 513 699 0045; Reuters  Messaging: andrea.hopkins.reuters.com@reuters.net))  Keywords: GM/OHIO       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 8.15672492980957,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a straightforward report on the union's response to the General Motors plant closure in Ohio without exhibiting any evident bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "UPDATE 1-Angry union members blockade GM Canada head office",
+        "URL": "UPDATE 1-Angry union members blockade GM Canada head office.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": " (Adds details, comments, background)      OSHAWA, Ontario, June 4 (Reuters) - Hundreds of angry  autoworkers blockaded the entrance to General Motors of  Canada's <GM.N> headquarters in Oshawa, Ontario, on Wednesday,  demanding the company reverse its decision to close the local  truck plant and crying foul over the timing of the closure.      'We're not allowing any GM of Canada employees to enter the  headquarters building,' said Chris Buckley, of the Canadian  Auto Workers union, which says 2,600 jobs will go if the truck  plant closes.      'We are going to stay here until General Motors reverses  the decision they made yesterday, or at the very least commits  to a product for the Oshawa truck plant, or sits down  face-to-face with this union to try to explain why they have  broken our brand new agreement.'      GM said it would meet with the union in Detroit on Friday.      The company announced on Tuesday it would closed the Oshawa  plant, and three others in North America, as it tries to shore  up a restructuring plan that has been overtaken by a steep  decline in U.S. sales of pickup trucks and SUVs in the face of  surging gas prices and tight credit.      Two truck plants in the United States and one in Mexico are  also slated to close.      Up to 750 people, many clad in red T-shirts emblazoned with  a white maple leaf and the words 'Made in Canada matters',  peacefully blocked the road leading to GM's Canadian  headquarters.      'I feel sick about this situation and all I can do is  visualize GM workers on the welfare line,' said Jim Bedford, a  retired GM employee from nearby Bowmanville, Ontario.           BARGAINING FAITH QUESTIONED      The CAW, which has around 13,000 members at GM, says the  closure of the Oshawa plant is a betrayal. GM and the CAW  signed a new three-year labor agreement on May 15 that included  a wage freeze and a promise by GM to boost production in Canada  rather than cut it.      Under that deal, GM said it would start producing hybrid  versions of two of its trucks at the Oshawa plant.      The plant currently produces the Chevrolet Silverado and  the GMC Sierra crew-cab and extended-cab pickup trucks, which  GM Canada spokesman Stew Low said are taking the biggest hit of  GM's products in the U.S.      He said the hybrid versions of the Silverado and Sierra  would still be built and rolled out at the end of the year, but  at other plants, either in the United States or in Mexico.      Auto analyst Dennis DesRosiers said in a note that the  final decision to close the Oshawa plant probably had not yet  been made during the bargaining, but the company most likely  had an idea of what it wanted to do.      'The real reason is that they didn't have to and it would  weaken their position in the labor talks ... And why would GM  provide him (CAW President Buzz Hargrove) this information  which would only have strengthened the CAW position and  hardened the resolve of the CAW.'           U.S. CONSUMERS WANT FUEL ECONOMY      GM's Low said the closure boils down to a rapid shift in  customer demand away from larger gas-guzzlers as pump prices  surged to record levels.      'Our main customer is the U.S. and there is a huge and very  drastic shift away from trucks and SUVs and we have to react to  that because we can't continue to buy vehicles that people  aren't buying,' Low said.      U.S. auto sales figures released on Tuesday showed GM truck  sales were down 39 percent in May from a year earlier. Sa",
+        "Histogram": [
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 7.347665309906006,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "'We're not allowing any GM of Canada employees to enter the  headquarters building,' said Chris Buckley, of the Canadian  Auto Workers union, which says 2,600 jobs will go if the truck  plant closes.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'We're not allowing' carries a negative connotation, implying a forceful or aggressive action by the union, which could influence the reader's perception negatively towards the union's stance."
+                },
+                {
+                    "text": "'We are going to stay here until General Motors reverses  the decision they made yesterday, or at the very least commits  to a product for the Oshawa truck plant, or sits down  face-to-face with this union to try to explain why they have  broken our brand new agreement.'",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The statement uses emotionally charged language ('at the very least commits', 'broken our brand new agreement') to evoke a strong response, potentially overshadowing a more balanced discussion of the issues."
+                },
+                {
+                    "text": "'I feel sick about this situation and all I can do is  visualize GM workers on the welfare line,' said Jim Bedford, a  retired GM employee from nearby Bowmanville, Ontario.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'I feel sick about this situation' and the vivid imagery of 'GM workers on the welfare line' are designed to evoke a strong emotional response, potentially biasing the reader's perception of the situation."
+                },
+                {
+                    "text": "BARGAINING FAITH QUESTIONED      The CAW, which has around 13,000 members at GM, says the  closure of the Oshawa plant is a betrayal. GM and the CAW  signed a new three-year labor agreement on May 15 that included  a wage freeze and a promise by GM to boost production in Canada  rather than cut it.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Describing the closure as a 'betrayal' introduces a strong negative connotation and implies a moral failing on the part of GM, potentially biasing the reader against the company."
+                },
+                {
+                    "text": "Auto analyst Dennis DesRosiers said in a note that the  final decision to close the Oshawa plant probably had not yet  been made during the bargaining, but the company most likely  had an idea of what it wanted to do.      'The real reason is that they didn't have to and it would  weaken their position in the labor talks ... And why would GM  provide him (CAW President Buzz Hargrove) this information  which would only have strengthened the CAW position and  hardened the resolve of the CAW.'",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The analyst's statement speculates on GM's motives and actions during the bargaining process, suggesting without evidence that GM withheld information to manipulate the labor union, which could bias the reader's perception against GM."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the GM plant closure issue, particularly through the use of word choice and emotional sensationalism, which could influence the reader's perception of the situation and the parties involved."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.3157894736842105,
+            "overall_rating": 0.45789473684210524
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "UPDATE 2-Angry union members blockade GM Canada head office",
+        "URL": "UPDATE 2-Angry union members blockade GM Canada head office.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": " (Adds finance minister's comments in final three paragraphs)      OSHAWA, Ontario, June 4 (Reuters) - Hundreds of angry  autoworkers blockaded the entrance to General Motors of  Canada's <GM.N> headquarters in Oshawa, Ontario, on Wednesday,  demanding the company reverse its decision to close the local  truck plant and crying foul over the timing of the closure.      'We're not allowing any GM of Canada employees to enter the  headquarters building,' said Chris Buckley, of the Canadian  Auto Workers union, which says 2,600 jobs will go if the truck  plant closes.      'We are going to stay here until General Motors reverses  the decision they made yesterday, or at the very least commits  to a product for the Oshawa truck plant, or sits down  face-to-face with this union to try to explain why they have  broken our brand new agreement.'      GM said it would meet with the union in Detroit on Friday.      The company announced on Tuesday it would closed the Oshawa  plant, and three others in North America, as it tries to shore  up a restructuring plan that has been overtaken by a steep  decline in U.S. sales of pickup trucks and SUVs in the face of  surging gas prices and tight credit.      Two truck plants in the United States and one in Mexico are  also slated to close.      Up to 750 people, many clad in red T-shirts emblazoned with  a white maple leaf and the words 'Made in Canada matters',  peacefully blocked the road leading to GM's Canadian  headquarters.      'I feel sick about this situation and all I can do is  visualize GM workers on the welfare line,' said Jim Bedford, a  retired GM employee from nearby Bowmanville, Ontario.           BARGAINING FAITH QUESTIONED      The CAW, which has around 13,000 members at GM, says the  closure of the Oshawa plant is a betrayal. GM and the CAW  signed a new three-year labor agreement on May 15 that included  a wage freeze and a promise by GM to boost production in Canada  rather than cut it.      Under that deal, GM said it would start producing hybrid  versions of two of its trucks at the Oshawa plant.      The plant currently produces the Chevrolet Silverado and  the GMC Sierra crew-cab and extended-cab pickup trucks, which  GM Canada spokesman Stew Low said are taking the biggest hit of  GM's products in the United States.      He said the hybrid versions of the Silverado and Sierra  would still be built and rolled out at the end of the year, but  at other plants, either in the United States or in Mexico.      Auto analyst Dennis DesRosiers said in a note that the  final decision to close the Oshawa plant probably had not yet  been made during the bargaining, but the company most likely  had an idea of what it wanted to do.      'The real reason is that they didn't have to and it would  weaken their position in the labor talks ... And why would GM  provide (CAW President Buzz Hargrove) this information which  would only have strengthened the CAW position and hardened the  resolve of the CAW.'           U.S. CONSUMERS WANT FUEL ECONOMY      GM's Low said the closure boils down to a rapid shift in  customer demand away from larger gas-guzzlers as pump prices  surged to record levels.      'Our main customer is the U.S. and there is a huge and very  drastic shift away from trucks and SUVs and we have to react to  that because we can't continue to buy vehicles that people  aren't buying,' Low said.      U.S. auto sales figures released on Tuesday showed GM truck  sales were down 39 percent ",
+        "Histogram": [
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 7.347665309906006,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "'We're not allowing any GM of Canada employees to enter the  headquarters building,' said Chris Buckley, of the Canadian  Auto Workers union, which says 2,600 jobs will go if the truck  plant closes.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'We're not allowing' carries a negative connotation, implying a forceful or aggressive action by the union, which could influence the reader's perception negatively towards the union's stance."
+                },
+                {
+                    "text": "'We are going to stay here until General Motors reverses  the decision they made yesterday, or at the very least commits  to a product for the Oshawa truck plant, or sits down  face-to-face with this union to try to explain why they have  broken our brand new agreement.'",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The statement uses emotionally charged language ('at the very least commits', 'broken our brand new agreement') to evoke a strong response, potentially overshadowing a more balanced discussion of the issues."
+                },
+                {
+                    "text": "'I feel sick about this situation and all I can do is  visualize GM workers on the welfare line,' said Jim Bedford, a  retired GM employee from nearby Bowmanville, Ontario.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'I feel sick about this situation' and the vivid imagery of 'GM workers on the welfare line' are designed to evoke a strong emotional response, potentially biasing the reader's perception of the situation."
+                },
+                {
+                    "text": "The CAW, which has around 13,000 members at GM, says the  closure of the Oshawa plant is a betrayal. GM and the CAW  signed a new three-year labor agreement on May 15 that included  a wage freeze and a promise by GM to boost production in Canada  rather than cut it.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Describing the closure as a 'betrayal' implies a deliberate breaking of trust or faith, which could bias the reader against GM without presenting a balanced view of the complex business decisions involved."
+                },
+                {
+                    "text": "Auto analyst Dennis DesRosiers said in a note that the  final decision to close the Oshawa plant probably had not yet  been made during the bargaining, but the company most likely  had an idea of what it wanted to do.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence speculates on the timing of the decision to close the plant, suggesting that GM 'most likely had an idea' during bargaining. Such speculation can bias the reader by implying foreknowledge and undermining the complexity of business decision-making."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the closure of the GM Oshawa plant, with instances of Word Choice Bias, Emotional Sensationalism Bias, and Speculation Bias. The biases are directed towards evoking a negative perception of GM's actions and decisions, particularly in the context of labor agreements and the impact on workers."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.2222222222222222,
+            "overall_rating": 0.4111111111111111
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "GM restructuring may make bonds best bet-Barron's",
+        "URL": "GM restructuring may make bonds best bet-Barron's.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    NEW YORK, Dec 21 (Reuters) - A forced restructuring at  General Motors Corp <GM.N> could make the U.S. automaker's debt  appealing, according to weekly business newspaper Barron's in  its Dec. 22 edition.      The report said that under a U.S. government bailout, which  requires the automaker take steps to ensure its viability, GM  may renegotiate some debt and trim pay and benefits for its  union-member autoworkers. The report cited employee costs as  hurting bondholders and shareholders in the past.      'There could be value in GM bonds if the company  restructures,' the report said. Still, there are risks,  especially if there was a future bankruptcy, which could  drastically lower any recovery value.      GM unsecured debt rallied on Friday after GM and Chrysler  LLC [CBS.UL] were extended a $17.4 billion lifeline by the  United States. Rival Ford Motor Co <F.N> said it did not at  this time need federal funds.   (Reporting by Lilla Zuill, editing by Maureen Bavdek)   ((lilla.zuill@thomsonreuters.com;+1 646 223 6281))  Keywords: GM/BONDS       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 6.837995529174805,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to exhibit bias. It provides a straightforward report on the potential impact of GM's restructuring on its bonds, discussing the factors that could make the company's debt appealing to investors. The information is presented in a factual manner without the inclusion of subjective opinions, speculative claims, or emotionally charged language."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "TNT reaches wage deal with union - union spokesman",
+        "URL": "TNT reaches wage deal with union - union spokesman.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    AMSTERDAM, May 23 (Reuters) - Dutch mail company TNT NV  <TNT.AS> and its union have reached a wage deal that will see  workers call off a countrywide strike next week, a union  spokesman told ANP-Reuters on Friday.      Workers had launched a series of rolling strikes in various  cities since last month to back their demand for a 3.5 percent  pay rise, which would have culminated in a national strike on  May 28.      The spokesman for the CNV trade union, Jan Spijk declined to  provide details.      TNT, Europe's second-largest mail company, is seeking to cut  costs as rivals grab market share in its lucrative home market.  It aims to save 395 million euros in costs between 2007 and  2015.   (Reporting by Inge de de Brouwer)   ((foo.yunchee@reuters.com; tel +31 20 504 5012; Reuters  Messaging: foo.yunchee.reuters.com@reuters.net))    Keywords: TNT/UNION        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 6.814979076385498,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports on a wage deal between TNT NV and its union without introducing any subjective or misleading information."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Machinist union in tenative deal with Boeing - union",
+        "URL": "Machinist union in tenative deal with Boeing - union.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    NEW YORK, Oct 27 (Reuters) - The union representing  striking machinists at Boeing <BA.N> on Monday said the two  sides have reached a tentative deal and the union will hold a  vote this week.      The International Association of Machinists and Aerospace  Workers (IAM) said it reached a tentative agreement with Boeing  Co <BA.N>, which could mean the end of the strike that began on  Sept. 6.      The specific Boeing representative, who would be  knowledgeable about the deal, could not be reached immediately  for comment.      The tentative four-year contract would provide job security  and limit the amount of work outside vendors can perform in the  workplace, the union said.      The agreement was hammered out over a five-day period with  assistance from federal mediators.      Among the other issues resolved in the latest round of  bargaining were wage rates, health care benefits for current  and future employees, pension improvements and work rule  changes designed to improve productivity, the union said in a  statement.      The union said that details of the accord would be withheld  until they can be compiled and distributed to IAM members in  all Boeing locations.      The tentative agreement has the unanimous endorsement of  the IAM negotiating committee and will be presented to members  for a ratification vote, which will take place in three to five  days. A simple majority is required to ratify the tentative  agreement, the union said.      The IAM represents nearly 27,000 employees at Boeing  facilities in Kansas, Oregon and Washington and California.      (Reporting by Ilaina Jonas; Editing by Bernard Orr)   ((ilaina.jonas@thomsonreuters.com ; +1 646 223 6193; Reuters  Messaging: ilaina.jonas.reuters.com@reuters.net ))    Keywords: BOEING/       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 6.777589321136475,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports factual information about the tentative deal between the machinist union and Boeing without employing any of the common bias types."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Potash Corp, union begin \"critical\" talks -union",
+        "URL": "Potash Corp, union begin \"critical\" talks -union.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WINNIPEG, Manitoba, Aug 7 (Reuters) - A mediator brought  together officials from Potash Corp of Saskatchewan <POT.TO>  and the United Steelworkers union on Thursday for what a union  spokesman said were pivotal talks on a contract dispute at  three mines.      'This meeting is really crucial,' said Roger Falconer of  the United Steelworkers ahead of the face-to-face talks, adding  he was hopeful mediator Vic Pathe would help broker a deal.      About 500 workers at the Saskatchewan mines have rejected a  contract offer from Potash Corp, the world's largest fertilizer  maker. They are refusing to work overtime, but the only strike  to date has been a one-day stoppage at a single mine.      Potash Corp is reaping record profits from the world's  insatiable demand for fertilizer to boost yields of pricey  crops, leaving the company and its competitors essentially sold  out of potash at a time of sky-high prices.      Potash stock was down 31 Canadian cents at C$188.99 on the  Toronto Stock Exchange on Thursday.      The stock plunged earlier this week to four-month lows  following a broad sell-off in commodity markets. But it is  still more than double what it was last year.      Union members have said they want a bigger share of the  profits, and the market conditions give them a strong  bargaining position, Falconer said.      'The company has to realize it's not dealing with the same  set of circumstances they have in the last four or five sets of  bargaining' talks, he said.      A spokesman for the company declined comment on Thursday's  meeting. 'I would simply say that the mediation process is  ongoing,' Bill Johnson said.      If there is not significant movement toward a deal at the  meeting, union members were prepared to begin strikes that  could affect the company's production, Falconer said.      'I can tell you categorically that our members are ready to  hit the picket lines immediately,' he said.      The union staged a one-day strike last week at one of the  mines, but have since worked all but overtime hours after their  union and the company resumed talks. Mediator Pathe has met  with both sides separately since Monday.      The company has said the offer rejected by workers would be  the richest in the potash industry. Neither side has commented  on specifics in the offer, but media reports have said it would  boost pay by 27 to 35.6 percent over three years at one mine.      ($1=$1.05 Canadian)   (Reporting by Roberta Rampton; editing by Janet Guttsman)   ((roberta.rampton@thomsonreuters.com; +1 204 947 3548; Reuters  Messaging: roberta.rampton.reuters.com@reuters.net))  Keywords: POTASHCORP/       ",
+        "Histogram": [
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 6.704543113708496,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "'This meeting is really crucial,' said Roger Falconer of the United Steelworkers ahead of the face-to-face talks, adding he was hopeful mediator Vic Pathe would help broker a deal.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'crucial' and the emphasis on the hopefulness of the mediator's role are designed to evoke strong emotions and emphasize the significance of the meeting, potentially at the expense of a more balanced perspective."
+                },
+                {
+                    "text": "About 500 workers at the Saskatchewan mines have rejected a contract offer from Potash Corp, the world's largest fertilizer maker. They are refusing to work overtime, but the only strike to date has been a one-day stoppage at a single mine.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The phrase 'the world's largest fertilizer maker' and the emphasis on the number of workers and the scale of the company may imply a judgment about the company's significance and power, potentially influencing the reader's perception."
+                },
+                {
+                    "text": "Potash Corp is reaping record profits from the world's insatiable demand for fertilizer to boost yields of pricey crops, leaving the company and its competitors essentially sold out of potash at a time of sky-high prices.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of phrases like 'reaping record profits' and 'insatiable demand' with a positive connotation, and 'sky-high prices' with a negative connotation, could influence the reader's perception of the company's position and the market conditions."
+                },
+                {
+                    "text": "Union members have said they want a bigger share of the profits, and the market conditions give them a strong bargaining position, Falconer said.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence presents the union's position and the market conditions in a way that implies a judgment about the fairness of the union's demands and the strength of their bargaining position, without providing a balanced perspective."
+                },
+                {
+                    "text": "'The company has to realize it's not dealing with the same set of circumstances they have in the last four or five sets of bargaining' talks, he said.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This statement implies a judgment about the company's understanding or lack thereof regarding the changing circumstances, suggesting a biased perspective on the company's position in the negotiations."
+                },
+                {
+                    "text": "A spokesman for the company declined comment on Thursday's meeting. 'I would simply say that the mediation process is ongoing,' Bill Johnson said.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'I would simply say' and the brevity of the response may imply a dismissive or uncooperative attitude on the part of the company, potentially influencing the reader's perception of the company's stance."
+                },
+                {
+                    "text": "If there is not significant movement toward a deal at the meeting, union members were prepared to begin strikes that could affect the company's production, Falconer said.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'significant movement' and the potential impact on the company's production are highlighted in a way that could evoke concern or alarm, emphasizing the stakes of the negotiation in a sensational manner."
+                },
+                {
+                    "text": "The union staged a one-day strike last week at one of the mines, but have since worked all but overtime hours after their union and the company resumed talks. Mediator Pathe has met with both sides separately since Monday.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The detailed account of the strike and the subsequent negotiations, along with the mediator's involvement, may subtly imply a narrative of progress and cooperation, potentially influencing the reader's perception of the situation."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the labor dispute between Potash Corp and the United Steelworkers union, with a tendency towards emotional sensationalism, word choice, and opinionated perspectives that could influence the reader's perception of the negotiations and the parties involved."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.2631578947368421,
+            "overall_rating": 0.43157894736842106
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "British refinery managers to meet union-union source",
+        "URL": "British refinery managers to meet union-union source.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    LONDON, April 21 (Reuters) - The trades union at Scotland's  Grangemouth refinery, which has threatened to disrupt Britain's  energy supplies with a strike this weekend over pensions, will  meet refinery management tonight for talks, a union source said  on Monday.      'The union is meeting the company later this evening,' the  source said.       'The plant is in the process of beginning to shut down. They  are reducing crude throughput.'      The source said the refinery, operated by petrochemicals  firm Ineos, has a total of three crude distillation units, one  large and two smaller, which process crude oil for further  refining into motor fuels and materials for petchem production.      One of the two smaller units is being shut, while the other  two remain in operation, the source said.    (Reporting by Margaret Orgill/ Meliss Akin)   ((Tel +44 207 542 8978; Email: melissa.akin@reuters.com;  Reuters messaging: melissa.akin.reuters.com@reuters.net))    Keywords: BRITAIN GRANGEMOUTH/TALKS        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 6.636782169342041,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides factual information about the meeting between the trades union at Scotland's Grangemouth refinery and the refinery management regarding a potential strike over pensions, without exhibiting any bias towards a particular viewpoint or group."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Viterra, union to talks as strike spreads-union",
+        "URL": "Viterra, union to talks as strike spreads-union.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WINNIPEG, Manitoba, Sept 11 (Reuters) - Canadian grain  handler Viterra Inc <VT.TO> was slated to hold mediated  contract talks with grain and office workers beginning on  Thursday, the company and the Grain Services Union said.      Unionized workers at the company's head office in Regina,  Saskatchewan have been on strike over wages and benefits since  early July.      Grain handlers warned the company they would begin  escalating action during harvest, and now have picket lines at  four country locations, the union said in an update to its  members on its web site.      The affected sites include Balgonie, the Moose Jaw seed  plant, Shaunavon and Swift Current. A company spokesman was not  immediately able to confirm the affected sites.      Viterra was slated to meet with a federal mediator and the  bargaining committee for operations and maintenance workers  later in the day, with talks expanding on Friday to include  representatives of the office workers, the union said.      A union spokesman was not immediately available for  comment.      Viterra, which reported stronger-than-expected quarterly  profits on Wednesday, has said the strike has had little impact  on its operations to date and said it expected to keep  elevators running during harvest.      More than 600 of its elevator workers are in a legal strike  position along with about 200 office workers. Viterra has a  total work force of about 4,000.   (Reporting by Roberta Rampton; Editing by Scott Anderson)   ((roberta.rampton@thomsonreuters.com; +1 204 947 3548; Reuters  Messaging: roberta.rampton.reuters.com@reuters.net))  Keywords: VITERRA STRIKE/       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 6.603997707366943,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual report on the contract talks and strike involving Viterra Inc and the Grain Services Union without exhibiting any evident bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "TEXT-Moody's on Union Fenosa SA, Union Fenosa Finance BV",
+        "URL": "TEXT-Moody's on Union Fenosa SA, Union Fenosa Finance BV.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": " (The following statement was released by the ratings agency)      June 9 - Moody's Investors Service has today upgraded to A3  from Baa1 the senior unsecured issuer and debt ratings of Union  Fenosa SA <UNF.MC> and its guaranteed subsidiary Union Fenosa  Finance BV. The outlook is stable. The Prime-2 short-term rating  is affirmed.      The rating upgrade recognises the company's steady progress  in improving and stabilising its business and financial risk  profile and Moody's view that the company will continue to  maintain a credit profile commensurate with an A3 rating over the  medium term.      According to Moody's, Union Fenosa has demonstrated a strong  track record on delivering against its strategic plan and its  improvement in business risk has been achieved through timely  execution of its capex plans and the strategic alliances it has  formed, whilst its financial profile has improved and stabilised  via asset divestments and cash flow growth. The company today  maintains a sound position within the Spanish electricity sector  with a market share of around 13%, benefiting from its vertically  integrated position and a well-hedged thermal generation  portfolio with favourable gas contracts. Moody's also believes  that the recent acquisition of a stake in the Kangra mine in  South Africa should help Union Fenosa in hedging its coal-fired  assets.      The company has an efficient generation portfolio, but is  nonetheless exposed to greater commodity price risk than its  larger Iberian peers given its greater thermal generation bias  and mid-market gas position. Moody's cautions that a degree of  overcapacity in the Spanish electricity sector  -  particularly  if some competitors make further large investments in generation   -  could lead to greater pricing volatility, which might have an  adverse impact on the company's margins. Around 25-30% of Union  Fenosa's EBITDA comes from higher-risk international business,  although Moody's does not expect this to substantially increase  in the intermediate term.      Union Fenosa's financial profile is expected to gradually  improve over the life of the strategic plan to 2011 based on its  current EUR6.1 billion investment programme. Moody's would expect  Union Fenosa to continue to demonstrate financial discipline with  regard to further investments or acquisitions outside of the  plan. As a result, the company should be able to maintain the  following credit metrics: RCF/adjusted debt in the mid-teens,  FFO/debt in the high teens/low twenties and FFO/interest of 4x,  assuming a similar business risk profile, for the current A3  category. These guidelines could shift higher or lower in the  event that the company makes riskier or less risky investments,  respectively, outside its current strategic plan.      Moody's notes that Union Fenosa's controlling shareholder  ACS, with 45%, also owns a direct 7.8% stake in Iberdrola (and an  additional 5.2% via equity swaps) and has commented that it would  envisage Union Fenosa playing a role in any further consolidation  of the Spanish utility sector. Should such a development occur  involving further asset acquisition, Moody's would expect that a  larger market share and a more diversified generation portfolio  could benefit Union Fenosa's business risk profile. Moody's  further expects that in such circumstances the company would  ensure that an appropriate financial profile is achieved  commensurate with the current rating.      The rat",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 6.521731376647949,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to exhibit bias as it primarily presents factual information and analysis regarding the credit rating upgrade of Union Fenosa SA and Union Fenosa Finance BV by Moody's Investors Service."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    }
+]

@@ -1,0 +1,765 @@
+[
+    {
+        "Title": "Weather Channel Founder Blasts Gore Over Global Warming Campaign.txt",
+        "URL": "Weather Channel Founder Blasts Gore Over Global Warming Campaign.txt.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/240px-Fox_News_Channel_logo.svg.png",
+        "Text": "The founder of the Weather Channel is ridiculing Al Gore over his calls for action on global climate change, saying in a column that global warming is a \"hoax\" and \"bad science.\"\n\nJohn Coleman, now a weatherman at San Diego's KUSI, wrote on his station's Web site Wednesday that Gore refuses to acknowledge the faulty research on which the idea of global warming is based.\n\nColeman's lengthy scolding came as the former vice president and Nobel Peace Prize winner addressed the Senate Foreign Relations Committee and urged lawmakers to pass a bill that would put caps on heat-trapping gases and take the lead on a global climate treaty.\n\nColeman wrote that the Environmental Protection Agency is \"on the verge\" of naming CO2 (carbon dioxide) as a pollutant, and that seemingly all of Washington is on board with such CO2 silliness.\"\n\n\"I am totally convinced there is no scientific basis for any of it,\" Coleman wrote, describing the decades-old theory that increasing the amount of carbon dioxide in Earth's atmosphere leads to global warming.\n\n\"Global Warming. It is the hoax. It is bad science. It is a high jacking of public policy. It is no joke. It is the greatest scam in history,\" Coleman wrote.\n\nClick here to read about Gore's comments on Capitol Hill.\n\nClick here to read Coleman's column.",
+        "Histogram": [
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0,
+            0
+        ],
+        "Relevance": 9.860694885253906,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "The founder of the Weather Channel is ridiculing Al Gore over his calls for action on global climate change, saying in a column that global warming is a \"hoax\" and \"bad science.\"",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence attacks Al Gore's character and the legitimacy of his stance on global climate change by labeling it as a 'hoax' and 'bad science' without addressing the substance of his arguments."
+                },
+                {
+                    "text": "Coleman's lengthy scolding came as the former vice president and Nobel Peace Prize winner addressed the Senate Foreign Relations Committee and urged lawmakers to pass a bill that would put caps on heat-trapping gases and take the lead on a global climate treaty.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'lengthy scolding' to describe Coleman's critique of Al Gore's efforts to address global climate change implies a judgmental and dismissive tone, suggesting that Coleman's disagreement is more about personal disapproval than a substantive critique."
+                },
+                {
+                    "text": "Coleman wrote that the Environmental Protection Agency is \"on the verge\" of naming CO2 (carbon dioxide) as a pollutant, and that seemingly all of Washington is on board with such CO2 silliness.\"",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Describing the EPA's consideration of CO2 as a pollutant as 'CO2 silliness' employs a dismissive and derogatory tone, undermining the seriousness of the environmental and scientific discussions surrounding the impact of carbon dioxide emissions."
+                },
+                {
+                    "text": "\"I am totally convinced there is no scientific basis for any of it,\" Coleman wrote, describing the decades-old theory that increasing the amount of carbon dioxide in Earth's atmosphere leads to global warming.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This statement presents Coleman's personal conviction as a definitive refutation of the scientific basis for global warming, blurring the line between objective analysis and subjective opinion."
+                },
+                {
+                    "text": "\"Global Warming. It is the hoax. It is bad science. It is a high jacking of public policy. It is no joke. It is the greatest scam in history,\" Coleman wrote.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 1.0,
+                    "bias_description": "The use of hyperbolic language such as 'hoax,' 'bad science,' 'high jacking of public policy,' and 'the greatest scam in history' is designed to evoke strong emotions and sensationalize the issue of global warming, lacking a balanced and objective perspective."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article is biased against the concept of global warming and the efforts to address it, employing a range of biases including Ad Hominem, Word Choice, Opinionated, and Emotional Sensationalism biases to discredit the scientific basis and policy initiatives related to global climate change."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6799999999999999,
+            "percentage_of_biased_sentences": 0.6923076923076923,
+            "overall_rating": 0.6861538461538461
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Weather risk hedging seen boosting global economy",
+        "URL": "Weather risk hedging seen boosting global economy.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Gary Crosse      NEW YORK, Aug 26 (Reuters) - Insuring against weather-related  calamity in this era of global warming might seem the work of bean  counters and actuaries.      But a study by WeatherBill, an Internet firm offering  weather-related risk cover for individuals, as well as companies and  governments, says the global economy could expand by up to $258  billion if such contracts were more widely purchased.      It calculated country rankings using three types of weighted  data, including weather observations by country, national GDP by  sector and weather elasticity, or sector-specific sensitivity to  weather.      Among the 68 countries in the study, the U.S. economy ranks  nearly last overall using those three measures, but was listed with  the highest weather sensitivity in dollar terms.      'The United States' economy has a total weather sensitivity of  roughly $2.5 trillion, 23 percent of the national economy,'  WeatherBill CEO and founder David Friedberg said. 'In contrast,  Bolivia has a total weather sensitivity of just over $2 billion.  That's 31 percent of the Bolivian economy.'      Customers large or small can create a contract and determine  under what weather conditions they would like to be compensated. The  contracts are purchased online to protect against weather events  such as heavy rains, frost or drought.      In the United States, customers range from professional golf  tour organizers to travel operators to small farmers.      Friedberg, who was formerly with Google <GOOG.O>, told Reuters  the company was selling contracts to corn farmers in the Midwest,  who suffered heavy flooding earlier this year.      With federal crop insurance coverage set to expire at the end of  this month, 'these farmers have corn on the ground and are not  covered for a frost event for the rest of the season and some might  have corn through late October,' he said.      'We're seeing a lot of corn farmers buying coverage from us for  frost from Illinois, Iowa and Minnesota.'           MAKING MILLIONS      As a privately held company, WeatherBill does not issue  financial statements, but the CEO said it had 'made millions of  dollars hedging hundreds of millions of dollars in risk.'      In the report, WeatherBill says countries with more extreme  variations in temperatures as well as higher extractive activity,  such as farming and mining, are the most sensitive.      Brazil, the world's largest coffee and sugar producer, ranked  top among the 68 economies assessed for weather-related risks while  Pakistan's economy ranks the least sensitive.      The study said Brazil was 30 times more vulnerable to weather  risks than Pakistan, which 'means that a dollar in Brazil will be  thirty times more weather-sensitive than a dollar in Pakistan,'  WeatherBill said.      The market for weather derivatives, as such contracts are also  called, was started by now collapsed energy giant Enron about 10  years ago, Friedberg said, but never broadened much outside of the  energy utility sector.      As a result, he said that WeatherBill has so far not seen any  direct competition online.      'We're primarily a technology company and we've built a platform  that allows us to write any sort of weather contract for any sort of  business to protect against their specific risks,' he said. 'We're  really trying to bring these products to the masses.'      Hedging usually involves taking a position in a futures market  that offsets a simila",
+        "Histogram": [
+            0,
+            0,
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.4,
+            0.4,
+            0,
+            0,
+            0,
+            0.5,
+            0.6,
+            0.5,
+            0,
+            0.7,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 9.782815933227539,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "But a study by WeatherBill, an Internet firm offering weather-related risk cover for individuals, as well as companies and governments, says the global economy could expand by up to $258 billion if such contracts were more widely purchased.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence engages in speculation about the potential impact on the global economy, based on conjecture about the outcomes of wider purchase of weather-related risk cover, rather than relying on concrete facts and definitive evidence."
+                },
+                {
+                    "text": "It calculated country rankings using three types of weighted data, including weather observations by country, national GDP by sector and weather elasticity, or sector-specific sensitivity to weather.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'calculated' implies an objective process, but the sentence describes a methodology that involves subjective judgments and interpretations, blurring the line between fact and personal perspective."
+                },
+                {
+                    "text": "'The United States' economy has a total weather sensitivity of roughly $2.5 trillion, 23 percent of the national economy,' WeatherBill CEO and founder David Friedberg said. 'In contrast, Bolivia has a total weather sensitivity of just over $2 billion. That's 31 percent of the Bolivian economy.'",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The comparison using terms like 'just over' for Bolivia's figure and 'roughly' for the U.S.'s figure, along with the juxtaposition of percentages, implies a judgment about the significance of these numbers, influencing perceptions."
+                },
+                {
+                    "text": "Customers large or small can create a contract and determine under what weather conditions they would like to be compensated. The contracts are purchased online to protect against weather events such as heavy rains, frost or drought.",
+                    "bias_type": "Commercial Bias",
+                    "bias_strength": 0.4,
+                    "bias_description": "This sentence promotes the service offered by WeatherBill by emphasizing the ease and accessibility of purchasing contracts online, suggesting a commercial interest in portraying this process as straightforward and beneficial."
+                },
+                {
+                    "text": "With federal crop insurance coverage set to expire at the end of this month, 'these farmers have corn on the ground and are not covered for a frost event for the rest of the season and some might have corn through late October,' he said. 'We're seeing a lot of corn farmers buying coverage from us for frost from Illinois, Iowa and Minnesota.'",
+                    "bias_type": "Anecdotal Evidence Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "The focus on 'a lot of corn farmers' buying coverage for specific weather events in certain states relies on individual stories rather than considering broader and more representative evidence of the impact and necessity of such coverage."
+                },
+                {
+                    "text": "As a privately held company, WeatherBill does not issue financial statements, but the CEO said it had 'made millions of dollars hedging hundreds of millions of dollars in risk.'",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'made millions of dollars' and 'hundreds of millions of dollars in risk' employs strong adjectives and large numbers to imply success and scale, influencing the reader's perception of the company's performance."
+                },
+                {
+                    "text": "In the report, WeatherBill says countries with more extreme variations in temperatures as well as higher extractive activity, such as farming and mining, are the most sensitive.",
+                    "bias_type": "Generalization Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "This statement generalizes the sensitivity of countries to weather risks based on broad characteristics, potentially oversimplifying the complex factors that contribute to a country's vulnerability."
+                },
+                {
+                    "text": "The study said Brazil was 30 times more vulnerable to weather risks than Pakistan, which 'means that a dollar in Brazil will be thirty times more weather-sensitive than a dollar in Pakistan,' WeatherBill said.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.7,
+                    "bias_description": "The assertion that Brazil is thirty times more vulnerable to weather risks than Pakistan oversimplifies the relationship between weather and economic impact, implying a direct and absolute causal relationship without sufficient evidence."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the promotion and implications of weather risk hedging, with a general tendency towards using speculative, opinionated, and commercially oriented language to influence the reader's perception of the significance and benefits of such hedging strategies."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.5625,
+            "percentage_of_biased_sentences": 0.4090909090909091,
+            "overall_rating": 0.4857954545454546
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Space agency satellites to monitor climate change",
+        "URL": "Space agency satellites to monitor climate change.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    GENEVA, Jan 18 (Reuters) - Space agencies including NASA  have agreed to use their next generation of satellites to help  monitor climate change, the United Nations weather agency said.      The consensus came at a high-level meeting this week in New  Orleans, the World Meteorological Organisation (WMO) said.      'High-tech efforts to better understand global warming have  been strengthened after the world's space and meteorological  agencies gave their support to a WMO strategy for the enhanced  use of satellites to monitor climate change and weather,' the  WMO said in a statement issued late on Thursday.      The aim is to ensure that satellites launched over the next  20 years constantly record parameters such as sea levels and  greenhouse gases in the atmosphere.      Senior officials from NASA, the European Space Agency and  space agenices in Japan, China, Brazil and India attended the   two-day meeting where WMO presented its strategy.      'Every agency which attended supported it,' WMO spokesman  Paul Garwood said.      Climate change monitoring requires very long-term continuous  measurement, according to Jerome Lafeuille, who heads the  space-based observing system division of WMO's space programme.  Satellites are essential to this, because they give a global  picture of changes in the oceans, on land and in the atmosphere.      Scientists blame climate change mainly on human emissions of  greenhouse gases from burning fossil fuels and warn it will  bring extreme weather including more heatwaves, droughts, floods  and rising seas.      At least 16 geo-stationary and low-earth orbit satellites  currently provide operational data on the planet's climate and  weather as part of WMO's global observation system.   (Reporting by Stephanie Nebehay)   ((stephanie.nebehay@reuters.com; tel.: +41 22 733 38 31;  Reuters Messaging: stephanie.nebehay.reuters.com@reuters.net))    Keywords: ENVIRONMENT CLIMATE/SATELLITES       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 9.693036079406738,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual report on the agreement among space agencies to use satellites to monitor climate change, without introducing any biased language or perspectives."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Malaysian banks can weather global turmoil-c.bank",
+        "URL": "Malaysian banks can weather global turmoil-c.bank.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    KUALA LUMPUR, Oct 14 (Reuters) - The Malaysian financial  sector is strong enough to weather the global turmoil, and its  banking and insurance industries have adequate capital and  liquidity, the central bank said on Tuesday.      Bank Negara Malaysia also said in a statement that it  was  ready to provide liquidity to financial institutions, where  necessary.    (Reporting by Faisal Aziz; Editing by David Chance)   ((faisal.aziz@thomsonreuters.com; +603-2333 8040; Reuters  Messaging: faisal.aziz.reuters.com@reuters.net; Bureau Email:  areuters@gmail.com))  Keywords: ECONOMY MALAYSIA/        ",
+        "Histogram": [
+            0,
+            0,
+            0
+        ],
+        "Relevance": 9.229450225830078,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports on a statement from the central bank regarding the strength of the Malaysian financial sector to withstand global turmoil. The information provided is factual and does not exhibit any of the typical biases such as emotional sensationalism, ad hominem, or speculative bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "IMF says Australia can weather global downturn",
+        "URL": "IMF says Australia can weather global downturn.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WASHINGTON, Sept 23 (Reuters) - Australia can handle a  slowdown in world growth and the central bank's decision to  ease monetary policy while committing to an inflation target  was a good move, the International Monetary Fund said on  Tuesday.      'The sound macroeconomic framework should permit Australia  to weather the global downturn and contain inflationary  pressures,' the IMF said in a regular assessment.      (Reporting by Alister Bull; Editing by Diane Craft)        ((+1-202-354-5820, email: alister.bull@thomsonreuters.com))  Keywords: AUSTRALIA IMF/        ",
+        "Histogram": [
+            0,
+            0,
+            0
+        ],
+        "Relevance": 9.229450225830078,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports on the International Monetary Fund's assessment of Australia's economic situation without introducing any subjective or misleading information."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "RPT-IMF says Australia can weather global downturn",
+        "URL": "RPT-IMF says Australia can weather global downturn.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": " (Repeats to additional subscribers)      WASHINGTON, Sept 23 (Reuters) - Australia can handle a  slowdown in world growth and the central bank's decision to ease  monetary policy while committing to an inflation target was a  good move, the International Monetary Fund said on Tuesday.      'The sound macroeconomic framework should permit Australia  to weather the global downturn and contain inflationary  pressures,' the IMF said in a regular assessment.      (Reporting by Alister Bull; Editing by Diane Craft)      ((+1-202-354-5820, email: alister.bull@thomsonreuters.com))    Keywords: AUSTRALIA IMF/        ",
+        "Histogram": [
+            0,
+            0,
+            0
+        ],
+        "Relevance": 8.932060241699219,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports on the International Monetary Fund's assessment of Australia's ability to handle a global economic slowdown and the central bank's monetary policy decisions."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "S.Africa cbank-financial system will weather global storm",
+        "URL": "S.Africa cbank-financial system will weather global storm.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    JOHANNESBURG, Oct 23 (Reuters) - South Africa's financial  system has been largely protected against global market turmoil  and will weather the storm, although threats remain from reduced  flows to emerging markets, the central bank said in a report on  Thursday.      'South African financial institutions have very little  direct exposure to sub-prime-related assets and their balance  sheets are likely to remain healthy,' the bank said in its  latest Financial Stability Review, focusing on the six months to  June 2008.      However increasing volatility in financial markets, further  repricing of risks and financial assets, increasing cost of  funding and possibly reduced flows to emerging market economies  were threats to the local economy and financial system.      'There is consensus, however, that the South African  financial system will weather the storm and there is no  immediate threat of a crisis of the proportion of that being  managed in the US for instance,' the bank said.   (Reporting by Stella Mapenzauswa and Phumza Macanda)   ((stella.mapenzauswa@thomsonreuters.com; +27 11 775 3161;  Reuters Messaging: stella.mapenzauswa.reuters.com@reuters.net))    Keywords: SAFRICA CBANK/REVIEW       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 8.909424781799316,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports on the South African central bank's assessment of the country's financial system's resilience to global market turmoil without exhibiting any of the typical signs of bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Big global investors urge action on climate change",
+        "URL": "Big global investors urge action on climate change.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WASHINGTON, Nov 11 (Reuters) - Global institutional  investors holding more than $6 trillion in assets pushed  policymakers on Tuesday to quickly hash out a binding agreement  to cut greenhouse gas emissions and promote clean technology.      More than 130 big investors, including London Pensions Fund  Authority, want countries to agree to reduce the climate-  warming emissions by 50 percent to 80 percent by 2050.      Those numbers are in line with global warming policy  favored by U.S. President-elect Barack Obama, who supports an  80 percent reduction in carbon emissions by mid-century.      The investors also want policymakers to set long and medium  term emission reduction targets for developed countries and to  provide for an expanded and more liquid global carbon market.      Already big U.S. investors, such as the California Public  Employees' Retirement System, with $185.6 billion of assets  under management, have been calling for legislation to promote  new and existing clean technologies.      They have also called on the U.S. Securities and Exchange  Commission to force publicly traded companies to disclose  climate-related risks along with other factors that affect  their business.      'As institutional investors, we are concerned with the  risks presented by climate change to the global economy and to  our diversified portfolios,' said Mike Taylor, chief executive  of London Pensions Fund Authority. 'We are ... urging world  leaders to implement strong and effective policies to support  us in allocating capital towards low carbon investments.'      The group of global investors want countries to sign on to  a new binding agreement to succeed the Kyoto Protocol climate  pact, which set binding targets for industrialized countries to  cut greenhouse gas emissions.      The European Union is aiming to cut greenhouse gas  emissions 20 percent by 2020 and increase the share of wind,  solar, hydro, wave power and biofuels in their energy mix by  the same date.      The United States is alone among major industrialized  countries in rejecting the Kyoto Protocol, but is participating  in discussions to craft a follow-up global agreement.      'It is time to put an agreement in place where the United  States is involved,' said Mindy Lubber, the president of Ceres,  a coalition of investors and environmental groups working on  climate change issues.      The global group of investors is hoping its voice is heard  ahead of a December climate change convention in Poland.   (Reporting by Rachelle Younglai; Editing by Andre Grenon)   ((rachelle.younglai@thomsonreuters.com; +1 202 898 8411))  Keywords: EDTCLIMATE INVESTORS       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 8.865106582641602,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Already big U.S. investors, such as the California Public Employees' Retirement System, with $185.6 billion of assets under management, have been calling for legislation to promote new and existing clean technologies.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence implies a positive judgment towards the actions of the California Public Employees' Retirement System and their advocacy for clean technologies, suggesting that such legislation is inherently beneficial without presenting a balanced view."
+                },
+                {
+                    "text": "'As institutional investors, we are concerned with the risks presented by climate change to the global economy and to our diversified portfolios,' said Mike Taylor, chief executive of London Pensions Fund Authority. 'We are ... urging world leaders to implement strong and effective policies to support us in allocating capital towards low carbon investments.'",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of phrases like 'concerned with the risks presented by climate change' and 'urging world leaders to implement strong and effective policies' implies a judgment that these actions are necessary and beneficial, influencing the reader's perception."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the promotion of clean technologies and policies to address climate change, with a general tendency towards presenting these actions and the associated advocacy in a positive light without a balanced perspective."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.2857142857142857,
+            "overall_rating": 0.44285714285714284
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "WMO to seek satellites to monitor climate change",
+        "URL": "WMO to seek satellites to monitor climate change.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Stephanie Nebehay      GENEVA, Jan 11 (Reuters) - The United Nations' weather  agency will ask NASA and other space agencies next week to make  their next generation of satellites available to monitor climate  change, a senior official at the U.N. body said on Friday.      The aim is to ensure that satellites launched over the next  20 years constantly record parameters such as sea levels and  greenhouse gases in the atmosphere, the World Meteorological  Organisation (WMO) said.      'The main focus of the meeting next week will be the  expansion of the global observing system by satellites to not  only monitor severe weather, which is a core function, but also  to monitor climate on a very continuous and long-term basis,'  WMO expert Jerome Lafeuille told a news briefing in Geneva.      Senior officials from NASA, the European Space Agency, and  space agencies in Japan, China, Brazil and India are due to  attend the WMO meeting in New Orleans from Jan 15-16.      Satellites are an essential part of efforts to track severe  weather and climate change by providing a global picture of  shifts in the climate system, rising ocean levels, impacts on  land and in the atmosphere, says the WMO.      Scientists blame climate change mainly on human emissions of  greenhouse gases from burning fossil fuels and warn it will  bring extreme weather including more heatwaves, droughts, floods  and rising seas.      At least 16 geostationary and low-earth orbit satellites  currently provide operational data on the planet's climate and  weather as part of WMO's global observation system.      There are also numerous experimental satellites designed for  scientific missions or instrument technology demonstration --  measuring variables such as wind, precipitation and temperature  -- whose data WMO wants to ensure is captured long-term.      'We know there are gaps. Climate monitoring needs very  long-term continuity of measurement,' Lafeuille, who heads the  space-based observing system division of WMO's space programme,  told Reuters.      'When you look at satellites programmed over the next two  decades there are a number of extremely useful satellites but  there is no guarantee of continuity of key measurements.'      High on WMO's agenda will be ensuring constant monitoring of  sea levels for several decades, said the French expert.      Measuring the chemical make-up of the atmosphere --  including greenhouse gases such as CO2 as well as aerosols -- is  also key, Lafeuille said.      A record number of 17 satellites are planned for launch in  2008 by countries from China to India and Russia, he said. 'Our  challenge at WMO is to make sure programmes are complementary  and that all together we build an optimised system.'      ((stephanie.nebehay@reuters.com; tel.: +41 22 733 38 31;  Reuters Messaging: stephanie.nebehay.reuters.com@reuters.net))    Keywords: ENVIRONMENT CLIMATE/SATELLITES       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 8.808883666992188,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual overview of the World Meteorological Organisation's efforts to expand the global observing system by utilizing satellites to monitor climate change, without presenting information in a way that favors a particular viewpoint or misrepresents facts."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "India will weather global mkt turmoil-jnr finmin",
+        "URL": "India will weather global mkt turmoil-jnr finmin.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    NEW DELHI, Oct 20 (Reuters) - India will get through the  global financial crisis because the government has taken timely  steps to ward off the market turmoil on the domestic economy, the  junior finance minister said on Monday.      Indian authorities have taken several steps to ease a cash  squeeze in the financial system, including cutting the reserve  requirements of banks.      'The global financial crisis is affecting the developing  countries and India will be affected to some extent,' junior  finance minister Pawan Kumar Bansal said in a speech.      'But we will be largely in a comfortable position to weather  the storm as we have taken appropriate and timely action.'      He said containing inflation and maintaining a high pace of  growth would be a major challenge during the financial turmoil.    (Reporting by Manoj Kumar; Editing by John Mair)   ((surojit.gupta@thomsonreuters.com; +91-11-4178-1016; Reuters  Messaging: surojit.gupta.reuters.com@reuters.net))  Keywords: INDIA ECONOMY/JUNIOR FINMIN       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 8.759541511535645,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a straightforward report on the junior finance minister's statements regarding India's ability to withstand the global financial crisis, without exhibiting any of the common forms of bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Canada's Flaherty-Economy can weather global slowdown",
+        "URL": "Canada's Flaherty-Economy can weather global slowdown.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    NEW YORK, April 23 (Reuters) - The Canadian economy is  equipped to withstand slower global growth thanks to strong  fundamentals and a proactive fiscal stimulus package, Finance  Minister Jim Flaherty said on Wednesday.      'Canada is well positioned to weather the storm. Our  economy is resilient and our budget is balanced,' Flaherty told  a business luncheon at the New York Yacht Club.      He also said the government's fiscal stimulus package would  help sustain growth.      The Canadian government had previously forecast that the  economy would grow by 1.7 percent this year, though Flaherty  said earlier on Wednesday that a deeper U.S. slowdown could  drop that rate slightly to 1.6 percent.      The Bank of Canada was more pessimistic on Tuesday,  lowering its 2008 growth forecast to 1.4 percent from 1.8  percent. It also revised down its growth estimate for next year  to 2.4 percent from 2.8 percent.   (Reporting by Lucia Mutikani)   ((lucia.mutikani@reuters.com; +1-646-223-6314; Reuters  Messaging: lucia.mutikani.reuters.com@reuters.net))  Keywords: CANADA ECONOMY/FLAHERTY        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 8.621603965759277,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a straightforward report on the Canadian economy's resilience to global slowdown, based on statements from Finance Minister Jim Flaherty and the Bank of Canada."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Argentine 2008/09 crop weather seen improving",
+        "URL": "Argentine 2008/09 crop weather seen improving.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    BUENOS AIRES, Nov 5 (Reuters) - Argentine crop weather will be better  for the rest of the 2008/09 farming cycle following a sharp drought but  storms and hail could cause some problems, the Buenos Aires Grains Exchange  said in a report.      Wheat output is expected to fall by about 30 percent as a result of the  months-long drought, although corn and soy crops escaped the worst of the  dryness because they are planted in September. The dry spell ended in late  September.      The South American country is a leading global wheat exporter, the No.  2 corn supplier and the third-biggest soybean provider.      'From the start of (the southern hemisphere) spring, there's been a  positive change and the weather has started to get back to normal, which  will benefit crops' development,' the grains exchange report said.      It said forecasts saw rain patterns remaining stable until the end of  January, although strong storms could hit northeastern farming regions with  drier weather in western growing areas.      Higher-than-average temperatures could produce hailstorms between  February and the middle of April, when heavy rains are forecast.      Between April and August next year, there could also be hotter weather  than normal and an early end to the rainy season, according to the weather  report.   (Reporting by Nicolas Misculin; Writing by Helen Popper;  Editing by John Picinich)   ((helen.popper@thomsonreuters.com; +54 11 4318-0655;  Reuters Messaging: helen.popper.reuters.com@reuters.net))  Keywords: GRAINS ARGENTINA/WEATHER       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 8.557951927185059,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual report on the weather conditions in Argentina and their potential impact on crop production without exhibiting any of the common forms of bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "China's snow storms not climate change-scientists",
+        "URL": "China's snow storms not climate change-scientists.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Michael Perry      SYDNEY, Jan 31 (Reuters) - Snow storms in China that have  killed more than 60 people are not directly linked to climate  change, say scientists, but simply an extreme event caused by  very cold winter temperatures and a La Nina weather pattern.      La Nina has brought moist air over southern China at a time  of very cold winter temperatures, resulting in heavy snow falls,  said Chinese weather experts.      'This is mainly related to abnormal atmospheric circulation  and the La Nina event,' Dong Wenjie of the National Climate  Centre told the official People's Daily.      'The National Climate Centre predicts that this La Nina event  will continue at least up to summer 2008 at a medium to strong  level,' Dong said. 'With climate warming, extreme weather events  are clearly increasing in frequency and intensity.'      The worst snows in 50 years in southern China have hit as  tens of millions of people attempt to return home to celebrate  the Lunar New Year with families.      Australian climate scientist Penny Whetton, one of the  authors of the U.N.'s Intergovernmental Panel on Climate Change  (IPCC) fourth assessment report, said the Chinese explanation for  the storms was valid, adding the bad weather was not linked to  climate change.      'Those conditions are things that occur naturally and so  every few years, few decades, everything just comes together  right to produce an extreme event,' said Whetton, who wrote the  IPCC chapter 'Regional Climate Projections'. The panel's four  reports were released last year in phases.      'My guess is this is a natural event without any particular  reason to link it to climate change. The climate change models  are not predicting increases in snow events like this,' Whetton  told Reuters on Thursday.      She said China could expect a less stable climate because of  global warming, with various regions experiencing drier, wetter,  hotter conditions, as well as more intense tropical storms.      'Cold extremes are generally not predicted to become more  intense and frequent because we have a warming climate,' she  said.            WORLD'S CLIMATE UNBALANCED      But as China warms, its cold northern regions might  experience more intense snow storms as moisture levels in the  atmosphere rise, creating similar conditions to those that have  caused the snow storms now in southern China.      'Snow will hang around for less but you will probably get  more heavy snow events in winter,' said David Jones, head of  climate analysis at Australia's National Climate Centre.      'We are seeing that in places like northern Canada, where  there's been almost a doubling of rain and snow in the last few  decades, and that's exactly what you expect cold polar desert  regions to become, a lot wetter in a warmer world.'      Jones also said China's snow storms could not be directly  linked to climate change, unlike floods, heat waves and fires  that are a result of rising world temperatures and rainfall.      'Winter is a time of year in the northern hemisphere where  you often get these extreme events. We have always had them and  we will always have them,' he said.      One of the world's largest scientific bodies, the American  Geophysical Union, says the world's climate is now out of balance  and the rate of climate change is no longer natural.      In its first revised climate change report since 2003, the  union said last week that the world's climate system was 'now  changin",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0.7,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 8.490927696228027,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "With climate warming, extreme weather events are clearly increasing in frequency and intensity.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.7,
+                    "bias_description": "This sentence implies a direct causal relationship between climate warming and the increase in extreme weather events without considering other factors, such as natural climate variability."
+                },
+                {
+                    "text": "The worst snows in 50 years in southern China have hit as tens of millions of people attempt to return home to celebrate the Lunar New Year with families.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'the worst snows in 50 years' and the mention of 'tens of millions of people' evokes a sense of drama and urgency, focusing on the emotional impact of the event rather than its objective significance."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the discussion of climate change and extreme weather events, particularly through the use of causal misunderstanding and emotional sensationalism biases. The general bias tendency leans towards emphasizing the dramatic effects of extreme weather events and their connection to climate change without a balanced consideration of all contributing factors."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6499999999999999,
+            "percentage_of_biased_sentences": 0.047619047619047616,
+            "overall_rating": 0.3488095238095238
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Rugby-IRB approves global law change experiment",
+        "URL": "Rugby-IRB approves global law change experiment.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Mitch Phillips      LONDON, May 1 (Reuters) - The International Rugby Board  (IRB) Council controversially agreed on Thursday to introduce a  year-long global trial of 13 changes to the laws of the game,  beginning at the start of the next European season.      The trial of the Experimental Law Variations (ELVs) for a 12  month period starting on Aug. 1, 2008 at all levels of the game  will involve 13 of the 23 ELVs that have been undergoing  experimentation in various tournaments around the world over the  last two years.      'The Council's decision to implement a global trial of ELVs  represents an important milestone for the future of the game,'  the IRB said in a statement, adding that changes not taken up  worldwide would undergo further experiments.      'The southern hemisphere will continue to play under the  various ELV programme environments that exist in that part of  the world at present. It would be unfair to change the playing  environment under which countries in the south are currently  playing in competitions such as the Super 14,' it added.      'Not one of the Council representatives was against the  global implementation of an ELV programme of some description.  Many of the ELVs received unanimous approval as they had clearly  shown potential to be beneficial to the game, thus meriting a  further trial at all levels around the world.'      Not everyone in the game has been so sure of the need for  change, however, particularly in the northern hemisphere where  there is a fear that the changes could reduce the importance of  the set-pieces.      England's Rugby Football Union (RFU) has said it believes  some of the changes could 'fundamentally change the nature of  the game' and launched a nationwide consultation open to anyone  involved in rugby to voice their opinion, while a raft of former  internationals have condemned the changes as unnecessary.      Changes to be trialled worldwide include:   ? Players can defend a maul by pulling it down.   ? Introduction of an offside line five metres behind the  hindmost feet of the scrum.   ? No restriction on the number of players who can participate  in the lineout from either side (minimum of two).   ? The receiver in a lineout must stand two metres back from the  lineout.      Further ELVs to be trialled in an elite northern hemisphere  competition include:   ? For all offences other than offside, not entering through the  gate, and Law 10 - Foul Play, the sanction is a free kick.   ? If the ball is unplayable at the breakdown, the side that did  not take the ball into contact will receive a free kick.   ? If a maul becomes unplayable, the team not in possession at  the start of the maul receives a free kick.    (Editing by Rex Gowar)   ((mitch.phillips@reuters.com; +44 207 5427933; Reuters  messaging: mitch.phillips.reuters.com@reuters.net; For the  latest Reuters Premier League and international football news  see: http://football.uk.reuters.com/))     For more soccer click on the newslink [SOCC]    Keywords: RUGBY/LAWS       com@reuters.net    0812 ET 01May2008-US STOCKS-Futures pare gains after Exxon results  ---------------------------------------------------------------------------      U.S. stock index futures pared gains on Thursday after Exxon Mobil Corp  <XOM.N> posted a quarterly profit that disappointed investors.      For more, please double-click [.N] [ID:nWEN5385]      Reuters Messaging: rm://ellis.mnyandu.reuters.com@reuters.net       0746 ET 01M",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 8.466083526611328,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports on the International Rugby Board's decision to introduce a year-long global trial of 13 changes to the laws of the game. The information is presented in a factual manner without the inclusion of subjective opinions, speculative claims, or discriminatory language."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Australia to weather global recession-cenbank",
+        "URL": "Australia to weather global recession-cenbank.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    SYDNEY, Feb 18 (Reuters) - Australia is better placed to  weather the global recession than many developed nations, a top  central banker said on Wednesday, in part because a sound banking  system has allowed rate cuts to be passed on to customers.      Reserve Bank of Australia (RBA) Assistant Governor Malcolm  Edey said the global outlook was still the worst since the Second  World War, with almost all of Australia's major trading partners  expected to grow well below trend this year, if not contract.      Yet he saw reason to hope that the huge contraction in global  activity seen last quarter was a 'one-off' event and growth would  begin to revive in the second half of this year.      Official forecasts imply that output in the major industrial  economies will contract further in the first half of this year,  but start to pick up later in the year and into 2010,' Edey told  an economics conference.      'The situation is still very uncertain but that seems like a  reasonable expectation,' he added.      Edey was optimistic that Australia would continue to fare  better than many other developed countries, thanks in part to  aggressive monetary and fiscal stimulus.      In just six months the central bank has cut its key cash rate  by 4 percentage points to a record low of 3.25 percent, by far  the most aggressive asing since the recession of the early 1990s.      Australia's Labor government also weighed in this month with  a fiscal stimulus package of A$42 billion ($27 billion) in  infrastructure spending and income support, on top of A$10.4  billion of pump priming late last year.  One key difference was that Australia's financial system  remained in much better shape than its international  counterparts, said Edey.      'As a result of that, we have been able to gain much more  traction from cuts in official interest rates,' he said.      In particular, mortgage rates in Australia had fallen by  almost the full 400 basis points since September, a marked  contrast with many other countries, where banks had been more  heavily affected by financial strains and the degree of  pass-through was much more limited.      Also supporting the domestic economy was the sharp fall in  the Australian dollar, which fell over 30 percent against its  U.S. counterpart last year.   (Reporting by Wayne Cole; Editing by James Thornhill)   ((wayne.cole@reuters.com ; +61 2 9373 1813; Reuters Messaging:  wayne.cole.reuters.com@reuters.net ))  Keywords: AUSTRALIA ECONOMY/       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 8.459064483642578,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual overview of Australia's economic position and the measures taken to mitigate the impact of the global recession without exhibiting any of the common forms of bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Australian national weather - March 10",
+        "URL": "Australian national weather - March 10.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "NATIONAL WEATHER:       MONDAY, 10 MARCH 2008       PERTH..............     Fine  32       ADELAIDE...........     Dry, mostly sunny  39      MELBOURNE..........     Fine, cool change  37      HOBART.............     Fine  27       CANBERRA...........     Fine, mostly sunny  31      SYDNEY.............     Fine, mostly sunny  26       BRISBANE...........     A few showers  27       TOWNSVILLE.........     Mostly fine  31       CAIRNS.............     Early shower then fine  30      DARWIN.............     Afternoon / evening storms  31       ALICE SPRINGS......     Fine and sunny  37  Keywords: WEATHER AUSTRALIA FORECAST       ",
+        "Histogram": [
+            0,
+            0,
+            0
+        ],
+        "Relevance": 8.400275230407715,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The provided weather report does not contain any biased sentences. It is a straightforward presentation of the weather forecast for various cities in Australia on March 10, 2008."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Australian national weather - Feb 19",
+        "URL": "Australian national weather - Feb 19.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "NATIONAL WEATHER: TUESDAY, 19 FEBRUARY 2008  PERTH..............               Fine.  26  ADELAIDE...........               Late afternoon change.  38  MELBOURNE..........               Fine.  34  HOBART.............               Fine.  32  CANBERRA...........               Fine, mostly sunny day.  28  SYDNEY.............               Morning shower.  25  BRISBANE...........               Few showers.  27  TOWNSVILLE.........               Shower or two.  31  CAIRNS.............               Showers; rain periods.  30  DARWIN.............               Showers and storms.  31  ALICE SPRINGS......               Fine, mostly sunny day.  39   ((Reuters Sydney Newsroom, 61-2 9373 1800,     sydney.newsroom@reuters.com))    Keywords: WEATHER AUSTRALIA FORECAST       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 8.321614265441895,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The weather report does not contain any biased sentences. It provides factual information about the weather conditions in various Australian cities without any indication of subjective or misleading language."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Obama urged to spend billions on weather research",
+        "URL": "Obama urged to spend billions on weather research.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Tim Gaynor      PHOENIX, Jan 13 (Reuters) - Weather scientists on Tuesday  urged Barack Obama to spend $9 billion on satellites and  research to prepare for hurricanes, tornadoes and wildfires and  examine links between destructive weather and climate change.      Members of the American Meteorological Society meeting in  Phoenix said they want Obama, who becomes U.S. president on  Jan. 20, to provide the funds over the next five years.      'There are some very basic research questions that need to  be addressed so that we can make wise policy ... and better  protect people and infrastructure,' said John Snow, a hurricane  expert at the University of Oklahoma.      Severe weather kills people across the country each year,  and homeowners, businesses and insurers are hit by billions of  dollars in direct damages and disruption to services.      Last year, Hurricanes Ike and Gustav roared over Louisiana  and parts of Texas, killing dozens of people, destroying homes  and disrupting oil and gas production.      The United States needs a new generation of weather  observation satellites to replace aging systems and provide  better forecasting and climate analysis, the scientists said.     'We do not have sufficient (weather observing) satellites  already manufactured to continue beyond the middle of the next  decade,' said Joe Friday, a former president of the society.      'If we lose that satellite capability, we set back  forecasting by 30 years,' he added.      Climate scientists also are seeking to boost the computer  power for climate research and prediction, and funding for  research into the relationship between weather and climate  change.      U.S. weather experts and researchers have presented the  policy proposals to Obama's transition team in Washington.      Last month Obama picked a 'green dream team' to his  administration to battle climate change and push for major  policy changes.      Designees include Nobel Prize-winning physicist Stephen Chu  to head the Energy Department, and John Holdren, a Harvard  University expert on climate change, who will be White House  science adviser.   (Reporting by Tim Gaynor; Editing by Xavier Briand)   ((tim.gaynor@thomsonreuters.com; +1 480 588 5296))  Keywords: USA OBAMA/WEATHER       ",
+        "Histogram": [
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 8.302410125732422,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Members of the American Meteorological Society meeting in Phoenix said they want Obama, who becomes U.S. president on Jan. 20, to provide the funds over the next five years.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence implies a subjective desire for funding without presenting a balanced view of the issue, suggesting a prioritization of the society's perspective over other potential uses for the funds."
+                },
+                {
+                    "text": "'There are some very basic research questions that need to be addressed so that we can make wise policy ... and better protect people and infrastructure,' said John Snow, a hurricane expert at the University of Oklahoma.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'very basic research questions' and the assertion that addressing them is necessary for 'wise policy' introduces a subjective opinion into what should be a neutral statement about the need for research."
+                },
+                {
+                    "text": "Severe weather kills people across the country each year, and homeowners, businesses and insurers are hit by billions of dollars in direct damages and disruption to services.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence uses emotionally charged language to emphasize the negative impact of severe weather, potentially skewing the reader's perception towards a more dramatic interpretation of the issue."
+                },
+                {
+                    "text": "Climate scientists also are seeking to boost the computer power for climate research and prediction, and funding for research into the relationship between weather and climate change.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'seeking' implies a subjective effort on the part of climate scientists, suggesting a bias towards the importance of their specific research needs without a broader context."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the allocation of funds for weather research, particularly in the way it presents the perspectives of weather scientists and climate researchers as crucial and in need of immediate attention without a balanced discussion of competing funding priorities or alternative viewpoints."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.15384615384615385,
+            "overall_rating": 0.3769230769230769
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "NZ WEATHER-Showers and southwest winds",
+        "URL": "NZ WEATHER-Showers and southwest winds.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WELLINGTON, June 26 (Reuters) - Forecasts for tomorrow.   Auckland,        southwest change,         showers,        14   Hamilton,        southwest change,         showers,        13   Napier,          gusty westerlies,         sunny periods,  15   New Plymouth,    southwest change,         showers,        14   Palmerston Nth,  southwest change,         showers,        14   Wellington,      southwest change,         showers,        14   Nelson,          southwest change,         showers clear,  13   Greymouth,       southwesterlies freshen,  showers clear,  11   Christchurch,    southwest change,         showers clear,  10   Dunedin,         southeasterlies freshen,  showers,         7   Queenstown,      southerlies freshen,      showers,         6   Invercargill,    southwesterlies freshen,  showers,         6         Conditions at New Zealand skifields can be found at  www.snow.co.nz   ((Wellington newsroom +64 4 471 4234, fax +64 4 4736 212,  wellington.newsroom@reuters.com))  Keywords: NEWZEALAND WEATHER       ",
+        "Histogram": [
+            0,
+            0
+        ],
+        "Relevance": 8.217451095581055,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it only provides factual information about the weather forecasts in New Zealand."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "UPDATE 1-IMF says Australia can weather global downturn",
+        "URL": "UPDATE 1-IMF says Australia can weather global downturn.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": " (Adds IMF comment, background)      WASHINGTON, Sept 23 (Reuters) - Australia can handle the  slowdown in world growth and its central bank's decision to  ease monetary policy in the face of financial market turmoil  was welcome, the International Monetary Fund said on Tuesday.      'The sound macroeconomic framework should permit Australia  to weather the global downturn and contain inflationary  pressures,' the IMF said in a regular national assessment.      The Reserve Bank of Australia ended a period of monetary  policy tightening in early September when it cut cash rates by  25 basis points, after global market strains and tighter  financing conditions reduced the threat of domestic price  pressures.      The IMF said that it backed this action -- the RBA's first  rate cut in seven years -- which it also emphasized had been  accompanied by official 'readiness to follow a cautious  monetary policy aimed at achieving the 2-3 percent inflation  target range over time.'      The IMF also said that following its recent depreciation,  the Australian dollar <AUD=> was 'now broadly in line with  medium-term fundamentals,' while risks linked to a widening in  the country's current account deficit should be offset by  investment.   (Reporting by Alister Bull; editing by Gary Crosse)   ((+1-202-354-5820, e-mail: alister.bull@thomsonreuters.com))  Keywords: AUSTRALIA IMF/        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 8.190914154052734,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports on the IMF's assessment of Australia's economic situation and the actions taken by the Reserve Bank of Australia in response to global economic challenges. The language used is neutral and focuses on factual information without promoting a particular viewpoint or agenda."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    }
+]

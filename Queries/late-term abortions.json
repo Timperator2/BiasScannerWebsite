@@ -1,0 +1,985 @@
+[
+    {
+        "Title": "Uruguay leader vetoes law allowing early abortions",
+        "URL": "Uruguay leader vetoes law allowing early abortions.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    MONTEVIDEO, Nov 14 (Reuters) - Uruguayan President Tabare  Vazquez vetoed a law decriminalizing abortions in the first 12  weeks of pregnancy, arguing it violated the right to life, the  office of the presidency said on Friday.      A doctor and center-left leader, Vazquez had repeatedly  vowed to veto the easing of abortion restrictions. Congress  passed the measure earlier this week, in a rare move in  predominantly Roman Catholic Latin America.      In a statement explaining the veto, Vazquez said it was  more important to help women with unwanted pregnancies than to  facilitate abortions for them.      'Our laws cannot ignore the reality of the existence of  human life in the gestation period, as scientific evidence  clearly shows,' the president said.      'It's more appropriate to look for a solution based on  solidarity, giving a woman the freedom to make other choices  and thereby save both her and her baby,' Vazquez said.      Support for the law allowing early abortions was not seen  as strong enough to override the presidential veto.      Abortion is largely banned in Latin America, home to about  half the world's Roman Catholics. In the region, Cuba has the  most permissive laws, and Mexico City allows abortions on  demand in the first trimester of pregnancy.      A congressional committee in Brazil defeated a measure to  legalize the procedure earlier this year.   (Reporting by Patricia Avila; Writing by Hilary Burke; Editing  by Eric Beech)   ((hilary.burke@thomsonreuters.com; +54 11 4318 0663; Reuters  Messaging: hilary.burke.reuters.com@reuters.net))  Keywords: URUGUAY ABORTION/       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0.7,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 12.963958740234375,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "'Our laws cannot ignore the reality of the existence of human life in the gestation period, as scientific evidence clearly shows,' the president said.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.7,
+                    "bias_description": "This sentence implies a direct and clear-cut causal relationship between the existence of human life in the gestation period and the need for laws to restrict abortion, without acknowledging the complexity of the issue or considering other factors."
+                },
+                {
+                    "text": "'It's more appropriate to look for a solution based on solidarity, giving a woman the freedom to make other choices and thereby save both her and her baby,' Vazquez said.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'solidarity' and the framing of 'saving both her and her baby' implies a judgment about the decision to have an abortion, suggesting that choosing abortion is not a 'solidaristic' choice and does not 'save' the woman."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article is biased regarding the topic of abortion, showing a general bias tendency towards the anti-abortion stance by using causal misunderstanding and word choice biases to frame the issue in a way that supports the restriction of abortion rights."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6499999999999999,
+            "percentage_of_biased_sentences": 0.18181818181818182,
+            "overall_rating": 0.4159090909090909
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Olympics-Americans protest against Chinese abortions",
+        "URL": "Olympics-Americans protest against Chinese abortions.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    BEIJING, Aug 6 (Reuters) - Three Americans denouncing China's  population control policies protested on Beijing's Tiananmen  Square on Wednesday, making another breach in security as the  Olympic Games torch made its way through the city.      The protesters, who said they were Protestant and Catholic,  shouted against Chinese policies restricting family sizes and  sometimes imposing forced abortions on women who violate the  rule.      'End the brutality,' one yelled on the Square, which is the  city's symbolic heart. 'To those who are forced to go through  forced abortions and have no voice, we are your voice.'      Police took the protesters away and questioned them on a  nearby bench. Then, unusually for this security-wary country, the  three were allowed to leave, at least for now.      Earlier in the day, two American and two British protesters  were detained after they unfurled banners calling for Tibetan  independence near the main Games stadium, where the Games open on  Friday.      The Games torch also began its relay through the city on  Wednesday.   (Reporting by Ben Blanchard; Writing by Chris Buckley; Editing  by Jeremy Laurence)  (chris.buckley@reuters.com; +86-13501014479)  Keywords: OLYMPICS/DEMONSTRATION        .  Keywords: OLYMPICS/DEMONSTRATION        ",
+        "Histogram": [
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 12.29520034790039,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "The protesters, who said they were Protestant and Catholic, shouted against Chinese policies restricting family sizes and sometimes imposing forced abortions on women who violate the rule.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'brutality' to describe the Chinese policies implies a strong negative connotation and judgment, suggesting a biased perspective against the policies without providing a balanced view."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias through the use of word choice, implying a negative judgment towards Chinese population control policies without presenting a balanced perspective. The bias is focused on the topic of Chinese population control policies and the general bias tendency leans towards portraying these policies in a negative light."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.1,
+            "overall_rating": 0.35
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Americans protest in Games city against Chinese abortions",
+        "URL": "Americans protest in Games city against Chinese abortions.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    BEIJING, Aug 6 (Reuters) - Three Americans denouncing China's  population control policies protested on Beijing's Tiananmen  Square on Wednesday, making another breach in security as the  Olympic Games torch made its way through the city.      The protesters, who said they were Protestant and Catholic,  shouted against Chinese policies restricting family sizes and  sometimes imposing forced abortions on women who violate the  rule.   (Reporting by Ben Blanchard; Writing by Chris Buckley)  (chris.buckley@reuters.com; +86-13501014479)  Keywords: OLYMPICS/DEMONSTRATION        ",
+        "Histogram": [
+            0,
+            0.6,
+            0
+        ],
+        "Relevance": 11.391035079956055,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "The protesters, who said they were Protestant and Catholic, shouted against Chinese policies restricting family sizes and sometimes imposing forced abortions on women who violate the rule.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'shouted' carries a negative connotation, implying a lack of control or reason in the protesters' actions. This choice of word could influence the reader's perception of the protest as disruptive or aggressive, rather than as a peaceful demonstration."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias through word choice, suggesting a negative portrayal of the protesters and their actions. The topic of Chinese population control policies is approached with a bias tendency that may undermine the legitimacy of the protesters' concerns."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.3333333333333333,
+            "overall_rating": 0.4666666666666667
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Uruguay Congress allows early abortions, veto looms",
+        "URL": "Uruguay Congress allows early abortions, veto looms.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Patricia Avila      MONTEVIDEO, Nov 11 (Reuters) - Uruguay's Senate voted on  Tuesday to decriminalize abortions during the first 12 weeks of  pregnancy, a rare move for a Latin American country, but the  president is expected to kill the measure.      The Senate voted 17 to 13 in favor of the bill after the  lower house of Congress approved it last week in a session that  was interrupted by a bomb threat.      Abortion is largely banned in Latin America, home to about  half the world's Roman Catholics. Uruguay's center-left  president, Tabare Vazquez, has vowed to veto any law easing  restrictions on the procedure.      Congress could override the veto in theory, but support for  the bill is not seen as strong enough for that.      'Whether the president vetoes it or not, it's important  that Congress has established this right,' said ruling party  senator Margarita Percovich, who told Reuters she hopes Vazquez  will change his position.      Under the current law, which dates from 1938, women who  abort and the people who assist them face jail terms. Abortion  is only permitted in cases of rape or when the life of the  woman or the fetus is endangered.      A recent survey by private pollster Interconsult showed 57  percent of Uruguayans supported fewer restrictions on abortion,  and 63 percent were against a presidential veto on the bill.      Church leaders in Uruguay warned that Catholic lawmakers  voting for the bill could face excommunication, a statement  that sparked criticism from across the political spectrum.      In the region, Cuba has the most permissive abortion laws,  and Mexico City allows abortions on demand in the first  trimester of pregnancy.      A congressional committee in Brazil defeated a measure to  legalize the procedure earlier this year.   (Writing by Hilary Burke, editing by Fiona Ortiz)   ((hilary.burke@thomsonreuters.com; +54 11 4318 0663; Reuters  Messaging: hilary.burke.reuters.com@reuters.net))    Keywords: URUGUAY ABORTION/       ",
+        "Histogram": [
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 11.294965744018555,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "The Senate voted 17 to 13 in favor of the bill after the lower house of Congress approved it last week in a session that was interrupted by a bomb threat.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The mention of a bomb threat in the context of a legislative session on abortion introduces a sensational element that is designed to evoke strong emotions, potentially overshadowing the rational discussion on the topic."
+                },
+                {
+                    "text": "Church leaders in Uruguay warned that Catholic lawmakers voting for the bill could face excommunication, a statement that sparked criticism from across the political spectrum.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The threat of excommunication for lawmakers introduces a highly charged and emotional element into the debate, potentially influencing perceptions and overshadowing the legal and ethical aspects of the issue."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias, particularly through the use of Emotional Sensationalism Bias, in its coverage of the legislative process regarding abortion in Uruguay. The inclusion of elements such as bomb threats and the threat of excommunication serves to sensationalize the topic and potentially influence the reader's perception through emotional rather than rational means."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.07692307692307693,
+            "overall_rating": 0.3384615384615385
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Higher cerebral palsy risk in late pre-term babies",
+        "URL": "Higher cerebral palsy risk in late pre-term babies.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Will Dunham      WASHINGTON, Dec 11 (Reuters) - Babies born four to six  weeks prematurely have more than triple the risk of developing  cerebral palsy than full-term babies, U.S. researchers said on  Thursday.      The study focused on the specific serious neurological  problems associated with late pre-term births -- babies born  between 34 and 36 weeks of pregnancy. Increasing numbers of  these babies are being born in the United States.      Researchers led by Joann Petrini, an epidemiologist with  the March of Dimes advocacy group, tracked 141,321 babies born  between 2000 and 2004 in the United States.      The late pre-term babies were about 3.4 times as likely to  develop cerebral palsy as full-term babies. They also were  about 25 percent more likely to develop learning, speech and  other developmental delays and mental retardation as full-term  babies, according to the study.      Cerebral palsy refers to a group of disorders that affect a  child's ability to coordinate body movements. Symptoms range  from mild to severe and may include lack of muscle  coordination, stiff muscles and exaggerated reflexes, walking  problems, drooling and tremors.      It is incurable and frequently requires long-term care.  Other neurological problems including mental retardation or  seizures may appear in children who have cerebral palsy.      About 800,000 children and adults in the United States have  cerebral palsy, according to the March of Dimes.      'We know that very pre-term babies have higher rates of  cerebral palsy from existing research, but this paper shows  that even the late pre-term babies are three times as likely to  be diagnosed with cerebral palsy as full-term babies,' Petrini  said in a telephone interview.      In this study, very pre-term babies -- those born after 30  to 33 weeks of pregnancy -- were eight times as likely to  develop cerebral palsy as full-term babies.      The researchers said previous studies showed that late  pre-term babies also had higher rates of respiratory distress,  jaundice, seizures, feeding problems and other problems.      In the United States, growing numbers of babies are being  born prematurely. About 70 percent of all pre-term births fall  into this late pre-term birth category.      Petrini cited several factors behind the rise in late  pre-term births. These include more older women and women with  obesity, diabetes and high blood pressure having babies, more  babies being delivered by Caesarean section, and more being  conceived after fertility treatments.   (Editing by Anthony Boadle)   ((will.dunham@reuters.com; +1 202 898 8300; Reuters Messaging:  will.dunham.reuters.com@reuters.net))    Keywords: INFANTS PREMATURE        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 10.07291030883789,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides factual information about the increased risk of cerebral palsy in late pre-term babies based on a study, without employing any of the common bias types."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Abortion not linked with depression, analysis finds",
+        "URL": "Abortion not linked with depression, analysis finds.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "     WASHINGTON, Dec 4 (Reuters) - No high-quality study done  to date can document that having an abortion causes  psychological distress, or a 'post-abortion syndrome,' and  efforts to show it does occur appear to be politically  motivated, U.S. researchers said on Thursday.      A team at Johns Hopkins University in Baltimore reviewed 21  studies involving more than 150,000 women and found the  high-quality studies showed no significant differences in  long-term mental health between women who choose to abort a  pregnancy and others.      'The best research does not support the existence of a  'post-abortion syndrome' similar to post-traumatic stress  disorder,' Dr. Robert Blum, who led the study published in the  journal Contraception, said in a statement.      'Based on the best available evidence, emotional harm  should not be a factor in abortion policy. If the goal is to  help women, program and policy decisions should not distort  science to advance political agendas,' added Vignetta Charles,  a researcher and doctoral student at Johns Hopkins who worked  on the study.       An estimated 1.29 million American women get elective  abortions each year, according to the U.S. Centers for Disease  Control and Prevention. An estimated 25 million women globally  have legal abortions every year.      Abortion is a hot-button political issue, with many voters  and members of the U.S. Congress as well as state lawmakers  seeking to ban it.      'The U.S. Supreme Court, while noting that 'we find no  reliable data to measure the phenomenon,' cited adverse mental  health outcomes for women as part of the rationale for limiting  late term abortions,' Blum's team wrote.      The researchers reviewed all English-language,  peer-reviewed publications between 1989 and 2008 that studied  relationships between abortion and long-term mental health.      They analyzed those that included valid mental health  measures and factored in pre-existing mental health status and   potentially confusing factors.      'The best quality studies indicate no significant         differences in long-term mental health between women in the  United States who choose to terminate a pregnancy and those who  do not,' they wrote.      '...studies with the most flawed methodology consistently  found negative mental health consequences of abortion,' they  added. 'Scientists are still conducting research to answer  politically motivated questions.'      (Reporting by Maggie Fox, editing by Vicki Allen)      ((Maggie.Fox@Reuters.com; 1 202 898 8492))  Keywords: ABORTION DEPRESSION       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 8.37491226196289,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It presents a study conducted by researchers at Johns Hopkins University in Baltimore, which reviewed multiple studies on the relationship between abortion and long-term mental health. The findings suggest that there is no significant difference in long-term mental health between women who choose to abort a pregnancy and those who do not. The article provides a balanced and evidence-based perspective on a controversial and politically charged issue, without showing any signs of bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Spanish abortion clinics strike over crackdown",
+        "URL": "Spanish abortion clinics strike over crackdown.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Ben Harding      MADRID, Jan 8 (Reuters) - Spanish abortion clinics began a  week-long strike on Tuesday, criticising the government for what  they said was harassment since a series of police raids on  Barcelona centres accused of illegal abortions.      More than 1,000 women will be unable to have an abortion  this week after 31 private clinics shut their doors to all cases  except for those when the mother's health was at risk, said a  spokeswoman for abortion clinic association ACAI. The 31 clinics  performed most of Spain's 101,592 abortions in 2006, ACAI said.      Late last year Barcelona police arrested 13 people, many of  them gynaecologists and anaesthetists, in raids against clinics  accused of performing illegal, late-term abortions.      ACAI spokeswoman Francisca Garcia said the government had  increased intrusive inspections against its members even though  none of its members were involved in the raids. Spain's health  minister had ignored requests for talks, she said.      Spain's health ministry was not immediately available to  comment on the accusation.      'We think the number and manner of inspections is abusive,'  Garcia said, adding that so many inspections, three times the  norm in some clinics, violated the privacy of patients and was a  slur on the professionalism of staff.      Spain decriminalised abortion in 1985, 10 years after the  death of conservative dictator Francisco Franco, but while the  number of abortions has doubled in the last decade, the practice  is controversial in the traditionally Catholic country.      Abortion is only permitted in certain cases, for example up  to 12 weeks for women who have been raped or up to 22 weeks if a  foetus is malformed. It is also available if a birth poses a  psychological risk to the mother.      One of those detained in the raids was Peruvian doctor  Carlos Morin, who was shown in a television programme appearing  to offer an abortion to an undercover Danish journalist who was  eight months pregnant in return for 4,000 euros.      The police findings triggered indignation in conservative  media.      But some members of the governing Socialist Party said  abortion laws should be further liberalised. Prime Minister Jose  Luis Rodriguez Zapatero, facing a tight contest in March general  elections, rejected this.      Last month the windows of a clinic in Madrid were smashed by  masked attackers and staff across Spain have reported a rise in  threats against them, Garcia said.      'After 22 years of exercising this right a shadow of doubt  has started to appear over our professionalism,' she said.   (Reporting by Ben Harding; editing by Elizabeth Piper)   ((ben.harding@reuters.com; +34 91 585 8530; Reuters Messaging:  ben.harding.reuters.com@reuters.net))    Keywords: SPAIN ABORTION/       ",
+        "Histogram": [
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.5,
+            0.5,
+            0.6,
+            0,
+            0
+        ],
+        "Relevance": 8.370125770568848,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "More than 1,000 women will be unable to have an abortion this week after 31 private clinics shut their doors to all cases except for those when the mother's health was at risk, said a spokeswoman for abortion clinic association ACAI. The 31 clinics performed most of Spain's 101,592 abortions in 2006, ACAI said.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The sentence uses language that could evoke strong emotions by highlighting the number of women affected and the significant role of the closed clinics, potentially aiming to provoke a strong reaction against the government's actions."
+                },
+                {
+                    "text": "Late last year Barcelona police arrested 13 people, many of them gynaecologists and anaesthetists, in raids against clinics accused of performing illegal, late-term abortions.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'arrested' and the specific mention of 'gynaecologists and anaesthetists' could imply a negative connotation and judgment, potentially influencing the reader's perception of the individuals and the severity of the situation."
+                },
+                {
+                    "text": "ACAI spokeswoman Francisca Garcia said the government had increased intrusive inspections against its members even though none of its members were involved in the raids. Spain's health minister had ignored requests for talks, she said.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The choice of words such as 'intrusive inspections' and 'ignored' suggests a negative portrayal of the government's actions, possibly leading the reader to view the government's behavior in a more critical light without presenting a balanced perspective."
+                },
+                {
+                    "text": "But some members of the governing Socialist Party said abortion laws should be further liberalised. Prime Minister Jose Luis Rodriguez Zapatero, facing a tight contest in March general elections, rejected this.",
+                    "bias_type": "Political Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "The sentence implies a political motive for the Prime Minister's stance on abortion laws, suggesting that his rejection of further liberalization is solely due to the upcoming elections, which could undermine the complexity of the issue."
+                },
+                {
+                    "text": "Last month the windows of a clinic in Madrid were smashed by masked attackers and staff across Spain have reported a rise in threats against them, Garcia said.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The mention of violent acts and threats against clinic staff is likely to evoke strong emotions and create a sense of urgency or crisis, potentially biasing the reader towards a more sympathetic view of the clinics and their cause."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the topic of abortion in Spain, with a general tendency to use emotional language and selective word choices to evoke a strong, potentially negative, reaction towards the government's actions and policies, as well as to portray the clinics and their staff in a sympathetic light."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.58,
+            "percentage_of_biased_sentences": 0.2222222222222222,
+            "overall_rating": 0.4011111111111111
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "No Matter What You Think About Abortion You Should Be Disturbed by the Situation in Kansas.txt",
+        "URL": "No Matter What You Think About Abortion You Should Be Disturbed by the Situation in Kansas.txt.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/240px-Fox_News_Channel_logo.svg.png",
+        "Text": "No matter what you think about the abortion issue, you should be very disturbed by what continues to happen in Kansas.\n\nThis man, Dr. George Tiller, known as \u201cTiller the baby killer,\u201d is performing late term abortions without defining the specific medical reasons why.\n\nLet's be more blunt. Tiller is executing fetuses in his Wichita clinic for $5,000. And records show he'll do it for vague medical reasons. That is, he'll kill the fetus, viable outside the womb, if the mother wants it dead. No danger to the mother's life, no catastrophic damage if the woman delivers.\n\nNow, some Kansas politicians want to stop the madness. But incredibly, Governor Kathleen Sebelius is protecting Tiller, citing privacy. The governor vetoed a bill a few weeks ago that would have forced Tiller to provide a specific medical reason for destroying a viable fetus.\n\nNow America is a great country, but this kind of barbaric display in Kansas diminishes our entire nation. Tiller has killed thousands, thousands of late-term fetuses without explanation. And Governor Sebelius is allowing him to continue the slaughter. How the governor sleeps at night is beyond me.\n\nThere are Americans who believe that babies that are about to be born are not human beings. How they form that conclusion is interesting. And only a handful of doctors in the USA will perform late-term abortions for any reason, because doctors know viable life when they see it. Now a few months ago, we talked with a young woman who allowed Tiller to kill her fetus. Here's part of what she had to say.\n\n(BEGIN VIDEO CLIP)\n\nKELLY: And about the third or fourth day, Dr. Tiller came in and injected into the amniotic sack saline solution, which suffocated and burned my baby to death. They decide that you are dilated enough and they put you in a wheelchair and wheel you out to another room.\n\nAnd in this other room, there is basically a toilet. And they told me to sit on the toilet, lean on the nurse, and push. Push my baby into a toilet. And after that, they wheel you into another room to remove all the, you know, after birth. And really that's the only two times I ever saw the doctor was when he injected the saline solution and when he finished the process by removing the after birth.\n\n(END VIDEO CLIP)\n\nAnd the woman was just 14-years old when Tiller operated on her. She is haunted by her decision to this day.\n\nIt's ironic that organizations like Human Rights Watch and Amnesty International say nothing about the work of Dr. Tiller. Apparently executing viable fetuses in the womb is OK with the human rights people.\n\nOnce again, this isn't about a woman's right to choose or The New York Times\u2019 plea for reproductive rights. This is about late term abortions for just about any reason. No question Dr. Tiller has blood on his hands, but now so does Governor Sebelius. She is not fit to serve. Nor is any Kansas politician who supports Tiller's business of destruction. I wouldn't want to be these people if there is a judgment day.\n\nAnd that's the \"Memo.\"\n\nMost Ridiculous Item\n\nTime now for \"The Most Ridiculous Item of the Day.\" Our good friend, Howard Dean, was in New York City recently. But he didn't drop in here. Instead, he went to see that Colbert guy.\n\n(BEGIN VIDEO CLIP)\n\nSTEPHEN COLBERT, HOST, COMEDY CENTRAL'S \"THE COLBERT REPORT\": If you had to vote for one of the Republican candidates, who would you vote for? You can talk about them, right? You can talk about them.\n\nHOWARD DEAN, DNC CHAIRMAN: I thought about this ahead of time.\n\nCOLBERT: Who would it be?\n\nDEAN: If you were to pick Bill O'Reilly to be a running mate, I'd vote for Steve Colbert and Bill O'Reilly.\n\nCOLBERT: Really? That's great. I know Papa Bear watches, but I'm not sure whether he would take the vice presidential position. It's not his M.O.\n\nDEAN: And then you can do all the torturing you want. What does Bill O'Reilly do every night?\n\nCOLBERT: He might start with you.\n\nDEAN: He would start with me if I'd go on his show, but I come on this show instead, because it's much classier.\n\nCOLBERT: How come \u2014 thank you very much, sir. His words \u2014 his words, not mine, Bill.\n\n(END VIDEO CLIP)\n\nHe's a fun guy. And Governor Dean is welcome to come on here any time. We won't torture him; we will just ask him questions.\n\nWe'll continue 24/7 on BillOReilly.com where you can get Dad this pen, \"Keep it Pithy.\" It's beautiful. You'll like it. \"No Bloviating\" T's, golf balls, signed \"Culture Warriors.\" Get Dad the best gifts for Father's Day on BillOReilly.com.\n\n\u2014You can catch Bill O'Reilly's \"Talking Points Memo\" and \"Most Ridiculous Item\" weeknights at 8 and 11 p.m. ET on the FOX News Channel and any time on foxnews.com/oreilly. Send your comments to: oreilly@foxnews.com",
+        "Histogram": [
+            0.6,
+            0.9,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.6,
+            0.6,
+            0.6,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.9,
+            0.9,
+            0.9,
+            0.9,
+            0.9,
+            0.9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 6.998468399047852,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "No matter what you think about the abortion issue, you should be very disturbed by what continues to happen in Kansas.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'you should be very disturbed' implies a judgment about the reader's emotional response, suggesting that any other reaction is inappropriate, thus influencing the reader's perception through word choice."
+                },
+                {
+                    "text": "This man, Dr. George Tiller, known as \u201cTiller the baby killer,\u201d is performing late term abortions without defining the specific medical reasons why.",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "The derogatory nickname 'Tiller the baby killer' is a clear example of ad hominem bias, attacking the character of Dr. Tiller rather than addressing the substance of the abortion procedures."
+                },
+                {
+                    "text": "Let's be more blunt. Tiller is executing fetuses in his Wichita clinic for $5,000. And records show he'll do it for vague medical reasons. That is, he'll kill the fetus, viable outside the womb, if the mother wants it dead. No danger to the mother's life, no catastrophic damage if the woman delivers.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 1.0,
+                    "bias_description": "The use of emotionally charged language such as 'executing fetuses' and 'if the mother wants it dead' is designed to provoke a strong emotional response, overshadowing a more neutral discussion on the topic."
+                },
+                {
+                    "text": "Now, some Kansas politicians want to stop the madness. But incredibly, Governor Kathleen Sebelius is protecting Tiller, citing privacy. The governor vetoed a bill a few weeks ago that would have forced Tiller to provide a specific medical reason for destroying a viable fetus.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The term 'stop the madness' and the use of 'incredibly' to describe Governor Sebelius' actions introduce a judgmental tone, implying that the governor's decision is irrational or unjust without presenting a balanced view."
+                },
+                {
+                    "text": "Now America is a great country, but this kind of barbaric display in Kansas diminishes our entire nation. Tiller has killed thousands, thousands of late-term fetuses without explanation. And Governor Sebelius is allowing him to continue the slaughter. How the governor sleeps at night is beyond me.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 1.0,
+                    "bias_description": "Describing the situation as a 'barbaric display' and 'the slaughter' of fetuses, and questioning how the governor 'sleeps at night' are examples of emotional sensationalism, using provocative language to evoke a strong emotional response."
+                },
+                {
+                    "text": "It's ironic that organizations like Human Rights Watch and Amnesty International say nothing about the work of Dr. Tiller. Apparently executing viable fetuses in the womb is OK with the human rights people.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'It's ironic' and 'apparently' suggests a judgment about the organizations' priorities and implies a discrepancy between their principles and their actions, influencing the reader's perception through word choice."
+                },
+                {
+                    "text": "Once again, this isn't about a woman's right to choose or The New York Times\u2019 plea for reproductive rights. This is about late term abortions for just about any reason. No question Dr. Tiller has blood on his hands, but now so does Governor Sebelius. She is not fit to serve. Nor is any Kansas politician who supports Tiller's business of destruction. I wouldn't want to be these people if there is a judgment day.",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "The statement 'No question Dr. Tiller has blood on his hands' and the judgment of Governor Sebelius' fitness to serve are clear examples of ad hominem bias, attacking the character and moral integrity of the individuals rather than addressing the complexities of the issue."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article is biased regarding the abortion issue, demonstrating a strong tendency towards emotional sensationalism, ad hominem attacks, and the use of judgmental word choices to influence the reader's perception."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.7999999999999999,
+            "percentage_of_biased_sentences": 0.23529411764705882,
+            "overall_rating": 0.5176470588235293
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "S.Africa parliament agrees to relax abortion law",
+        "URL": "S.Africa parliament agrees to relax abortion law.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    CAPE TOWN, Feb 7 (Reuters) - South Africa's parliament on  Thursday approved legal changes to make abortions easier to  obtain, despite criticism from opponents who said the law was  already too lax.      The changes will provide for 24-hour abortion facilities, do  away with pre-approval procedures and permit all nurses --  instead of just midwives -- to terminate pregnancies.      'The amendment bill promotes quality health care,' Joyce  Masilo, a deputy from the ruling African National Congress, told  parliament's upper house, which unanimously passed the bill. It  will now be referred to President Thabo Mbeki to sign into law.      Critics said the law already made abortions too easy. Women  as young as 12 can get an abortion during the first 12 weeks of  pregnancy and in some cases up to 20 weeks.      Religious activists and several political parties opposed  the proposed changes, saying the bill should make counselling  mandatory given that women as young as 12 could have abortions  without their parents' knowledge.      But the ruling party's big parliamentary majority ensured  approval for the changes.   (Reporting by Wendell Roelf; Editing by Matthew Tostevin)   ((wendell.roelf@reuters.com; +27 82 893 6088))    Keywords: SAFRICA ABORTION/       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0
+        ],
+        "Relevance": 6.752389907836914,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Critics said the law already made abortions too easy. Women as young as 12 can get an abortion during the first 12 weeks of pregnancy and in some cases up to 20 weeks.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence presents a subjective opinion about the ease of obtaining abortions, implying a judgment on the existing law's permissiveness without providing a balanced perspective."
+                },
+                {
+                    "text": "Religious activists and several political parties opposed the proposed changes, saying the bill should make counselling mandatory given that women as young as 12 could have abortions without their parents' knowledge.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'opposed' and the suggestion that counselling should be 'mandatory' introduces a judgmental tone, implying that the current situation is inherently problematic without considering alternative viewpoints."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the topic of abortion in South Africa, with a general tendency towards presenting the ease of obtaining abortions as a negative aspect, and implying that the current law is flawed without providing a balanced view."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.2222222222222222,
+            "overall_rating": 0.4111111111111111
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Short-term money market rates rise, longer-term ease",
+        "URL": "Short-term money market rates rise, longer-term ease.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    FRANKFURT, Jan 9 (Reuters) - Short-term interbank borrowing  rates edged up on Wednesday after the European Central Bank  withdrew extra cash injected around the turn of the year  although two- to three-month Euribor interbank interest rates  continued to ease.      Banks received 151.5 billion euros ($222.7 billion) in  weekly funding from the ECB on Wednesday, less than half the  amount put into circulation to cover the New Year period,  tightening liquidity conditions.      The benchmark overnight EONIA rate <EONIA=> fixed at 4.119  percent on Tuesday, from 4.107 percent on Monday, the highest  since late November. The bid/ask spread on overnight cash  offered between banks was 4.12/4.20 percent at 1030 GMT,  according to Reuters data.      One-week Euribor <EURIBORSWD=>, an average of daily quotes  offered by banks to lend money to each other, rose to 4.186  percent from 4.146 percent on Tuesday and one-month Euribor  <EURIBOR1MD=> inched up to 4.210 percent versus 4.202 percent.      But at longer-term maturities, the absence of year-end  pressures kept rates on a downwards path.      Three-month Euribor <EURIBOR3MD=> was 4.597 percent from  4.598 percent, narrowing the spread over the ECB's 4 percent  benchmark, which was as high as 95 basis points on Dec. 12.      Two-month Euribor eased to 4.424 percent from 4.425 percent  <EURIBOR2MD=>.     (Reporting by Krista Hughes)   ((krista.hughes@reuters.com; +49 69 7565 1313; Reuters  Messaging: krista.hughes.reuters.com@reuters.net))   ($1=.6802 Euro)    Keywords: MARKETS EURIBOR/        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 6.66653299331665,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides factual information about short-term and longer-term money market rates without introducing any subjective or misleading language."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Brazil legislators reject legalizing abortion",
+        "URL": "Brazil legislators reject legalizing abortion.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    BRASILIA, July 9 (Reuters) - A committee in Brazil's lower  house of Congress voted down a bill on Wednesday that would  have legalized abortion in the world's most populous Roman  Catholic nation.      The Justice and Constitution Committee in the Chamber of  Deputies voted 57-4 against a bill that had been stuck in  Congress for 17 years, steeped in controversy. It is now   likely to be shelved.      'This bill won't prosper in the Chamber,' said Deputy  Eduardo Cunha, committee leader.      Several ruling party legislators pushed the bill after  Health Minister Jose Temporao last year all but endorsed  legalizing abortion.      Church groups, which lobbied against the legislative  proposal and witnessed the hearing, cheered and prayed in  celebration after the vote.      Some deputies had placards hanging from their necks,  showing pictures of aborted fetuses.      A few legislators supported the bill.      'You can't treat this issue on the basis of religion or  belief. It's a public health issue,' said Deputy Jose Genoino,  who voted in favor of the proposal.           Temporao angered church groups by proposing a referendum on  the legalization of abortion and backing increased use of  contraceptives.      The government has begun distributing condoms in public  high schools and in April launched its own factory to produce  condoms made of rubber from Amazon trees.      Temporao has warned that the large number of women having  illegal abortions was a serious public health issue because of  often dangerous complications when they went awry.      Annually more than 200,000 women are hospitalized because  of botched abortions, government statistics show. Based on  those figures some experts estimate the number of abortions  could be as high as around 1 million per year.      Many Brazilians believe it is mostly poor teenagers who  abort. But a study co-sponsored by the University of Brasilia  showed that most abortions were practiced by Catholic mothers,  aged 20-29, with jobs, who used contraceptive devices and had  steady sexual partners.   (Reporting by Raymond Colitt, Editing by Cynthia Osterman)  ((ray.colitt@reuters.com ; +5561 3426-7021; Reuters Messaging:  ray.colitt.reuters.com@reuters.net))  Keywords: BRAZIL ABORTION       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0
+        ],
+        "Relevance": 6.538768768310547,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "'This bill won't prosper in the Chamber,' said Deputy Eduardo Cunha, committee leader.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence implies a negative judgment about the bill's chances based on the opinion of Deputy Eduardo Cunha, presenting it as a definitive outcome rather than a subjective prediction."
+                },
+                {
+                    "text": "Several ruling party legislators pushed the bill after Health Minister Jose Temporao last year all but endorsed legalizing abortion.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The phrase 'all but endorsed' suggests a strong leaning towards support for abortion legalization, using language that implies a definitive stance without explicitly stating it."
+                },
+                {
+                    "text": "Church groups, which lobbied against the legislative proposal and witnessed the hearing, cheered and prayed in celebration after the vote.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The description of church groups 'cheered and prayed in celebration' after the vote uses emotionally charged language to evoke a strong, positive reaction, potentially influencing the reader's perception of the event."
+                },
+                {
+                    "text": "Some deputies had placards hanging from their necks, showing pictures of aborted fetuses.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The visual and graphic nature of this action, described without context, is likely to evoke a strong emotional response from the reader, potentially overshadowing a more balanced discussion on the topic."
+                },
+                {
+                    "text": "Temporao angered church groups by proposing a referendum on the legalization of abortion and backing increased use of contraceptives.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'angered' to describe the reaction of church groups introduces a negative connotation, suggesting an overreaction or unjustified response to Temporao's proposals."
+                },
+                {
+                    "text": "The government has begun distributing condoms in public high schools and in April launched its own factory to produce condoms made of rubber from Amazon trees.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The framing of the government's actions with phrases like 'begun distributing' and 'launched its own factory' may imply a celebratory or proactive tone, subtly endorsing these initiatives without a neutral presentation."
+                },
+                {
+                    "text": "Annually more than 200,000 women are hospitalized because of botched abortions, government statistics show. Based on those figures some experts estimate the number of abortions could be as high as around 1 million per year.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of statistics, particularly the dramatic estimate of 1 million abortions per year, is a form of sensationalism that aims to shock and provoke an emotional response, potentially overshadowing a more nuanced discussion on the issue."
+                },
+                {
+                    "text": "Many Brazilians believe it is mostly poor teenagers who abort. But a study co-sponsored by the University of Brasilia showed that most abortions were practiced by Catholic mothers, aged 20-29, with jobs, who used contraceptive devices and had steady sexual partners.",
+                    "bias_type": "Generalization Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence challenges a common belief with specific data, but the contrast is presented in a way that generalizes the characteristics of those who have abortions, potentially oversimplifying a complex issue."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the topic of abortion in Brazil, with a general tendency towards emotional sensationalism, word choice, opinionated statements, and generalizations that may influence the reader's perception of the issue."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.16666666666666666,
+            "overall_rating": 0.3833333333333333
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "British Energy's sees short term Heysham closure",
+        "URL": "British Energy's sees short term Heysham closure.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    LONDON, Jan 18 (Reuters) -  British Energy's Heysham 2-8  nuclear power reactor is not expected to be closed for long-term  work after tripping on Thursday and there is no need to stop the  other 625-megawatt reactor at the plant, a spokeswoman for the  plant said on Friday.      'It's a routine issue. We don't anticipate a long-term  outage,' the spokeswoman said. 'There's no question of unit  seven having to be shut down as a precaution.'      Heysham 2-8 shut down late on Thursday afternoon because of  a problem with water pump at the plant in north west England.   (Reporting by Daniel Fineren)   ((Reuters Messaging, daniel.fineren.reuters@reuters.com  +44-207-542-3083; daniel.fineren@reuters.com)).    Keywords: BRITISH ENERGY/        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 6.534393310546875,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports on a routine issue with a nuclear power reactor in a factual manner without introducing any subjective or misleading information."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Illegal abortion, South Korea's open secret",
+        "URL": "Illegal abortion, South Korea's open secret.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Lee Jiyeon      SEOUL, April 4 (Reuters Life!) - At a clinic in a fashionable  area of Seoul, young women sit in plush leather couches waiting  for a doctor to give them an illegal abortion.      By the hundreds of thousands each year South Korean women  have gone to clinics like this, which operate in the open.      Abortions have been illegal for almost as long as South Korea  has existed but, in an uneasy compromise, law enforcement  officials have been willing to look the other way as long as  qualified doctors perform the operation.      Many public health experts in South Korea are pushing for  changes in the abortion law but face opposition from a strong  pro-life lobby in a country with one of Asia's largest  percentages of Christians and a government trying to boost the  lowest fertility rate in the developed world.      Some doctors are themselves reluctant to lose a lucrative  income in cash or credit and mostly away from the eyes of tax  officials.      'Abortions do bring in money,' said physician Park Sung-chul,  who was forced to shut down his private clinic because of a  substantial loss of income when he stopped doing the procedure.      The law allows for abortion only in cases where the mother's  health is at risk, the baby is to be born with severe birth  defects or the pregnancy was caused by a sexual crime.      'Most abortions are for pregnancies out of wedlock and not  for health reasons,' Park said.      According to the most recent figures, an estimated 350,000  abortions were performed in 2005. That is equivalent to about 80  percent of the total number of babies born that year.            CRIMINAL PUNISHMENT      Doctors can face up to two years in prison or lose their  licenses for illegal abortions, though only very few cases have  ever gone to court.      It is also illegal for doctors to tell expecting parents the  sex of their child because many families place a higher value on  having boys than girls.      South Korea criminalised abortion in 1953 when its  authoritarian leaders wanted to boost the population and build an  army powerful enough to fend off its rival North Korea.      But by the 1970s, population growth was getting out of  control, leading the country to draw up exceptions to the  abortion law.      Yonsei University medical law and ethics professor Kim  So-yoon, who headed a government-commissioned research team on  how to reform abortion laws feels a sweeping change is needed.      'We should not let these laws, which were set up under  different ideals, stay as they are,' said Kim.      Kim, with the backing of several women's rights groups, is  lobbying to widen the conditions under which abortion is  permitted, seen as more expedient than striking down the old law  and drawing up a new one.      Many South Korean Christians, who make up roughly a third of  the population, are fighting the change.      'The government, under its family planning policy, has  planted in people's minds for the past 35 years the idea that  there is nothing wrong with abortion,' Pastor Kim Hyeon-chul, one  of the leaders in the pro-life movement, said.      South Korean society does not generally look favourably on  young, single mothers, forcing many to seek abortions or give  birth in secret and put their child up for adoption.      In the meantime, a proliferation of postings seeking abortion  advice on the Internet suggests demand is as strong as ever.      'I'm a high-school student and would l",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0.8,
+            0.6,
+            0.5,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0.7,
+            0,
+            0,
+            0.6,
+            0.5,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 6.437094688415527,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Many public health experts in South Korea are pushing for changes in the abortion law but face opposition from a strong pro-life lobby in a country with one of Asia's largest percentages of Christians and a government trying to boost the lowest fertility rate in the developed world.",
+                    "bias_type": "Political Bias",
+                    "bias_strength": 0.8,
+                    "bias_description": "This sentence exhibits political bias by portraying the pro-life lobby negatively as an obstacle to public health experts, and by suggesting a government agenda to boost fertility rates may influence the abortion law debate, implying a judgment on the motives of the involved parties."
+                },
+                {
+                    "text": "Some doctors are themselves reluctant to lose a lucrative income in cash or credit and mostly away from the eyes of tax officials.",
+                    "bias_type": "Commercial Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence shows commercial bias by implying that doctors perform illegal abortions for financial gain, suggesting a lack of professional ethics or a profit-driven motive without providing evidence for such a claim."
+                },
+                {
+                    "text": "'Abortions do bring in money,' said physician Park Sung-chul, who was forced to shut down his private clinic because of a substantial loss of income when he stopped doing the procedure.",
+                    "bias_type": "Anecdotal Evidence Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "The use of this anecdote to support the claim that abortions are financially lucrative introduces anecdotal evidence bias, as it relies on a single personal account to make a general statement about the economic incentives of performing abortions."
+                },
+                {
+                    "text": "According to the most recent figures, an estimated 350,000 abortions were performed in 2005. That is equivalent to about 80 percent of the total number of babies born that year.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'equivalent' in this context could imply a judgment about the ratio of abortions to live births, suggesting a negative connotation towards the prevalence of abortions without providing a neutral or informative framing."
+                },
+                {
+                    "text": "Doctors can face up to two years in prison or lose their licenses for illegal abortions, though only very few cases have ever gone to court.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The emphasis on 'very few cases' going to court regarding illegal abortions could introduce word choice bias by downplaying the significance of the legal consequences, potentially minimizing the seriousness of the issue."
+                },
+                {
+                    "text": "It is also illegal for doctors to tell expecting parents the sex of their child because many families place a higher value on having boys than girls.",
+                    "bias_type": "Discriminatory Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence exhibits discriminatory bias by highlighting a cultural preference for male children in a way that could reinforce gender stereotypes or suggest a negative societal attitude towards girls, without a broader discussion of the complex social issues involved."
+                },
+                {
+                    "text": "But by the 1970s, population growth was getting out of control, leading the country to draw up exceptions to the abortion law.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.7,
+                    "bias_description": "The assertion that population growth was 'getting out of control' and directly led to exceptions in the abortion law introduces causal misunderstanding bias by oversimplifying the complex factors that influence abortion policy, potentially misleading readers about the historical context."
+                },
+                {
+                    "text": "Kim, with the backing of several women's rights groups, is lobbying to widen the conditions under which abortion is permitted, seen as more expedient than striking down the old law and drawing up a new one.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'more expedient' to describe the approach to changing abortion laws introduces word choice bias by suggesting a judgment on the effectiveness or practicality of different advocacy strategies, potentially influencing the reader's perception of the legitimacy of the lobbying efforts."
+                },
+                {
+                    "text": "Many South Korean Christians, who make up roughly a third of the population, are fighting the change.",
+                    "bias_type": "Political Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "This sentence exhibits political bias by framing the opposition to abortion law reform as a religious issue, potentially oversimplifying the diversity of perspectives within the Christian community and the complex reasons behind their stance on the issue."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article is biased regarding the topic of abortion in South Korea, showing a general bias tendency towards portraying certain groups negatively, such as the pro-life lobby and doctors, and using language that could influence the reader's perception of the issue's complexity and the motives of the involved parties."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6111111111111112,
+            "percentage_of_biased_sentences": 0.13043478260869565,
+            "overall_rating": 0.3707729468599034
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Cameroon proposes scrapping presidential term limit",
+        "URL": "Cameroon proposes scrapping presidential term limit.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    YAOUNDE, April 4 (Reuters) - Cameroon's government has  presented a constitutional reform to parliament to remove term  limits for President Paul Biya, who has ruled the central  African country for over 25 years, state radio said on Friday.      Popular discontent over the plans to extend Biya's rule when  his current seven-year term expires in 2011 was one of the  causes of rioting in Cameroon this year which left some 100  people dead, according to civil rights campaigners.      Biya had confirmed his intention to stand again in an  end-of-year speech, citing popular calls for him to stay in  power and saying the term limit was undemocratic.      He revised the constitution in 1996 -- after 14 years in  office -- to extend the presidential term from five to seven  years and make it renewable only once.       He won the first seven-year term in 1997 and was re-elected  in 2004, and is currently barred from running again in 2011.      Biya's rule has been marred by human rights abuses and  Cameroon's reputation as one of the most corrupt countries in  the world, particularly in the late 1990s. In recent years, some  ministers and senior officials have been jailed for graft.      Cameroon's parliament is overwhelmingly controlled by the  ruling Cameroon People's Democratic Movement.       Legislators in Nigeria, Zambia and Malawi have blocked  efforts to allow third terms for presidents in recent years.   (For full Reuters Africa coverage and to have your say on the  top issues, visit: http://africa.reuters.com/ )   (Reporting by Tansa Musa; writing by Daniel Flynn; editing by  Andrew Roche)   ((daniel.flynn@reuters.com; +221 864 5076; Reuters messaging:  daniel.flynn.reuters.com@reuters.net, Dakar Newsroom +221 33 864  5076))        Keywords: CAMEROON CONSTITUTION/       ",
+        "Histogram": [
+            0,
+            0.7,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 6.422780513763428,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Popular discontent over the plans to extend Biya's rule when his current seven-year term expires in 2011 was one of the causes of rioting in Cameroon this year which left some 100 people dead, according to civil rights campaigners.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.7,
+                    "bias_description": "This sentence implies a direct cause-and-effect relationship between the plans to extend Biya's rule and the rioting, without considering other factors that may have contributed to the unrest, such as economic conditions or political repression."
+                },
+                {
+                    "text": "He revised the constitution in 1996 -- after 14 years in office -- to extend the presidential term from five to seven years and make it renewable only once.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'revised' instead of 'amended' or 'changed' may imply a judgment about the legitimacy or appropriateness of the action, suggesting a negative connotation towards the extension of the presidential term."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the proposed constitutional reform in Cameroon, particularly in the way it discusses the causes of rioting and the constitutional revision. The biases identified include Causal Misunderstanding and Word Choice, indicating a tendency to present information in a way that supports a specific narrative against the extension of presidential terms."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6499999999999999,
+            "percentage_of_biased_sentences": 0.1,
+            "overall_rating": 0.37499999999999994
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "ANALYSIS-Can Biden help Obama woo the Catholic vote?",
+        "URL": "ANALYSIS-Can Biden help Obama woo the Catholic vote?.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Ed Stoddard      DALLAS, Aug 25 (Reuters) - Can Joe Biden bring his Catholic  brethren into Barack Obama's fold?      Biden, the Democratic vice presidential candidate and an  Irish Catholic from a Pennsylvania working-class background,  could also win over blue-collar workers who backed Obama's  party rival for the White House, Hillary Clinton.      'If we just focus on the religious element, adding Biden to  the Democratic ticket was an extremely smart move,' said  Michael Lindsay of Rice University in Houston. Obama made Biden  his running mate on Saturday.      'Biden has ties in a very important swing state,  Pennsylvania, where Catholics are the biggest constituency  whose votes are up for grabs,' Lindsay told Reuters.      U.S. presidential elections are often decided by swing  states that move from party to party. Catholics have been a  swing vote also for decades. Opinion polls show white Catholics  evenly split between Obama and Republican John McCain.      John Kennedy became America's only Catholic president in  1961. If elected, Biden would be the first Catholic vice  president. House Speaker Nancy Pelosi, who is next in line to  the president after the vice president, is also a Catholic.      Faith features in U.S. elections despite a formal  separation of church and state in the workings of government.  Candidates are often asked about the role of faith in their  lives and how it might shape their presidencies.      Biden's broad support for abortion rights could help with  more liberal Catholics while his opposition to late-term  abortions could attract those who are uncomfortable with the  procedure but don't vote on it.           ABORTION ISSUE      Opinion polls show that abortion, a traditionally divisive  issue for Americans, is less of a factor for most people in  this election than the economy, the Iraq war and health care,  which top their priorities.      A Catholic candidate who speaks with passion about his  religion, such as Biden, might also attract blue collar  Hispanic voters, a majority of whom are Catholic.      Abortion may be more of a political minefield -- Catholic  doctrine is strongly opposed to it -- but Catholics who oppose  abortion rights and vote as such already are squarely in the  Republican camp.      'There is a broader group of Catholics who have pro-life  sympathies but who don't vote exclusively on that issue and in  that case Biden may be an appealing candidate,' said Allen  Hertzke, a professor of political science at the University of  Oklahoma in Norman.     'And the fact that he has opposed late-term abortions gives  him some talking points which Obama doesn't have,' he said.      Opinion polls have shown a close battle for the Catholic  vote at the national level with a slight edge for Obama.  Catholics account for nearly a quarter of U.S. adults.      The electoral clout of the Catholic vote is somewhat  diluted by its distribution.      According to a report by the Center for Applied Research in  the Apostolate at Georgetown University in Washington, nearly  four in 10 U.S. Catholics live in New York, California and  Texas, none of which are closely contested.      The report said states 'where the Catholic vote could make  a real difference are Florida, Ohio and Louisiana.'   (Editing by Howard Goller, and David Storey)   ((Dallas newsroom +1 972 632 7041))   ((For a TAKE A LOOK on the campaign click on [US/VOTE]))   (For more about the U.S. political campaign, visit Reu",
+        "Histogram": [
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 6.417755126953125,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Biden, the Democratic vice presidential candidate and an Irish Catholic from a Pennsylvania working-class background, could also win over blue-collar workers who backed Obama's party rival for the White House, Hillary Clinton.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'could also win over' implies a positive outcome without providing evidence, suggesting a favorable judgment towards Biden's potential influence on blue-collar workers."
+                },
+                {
+                    "text": "'If we just focus on the religious element, adding Biden to the Democratic ticket was an extremely smart move,' said Michael Lindsay of Rice University in Houston. Obama made Biden his running mate on Saturday.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence presents Michael Lindsay's opinion as a factual assessment of Biden's addition to the Democratic ticket, blurring the line between objective reporting and personal perspective."
+                },
+                {
+                    "text": "Faith features in U.S. elections despite a formal separation of church and state in the workings of government. Candidates are often asked about the role of faith in their lives and how it might shape their presidencies.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The assertion that 'faith features in U.S. elections' is presented as a matter of fact, without acknowledging the diversity of voter priorities or the complexity of the relationship between faith and politics."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the portrayal of Joe Biden's potential influence on the Catholic vote, employing word choice and opinionated statements that suggest a favorable judgment towards Biden's candidacy without a balanced presentation of evidence."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.15384615384615385,
+            "overall_rating": 0.3769230769230769
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "S.Korea LG Chem drops ADNOC naphtha term deal",
+        "URL": "S.Korea LG Chem drops ADNOC naphtha term deal.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    SEOUL, Feb 23 (Reuters) - South Korea's LG Chem has failed to  renew its April 2009-March 2010 naphtha term deal with Abu Dhabi  National Oil Co (ADNOC), Asia's third-largest naphtha supplier,  due to high premiums, traders said on Monday.      ADNOC had sealed its April 2009-March 2010 pentane and  splitter naphtha grades at $23.50-$26.00 a tonne premiums to  Middle East quotes on a free-on-board (FOB) basis, at least five  times higher that what it fetched for its January-December 2009  supplies, concluded late last year. [ID:nSP247695]   (Reporting by Angela Moon; Editing by Jonathan Hopfner)   ((angela.moon@reuters.com; +82 2 3704 5653; Reuters Messaging:  angela.moon.reuters.com@reuters.net))  Keywords: NAPHTHA ADNOC/TERM        ",
+        "Histogram": [
+            0,
+            0,
+            0
+        ],
+        "Relevance": 6.389065742492676,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides factual information about the failure of LG Chem to renew its naphtha term deal with ADNOC due to high premiums, without exhibiting any of the common forms of bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Uzbek's election advice to Putin arrives too late",
+        "URL": "Uzbek's election advice to Putin arrives too late.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Oleg Shchedrov      MOSCOW, Feb 6 (Reuters) - Uzbekistan's leader Islam Karimov,  who exploited a legal loophole to stay in office for a third  term, said on Wednesday that his Russian counterpart Vladimir  Putin could have used a similar tactic.      But Karimov quickly acknowledged that his advice had come a  bit too late.      Karimov, on a visit to Russia to discuss cooperation between  the two former Soviet republics, said Putin should have ordered  a referendum to extend the president's term in office.      'It is too late to talk about this now,' he said. 'But if  such an option worked, I am convinced that no one would regret  it. Such decision would be the most logical and correct,'  Karimov told reporters.      Putin, who was standing alongside Karimov when he made the  comments, did not react.      Russia is due to hold presidential elections in March. Putin  says he will step down next May in line with a constitutional  ban on a head of state serving more than two consecutive terms.  But Putin has said he plans to retain influence in the country.      Opinion polls suggest his close ally Dmitry Medvedev is  likely to be elected as the next president.      Karimov, accused by rights activists and Western governments  of tolerating no dissent in his Central Asia republic, won a  third term in an election last year that Western monitors said  was undemocratic.      Uzbekistan's constitution, like Russia's, bars a president  from serving three consecutive terms.      Karimov avoided the ban because in 2002 the country held a  referendum to extend presidential terms from 5 to 7 years. Legal  experts said that meant his time in office would be counted from  2002, not the point he first came to power.   (Writing by Oleg Shchedrov and Christian Lowe; Editing by Sami  Aboudi)   ((oleg.shchedrov@reuters.com; +7 495 775 1242; Reuters  Messaging: oleg.shchedrov.reuters.com@reuters.net))    Keywords: RUSSIA UZBEKISTAN/        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 6.373656272888184,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides factual information about Uzbekistan's leader Islam Karimov's comments on the possibility of extending presidential terms, without presenting the information in a way that favors or disfavors any particular viewpoint."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "RPT-Czech short-term interbank lending up, not l-term",
+        "URL": "RPT-Czech short-term interbank lending up, not l-term.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": " (Repeats story published late on Monday)      PRAGUE, Nov 3 (Reuters) - Czech short-term interbank lending  rose while longer-term transactions nearly dried up as the   global financial crisis affected the Czech market, a  semi-annual central bank survey showed on Monday.      Foreign exchange activity weakened with overall daily  turnover declining slightly but spot transactions grew by more  than a third, a separate survey unveiled.      The global market turbulence has so far had relatively  limited impact on the central European country, with no banks  failing and no currency slump.      But markets have been hit and banks have grown reluctant to  lend to each other for longer maturities. Interbank money market  rates have jumped.      'The most significant among deposit operations were deposit  operations with a maturity up to one week (99 percent), in  particular overnight operations comprising 91 percent share of  the total turnover,' the bank said.      'This was caused mainly by tightening of banks' credit  policy,' it said.      The survey conducted in the week between Oct. 6 and Oct. 10  showed the daily average turnover of deposit operations rose to  86.6 billion crowns ($4.58 billion) from 77.2 billion in April.      Derivative transactions in interest rate swaps (IRS) and  forward rate agreements (FRA) dropped by 77 percent and 90  percent respectively due to widening spreads caused by high  volatility and risk aversion, the survey showed.        A separate central bank survey, conducted between Oct. 13  and Oct. 17, showed the daily average foreign exchange market  turnover dipped 1.8 percent from April to $8.86 billion. Spot  transactions grew 35.2 percent while forwards and swaps fell  14.1 percent.   (Reporting by Jana Mlcochova; editing by Stephen Nisbet)   ((prague.newsroom@thomsonreuters.com; Reuters Messaging:  jana.mlcochova.reuters.com@reuters.net; +420-224 190 479))   ($1=18.89 Czech Crown)    Keywords: CZECH MONEYMARKET/        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 6.360066890716553,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual report on the Czech short-term interbank lending and foreign exchange activity without exhibiting any of the common forms of bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "South Korea's LS Cable to sell Samurai bond -term sheet",
+        "URL": "South Korea's LS Cable to sell Samurai bond -term sheet.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    HONG KONG, Feb 18 (Reuters) - South Korea's LS Cable  <006260.KS> plans to sell two-year fixed Samurai bonds, with  pricing expected mid- to late next week following a roadshow,  according to a term sheet seen by Reuters on Monday.      The term sheet did not provide the expected size of the deal.  Nikko Citigroup is the sole bookrunner for the deal.   (Reporting by Rafael Nam; Editing by Anne Marie Roantree)   ((rafael.nam@reuters.com ; +852 2843 6548; Reuters Messaging:  rafael.nam.reuters.com@reuters.net))          Keywords: LSCABLE BONDS/        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 6.359599590301514,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it simply reports on South Korea's LS Cable's plan to sell Samurai bonds without introducing any subjective or misleading information."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "ADNOC seals term pentane, splitter naphtha; firmer",
+        "URL": "ADNOC seals term pentane, splitter naphtha; firmer.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    SINGAPORE, Feb 19 (Reuters) - Abu Dhabi National Oil Co  (ADNOC), Asia's third-largest term naphtha supplier, has sealed  its April 2009-March 2010 pentane and splitter naphtha grades at  $23.50-$26.00 a tonne to Middle East quotes on a free-on-board  (FOB) basis, traders said on Thursday.      The new premiums are at least five times higher that what  ADNOC had fetched for its January-December 2009 supplies,  concluded late last year.      'They didn't reduce the offers at all,' said one source in  the talks.       Details on its low-sulphur grade, offered at $24.50 a tonne  to Middle East quotes, FOB, for the same lifting period were not  immediately availble.       ADNOC had announced the offers last week, and its Asian  buyers were supposed to reply via fax by Feb. 18.    (Reporting by Seng Li Peng; Editing by Ramthan Hussain)   ((lipeng.seng@thomsonreuters.com; +65 6870 3086; Reuters  Messaging: lipeng.seng.reuters.com@reuters.net))           Keywords: NAPHTHA ADNOC/TERM         ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 6.291950225830078,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports on the sealing of term pentane and splitter naphtha grades by Abu Dhabi National Oil Co (ADNOC) without introducing any subjective or misleading information."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    }
+]

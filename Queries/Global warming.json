@@ -1,0 +1,1145 @@
+[
+    {
+        "Title": "Ex_Astronaut_ Global Warming Is Bunk.txt",
+        "URL": "Ex_Astronaut_ Global Warming Is Bunk.txt.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/240px-Fox_News_Channel_logo.svg.png",
+        "Text": "SANTA FE, N.M. -- Former astronaut Harrison Schmitt, who walked on the moon and once served New Mexico in the U.S. Senate, doesn't believe that humans are causing global warming.\n\n\"I don't think the human effect is significant compared to the natural effect,\" said Schmitt, who is among 70 skeptics scheduled to speak next month at the International Conference on Climate Change in New York.\n\nSchmitt contends that scientists \"are being intimidated\" if they disagree with the idea that burning fossil fuels has increased carbon dioxide levels, temperatures and sea levels.\n\n\"They've seen too many of their colleagues lose grant funding when they haven't gone along with the so-called political consensus that we're in a human-caused global warming,\" Schmitt said.\n\nDan Williams, publisher with the Chicago-based Heartland Institute, which is hosting the climate change conference, said he invited Schmitt after reading about his resignation from The Planetary Society, a nonprofit dedicated to space exploration.\n\nSchmitt resigned after the group blamed global warming on human activity. In his resignation letter, the 74-year-old geologist argued that the \"global warming scare is being used as a political tool to increase government control over American lives, incomes and decision making.\"\n\nWilliams said Heartland is skeptical about the crisis that people are proclaiming in global warming.\n\n\"Not that the planet hasn't warmed. We know it has or we'd all still be in the Ice Age,\" he said. \"But it has not reached a crisis proportion and, even among us skeptics, there's disagreement about how much man has been responsible for that warming.\"\n\nSchmitt said historical documents indicate average temperatures have risen by 1 degree per century since around 1400 A.D., and the rise in carbon dioxide is because of the temperature rise.\n\nSchmitt also said geological evidence indicates changes in sea level have been going on for thousands of years. He said smaller changes are related to changes in the elevation of land masses -- for example, the Great Lakes are rising because the earth's crust is rebounding from being depressed by glaciers.\n\nSchmitt, who grew up in Silver City and now lives in Albuquerque, has a science degree from the California Institute of Technology. He also studied geology at the University of Oslo in Norway and took a doctorate in geology from Harvard University in 1964.\n\nIn 1972, he was one of the last men to walk on the moon as part of the Apollo 17 mission.\n\nSchmitt said he's heartened that the upcoming conference is made up of scientists who haven't been manipulated by politics.\n\nOf the global warming debate, he said: \"It's one of the few times you've seen a sizable portion of scientists who ought to be objective take a political position and it's coloring their objectivity.\"",
+        "Histogram": [
+            0,
+            0,
+            0.5,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0.7,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.5
+        ],
+        "Relevance": 13.694368362426758,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Schmitt contends that scientists \"are being intimidated\" if they disagree with the idea that burning fossil fuels has increased carbon dioxide levels, temperatures and sea levels.",
+                    "bias_type": "Projection Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "This sentence implies, without evidence, that scientists who disagree with the mainstream view on climate change are being intimidated, attributing motives to others without sufficient proof."
+                },
+                {
+                    "text": "In his resignation letter, the 74-year-old geologist argued that the \"global warming scare is being used as a political tool to increase government control over American lives, incomes and decision making.\"",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the term 'global warming scare' and the assertion that it is being used as a political tool to control people's lives introduces a hyperbolic and provocative element to the discussion, aiming to evoke strong emotions."
+                },
+                {
+                    "text": "Williams said Heartland is skeptical about the crisis that people are proclaiming in global warming.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The choice of the word 'skeptical' implies a more neutral position than 'denial' or 'disagreement', but it still carries a negative connotation towards the concerns raised about global warming, suggesting a judgment about the issue."
+                },
+                {
+                    "text": "Schmitt said historical documents indicate average temperatures have risen by 1 degree per century since around 1400 A.D., and the rise in carbon dioxide is because of the temperature rise.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.7,
+                    "bias_description": "This sentence implies a direct cause-and-effect relationship between temperature rise and carbon dioxide levels without acknowledging the complex feedback loops and the overwhelming evidence for human-induced carbon emissions driving current climate change."
+                },
+                {
+                    "text": "Of the global warming debate, he said: \"It's one of the few times you've seen a sizable portion of scientists who ought to be objective take a political position and it's coloring their objectivity.\"",
+                    "bias_type": "Projection Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "This statement projects onto scientists the idea that they are not being objective due to political influence, without providing specific examples or evidence for this claim."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the topic of global warming, with a general tendency to undermine the scientific consensus on human-induced climate change through the use of projection, emotional sensationalism, word choice, and causal misunderstanding biases."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.5800000000000001,
+            "percentage_of_biased_sentences": 0.15789473684210525,
+            "overall_rating": 0.3689473684210527
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Global warming may reduce hurricanes hitting U.S.",
+        "URL": "Global warming may reduce hurricanes hitting U.S..txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Jim Loney      MIAMI, Jan 23 (Reuters) - Rising ocean temperatures linked  to global warming could decrease the number of hurricanes  hitting the United States, according to new research released  on Wednesday.      The study, published in Geophysical Research Letters,  challenges recent research that suggests global warming could  be contributing to an increase in the frequency and the  intensity of Atlantic hurricanes.      At the same time, it reaffirmed earlier views that warmer  sea waters might result in atmospheric instabilities that could  prevent tropical storms from forming.      Atlantic storms play a pivotal role in the global energy,  insurance and commodities markets, particularly since the  devastating 2004 and 2005 hurricane seasons, which hammered  U.S. oil and gas production in the Gulf of Mexico.      The new study suggests that warmer seas, caused by  greenhouse gases blamed for a rise in global temperatures, are  linked to an increase in vertical wind shear, a difference in  wind speeds at different altitudes that can tear apart nascent  cyclones.      Hurricanes feed on warm water, leading to conventional  wisdom supported by some recent research that global warming  could be revving up more powerful storms.      But the new study, by oceanographer Chunzai Wang of the  National Oceanic and Atmospheric Administration, and Sang-Ki  Lee, a scientist at the University of Miami, examined 150 years  of hurricane records and found a small decline in hurricanes  making landfall in the United States as the oceans warmed.      'The attribution of the recent increase in Atlantic  hurricane activity to global warming is premature. ... Global  warming may decrease the likelihood of hurricanes making  landfall in the United States,' the researchers wrote.      Much of the recent research focused on the total number of  tropical storms and hurricanes recorded in the Atlantic Ocean  and Caribbean, but Wang said the number of those hurricanes  actually hitting the United States is a much better indicator.      Prior to the mid-1960s when satellites and other technology  made it easier to spot cyclones, some tropical storms and  hurricanes lived and died far out at sea, undetected.      As a result, scientists trying to track long-term trends in  the frequency of Atlantic storms work with uncertain data.      'We believe U.S. landings for hurricanes are most reliable  measurements over the long term,' Wang said.      The study found that warming of the tropical Pacific and  Indian oceans increases Atlantic wind shear while rising sea  temperatures in the tropical North Atlantic decrease shear.      The two effects compete, but the net impact is an increase  in wind shear in the main Atlantic hurricane development zone,  from the west coast of Africa to Central America.      'The Pacific and Indian warming wins and the result is a  decrease in landfalling U.S. hurricanes,' Wang said.      In 2004, four strong hurricanes hit Florida, causing  billions of dollars in damage across the state. In 2005, a  record-breaking 28 tropical storms formed, including Katrina,  which killed 1,500 people and caused $80 billion damage.      The back-to-back years of unusually intense hurricane  activity fueled debate about the impact of global warming.    (Editing by Michael Christie and Todd Eastham)    ((jim.loney@reuters.com; +1 305 810 2688; Reuters Messaging:  jim.loney.reuters.com@reuters.net))       Keywords: CLIMATE HURRICANES/       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 13.028526306152344,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to exhibit bias regarding the topic of global warming and its potential impact on hurricanes. It presents research findings and expert opinions without employing biased language or promoting a particular viewpoint."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Tactics of Global Warming Alarmists.txt",
+        "URL": "Tactics of Global Warming Alarmists.txt.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/240px-Fox_News_Channel_logo.svg.png",
+        "Text": "This is a rush transcript from \"Hannity & Colmes,\" November 10, 2008. This copy may not be in its final form and may be updated.\n\nALAN COLMES, CO-HOST: Greenpeace calls him a climate criminal, but some think Chris Horner is the only one uncovering the truth about global warming. His new book, \"Red Hot Lies: How Global Warming Alarmist Use Threats, Fraud and Deception to Keep You Misinformed.\" That's what it's called. Horner warns of the alarmist green agenda, which he claims may reach new heights under the new administration.\n\nJoining us the author, Chris Horner.\n\nI guess we've got to be really scared, as Dick Morris said, about Obama, radical lefty. We're going to scare people about the incoming president, right, Chris?\n\nCHRIS HORNER, AUTHOR, \"RED HOT LIES\": Well, it depends on what frightens you, Alan, and I know this agenda doesn't frighten you; it affirms your world view.\n\n\u2022 Video: Watch Sean and Alan's interview with Chris Horner\n\nBut there are some things that are now quite obviously on tap, and they are because \u2014 there remains public opposition. For example, President-elect Obama has indicated he wants to reclassify the Kyoto Protocol, which has been stalled in the Senate for 10 years. We signed it \u2014 we signed it 10 years ago Wednesday, even though you guys can't get that right.\n\nAnd he wants to reclassify it as an executive agreement. He wants to reclassify it as an executive agreement, requiring a simple up or down no amendment, no filibuster vote, in order to get around opposition and a little something called the Constitution. So if that doesn't alarm you, then no, you should feel just fine.\n\nCOLMES: Well, I'm not alarmed (ph). But some of the things you say in the book are very interesting to me. For example, you say children are being corrupted by those who want to focus on global warming, and you cite a study that children in England, where they had to watch Al Gore's movie, stay up nights, worried about global warming and climate change.\n\nI thought you conservative thought Gore put people to sleep. I thought it was the other way around.\n\nSEAN HANNITY, CO-HOST: He puts me to sleep.\n\n(CROSSTALK)\n\nHORNER: As a father of young children, I don't think it's funny anymore. More than half of the UK school children polled reported that they lost sleep at night, terrified over catastrophic manmade global warming that's being indoctrinated into their heads by the schools. We have something efforts underway here in California, and it includes what they call pester power and also reporting on their parents.\n\nNow, I thought you believed in separation of church and state. This clearly violates that.\n\nCOLMES: I don't know how they violate. Well, first of all, you're talking about England, a study of 1,100 people, of 7 to 11. And most of them blamed either politicians; 1 in 7 blame their parents.\n\nYou also say China wants carbon offsets for children, not born because of their restrictive family issues. I found that \u2014 policies. I found that a fascinating part of your book.\n\nHORNER: Yes, here's what happened. About 18 months ago, at a Kyoto negotiation in Thailand, China suggested that, because of their family planning policy, that they should be given carbon offsets to sell back to Europe and, ultimately, the United States, on the basis that their population would be much larger if they would have all these babies that they aborted. And therefore, they would have a much larger carbon footprint. And we should pay them for these offsets.\n\nHANNITY: That's great.\n\nHORNER: That's reprehensible. And the European leaders (ph) thought it was great, and the U.N. thought it was great.\n\nHANNITY: And where's some of the biggest polluters? Right? Which countries? Right, Chris? It's almost...\n\nHORNER: Well, if you believe that carbon dioxide is a pollutant, then China would be the world's greatest polluter. But plants might disagree with you.\n\nHANNITY: Let me ask you this, Chris. One of the reasons we're so energy dependant is because of the global warming hysteria and extremism. You agree with that? I know you agree with that statement. I've interviewed you in the past.\n\nHORNER: Yes.\n\nHANNITY: Look, for example, you know, the auto industry. You know, they've got safety mandates. They've got CAFE standards that we've discussed at length here. Bad trade policy. And that has put them in a very difficult position where they can't even compete. Meanwhile, foreign countries can compete here in this country. You know, now they're struggling because of the government policies.\n\nThis is going to be worse if this more extreme agenda that Obama seems to be leaning towards gets implemented. Right or wrong?\n\nHORNER: Yes. You're right, and in fact, Al Gore laid this out for you in an op-ed in the New York Times yesterday, in which he called for, essentially, a series of bailouts for other great new ideas, that this longtime champion of the ethanol boondoggle has.\n\nAnd close students of the game, Sean, probably recognize these as industries in which he has invested. And, by the way, since Alan's always obsessed with funding, $300 million has been given him in the last three years to rebrand global warming to climate crisis. And he doesn't tell us where it came from. And I'm curious that you're not curious where that money came from, Alan.\n\nHANNITY: By the way, and I've got Al Gore on his private jet. Let me ask you this. You've had intimidation efforts. Scientists that debunk global warming, they've been intimidated. How widespread is this? And tell us about your story, real quick, in the time we have left.\n\nHORNER: OK. It's very widespread. I was in a meeting in Vienna of a bunch of scientists, and I happened to relate about how Greenpeace was stealing my trash and the trash of a White House aide that I just happened to learn about.\n\nAnd these scientists began telling me their own tales. One scientist at the University of Oslo had the wheels fall off his car, not once, but twice, including while his daughter was in the car after he began speaking out against global warming alarmism. They started sending pizza to his house. That didn't intimidate him. So they loosened the lug nuts on his car.\n\nTim Ball's (ph) gotten death threats. There are professional threats.\n\nHANNITY: We've got to go.\n\nHORNER: There are (UNINTELLIGIBLE), and people are being chased out of their profession.\n\nHANNITY: All right. Thanks, Chris. Appreciate you being with us. Good luck with the book.\n\nWatch \"Hannity & Colmes\" weeknights at 9 p.m. ET!\n\nContent and Programming Copyright 2008 FOX News Network, Inc. ALL RIGHTS RESERVED. Transcription Copyright 2008 ASC LLC (www.ascllc.net), which takes sole responsibility for the accuracy of the transcription. ALL RIGHTS RESERVED. No license is granted to the user of this material except for the user's personal or internal use and, in such case, only one copy may be printed, nor shall user use any material for commercial purposes or in any fashion that may infringe upon FOX News Network, Inc.'s and Voxant Inc.'s copyrights or other proprietary rights or interests in the material. This is not a legal transcript for purposes of litigation.",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0.9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 12.687498092651367,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "But there are some things that are now quite obviously on tap, and they are because \u2014 there remains public opposition. For example, President-elect Obama has indicated he wants to reclassify the Kyoto Protocol, which has been stalled in the Senate for 10 years. We signed it \u2014 we signed it 10 years ago Wednesday, even though you guys can't get that right. And he wants to reclassify it as an executive agreement. He wants to reclassify it as an executive agreement, requiring a simple up or down no amendment, no filibuster vote, in order to get around opposition and a little something called the Constitution. So if that doesn't alarm you, then no, you should feel just fine.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of phrases like 'even though you guys can't get that right' and 'a little something called the Constitution' implies a dismissive and condescending tone towards those with differing views, suggesting a judgment about the opposition's competence and the seriousness of the constitutional issue."
+                },
+                {
+                    "text": "As a father of young children, I don't think it's funny anymore. More than half of the UK school children polled reported that they lost sleep at night, terrified over catastrophic manmade global warming that's being indoctrinated into their heads by the schools. We have something efforts underway here in California, and it includes what they call pester power and also reporting on their parents. Now, I thought you believed in separation of church and state. This clearly violates that.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of emotionally charged language such as 'terrified over catastrophic manmade global warming that's being indoctrinated into their heads' and the comparison to the separation of church and state aims to evoke strong emotional responses and implies a drastic and inappropriate influence on children's education."
+                },
+                {
+                    "text": "Yes, here's what happened. About 18 months ago, at a Kyoto negotiation in Thailand, China suggested that, because of their family planning policy, that they should be given carbon offsets to sell back to Europe and, ultimately, the United States, on the basis that their population would be much larger if they would have all these babies that they aborted. And therefore, they would have a much larger carbon footprint. And we should pay them for these offsets.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The framing of China's policy in terms of 'all these babies that they aborted' and the suggestion that they are seeking compensation for not having them contributes to a negative and provocative portrayal, using charged language to influence the reader's perception."
+                },
+                {
+                    "text": "And where's some of the biggest polluters? Right? Which countries? Right, Chris? It's almost...",
+                    "bias_type": "Insinuative Questioning Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This question is designed to lead the audience towards a preconceived notion about the biggest polluters, implying that the answer is obvious and that the audience should share the speaker's perspective without directly addressing the complexities of global pollution."
+                },
+                {
+                    "text": "Well, if you believe that carbon dioxide is a pollutant, then China would be the world's greatest polluter. But plants might disagree with you.",
+                    "bias_type": "False Dichotomy Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "This statement presents a false dichotomy by suggesting that the classification of carbon dioxide as a pollutant is a matter of belief, and then humorously implying that plants have a different perspective, oversimplifying a complex environmental issue."
+                },
+                {
+                    "text": "Yes. You're right, and in fact, Al Gore laid this out for you in an op-ed in the New York Times yesterday, in which he called for, essentially, a series of bailouts for other great new ideas, that this longtime champion of the ethanol boondoggle has. And close students of the game, Sean, probably recognize these as industries in which he has invested. And, by the way, since Alan's always obsessed with funding, $300 million has been given him in the last three years to rebrand global warming to climate crisis. And he doesn't tell us where it came from. And I'm curious that you're not curious where that money came from, Alan.",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This passage attacks Al Gore's character by suggesting ulterior motives for his advocacy, implying that his positions are influenced by personal financial interests rather than a genuine concern for the issues. It also criticizes Alan for not questioning the source of funding, indirectly questioning his integrity."
+                },
+                {
+                    "text": "By the way, and I've got Al Gore on his private jet. Let me ask you this. You've had intimidation efforts. Scientists that debunk global warming, they've been intimidated. How widespread is this? And tell us about your story, real quick, in the time we have left.",
+                    "bias_type": "Whataboutism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The mention of Al Gore's private jet and the subsequent discussion of intimidation efforts against scientists attempts to deflect from the main issue by raising a different, unrelated issue. This tactic is used to undermine the credibility of those advocating for action on global warming by suggesting hypocrisy and misconduct on the part of environmental activists."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the topic of global warming, particularly in its portrayal of the actions and motivations of those advocating for climate change awareness and policy. The biases identified include Word Choice, Emotional Sensationalism, Insinuative Questioning, False Dichotomy, Ad Hominem, and Whataboutism, indicating a general tendency to use charged language, misleading questions, and personal attacks to undermine the credibility of environmental advocacy and promote skepticism towards climate change initiatives."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6428571428571429,
+            "percentage_of_biased_sentences": 0.2916666666666667,
+            "overall_rating": 0.46726190476190477
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Weather Channel Founder Blasts Gore Over Global Warming Campaign.txt",
+        "URL": "Weather Channel Founder Blasts Gore Over Global Warming Campaign.txt.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/240px-Fox_News_Channel_logo.svg.png",
+        "Text": "The founder of the Weather Channel is ridiculing Al Gore over his calls for action on global climate change, saying in a column that global warming is a \"hoax\" and \"bad science.\"\n\nJohn Coleman, now a weatherman at San Diego's KUSI, wrote on his station's Web site Wednesday that Gore refuses to acknowledge the faulty research on which the idea of global warming is based.\n\nColeman's lengthy scolding came as the former vice president and Nobel Peace Prize winner addressed the Senate Foreign Relations Committee and urged lawmakers to pass a bill that would put caps on heat-trapping gases and take the lead on a global climate treaty.\n\nColeman wrote that the Environmental Protection Agency is \"on the verge\" of naming CO2 (carbon dioxide) as a pollutant, and that seemingly all of Washington is on board with such CO2 silliness.\"\n\n\"I am totally convinced there is no scientific basis for any of it,\" Coleman wrote, describing the decades-old theory that increasing the amount of carbon dioxide in Earth's atmosphere leads to global warming.\n\n\"Global Warming. It is the hoax. It is bad science. It is a high jacking of public policy. It is no joke. It is the greatest scam in history,\" Coleman wrote.\n\nClick here to read about Gore's comments on Capitol Hill.\n\nClick here to read Coleman's column.",
+        "Histogram": [
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0,
+            0
+        ],
+        "Relevance": 12.548497200012207,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "The founder of the Weather Channel is ridiculing Al Gore over his calls for action on global climate change, saying in a column that global warming is a \"hoax\" and \"bad science.\"",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence attacks Al Gore's character and the legitimacy of his stance on global climate change by labeling it as a 'hoax' and 'bad science' without addressing the substance of his arguments."
+                },
+                {
+                    "text": "Coleman's lengthy scolding came as the former vice president and Nobel Peace Prize winner addressed the Senate Foreign Relations Committee and urged lawmakers to pass a bill that would put caps on heat-trapping gases and take the lead on a global climate treaty.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'lengthy scolding' to describe Coleman's critique of Al Gore's efforts to address global climate change implies a judgmental and dismissive tone, suggesting that Coleman's disagreement is more about personal disapproval than a substantive critique."
+                },
+                {
+                    "text": "Coleman wrote that the Environmental Protection Agency is \"on the verge\" of naming CO2 (carbon dioxide) as a pollutant, and that seemingly all of Washington is on board with such CO2 silliness.\"",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Describing the EPA's consideration of CO2 as a pollutant as 'CO2 silliness' employs a dismissive and derogatory tone, undermining the seriousness of the environmental and scientific discussions surrounding the impact of carbon dioxide emissions."
+                },
+                {
+                    "text": "\"I am totally convinced there is no scientific basis for any of it,\" Coleman wrote, describing the decades-old theory that increasing the amount of carbon dioxide in Earth's atmosphere leads to global warming.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This statement presents Coleman's personal conviction as a definitive refutation of the scientific basis for global warming, blurring the line between objective analysis and subjective opinion."
+                },
+                {
+                    "text": "\"Global Warming. It is the hoax. It is bad science. It is a high jacking of public policy. It is no joke. It is the greatest scam in history,\" Coleman wrote.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 1.0,
+                    "bias_description": "The use of hyperbolic language such as 'hoax,' 'bad science,' 'high jacking of public policy,' and 'the greatest scam in history' is designed to evoke strong emotions and sensationalize the issue of global warming, lacking a balanced and objective perspective."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article is biased against the concept of global warming and the efforts to address it, employing a range of biases including Ad Hominem, Word Choice, Opinionated, and Emotional Sensationalism biases to discredit the scientific basis and policy initiatives related to global climate change."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6799999999999999,
+            "percentage_of_biased_sentences": 0.6923076923076923,
+            "overall_rating": 0.6861538461538461
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "DAVOS-Lofty Himalaya magnify global warming impact",
+        "URL": "DAVOS-Lofty Himalaya magnify global warming impact.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Sam Cage      DAVOS, Switzerland, Jan 24 (Reuters) - The Himalayas are  suffering the effects of global warming more acutely because of  their height and melting glaciers could flood local settlements,  the World Conservation Union (IUCN) said on Thursday.      'The Himalaya, that's really moving very fast. They're being  hit very hard,' IUCN Director General Julia Marton-Lefevre told  Reuters at the annual meeting of the World Economic Forum.      Thousands of glaciers in the Himalaya mountains are the  source of water for nine major Asian rivers whose basins are  home to 1.3 billion people, including Pakistan and parts of  India and China.      The melting causes lakes to form at the base of glaciers,  which may then break their banks and flood down the valleys.      'When the glaciers recede there's a growing danger of  glacial dams collapsing,' Marton-Lefevre said. 'The effect will  be very dramatic.'      'There's a lot of poor people living at the foot of the  Himalaya,' she said.      Marton-Lefevre said it could take decades to slow down the  process of global warming, but hoped it would be possible.      There is now a greater commitment from businesses and  governments to cutting emissions, as scientific studies, extreme  weather and climate campaigning have all raised awareness of the  problem.    About 190 nations agreed in December in Bali, Indonesia, to  launch negotiations on a new pact to fight global warming.      'I'm concerned about how difficult this road map is going to  be, and then there are some recalcitrant countries, like the  United States,' Marton-Lefevre said.            For full coverage, blogs and TV from Davos, see:       http://uk.reuters.com/news/globalcoverage/worldeconomicforum2008            ((sam.cage@reuters.com; +41 (0)81 420 8935; Reuters  Messaging: sam.cage.reuters.com@reuters.net))    Keywords: DAVOS/HIMALAYA CLIMATE        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 12.242696762084961,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to contain any biased sentences. It provides a factual report on the impact of global warming on the Himalayas and the efforts to address climate change, without exhibiting any evident bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Global warming to deplete Great Lakes more-report",
+        "URL": "Global warming to deplete Great Lakes more-report.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Andrew Stern      CHICAGO, May 28 (Reuters) - Global warming will likely  drain more water from the Great Lakes and pose added pollution  threats to the region's vulnerable ecosystem, environmental  groups said in a report issued on Wednesday.      Climate change could further reduce scant ice cover  observed in recent winters, increasing evaporation rates and  dropping water levels in the five lakes that collectively make  up 20 percent of the world's surface fresh water.      Last year, Lake Superior water levels receded to their  lowest in 77 years before rebounding, and the report by the  Healing Our Waters-Great Lakes Coalition predicted global  warming could lower lake levels by up to 3 feet (1 meter) over  the next century.      The lower levels will hamper lake shipping, expose polluted  sediments, and further damage water quality.      'Climate change is threatening the health of the Great  Lakes and jeopardizing efforts to restore them,' the  coalition's Jeff Skelding said in a teleconference.      The coalition represents groups including zoos, fishing and  hunting interests, business organizations and environmental  groups.      The report said global warming added to the urgent need for  the U.S. Congress to act on more pieces of a $20 billion Great  Lakes restoration plan, proposed back in 2005.      Spending priorities are billions of dollars needed to  repair antiquated sewage treatment plants as well as cleaning  up toxic sediments from past pollution, restoring coastal  wetlands that naturally cleanse pollutants and stopping  invasive species of fish, plants and mussels, the report said.      Scientists studying climate change have predicted more  frequent droughts that will hurt the lakes' coastal ecosystem  coupled with more intense storms that produce runoff containing  toxic metals, viruses and other pollutants, the report said.           THIRSTY WORLD      The report blamed warming temperatures for ruining ice  fishing in many areas, shortening the snowmobile season and  harming Michigan's tart cherry crop. Warming could expand or  create new oxygen-depleted 'dead zones' in the lakes caused in  part by uncontrolled algae growth and other processes.      'If Congress delays in acting to curb global warming and to  restore the lakes, the problems will only get worse and the  solutions more costly,' Skelding said.      Perhaps the most promising avenue for new funding is  contained in a proposal in Congress that calls for auctioning  off permits to emit greenhouse gases in a so-called  cap-and-trade system. Proceeds from the auctions could provide  a stream of up to $3 billion a year for ecological restoration,  said Andy Buchsbaum of the National Wildlife Federation.      Meanwhile, eight U.S. states and two Canadian provinces  bordering the lakes should enact a compact to prevent  diversions of lake water to an 'increasingly thirsty world,'  Buchsbaum said. All but three states have passed the compact,  after which the federal governments of both countries would be  asked to ratify it.     (Editing by Michael Conlon and Cynthia Osterman)   ((andrew.stern@thomsonreuters.com; +1 312 408 8730; Reuters  Messaging: andrew.stern.reuters.com@reuters.net))  Keywords: CLIMATE GREATLAKES/       ",
+        "Histogram": [
+            0,
+            0.7,
+            0,
+            0.7,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0.7,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 12.173851013183594,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Climate change could further reduce scant ice cover observed in recent winters, increasing evaporation rates and dropping water levels in the five lakes that collectively make up 20 percent of the world's surface fresh water.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.7,
+                    "bias_description": "This sentence implies a direct cause-and-effect relationship between climate change and reduced ice cover, evaporation rates, and water levels in the Great Lakes without considering other factors that could contribute to these changes."
+                },
+                {
+                    "text": "The lower levels will hamper lake shipping, expose polluted sediments, and further damage water quality.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.7,
+                    "bias_description": "This sentence suggests a direct consequence of lower water levels due to climate change on lake shipping, sediment exposure, and water quality, without acknowledging the complex interplay of multiple factors affecting these issues."
+                },
+                {
+                    "text": "'Climate change is threatening the health of the Great Lakes and jeopardizing efforts to restore them,' the coalition's Jeff Skelding said in a teleconference.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This quote presents a subjective opinion about the impact of climate change on the Great Lakes as a factual threat, blurring the line between objective reporting and personal perspective."
+                },
+                {
+                    "text": "The report blamed warming temperatures for ruining ice fishing in many areas, shortening the snowmobile season and harming Michigan's tart cherry crop.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.7,
+                    "bias_description": "Attributing specific local impacts, such as ruined ice fishing and crop harm, solely to warming temperatures without considering other environmental or human factors demonstrates a narrow, biased perspective."
+                },
+                {
+                    "text": "'If Congress delays in acting to curb global warming and to restore the lakes, the problems will only get worse and the solutions more costly,' Skelding said.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This statement uses a sense of urgency and potential catastrophe ('the problems will only get worse and the solutions more costly') to emotionally sway the reader, rather than presenting a balanced view of the situation."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the impact of climate change on the Great Lakes, with a tendency to attribute negative changes solely to global warming without considering other contributing factors. The biases identified include Causal Misunderstanding, Opinionated, and Emotional Sensationalism, indicating a general bias towards portraying climate change as a significant and urgent threat to the Great Lakes."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.66,
+            "percentage_of_biased_sentences": 0.17647058823529413,
+            "overall_rating": 0.4182352941176471
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Natural changes may offset global warming briefly",
+        "URL": "Natural changes may offset global warming briefly.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Michael Kahn      LONDON, April 30 (Reuters) - Natural climate changes may  offset human-caused global warming over the next decade, keeping  ocean temperatures the same or even temporarily cooling them  slightly, German researchers said on Wednesday.      However, this short-term situation might create a problem if  policymakers regarded it as a sign they could ease efforts to  limit greenhouse gases or play down global warming.      'The natural variations change climate on this timescale and  policymakers may either think mitigation is working or that  there is no global warming at all,' said Noel Keenlyside, a  climate researcher at the Leibniz Institute of Marine Sciences  in Germany who led the study.      Climate researchers have long predicted more greenhouse  gases in the atmosphere would spur a general warming trend over  the next 100 years. The study in the journal Nature is one of  the first to take a shorter-term view.      This is useful because natural changes as opposed to human  causes may play a bigger role in the short term, Keenlyside  said.      His team made a computer model that takes into account  natural phenomena such as sea surface temperatures and ocean  circulation patterns.      They checked their work by producing a set of forecasts  using data recorded over the past 50 years and found the  retrospective forecasts were accurate, Keenlyside said.      'This is important because policies are made in the short  term,' Keenlyside said. 'Our results show we might not have as  much change in climate over the next 10 years.'      A United Nations climate panel report this year predicted  temperatures would rise between 1.8 and 4 degrees Celsius this  century, in part because of fossil fuels that produce carbon  dioxide, the main greenhouse gas.      Scientists say rising temperatures could cause seas to rise  sharply, glaciers to melt and storms and droughts to become more  intense. These in turn may force mass migrations of climate  refugees.      One possible reason for the relative cooling effect in the  next decade is the predicted weakening of a system that brings  warm water northward into the North Atlantic and offsets an  expected rise in greenhouse gases, Keenlyside said.      'The first attempts at decadal prediction suggest that  reasonably accurate forecasts of the combined effects of  increasing greenhouse-gas concentrations and natural climate  variations can be made,' Richard Wood of Britain's Met Office,  who was not involved in the study, wrote in a Nature commentary.   (Reporting by Michael Kahn, Editing by Maggie Fox and Robert  Woodward)   ((michael.kahn@reuters.com; +44 20 7542 0823; Reuters   Messaging; michael.kahn.reuters.com@reuters.net))    Keywords: CLIMATE FORECAST/       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 12.062925338745117,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to exhibit bias. It presents research findings on natural climate changes and their potential impact on global warming without promoting a specific agenda or viewpoint."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Nobel scientist issues warning on global warming",
+        "URL": "Nobel scientist issues warning on global warming.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Tom Brown      MIAMI, April 5 (Reuters) - The Nobel Prize-winning  scientist who rang the first alarm bells over the ozone hole  issued a warming about climate change on Saturday, saying there  could be 'almost irreversible consequences' if the Earth warmed  2.5 degrees Celsius (4.5 degrees F) above what it ought to be.      'Things are changing and there's no doubt that it's as a  result of human activities,' said Mario Molina, a Mexican who  shared a Nobel prize in chemistry in 1995 for groundbreaking  work on chlorofluorocarbon gases and their threat to the  Earth's ozone layer.      'Long before we run out of oil, we will run out of  atmosphere,' he said.      Molina told a panel discussion on climate change at an  annual Inter-American Development Bank meeting in Miami that  the increasing intensity of hurricanes was among the worrisome  changes that scientists had linked to a rapid global warming  trend over the past 30 years.      Molina did not elaborate on specific effects so far from  the Earth's temperature rise, which has been slightly less than  1 degree Celsius (1.8 F) over the last century.      But he said certain 'tipping points' would be reached if  temperatures continue increasing, including unmanageable  changes to the Earth's environment.      Molina later told Reuters there was considerable  uncertainty about how much further warming the planet can  sustain before it reaches critical levels.      'You keep changing the temperature gradually but then  suddenly things change dramatically,' he said.      'Trying to keep it (warming) below two degrees (Celsius)  means we want to keep the change at most twice or three times  what it has changed already. And that's because it's  unrealistic to change it by less, because of what we have  already done,' Molina said.      'The idea to keep the temperature change not above 2.5  (degrees Celsius) is precisely to reduce the possibility of  these tipping points happening,' he added.      He said warming beyond that would pose 'a risk that is not  acceptable to society.'    (Editing by Michael Christie and Peter Cooney)    ((miami.newsroom@reuters.com; +1 305 810 2688; Reuters  Messaging: thomas.brown.reuters.com@reuters.net))    Keywords: IDB GLOBALWARMING/MOLINA       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 12.02259635925293,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual account of a Nobel Prize-winning scientist's warning on global warming without introducing any biased language or perspectives."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Wild fires likely to spread due to global warming",
+        "URL": "Wild fires likely to spread due to global warming.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Sylvia Westall      VIENNA, April 17 (Reuters) - Wild fires are likely to be  bigger, more frequent and burn for longer as the world gets  hotter, in turn speeding up global warming to create a dangerous  vicious circle, scientists say.      The process is being studied as part of work to develop a  detailed map of global fire patterns which will be used with  climate models to predict future fire trends.      The scientists told a geoscience conference in Vienna they  already predict fires will increase and could spread to  previously fire-free parts of the world as the climate changes.      'An increase in fire may be the greatest early impact of  climate change on forests,' Brian Amiro from the University of  Manitoba said late on Wednesday.      'Our forests are more likely to become a victim of climate  change than a saviour,' he added.      Last year more than 200 wild fires swept across parts of  southeastern Europe, destroying homes and devouring woodland. In  Greece 65 people died.      Amiro said global warming will cause more fires which as  they burn contribute to global warming by producing greenhouse  gases.      'Fire avoids environmental extremes, like the deserts,  tundra and rainforests,' said Max Moritz from the University of  California, Berkley.      'But there are some predictions which show there could be  fires in deserts and there are worries they may occur in  tropical rainforests if they were drier,' he said.      Forests are natural carbon stores, some built up over  millions of years, but as they burn they release the carbon  quickly in the form of carbon dioxide.      Scientists already estimate that Canadian wild fires will  double in area by the end of the century and that the fire  season will be longer.      -- For Reuters latest environment blogs click on:   http://blogs.reuters.com/environment/    (Editing by Matthew Jones)    ((sylvia.westall@reuters.com; Vienna Newsroom, +43 153 112  258; Reuters Messaging: sylvia.westall.reuters.com@reuters.net))    Keywords: ENVIRONMENT FIRES       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0.7,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 11.602344512939453,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "'An increase in fire may be the greatest early impact of  climate change on forests,' Brian Amiro from the University of  Manitoba said late on Wednesday.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.7,
+                    "bias_description": "This sentence implies a direct and unequivocal cause-and-effect relationship between climate change and the increase in fires in forests, suggesting a clear understanding of the complex dynamics involved, which may oversimplify the issue."
+                },
+                {
+                    "text": "'Our forests are more likely to become a victim of climate  change than a saviour,' he added.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of emotionally charged language, such as 'victim' and 'saviour,' to describe the relationship between forests and climate change, can evoke a strong response from the reader, potentially overshadowing a more balanced and nuanced discussion."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the topic of climate change and its impact on wildfires, with a general tendency towards presenting causal relationships and emotional language that may oversimplify or sensationalize the issue."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6499999999999999,
+            "percentage_of_biased_sentences": 0.15384615384615385,
+            "overall_rating": 0.4019230769230769
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "UBS launches global warming investment tool",
+        "URL": "UBS launches global warming investment tool.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    LONDON, Jan 10 (Reuters) - UBS <UBSN.VX> has launched an  index to give investors exposure to the impact of carbon  emissions on global temperatures, the Swiss investment bank said  on Thursday.      The UBS Greenhouse Index will lock into contracts on the  Chicago Mercantile Exchange, the European Climate Exchange and  on the Nordic exchange Nord Pool.      'UBS's clients have shown an increasing interest in  environmental investments which are innovative and alternative,  yet simple to access,' Andy Felce, managing director and co-head  of structured products at UBS said in a statement.      The index will have a governing committee that will meet  each year to decide the composition and weighting of the new  index and its three related sub-indices.      In April 2007, UBS launched its Global Warming Index to  offer a tradable benchmark in the weather derivative market, one  of many indexes launched by banks in response to 2012 emissions  targets set by the Kyoto Protocol for fighting climate change.   (Reporting by Golnar Motevalli; Editing by James Jukwey)   ((golnar.motevalli@reuters.com; +44 207 542 7942; Reuters  messaging: golnar.motevalli.reuters.com@reuters.net))    Keywords: CARBON UBS/INDEX       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 11.564753532409668,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily reports on the launch of a new investment tool by UBS to give investors exposure to the impact of carbon emissions on global temperatures. The information provided is factual and does not exhibit any of the typical signs of bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Obama energy pick says will fight global warming",
+        "URL": "Obama energy pick says will fight global warming.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    WASHINGTON, Jan 13 (Reuters) - Global warming threatens the  future and the incoming Obama administration will take steps to  address the problem, Steven Chu, President-elect Barack Obama's  pick to be U.S. energy secretary, told lawmakers on Tuesday.      'Climate change is a growing and pressing problem. It is  now clear that if we continue on our current path, we run the  risk of dramatic, disruptive changes to our climate in the  lifetimes of our children and grandchildren,' Chu said at his  confirmation hearing before the Senate Energy and Natural  Resources Committee.      Chu said the Obama administration will seek to impose a  cap-and-trade system to cut greenhouse gas emissions. Under  such a system, power plants, oil refineries and other  industrial facilities would have to buy and sell pollution  permits to spew global warming emissions.      Sen. Jeff Bingaman, who heads the Senate panel, said he  hopes the committee will approve Chu's nomination later this  week and then the full Senate will confirm him next Tuesday.   (Editing by Jim Marshall)   ((tom.doggett@thomsonreuters.com; + 1 202 898-8320; Reuters  Messaging: tom.doggett.reuters.com@reuters.net))   ((For help:  Click 'Contact Us' in your desk top, click here  [HELP] or call 1-800-738-8377 for Reuters Products and  1-888-463-3383 for Thomson products; For client training:  training.americas@thomsonreuters.com ; +1 646-223-5546))  Keywords: USA CHU/ENERGY       ",
+        "Histogram": [
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0
+        ],
+        "Relevance": 11.545429229736328,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "'Climate change is a growing and pressing problem. It is now clear that if we continue on our current path, we run the risk of dramatic, disruptive changes to our climate in the lifetimes of our children and grandchildren,' Chu said at his confirmation hearing before the Senate Energy and Natural Resources Committee.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The sentence uses dramatic and disruptive language to describe the potential effects of climate change, aiming to evoke strong emotions and emphasize the urgency of the issue, which can lead to an overemphasis on negative aspects."
+                },
+                {
+                    "text": "Chu said the Obama administration will seek to impose a cap-and-trade system to cut greenhouse gas emissions. Under such a system, power plants, oil refineries and other industrial facilities would have to buy and sell pollution permits to spew global warming emissions.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'impose' to describe the implementation of a cap-and-trade system implies a negative connotation, suggesting a forceful or unwelcome action, which could influence the reader's perception of the policy."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding climate change and environmental policies, with a general tendency towards using emotionally charged language and selective word choices to emphasize the urgency of addressing global warming, potentially leading to a skewed perception of the issue and the proposed solutions."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.42857142857142855,
+            "overall_rating": 0.5142857142857142
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Global warming to eat into Brazil's arable land",
+        "URL": "Global warming to eat into Brazil's arable land.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Peter Murphy      SAO PAULO, Aug 11 (Reuters) - Higher temperatures caused by  global warming will reduce land available in Brazil to plant  its most important crops and push its coffee production back  toward the more frost-prone south, a study showed on Monday.      By 2020, the total area suitable for planting soy, the  country's most valuable agricultural export, could fall by  one-quarter, while land suited to coffee production could fall  by nearly 10 percent, the study said.      The research was conducted by the Centre for Meteorological  and Climatic Research Applied to Agricultural of the University  of Campinas in Sao Paulo state, in partnership with federal  agricultural research institute, Embrapa.      'Global warming could bring about a significant change to  Brazil's agricultural map, causing a reduction in productive  areas and revenue losses of around 7.4 billion reais ($4.6  billion) in 2020,' a summary of the research said.      The calculations, based on two scenarios of temperature --  a rise of between 2 and 5.4 degrees Celsius, or a rise of  between 1.4 and 3.8 degrees C -- referred to the amount of land  suitable for production of the crops, and not the land actually  planted with them at present.      The study said soy production in the Latin American country  could suffer 4 billion reais in losses in 2020, nearly  one-quarter of the total value of the crop produced in 2006 and  land suited to the crop could fall by 40 percent by 2070.      It said coffee production in the world's top grower may  have to shift from its southeastern heartland to more southern  regions, such as Parana state, which coffee farmers abandoned  after a severe frost devastated the crop in the mid-1970s.      'With the forecast climate changes, it's possible that  coffee will not have much chance of surviving in the southeast  and migrate to the southern region,' the summary said.      The total area suited to production of rice and corn could  fall by 10 and 12 percent, respectively, according to the  study.      One winner from global warming, albeit until climate change  would worsen decades later, would be sugar cane. The study said  its ability to survive prolonged dry conditions meant it could   be grown in areas that would no longer be able to support other  crops.      The total cane-planted area has been rising in recent  years, driven by demand for cane-derived ethanol to power  Brazil's fast-growing fleet of 'flex-fuel' cars, which can run  solely on the biofuel or any mixture of it with regular  gasoline.      The study said cane production would become increasingly  dependent on irrigation during the dry season as climate change  bites.      'This (warming) has a 95 percent chance of taking place,'  Hilton Silveira Pinto, coordinator of the study, told Reuters.      'Brazil needs to prepare, and quickly,' he added.     ($1=1.61 reais)   (Additional reporting by Roberto Samora; Editing by Walter  Bagley)   ((peter.murphy@thomsonreuters.com; tel +5511 5644 7736;  peter.murphy.reuters.com@reuters.net))  Keywords: BRAZIL CLIMATE/AGRICULTURE       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 11.508872032165527,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to exhibit bias. It provides a factual report on the potential impact of global warming on Brazil's agricultural sector, supported by a study conducted by reputable institutions. The information is presented in a neutral manner, without the inclusion of subjective opinions, speculative claims, or the use of emotionally charged language."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "_Lear Jet Liberals__ Our List of Some of Hollywood_s Worst Global Warming Hypocrites.txt",
+        "URL": "_Lear Jet Liberals__ Our List of Some of Hollywood_s Worst Global Warming Hypocrites.txt.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/240px-Fox_News_Channel_logo.svg.png",
+        "Text": "SEAN HANNITY, HOST: The Hollywood elite love to say they are so concerned about global warming. Now, they give concerts. They make movies and star in public service announcements - all in the name of saving the planet. But their private lives, well that tells a very different story.\n\n\u2022 Click here to watch this segment\n\n(BEGIN VIDEOTAPE)\n\n(voice over): In Hollywood, saving the planet is the ultimate cause celebre. Dozens of high-profile actors and musicians have made it their mission to repeat the hysterics of \"climate expert\" Al Gore and tell the rest of us how we should live.\n\nBut just like the vanquished vice president, \"green\" celebrities don't always practice the way they preach. Now, here's a list of some of Hollywood's worst global-warming hypocrites:\n\nLEONARDO DICAPRIO, ACTOR: Global warming that has taken much of our attention as it should.\n\nHANNITY: First up, there's the actor Leonardo \"The Lear Jet Liberal\" DiCaprio. Now, he's done his absolute best to frighten people about the horrors of global warming. His documentary, \"The 11th Hour,\" utilized Hollywood scare tactics to urge people to change their wasteful ways before it's too late.\n\nDiCaprio says he does his part by driving a hybrid, using solar energy, and \"trying as often as possible\" to \"fly commercially.\" But so far, he won't pledge to completely give up the convenience and the glamour of those private jets.\n\nAnd then there's Babs \u2014 that's Barbara Streisand. Now, he posted on her extremely accurate and perfectly spelled Web site, an article called, \"Simple Things We Can All Do To Help Stop Global Warming.\" And that list includes suggestions like turning off the lights, eating organic and buying recycled.\n\n(BARBARA STREISAND SINGING \"MEMORIES\")\n\nNow let's see how her tour demands stack up in the fight against global warming. The contract rider on Streisand's recent European tour specified that the singer needed thirteen 53-foot semi-tractor trailers, four rental vans, 14 crew and van buses and one limousine, of course, that was for her, the star. The green goddess also needed 120 bath sized towels and only peach colored bathroom tissue and rose petals in the toilet. Need I say more?\n\nAnd let's not forget Madonna. Well, she graced the cover of Vanity Fair's \"Green Issue\" this year, but she may have been miscast. It's been reported that her \"Ray of Light\" foundation has invested at least $2.7 million in environmentally unfriendly companies like Alcoa, the Ford Motor Company and other businesses criticized by all the global warming alarmists.\n\nAnd Madonna's carbon footprint \u2014 well, that's no better. In 2006, it is estimated that the Material Girl's private jet usage racked up about 100 times more carbon dioxide than the average person. And it doesn't include her fleet of cars. Mama, please don't preach.\n\nNext up is the jet setting couple Brad Pitt and Angelina Jolie. Now, Brad has been quoted as saying \"There are a lot of problems in the world right now because of our dependency on oil.\" But it looks like he and Angelina \u2014 well, they're more dependent than most. According to The Daily Mail, in 2007 alone, \"Brangelina\" literally crisscrossed the globe in private jets dozens of times. Now, is that really necessary?\n\nAnd then finally, there's actor John Travolta. Now he's the owner of no less than five, that's right \u2014 five private jets and still has the nerve to ask his fans to do their part to save the environment. At the red carpet event to promote his blockbuster movie, \"Wild Hogs,\" Travolta said we should all do our part because \"global warming is a very valid issue.\"\n\n(CLIP FROM \"WILD HOGS\" FEATURING JOHN TRAVOLTA, ACTOR:) Whoo! It's my prerogative.\n\nHANNITY: There you have it. Looks like in Hollywood, global warming activism is just a load of hype, and the celebrities are quick to tell everyone else how to live. You know what? They are nothing more than a bunch of hot air hypocrites.\n\n(END VIDEOTAPE)",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 11.414770126342773,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "But their private lives, well that tells a very different story.",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence attacks the character of the Hollywood elite by suggesting a contradiction between their public activism for global warming and their private actions, without addressing the substance of their environmental efforts."
+                },
+                {
+                    "text": "Dozens of high-profile actors and musicians have made it their mission to repeat the hysterics of \"climate expert\" Al Gore and tell the rest of us how we should live.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'hysterics' to describe the actions of high-profile actors and musicians, as well as the sarcastic use of 'climate expert' for Al Gore, implies a judgment and dismissiveness towards their advocacy for climate change without providing a balanced view."
+                },
+                {
+                    "text": "But just like the vanquished vice president, \"green\" celebrities don't always practice the way they preach.",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Comparing 'green' celebrities to the 'vanquished' vice president and suggesting they don't practice what they preach targets their character and motives rather than addressing the effectiveness of their environmental actions."
+                },
+                {
+                    "text": "Now, he's done his absolute best to frighten people about the horrors of global warming.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Describing Leonardo DiCaprio's efforts to raise awareness about global warming as 'frightening' employs emotional sensationalism to undermine his advocacy, suggesting an overemphasis on negative aspects without considering the urgency of the issue."
+                },
+                {
+                    "text": "But so far, he won't pledge to completely give up the convenience and the glamour of those private jets.",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence criticizes Leonardo DiCaprio's personal choices regarding private jets, implying hypocrisy and a lack of commitment to environmental causes, without a comprehensive understanding of the complexities involved in sustainable travel options for high-profile individuals."
+                },
+                {
+                    "text": "The green goddess also needed 120 bath sized towels and only peach colored bathroom tissue and rose petals in the toilet. Need I say more?",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The sarcastic and mocking tone used to describe Barbara Streisand's tour demands undermines the seriousness of the discussion on environmental issues, focusing on trivial details to ridicule her efforts."
+                },
+                {
+                    "text": "And let's not forget Madonna. Well, she graced the cover of Vanity Fair's \"Green Issue\" this year, but she may have been miscast.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of phrases like 'let's not forget' and 'miscast' to describe Madonna's appearance on the cover of Vanity Fair's 'Green Issue' magazine implies a judgment on her environmental advocacy, suggesting it is insincere or misplaced."
+                },
+                {
+                    "text": "Next up is the jet setting couple Brad Pitt and Angelina Jolie. Now, Brad has been quoted as saying \"There are a lot of problems in the world right now because of our dependency on oil.\" But it looks like he and Angelina \u2014 well, they're more dependent than most.",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The sentence criticizes Brad Pitt and Angelina Jolie's personal travel choices, implying a contradiction between their statements on oil dependency and their own lifestyle, without a broader context of the challenges in reducing personal carbon footprints for high-profile individuals."
+                },
+                {
+                    "text": "Now he's the owner of no less than five, that's right \u2014 five private jets and still has the nerve to ask his fans to do their part to save the environment.",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence uses a critical tone to highlight John Travolta's ownership of multiple private jets, suggesting a disconnect between his environmental advocacy and personal actions, without acknowledging the complexities of air travel for public figures or the potential for offsetting carbon emissions."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article is biased regarding the environmental activism of Hollywood celebrities, employing ad hominem attacks, word choice bias, and emotional sensationalism to undermine their efforts and portray them as hypocrites without a balanced or nuanced discussion on the complexities of environmental advocacy and personal choices."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.11904761904761904,
+            "overall_rating": 0.3595238095238095
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Sony, others to step up fight against global warming",
+        "URL": "Sony, others to step up fight against global warming.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    TOKYO, Feb 15 (Reuters) - Sony <6758.T>, Nokia <NOK1V.HE>  and 10 other global corporations said all necessary action  should be taken to put a halt to global warming, and pledged  they would step up their efforts to reduce greenhouse gas  emissions.      In a 'Tokyo Declaration' issued on Friday by the dozen  companies partnering with conservation group WWF for emission  reductions, they said they will expand the scope of their  activities by involving their business partners and customers.      At electronics and entertainment conglomerate Sony, for  example, one potential step would be working with transportation  companies that handle the distribution of its products to help  cut their emissions, a Sony official said.       Sony Chief Executive Howard Stringer said that despite the  problems and crises that political and business leaders face  today, they need to start acting immediately on the issue of  global warming to avert the crisis of tomorrow.       'I went to Davos last month, originally expecting climate  change will be the main focus of the World Economic Forum,'  Stringer told a news conference. 'Instead, participants,  unsurprisingly, were more preoccupied with the global financial  meltdown than the meltdown of icebergs and glaciers.'      Besides Sony and No.1 cellphone supplier Nokia, companies  that signed the declaration include top PC maker Hewlett-Packard  Co <HPQ.N>, athletic shoes and clothing maker Nike Inc <NKE.N>  and Novo Nordisk <NOVOb.CO>, the world's biggest maker of  insulin.      (Reporting by Kiyoshi Takenaka; Editing by Jason Neely)   ((kiyoshi.takenaka@reuters.com; +81 3 3432 8837; Reuters  Messaging: kiyoshi.takenaka.reuters.com@reuters.net))        Keywords: SONY/CLIMATE       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 11.366540908813477,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual report on the efforts of Sony, Nokia, and other corporations to combat global warming, without exhibiting any of the typical signs of bias such as emotional sensationalism, unsubstantiated claims, or discriminatory language."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "EU global warming limit may not be possible -IEA",
+        "URL": "EU global warming limit may not be possible -IEA.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    LONDON, Nov 6 (Reuters) - A European Union target to limit  warming of the planet to no more than 2 degrees Celsius may not  be technically achievable, the International Energy Agency said  in a report to be published next week.      'Even leaving aside any debate about the political  feasibility ... it is uncertain whether the scale of the  transformation envisaged is even technically achievable, as the  scenario assumes broad development of technologies that have not  yet been proven,' said the IEA's World Energy Outlook.      That analysis referred to a target to limit global warming  to no more than 2 degrees.      The implication is that the world may have to accept higher  warming limits than targeted at present, for example by the EU  since 1996, and prepare for effects which scientists say will  include more droughts, floods and rising seas.      A United Nations climate panel said last year that above 3  degrees 'hundreds of millions of people (would be) exposed to  increased water stress (shortages).'      Stronger action to fight climate change involves rapidly  escalating costs, for example to deploy expensive, untested  technologies such as carbon scrubbers and even to leave stranded  assets -- where high-carbon coal plants, for example, have to be  closed prematurely.      'It will be necessary to face up to the reality of the cost  of early capital retirement if radical measures are to be taken  ... to deliver deep cuts in emissions,' the IEA said in its  report, due to be published on Nov. 12. The IEA is energy  adviser to 28 industrialised countries.      The IEA analysed two scenarios to limit warming to 2 degrees  and 3 degrees, and estimated that these would cost about $180  and $90 per tonne of carbon dioxide emissions respectively.      The present EU carbon price is about 18 euros ($23.20), and  accounts for about one fifth of European consumer electricity  prices, say analysts.      'The scale of the challenge ... is immense,' the IEA said of  a 2 degrees target. 'The technology shift, if achievable, would  certainly be unprecedented in scale and speed of deployment.'      The EU Council of Ministers stated in 1996 that it 'believes  that global average temperatures should not exceed 2 degrees  above pre-industrial level.'   ((Reporting by Gerard Wynn, Editing by William Hardy,  gerard.wynn@reuters.com; +44 207 542 2302))      ($1=.7759 Euro)    Keywords: IEA CLIMATE/       ",
+        "Histogram": [
+            0,
+            0.6,
+            0,
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0
+        ],
+        "Relevance": 11.365161895751953,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "'Even leaving aside any debate about the political  feasibility ... it is uncertain whether the scale of the  transformation envisaged is even technically achievable, as the  scenario assumes broad development of technologies that have not  yet been proven,' said the IEA's World Energy Outlook.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence speculates on the feasibility of achieving the EU's target for limiting global warming, suggesting uncertainty based on unproven technologies, which could influence the reader's perception negatively towards the goal's achievability."
+                },
+                {
+                    "text": "The implication is that the world may have to accept higher  warming limits than targeted at present, for example by the EU  since 1996, and prepare for effects which scientists say will  include more droughts, floods and rising seas.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence uses language that could evoke fear or concern by highlighting the potential negative effects of not meeting the EU's warming limits, such as 'more droughts, floods and rising seas,' without providing a balanced view."
+                },
+                {
+                    "text": "Stronger action to fight climate change involves rapidly  escalating costs, for example to deploy expensive, untested  technologies such as carbon scrubbers and even to leave stranded  assets -- where high-carbon coal plants, for example, have to be  closed prematurely.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of phrases like 'rapidly escalating costs' and 'expensive, untested technologies' implies a negative judgment on the actions needed to combat climate change, potentially biasing the reader against these measures."
+                },
+                {
+                    "text": "'It will be necessary to face up to the reality of the cost  of early capital retirement if radical measures are to be taken  ... to deliver deep cuts in emissions,' the IEA said in its  report, due to be published on Nov. 12. The IEA is energy  adviser to 28 industrialised countries.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence presents the IEA's statement as a definitive truth ('It will be necessary') without acknowledging it as the organization's opinion, blurring the line between fact and subjective perspective."
+                },
+                {
+                    "text": "'The scale of the challenge ... is immense,' the IEA said of  a 2 degrees target. 'The technology shift, if achievable, would  certainly be unprecedented in scale and speed of deployment.'",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of words like 'immense' and 'unprecedented' to describe the challenge of meeting the 2 degrees target can evoke a sense of overwhelming difficulty, potentially biasing the reader towards a negative or skeptical view of the feasibility of the goal."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the achievability and implications of the EU's target to limit global warming to 2 degrees Celsius. It employs speculative, emotional, and opinionated biases to suggest uncertainty, evoke concern through sensational language, and present subjective opinions as facts, respectively, regarding the challenges and costs associated with meeting the target."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.42857142857142855,
+            "overall_rating": 0.5142857142857142
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "FACTBOX-Paris talks on global warming",
+        "URL": "FACTBOX-Paris talks on global warming.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    April 17 (Reuters) - Paris is hosting a meeting of 17 top  national emitters of greenhouse gases in a U.S.-backed scheme to  fight global warming and guarantee energy security while  promoting economic growth.      Here are some frequent questions about the 'Major Economies  Meeting':            WHOSE IDEA IS IT?      U.S. President George W. Bush, long criticised by his allies  for doing too little to combat climate change, announced in May  2007 that he planned a series of climate meetings among major  emitters before he steps down in January 2009. Pressure for  action also came from the U.N. Climate Panel, which said in  February 2007 that it was at least 90 percent sure that human  activities, led by burning fossil fuels, were stoking warming.            WHICH ARE THE MAJOR ECONOMIES?      Countries taking part are the United States, France,  Germany, Italy, Britain, Japan, China, Canada, India, Brazil,  South Korea, Mexico, Russia, Australia, Indonesia and South  Africa. The European Commission, current European Union  president Slovenia and the United Nations will also attend. The  major economies account for 80 percent of world greenhouse gas  emissions, topped by the United States and China.            WHAT DOES BUSH WANT THEM TO DO?      Under Bush's plan, the countries will 'by the end of 2008,  agree on a post-2012 framework that could include a long-term  global goal, nationally defined mid-term goals and strategies  and sector-based approaches for improving energy security and  reducing greenhouse gas emissions'.            WHAT HAVE MEETINGS ACHIEVED SO FAR?      Not much. A first round of talks was held in Washington in  September and a second in Hawaii in January. Delegates include  environment ministers, their deputies or senior officials.            DOES IT LINK TO U.N. CLIMATE TALKS?      Bush says that the U.S.-led meetings will contribute to a  U.N. plan to work out, by the end of 2009, a new treaty to  succeed the U.N.'s Kyoto Protocol.      Kyoto binds 37 rich nations to cut emissions by at least 5  percent below 1990 levels by 2008-12 -- the United States is  isolated among its allies in opposing Kyoto, arguing that it  would cost too much and wrongly omits 2012 targets for  developing nations. Some of Bush's allies worry that Bush's plan  is a distraction from the U.N. track.   (For Reuters latest environment blogs click on:   http://blogs.reuters.com/environment/ )   ((alister.doyle@reuters.com; +47 900 87 663; Reuters Messaging:  rm://alister.doyle.reuters.com@reuters.net))    Keywords: CLIMATE/QUESTIONS        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 11.354362487792969,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it primarily presents factual information about the 'Major Economies Meeting' in Paris to address global warming and energy security."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Arctic melting shows global warming serious-expert",
+        "URL": "Arctic melting shows global warming serious-expert.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By David Ljunggren      OTTAWA, Sept 3 (Reuters) - The incredibly rapid rate at  which Canada's Arctic ice shelves are disappearing is an early  indicator of the 'very substantial changes' that global warming  will impose on all mankind, a top scientist said on Wednesday.      Researchers announced late on Tuesday that the five ice  shelves along Ellesmere Island in the Far North, which are more  than 4,000 years old, had shrunk by 23 percent this summer  alone.      The largest shelf is disintegrating and one of the smaller  shelves, covering 19 square miles (55 square km), broke away  entirely last month.      'Climate models indicate that the greatest changes, the  most severe changes, will happen earliest in the highest  northern latitudes,' said Warwick Vincent, director of the  Centre for Northern Studies at Laval University in Quebec.      'This will be the starting point for more substantial  changes throughout the rest of the planet.... Our indicators  are showing us exactly what the climate models predict,' he  told Reuters in an interview.      Global warming is forecast to generate more damaging  weather extremes such as hurricanes, cyclones and floods.      Vincent, who has visited the ice shelves along Ellesmere  Island every year for the past 10 years, said the impact of  higher temperatures this year was 'staggering'.      His team had estimated that the shelves would lose eight  square miles this summer. The true figure was 83 square miles.      'What was extraordinary was just the vast quantity of open  water ... you could see open water to the horizon in an area  that is typically ice-covered throughout the season,' he said.      The Markham Ice Shelf split away from Ellesmere Island in  early August. Two large chunks totaling 47 square miles have  broken off the nearby Serson Ice Shelf, reducing it in size by  60 percent.      The Ward Hunt Ice Shelf, at 155 square miles the largest of  the remaining four shelves, is disintegrating.      'Clearly the long-term viability of that ice shelf is now  actually short-term,' said Vincent.      The peak temperature the team recorded was 67.5 degrees  Fahrenheit (19.7 degrees Celsius), far above the average of 46  degrees Fahrenheit.      Vincent said he had no doubt that global warming was caused  in part by human activity.      'I think we're at a point where it is not stoppable but it  can be slowed down. And if you think about the magnitude of  effects on our society, then we really need to buy ourselves  more time to get ready for some very substantial changes that  are ahead,' he said.      Ellesmere Island was once home to a single enormous ice  shelf totaling around 3,500 square miles. All that is left  today are the four much smaller shelves that together cover  little more than 300 square miles.      Scientists say the shelves, which contain unique  microscopic ecosystems that have not yet been studied, will not  be replaced because they took so long to form.      'More and more, we're realizing that it is microscopic life  that really dominates the biodiversity of planet Earth ... we  really need to understand what that biodiversity is,' said  Vincent.   (Reporting by David Ljunggren; editing by Rob Wilson)   ((david.ljunggren@reuters.com; +1 613 235 6745; Reuters  Messaging: david.ljunggren.reuters.com@reuters.net))  Keywords: CANADA ENVIRONMENT/ARCTIC        ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 11.308269500732422,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual report on the rapid melting of Canada's Arctic ice shelves and the implications for global warming, based on an interview with a top scientist. The information is presented in a straightforward manner without the inclusion of subjective opinions, misleading language, or unsubstantiated claims."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Global warming worse than predicted - US scientist",
+        "URL": "Global warming worse than predicted - US scientist.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Julie Steenhuysen      CHICAGO, Feb 14 (Reuters) - The climate is heating up far  faster than scientists had predicted, spurred by sharp  increases in greenhouse gas emissions from developing countries  like China and India, a top climate scientist said on  Saturday.      'The consequence of that is we are basically looking now at  a future climate that is beyond anything that we've considered  seriously,' Chris Field, a member of the Intergovernmental  Panel on Climate Change, or IPCC, told the American Association  for the Advancement of Science meeting in Chicago.      Field said 'the actual trajectory of climate change is more  serious' than any of the climate predictions in the IPCC's  fourth assessment report called 'Climate Change 2007.'      He said recent climate studies suggested the continued  warming of the planet from greenhouse gas emissions could touch  off large, destructive wildfires in tropical rain forests and  melt permafrost in the Arctic tundra, releasing billions of  tons of greenhouse gasses that could raise global temperatures  even more.      'There is a real risk that human-caused climate change will  accelerate the release of carbon dioxide from forest and tundra  ecosystems, which have been storing a lot of carbon for  thousands of years,' Field, of Stanford University and the  Carnegie Institution for Science, said in a statement.      He pointed to recent studies showing the fourth assessment  report underestimated the potential severity of global warming  over the next 100 years.      'We now have data showing that from 2000 to 2007,  greenhouse gas emissions increased far more rapidly than we  expected, primarily because developing countries, like China  and India, saw a huge surge in electric power generation,  almost all of it based on coal,' Field said.      He said that trend was likely to continue if more countries  turned to coal and other carbon-intensive fuels to meet their  energy needs. If so, he said the impact of climate change would  be 'more serious and diverse' than the IPCC's most recent  predictions.   (Editing by Peter Cooney)   ((julie.steenhuysen@thomsonreuters.com ; +1 312 408 8131))                      Keywords: ENVIRONMENT CLIMATE/       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 11.30794620513916,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to exhibit bias. It provides a report on a climate scientist's findings regarding the acceleration of global warming due to increased greenhouse gas emissions, particularly from developing countries like China and India. The information is presented in a factual and objective manner without the inclusion of biased language or perspectives."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "US Midwest floods show signs of global warming",
+        "URL": "US Midwest floods show signs of global warming.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Deborah Zabarenko, Environment Correspondent      WASHINGTON, July 1 (Reuters) - Floods like those that  inundated the U.S. Midwest are supposed to occur once every 500  years but this is the second since 1993, suggesting flawed  forecasts that do not take global warming into account,  conservation experts said on Tuesday.      'Although no single weather event can be attributed to global  warming, it's critical to understand that a warming climate is  supplying the very conditions that fuel these kinds of weather  events,' said Amanda Staudt, a climate scientist with the National  Wildlife Federation.      Warmer air can carry more water, Staudt said in a telephone  briefing, and this means more heavy precipitation in the central  United States. Big Midwestern storms that used to be seen every 20  years or so will likely occur every four to six years by century's  end, she said.      The idea that certain places along the Mississippi River and  its tributaries will only flood once every 500 years may be based  on mistaken assumptions that flood patterns do not change over  time, said Nicholas Pinter of Southern Illinois University.      Pinter said these assumptions are contained in an analysis on  Mississippi River flooding in the upper Midwest, led by the U.S.  Army Corps of Engineers, which among other things builds and  maintains river levees.      In the last 35 years, there have been four floods in the  Mississippi River basin that qualified as 100-year floods or  higher according to the Army Corps' analysis, Pinter said.           BIGGER, MORE FREQUENT FLOODS      'It is an impossibility that those numbers can be correct,'  Pinter told reporters. 'These are not random events. We're getting  a systemmatic pattern of floods larger and/or more frequent than  currently estimated by those calculations.'      The Army Corps' analysis rejects any kind of climate change --  human-generated or naturally occurring -- as a mechanism that  could alter flood patterns along the Mississippi over the last  century, Pinter said.      He said the analysis also rejects the effects of land use and  navigation construction over that period.      'We suggest the current flood, sadly, is a confirmation that  ... these numbers are probably invalid, underestimating the  occurrence of floods up and down this river for a variety of  mechanisms,' Pinter said.      Given the impact of this year's Midwest floods, the National  Wildlife Federation, a non-profit conservation group, called on  Congress to hold immediate hearings to revise the National Flood  Insurance Reform and Modernization Act.      In a letter to chairmen and ranking members of the Senate  Banking Committee and House Financial Services Committee,  federation president Larry Schweiger noted that there was  significant rebuilding in flood plains along the Mississippi after  the 1993 floods.      'While there may have been an expectation that such floods  would only happen every 500 years, scientists now warn that  climate change will make such floods far more frequent,' Schweiger  wrote.   (Editing by Bill Trott)   ((deborah.zabarenko@thomsonreuters.com;+1 202 898 8388; Reuters  Messaging: deborah.zabarenko.reuters.com@reuters.net ))   (For more Reuters information on the environment, see  http://blogs.reuters.com/environment/ )  Keywords: USA FLOODING/WARMING       ",
+        "Histogram": [
+            0,
+            0.6,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0.6,
+            0
+        ],
+        "Relevance": 11.29698371887207,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "'Although no single weather event can be attributed to global  warming, it's critical to understand that a warming climate is  supplying the very conditions that fuel these kinds of weather  events,' said Amanda Staudt, a climate scientist with the National  Wildlife Federation.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence implies a direct causal relationship between a warming climate and the conditions that fuel specific weather events, without acknowledging other contributing factors or the complexity of climate systems."
+                },
+                {
+                    "text": "The idea that certain places along the Mississippi River and  its tributaries will only flood once every 500 years may be based  on mistaken assumptions that flood patterns do not change over  time, said Nicholas Pinter of Southern Illinois University.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This statement speculates on the accuracy of long-term flood frequency predictions, suggesting they are based on 'mistaken assumptions' without providing concrete evidence for such a claim."
+                },
+                {
+                    "text": "'It is an impossibility that those numbers can be correct,'  Pinter told reporters. 'These are not random events. We're getting  a systematic pattern of floods larger and/or more frequent than  currently estimated by those calculations.'",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of strong language such as 'impossibility' and 'systematic pattern' presents a subjective opinion as a definitive fact, undermining the need for a more nuanced and evidence-based discussion."
+                },
+                {
+                    "text": "The Army Corps' analysis rejects any kind of climate change --  human-generated or naturally occurring -- as a mechanism that  could alter flood patterns along the Mississippi over the last  century, Pinter said. He said the analysis also rejects the effects of land use and  navigation construction over that period.",
+                    "bias_type": "Unsubstantiated Claims Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence presents the Army Corps' analysis' rejection of climate change and other factors as definitive without providing evidence or context for the basis of these rejections, implying a lack of thorough investigation."
+                },
+                {
+                    "text": "'While there may have been an expectation that such floods  would only happen every 500 years, scientists now warn that  climate change will make such floods far more frequent,' Schweiger  wrote.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The sentence attributes the expectation of rare floods to misunderstanding or underestimation, solely due to the influence of climate change, without acknowledging the historical context or complexity of flood occurrence predictions."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the discussion of the relationship between climate change and the frequency and intensity of floods in the U.S. Midwest. It demonstrates a tendency to oversimplify complex climate and flood dynamics, attributing changes solely to climate change without adequately considering other contributing factors or the limitations of current scientific understanding."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.4117647058823529,
+            "overall_rating": 0.5058823529411764
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Children_s Books Use Christmas to Push Global Warming Agenda.txt",
+        "URL": "Children_s Books Use Christmas to Push Global Warming Agenda.txt.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/240px-Fox_News_Channel_logo.svg.png",
+        "Text": "Global warming alarmists, picking up where the Grinch left off, are trying to steal Christmas, some critics say. From children's books to school plays, the climate change crowd is dreaming of a green Christmas, angering opponents who say 'tis NOT the season to be preachy.\n\nThe children's book \"Santa Goes Green\" by Anne Margaret Lewis tells how a young boy named Finn gets Santa to leave the North Pole to help him track down Leopold, a polar bear he has adopted, because the sea ice is melting and Leopold's home is in danger.\n\n\u201cYou see, it\u2019s like this Santa,\u201d Finn tells Santa in the book. \u201cI\u2019ve adopted a polar bear named Leopold. He is in danger of losing his home. I\u2019m sure you being in the North Pole you know about the melting glaciers. All I want this year Santa, is to save Leopold and his home.\u201d\n\nSanta is so inspired by his visit to the polar bear that he decides to re-use last year's wrapping paper, recycle toys and start using wind to generate power for his toy shop.\n\nThe book ends with a note from Santa urging kids to send him notes on how to take care of the planet.\n\nBut the content has left some reviewers feeling bearish about the book. \"The global climate change alarmists are now trying brainwash our kids by infusing their unproven and baseless climate change rhetoric into Santa books,\" T. Wilkinson wrote on Amazon.com, giving \"Santa Goes Green\" a one-star review.\n\n\"Sad. Really sad,\" Wilkinson wrote.\n\nLewis, the author, told USA Today she was inspired to write the book after reading an article with her son Cameron about melting glaciers destroying polar bear habitats.\n\n\"He asked how we could help the polar bears, so we started going around the house every time we left a room and shut the lights off,\" Lewis told the newspaper. \"Then we would say, 'We just saved another polar bear.\"\n\nAnother environmentalist Christmas tome that hit store shelves this year, \"When Santa Turned Green,\" by Victoria Perla, says that global warming is causing the North Pole itself to melt, potentially leaving Santa homeless.\n\nThe publisher, Thomas Nelson, a publisher of Christian and inspirational books, writes: \"The North Pole is melting because of something called global warming! Faced with the reality of what this could mean for Christmas, not to mention the planet and the future, Santa is determined to turn things around. To do so, he calls upon the people he knows better than any other -- the children.\"\n\nThe book has been given the nod of approval by former Vice President Al Gore.\n\n\"'When Santa Turned Green' helps even the youngest child grasp the importance of caring for our planet and solving the climate crisis,\" Gore said, according to the publisher's Web site.\n\nA musical, \"Santa Goes Green,\" for children in grades 4 through 8, also made its debut this year. The 40-minute production features seven songs.\n\n\"Melting ice caps, global warming, surfing reindeer! The North Pole is going green this year and everyone is excited \u2013 everyone, that is, except Santa who likes things just the way they are,\" publisher Hal Leonard's product description says.\n\nWhile Santa finds going green \"inconvenient,\" the reindeer and Mrs. Claus sing to change his ways.\n\nSong titles include: \"Recycle the Fruitcake,\" \"The Greenhouse Effect\" and \"Turn Off The Pump (And Plug In The Sleigh.)\"",
+        "Histogram": [
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.9,
+            0.9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.7,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 11.25885009765625,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "The children's book \"Santa Goes Green\" by Anne Margaret Lewis tells how a young boy named Finn gets Santa to leave the North Pole to help him track down Leopold, a polar bear he has adopted, because the sea ice is melting and Leopold's home is in danger.",
+                    "bias_type": "Anecdotal Evidence Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence relies on an individual story (Finn and Leopold) to illustrate the impact of climate change, rather than presenting broader evidence, thus exhibiting Anecdotal Evidence Bias."
+                },
+                {
+                    "text": "But the content has left some reviewers feeling bearish about the book. \"The global climate change alarmists are now trying brainwash our kids by infusing their unproven and baseless climate change rhetoric into Santa books,\" T. Wilkinson wrote on Amazon.com, giving \"Santa Goes Green\" a one-star review.",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "This quote attacks the character and motives of those promoting climate change awareness by labeling them as 'alarmists' and accusing them of 'brainwashing' without addressing the substance of the climate change argument, demonstrating Ad Hominem Bias with a high strength."
+                },
+                {
+                    "text": "Another environmentalist Christmas tome that hit store shelves this year, \"When Santa Turned Green,\" by Victoria Perla, says that global warming is causing the North Pole itself to melt, potentially leaving Santa homeless.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.7,
+                    "bias_description": "This sentence implies a direct cause-and-effect relationship between global warming and the North Pole melting to the extent of potentially leaving Santa homeless, without acknowledging the complexity of these environmental processes, thus exhibiting Causal Misunderstanding Bias."
+                },
+                {
+                    "text": "The publisher, Thomas Nelson, a publisher of Christian and inspirational books, writes: \"The North Pole is melting because of something called global warming! Faced with the reality of what this could mean for Christmas, not to mention the planet and the future, Santa is determined to turn things around. To do so, he calls upon the people he knows better than any other -- the children.\"",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence uses emotionally charged language to describe the impact of global warming on the North Pole and Santa's determination, potentially evoking fear or urgency in the reader, thus demonstrating Emotional Sensationalism Bias."
+                },
+                {
+                    "text": "A musical, \"Santa Goes Green,\" for children in grades 4 through 8, also made its debut this year. The 40-minute production features seven songs.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The choice of title and the focus on 'going green' in the musical's description implies a positive judgment on environmentalism, potentially influencing the reader's perception through word choice, indicative of Word Choice Bias."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the topic of climate change and its portrayal in children's Christmas literature, with a general bias tendency towards using anecdotal evidence, ad hominem attacks, causal misunderstandings, emotional sensationalism, and word choice to influence the reader's perception."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.68,
+            "percentage_of_biased_sentences": 0.21428571428571427,
+            "overall_rating": 0.4471428571428572
+        },
+        "combined_score": 0.0
+    }
+]

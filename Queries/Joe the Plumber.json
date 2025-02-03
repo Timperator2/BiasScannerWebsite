@@ -1,0 +1,1608 @@
+[
+    {
+        "Title": "Joe the Plumber plugs Israel over Gaza offensive",
+        "URL": "Joe the Plumber plugs Israel over Gaza offensive.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    SDEROT, Israel, Jan 11 (Reuters) - Joe the Plumber has  plunged into the Gaza war.      Covering the conflict for PJTV.com, a U.S. conservative  website, Joe Wurzelbacher was in the southern Israeli town of  Sderot on Sunday, a target of rockets from the Hamas-ruled Gaza  Strip, and defended Israel's 16-day-old offensive.      'I've seen some very bad press about Israel,' said  Wurzelbacher, a colourful figure in the U.S. presidential  campaign in which defeated Republican John McCain cited the Ohio  plumber as an example of someone who would be hurt by Democrat  Barack Obama's tax plan.      'Israel is being attacked and they're defending themselves,'  Wurzelbacher told reporters. His remarks were interrupted by an  alert for an incoming rocket which sent him dashing to a  concrete shelter. No one was hurt.      Gaza medical officials said 874 Palestinians have been  killed and more than 3,000 wounded since Israel's offensive  began on Dec. 27. Israel says 10 soldiers have been killed and  rocket fire has killed three civilians.   ((Writing by Allyn Fisher-Ilan; editing by Jeffrey Heller and  Tim Pearce))   ((Reuters Messaging: allyn.fisher.reuters.com@reuters.net))    Keywords: ISRAEL PALESTINIANS/PLUMBER        ",
+        "Histogram": [
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0
+        ],
+        "Relevance": 22.151809692382812,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Joe the Plumber has plunged into the Gaza war.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'plunged' implies a sudden and perhaps reckless involvement, suggesting a negative connotation towards Joe the Plumber's actions without providing a neutral perspective."
+                },
+                {
+                    "text": "Covering the conflict for PJTV.com, a U.S. conservative website, Joe Wurzelbacher was in the southern Israeli town of Sderot on Sunday, a target of rockets from the Hamas-ruled Gaza Strip, and defended Israel's 16-day-old offensive.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The phrase 'defended Israel's 16-day-old offensive' implies a proactive and possibly contentious stance, suggesting a judgment about the nature of Israel's actions without presenting a balanced view."
+                },
+                {
+                    "text": "'I've seen some very bad press about Israel,' said Wurzelbacher, a colourful figure in the U.S. presidential campaign in which defeated Republican John McCain cited the Ohio plumber as an example of someone who would be hurt by Democrat Barack Obama's tax plan.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Describing Joe Wurzelbacher as a 'colourful figure' introduces a subjective and potentially dismissive tone, implying that his involvement may be more for attention or spectacle rather than genuine concern."
+                },
+                {
+                    "text": "Gaza medical officials said 874 Palestinians have been killed and more than 3,000 wounded since Israel's offensive began on Dec. 27. Israel says 10 soldiers have been killed and rocket fire has killed three civilians.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The juxtaposition of the high Palestinian casualty numbers with the lower Israeli casualty numbers, without further context, could evoke a sense of disproportionate victimization, potentially biasing the reader's perception of the conflict."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias through the use of word choice, particularly in the framing of Joe the Plumber's involvement and the presentation of casualty figures, which collectively suggest a partial and potentially skewed perspective on the Israel-Gaza conflict, leaning towards a portrayal of Israel in a negative light."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.3333333333333333,
+            "overall_rating": 0.4666666666666667
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "INTERVIEW-Joe the Plumber drained by election spotlight",
+        "URL": "INTERVIEW-Joe the Plumber drained by election spotlight.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Nick Carey      HOLLAND, Ohio, Oct 17 (Reuters) - After three days as a key  figure in the U.S. presidential campaign, Joe the Plumber would  like his old life back -- as soon as he finishes another round  of interviews.      'I'm just a plumber. I just want to get on with my life and  do my job,' Joe Wurzelbacher said in an interview on Friday  outside his modest home in middle America. 'I'd prefer to do  that without people camped out on my doorstep.'      Wurzelbacher's privacy became a victim of modern day  politics. Anxious to appear in touch with ordinary Americans  ahead of the Nov. 4 presidential election, Democrat Barack  Obama and Republican John McCain brought Wurzelbacher, 34, into  the glare of the presidential election campaign in their debate  Wednesday night and the plumber's life has been far from  ordinary ever since.      Early in the debate McCain cited Wurzelbacher as an example  of someone who would be hurt under Obama's tax plan. The  sparring candidates went on to refer to Joe the Plumber more  than two dozen times in the televised debate and within hours a  media circus had descended on a previously quiet street of  modest homes in the suburbs of Toledo.      Reporters quickly revealed that Wurzelbacher did not have a  plumbing license, had fallen behind on his taxes, had a real  first name of Sam, not Joe, along with other personal details  of Wurzelbacher's life.      It has left Joe the Plumber feeling drained.      'It's been tough to have the media all over this and coming  up with some things that aren't true,' he said. 'I have family  to think about, I have a 13-year-old son, it's hard to have  them see so many things about me that are negative.'           CONSERVATIVE MEDIA DARLING      To be sure, Wurzelbacher initially courted the attention.  It all started when Obama, campaigning door-to-door in  Wurzelbacher's neighborhood for the benefit of a trailing media  pack, met the plumber. Wurzelbacher asked a few pointed  questions about Obama's tax policy, complaining he could not  afford some of the provisions.      The confrontation made Wurzelbacher the darling of  conservative media for a day or two. Then came the debate.      The single father thinks all the attention is crazy.      'There are bigger issues to worry about than me,'  Wurzelbacher said. 'Whoever wins the election is going to have  to deal with things like people losing their jobs, health care  and immigration. This shouldn't be about me. It should be about  them.'      While the media have managed to dig up many personal  details of Wurzelbacher's life, he has kept at least one thing  secret: 'No one knows who I'm voting for,' he said, although he  has said he thought McCain did well in the debate.      McCain has apologized for subjecting Wurzelbacher to such  media scrutiny but he is in for a few more days of fame. While  camera crews remained stationed outside his home on Friday  morning, Wurzelbacher headed to New York for a couple more  media appearances.      His house remains a political tourist attraction for those  who see Wurzelbacher as one of them -- ordinary Americans often  overlooked by Washington.      Just after Wurzelbacher headed out, a couple of young guys  drove by in a red Chevrolet pickup truck. They slowed down to  yell encouragement.     'Good job, Joe,' they said. 'Way to go standing up for  America.'     (Reporting by Nick Carey; Writing by Andrea Hopkins; Editing  by Bill Trott)   ((andrea.hopkins@thom",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 21.7601261138916,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual account of Joe the Plumber's experience during the U.S. presidential campaign without employing any of the common bias types."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "FACTBOX-Joe the Plumber speaks out",
+        "URL": "FACTBOX-Joe the Plumber speaks out.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "     Oct 16 (Reuters) - Plumber Joe Wurzelbacher of Holland,  Ohio, thrust into the presidential election as an example of a  struggling small businessman, used his moment of fame on  Thursday to speak out on a number of issues.           HIS COUNTRY      'I'm tired of people downing America ... we are the  greatest country in the world. Stop apologizing for it. I'm not  sorry for being an American, for having the things I have.'           IRAQ WAR      'I'm not sorry that we're in Iraq ... what we've done over  there is an incredible, incredible thing. Has it kept us safe?  Absolutely.'           ISSUES      'I don't know if there's a biggest issue. Social Security  is a joke ... let me take my money and invest it as I please.  Social Security I've never believed in. I hate that it's forced  on me.'           WHO GETS HIS VOTE      'I'm not telling anybody anything. I want the American  people to vote for who they want to vote for.'           HIS FAME      'I'm a flash in the pan. I'm not a megastar ... right now  I'm just completely flabbergasted.'           ON THE PRESIDENTIAL DEBATE      'McCain came across with some solid points, and I was real  happy about that.'         For fuller story, click on [N16393555]      (Sources: ABC-TV, MSNBC-TV, Toledo Blade)      (Reporting by Michael Conlon; editing by Philip Barbara)   ((Mike.Conlon@thomsonreuters.com ; +1 312 408 8730; Reuters  Messaging: mike.conlon.reuters.com@reuters.net))  Keywords: PLUMBER/        ",
+        "Histogram": [
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0.6,
+            0,
+            0,
+            0.6,
+            0
+        ],
+        "Relevance": 21.22661781311035,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "I'm tired of people downing America ... we are the greatest country in the world. Stop apologizing for it. I'm not sorry for being an American, for having the things I have.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of phrases like 'greatest country in the world' and 'Stop apologizing for it' implies a judgment about other countries and suggests a superiority complex, influencing perceptions through word choice."
+                },
+                {
+                    "text": "I'm not sorry that we're in Iraq ... what we've done over there is an incredible, incredible thing. Has it kept us safe? Absolutely.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The statement presents a subjective opinion on the Iraq war as an 'incredible, incredible thing' without acknowledging the complexity of the issue or considering differing viewpoints, blurring the line between fact and personal perspective."
+                },
+                {
+                    "text": "Social Security is a joke ... let me take my money and invest it as I please. Social Security I've never believed in. I hate that it's forced on me.",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Describing Social Security as a 'joke' and expressing hatred towards it in a personal manner uses emotionally charged language to provoke a strong reaction, overshadowing a more balanced discussion on the topic."
+                },
+                {
+                    "text": "I'm not telling anybody anything. I want the American people to vote for who they want to vote for.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "While seemingly neutral, this statement implies a judgment on the act of endorsing a candidate's choice, suggesting a preference for a hands-off approach to influencing others' voting decisions."
+                },
+                {
+                    "text": "McCain came across with some solid points, and I was real happy about that.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'solid points' and 'real happy' reflects a personal opinion presented as an objective assessment of McCain's performance, blurring the line between fact and subjective perspective."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding topics of national pride, the Iraq war, Social Security, and political endorsements, with a general bias tendency towards opinionation, emotional sensationalism, and word choice."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.47058823529411764,
+            "overall_rating": 0.5352941176470588
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "WRAPUP 1-McCain says Democrats smearing Joe the Plumber",
+        "URL": "WRAPUP 1-McCain says Democrats smearing Joe the Plumber.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Jeff Mason      MIAMI, Oct 17 (Reuters) - Republican presidential nominee  John McCain said on Friday an Ohio man dubbed 'Joe the  Plumber,' who raised questions about Democrat Barack Obama's  tax plan, was being smeared by Democratic attacks.      McCain spent the day campaigning in Florida, trying to fend  off a strong challenge from Obama in a state the Republicans  have taken in the last two presidential elections but is up for  grabs on Nov. 4.      Obama was in Roanoke, Virginia, a traditionally Republican  state that is also tilting more Democratic this year. The  Illinois senator attacked McCain's health care plan.      Leading national opinion polls and surveys in key  battleground states, Obama picked up the endorsements of The  Washington Post and The Los Angeles Times.      The Post said both Obama and McCain are 'unusually talented  and qualified' candidates, but it questioned McCain's choice of  Alaska Gov. Sarah Palin as his vice presidential running mate  because she is 'not ready to be president.'      Speaking at a lively rally in Miami, McCain said Joe  Wurzelbacher, of Holland, Ohio, was being punished for asking  Obama a legitimate question.      'Last weekend, Sen. Obama showed up in Joe's driveway to  ask for his vote, and you know what Joe did? He asked Senator  Obama a tough question. I'm glad he did; I think Senator Obama  could use a few more tough questions,' McCain said.      'He wasn't recruited or prompted by our campaign. He just  asked a question. And Americans ought to be able to ask Senator  Obama tough questions without being smeared and targeted with  political attacks,' he said.      Democrats have been sharply critical of Wurzelbacher in the  days since 'Joe the Plumber' questioned Obama's plan to tax  Americans making more than $250,000 a year.           MCCAIN: 'HOLD ONTO YOUR WALLET'      The tax question prompted Obama to say he wanted to 'spread  the wealth around,' a comment that McCain and Republicans have  jumped on as a sign that the Democrat would pursue income  redistribution policies if elected.      Obama and McCain brought up Joe the Plumber more than two  dozen times at a debate on Wednesday night. Wurzelbacher's  brush with fame has come at a cost. The New York Times reported  that Wurzelbacher does not have a plumber's license and owes  back taxes.      The Arizona senator ridiculed Obama's remark about  spreading the wealth, saying, 'When politicians talk about  taking your money and spreading it around, you'd better hold  onto your wallet.'      Obama, trying to blunt McCain's appeal in retiree-haven  Florida, told about 8,000 supporters that McCain's health care  proposal to give Americans a $5,000 tax credit to help pay for  health insurance would require taxing health benefits, and  cutting the Medicare insurance program for seniors by $882  billion.      'If you count on Medicare, it would mean fewer places to  get care, and less freedom to choose your own doctors. You'll  pay more for your drugs, receive fewer services, and get lower  quality care. I don't think that's right,' Obama said.      McCain economic adviser Doug Holtz-Eakin charged that Obama  has 'consistently lied' about McCain's health care plan.      Holtz-Eakin said McCain's tax credit 'will not only shield  millions of families from a tax increase, but will actually  give them more dollars to invest in their health care needs.'      'The McCain plan does not tax medical expenses like the  cost of a pro",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.7,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0
+        ],
+        "Relevance": 19.900726318359375,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Speaking at a lively rally in Miami, McCain said Joe  Wurzelbacher, of Holland, Ohio, was being punished for asking  Obama a legitimate question. 'Last weekend, Sen. Obama showed up in Joe's driveway to  ask for his vote, and you know what Joe did? He asked Senator  Obama a tough question. I'm glad he did; I think Senator Obama  could use a few more tough questions,' McCain said. 'He wasn't recruited or prompted by our campaign. He just  asked a question. And Americans ought to be able to ask Senator  Obama tough questions without being smeared and targeted with  political attacks,' he said. Democrats have been sharply critical of Wurzelbacher in the  days since 'Joe the Plumber' questioned Obama's plan to tax  Americans making more than $250,000 a year.",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence exhibits Ad Hominem Bias by suggesting that Joe Wurzelbacher is being unfairly targeted and smeared by Democrats for asking a legitimate question to Senator Obama. The focus is on attacking the character and motives of those criticizing Wurzelbacher rather than addressing the substance of the tax policy discussion."
+                },
+                {
+                    "text": "The tax question prompted Obama to say he wanted to 'spread  the wealth around,' a comment that McCain and Republicans have  jumped on as a sign that the Democrat would pursue income  redistribution policies if elected.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence demonstrates Word Choice Bias by using the phrase 'spread the wealth around' to imply a negative connotation about Obama's tax policy, suggesting it as evidence of pursuing income redistribution policies. The choice of words influences the reader's perception and implies a judgment about the policy."
+                },
+                {
+                    "text": "Obama and McCain brought up Joe the Plumber more than two  dozen times at a debate on Wednesday night. Wurzelbacher's  brush with fame has come at a cost. The New York Times reported  that Wurzelbacher does not have a plumber's license and owes  back taxes.",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence exhibits Ad Hominem Bias by focusing on personal details about Wurzelbacher's life, such as not having a plumber's license and owing back taxes, which are irrelevant to the policy discussion. The mention of these details serves to undermine his credibility and character rather than addressing the tax policy issue directly."
+                },
+                {
+                    "text": "The Arizona senator ridiculed Obama's remark about  spreading the wealth, saying, 'When politicians talk about  taking your money and spreading it around, you'd better hold  onto your wallet.'",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence employs Emotional Sensationalism Bias by using a provocative and hyperbolic analogy ('you'd better hold onto your wallet') to evoke fear and skepticism towards Obama's statement about spreading the wealth. The use of such language is designed to provoke a strong emotional response, overshadowing a more balanced discussion of the tax policy implications."
+                },
+                {
+                    "text": "Obama, trying to blunt McCain's appeal in retiree-haven  Florida, told about 8,000 supporters that McCain's health care  proposal to give Americans a $5,000 tax credit to help pay for  health insurance would require taxing health benefits, and  cutting the Medicare insurance program for seniors by $882  billion.",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.7,
+                    "bias_description": "This sentence demonstrates Causal Misunderstanding Bias by presenting a simplified and potentially misleading cause-and-effect relationship between McCain's health care proposal and its impact on Medicare. The framing suggests a direct negative consequence ('cutting the Medicare insurance program for seniors by $882 billion') without a comprehensive analysis of the proposal's complexities or its potential benefits."
+                },
+                {
+                    "text": "McCain economic adviser Doug Holtz-Eakin charged that Obama  has 'consistently lied' about McCain's health care plan. Holtz-Eakin said McCain's tax credit 'will not only shield  millions of families from a tax increase, but will actually  give them more dollars to invest in their health care needs.'",
+                    "bias_type": "Unsubstantiated Claims Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence exhibits Unsubstantiated Claims Bias by presenting strong accusations ('consistently lied') without providing concrete evidence to support the claim that Obama deliberately misrepresented McCain's health care plan. Additionally, the assertion about the tax credit's impact on families is presented as fact without adequate evidence or context, implying a certainty that may not be justified."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article is biased regarding the discussion of tax and health care policies, with a general bias tendency towards portraying certain political figures and their policies in a negative light through the use of Ad Hominem Bias, Word Choice Bias, Emotional Sensationalism Bias, Causal Misunderstanding Bias, and Unsubstantiated Claims Bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6166666666666666,
+            "percentage_of_biased_sentences": 0.48148148148148145,
+            "overall_rating": 0.549074074074074
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Joe the Plumber won't say who will get his vote",
+        "URL": "Joe the Plumber won't say who will get his vote.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    By Andy Sullivan      WASHINGTON, Oct 16 (Reuters) - Barack Obama and John McCain  may have turned him into the most famous small-business owner  in America, but Joe the Plumber isn't about to return the favor  with an endorsement.      The morning after he emerged as the unexpected star of  Wednesday night's presidential debate, Joe Wurzelbacher of  Holland, Ohio, declined to say who he will vote for in the Nov.  4 election.      'It's a personal decision, and myself and the button I push  will know the answer,' the 34-year-old plumber said on ABC's  'Good Morning America' program.      Wurzelbacher came to prominence last week when he asked  Obama about his tax plan during a campaign stop, which led to  an appearance on a Fox News talk show and an invitation to a  McCain rally.      Wurzelbacher said the sudden attention hasn't yet  translated into increased business.      'I hope I have a lot of jobs today. Yesterday I worked on a  water main break for a gas station and that's why I didn't give  any interviews. I was muddy and soaking wet,' he said.      Obama and McCain repeatedly invoked Wurzelbacher in their  final debate as they sought to appeal to average Americans.  McCain, a Republican, said Obama's plan to raise taxes on those  making more than $250,000 a year would hurt small-business  owners like Wurzelbacher.      Obama, a Democrat, said he would make it easier for  Wurzelbacher to provide health insurance for his employees.      Wurzelbacher told ABC he's 'not even close' to earning  $250,000, but worried that Obama would increase taxes for those  making less.      In a video interview with the Toledo Blade newspaper after  the debate, Wurzelbacher described himself as a man of modest  means.      'You see my house. I don't have a lot of bells and whistles  in here, really. My truck's a couple of years old and I'm going  to have it for the next 10 years, probably. So I don't see him  (Obama) helping me out.'      He said he wasn't swayed by Obama's health-care pitch,  either, describing it as 'just one more step toward  socialism.'      Wurzelbacher said he was pleased with McCain's performance.  'McCain came across with some solid points, and I was real  happy about that,' he said.    (Editing by Philip Barbara)      ((andy.sullivan@reuters.com; +1 202 898 8360; Reuters  Messaging: andy.sullivan.reuters.com@reuters.net))       Keywords: USA POLITICS/PLUMBER       ",
+        "Histogram": [
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.5,
+            0.5,
+            0,
+            0,
+            0.7,
+            0.7,
+            0,
+            0.7,
+            0.7,
+            0.6,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 19.308881759643555,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "The morning after he emerged as the unexpected star of Wednesday night's presidential debate, Joe Wurzelbacher of Holland, Ohio, declined to say who he will vote for in the Nov. 4 election.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence speculates on Joe Wurzelbacher's voting decision based on his sudden fame, implying that his endorsement is highly anticipated or significant, which may not be the case."
+                },
+                {
+                    "text": "'It's a personal decision, and myself and the button I push will know the answer,' the 34-year-old plumber said on ABC's 'Good Morning America' program.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'button' to describe the act of voting can imply a casual or trivial approach to the electoral process, potentially diminishing its significance."
+                },
+                {
+                    "text": "Obama and McCain repeatedly invoked Wurzelbacher in their final debate as they sought to appeal to average Americans. McCain, a Republican, said Obama's plan to raise taxes on those making more than $250,000 a year would hurt small-business owners like Wurzelbacher.",
+                    "bias_type": "Anecdotal Evidence Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "This sentence uses Wurzelbacher's case as anecdotal evidence to support a broader argument about the impact of tax policies on small-business owners, potentially oversimplifying a complex issue."
+                },
+                {
+                    "text": "In a video interview with the Toledo Blade newspaper after the debate, Wurzelbacher described himself as a man of modest means. 'You see my house. I don't have a lot of bells and whistles in here, really. My truck's a couple of years old and I'm going to have it for the next 10 years, probably. So I don't see him (Obama) helping me out.'",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.7,
+                    "bias_description": "This statement implies a direct cause-and-effect relationship between Obama's policies and Wurzelbacher's personal situation, without considering the broader economic context or the complexity of policy impacts."
+                },
+                {
+                    "text": "He said he wasn't swayed by Obama's health-care pitch, either, describing it as 'just one more step toward socialism.'",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Describing Obama's health-care proposal as 'just one more step toward socialism' employs emotionally charged language to evoke a strong, negative response, oversimplifying and sensationalizing a complex policy issue."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the portrayal of Joe Wurzelbacher's political influence and the discussion of tax and health-care policies, with a general tendency towards using anecdotal evidence, causal misunderstanding, and emotional sensationalism to support specific viewpoints."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.42857142857142855,
+            "overall_rating": 0.5142857142857142
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "UPDATE 1-Joe the Plumber won't say who will get his vote",
+        "URL": "UPDATE 1-Joe the Plumber won't say who will get his vote.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": " (adds additional comments new graphs 4-5)      By Andy Sullivan      WASHINGTON, Oct 16 (Reuters) - Barack Obama and John McCain  may have turned him into the most famous small-business owner  in America, but Joe the Plumber isn't about to return the favor  with an endorsement.      The morning after he emerged as the unexpected star of  Wednesday night's presidential debate, Joe Wurzelbacher of  Holland, Ohio, declined to say who he will vote for in the Nov.  4 election.      'It's a personal decision, and myself and the button I push  will know the answer,' the 34-year-old plumber and single  father said on ABC's 'Good Morning America' program.      Later outside his home he told a crowd of reporters 'I want  the American people to vote for who they want to vote for,' and  in an informed way.      He also said he was proud of what the U.S. military has  accomplished in Iraq, feels his views are shared by many middle  class working people he knows, is tired of people criticizing  the United States and feels that the U.S. Social Security  program is a 'joke.'      Wurzelbacher came to prominence last week when he asked  Obama about his tax plan during a campaign stop, which led to  an appearance on a Fox News talk show and an invitation to a  McCain rally.      Wurzelbacher said the sudden attention hasn't yet  translated into increased business.      'I hope I have a lot of jobs today. Yesterday I worked on a  water main break for a gas station and that's why I didn't give  any interviews. I was muddy and soaking wet,' he said.      Obama and McCain repeatedly invoked Wurzelbacher in their  final debate as they sought to appeal to average Americans.  McCain, a Republican, said Obama's plan to raise taxes on those  making more than $250,000 a year would hurt small-business  owners like Wurzelbacher.      Obama, a Democrat, said he would make it easier for  Wurzelbacher to provide health insurance for his employees.      Wurzelbacher told ABC he's 'not even close' to earning  $250,000, but worried that Obama would increase taxes for those  making less.      In a video interview with the Toledo Blade newspaper after  the debate, Wurzelbacher described himself as a man of modest  means.      'You see my house. I don't have a lot of bells and whistles  in here, really. My truck's a couple of years old and I'm going  to have it for the next 10 years, probably. So I don't see him  (Obama) helping me out.'      He said he wasn't swayed by Obama's health-care pitch,  either, describing it as 'just one more step toward  socialism.'      Wurzelbacher said he was pleased with McCain's performance.  'McCain came across with some solid points, and I was real  happy about that,' he said.    (Editing by Philip Barbara)      ((andy.sullivan@reuters.com; +1 202 898 8360; Reuters  Messaging: andy.sullivan.reuters.com@reuters.net))       Keywords: USA POLITICS/PLUMBER        ",
+        "Histogram": [
+            0,
+            0.6,
+            0.6,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0,
+            0,
+            0.7,
+            0.7,
+            0,
+            0.7,
+            0.7,
+            0.6,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 17.78090476989746,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "The morning after he emerged as the unexpected star of Wednesday night's presidential debate, Joe Wurzelbacher of Holland, Ohio, declined to say who he will vote for in the Nov. 4 election.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence speculates on Joe Wurzelbacher's voting decision, implying a level of public interest and expectation that may not exist, and assumes his status as a 'star' without providing evidence."
+                },
+                {
+                    "text": "'It's a personal decision, and myself and the button I push will know the answer,' the 34-year-old plumber and single father said on ABC's 'Good Morning America' program.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'the button I push' to refer to voting introduces a casual and somewhat dismissive tone, potentially diminishing the significance of the electoral process."
+                },
+                {
+                    "text": "He also said he was proud of what the U.S. military has accomplished in Iraq, feels his views are shared by many middle class working people he knows, is tired of people criticizing the United States and feels that the U.S. Social Security program is a 'joke.'",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence presents Joe Wurzelbacher's personal opinions as representative of a broader group ('many middle class working people'), without providing evidence for this generalization."
+                },
+                {
+                    "text": "Obama and McCain repeatedly invoked Wurzelbacher in their final debate as they sought to appeal to average Americans. McCain, a Republican, said Obama's plan to raise taxes on those making more than $250,000 a year would hurt small-business owners like Wurzelbacher.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The framing of the candidates 'seeking to appeal to average Americans' and the use of 'invoked' to describe their reference to Wurzelbacher introduces a narrative that may oversimplify the candidates' intentions and the complexity of the tax policy discussion."
+                },
+                {
+                    "text": "In a video interview with the Toledo Blade newspaper after the debate, Wurzelbacher described himself as a man of modest means. 'You see my house. I don't have a lot of bells and whistles in here, really. My truck's a couple of years old and I'm going to have it for the next 10 years, probably. So I don't see him (Obama) helping me out.'",
+                    "bias_type": "Causal Misunderstanding Bias",
+                    "bias_strength": 0.7,
+                    "bias_description": "This statement implies a direct cause-and-effect relationship between Obama's policies and Wurzelbacher's personal situation, without acknowledging the complexity of economic policies and their broader impacts."
+                },
+                {
+                    "text": "He said he wasn't swayed by Obama's health-care pitch, either, describing it as 'just one more step toward socialism.'",
+                    "bias_type": "Emotional Sensationalism Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Describing Obama's health-care pitch as 'just one more step toward socialism' employs emotionally charged language to characterize a policy position, potentially oversimplifying and sensationalizing the issue."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the portrayal of Joe Wurzelbacher's significance, the framing of political discussions around tax and health-care policies, and the generalization of personal opinions to broader groups, with a tendency towards Opinionated Bias, Word Choice Bias, and Causal Misunderstanding Bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6166666666666666,
+            "percentage_of_biased_sentences": 0.43478260869565216,
+            "overall_rating": 0.5257246376811594
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Why Are Democrats Attacking Joe the Plumber_.txt",
+        "URL": "Why Are Democrats Attacking Joe the Plumber_.txt.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/240px-Fox_News_Channel_logo.svg.png",
+        "Text": "This is a rush transcript from \"Hannity & Colmes,\" October 17, 2008. This copy may not be in its final form and may be updated.\n\nSEAN HANNITY, CO-HOST: There you have it. With just 18 days away from election day, and the newest political star, Joe the plumber, is seeing the dirty side of politics. Joe, an Ohio plumber, became a household name after he questioned Barack Obama's tax plan. Now, since then he's been criticized about everything, from not having a plumber's license to owing money in back taxes, and today Senator McCain defended Joe at a rally in Florida.\n\nLet's take a listen.\n\n(BEGIN VIDEO CLIP)\n\nSEN. JOHN MCCAIN (R-AZ), PRESIDENTIAL NOMINEE: The response from Senator Obama and his campaign yesterday was to attack Joe \u2014 was to attack Joe. People are digging \u2014 people are digging through his personal life, and he has TV crews camped out in front of his house. He didn't ask Senator Obama to come to his house. He wasn't \u2014 he wasn't recruited or prompted by our campaign. He just asked a question.\n\n(END VIDEO CLIP)\n\nHANNITY: Joining us now is the cofounder of Real Clear Politics, Tom Bevan, and radio talk show host Dennis Prager will be joining us in a minute, and also joining us, Obama supporter Michael Brown.\n\nAll right. Now before we get to anything here, it's \u2014 all he did was ask a question. Now he's had a full background check and smear and attack and besmirched, this poor guy.\n\nLet's watch as Biden and Obama mock him, and listen to the laughing in the crowd as we play this.\n\n(BEGIN VIDEO CLIP)\n\nSEN. BARACK OBAMA (D-IL), PRESIDENTIAL NOMINEE: He's trying to suggest that a plumber is the guy he's fighting for. How many plumbers do you know making a quarter million dollars a year?\n\nSEN. JOE BIDEN (D-DE), VICE-PRESIDENTIAL NOMINEE: John continues to cling to the notion, the fact that this guy, Joe the plumber. I don't know how many Joe the plumbers in my neighborhood that make $250,000 a year and are worried.\n\n(END VIDEO CLIP)\n\nHANNITY: I think to attack this man who asked a simple question, that if he starts a business, you know, and to mock him and let the crowd mock him and to let the media investigate him, you know, didn't pay back taxes, this is so fundamentally despicable.\n\nWhy can't you as a Democrat say you know what? Leave Joe, the plumber alone. He's out there swinging a wrench for 12 hours a day, probably six or seven days a week. Do you think it's unfair what's happening to him?\n\nMICHAEL BROWN, OBAMA SUPPORTER: Yes, I do, Sean. We and I are probably going to agree on this issue.\n\n\u2022 Video: Watch Sean and Alan's interview\n\nHANNITY: Good for you.\n\nBROWN: Now frankly, it doesn't really matter much. I don't think voters necessarily care, and frankly, Senator Obama and Senator Biden I don't think are really putting that much into it. Clearly, you've taken some snippets.\n\nHANNITY: Snippets? Yes, I know, Jeremiah Wright snippets. Bill Ayers snippets.\n\nBROWN: But at the end of the day \u2014 at the end of the day, Sean, voters don't really matter or care about this particular issue. They do care about \u2014 they do care about the folks who are wondering how they're going to get their next job...\n\nHANNITY: All right. But then why mock \u2014 wait a minute. You can't have it both ways. Here's the difference. And let me go to Tom on this. You can't have it both ways. You can't mock, you know, Joe the plumber...\n\nBROWN: No one's mocking him.\n\nHANNITY: They were mocking \u2014 I don't know any plumber that makes $250,000 a year. The guy wants to own his own business.\n\nAnd Tom, the way I see this race, and maybe \u2014 maybe Sean Hannity is in a different direction than the rest of the country. The guy who had to drop out of college, the guy that was scrubbing pots and pans \u2014 that's me \u2014 when I was 12 years old, you know, trying to make my own way in life, that I was told, \"You need a helping hand, look down at the end of your arm.\" That's your helping hand.\n\nBut what I'm trying to \u2014 I think America has a choice in this election. Either we're going to become European socialists, we're going to be France, and wave the white flag of surrender, and we're going to nationalize health care and we're going to spread, redistribute the wealth, that's our patriotic duty, or we're going to be Americans with individual responsibility. Is that a fair choice that I'm outlining for the American people?\n\nTOM BEVAN, REAL CLEAR POLITICS: Well, I mean that's the distinction, the contrast that John McCain has been trying to draw with Obama, the sort of traditional liberal-conservative. But he's been terribly ineffective at it until Joe the plumber came along and served as a sort of vehicle in asking this question.\n\nBecause the fundamental issue here is not Joe the plumber or even the question he asked. It's really Obama's response, spreading the wealth around. McCain's been able to key off that to his advantage, I think, over the last couple of days.\n\nALAN COLMES, CO-HOST: Tom and Michael \u2014 Michael, McCain and Biden \u2014 I should say Biden and Obama were not mocking Joe the plumber. They were mocking John McCain \u2014 excuse me. They were mocking John McCain and his use of Joe the plumber and trying to hold this guy up. John McCain vetted Joe the plumber about as well as he vetted Sarah Palin. That's what the problem is.\n\nBROWN: And you know...\n\nHANNITY: That's a cheap shot against Sarah Palin.\n\nCOLMES: No, it's not against Sarah Palin, Sean. It's against John McCain's lack of vetting of a candidate and a bad choice for a vice- presidential...\n\nHANNITY: She's the most popular governor in the country.\n\nCOLMES: You've got a \u2014 we don't need the guests on. We're going to go at it now. You've got a bunch of conservatives going after Sarah Palin. You've got Kathleen Parky (ph). You've got, you know, a whole bunch of conservatives...\n\nHANNITY: Two people.\n\nCOLMES: ... going after and saying she shouldn't be on the ticket. But that's not the issue here. The issue is Joe the plumber, Michael, and it wasn't he who was being \u2014 that was not the target of the comments of Barack Obama and Joe Biden. He wasn't vetted properly by the McCain campaign.\n\nBROWN: Well, I would bet the McCain campaign now are talking about Joe the plumber as much as possible, because any time they can get off the issues that matter to the American people, they think that's a winner for them. Any time they can do distraction politics, they think that's a winner for them.\n\nSo Joe the plumber, you're going to hear about that from John McCain and Sarah Palin for quite a while now.\n\nBut Barack Obama and Joe Biden are going to focus on things that matter.\n\nCOLMES: Also Tom \u2014 yes.\n\nBROWN: Education, gas prices, the economy, foreign policy. Those are things that really matter now to people, not Joe the plumber. I'm sure he's a nice guy and he shouldn't be slandered.\n\nCOLMES: He's probably a great guy and works very, very hard.\n\nBROWN: But Sean, that's a very small issue.\n\nCOLMES: And Tom, you know, this is a guy who, it turns out, is not a swing voter. He's not an independent. He's a registered Republican. He's not a licensed plumber.\n\nAnd, in fact, forget about McCain or anybody else here, you've got the \u2014 or Obama or Biden throwing him down the stairs. You've got the head of his local union saying he's not licensed, he didn't take training, and he shouldn't be calling himself a plumber. That's the head of his union there, not anybody in a political campaign.\n\nBEVAN: But Alan, that's not necessarily the issue. And the idea that the McCain campaign would have to vet a private citizen for asking questions is somewhat ridiculous.\n\nAnd now you've got a situation where you've got John McCain out there defending this guy, who happens to be a working class guy from Ohio. He may not be a swing voter. He may be, you know, a conservative, but that's not the issue. The atmospherics of it are, that you've got McCain defending those kind of voters, and Obama's now kind of mocking them or making fun of them.\n\nCOLMES: Well, I think he's not making \u2014 again, I think he's making fun of McCain for using them, not for the guy himself. But thank you very much for being with us, both of you.\n\nWatch \"Hannity & Colmes\" weeknights at 9 p.m. ET!\n\nContent and Programming Copyright 2008 FOX News Network, Inc. ALL RIGHTS RESERVED. Transcription Copyright 2008 ASC LLC (www.ascllc.net), which takes sole responsibility for the accuracy of the transcription. ALL RIGHTS RESERVED. No license is granted to the user of this material except for the user's personal or internal use and, in such case, only one copy may be printed, nor shall user use any material for commercial purposes or in any fashion that may infringe upon FOX News Network, Inc.'s and Voxant Inc.'s copyrights or other proprietary rights or interests in the material. This is not a legal transcript for purposes of litigation.",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.9,
+            0.9,
+            0.9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 17.31475257873535,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "There you have it. With just 18 days away from election day, and the newest political star, Joe the plumber, is seeing the dirty side of politics. Joe, an Ohio plumber, became a household name after he questioned Barack Obama's tax plan. Now, since then he's been criticized about everything, from not having a plumber's license to owing money in back taxes, and today Senator McCain defended Joe at a rally in Florida.",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence attacks Joe the plumber's character and personal life, such as not having a plumber's license and owing back taxes, rather than addressing the substance of his argument about Barack Obama's tax plan."
+                },
+                {
+                    "text": "All right. Now before we get to anything here, it's \u2014 all he did was ask a question. Now he's had a full background check and smear and attack and besmirched, this poor guy.",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of language such as 'smear and attack and besmirched' to describe the treatment of Joe the plumber implies a personal attack and unfairly discredits the scrutiny he received after asking a question."
+                },
+                {
+                    "text": "I think to attack this man who asked a simple question, that if he starts a business, you know, and to mock him and let the crowd mock him and to let the media investigate him, you know, didn't pay back taxes, this is so fundamentally despicable.",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Describing the actions as 'fundamentally despicable' for investigating whether Joe the plumber paid back taxes after his question about starting a business is an overreaction and implies a moral judgment without addressing the facts."
+                },
+                {
+                    "text": "But what I'm trying to \u2014 I think America has a choice in this election. Either we're going to become European socialists, we're going to be France, and wave the white flag of surrender, and we're going to nationalize health care and we're going to spread, redistribute the wealth, that's our patriotic duty, or we're going to be Americans with individual responsibility. Is that a fair choice that I'm outlining for the American people?",
+                    "bias_type": "False Dichotomy Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "This sentence presents a complex issue as having only two opposing and extreme alternatives, suggesting that the only choices are to become 'European socialists' or 'Americans with individual responsibility,' which oversimplifies the political landscape."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article is biased regarding the treatment of Joe the plumber, exhibiting Ad Hominem Bias by attacking his character and False Dichotomy Bias by oversimplifying the political choices in the election."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6749999999999999,
+            "percentage_of_biased_sentences": 0.0761904761904762,
+            "overall_rating": 0.3755952380952381
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Berlin plumber jailed for throwing cat off balcony",
+        "URL": "Berlin plumber jailed for throwing cat off balcony.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    BERLIN, March 13 (Reuters) - A Berlin plumber who threw his  ex-girlfriend's cat to its death from a fifth-floor balcony has  been sentenced to seven months in jail.      'I just exploded,' the 37-year-old plumber told the court.  The man, who admitted his guilt, said his girlfriend had  recently moved out and left behind 'Popeye', a 2-year-old black  and white cat.      He had just returned from a nearby bar and got angry at the  cat for making a mess, the court heard.      'The crime was especially barbaric,' Judge Monika Pelcz told  the court after sentencing the man to jail without probation,  according to a report in Der Tagesspiegel newspaper on Thursday.   (Writing by Erik Kirschbaum; Editing by Alastair Sharp)   ((Reuters messaging: erik.kirschbaum.reuters.com@reuters.net))    Keywords: ODD GERMANY/CAT       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 12.103445053100586,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It reports on a criminal case without introducing any subjective or misleading information."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "_Factor_ Producer Jesse Watters Confronts Ohio Official Who Investigated Joe the Plumber.txt",
+        "URL": "_Factor_ Producer Jesse Watters Confronts Ohio Official Who Investigated Joe the Plumber.txt.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/240px-Fox_News_Channel_logo.svg.png",
+        "Text": "This is a rush transcript from \"The O'Reilly Factor,\" November 6, 2008. This copy may not be in its final form and may be updated.\n\nWatch \"The O'Reilly Factor\" weeknights at 8 p.m. and 11 p.m. ET and listen to the \"Radio Factor!\"\n\nBILL O'REILLY, HOST: In the \"Is It Legal?\" segment tonight: You may remember the state of Ohio investigated Joe the plumber soon after he began campaigning for John McCain. At first it was just Joe's child support payments, but then we found out the investigation into Joe was far more extensive.\n\nSo we sent Jesse Watters to Ohio to talk with the director of the Ohio Department of Jobs and Family Services, Helen Jones-Kelley, who's responsible for the Joe snooping. Well, when Ms. Kelley saw Jesse, she ran into a fire station, and then the police chief showed up.\n\nClick here to watch the confrontation.\n\n(BEGIN VIDEO CLIP)\n\nUNIDENTIFIED MALE: If your intention in going inside the fire station is to trap her in a room and talk to her, that's not going to happen.\n\nJESSE WATTERS, \"FACTOR\" PRODUCER: I don't want to trap her. I just want to convey...\n\nUNIDENTIFIED MALE: How much clearer can I make it that she doesn't want to talk to you? Does she \u2014 do you have to make her talk to you? Is that your right to make her talk to you?\n\nWATTERS: What I'm saying is she's \u2014 her salary is paid for by the taxpayers. She maxed out to the Obama campaign. She may have done something illegal. And as a journalist, I have a right to ask her a question.\n\nUNIDENTIFIED MALE: Well, not if she doesn't want to speak with you.\n\n(END VIDEO CLIP)\n\nO'REILLY: Well, after that confrontation, Jesse finally did get to speak with Ms. Kelley off camera.\n\n(BEGIN AUDIO CLIP)\n\nWATTERS: Did the governor order you to go into the file, or was that a decision that you made?\n\nHELEN JONES-KELLY, OHIO STATE WORKER: I'm going to say again, if you have any questions you need to speak to Tom Charles who is the inspector general of the state of Ohio.\n\nWATTERS: OK, all right, thanks for your time.\n\n(END AUDIO CLIP)\n\nO'REILLY: With us now, our \"Is it Legal?\" team, attorney and FOX News analyst Lis Wiehl and attorney and FOX News anchor Megyn Kelly. No relation to...\n\nMEGYN KELLY, \"AMERICA'S NEWSROOM\" CO-HOST: She spells it with a second \"e.\"\n\nO'REILLY: Now, at first it was just the child support payments. But the state of Ohio went far beyond that, correct?\n\nKELLY: Yes. Now we have news that they looked into whether he was on welfare and getting any sort of welfare checks, and they also looked into whether he owed any back taxes. And now we have reports that, separate and apart from Helen Jones-Kelley's department, they checked his DMV records and perhaps other records. We don't know exactly how widespread it was, but the government of Ohio looked into Joe the plumber and looked hard.\n\nO'REILLY: Anything illegal about that?\n\nKELLY: Well, it's not that it's illegal, it's that it's inappropriate and unethical. This woman defended her snooping by saying, \"Well, he suddenly shot to stardom. He came into the public eye.\" That's not enough. That cannot be enough. You must have to have some sort of reason to look into somebody's records. Even she admits that. And she tried to pawn off that reason as saying, \"Well, he came into the public eye.\"\n\nO'REILLY: Do you think she was ordered to do it?\n\nKELLY: I have no evidence of that.\n\nO'REILLY: See, I believe she was.\n\nKELLY: I know you do.\n\nO'REILLY: Because she's not smart enough, with all due respect, to do it on her own.\n\nKELLY: Why? Where do you get that? Here's why I...\n\nO'REILLY: Because I \u2014 we've investigated.\n\nKELLY: ...would argue the opposite. Here's why I would argue the opposite. She maxed out, as Jesse Watters pointed out, to the Obama campaign. She's clearly an Obama supporter.\n\nO'REILLY: She's in the machine.\n\nKELLY: But listen, everyone in the left wanted dirt on Joe the plumber when he first came out on the national scene.\n\nO'REILLY: Right.\n\nKELLY: All the left blogs were trying to find out about his tax liens and so on.\n\nO'REILLY: I think a bureaucrat like that would...\n\nKELLY: I mean, she may have just been lucky.\n\nO'REILLY: But anyway, look, Wiehl, if I'm living in the state of New York and somebody doesn't like me in Albany...\n\nLIS WIEHL, FOX NEWS LEGAL ANALYST: Really? Shocked. I'm shocked. Somebody not like you?\n\nO'REILLY: It might be happening. Do they have a right \u2014 they don't...\n\nWIEHL: Absolutely not. And I disagree with Megyn in the sense I do think there is potentially something illegal here. I looked at the Ohio legislative statutes, and employees are strictly liable for misuse of political funds. And I would say, look, her taking the time or ordering somebody else to take the time to look into this, that's misuse of public funds. It takes time and money to do that.\n\nO'REILLY: Because her agency is paid for by the taxpayers.\n\nWIEHL: Absolutely. Absolutely.\n\nO'REILLY: So she'd have to justify the expense?\n\nWIEHL: The reason she justified it, she said, \"Well, when people come into the political eye, like a lottery winner, then we're going to look at them.\" Well, a lottery winner is a lot different from somebody....\n\nO'REILLY: So you would launch an investigation?\n\nWIEHL: They have. They have launched an investigation on her.\n\nO'REILLY: There is one?\n\nWIEHL: On her \u2014 not \u2014 on her\u2026\n\nO'REILLY: The attorney general of Ohio?\n\nWIEHL: An investigation. But all they said today is it's ongoing.\n\nO'REILLY: They're all Democrats, you know. And I'm not saying that Democrats are corrupt. I'm just saying that, you know, like Ohio, any state, there's a lot of cronyism.\n\nNow, where is the ACLU in this? Aren't they the privacy people?\n\nKELLY: This is a shocker, isn't it?\n\nO'REILLY: They didn't show up. Where is the ACLU?\n\nKELLY: They are out in California on behalf of the gay marriage advocates.\n\nO'REILLY: So they're over in that \u2014 they couldn't help Joe the plumber.\n\nKELLY: Yes.\n\nO'REILLY: Don't they have bathrooms at the ACLU? Don't they have restrooms there on the premises? Don't they like plumbers?\n\nKELLY: The ACLU would absolutely be involved in this. This is tailor made for the ACLU.\n\nO'REILLY: Can you imagine if a Republican did this to a Democrat? It's unbelievable.\n\nKELLY: Outrage.\n\nO'REILLY: But nothing. No ACLU. We haven't seen any of them.\n\nWIEHL: No, they are all in California doing the whole gay marriage thing.\n\nO'REILLY: All in California.\n\nWIEHL: It takes a lot to file all these lawsuits in California.\n\nO'REILLY: All right. Let's get this. Let's get this. So we want to say, there's no ACLU in Ohio helping Joe the plumber.\n\nWIEHL: Even though there is a huge privacy issue. I'm sure they're going to step in and help Jesse if he gets sued, too.\n\nO'REILLY: The folks in California say no to gay marriage, overturning the Supreme Court. That should be it, right?\n\nKELLY: Yes, that should be it. It is a ballot initiative. And that's how you amend the constitution in California, by a ballot initiative.\n\nBut the supporters of gay marriage have now filed three lawsuits, and their argument is there's a difference between amending the constitution and revising it altogether. In other words, gutting it. And this thing essentially guts it. And it's true that you can't gut it by a ballot initiative. So what the fight is going to be over, is this a normal amendment that we've seen them pass many times, or is this essentially a gutting of the constitution?\n\nO'REILLY: What do you think, Wiehl?\n\nWIEHL: Well, the problem is that the supreme court, the California Supreme Court already ruled on exactly this language. I compared the language in the decision to the language of the amendment, and it's exactly word by word.\n\nO'REILLY: Because they tried to keep this off the ballot, right?\n\nWIEHL: Exactly.\n\nO'REILLY: So they lost and the Supreme Court said you can't have it on the ballot.\n\nWIEHL: Right.\n\nO'REILLY: So now they're going back again with the same argument.\n\nWIEHL: But it was a 4-3 decision the last time. So the question is...\n\nO'REILLY: Maybe they can get somebody else.\n\nWIEHL: But here's the thing. Even if they win at the California level...\n\nO'REILLY: The Supreme Court.\n\nWIEHL: ...which means it goes to the Supreme Court. Does the ACLU really want to open that door?\n\nO'REILLY: Sure they do.\n\nWIEHL: No, they don't.\n\nKELLY: It doesn't go to the U.S. Supreme Court.\n\nWIEHL: It's a constitutional issue.\n\nKELLY: It's a state constitutional issue, which means...\n\nO'REILLY: Say the loons in Sacramento, the judges, side with the gay activists and say, you know, \"We're going to throw this vote out\"? Then you know the other side is going to appeal it further. And it does...\n\nKELLY: You can't, no. When it's a matter of state constitutional law, the state supreme court is the ultimate arbiter on it. And the gay marriage proponents have been very careful not to raise federal issues, because they don't want it winding up in the U.S. Supreme Court.\n\nO'REILLY: So the judges could just throw this whole thing out?\n\nKELLY: Yes.\n\nO'REILLY: Based on nothing but the judges want to do it.\n\nKELLY: Well, this is what they \u2014 this is what they would say. They would say it did gut the state constitution, because it gutted the equal protection clause.\n\nO'REILLY: But Wiehl pointed out, they approved the language.\n\nWIEHL: Exactly the same language. So I don't \u2014 unless they can make that one vote sway, I think we're going to get the very same decision. And what I would argue, if I was trying to get this to the Supreme Court, then I would say, \"Look, there is a federal constitutional issue. It's equal protection issue, even though it comes up in the state constitution.\" I know it's a stretch, but that's what I would argue.\n\nO'REILLY: I am starting to get a headache.\n\nKELLY: The final line is the California Supreme Court controls\u2026\n\nO'REILLY: All I want people to know is, when you're sitting between two women who went to law school, you must have aspirin.\n\nLadies, thanks very much. I appreciate it.\n\nContent and Programming Copyright 2008 FOX News Network, LLC. ALL RIGHTS RESERVED. Transcription Copyright 2008 ASC LLC (www.ascllc.net), which takes sole responsibility for the accuracy of the transcription. ALL RIGHTS RESERVED. No license is granted to the user of this material except for the user's personal or internal use and, in such case, only one copy may be printed, nor shall user use any material for commercial purposes or in any fashion that may infringe upon FOX News Network, LLC'S and ASC LLC's copyrights or other proprietary rights or interests in the material. This is not a legal transcript for purposes of litigation.",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0.6,
+            0,
+            0.6,
+            0,
+            0.6,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 11.669398307800293,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "At first it was just Joe's child support payments, but then we found out the investigation into Joe was far more extensive.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'far more extensive' implies a judgment that the investigation went beyond what was necessary, suggesting a negative connotation towards the investigation's scope."
+                },
+                {
+                    "text": "Well, when Ms. Kelley saw Jesse, she ran into a fire station, and then the police chief showed up.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The choice of words 'ran into a fire station' could be seen as a way to diminish Ms. Kelley's actions, implying a sense of guilt or evasion."
+                },
+                {
+                    "text": "With us now, our 'Is it Legal?' team, attorney and FOX News analyst Lis Wiehl and attorney and FOX News anchor Megyn Kelly. No relation to...",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The inclusion of 'No relation to...' after introducing Megyn Kelly could be interpreted as a dismissive or trivializing remark, suggesting a lack of importance or relevance."
+                },
+                {
+                    "text": "KELLY: Yes. Now we have news that they looked into whether he was on welfare and getting any sort of welfare checks, and they also looked into whether he owed any back taxes. And now we have reports that, separate and apart from Helen Jones-Kelley's department, they checked his DMV records and perhaps other records. We don't know exactly how widespread it was, but the government of Ohio looked into Joe the plumber and looked hard.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The repetition of 'looked into' and 'looked hard' suggests a critical tone, implying an excessive or intrusive investigation into Joe the plumber's affairs."
+                },
+                {
+                    "text": "O'REILLY: Do you think she was ordered to do it?\nKELLY: I have no evidence of that.\nO'REILLY: See, I believe she was.\nKELLY: I know you do.\nO'REILLY: Because she's not smart enough, with all due respect, to do it on her own.\nKELLY: Why? Where do you get that? Here's why I...",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This exchange implies a personal attack on Ms. Kelley's intelligence, suggesting that her involvement in the investigation must have been due to external influence rather than her own capabilities."
+                },
+                {
+                    "text": "O'REILLY: Because her agency is paid for by the taxpayers.\nWIEHL: Absolutely. Absolutely.\nO'REILLY: So she'd have to justify the expense?\nWIEHL: The reason she justified it, she said, 'Well, when people come into the political eye, like a lottery winner, then we're going to look at them.' Well, a lottery winner is a lot different from somebody....\nO'REILLY: So you would launch an investigation?\nWIEHL: They have. They have launched an investigation on her.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The sarcastic tone in the exchange, particularly the comparison to a 'lottery winner,' serves to belittle the justification provided by Ms. Kelley for the investigation, implying it is inadequate or absurd."
+                },
+                {
+                    "text": "O'REILLY: Because they tried to keep this off the ballot, right?\nWIEHL: Exactly.\nO'REILLY: So they lost and the Supreme Court said you can't have it on the ballot.\nWIEHL: Right.\nO'REILLY: So now they're going back again with the same argument.\nWIEHL: But it was a 4-3 decision the last time. So the question is...\nO'REILLY: Maybe they can get somebody else.\nWIEHL: But here's the thing. Even if they win at the California level...\nO'REILLY: The Supreme Court.\nWIEHL: ...which means it goes to the Supreme Court. Does the ACLU really want to open that door?\nO'REILLY: Sure they do.\nWIEHL: No, they don't.",
+                    "bias_type": "Opinionated Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The exchange regarding the ACLU's stance on the issue of gay marriage in California is presented as a matter of fact, with the assertion that the ACLU does not want to open the door to a Supreme Court case being stated definitively, obscuring the complexity of the organization's position."
+                },
+                {
+                    "text": "KELLY: It's a state constitutional issue, which means...\nO'REILLY: Say the loons in Sacramento, the judges, side with the gay activists and say, you know, 'We're going to throw this vote out'? Then you know the other side is going to appeal it further. And it does...\nKELLY: You can't, no. When it's a matter of state constitutional law, the state supreme court is the ultimate arbiter on it. And the gay marriage proponents have been very careful not to raise federal issues, because they don't want it winding up in the U.S. Supreme Court.\nO'REILLY: So the judges could just throw this whole thing out?\nKELLY: Yes.\nO'REILLY: Based on nothing but the judges want to do it.\nKELLY: Well, this is what they \u2014 this is what they would say. They would say it did gut the state constitution, because it gutted the equal protection clause.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'the loons in Sacramento, the judges' is a clear example of derogatory language, undermining the authority and professionalism of the judges in question, and by extension, the legal process."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the investigation into Joe the plumber, particularly through the use of word choice and ad hominem attacks to undermine the actions and justifications of the individuals involved. Additionally, the discussion on the ACLU's position on gay marriage presents an opinion as fact, contributing to the overall bias tendency."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.2469879518072289,
+            "overall_rating": 0.42349397590361443
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "_Joe the Plumber_ on _H_C_.txt",
+        "URL": "_Joe the Plumber_ on _H_C_.txt.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/240px-Fox_News_Channel_logo.svg.png",
+        "Text": "This is a rush transcript from \"Hannity & Colmes,\" October 20, 2008. This copy may not be in its final form and may be updated.\n\nSEAN HANNITY, CO-HOST: And meanwhile the biggest story in the \u2014 in last week on the campaign has been, well, the man that America has come to know as Joe the Plumber. His real name is Samuel Joe Wurzelbacher. And he has become the new symbol of the McCain campaign's fight for everyday Americans.\n\n(BEGIN VIDEO CLIP)\n\nJOHN MCCAIN, (R) PRESIDENTIAL NOMINEE: Now I'd like to ask one other thing that I have not before. On behalf of Joe, the plumber, and Rose, the teacher, and Phil, the brick layer, and Wendy, the waitress, and all small business people around America, will small business people please raise their hands so we can thank you for what you do for America, job creation?\n\n(END VIDEO CLIP)\n\nHANNITY: And Hannity, the hot head, and Colmes the calm \u2014 I'm sorry. I'm just kidding. It was a joke.\n\nCOLMES: I'm just Alan the talk show host.\n\nHANNITY: All right. And he's even been the target of the Obama-Biden campaign as well.\n\n(BEGIN VIDEO CLIP)BARACK OBAMA, (D) PRESIDENTIAL NOMINEE: He's trying to suggest that \u2014 a plumber is the guy he's fighting for.\n\n(LAUGHTER AND APPLAUSE)\n\nOBAMA: How many plumbers do you know making $250,000 a year?\n\nJOE BIDEN, (D) VICE PRESIDENTIAL NOMINEE: John continues to cling to the notion (INAUDIBLE) the fact this guy Joe, the plumber. I don't know many Joe, the plumbers in my neighborhood that make that $250,000 a year are worried.\n\n(END VIDEO CLIP)\n\nHANNITY: All right, Joe the Plumber joins us in our studio. It's actually Samuel J., not.\n\nJOE WURZELBACHER, 'JOE THE PLUBER': Yes, Samuel J. Wurzelbacher.\n\nVideo: Watch Sean and Alan's interview with 'Joe the Plumber'\n\nHANNITY: Well, Joe, you're a great American. Good to see you, my friend.\n\nWURZELBACHER: Yes, thank you very much.\n\nHANNITY: Thank you for being here. We appreciate it.\n\nYou know, first of all, you had never seen that before?\n\nWURZELBACHER: No, no. That was the first time really.\n\nHANNITY: What do you \u2014 when you hear \u2014 first of all, it made me mad for you because the crowd's laughing, they think this is a big joke.\n\nYou know, here, you're swinging a wrench 12, 14 hours a day. And by the way, I had a lot of years in construction.\n\nWURZELBACHER: Yes.\n\nHANNITY: Ask Alec Baldwin. He made fun of me. But you know, you're swinging a wrench. You're installing toilets and showers and plumbing and heating and making people's lives better. You service some people, earning every dollar you get.\n\nWURZELBACHER: Yes.\n\nHANNITY: And to be laughed out, I didn't think that was funny.\n\nWURZELBACHER: No. I don't think it's really funny. I mean, you know, he just trying to take \u2014 trying \u2014 you know the fact that \u2014 well, the issues, I mean he just wants to, you know, take the attention off the issues and kind of play with me, and that way he doesn't have to explain anything.\n\nHANNITY: For the \u2014 for the record, you were playing football with your son. You didn't go to an Obama rally. He walked down your street.\n\nWURZELBACHER: Yes.\n\nHANNITY: Take us from there. What happened?\n\nWURZELBACHER: Just \u2014 yes, like you said. I was tossing the football with my son, he's walking down the street \u2014 I'm sorry, he's canvassing the neighborhood, going back and forth, and he's getting closer and closer, and you know, it actually irritated me.\n\nI didn't really want to talk with him, you know? I wanted to toss football with my son.\n\nHANNITY: Right.\n\nWURZELBACHER: Something that we'd do.\n\nHANNITY: I don't want to talk to Colmes a lot of nights either.\n\nCOLMES: But you get paid well to do it, don't you?\n\nHANNITY: Ah \u2014 yes.\n\n(LAUGHTER)\n\nHANNITY: Short answer. Yes.\n\nWURZELBACHER: So you know, short story, as they were asking me easy questions. And you know, you know, everybody in America thinks, man, god, if I could get this guy in front of me, I'd really \u2014 you know ask him a hard question.\n\nWell, I had the chance. And you know, my question wasn't that hard.\n\nHANNITY: No.\n\nWURZELBACHER: It's just he shot himself in his own foot with his answer.\n\nHANNITY: All right. Here's the \u2014 because this is now, we have Joe Biden say it's our \u2014 saying it's our patriotic duty to pay more taxes. He's saying \u2014 he said to you, and this \u2014 this is resonating, spread the wealth.\n\nAnd there are even people, according to the Obama plan, who don't work or pay taxes that will get money back.\n\nWURZELBACHER: Yes.\n\nHANNITY: And if you say the word welfare, some of \u2014 said well, that's actually racist. Actually that came out this weekend.\n\nHere's my question to you. Why is \u2014 in your words, because I thought you articulated this better than many politicians. Why do you view this as socialism because that's the word you used?\n\nWURZELBACHER: Well, just because, you know, when you work hard, I mean, all your life, you've \u2014 you've said, you know, work hard, you'll make something of yourself. You know? I grew up poor. You know I actually have been on welfare, you know, my parents, you know, a couple different times, and we'd, you know, worked harder and got off of it and then, you know, actually did fairly well.\n\nI mean fairly well, you know, I'm not talking $100,000 a year fairly well, I'm just talking fairly well for us. You know? So when someone tells me that if you work hard that we're going to take more away from you, what's the purpose of working hard?\n\nHANNITY: Do you think this should be a defining moment? Because I actually believe that it is a defining moment in the campaign. It's going to be very interesting. Because Barack Obama's promised to spend $1 trillion more in tax money, that means your tax dollars out there, $1 trillion more.\n\nBarack Obama says he's going to raise the capital gains tax, put a windfall profit tax on companies, raise tax rates, eliminate the Bush tax cuts.\n\nWURZELBACHER: Yes.\n\nHANNITY: . and raise a series of taxes, the death tax among them.\n\nThat's socialism. That is redistribution of wealth.\n\nWURZELBACHER: Yes.\n\nHANNITY: Why do you think that's bad? Why would that be bad for you if you're going to try to get this business of yours?\n\nWURZELBACHER: There's no reason to go out there and work hard. There's no more \u2014 you know, I mean, he's breeding mediocrity in America is what he's doing by doing all that.\n\nI mean, people, you know, at one point in time they wanted a hand up maybe, but now it's a hand out. You're \u2014 telling people to stay home, I'm going to take care of you, and the other people that are working out there, they're just.\n\n(CROSSTALK)\n\nCOLMES: Hey, Joe, nice to meet you. Thanks for (INAUDIBLE) on the show.\n\nHANNITY: If you want a helping hand, it's at the end of your arm. That's what Michael (INAUDIBLE) said.\n\nCOLMES: First of all, were you an undecided voter, truly, when you met Barack Obama?\n\nWURZELBACHER: No. No, I was not an undecided voter.\n\nCOLMES: Because they \u2014 it was presented that way. And you know, I think a lot of people \u2014 I don't think some of the comments that you may have felt insulted by were directed at you personally, as much as people like (INAUDIBLE) have genuine issues with the McCain campaign and McCain's policies.\n\nWURZELBACHER: Yes.\n\nCOLMES: Do you think that Joe Biden and John McCain were personally attacking you?\n\nHANNITY: Joe Biden and Barack Obama.\n\nCOLMES: Well, what did I say? Oh Barack \u2014 excuse me, right. Thank you for helping me with the question, Hannity.\n\nWURZELBACHER: Well, Joe Biden, I mean, he said it awful mockingly. You know I don't know any to \u2014 you know, and I do kind of take that a little personal. I mean I didn't say I made $250,000. You know I think he's making more of it.\n\nCOLMES: But it wasn't about you, it was this idea that if you're making less than that, you're going to actually save money under Barack Obama's tax policies, you wouldn't be paying more.\n\nWURZELBACHER: Well, you know, yes, I thought about that, and I was hoping you might ask something like that.\n\nCOLMES: Yes.\n\nWURZELBACHER: To be honest with you. You know I don't think it's right to \u2014 you know, you know, there's principles involved. I don't want to make or have my taxes cut if it means somebody who worked hard or had a better break than I did, and take his money. I don't want his money.\n\nCOLMES: So you don't want a tax cut?\n\nWURZELBACHER: I don't want someone else's money who worked hard for it. No.\n\nCOLMES: But John McCain will have tax cuts, too, for some people, for the middle-class Americans. It wouldn't be just Barack Obama.\n\nWURZELBACHER: Oh no, it's, I mean \u2014 well, you know, are \u2014 either one of them going to do it.\n\nCOLMES: I want to address this issue of socialism. You raised the issue of socialism.\n\nWURZELBACHER: Yes.\n\nCOLMES: I want to play you a little tape here of what the various candidates have said about that and the whole issue of socialism.\n\nLet's take a look.\n\nWURZELBACHER: All right.\n\n(BEGIN VIDEO CLIP)\n\nSARAH PALIN, (R) VICE PRESIDENTIAL NOMINEE: The key to Barack Obama's tax plan, since he can't reduce taxes on those who pay zero, he wants the government to send them a check that's called a tax credit. And.\n\n(BOOS)\n\nMCCAIN: I want to give every American family a $5,000 refundable tax credit.\n\nPALIN: But Joe the plumber and Ed the dairyman \u2014 I believe that they think that it sounds more like socialism.\n\n(CHEERS)\n\nMCCAIN: Under my orders as president of the United States government will purchase mortgages directly from homeowners and mortgage services and replace them.\n\nPALIN: Friends, now is no time to experiment with socialism.\n\n(END VIDEO CLIP)\n\nCOLMES: That's interesting because Sarah Palin gave $1200 to every resident of Alaska, some people would call that socialism. And John McCain would give.\n\nHANNITY: That was their oil money.\n\nCOLMES: And Sam, and Sam.\n\nHANNITY: That was their oil money.\n\nCOLMES: And every year \u2014 excuse me. Every year Alaskans get $2,000.\n\nHANNITY: You're picking on Joe the Plumber on oil issues?\n\nCOLMES: Excuse me. I believe I'm.\n\nHANNITY: Go ahead.\n\nCOLMES: I believe I'm up now.\n\nHANNITY: I'm defending my friend.\n\nCOLMES: Forgive me. Forgive me for being, you know.\n\nThe fact of the matter is that, you know, one could say socialism when John McCain wants to buy back mortgages. Is that socialism?\n\nWURZELBACHER: You know, honestly, I don't know enough.\n\nCOLMES: Right.\n\nWURZELBACHER: . to actually answer that question intelligently, but at the same, I mean, as far as \u2014 you know, that is oil money, that's not socialism, that's just rewarding the people in the state.\n\nCOLMES: Right.\n\nWURZELBACHER: I mean I lived up in Alaska for a couple of years. I was, you know, lucky enough to receive that, you know, at one point. But, you know, if you're a resident and you pay, because I mean, food is more expensive up there because it has to be trucked in there. There's a lot of things.\n\nSo socialist, no. As far as \u2014 you know, here's a question back at you. Why do they keep on saying 95 percent of Americans? 95 percent of Americans don't pay taxes.\n\nCOLMES: They're saying 95 percent of working families.\n\nHANNITY: Wait, I got to (INAUDIBLE) one thing before we go to break.\n\nCOLMES: He's saying.\n\nHANNITY: When we come back we're going to talk about the vicious, vicious personal attacks against you. So we've got one more segment.\n\nCOLMES: Nobody supports vicious personal attacks or any attacks against you personally.\n\nBut by the way, he's talking 95 percent.\n\nHANNITY: He tries to give you this edited sound bite.\n\nCOLMES: He's talking about \u2014 excuse me. Excuse me.\n\nHANNITY: Yes, sir.\n\nCOLMES: He's talking about \u2014 may I speak?\n\nHANNITY: No.\n\nCOLMES: He's talking about 95 percent of working families, not 95 percent of Americans.\n\nWe'll be back with Joe the Plumber.\n\n(COMMERCIAL BREAK)\n\nCOLMES: And we're back with Joe the Plumber. You know we have a great country where we can disagree.\n\nWURZELBACHER: Yes.\n\nCOLMES: About stuff. And I guess, getting back to this issue of where you would do better, do you think you'd do better under John McCain than Barack Obama even if you're making under $250,000 a year and you're not being taxed on that amount of money?\n\nWURZELBACHER: Yes, I do.\n\nCOLMES: Why would that be if you would actually, say, maybe $1,000 or $2,000 a year under the Obama tax plan?\n\nWURZELBACHER: Because, I mean, you start bending principles, then where does it stop? I do think it's an issue with principles. I mean it's not right to take someone else's money who has worked, you know, harder or has better breaks, like I was saying last time. I just wouldn't feel comfortable with that.\n\nCOLMES: Yes. But we have a progressive tax system in this country where those who have made more, traditionally, have always paid more higher percentage, and a lot of people might like a flat tax, which sounds a lot fairer.\n\nWURZELBACHER: A lot would love flat tax.\n\nCOLMES: But it doesn't seem like we're headed in that direction. But even under Reagan and even under Bush \u2014 both Bushes we've had a \u2014 what's called a progressive tax cuts.\n\nWURZELBACHER: Well, you know, I asked Obama about the flat tax.\n\nCOLMES: Yes.\n\nWURZELBACHER: I mean he threw out a number of 40 percent, and I, you know, that was kind of high, then he \u2014 you know, he did back off, said about 22 or 23 percent, and that's to keep the government at the \u2014 you know, how big it is right now.\n\nCOLMES: Right. Right.\n\nWURZELBACHER: I mean, really, the government needs to be cut in half. I mean there's so many expenditures out there. I mean you know, embryo research, I mean just so many things.\n\nCOLMES: Sure.\n\nWURZELBACHER: That should be privatized, that shouldn't be anything the government's.\n\nCOLMES: Sure.\n\nWURZELBACHER: You know? And so, you know, if we could get rid of a lot of the government which, you know, Sarah Palin's talked a lot about, you know.\n\nCOLMES: Well, one of the thing we're starting to get rid off is, for example, the military, we need defense, and also one of the things Obama said he would do would get us out of Iraq which would save a lot of money in terms of the money we're spending in that war.\n\nWURZELBACHER: You know, I'm \u2014 well, as far as that goes, have you met anybody over there?\n\nCOLMES: Sure.\n\nWURZELBACHER: You know, they've got liberation, they've got freedom. Things that we take for granted on a daily basis.\n\nCOLMES: But there's a price that comes with that.\n\nWURZELBACHER: Well, sure, there's a price with...\n\nCOLMES: You know, we're not asked to sacrifice anything here in this \u2014 you know we have \u2014 there has been no sacrifices asked of Americans.\n\nWURZELBACHER: Yes, but we send all our money over to \u2014 you know major disasters happen worldwide, I mean we send out money over there without \u2014 you know so we're being great Americans.\n\nCOLMES: Sure.\n\nWURZELBACHER: We're being great Americans now.\n\nCOLMES: But the price of that has maybe some people who make a lot of money paying more taxes to able to afford to give freedom to those countries, you think that's we've been doing?\n\nHANNITY: Hey, Joe, you see what I have to put up with? Do you think you have stress wringing that wrench around every day? You know?\n\n(CROSSTALK)\n\nListen, I got some news for you.\n\nWURZELBACHER: Yes.\n\nHANNITY: Scott Rasmussen, who is our pollster, is going to join us in a few minutes. He's got the latest state by state polls.\n\nYou've been polled.\n\nWURZELBACHER: I've been polled?\n\nHANNITY: Yes. And by the way, among those that are following your story, you have a 58 percent approval rating. All right? Among.\n\nCOLMES: When are you running?\n\nHANNITY: By the way, 37 percent \u2014 disapproval rating, 71 percent of Republicans approve of everything you're doing and then 64 percent of Alan's left-wing socialist friends don't like you.\n\nCOLMES: Please throw in the word communist while you're at it.\n\nHANNITY: Close thing.\n\nWURZELBACHER: I believe in \u2014 no, not socialism.\n\nI believe in social issues. I believe in social works. I mean I think it needs reforming something fierce. You know I have friends, you know, that, you know, make so much money, but if they make just a couple dollars more?\n\nHANNITY: Yes, the government is picking their pocket.\n\nWURZELBACHER: Well, not only picking their pocket, but they're taking their child support away.\n\nHANNITY: Absolutely.\n\nWURZELBACHER: They're taking \u2014 you know, I mean, childcare away. They're taking the food away. I mean, you know, so you don't really \u2014 you're not wanting them to succeed, you're penalizing them.\n\nHANNITY: All right. I want to talk about, you know, the left wing, and this is not Alan, in fairness to him, but there have been vicious attacks. You don't have a license. Joe doesn't \u2014 Joe doesn't have license. You've been a master plumber for how many years?\n\nWURZELBACHER: I'm not a master plumber. I'm just a plumber.\n\nHANNITY: You're a plumber, but you work under the license of your boss?\n\nWURZELBACHER: Yes. I work under the license of my boss.\n\nHANNITY: And you \u2014 and you went to school three and a half years, you have six months left to go to get your own master's plumber?\n\nWURZELBACHER: Yes. I'm going to bypass the journeyman.\n\nHANNITY: Right.\n\nWURZELBACHER: And I'm going to take my test and get my master's license. That way I can.\n\nHANNITY: So you never did illegal? In other words, when the implications was, you're not even a real plumber. You've been doing this for 15 years.\n\nWURZELBACHER: Yes.\n\nHANNITY: Yes. All right, the other thing that people have been out there saying, well, you didn't pay their taxes.\n\nWURZELBACHER: Yes.\n\nHANNITY: You didn't even know that there was a bill.\n\nWURZELBACHER: They don't send notices out. You know?\n\n(LAUGHTER)\n\nWURZELBACHER: And the only way you find out is if you \u2014 you know, go to refinance your house.\n\nHANNITY: Yes.\n\nWURZELBACHER: . or you're going to sell it or, you know, or try to get a loan off it, then all of the sudden, hey, you know, it raises its ugly head.\n\nHANNITY: Right. I want to say \u2014 but the \u2014 you see, none of this was relevant, but once your message began to resonate.\n\nWURZELBACHER: Yes.\n\nHANNITY: . it was attack the messenger and forget about \u2014 it was Barack Obama, he's the one running for president who said, you know, spread the wealth around, and we'll run it through, of course, him and his bureaucracy and Biden and his bureaucracy.\n\nWURZELBACHER: Yes.\n\nHANNITY: And they don't want to \u2014 what is that \u2014 what did that teach you about this system?\n\nWURZELBACHER: We'd go a little further as far as.\n\nHANNITY: Smear \u2014 smear the messenger, don't pay attention to the question which was relevant.\n\nWURZELBACHER: Well, you know, that bothers me, that they have to spend so much time on me. I mean I am really your just \u2014 your average Joe.\n\nI mean, you know, come November 4th, I mean, someone's going to have to go to work, and they're really going to have a tough job ahead of them, and they're going to sit here and talk about, you know, if I have a license or if I have a \u2014 you know, I owe $1100? I mean, you know, these guys will (INAUDIBLE).\n\nHANNITY: Yes. I want to tell you one thing. I did \u2014 I have beaten you, though. I have a higher disapproval rating among Democrats than you do. So.\n\nCOLMES: They know you better.\n\nHANNITY: That's true. Just give me some time.\n\nJoe, you're a great American. Thank you for all you do honestly. It's a.\n\nWURZELBACHER: Thank you very much really. Appreciate it.\n\nCOLMES: Very nice to meet you, Joe.\n\nWURZELBACHER: That was (INAUDIBLE).\n\nHANNITY: You know what? You're the heart and soul swinging that wrench, you're the heart and soul of what makes this country great, and the fact that you had this opportunity, I think, speaks volumes about you and this country.\n\nThank you for being with us. Honestly.\n\nWURZELBACHER: I really appreciate it.\n\nWatch \"Hannity & Colmes\" weeknights at 9 p.m. ET!\n\nContent and Programming Copyright 2008 FOX News Network, Inc. ALL RIGHTS RESERVED. Transcription Copyright 2008 ASC LLC (www.ascllc.net), which takes sole responsibility for the accuracy of the transcription. ALL RIGHTS RESERVED. No license is granted to the user of this material except for the user's personal or internal use and, in such case, only one copy may be printed, nor shall user use any material for commercial purposes or in any fashion that may infringe upon FOX News Network, Inc.'s and Voxant Inc.'s copyrights or other proprietary rights or interests in the material. This is not a legal transcript for purposes of litigation.",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 11.060575485229492,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "It\u2019s hard to take their climate change activism seriously when they own multiple large homes and private jets.",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence attacks the character and lifestyle of individuals involved in climate change activism rather than addressing the substance of their activism, suggesting hypocrisy without directly engaging with the issues."
+                },
+                {
+                    "text": "Any climate change message from somebody who owns a car is pure hypocrisy and should be completely ignored.",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.9,
+                    "bias_description": "This sentence employs a high level of ad hominem bias by dismissing any climate change message from car owners as 'pure hypocrisy' and unworthy of attention, completely bypassing the discussion on climate change itself."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding climate change activism, particularly through the use of ad hominem attacks to discredit the messengers based on their personal attributes or lifestyles rather than engaging with the substance of the climate change issue."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.75,
+            "percentage_of_biased_sentences": 0.003076923076923077,
+            "overall_rating": 0.37653846153846154
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "WRAPUP 2-McCain says Democrats smearing Joe the Plumber",
+        "URL": "WRAPUP 2-McCain says Democrats smearing Joe the Plumber.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "",
+        "Histogram": [
+            0.6
+        ],
+        "Relevance": 10.9951810836792,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "WRAPUP 2-McCain says Democrats smearing Joe the Plumber",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This headline suggests that Democrats are attacking Joe the Plumber's character rather than addressing the substance of his argument, implying a smear campaign without providing evidence."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article's headline exhibits Ad Hominem Bias by implying that Democrats are engaging in character attacks against Joe the Plumber without substantiating this claim, thus showing a bias tendency towards portraying Democrats in a negative light."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 1.0,
+            "overall_rating": 0.8
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "TAKE A LOOK-U.S. ELECTION: Obama, McCain hit the home stretch",
+        "URL": "TAKE A LOOK-U.S. ELECTION: Obama, McCain hit the home stretch.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    Democrat Barack Obama criticized Republican White House rival  John McCain for a 'say anything, do anything' political style as  he opened a two-day tour to kick off early voting in Florida.      McCain told supporters in Missouri that 'nothing is  inevitable' and he could still beat Obama, who leads in national  opinion polls as the pair began a two-week sprint to the Nov. 4  presidential election.      The latest Reuters/C-SPAN/Zogby tracking poll showed Obama  opening a 6-point edge over McCain.      A new CNN poll gave Obama a 5-point lead among likely voters,  down from an 8-point edge two weeks ago. Other polls also showed a  tightening race.      Double-click on the code in brackets to see the latest  stories. If no story appears, click on the headline.      TOP STORIES  > Obama hits McCain's 'say anything' politics     [ID:nN20523776]  > Palin pick dogs McCain as economic crisis stings[ID:nN20524046]  > Obama deals double blow; McCain still confident [ID:nN19407604]  > Powell, ex-Bush secretary of state, backs Obama [ID:nN19498962]  > Obama raises record $150 million in September   [ID:nN19497765]  > Ailing U.S. economy may cost Republicans big    [ID:nN17474276]  > McCain compares Obama to European socialists    [ID:nN18494533]  > McCain says Democrats smearing Joe the Plumber  [ID:nN17475927]  > Obama warns against overconfidence              [ID:nN15355914]  > McCain and Obama battle in contentious debate   [ID:nN15271559]  > Prediction markets now betting big on Obama     [ID:nN15350325]  > McCain says he would eliminate ethanol tariff   [ID:nN15355886]  > Palin vows to win 'economic war' in U.S.        [ID:nN15329691]  > McCain offers economic plan, focusing on seniors[ID:nN14521249]  > Obama lays out modest steps on economy          [ID:nN13460715]       POLLS  > Obama opens 6-point lead over McCain            [ID:nN19476796]  > Obama leads McCain by 14 points - CBS/NYT poll  [ID:nN14254285]  > Obama leads McCain by 10 points-Wash Post/ABC   [ID:nN13341332]  > Few confident U.S. candidates can fix economy   [ID:nN14489019]  > For links to non-Reuters Web sites that collate latest polls  see:      http://www.realclearpolitics.com/polls/      http://www.pollster.com/      http://www.pollingreport.com/wh08.htm         ANALYSES/SIDEBARS  > SCENARIOS-How candidates faring in key states   [ID:nN20283300]  > Palin, and Fey, drop in on 'Saturday Night Live'[ID:nN19469198]  > U.S. conservatives fearful as election nears    [ID:nN17474040]  > Obama aims at Republican turf                   [ID:nN17466726]  > Cindy McCain releases 2007 tax return           [ID:nN17486902]  > Joe the Plumber drained by election spotlight   [ID:nN17466307]  > US election star 'Joe the Plumber' lacks license[ID:nN16393555]  > Americans put revamped voting technology to test[ID:nN16412689]  > Obama and McCain trade wisecracks, not attacks  [ID:nN16431643]  > McCain belatedly appears on Letterman show      [ID:nN16427834]  > Once wary, U.S. Hispanics now warm to Obama     [ID:nN16393769]  > US blacks bounce between hope,doubt of Obama win[ID:nN15340972]  > Irish bookmaker pays out early on Obama victory [ID:nLG103661]  > McCain has best debate but Obama unscathed      [ID:nN16353444]  > Obama supporters fear race may bring him down   [ID:nN15312421]  > Affirmative action on ballot in some states     [ID:nN15334594]  > Obama buys first video game campaign ads        [ID:nN15331621]  > Long-time pals Biden, McCain now spirited foes  [ID:nN12405001]  > I",
+        "Histogram": [
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 10.72604751586914,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Democrat Barack Obama criticized Republican White House rival John McCain for a 'say anything, do anything' political style as he opened a two-day tour to kick off early voting in Florida.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'say anything, do anything' to describe McCain's political style carries a negative connotation, implying deceitfulness or lack of integrity without providing evidence."
+                },
+                {
+                    "text": "McCain told supporters in Missouri that 'nothing is inevitable' and he could still beat Obama, who leads in national opinion polls as the pair began a two-week sprint to the Nov. 4 presidential election.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The phrase 'nothing is inevitable' suggests a defensive tone, implying that the situation is unfairly stacked against McCain, which could influence the reader's perception of the election's dynamics."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias through the use of word choice, particularly in the descriptions of the candidates' political styles and the framing of their positions in the election. The bias tends to undermine McCain's campaign by subtly suggesting negative attributes and an unfair disadvantage."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.125,
+            "overall_rating": 0.3625
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "UPDATE 2-U.S. election star \"Joe the Plumber\" lacks license",
+        "URL": "UPDATE 2-U.S. election star \"Joe the Plumber\" lacks license.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "",
+        "Histogram": [
+            0.6
+        ],
+        "Relevance": 10.522021293640137,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "UPDATE 2-U.S. election star \"Joe the Plumber\" lacks license",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the word 'star' to describe 'Joe the Plumber' implies a positive connotation and elevates his status, which could influence the reader's perception of him without providing a neutral description."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits a word choice bias by using the term 'star' to describe 'Joe the Plumber,' suggesting a positive and possibly exaggerated portrayal of his status without a neutral perspective."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 1.0,
+            "overall_rating": 0.8
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "Space station: Someone call a plumber?",
+        "URL": "Space station: Someone call a plumber?.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    HOUSTON, June 3 (Reuters) - After more than a year of  training, a rocket ride to space and a two-day journey to reach  the International Space Station, the shuttle Discovery crew  floated into the orbital outpost with these words:      'Someone call a plumber?'      Someone had. With the $100 billion space station's sole  toilet on the blink, NASA made room aboard shuttle Discovery  for a new pump, which they hope will fix the problem.      'Yeah, we got it,' commander Mark Kelly assured station  flight engineer Garrett Reisman as the two greeted each other  in orbit on Monday.      The scene, captured was replayed on NASA TV early on  Tuesday.      The space station toilet, housed in the Russian-built  Zvezda module, is disposing of solid waste but the urine  collection system is not working properly. Every three flushes  or so it must be manually flushed with water, which takes two  crew members about 10 minutes.      While Discovery is docked at the space station, 210 miles  (338 km) above Earth, the three space station crew and the  seven visiting astronauts will have access to the shuttle's  toilet.      Repairs to the Russian-made space station commode fall to  station commander Sergei Volkov and flight engineer Oleg  Kononenko. The work is scheduled for Wednesday, NASA said.   (Reporting by Irene Klotz, editing by Jim Loney)   ((jim.loney@reuters.com; +1 305 810 2688; Reuters Messaging:  jim.loney.reuters.com@reuters.net))  Keywords: SPACE STATION/TOILET       ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 10.21899700164795,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides a factual report on the issue of the space station's toilet malfunction and the efforts to repair it, without introducing any subjective or misleading information."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "BRIEF-The St Joe Company says land sale contract terminated",
+        "URL": "BRIEF-The St Joe Company says land sale contract terminated.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    Oct 14 (Reuters) - St. Joe Co <JOE.N>:   * The St Joe Company. reports land sale contract termination   * Says sale was to have closed in two transactions for a total price of $130.4     million   * Says now able to offer this acreage in smaller parcels to other interested     buyers   * Says plan to continue orderly disposition of non-strategic assets    ((Bangalore Equities Newsroom; +91 80 4135 5800; within U.S. +1 646 223 8780))    ((For more news, please click here [JOE.N]))  ",
+        "Histogram": [
+            0,
+            0
+        ],
+        "Relevance": 10.028965950012207,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased. It provides straightforward information about the termination of a land sale contract without exhibiting any of the common forms of bias."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "BRIEF-St. Joe names Hugh Durden as chairman of the board",
+        "URL": "BRIEF-St. Joe names Hugh Durden as chairman of the board.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    Aug 11 (Reuters) - St. Joe Co <JOE.N>:   * Says Hugh Durden appointed chairman of the board   * Says Durden replaces Peter Rummell    ((Bangalore Equities Newsroom; +91 80 4135 5800; within U.S. +1 646 223 8780))    ((For more news, please click here [JOE.N]))  ",
+        "Histogram": [
+            0
+        ],
+        "Relevance": 9.363694190979004,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to be biased as it simply reports the appointment of Hugh Durden as chairman of the board for St. Joe Co without any indication of subjective or prejudiced language."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "WRAPUP 5-Obama warns against overconfidence",
+        "URL": "WRAPUP 5-Obama warns against overconfidence.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    * Obama says 19 days from beginning, not end      * Polls show Obama with edge over McCain      * McCain works Joe the plumber into his stump speech           By John Whitesides, Political Correspondent      NEW YORK, Oct 16 (Reuters) - Democratic presidential  nominee Barack Obama warned his supporters to guard against  overconfidence on Thursday as he and underdog Republican rival  John McCain opened a 19-day sprint to Election Day.      The two candidates hit the campaign trail -- Obama in New  York and New Hampshire and McCain in Pennsylvania -- after  their third and last presidential debate on Wednesday, a testy  face-off that made an Ohio plumber famous.      So far, all the stars seemed to be lining up in Obama's  favor. He leads in national opinion polls and in many of the  battleground states where the Nov. 4 race will be won or lost.      Late on Thursday, The Washington Post delivered an  endorsement of Obama and a rebuke to McCain in an editorial on  its web site (www.washingtonpost.com). The Post, one of  America's most respected newspapers, said its endorsement of  Obama was 'without ambivalence.'      'The choice is made easy in part by Mr. McCain's  disappointing campaign, above all his irresponsible selection  of a running mate who is not ready to be president,' the Post  editors wrote. 'It is made easy in larger part, though, because  of our admiration for Mr. Obama and the impressive qualities he  has shown during this long race.'      A confident but cautious Obama told supporters in New York,  'We are now 19 days not from the end but from the beginning.  The amount of work that's going to be involved for the next  president will be extraordinary.'      Traders betting on future events in the political  prediction markets are overwhelmingly predicting an Obama  victory, giving the Illinois Democrat a better than 80 percent  chance of winning.      Ireland's biggest bookmaker, Paddy Power, was already  declaring Obama the winner. The Dublin-based bookmaker said it  would pay out early more than 1 million euros ($1.35 million)  on bets that Obama will be the next U.S. president.           REMEMBERING NEW HAMPSHIRE      But Obama pointed out to deep-pocket contributors at a  fundraising breakfast in Manhattan, and later to supporters in  a driving rain in Londonderry, New Hampshire, that he was  supposed to win New Hampshire last January in the Democratic  primary but lost the state to Sen. Hillary Clinton.      'We are 19 days away from changing this country -- 19 days.  But for those who are getting a little cocky, I've got two  words for you: New Hampshire. I learned right here that you  can't let up or pay too much attention to the polls,' he said.      In New York, he said, 'I've been in these positions before  when we were favored and the press starts getting carried away  and we end up getting spanked.'      The new star in U.S. politics -- at least for a news cycle  or two -- is Joe Wurzelbacher, 'Joe the plumber,' who told  Obama at a campaign stop that he wanted to buy a small plumbing  business in Holland, Ohio.      Joe came up about two dozen times during the debate as each  candidate argued that their prescriptions for America's  economic ills would help the plumber best.      Wurzelbacher was all over morning television shows and was  not saying who he would vote for, but he sounded like a McCain  backer.      'McCain came across with some solid points, and I was real  happy about that,' he told the ",
+        "Histogram": [
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 9.280224800109863,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "So far, all the stars seemed to be lining up in Obama's favor. He leads in national opinion polls and in many of the battleground states where the Nov. 4 race will be won or lost.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The phrase 'all the stars seemed to be lining up in Obama's favor' uses positive connotations to suggest a favorable and possibly predetermined outcome, influencing the reader's perception."
+                },
+                {
+                    "text": "Late on Thursday, The Washington Post delivered an endorsement of Obama and a rebuke to McCain in an editorial on its web site (www.washingtonpost.com). The Post, one of America's most respected newspapers, said its endorsement of Obama was 'without ambivalence.'",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Describing The Washington Post as 'one of America's most respected newspapers' and stating its endorsement of Obama was 'without ambivalence' implies a strong, unquestionable endorsement, which could influence the reader's perception of the newspaper's authority and the strength of the endorsement."
+                },
+                {
+                    "text": "A confident but cautious Obama told supporters in New York, 'We are now 19 days not from the end but from the beginning. The amount of work that's going to be involved for the next president will be extraordinary.'",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Describing Obama as 'confident but cautious' and emphasizing his statement about the 'amount of work' involved uses language that positively frames Obama's approach and the significance of his message, potentially biasing the reader towards viewing Obama's position more favorably."
+                },
+                {
+                    "text": "Traders betting on future events in the political prediction markets are overwhelmingly predicting an Obama victory, giving the Illinois Democrat a better than 80 percent chance of winning.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence engages in speculation about the outcome of the election based on prediction markets, presenting it as a highly probable event without concrete evidence, which could influence the reader's perception of the election's outcome."
+                },
+                {
+                    "text": "Ireland's biggest bookmaker, Paddy Power, was already declaring Obama the winner. The Dublin-based bookmaker said it would pay out early more than 1 million euros ($1.35 million) on bets that Obama will be the next U.S. president.",
+                    "bias_type": "Speculation Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The definitive statement that Paddy Power 'was already declaring Obama the winner' and its decision to pay out early on bets without the election's actual outcome introduces speculation presented as fact, potentially biasing the reader towards accepting Obama's victory as a foregone conclusion."
+                },
+                {
+                    "text": "But Obama pointed out to deep-pocket contributors at a fundraising breakfast in Manhattan, and later to supporters in a driving rain in Londonderry, New Hampshire, that he was supposed to win New Hampshire last January in the Democratic primary but lost the state to Sen. Hillary Clinton.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of the phrase 'deep-pocket contributors' and the detailed description of the campaign events with evocative language ('in a driving rain') serve to emphasize the narrative of Obama's struggle and the unpredictability of electoral outcomes, potentially biasing the reader towards a sympathetic view of Obama's challenges."
+                },
+                {
+                    "text": "'We are 19 days away from changing this country -- 19 days. But for those who are getting a little cocky, I've got two words for you: New Hampshire. I learned right here that you can't let up or pay too much attention to the polls,' he said.",
+                    "bias_type": "Anecdotal Evidence Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "Obama's reference to the New Hampshire primary as a cautionary tale against overconfidence relies on a specific anecdote to make a broader point about the unreliability of polls and the need for continued effort, potentially biasing the reader towards a more personal and emotionally resonant understanding of the campaign's challenges."
+                },
+                {
+                    "text": "In New York, he said, 'I've been in these positions before when we were favored and the press starts getting carried away and we end up getting spanked.'",
+                    "bias_type": "Anecdotal Evidence Bias",
+                    "bias_strength": 0.5,
+                    "bias_description": "Obama's use of the phrase 'getting carried away' and the colloquial 'spanked' to describe past experiences of media overconfidence and subsequent disappointment serves as anecdotal evidence to caution against premature celebration, potentially biasing the reader towards a more empathetic and personal connection to the campaign's ups and downs."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias through the use of word choice and speculation, particularly in framing Obama's campaign and potential victory in a positive light. The biases are evident in the portrayal of Obama's confidence, the influence of endorsements, and the speculative nature of prediction markets and bookmakers' actions, all of which could sway the reader towards a more favorable view of Obama's electoral prospects."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.575,
+            "percentage_of_biased_sentences": 0.5,
+            "overall_rating": 0.5375
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "PRESS DIGEST - Canada - Oct 17",
+        "URL": "PRESS DIGEST - Canada - Oct 17.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    TORONTO, Oct 17 (Reuters) - The following are top stories  from selected Canadian newspapers. Reuters has not verified  these stories and does not vouch for their accuracy.           THE GLOBE AND MAIL:      - Change course or run deficits, top economist warns  Ottawa; Grim forecast and fresh recession prediction pose a  challenge to harper and his cabinet      - Regular Joe or false Republican idol? Plumber cited  repeatedly by McCain isn't licensed and owes $1,182 in back  taxes      - Key Liberals send out feelers on Dion's job      - As Anglo exiles take reins, Rwanda bids French adieu           Report on Business Section:      - Ottawa, EU seek new trade pact; As U.S. economy stalls,  liberalized accord on services with Europe gaining favor      - Remorseful Paulson regrets 'mistakes'; U.S. Treasury  Secretary acknowledges that the government's initial response  was probably too meek      - Manufacturing slide start of 'rocky road'      - Wal-Mart's <WMT.N> plan for tough times: don't get mad,  get selling           NATIONAL POST:      - Pipeline blasts raise fears of terrorism; Warning letter  preceded EnCana explosions in British Columbia      - 'It's over' for Dion, research suggests; Step down sooner  rather than later: focus groups      - Spotlight gets hot for 'Joe the Plumber'; McCain, Obama  evoke Joe Average           Financial Post Section:      - In 'uncharted territory': Google catches eyeballs;  Analysts believed that the ongoing global credit crisis would  bring Google <GOOG.O> down to Earth but the Internet  search-engine giant showed yesterday it has legs      - OPEC moves up crisis meeting; Oil below $70      - Accounting sea change; Watchdog to allow banks and  insurers to postpone recording losses on assets      - Ottawa pressed to guarantee borrowing; Economists call  for the government to move 'quickly' to guarantee borrowing,  and for the Bank of Canada to undertake another round of deep  rate cuts        ((Reuters Toronto Newsroom, 416 941-8100, Fax 416 869-3436,  toronto.newsroom@reuters.com))  ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0.6
+        ],
+        "Relevance": 9.254657745361328,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "Regular Joe or false Republican idol? Plumber cited repeatedly by McCain isn't licensed and owes $1,182 in back taxes",
+                    "bias_type": "Ad Hominem Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "This sentence attacks the character of the plumber by highlighting his lack of a license and tax issues, rather than addressing the substance of his involvement in the political campaign."
+                },
+                {
+                    "text": "Spotlight gets hot for 'Joe the Plumber'; McCain, Obama evoke Joe Average",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of phrases like 'Spotlight gets hot' and 'evoke Joe Average' implies a judgment about the attention and the way the candidates use 'Joe the Plumber' for their campaigns."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias regarding the portrayal of 'Joe the Plumber' in the political context, using ad hominem attacks and word choice to influence the reader's perception."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.5,
+            "overall_rating": 0.55
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "NYSE St Joe Co (us;JOE) No MOC Imbalance <JOE.N>",
+        "URL": "NYSE St Joe Co (us;JOE) No MOC Imbalance <JOE.N>.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    (C) Reuters 2008 All rights reserved. Republication or redistribution of Reuters content, including by caching, framing, or similar means, is expressly prohibited without the prior written consent of Reuters. Reuters and the Reuters sphere logo are registered trademarks and trademarks of  the Reuters group of companies around the world.   Media://Analytics/Pages::/cmd=us;JOE/T ",
+        "Histogram": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "Relevance": 8.973492622375488,
+        "BiasReport": {
+            "sentences": [],
+            "overall_bias": {
+                "conclusion": "The article does not seem to contain any biased sentences as it solely provides financial information without any subjective or prejudiced language."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0,
+            "percentage_of_biased_sentences": 0,
+            "overall_rating": 0
+        },
+        "combined_score": 0.0
+    },
+    {
+        "Title": "WRAPUP 4-McCain hammers Obama on Florida bus tour",
+        "URL": "WRAPUP 4-McCain hammers Obama on Florida bus tour.txt",
+        "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/320px-Reuters_Logo.svg.png",
+        "Text": "    * Obama drops off campaign trail to visit grandmother      * McCain gives strong support to running mate Palin      * Obama hits McCain on corporate tax cut proposal           By Steve Holland      SARASOTA, Fla., Oct 23 (Reuters) - Republican presidential  nominee John McCain took his 'Joe the Plumber' economic message  on a bus ride across Florida on Thursday, accusing Democrat  Barack Obama of backing a tax plan that would endanger the  teetering U.S. economy.      McCain's broadside, delivered at stops throughout central  Florida, prompted Obama to fire back that McCain's economic  proposals would give corporations a tax break for shipping jobs  overseas -- a 'Wall Street first, Main Street last' strategy.      McCain is resting his hopes on instigating a 'Joe the  Plumber' voter uprising against the better-funded Obama by  whipping up populist sentiment over Obama's comment to Ohio  plumber Joe Wurzelbacher that raising taxes on people making  more than $250,000 a year would allow Washington to 'spread the  wealth around.'      Trailing in opinion polls both nationally and in many key  states, McCain, an Arizona senator, is facing an increasingly  difficult path to victory and finds himself racing to defend  states that have voted Republican in recent elections.       With less than two weeks before the Nov. 4 election, Obama  leads McCain 52 percent to 40 percent among likely voters in  the latest three-day tracking poll by Reuters/C-SPAN/Zogby.  Other polls showed some signs of a tightening race.      McCain called Obama's plan a redistribution of income and  said it would hurt small businesses that he said have been  doing some of the only hiring at a time when claims for jobless  benefits rose by a larger than expected 15,000 last week.      'Senator Obama may say he's going to soak the rich but it's  the middle class who are going to get wet,' McCain said in  Sarasota.      McCain strongly supported his vice presidential running  mate, Alaska Gov. Sarah Palin, who has energized the party's  base but has had a difficult introduction to the national  scene, getting mixed reviews for a couple of national  television interviews.      A story on the Politico Web site on Wednesday that the  Republican National Committee spent $150,000 on her wardrobe  only added to the negative picture surrounding the self-styled  hockey mom Palin.      'Can you believe the way she's being attacked? It's really  remarkable,' McCain said to raucous cheers at a rally in  Sarasota. 'I can tell you what, she's far more qualified than  Joe the Biden' -- a reference to Obama's vice presidential  running mate, Sen. Joe Biden of Delaware.      Asked about the clothes, McCain told a group of Florida  reporters on his bus that she needed clothes at the time and  that they would be donated to charity, according to WFLA  television.      In Ormond Beach, McCain said it was critical to keep people  facing foreclosure in their homes.      He criticized the Bush administration for not buying  troubled mortgages to allow homeowners facing foreclosure to  get a better interest rate on their loans as part of a $700  billion Wall Street bailout. He complained particularly about  Treasury Secretary Henry Paulson.      'Why isn't the secretary of the Treasury ordering them to  do that?' he said.      The New York Times on Thursday endorsed Obama, saying  he 'had drawn in legions of new voters with powerful messages  of hope and possibility and calls for shared sacri",
+        "Histogram": [
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.6
+        ],
+        "Relevance": 8.909208297729492,
+        "BiasReport": {
+            "sentences": [
+                {
+                    "text": "McCain's broadside, delivered at stops throughout central Florida, prompted Obama to fire back that McCain's economic proposals would give corporations a tax break for shipping jobs overseas -- a 'Wall Street first, Main Street last' strategy.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The phrase 'Wall Street first, Main Street last' implies a judgment about the nature of McCain's economic proposals, suggesting they prioritize the interests of Wall Street over those of Main Street, which is a subjective interpretation."
+                },
+                {
+                    "text": "McCain is resting his hopes on instigating a 'Joe the Plumber' voter uprising against the better-funded Obama by whipping up populist sentiment over Obama's comment to Ohio plumber Joe Wurzelbacher that raising taxes on people making more than $250,000 a year would allow Washington to 'spread the wealth around.'",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'resting his hopes' and 'whipping up populist sentiment' suggests a negative connotation towards McCain's strategy, implying it is based on desperation and manipulation rather than genuine policy differences."
+                },
+                {
+                    "text": "Trailing in opinion polls both nationally and in many key states, McCain, an Arizona senator, is facing an increasingly difficult path to victory and finds himself racing to defend states that have voted Republican in recent elections.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The description of McCain 'racing to defend states' and 'facing an increasingly difficult path to victory' uses language that conveys a sense of urgency and struggle, which could be seen as framing the situation in a negative light."
+                },
+                {
+                    "text": "With less than two weeks before the Nov. 4 election, Obama leads McCain 52 percent to 40 percent among likely voters in the latest three-day tracking poll by Reuters/C-SPAN/Zogby. Other polls showed some signs of a tightening race.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The mention of 'some signs of a tightening race' after stating Obama's lead could be seen as an attempt to mitigate the strength of Obama's lead, suggesting a bias towards presenting a more competitive race than the data may support."
+                },
+                {
+                    "text": "A story on the Politico Web site on Wednesday that the Republican National Committee spent $150,000 on her wardrobe only added to the negative picture surrounding the self-styled hockey mom Palin.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "Describing the situation as 'added to the negative picture' uses language that implies a pre-existing negative perception of Palin, suggesting a bias in how her actions or circumstances are framed."
+                },
+                {
+                    "text": "'Can you believe the way she's being attacked? It's really remarkable,' McCain said to raucous cheers at a rally in Sarasota. 'I can tell you what, she's far more qualified than Joe the Biden' -- a reference to Obama's vice presidential running mate, Sen. Joe Biden of Delaware.",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "McCain's statement, particularly the phrase 'she's far more qualified than Joe the Biden', directly compares Palin and Biden in a way that implies a significant superiority on Palin's part, which could be seen as a biased or subjective assessment."
+                },
+                {
+                    "text": "The New York Times on Thursday endorsed Obama, saying he 'had drawn in legions of new voters with powerful messages of hope and possibility and calls for shared sacri",
+                    "bias_type": "Word Choice Bias",
+                    "bias_strength": 0.6,
+                    "bias_description": "The use of 'legions of new voters' and 'powerful messages of hope and possibility' in the context of endorsing Obama employs language that conveys a strong, positive endorsement, which could be seen as biased in favor of Obama."
+                }
+            ],
+            "overall_bias": {
+                "conclusion": "The article exhibits bias through the use of word choice, particularly in framing certain political strategies and candidates in a negative or positive light. The topics discussed include economic policies, campaign strategies, and the qualifications of political figures, with a general bias tendency towards favoring certain viewpoints over others."
+            }
+        },
+        "Scores": {
+            "average_bias_strength": 0.6,
+            "percentage_of_biased_sentences": 0.2857142857142857,
+            "overall_rating": 0.44285714285714284
+        },
+        "combined_score": 0.0
+    }
+]
