@@ -19,6 +19,10 @@ const translations = {
     "en": "Demo",
     "de": "Demo"
   },
+     "nav.rank": {
+    "en": "BiasRank",
+    "de": "BiasRank"
+  },
   "about.title": {
     "en": "About Us",
     "de": "Über uns"
