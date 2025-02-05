@@ -124,6 +124,8 @@
       color: #007BFF;
     }
 
+
+
     .bias-rating:hover {
       text-decoration: none;
       color: #0056b3;
@@ -242,40 +244,49 @@
 
 async function showAlerts() {
 
-await Swal.fire({
-  icon: "info",
-  title: "Welcome to the BiasRank Demo!",
-  text: "This is a brief demonstration of how a search engine designed to help you find more objective news articles might look.",
-  footer: '<a href="#">See our paper</a>'
-});
+  const result = await Swal.fire({
+    icon: "info",
+    title: "Welcome to the BiasRank Demo!",
+    text: "This is a brief demonstration of how a search engine designed to help you find more objective news articles might look.",
+    showCancelButton: true,
+    confirmButtonText: "Please give me the full tour!",
+    cancelButtonText: "I know my way around, thanks!",
+    footer: '<a href="#">See our paper</a>'
+  });
+
+  // Exit function if the user clicks cancel
+  if (result.isDismissed) {
+    return;
+  }
+
 
 await Swal.fire({
   icon: "info",
   title: "Dataset",
   text: "Our demonstration dataset includes articles from Fox News and Reuters covering topics relevant to public discourse in the United States from 2008 to 2010.",
-  footer: '<a href="#">See our data</a>'
+  footer: '<a href="https://anonymous.4open.science/r/BiasRankReproducibility-ED23/README.md">See our data</a>'
 });
 
 await Swal.fire({
   icon: "info",
   title: "Queries",
   text: "For performance reasons, all search results were pre-processed using Lucene and BM25. When you enter a query, the most relevant pre-indexed news results will be loaded.",
-  footer: '<a href="#">More information on lucene and BM25</a>'
+  footer: '<a href="https://j.blaszyk.me/tech-blog/exploring-apache-lucene-index/">More information on lucene and BM25</a>'
 });
 
 await Swal.fire({
   icon: "info",
   title: "How to use - Bias Weighting",
   text: "Use the slider to decide how much influence bias should have on the search ranking",
-  footer: '<a href="#">More information on lucene and BM25</a>'
+  footer: '<a href="https://biasscanner.org/">See how we measure bias</a>'
 });
 
 
 await Swal.fire({
   title: "How to use - Bias Overview",
-  text: "On the left, you will see a histogram displaying the distribution of biased sentences in the article and their intensity as identified by BiasScanner. By clicking on the overall bias rating, you will be redirected to the full bias report.",
+  text: "On the left, you will see a histogram displaying the distribution of biased sentences in the article and their intensity as identified by BiasScanner. By clicking on the overall bias rating, you will be redirected to the full bias report. You can also hover over the histogram or the rating to get a short summary.",
   imageUrl: "example_histo.png", // Path to your custom image
-  imageAlt: "Custom Image", // Optional: alt text for accessibility
+  imageAlt: "Histogram example", // Optional: alt text for accessibility
 });
 
 
@@ -489,15 +500,15 @@ showAlerts();
         // Bias cell
         const biasCell = document.createElement("td");
         biasCell.className = "histogram";
+        biasCell.title = article.BiasReport.overall_bias.conclusion;
+        biasCell.onclick = () => showBiasReport(index);
         const barsHtml = article.Histogram.map(value => {
           const barHeight = 2 + (value * 48);
           return `<div class="bar" style="height:${barHeight}px;"></div>`;
         }).join("");
         biasCell.innerHTML = `
           <div class="bar-container">${barsHtml}</div>
-          <div class="bias-rating"
-               title="${article.BiasReport.overall_bias.conclusion}"
-               onclick="showBiasReport(${index})">
+          <div class="bias-rating">
             ${article.Scores.overall_rating.toFixed(2)}
           </div>
         `;
