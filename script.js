@@ -541,6 +541,13 @@ return output;
 function getStatistics(data,article)
  {
 
+
+   //alternative
+   markedCount = data.sentences.reduce((total, item) => total + item.text.length, 0);
+   articleCount = article.length;
+   console.log(markedCount,articleCount,markedCount/articleCount);
+   //alternative end
+
    article_sentences = article.split(/[.?!:]\s*|\n+/).filter(Boolean).length
 
    marked_sentences = data.sentences.length
