@@ -589,27 +589,30 @@ function getStatistics(data,article)
 
 
 
-function tryMarking(instance, sentence, step) {
+function tryMarking(instance, sentence, step, original_sentence) {
 
-console.log(step, sentence);
 
   if (step == 1) {
-    console.log("splitting ...");
     sentence = sentence.split(" ...")[0];
   }
-  if (step ==2)
+  else if (step == 2)
   {
-  console.log("trying to remove punctuation ...")
-  const pattern = new RegExp(`[${["'", '"', '.', ';', ',', '!', '?'].join('')}]`, 'g');
+  let pattern = new RegExp(`[${["'", '"', '.', ';', ',', '!', '?'].join('')}]`, 'g');
   sentence = sentence.replace(pattern, '');
   }
-  else if (step > 2)
+  else if (step == 3)
   {
-     console.log("marking failed!");
-     return null;
+   sentence = original_sentence.split('.').map(chunk => chunk.trim()).filter(chunk => chunk.split(' ').length > 5);
   }
-  console.log("Trying to mark: ", sentence)
-  instance.mark(sentence, {accuracy: "partially",ignorePunctuation: ["'","\"",".",";",",","!","?"],separateWordSearch: false,acrossElements: true,noMatch: () => tryMarking(instance, sentence, step + 1),debug: false
+
+  else if (step > 3)
+  {
+    return null;
+  }
+
+  console.log("Trying to mark: ", sentence, " in ", instance, " with step ", step);
+
+  instance.mark(sentence, {accuracy: "partially",ignorePunctuation: ["'","\"",".",";",",","!","?"],separateWordSearch: false,acrossElements: true,noMatch: () => tryMarking(instance, sentence, step + 1,original_sentence),debug: false
   });
 }
 
@@ -620,7 +623,7 @@ function markSentences(data) {
 
   for (sentence of data.sentences) {
     try {
-      tryMarking(instance, sentence.text,0);
+      tryMarking(instance, sentence.text,0,sentence.text);
     } catch (err) {
       console.log(err, sentence);
     }
