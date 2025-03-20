@@ -101,8 +101,8 @@ const translations = {
     "de": "Unser Team"
   },
   "team.content": {
-    "en": "(Bias Scanner is being developed by the Information Access Research Group (IARG) of the Center for Responsible Artificial Intelligence (CRAI) at Coburg University of Applied Sciences. The group members include: Jochen Leidner, Tim Menzner (mainly responsible for Bias Scanner), Michael Reiche and Markos Dimitsas).",
-    "de": "(Bias Scanner wird von der Information Access Research Group (IARG) des Center for Responsible Artificial Intelligence (CRAU) an der Hochschule Coburg entwickelt. Zu den Mitgliedern der Gruppe gehören: Jochen Leidner, Tim Menzner (hauptverantwortlich für Bias Scanner), Michael Reiche und Markos Dimitsas)."
+    "en": "Bias Scanner is being developed by the Information Access Research Group (IARG) of the Coburg University Research Center for Responsible Artificial Intelligence (CRAI). The group members include: Jochen Leidner, Tim Menzner (mainly responsible for Bias Scanner), Michael Reiche and Markos Dimitsas.",
+    "de": "Bias Scanner wird von der Information Access Research Group (IARG) des Coburg University Research Center for Responsible Artificial Intelligence (CRAI) entwickelt. Zu den Mitgliedern der Gruppe gehören: Jochen Leidner, Tim Menzner (hauptverantwortlich für Bias Scanner), Michael Reiche und Markos Dimitsas."
   },
   "download.title": {
     "en": "Download",
