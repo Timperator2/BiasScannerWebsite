@@ -100,6 +100,24 @@ const translations = {
   "de": "Bias Explained: Generation of high-quality natural language explanations for classification decisions, Expert Systems with Applications"
   },
 
+      "news.title":{
+  "en": "BiasScanner in the news",
+  "de": "BiasScanner in den Nachrichten"
+  },
+   "news.mdr":{
+  "en": "Researchers develop text scanners to detect manipulation using AI, MDR",
+  "de": "Forscher entwickeln Textscanner, um mit KI Manipulationen zu erkennen, MDR"
+  },
+
+    "news.idw":{
+  "en": "AI project at Coburg University exposes populism and propaganda, Informationsdienst Wissenschaft ",
+  "de": "KI-Projekt der Hochschule Coburg entlarvt Populismus und Propaganda, Informationsdienst Wissenschaft"
+  },
+   "news.ft":{
+  "en": "New AI detects populism: The anti-hate machine from Coburg, Fränkischer Tag",
+  "de": "Neue KI erkennt Populismus: Die Anti-Hetz-Maschine aus Coburg, Fränkischer Tag"
+  },
+
   "join.title": {
     "en": "Join Us in the Fight Against Bias",
     "de": "Schließen Sie sich uns im Kampf gegen Voreingenommenheit an"
