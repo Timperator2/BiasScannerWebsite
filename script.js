@@ -80,12 +80,24 @@ const translations = {
   "de": "Veröffentlichungen"
   },
    "publications.ecir2024":{
-  "en": "Experiments in News Bias Detection with Pre-trained Neural Transformers",
-  "de": "Experiments in News Bias Detection with Pre-trained Neural Transformers"
+  "en": "Experiments in News Bias Detection with Pre-trained Neural Transformers, ECIR 2024",
+  "de": "Experiments in News Bias Detection with Pre-trained Neural Transformers, ECIR 2024"
   },
      "publications.nldb2024":{
-  "en": "Improved Models for Media Bias Detection and Subcategorization",
-  "de": "Improved Models for Media Bias Detection and Subcategorization"
+  "en": "Improved Models for Media Bias Detection and Subcategorization, NLDB 2024",
+  "de": "Improved Models for Media Bias Detection and Subcategorization, NLDB 2024"
+  },
+       "publications.ecir2025":{
+  "en": "BiasScanner: Automatic News Bias Classification for Strengthening Democracy, ECIR 2025",
+  "de": "BiasScanner: Automatic News Bias Classification for Strengthening Democracy, ECIR 2025"
+  },
+       "publications.kdir2025":{
+  "en": "Bias-Mitigating News Search with BiasRank, KDIR 2025",
+  "de": "Bias-Mitigating News Search with BiasRank, KDIR 2025"
+  },
+       "publications.expert2025":{
+  "en": "Bias Explained: Generation of high-quality natural language explanations for classification decisions, Expert Systems with Applications",
+  "de": "Bias Explained: Generation of high-quality natural language explanations for classification decisions, Expert Systems with Applications"
   },
 
   "join.title": {
