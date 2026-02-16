@@ -36,28 +36,28 @@ const translations = {
     "de": "Warum BiasScanner?"
   },
   "whyscanner.content": {
-    "en": "In today's world, many of us get our news from the internet. Unfortunately, the web is also home to a lot of biased reporting, fake news, and other not-so-great stuff. Bias Scanner was created to give you a hand in spotting bias when you're reading news articles online.",
-    "de": "In der heutigen Welt beziehen viele von uns ihre Nachrichten aus dem Internet. Leider gibt es im Netz auch viele tendenziöse Berichte, Fake News und andere weniger gute Dinge. Der Bias Scanner wurde entwickelt, um Ihnen beim Erkennen von Voreingenommenheit zu helfen, wenn Sie Online-Nachrichten lesen."
+    "en": "In today's world, many of us get our news from the internet. Unfortunately, the web is also home to a lot of biased reporting, outright propaganda, fake news, and other not-so-great stuff. Bias Scanner was created to give you a hand in spotting and understanding bias when you're reading news articles online.",
+    "de": "In der heutigen Welt beziehen viele von uns ihre Nachrichten aus dem Internet. Leider gibt es im Netz auch viel tendenziöse Darstellungen, offene Propaganda, Fake News und andere weniger gute Dinge. Der Bias Scanner wurde entwickelt, um Ihnen beim Erkennen und Verstehen von voreingenommener Berichterstattung zu helfen, wenn Sie Online-Nachrichten lesen."
   },
   "whatscanner.title": {
     "en": "What's BiasScanner All About?",
     "de": "Worum geht es bei BiasScanner?"
   },
   "whatscanner.content": {
-    "en": "BiasScanner is a handy browser plug-in that uses some fancy machine learning tech to find sentences in news articles that might be biased. It works right in your web browser, highlighting potentially biased sentences as you read. If you want to dive deeper, it can even give you a more detailed analysis of the article. The main point is not necessarily to ultimately decide what is biased and what is not. Rather, we want to raise awareness of the issue and encourage discussions and reflections.",
-    "de": "BiasScanner ist ein praktisches Browser-Plug-In, das einige ausgeklügelte Machine-Learning-Technologien verwendet, um Sätze in Nachrichtenartikeln zu finden, die möglicherweise voreingenommen sind. Es funktioniert direkt in Ihrem Webbrowser und markiert potenziell voreingenommene Sätze beim Lesen. Wenn Sie tiefer gehen möchten, kann es Ihnen sogar eine detailliertere Analyse des Artikels geben. Es geht dabei nicht unbedingt darum, in letzter Instanz zu entscheiden was jetzt voreingenommen ist und was nicht. Vielmehr möchten wir das Bewusstsein für das Thema schärfen und zu Diskussionen und Reflexionen anregen."
+    "en": "BiasScanner is a handy browser plug-in that uses some fancy machine learning tech to find sentences in news articles that might be unfair reporting. It works right in your web browser, highlighting and explaining potentially biased sentences as you read. If you want to dive deeper, it can even give you a more detailed analysis of the article. The main point is not necessarily to ultimately decide what is biased and what is not. Rather, we want to raise awareness of the topic and encourage people not to consume news passively, but to critically question reporting themselves, especially in situations where we would otherwise simply nod along.",
+    "de": "BiasScanner ist ein praktisches Browser-Plug-In, das einige ausgeklügelte Machine-Learning-Technologien verwendet, um Sätze in Nachrichtenartikeln zu finden, die möglicherweise nicht ganz fair sind. Es funktioniert direkt in Ihrem Webbrowser und markiert sowie erklärt potenziell voreingenommene Sätze beim Lesen. Wenn Sie tiefer gehen möchten, kann es Ihnen sogar eine detailliertere Analyse des Artikels geben. Es geht dabei nicht unbedingt darum, in letzter Instanz zu entscheiden was jetzt voreingenommen ist und was nicht. Vielmehr möchten wir das Bewusstsein für das Thema schärfen und dazu anregen Nachrichten nicht nur passiv zu konsumieren sondern Berichterstattung selber kritisch zu hinterfragen, vor allem dort wo wir sonst einfach nur zustimmend nicken."
   },
   "whycool.title": {
     "en": "Why It's Cool:",
     "de": "Warum es cool ist:"
   },
   "whycool.inline": {
-    "en": "Inline Highlighting: It helps you spot potential bias as you read.",
-    "de": "Inline-Markierung: Es hilft Ihnen, potenzielle Voreingenommenheit beim Lesen zu erkennen."
+    "en": "Inline Highlighting: It helps you spot and understand potential bias as you read.",
+    "de": "Inline-Markierung: Es hilft Ihnen, potenzielle Voreingenommenheit beim Lesen zu erkennen und zu verstehen."
   },
   "whycool.detailed": {
-    "en": "Detailed Analysis: If you're curious, it can provide a more in-depth look at the article.",
-    "de": "Detaillierte Analyse: Wenn Sie neugierig sind, kann es Ihnen eine eingehendere Betrachtung des Artikels ermöglichen."
+    "en": "Detailed Analysis: If you're curious, it can provide a more in-depth look at the article and detailed explanations for each sentence.",
+    "de": "Detaillierte Analyse: Wenn Sie neugierig sind, kann es einen tieferen Einblick in den Artikel geben und ausführliche Erklärungen zu jedem Satz liefern."
   },
   "whycool.strength": {
     "en": "Bias Strength: It rates how strong the detected bias is, from 0 to 1.",
@@ -119,8 +119,8 @@ const translations = {
   },
 
   "join.title": {
-    "en": "Join Us in the Fight Against Bias",
-    "de": "Schließen Sie sich uns im Kampf gegen Voreingenommenheit an"
+    "en": "Join Us in the Fight Against Bias and Propaganda!",
+    "de": "Schließen Sie sich uns im Kampf gegen Voreingenommenheit und Propaganda an!"
   },
   "join.content": {
     "en": "We believe technology can make news consumption better and protect democracy. So, why not give BiasScanner a try? By using it (and maybe even sharing interesting results with us trough the application), you not only help yourself, but you also contribute to ongoing research on bias in news. Let's work together to make online news a more reliable source of information.",
@@ -131,8 +131,8 @@ const translations = {
     "de": "Unser Team"
   },
   "team.content": {
-    "en": "Bias Scanner is being developed by the Information Access Research Group (IARG) of the Coburg University Research Center for Responsible Artificial Intelligence (CRAI). The group members include: Jochen Leidner, Tim Menzner (mainly responsible for Bias Scanner), Michael Reiche and Markos Dimitsas.",
-    "de": "Bias Scanner wird von der Information Access Research Group (IARG) des Coburg University Research Center for Responsible Artificial Intelligence (CRAI) entwickelt. Zu den Mitgliedern der Gruppe gehören: Jochen Leidner, Tim Menzner (hauptverantwortlich für Bias Scanner), Michael Reiche und Markos Dimitsas."
+    "en": "Bias Scanner is being developed by the Information Access Research Group (IARG) of the Coburg University Research Center for Responsible Artificial Intelligence (CRAI). The group members include: Jochen Leidner, Tim Menzner (mainly responsible for Bias Scanner), Michael Reiche and Markus Blümlein.",
+    "de": "Bias Scanner wird von der Information Access Research Group (IARG) des Coburg University Research Center for Responsible Artificial Intelligence (CRAI) entwickelt. Zu den Mitgliedern der Gruppe gehören: Jochen Leidner, Tim Menzner (hauptverantwortlich für Bias Scanner), Michael Reiche und Markus Blümlein."
   },
   "download.title": {
     "en": "Download",
