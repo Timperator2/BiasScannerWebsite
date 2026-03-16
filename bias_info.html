@@ -1,0 +1,451 @@
+i have this template:
+
+#############
+<!DOCTYPE html><html lang="en"> <head> <meta charset="UTF-8" /> <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <title>BiasRank: The Anti-Bias News Search Engine</title> <style> body { font-family: Arial, sans-serif; background-color: #ffffff; color: #333; margin: 0; padding: 0; }
+
+text
+
+header {
+background-color: #e0251b;
+color: #fff;
+padding: 10px 0;
+text-align: center;
+font-size: 24px;
+}
+
+nav {
+background-color: #ff6b00;
+padding: 0.5rem 0;
+}
+
+nav ul {
+list-style: none;
+text-align: center;
+margin: 0;
+padding: 0;
+}
+
+nav li {
+display: inline;
+margin: 0 1rem;
+}
+
+nav a {
+text-decoration: none;
+color: #fff;
+font-weight: bold;
+}
+
+nav a:hover {
+text-decoration: underline;
+}
+
+nav select {
+padding: 8px;
+border: none;
+border-radius: 4px;
+background-color: #e0251b;
+color: #fff;
+font-weight: bold;
+font-size: 14px;
+cursor: pointer;
+transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav select:hover {
+background-color: #c41e17;
+}
+
+nav select option {
+background-color: #e0251b;
+color: #fff;
+font-weight: bold;
+}
+
+main {
+padding: 20px;
+max-width: 800px;
+margin: 0 auto;
+}
+
+h1, h2, h3 {
+color: #e0251b;
+}
+
+h1 {
+font-size: 28px;
+margin-bottom: 20px;
+}
+
+h2 {
+font-size: 22px;
+margin-top: 30px;
+margin-bottom: 15px;
+border-bottom: 1px solid #ff6b00;
+padding-bottom: 5px;
+}
+
+h3 {
+font-size: 18px;
+margin-top: 20px;
+margin-bottom: 10px;
+}
+
+p {
+line-height: 1.6;
+margin-bottom: 15px;
+}
+
+.chapter-image {
+width: 100%;
+max-width: 500px;
+height: auto;
+margin: 15px auto;
+display: block;
+border-radius: 4px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+a.back-link {
+text-decoration: none;
+color: inherit;
+cursor: pointer;
+font-size: 1.2em;
+}
+
+a.back-link:hover {
+color: #555;
+opacity: 0.8;
+}
+
+/* --- Responsive Styles --- */
+@media (max-width: 600px) {
+nav li {
+display: block;
+margin: 0.5rem 0;
+}
+}
+
+</style></head> <body> <header> <a href="index.html" class="back-link">←</a> <span data-translate="header.title"></span> </header>
+
+text
+<nav> <ul> <li><a href="#what-is-bias" data-translate="nav.what-is-bias"></a></li> <li><a href="#types-of-bias" data-translate="nav.types-of-bias"></a></li> <li><a href="#what-is-propaganda" data-translate="nav.what-is-propaganda"></a></li> <li><a href="#techniques-of-propaganda" data-translate="nav.techniques-of-propaganda"></a></li> <li><a href="#automated-detection" data-translate="nav.automated-detection"></a></li> <li><a href="#why-does-it-matter" data-translate="nav.why-does-it-matter"></a></li> <li> <select id="language-site" name="language"> <option value="en">🇬🇧 English</option> <option value="de">🇩🇪 Deutsch</option> </select> </li> </ul> </nav><main> <h1 data-translate="main.title"></h1>
+
+text
+<section id="what-is-bias"> <div class="chapter-text"> <h2 data-translate="what-is-bias.title"></h2> <p data-translate="what-is-bias.content1"></p> <p data-translate="what-is-bias.content2"></p> <img src="placeholder.jpg" alt="Example of bias in media" class="chapter-image"> </div> </section><section id="types-of-bias"> <div class="chapter-text"> <h2 data-translate="types-of-bias.title"></h2> <h3 data-translate="types-of-bias.selection.title"></h3> <p data-translate="types-of-bias.selection.content"></p> <h3 data-translate="types-of-bias.framing.title"></h3> <p data-translate="types-of-bias.framing.content"></p> <img src="placeholder.jpg" alt="Framing bias example" class="chapter-image"> <h3 data-translate="types-of-bias.confirmation.title"></h3> <p data-translate="types-of-bias.confirmation.content"></p> </div> </section><section id="what-is-propaganda"> <div class="chapter-text"> <h2 data-translate="what-is-propaganda.title"></h2> <p data-translate="what-is-propaganda.content1"></p> <p data-translate="what-is-propaganda.content2"></p> <img src="placeholder.jpg" alt="Historical propaganda poster" class="chapter-image"> </div> </section><section id="techniques-of-propaganda"> <div class="chapter-text"> <h2 data-translate="techniques-of-propaganda.title"></h2> <h3 data-translate="techniques-of-propaganda.emotional.title"></h3> <p data-translate="techniques-of-propaganda.emotional.content"></p> <h3 data-translate="techniques-of-propaganda.bandwagon.title"></h3> <p data-translate="techniques-of-propaganda.bandwagon.content"></p> <h3 data-translate="techniques-of-propaganda.testimonial.title"></h3> <p data-translate="techniques-of-propaganda.testimonial.content"></p> <img src="placeholder.jpg" alt="Testimonial propaganda example" class="chapter-image"> </div> </section><section id="automated-detection"> <div class="chapter-text"> <h2 data-translate="automated-detection.title"></h2> <p data-translate="automated-detection.content1"></p> <p data-translate="automated-detection.content2"></p> <img src="placeholder.jpg" alt="BiasRank interface screenshot" class="chapter-image"> </div> </section><section id="why-does-it-matter"> <div class="chapter-text"> <h2 data-translate="why-does-it-matter.title"></h2> <p data-translate="why-does-it-matter.content1"></p> <p data-translate="why-does-it-matter.content2"></p> <img src="placeholder.jpg" alt="Critical thinking infographic" class="chapter-image"> </div> </section></main> <script> const translations = { // Header "header.title": { "en": "Bias, Propaganda and their Automated Detection", "de": "Voreingenommenheit, Propaganda und deren automatisierte Erkennung" }, // Main title "main.title": { "en": "Understanding Bias and Propaganda", "de": "Voreingenommenheit und Propaganda verstehen" }, // Navigation "nav.what-is-bias": { "en": "What is Bias?", "de": "Was ist Voreingenommenheit?" }, "nav.types-of-bias": { "en": "Types of Bias", "de": "Arten von Voreingenommenheit" }, "nav.what-is-propaganda": { "en": "What is Propaganda?", "de": "Was ist Propaganda?" }, "nav.techniques-of-propaganda": { "en": "Techniques of Propaganda", "de": "Techniken der Propaganda" }, "nav.automated-detection": { "en": "Automated Detection", "de": "Automatisierte Erkennung" }, "nav.why-does-it-matter": { "en": "Why Does It Matter?", "de": "Warum ist das wichtig?" }, // What is Bias? "what-is-bias.title": { "en": "1. What is Bias?", "de": "1. Was ist Voreingenommenheit?" }, "what-is-bias.content1": { "en": "Bias refers to the tendency to favor or oppose a particular person, group, or idea, often resulting in unfair or unbalanced outcomes. In the context of media and news, bias can manifest in various forms, such as selection bias, framing bias, or confirmation bias.", "de": "Voreingenommenheit bezieht sich auf die Tendenz, eine bestimmte Person, Gruppe oder Idee zu bevorzugen oder abzulehnen, was oft zu unfairen oder unausgewogenen Ergebnissen führt. Im Kontext von Medien und Nachrichten kann sich Voreingenommenheit in verschiedenen Formen äußern, wie z.B. Auswahlverzerrung, Framing oder Bestätigungsfehler." }, "what-is-bias.content2": { "en": "For example, selection bias occurs when only certain stories or perspectives are chosen for coverage, while others are ignored. Framing bias involves presenting information in a way that influences how it is perceived, often by emphasizing or downplaying certain aspects.", "de": "Zum Beispiel tritt Auswahlverzerrung auf, wenn nur bestimmte Geschichten oder Perspektiven für die Berichterstattung ausgewählt werden, während andere ignoriert werden. Framing bezieht sich darauf, Informationen so darzustellen, dass sie die Wahrnehmung beeinflussen, oft durch Betonung oder Herunterspielen bestimmter Aspekte." }, // Types of Bias "types-of-bias.title": { "en": "2. Types of Bias in Media", "de": "2. Arten von Voreingenommenheit in Medien" }, "types-of-bias.selection.title": { "en": "2.1 Selection Bias", "de": "2.1 Auswahlverzerrung" }, "types-of-bias.selection.content": { "en": "Selection bias happens when media outlets choose to cover stories that align with their agenda or audience preferences, while ignoring others. This can lead to a skewed representation of reality.", "de": "Auswahlverzerrung tritt auf, wenn Medien nur Geschichten abdecken, die zu ihrer Agenda oder den Vorlieben ihres Publikums passen, während andere ignoriert werden. Dies kann zu einer verzerrten Darstellung der Realität führen." }, "types-of-bias.framing.title": { "en": "2.2 Framing Bias", "de": "2.2 Framing" }, "types-of-bias.framing.content": { "en": "Framing bias is about how information is presented. The same facts can be framed in different ways to evoke different emotional responses or interpretations.", "de": "Framing bezieht sich darauf, wie Informationen präsentiert werden. Dieselben Fakten können auf verschiedene Weise dargestellt werden, um unterschiedliche emotionale Reaktionen oder Interpretationen hervorzurufen." }, "types-of-bias.confirmation.title": { "en": "2.3 Confirmation Bias", "de": "2.3 Bestätigungsfehler" }, "types-of-bias.confirmation.content": { "en": "Confirmation bias is the tendency to favor information that confirms preexisting beliefs or hypotheses, while disregarding contradictory evidence.", "de": "Bestätigungsfehler ist die Tendenz, Informationen zu bevorzugen, die bereits bestehende Überzeugungen oder Hypothesen bestätigen, während widersprüchliche Beweise ignoriert werden." }, // What is Propaganda? "what-is-propaganda.title": { "en": "3. What is Propaganda?", "de": "3. Was ist Propaganda?" }, "what-is-propaganda.content1": { "en": "Propaganda is information, especially of a biased or misleading nature, used to promote or publicize a particular political cause or point of view. It often employs emotional appeals, half-truths, or outright falsehoods to influence public opinion.", "de": "Propaganda sind Informationen, insbesondere voreingenommene oder irreführende, die verwendet werden, um eine bestimmte politische Sache oder Meinung zu fördern oder bekannt zu machen. Sie nutzt oft emotionale Appelle, Halbwahrheiten oder direkte Falschbehauptungen, um die öffentliche Meinung zu beeinflussen." }, "what-is-propaganda.content2": { "en": "Propaganda can be found in various forms, including political campaigns, advertising, and even news media. It is often used to manipulate public perception and behavior.", "de": "Propaganda findet sich in verschiedenen Formen, darunter politische Kampagnen, Werbung und sogar Nachrichtenmedien. Sie wird oft eingesetzt, um die öffentliche Wahrnehmung und das Verhalten zu manipulieren." }, // Techniques of Propaganda "techniques-of-propaganda.title": { "en": "4. Techniques of Propaganda", "de": "4. Techniken der Propaganda" }, "techniques-of-propaganda.emotional.title": { "en": "4.1 Emotional Appeal", "de": "4.1 Emotionale Ansprache" }, "techniques-of-propaganda.emotional.content": { "en": "Emotional appeal is a common propaganda technique that uses emotions like fear, anger, or sympathy to sway opinions. For example, an advertisement might use images of suffering children to encourage donations.", "de": "Emotionale Ansprache ist eine häufige Propaganda-Technik, die Emotionen wie Angst, Wut oder Mitleid nutzt, um Meinungen zu beeinflussen. Zum Beispiel könnte eine Werbung Bilder von leidenden Kindern verwenden, um Spenden zu fördern." }, "techniques-of-propaganda.bandwagon.title": { "en": "4.2 Bandwagon", "de": "4.2 Mitläufer-Effekt" }, "techniques-of-propaganda.bandwagon.content": { "en": "The bandwagon technique suggests that everyone is doing something, so you should too. It plays on the human desire to fit in and be part of a group.", "de": "Die Mitläufer-Technik suggeriert, dass alle etwas tun, also solltest du es auch tun. Sie nutzt den menschlichen Wunsch, dazuzugehören und Teil einer Gruppe zu sein." }, "techniques-of-propaganda.testimonial.title": { "en": "4.3 Testimonial", "de": "4.3 Empfehlung" }, "techniques-of-propaganda.testimonial.content": { "en": "Testimonial propaganda uses endorsements from celebrities, experts, or other influential figures to lend credibility to a product, idea, or cause.", "de": "Empfehlungs-Propaganda nutzt Unterstützungen von Prominenten, Experten oder anderen einflussreichen Persönlichkeiten, um einem Produkt, einer Idee oder einer Sache Glaubwürdigkeit zu verleihen." }, // Automated Detection "automated-detection.title": { "en": "5. Automated Detection of Bias and Propaganda", "de": "5. Automatisierte Erkennung von Voreingenommenheit und Propaganda" }, "automated-detection.content1": { "en": "With the rise of digital media, automated tools and algorithms are increasingly used to detect bias and propaganda in news and online content. These tools analyze language patterns, source credibility, and other factors to identify potential bias or misleading information.", "de": "Mit dem Aufstieg digitaler Medien werden zunehmend automatisierte Tools und Algorithmen eingesetzt, um Voreingenommenheit und Propaganda in Nachrichten und Online-Inhalten zu erkennen. Diese Tools analysieren Sprachmuster, Quellen-Glaubwürdigkeit und andere Faktoren, um potenzielle Voreingenommenheit oder irreführende Informationen zu identifizieren." }, "automated-detection.content2": { "en": "BiasRank is an example of such a tool, designed to help users identify and understand bias in news articles. By providing a bias rating and visual indicators, BiasRank empowers users to make more informed decisions about the content they consume.", "de": "BiasRank ist ein Beispiel für ein solches Tool, das Nutzern hilft, Voreingenommenheit in Nachrichtenartikeln zu erkennen und zu verstehen. Durch die Bereitstellung einer Voreingenommenheits-Bewertung und visueller Indikatoren ermöglicht BiasRank Nutzern, fundiertere Entscheidungen über die Inhalte zu treffen, die sie konsumieren." }, // Why Does It Matter? "why-does-it-matter.title": { "en": "6. Why Does It Matter?", "de": "6. Warum ist das wichtig?" }, "why-does-it-matter.content1": { "en": "Understanding bias and propaganda is crucial in today's information age. With the vast amount of content available online, it's easy to be misled or manipulated by biased or false information.", "de": "Das Verständnis von Voreingenommenheit und Propaganda ist im heutigen Informationszeitalter entscheidend. Angesichts der riesigen Menge an Online-Inhalten ist es leicht, durch voreingenommene oder falsche Informationen in die Irre geführt oder manipuliert zu werden." }, "why-does-it-matter.content2": { "en": "By being aware of these techniques and using tools like BiasRank, individuals can become more critical consumers of information, leading to a more informed and engaged society.", "de": "Indem man sich dieser Techniken bewusst ist und Tools wie BiasRank nutzt, können Einzelpersonen zu kritischeren Konsumenten von Informationen werden, was zu einer besser informierten und engagierteren Gesellschaft führt." } }; // Function to update the content based on the selected language function updateLanguage(selectedLanguage) { document.querySelectorAll('[data-translate]').forEach(element => { const translationKey = element.getAttribute('data-translate'); const translatedContent = translations[translationKey]?.[selectedLanguage]; if (translatedContent) { element.textContent = translatedContent; } }); } const languageSelect = document.getElementById("language-site"); // Initial update of content based on the default language const defaultLanguage = languageSelect.value; updateLanguage(defaultLanguage); // Add an event listener for the 'change' event languageSelect.addEventListener('change', () => { const selectedLanguage = languageSelect.value; updateLanguage(selectedLanguage); console.log('Selected language:', selectedLanguage); }); </script></body> </html>
+
+###############
+
+and this text:
+
+#########################
+
+
+Das vielleicht wichtigste gleich vornweg: Worüber reden wir eigentlich, wenn wir über “Medienbias” sprechen?
+
+Ganz allgemein bezeichnet “Bias“ eine systematische Verzerrung in der Darstellung der Realität. Das kann zum Beispiel der Fall sein, wenn ein Chatbot zur Berufsberatung Mädchen deutlich seltener Berufe wie Informatikerin oder Ingenieurin vorschlägt und Jungen deutlich seltener Berufe wie Erzieher oder Sozialarbeiter, obwohl das Geschlecht noch lange nichts über die Eignung aussagt. Oder wenn wir eine neue Bekanntschaft machen und unser Gehirn sich als mentale Abkürzung erst einmal instinktiv auf vorschnelle Urteile basierend auf oberflächlichen Merkmalen verlässt, um unser Gegenüber einzuschätzen. Oder eben in den Medien, wenn ein Ereignis nicht nach bestem Wissen und Gewissen fair und auf Basis von Fakten dargestellt wird, sondern die Berichterstattung eine durch die Fakten nicht gedeckte Perspektive einnimmt oder bevorzugt. Das ist dann der „Medienbias“, den BiasScanner zu entdecken trainiert ist.
+
+Man kann sich Bias also wie einen Filter vorstellen, der zwischen der Realität und unserer Wahrnehmung liegt. Die Welt, wie wir sie sehen, ist nicht immer die Welt, wie sie wirklich ist. Da prinzipiell jeder Mensch diesen Filter hat, auch Journalisten und Journalistinnen, schleichen sich hier die eigenen Perspektiven und Vorurteile gerne mal unbewusst in die Berichterstattung ein. Medienbias ist also nicht immer Absicht; tatsächlich dürfte ein sehr großer Anteil an Bias in den Medien ohne manipulative Absichten entstehen. Es gibt aber auch Medienbias, der gezielt eingesetzt wird, um zu manipulieren und zu spalten, in diesem Fall sprechen wir von „Propaganda“.
+
+Während wir damit im heutigen Sprachgebrauch hauptsächlich politisch motivierte Manipulationsversuche verstehen, war es bis ins mittlere 20. Jahrhundert tatsächlich so, dass auch Werbung, die im Grunde oft ja nichts anderes ist als Manipulation aus wirtschaftlicher Motivation, ganz offen und wertfrei, als Propaganda bezeichnet wurde. Denn auch wenn Vertreter klassischer Theorien der Volkswirtschaftslehre oder der Demokratietheorie bisweilen das Gegenteil behaupten, ob wir nun eine bestimmte Partei unterstützen oder das Smartphone einer bestimmten Marke kaufen, ist beides nicht einfach eine aufgeklärte, rationale Entscheidung auf Basis der besten Argumente. In beiden Fällen geht es ebenso darum, wer „unsere Knöpfe am besten“ drückt.
+
+Tatsächlich trägt das 1928 erschienene, wohl berühmteste Buch von Edward Bernays, der heute als einer der Begründer der „Public Relations“ (PR) gilt, passenderweise den einfachen Titel „Propaganda“. [LINK] Im Verlauf des 20. Jahrhunderts wurde das Ansehen des Begriffs „Propaganda“ jedoch durch den massenhaften, staatlich organisierten Einsatz in beiden Weltkriegen und die Verbindung mit totalitären Ideologien so negativ konnotiert, dass Unternehmen und Werbeschaffende irgendwann jede Assoziation damit vermeiden wollten.
+
+Zusammengefasst können wir also definieren:
+
+Medienbias: Die Neigung, eine Nachricht, ob bewusst oder unbewusst, so zu berichten, dass sie eine bereits bestehende Erzählung untermauert, anstatt eine objektive Darstellung eines Sachverhalts zu bieten
+
+Propaganda: Der bewusste Einsatz von (Medien)Bias, um die öffentliche Meinung zu manipulieren.
+
+Medienbias kann sich prinzipiell auf drei Ebenen zeigen:
+
+Auf der Publikationsebene: Dies bezeichnet den Gesamtbias eines Mediums, sei es eine Zeitung, ein Fernsehsender oder eine Social-Media-Seite. Über welche Themen wird überhaupt berichtet und wie viel? Welche tatsächlichen oder vermeintlichen Experten und Expertinnen kommen regelmäßig zu Wort?
+
+Auf der Artikelebene: Hier geht es um den Gesamtbias eines einzelnen Artikels oder Beitrags: Welche Perspektive zu dem Thema, über das berichtet wird, wird unterm Strich insgesamt eingenommen? Welche Narrative werden unterstützt und auf welche Details wird sich fokussiert?
+
+Auf der Satzebene: Welche Sichtweise wird in einem einzelnen Satz oder einer zusammenhängenden Gruppe von Sätzen forciert und wie genau zeigt sich das?
+
+BiasScanner ist explizit darauf trainiert, den Artikel und die Satzebene nach Bias zu durchsuchen. Zur Kategorisierung der einzelnen Sätze, die das System findet, haben wir schrittweise eine Taxonomie der Bias-Typen entwickelt. Diese basiert auf einem von uns und durch eine erste Version von Scanner gesammelten Datensatz an Beispielen (an dieser Stelle noch einmalser Stelle noch einmal ein Dankeschön an alle, die BiasScanner fleißig genutzt haben, und natürlich besonders an die, die die Funktion zum „Spenden“ ihres Bias-Reports genutzt haben ;)).
+
+Wir haben uns am Periodensystem der Elemente orientiert, um unsere Taxonomie von Medienbias-Typen zu strukturieren. Wie das Periodensystem, das unvollständig begann und sich durch neue Entdeckungen weiterentwickelt, soll auch unsere Taxonomie erweiterbar sein und schrittweise ein vollständiges Bild aller Bias-Typen auf Satzebene bieten.
+
+[IMAGE]
+
+Die Anordnung folgt dem Vorbild des Periodensystems:
+
+Ähnliche Bias-Typen werden in Gruppen zusammengefasst (farblich hervorgehoben).
+
+Die Platzierung der einzelnen Gruppen basiert auf der Häufigkeit aller Bias-Typen einer Gruppe in einer Stichprobe aus unserem Datensatz.
+
+Die Reihenfolge innerhalb der Gruppen richtet sich nach der Häufigkeit.
+
+Um Gruppen immer optisch miteinander verbunden zu lassen, wechselt die Reihenfolge im Zickzack-Muster: Ungerade Zeilen verlaufen von links nach rechts, gerade Zeilen von rechts nach links.
+
+Für jeden Typ zeigt eine von fünf Schriftgrößen die absolute Häufigkeit an.
+
+Ausführliche Erklärungen dazu, was die einzelnen Typen ausmacht und wie wir das System der Bias-Elemente genau entwickelt haben, sind in unserem Artikel verfügbar. [LINK]
+
+Als der amerikanische Journalist Walter Lippmann 1920 gemeinsam mit seinem Partner Charles Merz und unter Mithilfe seiner Ehefrau mit "A Test of the News” die erste systematische Untersuchung von Bias in der Berichterstattung durchführte, analysierte er die Berichterstattung der New York Times über die Oktoberrevolution in Russland. [LINK] Dieses Vorgehen war äußerst arbeitsaufwändig: Hunderte von Artikeln mussten gelesen und mit anderen Quellen verglichen werden. Derselbe Aufwand hätte für jedes neue Thema immer wieder von Neuem betrieben werden müssen. Gleichzeitig konstatierte Lippmann: „Die Nachrichten lassen sich nicht mathematisch ausdrücken.“
+
+Und dann, ein paar Jahrzehnte später, kam der Computer: Als 1954 im Georgetown–IBM-Experiment erstmals öffentlich demonstriert wurde, dass eine Maschine Texte verarbeiten kann, indem Sätze vom Russischen ins Englische übersetzt wurden, hielt Leon Dostert, einer der beteiligten Wissenschaftler, fest: „Die Verantwortlichen dieses Experiments betrachten es nun als definitiv erwiesen, dass eine Bedeutungübertragung durch elektronische Sprachübersetzung möglich ist.“ [LINK] Dies markierte den Beginn der elektronischen Verarbeitung von Sprache durch Computer, des sogenannten Natural Language Processing (NLP). Mochte Lippmanns Aussage zu seiner Zeit noch gegolten haben, so schien es nun möglich, dass sich Nachrichten tatsächlich doch mathematisch ausdrücken lassen.
+
+Denn Nachrichten bestehen aus Wörtern, Wörter aus einzelnen Zeichen und Token (kleineren Einheiten, ähnlich, aber nicht identisch mit Silben), und diese Zeichen und Token können durch Zahlen repräsentiert werden. Mit Zahlen wiederum kann automatisiert gerechnet und verglichen werden.
+
+Erste Ansätze zur Bias-Detektion haben häufig versucht, Verzerrungen zu messen, indem ein Artikel mit einer Referenz verglichen wurde. So wurde etwa gezählt, wie häufig bestimmte Thinktanks oder politische Gruppierungen zitiert werden [LINK], oder wie ähnlich die im Artikel verwendete Sprache zu der Sprache von Reden ausgewählter Politiker ist [LINK]. Allerdings schränkt die Notwendigkeit eines Vergleichspunkts den Transfer auf neue Themen erheblich ein, da für jedes neues Thema diese Referenz erneut gesammelt werden muss. Eine Liste Amerikanischer Think Tanks und Reden von Kongressabgeordneten sind nicht unbedingt nützlich, wenn man den Bias einer deutschsprachigen Zeitung ermitteln will.
+
+Ein weiterer Durchbruch bei der „Mathematisierung“ von Nachrichten und Texten allgemein gelang mit den sogenannten Word Embeddings: einer Methode, Wörter als Vektoren (vereinfacht gesagt: Pfeile mit Länge und Richtung) darzustellen. Vektoren von Wörtern mit ähnlicher Bedeutung zeigen in eine ähnliche Richtung, während die Spitzen von Vektoren mit stark unterschiedlicher Bedeutung weit voneinander entfernt liegen.
+
+[IMAGE]
+
+Zur grafischen Darstellung dieser Vektoren wird häufig eine vereinfachte dreidimensionale Projektion verwendet, da wir Menschen in einer dreidimensionalen Welt leben und uns höhere Dimensionen in der Regel nur schwer vorstellen können. In der Praxis besitzen solche Vektoren jedoch oft mehrere hundert Dimensionen (in Word2Vec, einem der bekanntesten Formate, zum Beispiel 300 [LINK]). Jede dieser Dimensionen kann eine bestimmte „Bedeutungsebene“ abbilden (etwa Tiere oder Fortbewegung), ist jedoch nicht immer unmittelbar für Menschen interpretierbar, sondern kann Zusammenhänge repräsentieren, die nur für den Computer erkennbar sind.
+
+Erzeugt werden diese Vektoren durch automatisierte statistische Verfahren, die anhand großer Textmengen erfassen, in welchen Kontexten Wörter häufig oder seltener gemeinsam auftreten.
+
+Wenn Wörter nun als Vektoren repräsentiert sind, können wir Vektorrechnung nutzen, um Informationen über die Beziehungen zwischen ihnen zu gewinnen. Der Kosinus des Winkels zwischen zwei Vektoren gibt uns beispielsweise Auskunft darüber, wie ähnlich sich zwei Begriffe in ihrer Bedeutung sind. In Word2Vec beträgt der Kosinus zwischen chimpanzee (Schimpanse) und gorilla etwa 0,61, während er zwischen chimpanzee und bicycle (Fahrrad) nur rund 0,15 beträgt.
+
+[IMAGE]
+
+Besonders spannend wird es, wenn man beginnt, Vektoren zu addieren und zu subtrahieren. So ergibt die Summe aus dem Vektor von princess (Prinzessin) und coronation (Krönung) näherungsweise den Vektor von queen (Königin). Subtrahiert man beer (Bier) von munich (München), erhält man berlin. Und birds (Vögel) sind laut Word2Vec Word2Vec animals (Tiere) plus feathers (Federn), aber minus scales (Schuppen).
+
+[IMAGE]
+
+
+Wenn man heute von KI redet, meint man damit im Grunde eigentlich maschinelles Lernen. Das unterscheidet sich von klassischer Programmierung dadurch, dass man nicht manuell dem Computer sagt wenn das passiert dann mach das, sondern, vereinfacht gesagt, zeigt man dem Computer sehr viele Beispiele von einem Input und dem dazu gehörenden Output und er muss selbst einen Weg finden dahin zu kommen.
+
+Die gängigste Methode, um diesen Weg zu finden, sind derzeit verschiedene Formen der sogenannten neuronalen Netze. Das sind Modelle, die von einer (stark vereinfachten Vorstellung) der Funktionsweise des menschlichen Gehirns inspiriert sind. Man programmiert mehrere Schichten von sogenannten Neuronen, die untereinander verbunden sind. Jedes Neuron merkt sich eine Zahl, die witzigerweise auch Bias heißt, die bestimmt, wann es ein Signal, das es von einem anderen Neuron empfängt, selbst an andere Neuronen weiterleitet. Für jede Verbindung merkt es sich auch noch die sogenannten Gewichte, die bestimmen, wie stark ein Signal weitergeleitet wird. Zu Beginn sind all diese Zahlen zufällig. Im sogenannten Training werden dem Modell jetzt ganz viele Beispiele gezeigt, nach dem Prinzip: Für dieses Eingangssignal z.B das Bild einer Katze) muss dieses Ergebnis herauskommen (in diesem Fall die Klassifizierung als Katze). Dann wird geprüft, ob das mit den gegenwärtigen Zahlen schon funktionieren würde. Wenn nicht, werden mit einem mathematischen Verfahren namens „Backpropagation“ diese Zahlen so angepasst, dass sie zum richtigen Ergebnis führen würden. Wird das nun nicht für eines, sondern für sehr viele Katzenbilder gemacht, lernt das Modell irgendwann, woran es generell eine Katze erkennen kann.
+
+[IMAGE]
+
+Man kann diese Modelle jetzt auch mithilfe der oben beschriebenen Word Embeddings so trainieren, dass sie anstatt zu sagen, welches Tier auf einem Bild zu sehen ist, eine Vorhersage abgeben, welches nächste Wort in einem Text kommt. Einfache neuronale Netze wie die oben beschriebene Grundform stoßen dabei allerdings schnell an ihre Grenzen, da sie Schwierigkeiten haben, den Zusammenhang aller Wörter eines Satzes zu erfassen, und deshalb oft eher sinnlose Vorschläge machen. Deshalb gibt es spezielle Varianten dieser Grundform, die extra auf Text zugeschnitten sind, wie den Transformer.
+
+Das wichtigste Feature, das dem Transformer hilft, den Kontext der Wörter eines Satzes zu berücksichtigen, ist der sogenannte Self-Attention-Mechanismus, ein mathematisches Verfahren, bei dem für jedes Token (die kleinen Textbausteine, mit denen Transformer arbeiten; das können ganze Wörter oder auch Wortteile sein) seine Relevanz für jedes andere Token berechnet wird. Dadurch kann das Modell auch längere Texte verstehen.
+
+[IMAGE]
+
+Wenn diese Modelle sehr groß werden, mit Milliarden Parametern, und mit sehr viel Text trainiert werden (Milliarden bis Billionen Tokens), spricht man von Large Language Models wie zum Beispiel ChatGPT, LLaMA oder Mistral. Diese Modelle lernen, Token für Token das wahrscheinlichste nächste Token vorherzusagen, wobei ein gewisses Zufallselement für Variation sorgt.
+
+[IMAGE]
+
+Neben diesen generativen Transformern, den sogenannten Generative Pre-trained Transformers (das GPT in Chat-GPT), gibt es auch einen zweiten Zweig der Transformer-Familie: Encoder-Modelle wie BERT, die Text hauptsächlich verstehen und klassifizieren, aber nicht generieren. Ihr Textverständnis ist oft sogar noch ein bisschen genauer, weil sie den gesamten Kontext eines Satzes gleichzeitig betrachten können, anstatt Token für Token in Reihenfolge zu sehen.
+
+
+BiasScanner selbst basiert auf der GPT-Technologie, da wir auch Erklärungen zu den erkannten Typen von Bias und Propaganda generieren lassen wollen. Genauer gesagt basiert BiasScanner auf sogenannten fine-tunes. Dabei nimmt ein Modell, das schon mit sehr viel unterschiedlichem Text trainiert wurde und deshalb ein grundlegendes Verständnis von Sprache besitzt und trainiert es für eine spezialisierte Aufgabe (in unserem Fall die Erkennung und Erklärung von Bias und Propaganda) nach. Chat-GPT selbst ist übrigens ein fine-tune des Basis gpt-models, welches dafür nachtrainiert worden ist, Instruktionen zu folgen.
+
+Das wichtigste für so ein Training ist ein Datensatz mit diversen Beispielen, welche das Problem gut abbilden. In unserem Fall also ein Datensatz mit den unterschiedlichsten Beispielen von Bias und Propaganda, korrekt klassifiziert und gut erklärt. [LINK]
+
+Niemand ist frei von Bias
+
+Stellen wir uns vor, jemand erzählt uns, dass er demnächst nach Paris ziehen wird. Sobald wir den Namen der Stadt hören, Paris, tauchen vor unserem inneren Auge Bilder auf. Einige davon sind sicher romantisch, wie der Eiffelturm, der sich über der Stadt erhebt, oder die Pariser, die mit einem Baguette unterm Arm und einer Baskenmütze auf dem Kopf an Cafés in den gepflasterten Gassen von Montmartre vorbeigehen. Andere Bilder sind vielleicht weniger schön, manche denken an Hotels mit Bettwanzen oder an Abwässer in der Seine. Wir fragen uns, was wir über die Bewohner von Paris wissen: Irgendwo haben wir vielleicht gehört, die Pariser seien arrogant, andererseits hieß es woanders, sie seien besonders stylisch.
+
+[IMAGE]
+
+Je nachdem, welche Bilder in uns aufkommen, wird unsere Reaktion unterschiedlich ausfallen. Freuen wir uns für unser Gegenüber, oder können wir überhaupt nicht nachvollziehen, warum jemand freiwillig in so einer Stadt leben möchte? So oder so, die einzelnen Bilder in unserem Kopf fügen sich zu einem Gesamtbild von Paris zusammen. Doch woher kommen diese Bilder, und ist Paris wirklich einfach ihre Summe?
+
+Manche von uns haben vielleicht Filme wie Midnight in Paris oder Serien wie Emily in Paris gesehen. Anderen sind anlässlich der Olympischen Spiele 2024 zahlreiche Berichte über die Stadt in den Social Media Feed gespült worden. Vielleicht kennen wir auch jemanden, der schon einmal dort war, oder wir haben die Stadt selbst besucht. Je nachdem, was wir auf dem Bildschirm gesehen, von anderen gehört oder selbst erlebt haben, wird unser Bild von Paris anders ausfallen. Hat uns Hollywood eine romantische Version von Paris gezeigt? [LINK] Haben russische Desinformationskampagnen das Thema Bettwanzen im Vorfeld der Spiele bewusst übertrieben? [LINK] Hat unser Bekannter einfach Pech gehabt und zufällig besonders arrogante Pariser getroffen? Streikte die Müllabfuhr gerade, als er dort war? Hatten wir im Gegenzug einfach Glück und sind nur den nettesten Parisern begegnet? Hatten wir besonders gutes Timing und waren nur an den schönsten Ecken unterwegs?
+
+Paris ist eine Stadt mit Millionen von Einwohnern und Tausenden Straßen, alle mit ihren Unterschieden. Und schon heute ist sie wieder ein bisschen anders als gestern. Und das Das ist die Kernproblematik der Meinungsbildung: Die allermeisten Dinge auf der Welt sind zu komplex, zu unübersichtlich und zu sehr im Wandel begriffen, als dass ein einzelner Mensch sie vollständig erfassen könnte. Unsere eigenen Erfahrungen, wenn wir sie überhaupt haben, sind immer nur ein Ausschnitt des Ganzen. Auch die Informationen, die wir aus zweiter Hand erhalten, von Bekannten, aus den Nachrichten oder von Social Media, sind immer nur ein Aspekt, eine Perspektive, die bereits durch den Filter anderer gelaufen ist.
+
+Aus all diesen Bruchstücken bauen wir uns ein vereinfachtes Modell der echten Welt in unserem Kopf zusammen, die „Pseudo-Umwelt“, wie der Journalist Walter Lippmann es nannte. [LINK] Diese Pseudo-Umwelt stützt sich stark auf „Stereotype“, stark vereinfachte, verallgemeinerte Vorurteile und Annahmen über die Welt. Während wir das Wort „Stereotype“ heute vor allem für gruppenbezogene Klischees verwenden, meinte Lippmann damit auch generelle, stark vereinfachte Annahmen über Politik, Wirtschaft und Gesellschaft. Ein Beispiel ist die noch immer verbreitete Vorstellung, dass Staatsfinanzen prinzipiell so funktionieren wie die eines privaten Haushalts. [LINK]
+
+[IMAGE]
+
+Im Idealfall ist diese Pseudo-Umwelt eine brauchbare Annäherung an die reale Welt, gut genug, um auf ihrer Basis sinnvolle Entscheidungen zu treffen. Im schlimmsten Fall hat das Weltbild eines Menschen nur wenig mit der echten Welt zu tun, was zu Problemen führt, wenn man Entscheidungen für eine Welt trifft, die es so gar nicht gibt. Sind zwei Pseudo-Umwelten zu unterschiedlich, erschwert das ebenso die Lösung von Konflikten und das Finden von Kompromissen. Schließlich ist es schwer, einen gemeinsamen Weg zu finden, wenn man unterschiedliche Karten verwendet. Lippmann schrieb dazu: Die Menschen „leben in derselben Welt, aber sie denken und fühlen in verschiedenen Welten“.
+
+Hinzu kommt, dass die allermeisten Menschen fest davon überzeugt sind, dass ihre Meinung nicht das Ergebnis von Stereotypen, Vorurteilen oder Perspektiven aus zweiter Hand ist. Nein, die eigene Meinung ist der „gesunde Menschenverstand“ oder das Ergebnis „eigener Recherche“. „ Ideologen” oder manipulierte „Schlafschafe“, das sind immer die anderen.
+
+Das zeigt sich nicht nur in Bierzeltreden diverser Politiker, sondern auch in Umfragen, in denen eine Mehrheit angibt, sich wenig Sorgen darüber zu machen, dass die eigenen konsumierten Medien einen Bias haben, wohl aber die Medien, die „die meisten anderen“ konsumieren. [LINK] Experimente der Yale-Universität zeigen zudem, dass die Unterstützung für dieselbe Maßnahme maßgeblich davon abhängt, ob die eigene politische Seite sie befürwortet oder ablehnt. Gleichzeitig waren sich die meisten Teilnehmer sicher, dass nicht sie, sondern nur das andere Lager so beeinflussbar sei.[LINK]
+
+[IMAGE]
+
+Das Phänomen dahinter nennt sich „motivated reasoning“. Wir geben weder uns selbst noch anderen gerne zu, dass unsere Meinung vielleicht doch nicht das Ergebnis eigenständiger, rationaler Überlegungen ist. Es ist mittlerweile gut belegt, dass wir unseren Verstand oft vor allem dazu einsetzen, Positionen, die wir primär aufgrund von Bias eingenommen haben, im Nachhinein vermeintlich rational zu erklären. Oft „fühlen“ wir zuerst eine Meinung und suchen dann hinterher das Argument dafür, nicht umgekehrt. Deshalb kann es auch so schwer sein, jemanden mit Argumenten zu überzeugen, weil er oder sie die eigene Haltung oft gar nicht auf Basis von Argumenten gebildet hat.
+
+Dies ist insbesondere der Fall, wenn ein Thema für uns einen besonderen emotionalen oder identitätsstiftenden Wert hat. Wer Paris als eine Stadt wie jede andere betrachtet, lässt sich tatsächlich noch nachweisbar durch neue Informationen über die Stadt beeinflussen. Wer jedoch eine besondere persönliche Verbindung zu Paris hat, ob positiv oder negativ, oder wer in Paris ein politisches Symbol für etwas sieht, wovon er zutiefst überzeugt ist, wird deutlich schwerer zugänglich sein.
+
+Ein konservativer Mensch vom Land könnte in Paris zum Beispiel ein Symbol für ein multikulturelles, linksliberales Frankreich sehen, das für ihn allein deshalb schon ein gesetzloser Moloch sein muss. Gleichzeitig könnte jemand, der sich eine autofreie Stadt wünscht, aber in einer Stadt lebt, die noch weit davon entfernt ist, angesichts der kürzlichen Bemühungen von Paris, fußgängerfreundlicher zu werden, entsprechend seine Hoffnungen und Wünsche unkritisch in Paris hineinprojizieren.
+
+Zusätzlich denken wir über die meisten Informationen und Reize, die uns tagtäglich erreichen, in der Regel gar nicht wirklich aktiv nach. Die meiste Zeit verbringen wir tatsächlich in einer Art Autopilot, da aktives Nachdenken für unser Gehirn eine anstrengende Tätigkeit ist, die es nach Möglichkeit zu vermeiden sucht. Der Kognitionspsychologe Daniel Kahneman, der viel zu diesem Thema geforscht hat, nannte diesen Autopiloten „System 1“ und das aktive Nachdenken „System 2“. System 1 ist deutlich schneller, und ohne diese Möglichkeit, viele eigentlich komplexe Aufgaben weitgehend zu automatisieren, sobald wir darin genug Übung haben, wären wir im Alltag ständig überfordert.
+
+Ein Gespräch in einer Fremdsprache über unseren Lieblingsfilm zu führen, während wir gleichzeitig ein Fahrzeug steuern, wäre zum Beispiel deutlich schwerer, wenn wir dabei ständig aktiv darüber nachdenken müssten, was jetzt dieses Wort nochmal heißt, wie diese Grammatik funktioniert, welche Filme wir denn alle überhaupt in unserem Leben schon gesehen haben, wie das mit dem Schalten nochmal geht und so weiter, statt auf gelernte Abläufe und Muster zurückgreifen zu können.
+
+Allerdings ist System 1 auch deutlich anfälliger für Fehler und gerät an seine Grenzen, wenn unvorhergesehene Schwierigkeiten auftauchen, zum Beispiel, wenn uns ein Wort nicht einfällt. In solchen Situationen greift dann wieder System 2 (tatsächlich gibt es auch Experimente, die zeigen, dass zum Beispiel bei vermeintlich einfachen Trickaufgaben die Verwendung einer schwer zu lesenden Schriftart die Aktivierung von System 2 erzwingt und so zu mehr richtigen Lösungen führt als in einer einfach lesbaren Schriftart, wo eher System 1 zur Lösung genutzt wird).
+
+Für unseren Medienkonsum ist das insoweit problematisch, als dass dieser in der Regel über System 1 läuft. Welche Schlagzeile wir anklicken, welche Meinung wir gut oder schlecht finden, welche Informationen wir glauben, welchen Artikel wir teilen, über all das denken wir ja in der Regel nicht bewusst nach, sondern handeln eben auch auf Autopilot. Und da das alles ohne für uns direkt spürbare Reibung abläuft, gibt es auch in der Regel wenig Anlass für System 2, aktiv zu werden und zum Beispiel zu sagen: „Moment mal, ich sehe das zwar prinzipiell ähnlich und mich interessiert die Geschichte, aber diese Schlagzeile soll mich doch eindeutig manipulieren, nein, lass mal.“
+
+Hier setzt jetzt BiasScanner an, indem wir durch das bewusste Hervorheben der Techniken hinter Medien-Bias und Propaganda, während der Artikel gelesen wird, die nötige Reibung für System 2 schaffen wollen. Dabei bauen wir auch auf der “Inoculation theory” auf, diese postuliert, dass Einstellungen auf ähnliche Weise gegen Überzeugungsversuche immun gemacht werden können, wie der Körper durch medizinische Impfungen gegen Krankheiten immun gemacht wird. Genauso wie ein Impfstoff eine abgeschwächte Form eines Virus einführt, um das Immunsystem zu stimulieren und Abwehrkräfte gegen stärkere Angriffe aufzubauen, geht diese Theorie davon aus, dass die Konfrontation von Personen mit abgeschwächten Formen gegensätzlicher Argumente zusammen mit Widerlegungen ihre Fähigkeit stärkt, in Zukunft überzeugenderen Herausforderungen zu widerstehen. Bisherige Forschungsergebnisse deuten darauf hin, dass diese Methode effektiver sein könnte als reine Faktenchecks, insbesondere dann, wenn man sich nicht nur einmalig, sondern regelmäßig aktiv mit Medienbias und Propaganda auseinandersetzt, während man Nachrichten liest.
+
+In seinem Buch 1984 schrieb George Orwell über den fiktiven totalitären Staat Ozeanien: „Die Partei befahl, die Erkenntnis deiner Augen und Ohren zurückzuweisen, es war ihr letzter, wichtigster Befehl.“ Das ist keine bloße Übertreibung, um den totalitären Anspruch von Propaganda zu betonen. In letzter Konsequenz kann Bias tatsächlich so weit gehen, dass wir unseren eigenen Augen nicht glauben können oder wollen, wenn das, was wir sehen, im Widerspruch zu der Welt in unserem Kopf steht.
+
+Werfen wir einen Blick auf die beiden Bilder hier unten und fragen uns: Auf welchem Bild sind mehr Menschen zu sehen, links oder rechts?
+
+Die Antwort dürfte für die meisten von uns eindeutig ausfallen: rechts, natürlich! Die Älteren unter uns haben vielleicht sofort erkannt, was die Bilder zeigen, schließlich war das Thema damals groß in den Medien. Es handelt sich um die Amtseinführung von US-Präsident Donald Trump im Jahr 2017 (rechts) und die seines Vorgängers Barack Obama im Jahr 2009 (links). Trump und seine Regierung bestanden fälschlicherweise darauf, dass Trumps Amtseinführung mehr Besucher hatte als die von Obama, eine Sichtweise, die viele Anhänger der Republikaner übernahmen.
+
+In einem Experiment wurden einige Monate nach der Wahl beiden Gruppen tatsächlich beide Bilder gezeigt, ohne die Information, welcher Präsident darauf zu sehen war. Die Teilnehmer wurden gefragt, auf welchem Bild mehr Menschen zu sehen seien. Unter denen, die 2016 die Demokraten gewählt hatten, wählten 2 % das linke Bild. Unter den Trump-Wählern waren es 15 %. Noch interessanter wird es, wenn man sich ansieht, welche Trump-Wähler sich besonders für das offensichtlich falsche Bild entschieden. Es waren vor allem diejenigen, die sich als starke Unterstützer sahen und gleichzeitig genug politische Nachrichten verfolgten, um zu wissen, dass das linke Bild die Amtseinführung „ihres“ Präsidenten zeigte. Hier stieg der Anteil derer, die angaben, das linke Bild zeige mehr Menschen, auf 26 %. Ob sie dort wirklich mehr Menschen sahen oder aus Loyalität zu Trump die Wahrheit nicht zugeben wollten, lässt sich nicht sagen. Mittlerweile gibt es jedoch Experimente mit Hirnscannern, die Hinweise darauf geben, dass starker Bias tatsächlich die Regionen unseres Gehirns beeinflussen kann, die etwa für räumliche Wahrnehmung zuständig sind. Es ist also durchaus möglich, dass manche Trump-Wähler auf dem linken Bild, sobald sie die Abbildung und damit die nach ihrem Weltbild richtige Antwort erkennen, mehr Personen zu sehen glauben als auf dem rechten Bild. Weil für unser Gehirn manchmal einfach nicht sein kann, was nicht sein darf.
+
+Geschichte!
+
+Medienbias ist so alt wie die Medien selbst. Seitdem die Menschheit damit begann, bedeutende Ereignisse zu dokumentieren, wurden diese Aufzeichnungen von den subjektiven Erfahrungen und Perspektiven ihrer Schöpfer sowie vom gesellschaftlichen Kontext, in dem sie lebten, geprägt
+
+Die Siegesstele von Naram-Sin, die im 23. Jahrhundert v. Chr. hergestellt wurde und als eines der frühesten bekannten Artefakte gilt, das als Nachrichtenbericht betrachtet werden kann, enthält eine Kombination aus geschnitzten Bildern und Keilschrift, die den Sieg des akkadischen Königs Naram-Sin über das Volk der Lullubi nicht nur beschreibt, sondern gleichermaßen preist.
+
+Die sumerische Königsliste, eine Sammlung von Schriften aus dem 21. Jahrhundert v. Chr., die sumerische Könige, die von ihnen regierten Städte und die Dauer ihrer Regierungszeit (die oft unrealistisch lange Zeitspannen wie 1.500 Jahre umfasst) auflistet, wird heute in erster Linie als ein Werk angesehen, das von Herrschern in Auftrag gegeben wurde, um ihren Machtanspruch zu legitimieren, indem sie die Vorstellung verbreiteten, dass es schon immer eine einzige Stadt gegeben habe, in der die Königsherrschaft ausgeübt wurde.
+
+Die Acta Diurna, die weithin als eine der frühesten Formen einer öffentlichen Zeitung angesehen wird, die zwischen 59 v. Chr. und 235 n. Chr. zirkulierte, wurde von der römischen Regierung veröffentlicht, um die Öffentlichkeit über wichtige Ereignisse zu informieren, wie sie von der Regierung gesehen werden sollten. (Nebenbei bemerkt: Diese Berichte endeten angeblich mit dem Satz „publicare et propagare”, was bereits auf die Beziehung zwischen den Medien und dem später geprägten Begriff Propaganda hindeutet).
+
+Während des größten Teils der Geschichte dienten die Nachrichtenmedien weniger der bestmöglichen Information der Öffentlichkeit als vielmehr als Kommunikationskanal der Herrscher der Gesellschaft zu den verschiedenen Gruppen unter ihnen.
+
+Dies änderte sich nicht sofort, als im 17. Jahrhundert die ersten modernen Zeitungen erschienen. Auch wenn es nicht mehr die Regierung war, die Informationen direkt an ihre Untertanen weitergab, bedeuteten Zensur, eingeschränkter Zugang zu unvoreingenommenen Informationsquellen und oft eine enge Verbindung zu Interessengruppen im Allgemeinen, dass die neuen, in Privatbesitz befindlichen Zeitungen sich nicht allzu sehr darum bemühten, objektiv und unvoreingenommen zu sein.
+
+Tatsächlich ist die bloße Vorstellung, dass Journalismus in irgendeinem Sinne des Wortes objektiv und unvoreingenommen sein könnte und sollte, eine relativ neue Erfindung, die Mitte bis Ende des 19. Jahrhunderts entstand, teilweise aufgrund der Geschäftsinteressen von Nachrichtenagenturen. In einer Rede vor dem US-Kongress im Jahr 1856 erklärte Lawrence Gobright, Chef der Agentur “Associated Press” (AP) in Washington, dass es die Aufgabe der AP sei, Fakten zu vermitteln, ohne sie zu kommentieren, damit die Zeitungen, die die eigentlichen Kunden der Agenturen waren, dann „ihre eigenen Kommentare zu den ihnen übermittelten Fakten abgeben” könnten.
+
+Eine tiefgreifendere Diskussion über die Medien und ihren Einfluss auf die öffentliche Meinung begann zu Beginn des 20. Jahrhunderts, stark beeinflusst durch den offensichtlichen Erfolg groß angelegter Propagandamaßnahmen während des Ersten Weltkriegs. Walter Lippmann und Edward Bernays, die später zwei der einflussreichsten Bücher auf diesem Gebiet verfassten, arbeiteten beide für das Committee on Public Information, eine US-amerikanische Regierungsbehörde, die nach dem Eintritt des Landes in den Ersten Weltkrieg gegründet wurde, um die öffentliche Meinung zugunsten des Krieges zu beeinflussen.
+
+Lippmann schrieb 1922 das Buch „Public Opinion“, das als grundlegendes Werk darüber gilt, wie die öffentliche Meinung in einer Gesellschaft durch die begrenzte Fähigkeit des Menschen, die reale Welt zu verarbeiten, darzustellen und zu kommunizieren, geprägt und verzerrt wird. Er argumentierte, dass diese Begrenzung dazu zwingt, sich auf ein verkürztes mentales Bild der Realität zu verlassen, was erhebliche Auswirkungen auf die Demokratie hat (siehe auch ...).
+
+Während im Journalismus nun erstmals Vorstellungen von Objektivität und Fairness formalisiert wurden, etwa in den ersten Ethikkodizes, die von Journalistenverbänden verabschiedet wurden, wie den Canons of Journalism der American Society of Newspaper Editors aus dem Jahr 1923, schickten sich gleichzeitig totalitäre Ideologien wie der Faschismus oder der Stalinismus an, Propaganda auf ein neues, alle Bereiche der Gesellschaft umfassendes Level zu heben. Dabei kamen zunehmend neue Technologien zum Einsatz, wie das Radio, der Film und das Fernsehen.
+
+So wie einst die Erfindung der Druckerpresse im 16. Jahrhundert die schnelle Verbreitung der Thesen Luthers und anderer Reformatoren durch Flugblätter und Karikaturen an ein Massenpublikum ermöglichte, erwiesen sich auch diese neuen Medien schnell als zentral für die Verbreitung von Propaganda im 20. Jahrhundert.
+
+Im 21.Jahrhundert wird diese Rolle zusehends vom Internet und hier insbesondere Social Media übernommen, welches aus unser heutige Informationslandschaft kaum mehr wegzudenken ist. Der Mensch im 21. Jahrhundert wird wohl täglich mit mehr Informationen, die mal mehr und mal weniger den Titel Nachrichten verdienen, überschüttet als jemals zuvor in der Geschichte der Menschheit. Dabei verlieren die klassischen Medienhäuser zusehends an Relevanz und Deutungshoheit, sie sind auf dem Weg nur noch eine Stimme unter vielen zu werden. Anstatt dass Medienhäuser entscheiden, über welche Themen und aus welcher Perspektive wir informiert werden, und wir uns zumindest theoretisch entscheiden können, diese oder jene Zeitung zu lesen oder diesen oder jenen Sender einzuschalten, entscheidet heute der Algorithmus, ob wir die Perspektiven dieser Medienhäuser überhaupt noch zu Gesicht bekommen. Die Bestätigung der eigenen Meinung ist dabei nichts mehr, was wir aktiv suchen müssen, sie wird uns passiv serviert.
+
+Während Falschmeldungen an sich nichts Neues sind und auch in der Vergangenheit bereits Bilder, Dokumente und Berichte gefälscht wurden, ermöglicht das Aufkommen generativer KI nun eine völlig neue Geschwindigkeit und Dimension in der Erstellung und Verbreitung solcher Inhalte. Welche Auswirkungen dies auf die Meinungsbildung im weiteren Verlauf des 21. Jahrhunderts haben wird, bleibt abzuwarten.
+
+Woher?
+
+Es gibt verschiedene Ursachen für Bias in den Medien. In einer Marktwirtschaft ist die Nachfrage des Publikums ein wichtiger Treiber: Menschen bevorzugen oft Nachrichten, die ihre eigene Weltsicht bestätigen. Das schafft einen Markt für Medien, die genau diese Voreingenommenheit bedienen, und es gibt wenig Anreiz, diese Ansichten zu hinterfrage. Ähnlich funktionieren „Filterblasen“ in sozialen Medien: Algorithmen zeigen Nutzern vor allem Inhalte, die zu ihren bestehenden Meinungen passen. Wie oben beschrieben, hängt diese Nachfrage oft mit dem Wunsch zusammen, kognitive Anstrengung zu vermeiden. Widersprüchliche Meinungen oder Fakten können Stress auslösen, besonders wenn sie die eigene Identität oder Überzeugungen infrage stellen. Während unser Gehirn diese Form von Stress tunlich vermeiden will, zeigen Studien und Experimente paradoxerweise gleichzeitig eine klare Präferenz für negative formulierte Schlagzeilen und Artikel über negative Ereignisse, obwohl jeder der schon einmal am doomscrollen war, wohl wissen wird, dass wir uns dadurch nicht besser fühlen. Eine Theorie besagt, dass dies mit der Evolutionsbiologie zusammenhängt: In der Vergangenheit, als die menschliche Umwelt tatsächlich voller Gefahren wie wilden Tieren war, war es vorteilhaft, sich mit diesen Bedrohungen auseinanderzusetzen, statt sie zu ignorieren. Allerdings hat sich die Welt seitdem stark verändert. Unser Gehirn war nie darauf ausgelegt, täglich in Echtzeit mit Informationen über alle Katastrophen überflutet zu werden, egal, ob sie uns direkt betreffen oder wir direkt Einfluss darauf nehmen können.
+
+Man kann das Verhältnis zwischen dem Bias der Medien und dem Bias ihres Publikums als eine „Henne-Ei“-Situation beschreiben, da die Ansichten des Publikums, die bestätigt werden wollen, ja nicht spontan entstehen, sondern selbst im Kontext des Einflusses der Massenmedien geformt werden. Die Medien sind nicht einfach nur „Opfer“ des Bias ihres Publikums, sondern prägen diesen aktiv mit, manchmal absichtlich, manchmal unabsichtlich. Dies geschieht beispielsweise durch den persönlichen Hintergrund der Journalisten, die in Medienorganisationen arbeiten und oft keine repräsentative Teilmenge der Bevölkerung darstellen. Im Vergleich zur Gesamtbevölkerung stammen deutsche Journalisten zum Beispiel deutlich häufiger aus akademischen Elternhäusern und haben seltener einen Migrationshintergrund, was sich dann auch in der Auswahl der Themen und Perspektiven niederschlägt.
+
+Ebenso kann die Agenda der Eigentümer eine große Rolle spielen: Viele Medien befinden sich zum Beispiel im Besitz von Milliardären, für die ein Medienimperium nicht nur eine lukrative Einnahmequelle sein kann, sondern auch eine Möglichkeit, ihre enormen finanziellen Ressourcen einzusetzen, um die Gesellschaft in ihrem Sinne zu beeinflussen.
+
+Interessanterweise zeigt sich ein scheinbarer Widerspruch zwischen Journalisten und Medienbesitzern: Während Journalisten im Schnitt politisch leicht links orientiert sind, haben die Eigentümer der reichweitenstärksten Medien, als Vermögende, in der Regel ein Interesse daran, gegen linke Positionen wie etwa eine höhere Besteuerung von Vermögen zu agitieren. Stattdessen fördern sie eher rechte oder liberale Stimmen, deren Politik Vermögenden tendenziell mehr Vorteile bietet.
+
+Ein Beispiel hierfür ist Mathias Döpfner, CEO und Eigentümer des Axel Springer Verlags, zu dem unter anderem Bild, Welt und Politico gehören. Im Bundestagswahlkampf 2021 wies er den damaligen Chefredakteur Julian Reichelt in einer später geleakten SMS an, die FDP zu „stärken“, damit diese in der sich abzeichnenden Ampelkoalition möglichst selbstbewusst auftreten könne.
+
+Natürlich findet in der Praxis eine gewisse Selektion statt: Journalisten suchen sich eher eine Anstellung bei Medien, die zu ihrer politischen Ausrichtung passen, und Medien bevorzugen Journalisten, die „zur Marke“ passen. Zudem befinden sich nicht alle Medien im Privatbesitz einzelner Vermögender, manche sind genossenschaftlich oder öffentlich-rechtlich organisiert.
+
+Gleichzeitig bemühen sich Journalisten, die ihren Beruf ernst nehmen, nach bestem Wissen und Gewissen fair zu bleiben. Auch nehmen nicht alle privaten Eigentümer direkten Einfluss auf redaktionelle Entscheidungen. Letztlich ist die politische Einstellung der Journalisten vor allem bei Medien relevant, die ohnehin eine klare Schlagseite haben. Bei Medien, die ernsthaft um Objektivität bemüht sind, tritt sie dagegen deutlich in den Hintergrund.
+
+In autoritär regierten Staaten tritt dagegen der Einfluss der privaten Besitzverhältnisse und Überzeugungen zugunsten der vorgegebenen Linie der Regierung zurück.
+
+Die Beziehung zwischen all diesen Faktoren kann recht komplex sein. Die anfängliche Entscheidung von Entscheidung von Fox News, den Sieg von Joe Biden bei den US-Wahlen 2020 zu bestätigen, führte beispielsweise zu einem Verlust von Zuschauern, die sich, möglicherweise auch deshalb, weil Fox News vor der Wahl immer wieder Beiträge hatten, die vor angeblichem Wahlbetrug der Demokraten warnten, Sendern zuwandten, die die falsche, aber nachgefragte Erzählung verbreiteten, die Wahl sei manipuliert worden. Letztendlich gab Fox News dem Marktdruck nach und verbreitete ebenfalls Falschmeldungen über die Sicherheit von Wahlmaschinen. Daraufhin wurde der Sender wegen Verleumdung verklagt und musste im Rahmen eines Vergleichs eine erhebliche Zahlung leisten.
+
+Neben diesen Faktoren hat sich auch der Wunsch, in der Gunst der Objekte der Berichterstattung zu bleiben, als relevanter Faktor erwiesen. Journalisten möchten möglicherweise keinen Zugang zu Interviewpartnern verlieren, indem sie zu kritisch erscheinen, oder sie entwickeln durch wiederholten Kontakt persönliche Sympathien.
+
+Es hat sich ebenso gezeigt, dass der Vorwurf an Journalisten, sie seien bei einem Thema parteiisch (ob berechtigt oder nicht), tatsächlich dazu führen kann, dass sie übersteuern und bewusst Narrative der Seite übernehmen, von der diese Kritik kommt, um vermeintlich ihre Neutralität zu beweisen. So hatten deutsche Medien beispielsweise lange Zeit in ihrer Berichterstattung bis auf Ausnahmen prinzipiell auf die Nennung der Herkunft von Tatverdächtigen komplett verzichtet, was ihnen nach den Übergriffen in der Kölner Silvesternacht 2015 den Vorwurf einbrachte, sie würden absichtlich die migrantische Herkunft der Täter verschweigen. Um dem zu begegnen, begannen die deutschen Medien zum einen häufiger die Herkunft zu nennen, nach einer Auswertung aus dem Jahr 2025 in jedem dritten Zeitungsbericht und jedem vierten Fernsehbericht über Gewaltkriminalität. Sie nennen die Herkunft aber nicht prinzipiell häufiger, sondern vor allem, wenn es sich um eine ausländische Herkunft handelt. In TV-Berichten werden zu 95 % Ausländer erwähnt, wenn die Herkunft thematisiert wird. In Zeitungsberichten sind es 91 %. In der aktuellen Kriminalstatistik sind etwa 34 % der Tatverdächtigen Ausländer, das heißt sofern die Herkunft genannt wird, kommen in der Berichterstattung über Gewaltkriminalität fast nur Ausländer vor, obwohl sie in der Realität nur etwa ein Drittel der Tatverdächtigen ausmachen.
+
+Werbung, was ja als eine Form von Propaganda betrachtet werden kann, ist ein interessanter Fall, da Unternehmen und Organisationen sowohl potenzielle Kunden für Werbeflächen in einem Medium als auch potenzielle Objekte der Berichterstattung sind. Tatsächlich wurde gezeigt, dass Zeitungen tendenziell positiver über Werbepartner berichten, auch über die eigentliche bezahlte Anzeige hinaus, schließlich will man seine Kunden nicht durch einen zu kritischen Ton verschrecken. Darüber hinaus kann Werbung auch Anreiz für ein Medium sein sich mit radikalen, extremistischen oder einfach nur potenziell kontroversen Inhalten zurückzuhalten, da Werbekunden oft eine Assoziation mit solchen Inhalten vermeiden wollen.
+
+Abseits von privaten Akteuren nutzen auch Staaten und Regierungen zuweilen Werbung als Mittel um Medien zu einer genehmeren Berichterstattung zu drängen, insbesondere in (mehr oder weniger) funktionierenden Demokratien, wo direkte Druckmittel und staatliche Gewalt begrenzt sind. Je nach Grad der Autorität und der Stärke unabhängiger Institutionen können Regierungen in solchen Systemen auf weitere Arten Einfluss nehmen, darunter die Vorenthaltung oder Zuteilung direkter Finanzmittel oder die Anwendung von Zensur, entweder direkt erzwungen oder durch eine Kultur der Selbstzensur, die durch rechtlichen oder gewaltsamen Druck auf Journalisten und Medien entsteht. Dabeistehen nicht nur dem Staat solche Mittel zur Verfügung, wenn eine Regierung nicht in der Lage oder willens ist, Medienschaffende vor Bedrohungen durch nichtstaatliche Akteure wie Terrorgruppen, krimineller Organisationen oder mächtiger Unternehmen zu schützen, können diese entsprechend ebenfalls Druck ausüben.
+
+In einer liberalen Demokratie, die auf dem Ideal einer gut informierten Bürgerschaft beruht, die vielfältige Perspektiven berücksichtigt, auf faktenbasierte Argumentation reagiert, wenn sie politische Meinungen bildet, und bereit bleibt, mit denen zu kompromittieren, die zu anderen Schlussfolgerungen gelangen, sind diese Erkenntnisse ernüchternd. Diese Sorge wird noch größer, wenn man die Treiber von Medienvoreingenommenheit betrachtet. Wenn der Einfluss der Massenmedien wirksam ist und die Akteure mit der größten Fähigkeit, diesen Einfluss zu gestalten, diejenigen sind, die bereits erhebliche Macht besitzen, darunter Regierungen, einflussreiche politische Organisationen, Unternehmen oder wohlhabende Einzelpersonen , untergräbt das Ergebnis direkt ein weiteres demokratisches Ideal, nämlich das Prinzip, dass jeder die gleiche Möglichkeit haben sollte, seine Stimme zu erheben und für seine Position einzutreten.
+
+Prinzipiell wirken Bias und Propaganda auf drei Ebenen, der Ebene der Überzeugung, der Ebene der Polarisierung und der Ebene des Zynismus.
+
+Zum einen gibt es Propaganda, wie man sie sich oft vorstellt: mit dem primären Ziel, ihre Empfänger von einer bestimmten Botschaft zu überzeugen. Die hier beschriebenen Bias-Typen können tatsächlich ein geeignetes Mittel dafür sein. Allerdings ist es gar nicht so einfach, jemanden durch bloße Kommunikation wirklich von etwas zu überzeugen, vor allem nicht, wenn ein Thema der Person sehr wichtig ist, sie eine starke Meinung vertritt und glaubt, viel darüber zu wissen.
+
+Die Forschung zeigt, dass sich neue Überzeugungen vor allem bei Themen formen lassen, die dem Empfänger mehr oder weniger egal sind und ihn nicht auf persönlicher Ebene berühren. Die meisten Menschen sind schnell bereit zu akzeptieren, dass Thomas Edison nicht die Glühbirne erfunden hat (tatsächlich hat er eine bestehende Erfindung verbessert und auf den Massenmarkt gebracht), selbst wenn sie zuvor das Gegenteil geglaubt haben. Bei Themen wie Migration, Sozialstaat, Sicherheit oder Steuerpolitik, also Themen die politisch aufgeladen sind, sieht das jedoch ganz anders aus. Weil sie so politisiert sind, sind sie zu eng mit der eigenen Identität verknüpft. Sich oder anderen einzugestehen, dass man sich auch nur in einem Punkt irrt, stellt mit seinen Implikationen eine Bedrohung für das komplette eigene Bild der Welt und seinem Platz darin dar, etwas, dass nach Möglichkeit vermieden werden muss.
+
+Eine überzeugende Botschaft ist also oft vor allem eine, die an bereits bestehende Überzeugungen anknüpft und als deren Fortsetzung wahrgenommen wird – nicht als Widerspruch. Ein Widerspruch kann sogar zum sogenannten „Backfire-Effekt“ führen: Werden Menschen mit einer Gegenposition zu ihren Überzeugungen konfrontiert, selbst wenn diese noch so logisch und gut argumentiert ist, verfestigen sie ihre Haltung als Abwehrmechanismus oft noch weiter.
+
+Überhaupt sind Medien viel effektiver darin die Themen vorzugeben, die im öffentlichen Diskurs eine Rolle spielen als direkt die Meinung zu diesen (auch wenn Staatsmedien in Autokratien aufgrund der fehlenden Konkurrenz durch widersprüchliche Perspektiven hier einen Vorteil haben könnten.) Da gewisse Themen allerdings zum Beispiel in der Bevölkerung mit gewissen Parteien besonders assoziiert sind (das sogenannte Topic Ownership), und diese von der Diskussion “ihres” Themas besonders profitieren, können Medien so trotzdem indirekt großen Einfluss nehmen. So ein Einfluss auf Wahlergebnisse ist zum Beispiel für das amerikanische Fox News empirisch belegt, überall dort wo der konservative Sender an den Start ging, und eine Zuschauerschaft fand, haben die Republikaner messbar profitiert.
+
+Polarisierung:
+
+Wenn Bias und Propaganda in beide Richtungen bestehender Überzeugungen wirken, entweder indem sie sie durch ihren Inhalt bestätigen oder durch den Widerspruch eine Verfestigung als Gegenreaktion provozieren, ist das zu erwartende Ergebnis ist eine Verstärkung gesellschaftlicher Gräben und Konfliktlinien. Ein Ergebnis, welches in Studien auch immer wieder nachgewiesen wird. Wenn das Thema bereits polarisierend genug ist, muss die Berichterstattung dazu nicht einmal selbst besonders spaltend sein, selbst gute, faktenbasierte faire journalistische Arbeit kann durch bloße Erhöhung der Aufmerksamkeit für das Thema die Spaltung weiter befeuern.
+
+Es wäre allerdings falsch, diese Politisierung nur als Nebenprodukt von Überzeugungsversuchen zu sehen – oft ist diese Spaltung selbst genau das Ziel. „Divide et impera“, also „teile und herrsche“, wie es bereits in der Antike hieß. Es ist gut dokumentiert, wie russische Propagandakampagnen in den USA sowohl pro- als auch anti-Black-Lives-Matter-Inhalte produzierten und verbreiteten. Teilweise wurden dabei sogar zeitgleich pro- und kontra-Veranstaltungen in derselben Stadt gefördert, um Konfrontation zu erzeugen.
+
+Natürlich wird diese Strategie nicht nur zwischen Staaten im „Informationskrieg“ eingesetzt. Auch innerhalb einer Gesellschaft kann es für diejenigen mit Macht von Vorteil sein, wenn Gruppen, die eigentlich ein Interesse daran hätten, sich miteinander zu solidarisieren, stattdessen übereinander herfallen.
+
+So zeigen Analysen politischer Werbekampagnen in den USA, dass die Republikaner besonders in Gegenden, die durch das Outsourcing von Jobs im Rahmen zunehmender Globalisierung schwer getroffen wurden, in ihrer Wählerwerbung besonders stark auf Themen setzten, die für die Identität vieler der weißen, nun oft arbeitslosen Arbeiter in diesen Regionen wichtig sind, etwa Waffenbesitz, Abtreibung, generell konservative Werte und auch Ablehnung von Immigration. Wirtschaftliche Fragen wie Steuern, Handel oder Sozialstaat rückten dagegen in den Hintergrund. Diese Themen wurden wiederum von den Demokraten stärker betont.
+
+Die Strategie der Republikaner lässt sich also so verstehen, dass sie angesichts einer sich verschlechternden wirtschaftlichen Lage versuchten, zu verhindern, dass sich ihre Wähler den Demokraten zuwenden, von deren Wirtschafts- und Sozialpolitik sie möglicherweise mehr profitiert hätten. Stattdessen betonten sie stärker, was die Wähler in ihrer Identität von den Demokraten unterscheidet um sie bei der Stange zu halten.
+
+In ihrer extremsten Form ist die Funktion von Propaganda vielleicht die schädlichste. Der Autor Aldous Huxley schreib einst: „Das Ziel des Propagandisten ist es, eine Gruppe von Menschen vergessen zu lassen, dass andere Gruppen ebenfalls Menschen sind.“ Diese Dehumanisierung des vermeintlichen Gegners ist das, was die schlimmsten Formen der organisierten Gewalt zu denen die Menschheit fähig ist, überhaupt erst ermöglicht. Kein Krieg und kein Völkermord wären denkbar, wenn es nicht möglich wäre, Menschen die Menschlichkeit derer die nicht zu “ihrer” Gruppe gehören, vergessen zu lassen.
+
+Zynismus
+
+Manchmal bemüht sich Propaganda gar nicht, eine angebliche Wahrheit zu verbreiten. Stattdessen kann das Ziel auch sein, das Konzept von Wahrheit generell aufzulösen. An einem Tag wird eine Variante der Ereignisse, eine Version der Geschichte, gepusht – am nächsten Tag eine völlig andere. Bis eine Lüge richtiggestellt ist, wurden schon zwei neue in Umlauf gebracht. Angesichts dieser Flut erscheint die Wahrheit bald nur noch als eine Geschichte unter vielen. „Man hört so viel, wer weiß schon, was wirklich stimmt? Es lügen doch sowieso alle.“
+
+Für ein Regime oder eine Bewegung, für die Macht wichtiger ist als jede tatsächliche Überzeugung, kann diese Form der Propaganda durchaus nützlicher sein. Wer an keine Wahrheit mehr glaubt, kann sich auch nicht enttäuscht von ihrer Wahrheit abwenden.
+
+Eine Propaganda, der die Wahrheit nicht mehr wichtig ist, stört dementsprechend auch ein Fact-Check nicht wirklich. Tatsächlich hat beispielsweise die russische Auslandspropaganda im Rahmen der „Operation Overload“ sogar immer wieder gezielt Fact-Checking-Organisationen kontaktiert und sich dabei als „besorgte Bürger“ ausgegeben, die diese oder jene Falschmeldung geprüft haben wollten. Denn eine Richtigstellung sehen viel mehr Leute als die ursprüngliche Lüge.
+
+Es gibt mittlerweile Forschung, die belegt, dass selbst ein erfolgreicher Fact-Check – also einer, bei dem die Leute hinterher wissen, was wahr und was falsch ist, nicht verhindern kann, dass die Lüge einen gewissen Effekt auf Überzeugungen hat.
+
+Einschüchtern
+
+Von außen betrachtet wirkt die Propaganda in vielen Diktaturen oft einfach nur absurd lächerlich: riesige goldene Statuen, peinliche Loblieder und Wahlen, die angeblich mit 99 % der Stimmen gewonnen werden. Diese Absurdität ist zum Teil natürlich einfach das Ergebnis des Narzissmus dieser Gewaltherrscher, die irgendwann den Kontakt zur Realität verloren haben. Gleichzeitig steckt aber auch System dahinter: Öffentlich eine Lüge zu verkünden, die so absurd und dumm ist, dass jeder sie sofort als solche durchschaut, und gleichzeitig jeden zu zwingen, öffentlich bei dieser Lüge mitzumachen, ist eine Demonstration von Macht. Widerstand gegen eine Regierung, die eine ganze Gesellschaft zwingen kann, „die Lüge zu singen“, erscheint oft sinnlos.
+
+Diktaturen versuchen häufig, etwa durch ein Netzwerk aus Spitzeln, zu garantieren, dass sich diese Lüge bis ins Private fortsetzt, bis sich jede und jeder fragt, ob sie oder er nicht allein mit ihrer Opposition dasteht. Allerdings hat die Geschichte gezeigt, dass das Private letztlich viel schwerer zu kontrollieren ist als die Öffentlichkeit. Im Privaten überwintern die wahren Überzeugungen, warten auf Risse in der Fassade, und sobald diese bricht, kann alles ganz schnell gehen – wie in der Geschichte „Des Kaisers neue Kleider“.
+
+Historisch lässt sich die letzte öffentliche Rede von Nicolae Ceaușescu als symbolisch für diese Dynamik verstehen. Der rumänische Diktator pflegte einen extremen Personenkult, ließ sich als „Genie der Karpaten“ feiern und inszenierte Massenkundgebungen mit zehntausenden jubelnden Anhängern. Bei seiner letzten Rede, mit der das Regime angesichts der Proteste in Timișoara Stärke demonstrieren wollte, sprach er vor rund 100.000 angekarrten Zuschauern. Als plötzlich einzelne Buhrufe laut wurden, die sich schnell lawinenartig über den Platz verbreiteten, geriet Ceaușescu ins Stocken, die TV-Übertragung brach ab, und aus der geplanten Machtdemonstration wurden Massenproteste, die wenige Tage später zu seinem Sturz führten.
+
+Tatsächlich sind es vor allem Diktaturen, die sich ansonsten keinerlei Mühe machen, auch nur den Anschein von Demokratie aufrechtzuerhalten, die auf solche absurde Propaganda setzen. Laut einer Analyse von Propaganda aus verschiedenen Autokratien entsprechen die typischen Staatsmedien in Autokratien, die einige demokratische Legitimationselemente aufrechterhalten, wie etwa Wahlen (die natürlich alles andere als frei und fair sind) , in ihrem Bias-Niveau etwa „Fox News“. Also einem Sender, der zwar eindeutig extrem parteiisch ist und sich nicht zu schade ist, klare Propaganda zu verbreiten, aber eben Propaganda, die von den Zuschauern tatsächlich geglaubt werden soll. Medien in totalitären Staaten sind laut dieser Analyse jedoch etwa viermal parteiischer, bis zu einem Level, das ins Absurde abgleiten kann.
+
+Auch die Natur der Wirtschaft eines Regimes kann die Art der Propaganda und des Bias bestimmen: Autokratische Regierungen, die ihr Einkommen vor allem aus dem Verkauf natürlicher Ressourcen wie Erdöl ziehen, neigen zu einer noch strikteren Kontrolle jeder Form kritischer Berichterstattung als Diktaturen, die weniger ressourcenreich sind. Die gängigste Theorie führt dies darauf zurück, dass Diktaturen, die sich nicht einfach über eine einzelne Ressource finanzieren können, stärker darauf angewiesen sind, dass die Bürokratie im Land einigermaßen funktioniert, und demzufolge ein Interesse daran haben, dass etwa Fälle von Korruption über die Medien aufgedeckt werden können.
+
+Bias und Propaganda für das Gute?
+
+Wenn Bias und Propaganda grundsätzlich funktionieren, dann stellt sich natürlich die grundsätzliche Frage, ob es so etwas wie gute Propaganda geben kann. Also Kommunikation, die anstatt im Sinne der Aufklärung mit rationaler Argumentation und Fakten zu überzeugen versucht, sich bewusst der hier diskutieren Techniken bedient , um Ziele voranzutreiben, die eine aufgeklärte Gesellschaft in der Regel als „gut“ bezeichnen würde. Natürlich bleibt es am Ende immer ein stück weit subjektiv was „gut“ ist, die Diskussion würde an dieser Stelle zu weit führen. Aber wenn man wirklich ein Anliegen hat dass diese Bezeichnung verdient, wäre es dann ein Fehler sich dieser funktionierenden Methoden zu verweigern und den Erfolg seines Anliegens zu riskieren, oder ist eine solche Form der manipulativen Kommunikation bereits ein Fehler an sich? (Aus prinzipiellen ethischen Überlegungen oder weil man die Normalisierung dieser Methoden für zu gefährlich hält).
+
+Denn tatsächlich kann Propaganda nicht nur Desinformation verbreiten, extremistische
+Kräfte an die Macht bringen und eine Gesellschaft spalten, sondern ebenso helfen
+die öffentliche Gesundheit zu verbessern, den Aufstieg von Extremisten bremsen
+und Gemeinsamkeiten betonen.
+
+Der bereits erwähnte Edward Bernays, schrieb dazu mal: „Der einzige Unterschied zwischen ‚Propaganda‘ und ‚Bildung‘ liegt eigentlich im Blickwinkel. Die Förderung dessen, woran wir glauben, ist Bildung. Die Förderung dessen, woran wir nicht glauben, ist Propaganda.“ Und „Propaganda wird niemals aussterben. Intelligente Menschen müssen erkennen, dass Propaganda das moderne Instrument ist, mit dem sie für produktive Ziele kämpfen und helfen können, Ordnung aus dem Chaos zu schaffen.“
+
+Die meisten der andere hier bereits zitierten Autoren von Lippmann über Huxley zu Orwell sehen das deutlich kritischer. Wer letztendlich Recht hat, BiasScanner kann darauf keine Antwort geben (auch wenn ich natürlich meine eigene persönliche Meinung dazu habe) Unser Ziel ist es auf das Thema aufmerksam zu machen und Usern zu helfen, Bias und Propaganda zu erkennen, zu verstehen und ermöglichen dass sie selbst eine Entscheidung treffen, wie sie damit umgehen wollen.
+
+Bias, Propaganda und Social Media
+
+Oben wurde bereits darauf eingegangen wie im 21.Jahrhundert die Rolle des „Gatekeepers“ zwischen uns und den Nachrichten zusehends von den klassischen Medien zu insbesondere Social Media übergeht. Hier kommt der Algorithmus als eine neue, automatisierte Quelle des Bias ins Spiel. In der Ausgestaltung des Algorithmus wiederum spielen die alt bekannten Faktoren eine Rolle: Einmal das marktwirtschaftliche Zusammenspiel aus Angebot und Nachfrage: Social Media Plattformen haben ein Interesse dass ihre User möglich viel Zeit auf der Plattform verbringen damit Ihnen möglichst viel bezahlte Werbung ausgespielt werden kann. Also werden solche Inhalte priorisiert mit denen User besonders viel interagieren, und das sind wie bei klassischen Medien, emotionalisierende Inhalte und solche, die das eigene Weltbild bestätigen. Daneben kommt die Agenda der Eigentümer, die noch häufiger als bei klassischen Medien, Milliardäre sind. Es ist nicht immer möglich nachzuvollziehen wie sehr hier aktiv aufgrund (politischer) Agenda eingegriffen wird, aber im Fall von Elon Musk „Twitter“ bzw („X“) beispielsweise tauchten laut einer Analyse der Queensland University seine eigenen Tweets und die anderer rechter Accounts deutlich häufiger in den Empfehlungen auf, nachdem Elon Musk im Juli 2024 offiziell
+erklärte, Donald Trump in der anstehenden Wahl zu unterstützen,
+
+Allgemein zeigen Experimente immer wieder, dass standartmäßig über alle Plattformen hinweg Usern deutlich mehr rechter Content vorgeschlagen wird als linker. Das kann aber auch einfach daran liegen, dass die politische Rechte in der Regel ein besseres „social media game“ hat und das was auf diesen Plattformen besonders gut läuft besonders gut produzieren kann. Vergleicht man beispielsweise das Verhältnis zwischen Social Media Werbebudget und gesammelten Reaktionen im Wahlkampf für den deutschen Bundestag 2025, so ergibt sich für die AfD das Beste Verhältnis, während die Grünen hier am ineffizientesten wären. (Gleichzeitig konnte allerdings auch die LINKE Boden gut machen.) Da Menschen tendenziell empfänglicher für Botschaften sind, die nicht sofort als Propaganda erkennbar sind, sondern vermeintlich von „Menschen wie du und ich“ kommen, werden auf Social Media neben offiziellen Parteiaccounts auch vermeintlich unabhängige Accounts zur Multiplikation
+der eigenen Botschaft eingesetzt. Eine Strategie die außerhalb von Social Media schon länger als „Astroturfing“ bekannt ist. Passend dazu ist die Verbreitung politischer Narrative in Form von vorgeblich apolitischer Unterhaltung. Das ist ebenfalls nicht neues, so transportierten zum Beispiel auch Bücher, Filme oder Videospiele schon immer ein bestimmtes Bild von der Welt, oft unbeabsichtigt, oft aber auch geplant. Durch Social Media kommen hier nun auch verstärkt z.B Podcasts ins Spiel, die sich selbst nicht primär als Politik sondern Unterhaltungsformate sehen. Diese vorgebliche Distanz zur Politik (an die die Hosts oftmals sogar selbst glauben) sowie der intime Charakter machen diese Formate zu effektiven Werkzeugen der Verbreitung von Narrativen. Media Matters hat dieses Phänomen für die USA 2024 untersucht und identifizierte auch hier eine starke Dominanz rechter Formate, 9 von 10 nach Followern populärsten Online Formate bei denen eine politische Orientierung fest zu stellen war, waren eher rechts orientiert. Was zusätzich auffällt, ein drittel dieser Formate mit erkennbarer politischer Ausrichtung kategorisieren sich selbst als unpolitisch, besonders häufig (72%) wenn sie eigentlich politisch rechts stehen.
+
+Passt zur Unterhaltung ..
+
+Je nachdem wenn man fragt, sind die Medien in Deutschland eher klar links oder eindeutig rechts. Wie man das sieht hängt wenig überraschend primär davon ab, wo man selbst steht (aus diesem Grund versucht der BiasScanner Bias nicht anhand des links rechts Spektrums sondern konkreter, verwendeter Art von Sprache zu messen). Der Medienkompass hat vor 2019 mal versucht diese Positionen mit einer großen Umfrage zusammenzufassen, nach dem Motto, wenn eine Hälfte ein Medium für links und die Andere Hälfte sie für rechts hält, entspricht sie wohl der Mitte der Gesellschaft. Ich hatte diese Umfrage, die neben der Ausrichtung auch nach der empfunden Qualität des Journalismus fragte, Anfang 2025 mal mit Zahlen zur Reichweite verschiedener Medien kombiniert um einen Überblick zu bekommen wie man die Deutsche Medienlandschaft insgesamt einordnen könnte. Zusammengefasst ergibt sich mach diesen Zahlen das Bild einer deutschen Medienlandschaft die politisch Mitte rechts steht und nicht unbedingt qualitativ hochwertig berichtet. Die mit Abstand auflagenstärkste Tageszeitung war die BILD, die bekanntermaßen ebenso rechts wie reißerisch ist, ebenso war ihr Webangebot auch das meist aufgerufene Online Nachrichtenportal, allerdings war hier der Abstand zur anderen Websites wie der deutlich mittigeren und qualitativ besseren Tagesschau und t-online (das in der Medienkompass Umfrage wie andere, neuere Medien nicht dabei war, aber eher mitte bis mitte links eingeordnet wird) nicht so groß wie bei den Print Medien. Im Fernsehen hatten nach wie vor Formate des Öffentlich rechtlichen die Nase vorn, während auf YouTube mit Welt TV ein weiteres Mal eine Marke des Springer Konzerns am reichweitenstärksten war.
+
+Die große Frage bleibt, was können wir tun um zumindest zu versuchen und bestmöglich zu informieren anstatt uns manipulieren zu lassen?
+
+Ein Ansatz, den wir zum Beispiel mit BiasScanner versuchen, beruht zum Teil auf der sogennanten Innoculation Theory. Die Idee ist durch Konfrontation mit Formen von Bias und Propaganda in einem kontrollierten Setting eine gewisse Resistenz aufzubauen. Wenn man beispielsweise später gewisse Muster, die man beim Spielen mit BiasScanner bereits schon einmal gesehen hat, wiederkennt kann das helfen, sich davon nicht beeindrucken zu lassen. Zum anderen wollen wir aber auch das kritische Nachdenken und die Auseinandersetzung mit Medien ganz grundsätzlich fördern. Wer die Nachrichten nicht einfach als die Nachrichten betrachtet sondern als etwas dass man mit einer gewissen Distanz analysieren, diskutieren und kritisch hinterfragen kann, der lässt sich davon wohl auch nicht so einfach beeinflussen. Dabei sollte klar sein, dass keiner von uns völlig ohne Bias durchs Leben geht und die Welt so sehen kann wie sie ist, aber das ist okay. Wichtig ist, dass wir uns dessen bewusst sind und trotzdem versuchen uns der „Wahrheit“ irgendwie nach bestem Wissen und Gewissen anzunähern. Hier sind ein paar Ideen, die wir dafür im Hinterkopf behalten können:
+
+text
+
+Immer dran denken: Die Welt, welche in den Medien gezeigt wird, ist keine direkte Abbildung der echten Welt, sondern eine Version, welche durch viele Filter gelaufen ist
+
+Seid skeptisch, macht nicht den Fehler etwas zu glauben, nur weil es in das eigene Weltbild passt
+
+Erlaubt euch und Anderen die Meinung zu ändern, wir alle irren uns ständig
+und das ist okay. Viel zu häufig halten wir an etwas nur deswegen fest, weil es zu schwierig für die eigene Identität ist, uns und anderen einzugestehen, dass wir unrecht hatten. Wir sollten uns also alle um ein gesellschaftliches Umfeld bemühen, in dem so ein Eingeständnis ohne hohe soziale Kosten passieren kann
+
+Fragt euch immer, will dieser Nachrichtenbeitrag mich informieren oder
+will er mir sagen, was ich zu denken oder zu fühlen habe? Woher kommt
+diese Nachricht und wieso bekomme ich sie zu sehen?
+
+Gönnt euch ne Pause, ihr müsst nicht permanent up to date mit den neusten
+Einzelheiten allen Krisen, Konflikte und Tragödien auf der Welt sein,
+doomscrolling hilft niemanden, im Gegenteil.
+
+Lasst euch nicht gegen Andere Menschen aufhetzen, das hat noch nie zu etwas
+Gutem geführt, erkennt solche Versuche und lasst euch nicht darauf ein
+
+Distanziert euch von dem Nachrichtenbeitrag und schaut von Außen drauf, ob und wie Arten von Bias darin vorkommen (Nutzt auch gerne BiasScanner zum ersten Einstieg 😉)
+
+############
+
+Please
+a) replace the text loaded dynamically by the template with it
+b) format it properly with headlines and paragraphs
+c)  each sentence, that has a [LINK], make it a href element so i can later add my links to sources directly in the text (also, make the links look nice)
+d) for each [IMAGE], add a placeholder for an image i will add later
+e) also, if you think it would fit, feel free to add design elements like "info boxes" or similar visual improvements
+f) highlight important terms in the text
+g) fix spelling and grammar errors, otherwise leave the wording untouched
+h) also provide the english translation for the dynamic loading as demonstrated in the template
+
+Please make sure to add the complete text to the template!

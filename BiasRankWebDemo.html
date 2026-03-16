@@ -201,12 +201,28 @@
         border-bottom: 1px solid #eee;
       }
     }
+
+        a.back-link {
+            text-decoration: none; /* Removes underline */
+            color: inherit; /* Inherits color from parent */
+            cursor: pointer; /* Shows pointer cursor on hover */
+            font-size: 1.2em; /* Adjust size as needed */
+        }
+        a.back-link:hover {
+            color: #555; /* Darkens slightly on hover */
+            opacity: 0.8; /* Slightly transparent on hover */
+        }
+
+
   </style>
 </head>
 <body>
-  <header>
-    BiasRank: The Anti-Bias News Search Engine
-  </header>
+
+   <header>
+        <a href="index.html" class="back-link">←</a> BiasRank: The Anti-Bias News Search Engine
+    </header>
+
+
   <main>
     <form id="searchForm">
       <span class="search-icon">🔍</span>
