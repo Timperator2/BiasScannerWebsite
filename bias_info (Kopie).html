@@ -167,64 +167,6 @@
       font-weight: bold;
     }
 
-    .nav-mode {
-      display: flex;
-      align-items: center;
-    }
-
-    .mode-toggle {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      color: #fff;
-      font-weight: 700;
-      font-size: 14px;
-      cursor: pointer;
-      user-select: none;
-      background: rgba(255,255,255,0.12);
-      padding: 8px 12px;
-      border-radius: 999px;
-      box-shadow: var(--shadow-sm);
-    }
-
-    .mode-toggle input {
-      display: none;
-    }
-
-    .mode-slider {
-      position: relative;
-      width: 42px;
-      height: 22px;
-      background: rgba(255,255,255,0.3);
-      border-radius: 999px;
-      transition: background 0.2s ease;
-      flex-shrink: 0;
-    }
-
-    .mode-slider::before {
-      content: "";
-      position: absolute;
-      top: 3px;
-      left: 3px;
-      width: 16px;
-      height: 16px;
-      background: #fff;
-      border-radius: 50%;
-      transition: transform 0.2s ease;
-    }
-
-    .mode-toggle input:checked + .mode-slider {
-      background: var(--red);
-    }
-
-    .mode-toggle input:checked + .mode-slider::before {
-      transform: translateX(20px);
-    }
-
-    .mode-label {
-      white-space: nowrap;
-    }
-
     main {
       padding: 28px 18px 70px;
       max-width: var(--max-width);
@@ -439,34 +381,6 @@
       color: var(--muted);
     }
 
-    body.compact-mode .article-section {
-      padding: 20px 20px 22px;
-      margin-bottom: 18px;
-    }
-
-    body.compact-mode p,
-    body.compact-mode li {
-      font-size: 15px;
-      line-height: 1.68;
-    }
-
-    body.compact-mode .lead {
-      font-size: 17px;
-    }
-
-    body.compact-mode h2 {
-      font-size: 23px;
-      margin-bottom: 12px;
-    }
-
-    body.compact-mode .definition-box,
-    body.compact-mode .info-box,
-    body.compact-mode .quote-box,
-    body.compact-mode .tip-box {
-      padding: 14px 16px;
-      margin: 16px 0;
-    }
-
     @media (max-width: 900px) {
       .header-title {
         font-size: 21px;
@@ -517,27 +431,8 @@
       }
 
       nav a,
-      nav select,
-      .mode-toggle {
+      nav select {
         font-size: 13px;
-      }
-
-      .mode-toggle {
-        padding: 7px 10px;
-      }
-
-      .mode-slider {
-        width: 38px;
-        height: 20px;
-      }
-
-      .mode-slider::before {
-        width: 14px;
-        height: 14px;
-      }
-
-      .mode-toggle input:checked + .mode-slider::before {
-        transform: translateX(18px);
       }
     }
   </style>
@@ -566,15 +461,6 @@
         <a href="#effects" data-translate="nav.effects"></a>
         <a href="#social-media" data-translate="nav.social-media"></a>
         <a href="#what-can-we-do" data-translate="nav.what-can-we-do"></a>
-
-        <div class="nav-mode">
-          <label class="mode-toggle">
-            <input type="checkbox" id="compact-toggle" />
-            <span class="mode-slider"></span>
-            <span class="mode-label" data-translate="nav.compact"></span>
-          </label>
-        </div>
-
         <div class="nav-language">
           <select id="language-site" name="language">
             <option value="en">🇬🇧 English</option>
@@ -590,7 +476,7 @@
     <div id="article-content"></div>
   </main>
 
- <!-- ========================= -->
+  <!-- ========================= -->
   <!-- German article template   -->
   <!-- ========================= -->
   <template id="article-de">
@@ -1637,8 +1523,7 @@
         "nav.causes": "Causes",
         "nav.effects": "Effects",
         "nav.social-media": "Social Media",
-        "nav.what-can-we-do": "What Can We Do?",
-        "nav.compact": "Compact mode"
+        "nav.what-can-we-do": "What Can We Do?"
       },
       de: {
         "header.title": "Bias, Propaganda und ihre automatisierte Erkennung",
@@ -1651,244 +1536,34 @@
         "nav.causes": "Ursachen",
         "nav.effects": "Wirkungen",
         "nav.social-media": "Social Media",
-        "nav.what-can-we-do": "Was tun?",
-        "nav.compact": "Kompaktmodus"
+        "nav.what-can-we-do": "Was tun?"
       }
     };
 
-    const compactSections = {
-      en: [
-        {
-          id: "intro",
-          kicker: "Foundations",
-          title: "What is media bias?",
-          html: `
-            <p class="lead">Media bias means presenting reality through a distorted perspective instead of reflecting facts as fairly as possible.</p>
-            <p>Bias can be unintentional because all people interpret the world through mental filters. In journalism, this means that perspectives, assumptions, and stereotypes can slip into reporting without conscious intent.</p>
-            <p>When such distortion is used deliberately to shape public opinion, we call it <strong class="term">propaganda</strong>.</p>
-            <div class="definition-box">
-              <p><strong>Media bias:</strong> Reporting that reinforces a narrative instead of neutrally representing the facts.</p>
-              <p><strong>Propaganda:</strong> The intentional use of bias to influence public opinion.</p>
-            </div>
-          `
-        },
-        {
-          id: "taxonomy",
-          kicker: "Structure",
-          title: "Bias on three levels",
-          html: `
-            <p>Bias can appear on the <strong class="term">publication level</strong>, the <strong class="term">article level</strong>, and the <strong class="term">sentence level</strong>.</p>
-            <p>BiasScanner mainly focuses on article-level and sentence-level bias, because these are the most practical levels for automated detection inside single texts.</p>
-            <div class="info-box">
-              <p><strong>Key idea:</strong> publication bias concerns patterns across many texts, while article and sentence bias can be analyzed directly in an individual text.</p>
-            </div>
-          `
-        },
-        {
-          id: "automation",
-          kicker: "Automated detection",
-          title: "How automated bias detection works",
-          html: `
-            <p>Modern natural language processing turns language into numerical representations that computers can compare and classify.</p>
-            <p>Older approaches often relied on external reference points, such as comparing articles with speeches or citation patterns. More modern systems use embeddings, neural networks, and Transformers to capture meaning directly from text.</p>
-            <p>BiasScanner uses a fine-tuned language model trained on examples of bias and propaganda, allowing it not only to detect problematic passages but also to explain them.</p>
-            <div class="info-box">
-              <p><strong>In practice:</strong> a pre-trained language model is specialized with examples of biased and propagandistic text so it can identify patterns and describe why they matter.</p>
-            </div>
-          `
-        },
-        {
-          id: "psychology",
-          kicker: "Psychology",
-          title: "No one is free of bias",
-          html: `
-            <p>People do not perceive reality directly. Instead, we build simplified mental models of the world from personal experience, media, and social influence.</p>
-            <p>Much of media consumption happens quickly, emotionally, and automatically. This makes us vulnerable to framing, stereotypes, and manipulative wording even when we believe we are thinking independently.</p>
-            <p>That is why bias awareness matters: not because some people are biased and others are not, but because everyone is.</p>
-            <div class="info-box">
-              <p><strong>Core idea:</strong> if media consumption mostly runs through fast, intuitive thinking, then making manipulative patterns visible creates the friction needed for more reflective thinking.</p>
-            </div>
-          `
-        },
-        {
-          id: "history",
-          kicker: "History",
-          title: "Bias is as old as media itself",
-          html: `
-            <p>Bias did not begin with the internet. From ancient inscriptions to early newspapers and modern broadcasting, media have almost always reflected the interests, beliefs, and power structures of their time.</p>
-            <p>The modern ideal of objective journalism is relatively new. At the same time, newer technologies—from the printing press to radio, television, and now social media—have repeatedly expanded the reach and speed of propaganda.</p>
-          `
-        },
-        {
-          id: "causes",
-          kicker: "Causes",
-          title: "Why does bias emerge?",
-          html: `
-            <p>Bias emerges for many reasons: audience demand, social identity, journalists’ backgrounds, ownership interests, advertiser pressure, political influence, and algorithmic amplification.</p>
-            <p>Media often reflect what audiences want to hear, but they also shape those preferences in return. This creates a feedback loop between public demand and media supply.</p>
-            <p>On top of that, access journalism, ownership agendas, and economic pressure can all push reporting away from neutrality.</p>
-          `
-        },
-        {
-          id: "effects",
-          kicker: "Effects",
-          title: "How bias and propaganda work",
-          html: `
-            <p>Bias and propaganda can work through <strong class="term">persuasion</strong>, <strong class="term">polarization</strong>, and <strong class="term">cynicism</strong>.</p>
-            <p>Sometimes they reinforce existing beliefs. Sometimes they deepen social conflict. And sometimes they undermine trust in truth itself by flooding the public sphere with contradictory or manipulative claims.</p>
-            <p>In extreme forms, propaganda can intimidate whole societies or dehumanize opponents.</p>
-          `
-        },
-        {
-          id: "social-media",
-          kicker: "Digital present",
-          title: "Bias, propaganda, and social media",
-          html: `
-            <p>On social platforms, algorithms prioritize content that generates attention and interaction. That usually means emotional, identity-confirming, and often polarizing content.</p>
-            <p>This makes social media a powerful distribution system for bias and propaganda, especially when political narratives are spread through influencers, entertainment, or seemingly ordinary users.</p>
-          `
-        },
-        {
-          id: "what-can-we-do",
-          kicker: "What now?",
-          title: "What can we do?",
-          html: `
-            <p>We cannot become perfectly unbiased, but we can become more reflective and more resistant to manipulation.</p>
-            <div class="tip-box">
-              <ul class="tip-list">
-                <li>Be skeptical of information that perfectly confirms your worldview.</li>
-                <li>Ask whether a text informs you or tries to shape what you think or feel.</li>
-                <li>Compare sources and allow yourself to change your mind.</li>
-                <li>Take breaks from doomscrolling and emotional overload.</li>
-                <li>Try to recognize manipulative patterns instead of reacting automatically to them.</li>
-              </ul>
-            </div>
-          `
-        }
-      ],
-      de: [
-        {
-          id: "intro",
-          kicker: "Grundlagen",
-          title: "Was ist Medienbias?",
-          html: `
-            <p class="lead">Medienbias bedeutet, dass Realität verzerrt dargestellt wird, statt einen Sachverhalt möglichst fair und faktenbasiert abzubilden.</p>
-            <p>Bias kann unbewusst entstehen, weil alle Menschen die Welt durch mentale Filter wahrnehmen. Dadurch fließen Perspektiven, Vorurteile und Annahmen oft in Berichterstattung ein, ohne dass das absichtlich geschieht.</p>
-            <p>Wenn diese Verzerrung bewusst eingesetzt wird, um öffentliche Meinung zu beeinflussen, sprechen wir von <strong class="term">Propaganda</strong>.</p>
-            <div class="definition-box">
-              <p><strong>Medienbias:</strong> Berichterstattung, die ein Narrativ stützt, statt die Fakten neutral darzustellen.</p>
-              <p><strong>Propaganda:</strong> Der bewusste Einsatz von Bias zur Manipulation öffentlicher Meinung.</p>
-            </div>
-          `
-        },
-        {
-          id: "taxonomy",
-          kicker: "Struktur",
-          title: "Bias auf drei Ebenen",
-          html: `
-            <p>Bias kann auf der Ebene einer ganzen <strong class="term">Publikation</strong>, eines einzelnen <strong class="term">Artikels</strong> oder einzelner <strong class="term">Sätze</strong> auftreten.</p>
-            <p>BiasScanner konzentriert sich vor allem auf Artikel- und Satzebene, weil sich diese Ebenen in konkreten Texten automatisiert analysieren lassen.</p>
-            <div class="info-box">
-              <p><strong>Kernidee:</strong> Publikationsbias zeigt sich eher in Mustern über viele Beiträge hinweg, während Artikel- und Satzbias direkt im einzelnen Text sichtbar werden.</p>
-            </div>
-          `
-        },
-        {
-          id: "automation",
-          kicker: "Automatisierte Erkennung",
-          title: "Wie automatisierte Bias-Erkennung funktioniert",
-          html: `
-            <p>Moderne Sprachverarbeitung übersetzt Texte in numerische Repräsentationen, die von Computern verglichen und klassifiziert werden können.</p>
-            <p>Frühere Verfahren arbeiteten oft mit Referenzpunkten, etwa durch den Vergleich mit Politikerreden oder bestimmten Zitiermustern. Neuere Systeme nutzen Embeddings, neuronale Netze und Transformer, um Bedeutung direkt aus Sprache zu erfassen.</p>
-            <p>BiasScanner nutzt ein spezialisiertes, nachtrainiertes Sprachmodell, das Beispiele für Bias und Propaganda gelernt hat und problematische Stellen nicht nur erkennen, sondern auch erklären kann.</p>
-            <div class="info-box">
-              <p><strong>Praktisch heißt das:</strong> Ein vortrainiertes Sprachmodell wird mit Beispielen von Bias und Propaganda spezialisiert, damit es Muster erkennen und begründen kann.</p>
-            </div>
-          `
-        },
-        {
-          id: "psychology",
-          kicker: "Psychologie",
-          title: "Niemand ist frei von Bias",
-          html: `
-            <p>Menschen nehmen die Welt nicht direkt wahr. Stattdessen bauen wir uns aus eigenen Erfahrungen, Medien und sozialen Einflüssen ein vereinfachtes Bild der Realität zusammen.</p>
-            <p>Viel Medienkonsum läuft schnell, emotional und automatisch ab. Gerade deshalb können Framing, Stereotype und manipulative Formulierungen wirken, ohne dass wir sie bewusst bemerken.</p>
-            <p>Bias-Bewusstsein ist deshalb wichtig, nicht weil manche Menschen biased sind und andere nicht, sondern weil wir alle es sind.</p>
-            <div class="info-box">
-              <p><strong>Kernidee:</strong> Wenn Medienkonsum oft automatisch abläuft, dann hilft sichtbare Reibung dabei, bewusster und reflektierter zu urteilen.</p>
-            </div>
-          `
-        },
-        {
-          id: "history",
-          kicker: "Geschichte",
-          title: "Bias ist so alt wie die Medien selbst",
-          html: `
-            <p>Bias begann nicht erst mit dem Internet. Von antiken Inschriften über frühe Zeitungen bis zu Rundfunk und Plattformen waren Medien fast immer von Interessen, Machtverhältnissen und Weltbildern ihrer Zeit geprägt.</p>
-            <p>Das Ideal objektiven Journalismus ist historisch relativ jung. Gleichzeitig haben neue Technologien – von der Druckerpresse bis zu Social Media – die Reichweite und Geschwindigkeit von Propaganda immer weiter erhöht.</p>
-          `
-        },
-        {
-          id: "causes",
-          kicker: "Ursachen",
-          title: "Warum entsteht Bias?",
-          html: `
-            <p>Bias entsteht aus vielen Gründen: Publikumsnachfrage, sozialer Identität, Hintergründen von Journalisten, Interessen von Eigentümern, Werbedruck, politischem Einfluss und algorithmischer Verstärkung.</p>
-            <p>Medien spiegeln nicht nur wider, was Menschen hören wollen, sondern formen diese Erwartungen auch selbst mit. So entsteht ein Kreislauf zwischen Nachfrage und Angebot.</p>
-            <p>Dazu kommen wirtschaftlicher Druck, Zugang zu Quellen und politische Interessen, die Berichterstattung zusätzlich verzerren können.</p>
-          `
-        },
-        {
-          id: "effects",
-          kicker: "Wirkungen",
-          title: "Wie Bias und Propaganda wirken",
-          html: `
-            <p>Bias und Propaganda wirken vor allem über <strong class="term">Überzeugung</strong>, <strong class="term">Polarisierung</strong> und <strong class="term">Zynismus</strong>.</p>
-            <p>Sie können bestehende Meinungen verstärken, gesellschaftliche Konflikte verschärfen oder sogar das Vertrauen in Wahrheit selbst untergraben, wenn ständig widersprüchliche oder manipulative Erzählungen zirkulieren.</p>
-            <p>In extremen Formen können sie ganze Gesellschaften einschüchtern oder Gegner entmenschlichen.</p>
-          `
-        },
-        {
-          id: "social-media",
-          kicker: "Digitale Gegenwart",
-          title: "Bias, Propaganda und Social Media",
-          html: `
-            <p>Auf sozialen Plattformen priorisieren Algorithmen Inhalte, die besonders viel Aufmerksamkeit und Interaktion erzeugen. Das sind oft emotionale, bestätigende und polarisierende Inhalte.</p>
-            <p>Dadurch werden soziale Medien zu einem besonders wirksamen Verbreitungssystem für Bias und Propaganda – vor allem dann, wenn politische Narrative über Unterhaltung, Influencer oder scheinbar normale Nutzer verbreitet werden.</p>
-          `
-        },
-        {
-          id: "what-can-we-do",
-          kicker: "Was tun?",
-          title: "Was können wir tun?",
-          html: `
-            <p>Wir werden nie völlig frei von Bias sein, aber wir können lernen, reflektierter und widerstandsfähiger mit Medien umzugehen.</p>
-            <div class="tip-box">
-              <ul class="tip-list">
-                <li>Seid skeptisch gegenüber Informationen, die perfekt ins eigene Weltbild passen.</li>
-                <li>Fragt euch, ob ein Text informiert oder Gefühle und Urteile lenken will.</li>
-                <li>Vergleicht Quellen und erlaubt euch, die Meinung zu ändern.</li>
-                <li>Macht Pausen von Doomscrolling und emotionaler Überlastung.</li>
-                <li>Versucht, manipulative Muster zu erkennen, statt nur spontan darauf zu reagieren.</li>
-              </ul>
-            </div>
-          `
-        }
-      ]
-    };
-
     const articleTemplates = {
-      en: "article-en-full",
-      de: "article-de-full"
+      en: "article-en",
+      de: "article-de"
     };
 
-    const languageSelect = document.getElementById("language-site");
-    const compactToggle = document.getElementById("compact-toggle");
+    function updateLanguage(selectedLanguage) {
+      document.querySelectorAll("[data-translate]").forEach(element => {
+        const key = element.getAttribute("data-translate");
+        if (translations[selectedLanguage] && translations[selectedLanguage][key]) {
+          element.textContent = translations[selectedLanguage][key];
+        }
+      });
 
-    const state = {
-      language: localStorage.getItem("siteLanguage") || "en",
-      compact: localStorage.getItem("siteCompact") === "true"
-    };
+      const articleTarget = document.getElementById("article-content");
+      const templateId = articleTemplates[selectedLanguage];
+      const template = document.getElementById(templateId);
+
+      if (articleTarget && template) {
+        articleTarget.innerHTML = template.innerHTML;
+      }
+
+      document.documentElement.lang = selectedLanguage;
+      updateProgressBar();
+    }
 
     function updateProgressBar() {
       const progressBar = document.getElementById("progress-bar");
@@ -1898,75 +1573,16 @@
       progressBar.style.width = progress + "%";
     }
 
-    function renderTranslations() {
-      document.querySelectorAll("[data-translate]").forEach(element => {
-        const key = element.getAttribute("data-translate");
-        if (translations[state.language] && translations[state.language][key]) {
-          element.textContent = translations[state.language][key];
-        }
-      });
-    }
-
-    function buildCompactArticle(language) {
-      return compactSections[language].map(section => `
-        <section id="${section.id}" class="article-section">
-          <span class="kicker">${section.kicker}</span>
-          <h2>${section.title}</h2>
-          ${section.html}
-        </section>
-      `).join("");
-    }
-
-    function renderArticle() {
-      const articleTarget = document.getElementById("article-content");
-
-      if (state.compact) {
-        articleTarget.innerHTML = buildCompactArticle(state.language);
-      } else {
-        const templateId = articleTemplates[state.language];
-        const template = document.getElementById(templateId);
-        articleTarget.innerHTML = template ? template.innerHTML : "";
-      }
-    }
-
-    function syncUI() {
-      document.documentElement.lang = state.language;
-      languageSelect.value = state.language;
-      compactToggle.checked = state.compact;
-      document.body.classList.toggle("compact-mode", state.compact);
-    }
-
-    function renderPage() {
-      renderTranslations();
-      renderArticle();
-      syncUI();
-      updateProgressBar();
-
-      if (window.location.hash) {
-        const target = document.querySelector(window.location.hash);
-        if (target) {
-          setTimeout(() => {
-            target.scrollIntoView({ behavior: "smooth", block: "start" });
-          }, 50);
-        }
-      }
-    }
+    const languageSelect = document.getElementById("language-site");
+    updateLanguage(languageSelect.value);
 
     languageSelect.addEventListener("change", () => {
-      state.language = languageSelect.value;
-      localStorage.setItem("siteLanguage", state.language);
-      renderPage();
-    });
-
-    compactToggle.addEventListener("change", () => {
-      state.compact = compactToggle.checked;
-      localStorage.setItem("siteCompact", String(state.compact));
-      renderPage();
+      updateLanguage(languageSelect.value);
     });
 
     window.addEventListener("scroll", updateProgressBar);
+    window.addEventListener("load", updateProgressBar);
     window.addEventListener("resize", updateProgressBar);
-    window.addEventListener("load", renderPage);
   </script>
 </body>
 </html>
