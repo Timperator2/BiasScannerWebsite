@@ -56,7 +56,7 @@
       top: 0;
       z-index: 1000;
       backdrop-filter: blur(16px);
-      background: linear-gradient(180deg, rgba(255, 250, 247, 0.95), rgba(255, 250, 247, 0.88));
+      background: #e0251b;
       border-bottom: 1px solid rgba(255, 107, 0, 0.08);
     }
 
@@ -223,6 +223,7 @@
       display: flex;
       gap: 10px;
       overflow-x: auto;
+      background-color: #ff6b00;
       scrollbar-width: thin;
       scrollbar-color: rgba(255, 107, 0, 0.35) transparent;
     }
@@ -785,11 +786,51 @@
   </main>
 
   <script>
-    const sourceLink = (id, lang) => {
-      const n = String(id).padStart(2, "0");
-      const label = lang === "de" ? "Quelle" : "Source";
-      return `<a href="#" class="source-link" data-source-id="src-${n}" onclick="return false;">[${label} ${n}]</a>`;
-    };
+    sourceUrls = {"1" : "https://archive.org/details/bernays-edward-l.-propaganda-1928-1936_202107",
+                  "2" : "https://arxiv.org/abs/2312.16148",
+                  "3"  : "https://archive.org/stream/LippmannMerzATestoftheNews/Lippmann_Merz_ATestoftheNews_djvu.txt",
+                  "4" : "https://mt-archive.net/IBM-1954.pdf",
+                  "5" : "https://academic.oup.com/qje/article-abstract/120/4/1191/1926642",
+                  "6" : "https://web.stanford.edu/~gentzkow/research/biasmeas.pdf",
+                  "7" : "https://arxiv.org/abs/1301.3781",
+                  "8" : "https://github.com/Timperator2/SALOMO-Experiment",
+                  "9" : "https://www.sciencedirect.com/science/article/abs/pii/S0148296315004282",
+                  "10" : "https://www.reuters.com/world/europe/russian-disinformation-hyped-paris-bedbug-scare-french-minister-says-2024-03-01/",
+                  "11" : "https://monoskop.org/images/b/bf/Lippman_Walter_Public_Opinion.pdf",
+                  "12" : "https://pmc.ncbi.nlm.nih.gov/articles/PMC18763/",
+                  "13" : "https://apo.org.au/node/308690",
+                  "14" : "https://ed.stanford.edu/sites/default/files/party_over_policy.pdf",
+                  "15" : "https://www.tandfonline.com/doi/full/10.1080/17524032.2021.1994442",
+                  "16" : "https://dn790002.ca.archive.org/0/items/DanielKahnemanThinkingFastAndSlow/Daniel%20Kahneman-Thinking%2C%20Fast%20and%20Slow%20%20.pdf",
+                  "17" : "https://www.tandfonline.com/doi/full/10.1080/15358593.2024.2370373",
+                  "18" : "https://www.ncbi.nlm.nih.gov/books/NBK609022/",
+                  "19" : "https://dn790002.ca.archive.org/0/items/NineteenEightyFour-Novel-GeorgeOrwell/orwell1984.pdf",
+                  "20" : "https://academic.oup.com/poq/article-abstract/82/1/135/4868126",
+                  "21" : "https://pubmed.ncbi.nlm.nih.gov/15978553/",
+                  "22" : "https://hist1039-16.omeka.fas.harvard.edu/items/show/9",
+                  "23" : "https://www.ashmolean.org/sumerian-king-list",
+                  "24" : "https://roalroalroal.wordpress.com/tag/acta-diurna/",
+                  "25" : "https://onlinelibrary.wiley.com/doi/10.1111/criq.12820",
+                  "26" : "https://monoskop.org/images/b/bf/Lippman_Walter_Public_Opinion.pdf",
+                  "27" : "https://s3.amazonaws.com/snwceomedia/gmg/23535d20-5b31-43be-a314-c67ccf774ba8.original.pdf",
+                  "28" : "https://initiatived21.de/uploads/03_Studien-Publikationen/D21-Digital-Index/2024-25/D21DigitalIndex_2024-2025.pdf",
+                  "29" : "https://web.stanford.edu/~gentzkow/research/biasmeas.pdf",
+                  "30" : "https://dl.acm.org/doi/10.1145/3274324",
+                  "31" : "https://www.nature.com/articles/s41562-023-01538-4",
+                  "32" : "https://pubmed.ncbi.nlm.nih.gov/31750790/",
+                  "33" : "https://journalistik.online/ausgabe-3-4-2023/wie-blicken-journalistinnen-und-journalisten-auf-die-welt/",
+                  "34": "www.google.de"
+                 
+                 
+                 
+                 
+                 }
+const sourceLink = (id, lang) => {
+  const n = String(id).padStart(2, "0");
+  const label = lang === "de" ? "Quelle" : "Source";
+  const url = sourceUrls[id] || "#"; // Fallback auf "#", falls keine URL vorhanden
+  return `<a href="${url}" class="source-link" data-source-id="src-${n}" target="_blank" rel="noopener noreferrer">[${label} ${n}]</a>`;
+};
 
     const figurePlaceholder = (id, lang, caption) => {
       const n = String(id).padStart(2, "0");
@@ -813,10 +854,10 @@
         de: "Bias, Propaganda und ihre automatisierte Erkennung",
         en: "Bias, Propaganda and Their Automated Detection"
       },
-      "main.title": {
-        de: "Bias, Propaganda und BiasScanner verstehen",
-        en: "Understanding Bias, Propaganda and BiasScanner"
-      },
+    "main.title": {
+      "de": "Bias, Propaganda und BiasScanner verstehen <div style=\"color: #333333; font-size: 20pt;\font-style: italic;\">by Tim Menzner</div>",
+      "en": "Understanding Bias, Propaganda and BiasScanner <div style=\"color: #333333; font-size: 20pt;\font-style: italic;\">by Tim Menzner</div>"
+    },
       "main.lead": {
         de: `Das vielleicht wichtigste gleich vornweg: Worüber reden wir eigentlich, wenn wir über <span class="term">Medienbias</span> sprechen?`,
         en: `The most important question first: what are we actually talking about when we talk about <span class="term">media bias</span>?`
