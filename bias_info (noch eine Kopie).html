@@ -1122,12 +1122,12 @@
           en: "Compact version"
         },
         "main.mode-description.full": {
-          de: "Aktuell wird die ausführliche Langfassung angezeigt.",
-          en: "You are currently viewing the full long-form version."
+          de: "Aktuell wird die ausführliche Langfassung mit mehr Details, Bildern und Quellenangaben angezeigt. Der Knopf oben rechts wechselt zu einer kürzeren Übersicht.",
+          en: "You are currently viewing the full long-form version with more details, figures and sources. If you want a shorter overview, use the button in the top-right corner."
         },
         "main.mode-description.compact": {
-          de: "Aktuell wird eine kürzere Fassung mit den wichtigsten Punkten angezeigt.",
-          en: "You are currently viewing a shorter version with the core points."
+          de: "Aktuell wird eine kürzere Fassung mit den wichtigsten Punkten angezeigt. Der Knopf oben rechts wechselts zu einer ausführliche Langfassung mit mehr Details, Bildern und Quellenangaben.",
+          en: "You are currently viewing a shorter version with the core points. If you want the full long-form version with more details, figures and sources, use the button in the top-right corner."
         },
         "controls.language": {
           de: "Sprache",
@@ -1473,15 +1473,21 @@
             <h2>2. BiasScanner, Taxonomie und automatisierte Erkennung</h2>
             <p>Um erkannte Sätze zu kategorisieren, wurde schrittweise eine <span class="term">Taxonomie</span> von Bias-Typen entwickelt. Sie basiert auf einem Datensatz aus vielen Beispielen von Bias und Propaganda.</p>
             <p>Die Struktur orientiert sich am <span class="term">Periodensystem</span>: ähnliche Typen werden gruppiert, ihre Anordnung folgt ihrer Häufigkeit im Datensatz, und das System bleibt offen für neue Typen.</p>
-
+            <figure class="image-placeholder" data-image-id="img-01">
+              <div class="image-box">
+                <img src="figures/BiasChartFixedHighResGerman.png" alt="Das System der Medienbias Elemente">
+                <small>Das System der Medienbias Elemente</small>
+              </div>
+              <figcaption></figcaption>
+            </figure>
               <div class="info-box">
       <h4>Worum es technisch geht</h4>
       <ul class="clean-list">
         <li>Früher war die Bias-Analyse mühsame Handarbeit.</li>
         <li>Mit <span class="term">NLP</span> wurde Sprache mathematisch verarbeitbar gemacht.</li>
         <li><span class="term">Word Embeddings</span> stellen Wörter und ihre Beziehungen zueinander als Vektoren dar.</li>
-        <li><span class="term">Transformer</span> sind große Modelle des maschinellen Lernens, die mithilfe von Word Embeddings Sprache und Kontext besser verarbeiten.</li>
-        <li>BiasScanner nutzt <span class="term">GPT-Fine-Tunes</span> (Generative Pre-trained Transformer), um Bias zu erkennen und zu erklären.</li>
+        <li><span class="term">Transformer</span> sind große Modelle des maschinellen Lernens, die mithilfe von Embeddings und dem sogennanten "Attention Mechanism" Sprache und Kontext besser verarbeiten.</li>
+        <li>BiasScanner nutzt <span class="term">GPT-Fine-Tunes</span> (von uns nachtrainierte Generative Pre-trained Transformer), um Bias zu erkennen und zu erklären.</li>
       </ul>
     </div>
 
@@ -1504,7 +1510,7 @@
               </ul>
             </div>
 
-            <p>Das berühmte Beispiel der Trump- und Obama-Amtseinführungen zeigt, wie stark Bias sogar Wahrnehmung verzerren kann.</p>
+            <p>Bias kann sogar so weit gehen, dass unsere Wahrnehmung grundlegend beinflusst wird, und zwar nicht nur, wie wir die Welt interpretieren, sondern auch, wie wir sie im wahrsten Sinne des Wortes sehen. Bias beeinflusst dabei Fähigkeiten wie numerisches Denken und räumliches Schätzen.</p>
           `,
             history: () => `
             <div class="compact-hint">Kürzere Fassung</div>
@@ -1886,6 +1892,15 @@
             <h2>2. BiasScanner, taxonomy and automated detection</h2>
             <p>To classify biased passages, BiasScanner uses a <span class="term">taxonomy</span> of bias types built from a dataset of many examples of bias and propaganda.</p>
             <p>The taxonomy is inspired by the <span class="term">periodic table</span>: similar types are grouped, arranged by frequency, and the system stays open to new discoveries.</p>
+            <figure class="image-placeholder" data-image-id="img-01">
+ <div class="image-box">
+    <img src="figures/BiasChartFixedHighRes.png" alt="The table of media bias elements">
+    <small>The table of media bias elements</small>
+  </div>
+  <figcaption></figcaption>
+</figure>
+
+
 
       <div class="info-box">
     <h4>What it's about technically</h4>
@@ -1893,7 +1908,7 @@
       <li>Bias analysis was once laborious manual work.</li>
       <li>NLP made language mathematically processable.</li>
       <li><span class="term">Word embeddings</span> represent words and their relationships as vectors.</li>
-      <li><span class="term">Transformers</span> are large machine learning models that, using <span class="term">word embeddings</span>, process language and context more effectively.</li>
+      <li><span class="term">Transformers</span> are large machine learning models that, using embeddings and the so-called "attention mechanism", process language and context more effectively.</li>
       <li>BiasScanner uses <span class="term">GPT fine-tunes</span>(Generative Pre-trained Transformer) to detect and explain bias.</li>
     </ul>
   </div>
@@ -1916,7 +1931,7 @@
               </ul>
             </div>
 
-            <p>The well-known inauguration-crowd example shows how strongly bias can even affect perception itself.</p>
+            <p>Bias can even go so far as to profoundly reshape our perception itself, distorting not only how we interpret the world but how we see it in the truest sense of the word, influencing skills like numerical reasoning and spatial estimation.</p>
           `,
             history: () => `
             <div class="compact-hint">Shorter version</div>
