@@ -888,7 +888,10 @@
         75: "https://eprints.qut.edu.au/253211/1/A_computational_analysis_of_potential_algorithmic_bias_on_platform_X_during_the_2024_US_election-4.pdf",
         76: "https://www.politik-kommunikation.de/politik/warum-die-linke-und-afd-trotz-geringem-budget-bei-social-ads-dominieren/",
         77: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3100161/",
-        78: "https://journals.sagepub.com/doi/10.1177/01914537221108467"
+        78: "https://journals.sagepub.com/doi/10.1177/01914537221108467",
+        79: "https://www.mediamatters.org/google/right-dominates-online-media-ecosystem-seeping-sports-comedy-and-other-supposedly",
+        80 : "https://de.statista.com/statistik/daten/studie/1407227/umfrage/umfrage-wahrnehmung-der-politischen-ausrichtung-der-ard/",
+        81 : "https://medienkompass.org/deutsche-medienlandschaft/"
       };
 
   figure_data = {
@@ -1031,12 +1034,17 @@
          "src": { "en" : "figures/socialmedia.png", "de" : "figures/socialmedia.png"}
       },
     
-                                         24: {
+                                         25: {
           "caption": {"en": "https://de.statista.com/statistik/daten/studie/1570078/umfrage/social-media-als-hauptinformationsquelle-nach-generation/, https://globalwitness.org/en/campaigns/digital-threats/tiktok-and-x-recommend-pro-afd-content-to-non-partisan-users-ahead-of-the-german-elections/", "de": "https://de.statista.com/statistik/daten/studie/1570078/umfrage/social-media-als-hauptinformationsquelle-nach-generation/, https://globalwitness.org/en/campaigns/digital-threats/tiktok-and-x-recommend-pro-afd-content-to-non-partisan-users-ahead-of-the-german-elections/"},
           "label": {"en": "Social media is becoming more and more important for political information amongst the youth in Germany, studies show that a \"politcally neutral\" account is much more likely to get recommended right wing over left wing content ","de":""},
          "src": { "en" : "figures/entertainment.png", "de" : "figures/entertainment.png"}
       },
-    
+                                             26: {
+          "caption": {"en": "medienkompass.org/deutsche-medienlandschaft/,https://www.dwdl.de/zahlenzentrale/101170/ivw_42024_so_hoch_ist_die_harte_auflage_wirklich/page_21.html,https://de.semrush.com/trending-websites/de/newspapers (January 2025),https://de.statista.com/statistik/daten/studie/160918/umfrage/reichweiten-ausgewaehlter-tv-nachrichtensendungen/,https://www.demovital.de (March 2025)", "de": "medienkompass.org/deutsche-medienlandschaft/,https://www.dwdl.de/zahlenzentrale/101170/ivw_42024_so_hoch_ist_die_harte_auflage_wirklich/page_21.html,https://de.semrush.com/trending-websites/de/newspapers (Januar 2025),https://de.statista.com/statistik/daten/studie/160918/umfrage/reichweiten-ausgewaehlter-tv-nachrichtensendungen/,https://www.demovital.de (März 2025)"},
+          "label": {"en": "Social media is becoming more and more important for political information amongst the youth in Germany, studies show that a \"politcally neutral\" account is much more likely to get recommended right wing over left wing content ","de":""},
+         "src": { "en" : "figures/MediaBiasDeutschEn.png", "de" : "figures/MediaBiasDeutsch.png"}
+      }
+                                             
     
     
     
@@ -1303,7 +1311,7 @@
             ${figurePlaceholder("de")}
             <p>Im 21. Jahrhundert wird diese Rolle zusehends vom Internet und hier insbesondere von Social Media übernommen, das aus unserer heutigen Informationslandschaft kaum mehr wegzudenken ist. Der Mensch im 21. Jahrhundert wird wohl täglich mit mehr Informationen, die mal mehr und mal weniger den Titel Nachrichten verdienen, überschüttet als jemals zuvor in der Geschichte der Menschheit. Dabei verlieren die klassischen Medienhäuser zusehends an Relevanz und Deutungshoheit; sie sind auf dem Weg, nur noch eine Stimme unter vielen zu werden. ${sourceLink("de")} Anstatt dass Medienhäuser entscheiden, über welche Themen und aus welcher Perspektive wir informiert werden, und wir uns zumindest theoretisch entscheiden können, diese oder jene Zeitung zu lesen oder diesen oder jenen Sender einzuschalten, entscheidet heute der Algorithmus, ob wir die Perspektiven dieser Medienhäuser überhaupt noch zu Gesicht bekommen. Die Bestätigung der eigenen Meinung ist dabei nichts mehr, was wir aktiv suchen müssen, sie wird uns passiv serviert.</p>
             ${figurePlaceholder("de")}
-            <p>Während Falschmeldungen an sich nichts Neues sind und auch in der Vergangenheit bereits Bilder, Dokumente und Berichte gefälscht wurden, ermöglicht das Aufkommen generativer KI nun eine völlig neue Geschwindigkeit und Dimension in der Erstellung und Verbreitung solcher Inhalte. Welche Auswirkungen dies auf die Meinungsbildung im weiteren Verlauf des 21. Jahrhunderts haben wird, bleibt abzuwarten.</p>
+            <p>Während Falschmeldungen an sich nichts Neues sind und auch in der Vergangenheit bereits Bilder, Dokumente und Berichte gefälscht wurden, ermöglicht das Aufkommen generativer KI nun eine völlig neue Geschwindigkeit und Dimension in der Erstellung und Verbreitung solcher Inhalte. Gleichzeitig werden KI-Modelle zusehends auch dafür genutzt, sich über politische Themen und Nachrichten zu informieren. Das kann natürlich, je nachdem, wer das entsprechende Modell wie trainiert hat, zukünftig eine weitere Quelle von Bias sein. Welche Auswirkungen dies auf die Meinungsbildung im weiteren Verlauf des 21. Jahrhunderts haben wird, bleibt abzuwarten.</p>
             ${figurePlaceholder("de")}
           `,
             causes: () => `
@@ -1397,7 +1405,7 @@
 
             <h3>Die deutsche Medienlandschaft</h3>
             <p>Je nachdem, wen man fragt, sind die Medien in Deutschland eher klar links oder eindeutig rechts. ${sourceLink("de")} Wie man das sieht, hängt wenig überraschend primär davon ab, wo man selbst steht. Aus diesem Grund versucht der BiasScanner, Bias nicht anhand des Links-Rechts-Spektrums, sondern konkreter anhand der verwendeten Art von Sprache zu messen.</p>
-            <p>Der Medienkompass hat vor 2019 einmal versucht, diese Positionen mit einer großen Umfrage zusammenzufassen, nach dem Motto: Wenn eine Hälfte ein Medium für links und die andere Hälfte es für rechts hält, entspricht es wohl der Mitte der Gesellschaft. ${sourceLink("de")} Ich hatte diese Umfrage, die neben der Ausrichtung auch nach der empfundenen Qualität des Journalismus fragte, Anfang 2025 einmal mit Zahlen zur Reichweite verschiedener Medien kombiniert, um einen Überblick zu bekommen, wie man die deutsche Medienlandschaft insgesamt einordnen könnte. Zusammengefasst ergibt sich nach diesen Zahlen das Bild einer deutschen Medienlandschaft, die politisch Mitte rechts steht und nicht unbedingt qualitativ hochwertig berichtet. Die mit Abstand auflagenstärkste Tageszeitung war die BILD, die bekanntermaßen ebenso rechts wie reißerisch ist. Ebenso war ihr Webangebot auch das meistaufgerufene Online-Nachrichtenportal, allerdings war hier der Abstand zu anderen Websites wie der deutlich mittigeren und qualitativ besseren Tagesschau und t-online, das in der Medienkompass-Umfrage wie andere neuere Medien nicht dabei war, aber eher Mitte bis Mitte links eingeordnet wird, nicht so groß wie bei den Printmedien. Im Fernsehen hatten nach wie vor Formate des Öffentlich-Rechtlichen die Nase vorn, während auf YouTube mit Welt TV ein weiteres Mal eine Marke des Springer-Konzerns am reichweitenstärksten war.</p>
+            <p>Der Medienkompass hat 2019 einmal versucht, diese Positionen mit einer großen Umfrage zusammenzufassen, nach dem Motto: Wenn eine Hälfte ein Medium für links und die andere Hälfte es für rechts hält, entspricht es wohl der Mitte der Gesellschaft. ${sourceLink("de")} Ich hatte diese Umfrage, die neben der Ausrichtung auch nach der empfundenen Qualität des Journalismus fragte, Anfang 2025 einmal mit Zahlen zur Reichweite verschiedener Medien kombiniert, um einen Überblick zu bekommen, wie man die deutsche Medienlandschaft insgesamt einordnen könnte. Zusammengefasst ergibt sich nach diesen Zahlen das Bild einer deutschen Medienlandschaft, die politisch Mitte rechts steht und nicht unbedingt qualitativ hochwertig berichtet. Die mit Abstand auflagenstärkste Tageszeitung war die BILD, die bekanntermaßen ebenso rechts wie reißerisch ist. Ebenso war ihr Webangebot auch das meistaufgerufene Online-Nachrichtenportal, allerdings war hier der Abstand zu anderen Websites wie der deutlich mittigeren und qualitativ besseren Tagesschau und t-online, das in der Medienkompass-Umfrage wie andere neuere Medien nicht dabei war, aber eher Mitte bis Mitte links eingeordnet wird, nicht so groß wie bei den Printmedien. Im Fernsehen hatten nach wie vor Formate des Öffentlich-Rechtlichen die Nase vorn, während auf YouTube mit Welt TV ein weiteres Mal eine Marke des Springer-Konzerns am reichweitenstärksten war.</p>
             ${figurePlaceholder("de")}
             <p>Die große Frage bleibt: Was können wir tun, um zumindest zu versuchen, uns bestmöglich zu informieren, anstatt uns manipulieren zu lassen?</p>
           `,
@@ -1466,16 +1474,16 @@
             <p>Um erkannte Sätze zu kategorisieren, wurde schrittweise eine <span class="term">Taxonomie</span> von Bias-Typen entwickelt. Sie basiert auf einem Datensatz aus vielen Beispielen von Bias und Propaganda.</p>
             <p>Die Struktur orientiert sich am <span class="term">Periodensystem</span>: ähnliche Typen werden gruppiert, ihre Anordnung folgt ihrer Häufigkeit im Datensatz, und das System bleibt offen für neue Typen.</p>
 
-            <div class="info-box">
-              <h4>Worum es technisch geht</h4>
-              <ul class="clean-list">
-                <li>Früher war Bias-Analyse mühsame Handarbeit.</li>
-                <li>Mit <span class="term">NLP</span> wurde Sprache mathematisch verarbeitbar.</li>
-                <li><span class="term">Word Embeddings</span> stellen Wörter als Vektoren dar.</li>
-                <li><span class="term">Transformer</span> und große Sprachmodelle können Kontext besser erfassen.</li>
-                <li>BiasScanner nutzt <span class="term">GPT-Fine-Tunes</span>, um Bias zu erkennen und zu erklären.</li>
-              </ul>
-            </div>
+              <div class="info-box">
+      <h4>Worum es technisch geht</h4>
+      <ul class="clean-list">
+        <li>Früher war die Bias-Analyse mühsame Handarbeit.</li>
+        <li>Mit <span class="term">NLP</span> wurde Sprache mathematisch verarbeitbar gemacht.</li>
+        <li><span class="term">Word Embeddings</span> stellen Wörter und ihre Beziehungen zueinander als Vektoren dar.</li>
+        <li><span class="term">Transformer</span> sind große Modelle des maschinellen Lernens, die mithilfe von Word Embeddings Sprache und Kontext besser verarbeiten.</li>
+        <li>BiasScanner nutzt <span class="term">GPT-Fine-Tunes</span> (Generative Pre-trained Transformer), um Bias zu erkennen und zu erklären.</li>
+      </ul>
+    </div>
 
             <p>Entscheidend für das Training ist ein guter Datensatz mit vielfältigen, korrekt klassifizierten Beispielen.</p>
           `,
@@ -1489,7 +1497,7 @@
             <div class="info-box">
               <h4>Warum Medien hier so wirksam sind</h4>
               <ul class="clean-list">
-                <li>Wir konsumieren Nachrichten oft im „Autopilot-Modus“ (<span class="term">System 1</span>).</li>
+                <li>Wir konsumieren Nachrichten oft im „Autopilot-Modus“ (<span class="term">System 1</span> im Gegensatz zu <span class="term">System 2</span>, unserem bewussten und kritischen Denken).</li>
                 <li>Manipulative Sprache erzeugt oft zu wenig Reibung, um bewusst geprüft zu werden.</li>
                 <li>BiasScanner will genau diese Reibung schaffen und dadurch kritisches Nachdenken fördern.</li>
                 <li>Die <span class="term">Inoculation Theory</span> geht davon aus, dass Menschen durch das frühzeitige Erkennen manipulativer Muster resistenter werden können.</li>
@@ -1716,7 +1724,7 @@
             ${figurePlaceholder("en")}
             <p>In the 21st century, that role is increasingly being taken over by the internet and especially by social media, which can hardly be imagined away from today’s information landscape. Human beings in the 21st century are probably bombarded daily with more information, more or less deserving of the label “news”, than ever before in history. As this happens, classical media organizations are steadily losing relevance and interpretive authority; they are on their way to becoming just one voice among many. ${sourceLink("en")} Instead of media organizations deciding which topics we learn about and from which perspective, and us at least theoretically deciding which newspaper to read or which channel to switch on, today the algorithm decides whether we even get to see those media perspectives at all. Confirmation of our existing views is no longer something we have to actively seek out; it is passively served to us.</p>
             ${figurePlaceholder("en")}
-            <p>While false reports themselves are nothing new, and images, documents and reports have been forged in the past as well, the rise of generative AI now enables an entirely new speed and scale in creating and spreading such content. What effect that will have on opinion formation over the course of the 21st century remains to be seen.</p>
+            <p>While false reports themselves are nothing new, and images, documents and reports have been forged in the past as well, the rise of generative AI now enables an entirely new speed and scale in creating and spreading such content. At the same time, AI models are increasingly being used to gather information on political issues and news. Depending on who trained the model and how, this could, of course, become another source of bias in the future. What effect that will have on opinion formation over the course of the 21st century remains to be seen.</p>
           ${figurePlaceholder("en")}
           `,
             causes: () => `
@@ -1810,7 +1818,7 @@
 
             <h3>The German media landscape</h3>
             <p>Depending on whom you ask, the media in Germany are either clearly left-wing or clearly right-wing. ${sourceLink("en")} Unsurprisingly, how one sees this depends primarily on where one stands oneself. For that reason, BiasScanner tries not to measure bias on the left-right spectrum but more concretely through the kind of language being used.</p>
-            <p>Before 2019, Medienkompass once tried to summarize these positions through a large survey, according to the logic that if one half sees a medium as left-wing and the other half as right-wing, it probably corresponds to the middle of society. ${sourceLink("en")} At the beginning of 2025, I combined that survey, which asked not only about political orientation but also about the perceived quality of journalism, with reach figures for various media outlets in order to get an overview of how the German media landscape as a whole might be classified. According to these figures, the overall picture is of a German media landscape that is politically center-right and not necessarily of especially high quality. By far the highest-circulation daily newspaper was BILD, which is famously as right-leaning as it is sensationalist. Its web offering was likewise the most visited online news portal, although here the gap to other sites such as the much more centrist and higher-quality Tagesschau and t-online, which was not included in the Medienkompass survey like some other newer media but is generally placed around the center to center-left, was not as large as in print. On television, public-service formats still led the field, while on YouTube a Springer brand once again came out on top in reach, namely Welt TV.</p>
+            <p>Medienkompass tried to summarize these positions through a large survey in 2019, according to the logic that if one half sees a medium as left-wing and the other half as right-wing, it probably corresponds to the middle of society. ${sourceLink("en")} At the beginning of 2025, I combined that survey, which asked not only about political orientation but also about the perceived quality of journalism, with reach figures for various media outlets in order to get an overview of how the German media landscape as a whole might be classified. According to these figures, the overall picture is of a German media landscape that is politically center-right and not necessarily of especially high quality. By far the highest-circulation daily newspaper was BILD, which is famously as right-leaning as it is sensationalist. Its web offering was likewise the most visited online news portal, although here the gap to other sites such as the much more centrist and higher-quality Tagesschau and t-online, which was not included in the Medienkompass survey like some other newer media but is generally placed around the center to center-left, was not as large as in print. On television, public-service formats still led the field, while on YouTube a Springer brand once again came out on top in reach, namely Welt TV.</p>
             ${figurePlaceholder("en")}
             <p>The big question remains: what can we do to at least try to inform ourselves as well as possible instead of allowing ourselves to be manipulated?</p>
           `,
@@ -1879,17 +1887,16 @@
             <p>To classify biased passages, BiasScanner uses a <span class="term">taxonomy</span> of bias types built from a dataset of many examples of bias and propaganda.</p>
             <p>The taxonomy is inspired by the <span class="term">periodic table</span>: similar types are grouped, arranged by frequency, and the system stays open to new discoveries.</p>
 
-            <div class="info-box">
-              <h4>The technical core</h4>
-              <ul class="clean-list">
-                <li>Earlier bias studies required a lot of manual work.</li>
-                <li><span class="term">NLP</span> made language mathematically processable.</li>
-                <li><span class="term">Word embeddings</span> represent words as vectors.</li>
-                <li><span class="term">Transformers</span> capture context much better.</li>
-                <li>BiasScanner uses <span class="term">GPT fine-tunes</span> to detect and explain bias.</li>
-              </ul>
-            </div>
-
+      <div class="info-box">
+    <h4>What it's about technically</h4>
+    <ul class="clean-list">
+      <li>Bias analysis was once laborious manual work.</li>
+      <li>NLP made language mathematically processable.</li>
+      <li><span class="term">Word embeddings</span> represent words and their relationships as vectors.</li>
+      <li><span class="term">Transformers</span> are large machine learning models that, using <span class="term">word embeddings</span>, process language and context more effectively.</li>
+      <li>BiasScanner uses <span class="term">GPT fine-tunes</span>(Generative Pre-trained Transformer) to detect and explain bias.</li>
+    </ul>
+  </div>
             <p>The quality of the system depends heavily on the quality and diversity of the training dataset.</p>
           `,
             "bias-psychology": () => `
@@ -1902,7 +1909,7 @@
             <div class="info-box">
               <h4>Why media matter here</h4>
               <ul class="clean-list">
-                <li>We consume a lot of news in “autopilot mode” (<span class="term">System 1</span>).</li>
+                <li>We consume a lot of news in “autopilot mode” (<span class="term">System 1</span> as opposed to <span class="term">System 2</span>, our conscious and critical thinking).</li>
                 <li>Manipulative wording often creates too little friction to trigger conscious checking.</li>
                 <li>BiasScanner tries to create that friction.</li>
                 <li><span class="term">Inoculation theory</span> suggests that recognizing manipulative patterns early can make people more resistant later.</li>
