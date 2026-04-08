@@ -16,9 +16,11 @@
       --brand-muted: #7a5a4c;
       --brand-border: rgba(224, 76, 34, 0.14);
     }
+
     html {
       scroll-behavior: smooth;
     }
+
     body {
       font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       color: var(--brand-ink);
@@ -28,6 +30,7 @@
         linear-gradient(180deg, #fff7f2 0%, #ffffff 24%, #fffaf8 100%);
       min-height: 100vh;
     }
+
     .glass-card {
       background: rgba(255, 255, 255, 0.88);
       border: 1px solid var(--brand-border);
@@ -35,6 +38,7 @@
       backdrop-filter: blur(14px);
       -webkit-backdrop-filter: blur(14px);
     }
+
     .hero-card {
       background:
         radial-gradient(circle at 100% 0%, rgba(255, 255, 255, 0.16), transparent 28%),
@@ -42,6 +46,7 @@
       color: white;
       box-shadow: 0 24px 60px rgba(224, 37, 27, 0.26);
     }
+
     .brand-button {
       background: linear-gradient(135deg, var(--brand-red), var(--brand-orange));
       color: white;
@@ -49,43 +54,51 @@
       box-shadow: 0 16px 30px rgba(224, 37, 27, 0.22);
       transition: transform 0.18s ease, box-shadow 0.18s ease, opacity 0.18s ease;
     }
+
     .brand-button:hover {
       transform: translateY(-1px);
       box-shadow: 0 20px 34px rgba(224, 37, 27, 0.28);
     }
+
     .secondary-button {
       background: white;
       color: var(--brand-ink);
       border: 1px solid rgba(122, 90, 76, 0.18);
       transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease;
     }
+
     .secondary-button:hover {
       transform: translateY(-1px);
       background: #fff8f4;
       border-color: rgba(224, 76, 34, 0.3);
     }
+
     .ghost-button {
       color: var(--brand-muted);
       border: 1px dashed rgba(122, 90, 76, 0.24);
       background: rgba(255, 255, 255, 0.72);
       transition: background 0.18s ease, color 0.18s ease, border-color 0.18s ease;
     }
+
     .ghost-button:hover {
       background: #fff7f2;
       color: var(--brand-ink);
       border-color: rgba(224, 76, 34, 0.28);
     }
+
     .accent-strip {
       background: linear-gradient(90deg, var(--brand-red), var(--brand-orange));
       height: 4px;
       border-radius: 999px;
     }
+
     .pill-badge {
       background: rgba(255, 255, 255, 0.12);
       border: 1px solid rgba(255, 255, 255, 0.18);
       backdrop-filter: blur(10px);
       -webkit-backdrop-filter: blur(10px);
     }
+
     .tag-chip {
       display: inline-flex;
       align-items: center;
@@ -97,12 +110,14 @@
       border: 1px solid transparent;
       line-height: 1;
     }
+
     .tag-dot {
       width: 0.6rem;
       height: 0.6rem;
       border-radius: 999px;
       flex-shrink: 0;
     }
+
     .tag-remove {
       display: inline-flex;
       align-items: center;
@@ -117,9 +132,11 @@
       font-weight: 900;
       line-height: 1;
     }
+
     .tag-remove:hover {
       background: rgba(255, 255, 255, 0.95);
     }
+
     .status-badge {
       display: inline-flex;
       align-items: center;
@@ -130,6 +147,7 @@
       font-weight: 800;
       letter-spacing: 0.01em;
     }
+
     .decision-button {
       border-radius: 999px;
       padding: 0.52rem 0.9rem;
@@ -141,25 +159,30 @@
       transition: all 0.16s ease;
       white-space: nowrap;
     }
+
     .decision-button:hover {
       border-color: rgba(224, 76, 34, 0.34);
       background: #fff7f2;
     }
+
     .decision-yes-active {
       color: white;
       border-color: transparent;
       background: linear-gradient(135deg, #ff6b00, #ff8a2a);
       box-shadow: 0 10px 22px rgba(255, 107, 0, 0.26);
     }
+
     .decision-no-active {
       color: white;
       border-color: transparent;
       background: linear-gradient(135deg, #c81e1e, #e0251b);
       box-shadow: 0 10px 22px rgba(224, 37, 27, 0.22);
     }
+
     .type-button {
       cursor: help;
     }
+
     .input-base,
     textarea.input-base {
       width: 100%;
@@ -171,12 +194,14 @@
       outline: none;
       transition: border-color 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
     }
+
     .input-base:focus,
     textarea.input-base:focus {
       border-color: rgba(255, 107, 0, 0.45);
       box-shadow: 0 0 0 4px rgba(255, 107, 0, 0.12);
       background: white;
     }
+
     .autocomplete-panel {
       position: absolute;
       left: 0;
@@ -191,6 +216,7 @@
       overflow-y: auto;
       padding: 0.35rem;
     }
+
     .autocomplete-item {
       width: 100%;
       display: flex;
@@ -204,33 +230,40 @@
       background: transparent;
       cursor: pointer;
     }
+
     .autocomplete-item:hover {
       background: #fff4ed;
     }
+
     .taxonomy-scroll {
       max-height: calc(100vh - 12rem);
       overflow-y: auto;
       padding-right: 0.35rem;
     }
+
     details summary {
       list-style: none;
       cursor: pointer;
     }
+
     details summary::-webkit-details-marker {
       display: none;
     }
+
     .taxonomy-group {
       border-radius: 1.2rem;
       overflow: hidden;
       border: 1px solid rgba(122, 90, 76, 0.14);
       background: rgba(255, 255, 255, 0.82);
     }
+
     .taxonomy-type {
       border-radius: 1rem;
       border: 1px solid rgba(122, 90, 76, 0.1);
       background: rgba(255, 255, 255, 0.88);
       overflow: hidden;
     }
+
     .toast {
       position: fixed;
       right: 1rem;
@@ -247,10 +280,12 @@
       pointer-events: none;
       transition: opacity 0.22s ease, transform 0.22s ease;
     }
+
     .toast.show {
       opacity: 1;
       transform: translateY(0);
     }
+
     #hover-tooltip {
       position: fixed;
       z-index: 80;
@@ -266,16 +301,153 @@
       transform: translateY(6px);
       transition: opacity 0.12s ease, transform 0.12s ease;
     }
+
     #hover-tooltip.show {
       opacity: 1;
       transform: translateY(0);
     }
+
     .warm-ring {
       box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.16), 0 18px 48px rgba(224, 37, 27, 0.18);
     }
+
     .section-title {
       letter-spacing: -0.02em;
     }
+
+    .pulse-glow {
+      animation: pulse-glow 2s infinite;
+    }
+
+    @keyframes pulse-glow {
+      0% { box-shadow: 0 0 0 0 rgba(224, 37, 27, 0.4); }
+      70% { box-shadow: 0 0 0 10px rgba(224, 37, 27, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(224, 37, 27, 0); }
+    }
+
+    #confetti-canvas {
+      position: fixed;
+      inset: 0;
+      z-index: 200;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.15s ease;
+    }
+    #confetti-canvas.active {
+      opacity: 1;
+    }
+
+    .gamification-bar {
+      background: rgba(255, 255, 255, 0.92);
+      border: 1px solid var(--brand-border);
+      box-shadow: 0 8px 24px rgba(126, 50, 15, 0.06);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+    }
+
+    .xp-progress-track {
+      height: 6px;
+      border-radius: 999px;
+      background: rgba(224, 37, 27, 0.08);
+      overflow: hidden;
+    }
+
+    .xp-progress-fill {
+      height: 100%;
+      border-radius: 999px;
+      background: linear-gradient(90deg, var(--brand-red), var(--brand-orange));
+      transition: width 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+
+    .streak-fire {
+      display: inline-block;
+      animation: fire-flicker 1.2s ease-in-out infinite alternate;
+    }
+
+    @keyframes fire-flicker {
+      0% { transform: scale(1) rotate(-3deg); }
+      100% { transform: scale(1.12) rotate(3deg); }
+    }
+
+    .xp-popup {
+      position: fixed;
+      z-index: 150;
+      font-weight: 900;
+      font-size: 1.1rem;
+      color: var(--brand-orange);
+      pointer-events: none;
+      animation: xp-float-up 1.4s ease-out forwards;
+      text-shadow: 0 1px 4px rgba(224, 37, 27, 0.18);
+    }
+
+    @keyframes xp-float-up {
+      0% { opacity: 1; transform: translateY(0) scale(1); }
+      60% { opacity: 1; transform: translateY(-48px) scale(1.15); }
+      100% { opacity: 0; transform: translateY(-72px) scale(0.9); }
+    }
+
+    #level-up-modal {
+      position: fixed;
+      inset: 0;
+      z-index: 180;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(45, 31, 26, 0.55);
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+    }
+
+    #level-up-modal.show {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .level-up-card {
+      background:
+        radial-gradient(circle at 30% 0%, rgba(255, 255, 255, 0.2), transparent 40%),
+        linear-gradient(145deg, #fff7f2, #ffffff);
+      border-radius: 2rem;
+      padding: 2.5rem 2rem 2rem;
+      text-align: center;
+      max-width: 22rem;
+      width: 90%;
+      box-shadow: 0 30px 80px rgba(224, 37, 27, 0.22);
+      transform: scale(0.85);
+      transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+
+    #level-up-modal.show .level-up-card {
+      transform: scale(1);
+    }
+
+    .level-icon-bounce {
+      display: inline-block;
+      animation: icon-bounce 0.6s ease-out;
+    }
+
+    @keyframes icon-bounce {
+      0% { transform: scale(0) rotate(-20deg); }
+      60% { transform: scale(1.25) rotate(5deg); }
+      100% { transform: scale(1) rotate(0); }
+    }
+
+    .milestone-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      padding: 0.3rem 0.7rem;
+      border-radius: 999px;
+      font-size: 0.72rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, rgba(255, 107, 0, 0.12), rgba(224, 37, 27, 0.12));
+      color: #9b2b1b;
+      border: 1px solid rgba(224, 37, 27, 0.15);
+    }
+
     @media (max-width: 1279px) {
       .taxonomy-scroll {
         max-height: none;
@@ -290,154 +462,242 @@
       <div class="absolute right-0 top-0 h-80 w-80 rounded-full bg-orange-200/40 blur-3xl"></div>
       <div class="absolute bottom-0 left-1/3 h-72 w-72 rounded-full bg-amber-100/40 blur-3xl"></div>
     </div>
+
     <header class="relative border-b border-white/20 bg-white/50 backdrop-blur-xl">
       <div class="mx-auto max-w-7xl px-4 py-5 sm:px-6 lg:px-8">
-        <div class="hero-card warm-ring rounded-[1.8rem] px-6 py-7 sm:px-8 sm:py-8">
-          <div class="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
-            <div class="max-w-3xl">
+        <div class="hero-card warm-ring relative overflow-hidden rounded-[1.8rem] px-6 py-7 sm:px-8 sm:py-8">
+          <!-- Language Toggle -->
+          <div class="absolute right-5 top-5 z-10 flex gap-1 rounded-full bg-white/20 p-1 backdrop-blur-md ring-1 ring-white/30">
+            <button id="lang-en" class="h-8 w-8 rounded-full bg-white text-lg shadow-sm transition-all hover:scale-105" title="English">🇬🇧</button>
+            <button id="lang-de" class="h-8 w-8 rounded-full opacity-70 text-lg grayscale transition-all hover:scale-105 hover:opacity-100 hover:grayscale-0" title="Deutsch">🇩🇪</button>
+          </div>
+          
+          <div class="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between mt-2 sm:mt-0">
+            <div class="max-w-3xl relative z-10">
               <div class="mb-4 inline-flex items-center gap-2 rounded-full px-3 py-1 text-xs font-black uppercase tracking-[0.16em] pill-badge">
                 <span class="inline-block h-2 w-2 rounded-full bg-white"></span>
-                BiasRank / BiasScanner workflow
+                BiasScanner
               </div>
-              <h1 class="section-title text-3xl font-black tracking-tight sm:text-4xl lg:text-[2.8rem]">
-                Bias sentence resolution
+              <h1 data-i18n="title_main" class="section-title text-3xl font-black tracking-tight sm:text-4xl lg:text-[2.8rem]">
+                Decide yourself!
               </h1>
-              <p class="mt-3 max-w-2xl text-sm leading-6 text-white/88 sm:text-base">
-                Review one sentence at a time, verify whether disputed bias types really apply, and optionally leave a short explanation for your decision.
+              <p data-i18n="title_sub" class="mt-3 max-w-2xl text-sm leading-6 text-white/88 sm:text-base pr-10 sm:pr-0">
+                Pick the bias types you think apply to real sentences from our dataset.
               </p>
             </div>
-            <div class="grid gap-3 sm:grid-cols-2 lg:min-w-[22rem]">
-              <div class="pill-badge rounded-2xl px-4 py-3">
-                <div class="text-[0.68rem] font-black uppercase tracking-[0.16em] text-white/70">Dataset source</div>
-                <div id="dataset-source-badge" class="mt-1 text-sm font-bold text-white">Loading…</div>
-              </div>
-              <div class="pill-badge rounded-2xl px-4 py-3">
-                <div class="text-[0.68rem] font-black uppercase tracking-[0.16em] text-white/70">Resolver ID</div>
-                <div id="resolver-id" class="mt-1 text-sm font-bold text-white">Generating…</div>
-              </div>
-            </div>
+            <div id="resolver-id" class="hidden"></div>
+            <div id="dataset-source-badge" class="hidden"></div>
           </div>
         </div>
       </div>
     </header>
+
+    <!-- Gamification Bar -->
+    <div class="relative">
+      <div class="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
+        <div id="gamification-bar" class="gamification-bar rounded-[1.4rem] px-5 py-4">
+          <div class="flex flex-wrap items-center gap-4 sm:gap-6">
+            <!-- Level & XP -->
+            <div class="flex items-center gap-3 min-w-0">
+              <div id="gamification-level-icon" class="text-2xl flex-shrink-0">🌱</div>
+              <div class="min-w-0">
+                <div class="flex items-center gap-2">
+                  <span id="gamification-level-title" class="text-sm font-black text-[#2d1f1a]">Beginner Annotator</span>
+                  <span class="milestone-badge"><span id="gamification-level-num">Lv. 1</span></span>
+                </div>
+                <div class="mt-1 flex items-center gap-2">
+                  <div class="xp-progress-track flex-1 min-w-[120px]">
+                    <div id="xp-progress-fill" class="xp-progress-fill" style="width: 0%"></div>
+                  </div>
+                  <span id="gamification-xp-text" class="text-[0.7rem] font-bold text-[#7a5a4c] whitespace-nowrap">0 XP</span>
+                </div>
+              </div>
+            </div>
+            <!-- Stats -->
+            <div id="gamification-stats" class="flex items-center gap-4">
+              <div class="text-center">
+                <div class="text-[0.6rem] font-black uppercase tracking-[0.12em] text-[#b85e2a]">Annotations</div>
+                <div id="gamification-annotations" class="text-lg font-black text-[#2d1f1a]">0</div>
+              </div>
+              <div class="text-center">
+                <div class="text-[0.6rem] font-black uppercase tracking-[0.12em] text-[#b85e2a]">Streak</div>
+                <div class="flex items-center gap-1 justify-center">
+                  <span class="streak-fire text-lg">🔥</span>
+                  <span id="gamification-streak" class="text-lg font-black text-[#2d1f1a]">0</span>
+                </div>
+              </div>
+            </div>
+            <!-- Gamification Controls -->
+            <div class="flex items-center gap-2 ml-auto flex-shrink-0">
+              <button id="gamification-toggle-btn" type="button" class="rounded-full px-5 py-2.5 text-sm font-bold border border-[rgba(122,90,76,0.2)] bg-white text-[#5a463d] hover:bg-[#fff7f2] hover:border-[rgba(224,76,34,0.35)] transition-all duration-150" title="Toggle gamification on/off">
+                <span data-i18n="gamification_toggle_on">🎮 On</span>
+              </button>
+              <button id="gamification-reset-btn" type="button" class="rounded-full px-5 py-2.5 text-sm font-bold border border-[rgba(122,90,76,0.2)] bg-white text-[#5a463d] hover:bg-[#fff7f2] hover:border-[rgba(224,76,34,0.35)] transition-all duration-150" title="Reset all gamification progress">
+                <span data-i18n="gamification_reset">🔄 Reset</span>
+              </button>
+            </div>
+          </div>
+          <!-- Gamification Info Text -->
+          <div id="gamification-info" class="mt-4 border-t border-[rgba(122,90,76,0.08)] pt-4">
+            <p data-i18n="gamification_info" class="text-xs leading-6 text-[#7a5a4c]">
+              <strong class="text-[#2d1f1a]">How XP works:</strong> You earn <strong class="text-[#e0251b]">10–25 XP</strong> per sentence based on how much time you spend reviewing it.
+              The required time starts at <strong>25 seconds</strong> and increases by <strong>5 s</strong> for each type in "Quite certain" and <strong>10 s</strong> for each type in "Uncertain".
+              A thoughtful <strong class="text-[#e0251b]">explanation earns +15 bonus XP</strong>. Consecutive saves build a <strong>streak</strong> (3×: +10 %, 5×: +25 %, 10×: +50 %).
+              Your XP level tracks your overall contribution — from 🌱 Beginner Annotator up to 💎 Bias Legend.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <main class="relative mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8 lg:py-8">
       <section class="glass-card rounded-[1.7rem] p-6 sm:p-7">
-        <div class="grid gap-6 lg:grid-cols-[1.15fr_0.85fr] lg:items-start">
+        <div>
           <div>
             <div class="accent-strip mb-4 w-24"></div>
-            <h2 class="section-title text-2xl font-black">What you should do</h2>
-            <p class="mt-3 max-w-3xl text-sm leading-6 text-[#5f4a41] sm:text-[0.98rem]">
-              Read the sentence, keep an eye on the preselected union types, and focus primarily on the disputed types in the dissent field. For each dissent type, decide whether it applies or not. You can also add other taxonomy types via the autocomplete search if needed, and optionally provide a short explanation.
+            <h2 data-i18n="how_to_participate" class="section-title text-2xl font-black">How to participate</h2>
+            <p data-i18n="instructions_main" class="mt-3 max-w-3xl text-sm leading-6 text-[#5f4a41] sm:text-[0.98rem]">
+              Try selecting the fitting bias types yourself! Review random sentences from our dataset. Remove types from <strong>"Quite certain"</strong> if you disagree, add types that are not yet selected, and make a final decision for every type listed under <strong>"Uncertain"</strong>.
             </p>
             <div class="mt-5 grid gap-3 sm:grid-cols-2">
               <div class="rounded-2xl bg-[#fff6f1] p-4 ring-1 ring-[rgba(224,76,34,0.08)]">
-                <div class="text-sm font-black text-[#9b2b1b]">Main task</div>
-                <p class="mt-1 text-sm text-[#6f5346]">Decide for every type listed in <strong>Dissent</strong> whether it really applies.</p>
+                <div data-i18n="main_task" class="text-sm font-black text-[#9b2b1b]">Main task</div>
+                <p data-i18n="main_task_desc" class="mt-1 text-sm text-[#6f5346]">Decide for every type listed under <strong>Uncertain</strong> whether it really applies or not.</p>
               </div>
               <div class="rounded-2xl bg-[#fff9f3] p-4 ring-1 ring-[rgba(255,107,0,0.08)]">
-                <div class="text-sm font-black text-[#b14d00]">Helpful interaction</div>
-                <p class="mt-1 text-sm text-[#6f5346]">Hover over any type name to see its taxonomy definition and example.</p>
+                <div data-i18n="tip" class="text-sm font-black text-[#b14d00]">Tip</div>
+                <p data-i18n="tip_desc" class="mt-1 text-sm text-[#6f5346]">Hover over any type name to see its taxonomy definition and example.</p>
               </div>
             </div>
           </div>
-          <div class="rounded-[1.4rem] bg-gradient-to-br from-[#fff7f2] to-[#fff1ea] p-5 ring-1 ring-[rgba(224,76,34,0.08)]">
-            <div class="text-[0.68rem] font-black uppercase tracking-[0.16em] text-[#b85e2a]">Saving notice</div>
-            <p class="mt-2 text-sm leading-6 text-[#694d41]">
-              If you choose <strong>Save decision</strong>, your annotation may be used to help train future iterations of <strong>BiasScanner</strong>. This page does not store personal data.
-            </p>
-            <div class="mt-4 flex flex-wrap gap-2 text-xs text-[#875f50]">
-              <span class="rounded-full bg-white px-3 py-1.5 ring-1 ring-[rgba(122,90,76,0.12)]">JSONL-ready output</span>
-              <span class="rounded-full bg-white px-3 py-1.5 ring-1 ring-[rgba(122,90,76,0.12)]">Hover taxonomy help</span>
-              <span class="rounded-full bg-white px-3 py-1.5 ring-1 ring-[rgba(122,90,76,0.12)]">Single-file interface</span>
-            </div>
-          </div>
+
         </div>
       </section>
+
       <div class="mt-6 grid gap-6 xl:grid-cols-[minmax(0,1.35fr)_minmax(22rem,0.85fr)]">
         <section class="space-y-6">
           <div class="glass-card rounded-[1.7rem] p-6 sm:p-7">
             <div class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
               <div>
-                <div class="text-[0.7rem] font-black uppercase tracking-[0.16em] text-[#b85e2a]">Current sentence</div>
+                <div data-i18n="current_sentence" class="text-[0.7rem] font-black uppercase tracking-[0.16em] text-[#b85e2a]">Current sentence</div>
                 <div id="sentence-pool-info" class="mt-2 text-sm text-[#7a5a4c]">Preparing dataset…</div>
               </div>
-              <div id="status-badge" class="status-badge bg-[#fff4ed] text-[#ae3f12] ring-1 ring-[rgba(255,107,0,0.16)]">
-                Pending review
+              <div class="flex flex-wrap items-center gap-3">
+                <button id="see-others-btn" type="button" class="pulse-glow brand-button rounded-full px-6 py-2.5 text-sm font-black tracking-wide">
+                  <span data-i18n="see_others">👥 See how others decided</span>
+                </button>
+                <div id="status-badge" class="status-badge bg-[#fff4ed] text-[#ae3f12] ring-1 ring-[rgba(255,107,0,0.16)]">
+                  Pending review
+                </div>
               </div>
             </div>
             <div class="mt-5 rounded-[1.45rem] border border-[rgba(224,76,34,0.1)] bg-gradient-to-br from-white to-[#fff7f4] p-5 sm:p-6">
               <p id="current-sentence" class="text-lg leading-8 font-medium text-[#2d1f1a] sm:text-[1.32rem]">Loading sentence…</p>
             </div>
+
+            <!-- Other Decisions View -->
+            <div id="other-decisions-container" class="mt-4 hidden rounded-2xl bg-[#fffcf9] p-5 ring-1 ring-[rgba(224,76,34,0.08)]">
+              <div class="flex items-center justify-between">
+                <h4 data-i18n="community_insights" class="text-xs font-black uppercase tracking-[0.14em] text-[#b14d00]">Community Insights</h4>
+                <button id="close-others-btn" data-i18n="close" class="text-xs font-bold text-[#7a5a4c] hover:text-[#2d1f1a]">Close</button>
+              </div>
+              <div id="other-decisions-content" class="mt-3 grid gap-4 text-sm sm:grid-cols-2">
+                <div class="loading-others text-[#7a5a4c]">Fetching results…</div>
+              </div>
+            </div>
+
+            <!-- Bias Strength Slider -->
+            <div class="mt-6 border-t border-[rgba(122,90,76,0.08)] pt-6">
+              <div class="flex items-center justify-between gap-4">
+                <div class="max-w-md">
+                  <h4 data-i18n="overall_bias_intensity" class="text-sm font-black text-[#2d1f1a]">Overall Bias Intensity</h4>
+                  <p data-i18n="overall_bias_desc" class="mt-1 text-xs text-[#7a5a4c]">How strong is the bias in this sentence overall? (0.0 = Neutral, 1.0 = Extreme)</p>
+                </div>
+                <div id="strength-display" class="rounded-full bg-[#fff6f1] px-4 py-2 text-lg font-black text-[#e0251b] ring-1 ring-[rgba(224,76,34,0.12)]">0.00</div>
+              </div>
+              <div class="mt-4 flex items-center gap-4">
+                <span data-i18n="neutral" class="text-[0.65rem] font-black uppercase tracking-[0.1em] text-[#7a5a4c]">Neutral</span>
+                <input id="bias-strength-slider" type="range" min="0" max="1" step="0.01" value="0" class="h-2 w-full cursor-pointer appearance-none rounded-lg bg-[#f0e4dd] accent-[#ff6b00]" />
+                <span data-i18n="biased" class="text-[0.65rem] font-black uppercase tracking-[0.1em] text-[#7a5a4c]">Biased</span>
+              </div>
+            </div>
           </div>
+
           <div class="grid gap-6 lg:grid-cols-2">
             <div class="glass-card rounded-[1.7rem] p-6">
               <div class="flex items-start justify-between gap-4">
                 <div>
-                  <div class="text-[0.7rem] font-black uppercase tracking-[0.16em] text-[#b85e2a]">Union</div>
-                  <h3 class="section-title mt-2 text-xl font-black">Current selected types</h3>
-                  <p class="mt-2 text-sm leading-6 text-[#6f5346]">Types from union are preselected by default, but you can remove them or add more types from the taxonomy.</p>
+                  <div data-i18n="quite_certain" class="text-[0.7rem] font-black uppercase tracking-[0.16em] text-[#b85e2a]">Quite certain</div>
+                  <h3 data-i18n="currently_selected_types" class="section-title mt-2 text-xl font-black">Currently selected types</h3>
+                  <p data-i18n="currently_selected_desc" class="mt-2 text-sm leading-6 text-[#6f5346]">These types are preselected. Remove any you disagree with, or add new ones from the taxonomy.</p>
                 </div>
                 <div id="union-count" class="rounded-full bg-[#fff6f1] px-3 py-1.5 text-xs font-black text-[#a6471a] ring-1 ring-[rgba(224,76,34,0.08)]">0 types</div>
               </div>
+
               <div id="union-tags" class="mt-5 flex min-h-[3.2rem] flex-wrap gap-2"></div>
+
               <div class="mt-5">
-                <label for="add-type-input" class="mb-2 block text-sm font-bold text-[#5c4337]">Add another taxonomy type</label>
+                <label for="add-type-input" data-i18n="add_another_type" class="mb-2 block text-sm font-bold text-[#5c4337]">Add another taxonomy type</label>
                 <div class="relative">
                   <div class="flex gap-3">
-                    <input id="add-type-input" class="input-base" type="text" autocomplete="off" placeholder="Search taxonomy types…" />
-                    <button id="add-type-btn" type="button" class="brand-button rounded-2xl px-4 py-3 font-bold whitespace-nowrap">Add type</button>
+                    <input id="add-type-input" class="input-base" type="text" autocomplete="off" placeholder="Search taxonomy types…" data-i18n-placeholder="search_placeholder" />
+                    <button id="add-type-btn" type="button" class="brand-button rounded-2xl px-4 py-3 font-bold whitespace-nowrap"><span data-i18n="add_type_btn">Add type</span></button>
                   </div>
                   <div id="autocomplete-results" class="autocomplete-panel hidden"></div>
                 </div>
               </div>
             </div>
+
             <div class="glass-card rounded-[1.7rem] p-6">
               <div class="flex items-start justify-between gap-4">
                 <div>
-                  <div class="text-[0.7rem] font-black uppercase tracking-[0.16em] text-[#b85e2a]">Dissent</div>
-                  <h3 class="section-title mt-2 text-xl font-black">Decide whether each type applies</h3>
-                  <p class="mt-2 text-sm leading-6 text-[#6f5346]">This is the main review task. Choose either <strong>Applies</strong> or <strong>Does not apply</strong> for each disputed type.</p>
+                  <div data-i18n="uncertain" class="text-[0.7rem] font-black uppercase tracking-[0.16em] text-[#b85e2a]">Uncertain</div>
+                  <h3 data-i18n="decide_applies" class="section-title mt-2 text-xl font-black">Decide whether each type applies</h3>
+                  <p data-i18n="decide_applies_desc" class="mt-2 text-sm leading-6 text-[#6f5346]">These types are disputed. Choose <strong>Applies</strong> or <strong>Does not apply</strong> for each one. Hover over a name to see its definition.</p>
                 </div>
                 <div id="dissent-progress" class="rounded-full bg-[#fff6f1] px-3 py-1.5 text-xs font-black text-[#a6471a] ring-1 ring-[rgba(224,76,34,0.08)]">0 / 0 decided</div>
               </div>
               <div id="dissent-list" class="mt-5 space-y-3"></div>
             </div>
           </div>
+
           <div class="glass-card rounded-[1.7rem] p-6">
             <div class="flex items-start justify-between gap-4">
               <div>
-                <div class="text-[0.7rem] font-black uppercase tracking-[0.16em] text-[#b85e2a]">Optional explanation</div>
-                <h3 class="section-title mt-2 text-xl font-black">Why did you decide this way?</h3>
-                <p class="mt-2 text-sm leading-6 text-[#6f5346]">You can optionally describe your reasoning. If provided, it will be added as an <code>explanation</code> field in the output.</p>
+                <div data-i18n="optional_explanation" class="text-[0.7rem] font-black uppercase tracking-[0.16em] text-[#b85e2a]">Optional explanation</div>
+                <h3 data-i18n="why_decide" class="section-title mt-2 text-xl font-black">Why did you decide this way?</h3>
+                <p data-i18n="why_decide_desc" class="mt-2 text-sm leading-6 text-[#6f5346]">Feel free to share your reasoning if you would like to — this is entirely optional.</p>
               </div>
               <div id="explanation-count" class="rounded-full bg-[#fff8f4] px-3 py-1.5 text-xs font-black text-[#8c674f] ring-1 ring-[rgba(122,90,76,0.08)]">0 chars</div>
             </div>
             <div class="mt-5">
-              <textarea id="explanation" class="input-base min-h-[9.5rem] resize-y" placeholder="Optional explanation…"></textarea>
+              <textarea id="explanation" class="input-base min-h-[9.5rem] resize-y" placeholder="Optional explanation…" data-i18n-placeholder="explanation_placeholder"></textarea>
             </div>
           </div>
+
           <div class="glass-card rounded-[1.7rem] p-6">
             <div class="flex flex-col gap-5 lg:flex-row lg:items-center lg:justify-between">
               <div class="max-w-2xl">
-                <div class="text-[0.7rem] font-black uppercase tracking-[0.16em] text-[#b85e2a]">Actions</div>
-                <p class="mt-2 text-sm leading-6 text-[#6f5346]">
-                  Saving logs a single JSONL-style record in the browser console and exposes it in JavaScript for later integration. Getting a new sentence will discard the current decisions without saving them.
+                <div data-i18n="actions" class="text-[0.7rem] font-black uppercase tracking-[0.16em] text-[#b85e2a]">Actions</div>
+                <p data-i18n="actions_desc" class="mt-2 text-sm leading-6 text-[#6f5346]">
+                  When you <strong>save</strong>, your annotation will be used to train future iterations of <strong>BiasScanner</strong>. We do not collect any personal data — everything remains completely anonymous. Alternatively, skip to a new sentence without saving.
                 </p>
               </div>
               <div class="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:justify-end">
-                <button id="reset-btn" type="button" class="ghost-button rounded-2xl px-4 py-3 font-semibold">Reset current decisions</button>
-                <button id="new-sentence-btn" type="button" class="secondary-button rounded-2xl px-5 py-3 font-bold">New sentence without saving</button>
-                <button id="save-btn" type="button" class="brand-button rounded-2xl px-5 py-3 font-black">Save decision</button>
+                <button id="reset-btn" type="button" class="ghost-button rounded-2xl px-4 py-3 font-semibold"><span data-i18n="reset_decisions">Reset current decisions</span></button>
+                <button id="new-sentence-btn" type="button" class="secondary-button rounded-2xl px-5 py-3 font-bold"><span data-i18n="new_sentence">New sentence without saving</span></button>
+                <button id="save-btn" type="button" class="brand-button rounded-2xl px-5 py-3 font-black"><span data-i18n="save_decision">Save decision</span></button>
               </div>
             </div>
           </div>
         </section>
+
         <aside class="glass-card rounded-[1.7rem] p-5 sm:p-6">
           <div class="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
             <div>
-              <div class="text-[0.7rem] font-black uppercase tracking-[0.16em] text-[#b85e2a]">Taxonomy reference</div>
-              <h2 class="section-title mt-2 text-2xl font-black">Full taxonomy</h2>
-              <p class="mt-2 text-sm leading-6 text-[#6f5346]">Each group and each type can be expanded or collapsed. Hover over type names anywhere in the interface to see definitions and examples.</p>
+              <div data-i18n="taxonomy_ref" class="text-[0.7rem] font-black uppercase tracking-[0.16em] text-[#b85e2a]">Taxonomy reference</div>
+              <h2 data-i18n="full_taxonomy" class="section-title mt-2 text-2xl font-black">Full taxonomy</h2>
+              <p data-i18n="full_taxonomy_desc" class="mt-2 text-sm leading-6 text-[#6f5346]">Each group and each type can be expanded or collapsed. Hover over type names anywhere in the interface to see definitions and examples.</p>
             </div>
             <div class="rounded-full bg-[#fff6f1] px-3 py-1.5 text-xs font-black text-[#a6471a] ring-1 ring-[rgba(224,76,34,0.08)]">v1.0</div>
           </div>
@@ -445,9 +705,46 @@
         </aside>
       </div>
     </main>
+
     <div id="toast" class="toast"></div>
     <div id="hover-tooltip"></div>
+
+    <!-- Confetti Canvas -->
+    <canvas id="confetti-canvas"></canvas>
+
+    <!-- Level Up Modal -->
+    <div id="level-up-modal">
+      <div class="level-up-card">
+        <div id="level-up-icon" class="text-5xl mb-3 level-icon-bounce">🌱</div>
+        <div data-i18n="level_up" class="text-[0.7rem] font-black uppercase tracking-[0.16em] text-[#b85e2a]">Level Up!</div>
+        <h3 id="level-up-title" class="text-2xl font-black text-[#2d1f1a] mt-1">Type Spotter</h3>
+        <p id="level-up-level" class="text-sm font-bold text-[#7a5a4c] mt-1">Level 2</p>
+        <p id="level-up-desc" class="text-sm text-[#6f5346] mt-3 leading-6">You're getting the hang of this! Keep annotating to reach the next level.</p>
+        <div class="mt-5">
+          <button id="level-up-close" class="brand-button rounded-2xl px-8 py-3 font-black text-sm"><span data-i18n="awesome">Awesome!</span></button>
+        </div>
+      </div>
+    </div>
   </div>
+
+  <!-- Custom Confirmation Modal (to handle "Don't ask again") -->
+  <div id="confirm-modal" class="fixed inset-0 z-[100] flex hidden items-center justify-center bg-black/40 backdrop-blur-sm p-4">
+    <div class="glass-card w-full max-w-md rounded-[1.8rem] p-7 shadow-2xl">
+      <h3 data-i18n="save_contribution" class="text-xl font-black text-[#2d1f1a]">Save contribution?</h3>
+      <p data-i18n="save_contribution_desc" class="mt-3 text-sm leading-6 text-[#6f5346]">
+        Your decision may be used to help train future iterations of BiasScanner. No personal data is stored — everything is anonymous.
+      </p>
+      <div class="mt-5 flex items-center gap-2">
+        <input type="checkbox" id="skip-confirm-checkbox" class="h-4 w-4 accent-[#ff6b00]">
+        <label for="skip-confirm-checkbox" data-i18n="dont_ask_again" class="text-xs font-bold text-[#7a5a4c]">Don't ask me again</label>
+      </div>
+      <div class="mt-6 flex justify-end gap-3">
+        <button id="confirm-cancel" class="secondary-button rounded-xl px-4 py-2 text-sm font-bold"><span data-i18n="cancel">Cancel</span></button>
+        <button id="confirm-proceed" class="brand-button rounded-xl px-5 py-2 text-sm font-black"><span data-i18n="save_annotation">Save & Continue</span></button>
+      </div>
+    </div>
+  </div>
+
   <script id="taxonomy-json" type="application/json">
 {
   "name": "Bias Taxonomy",
@@ -658,60 +955,617 @@
   }
 }
   </script>
+
   <script id="fallback-jsonl" type="text/plain">
 {"sentence":"This is an example sentence.","union":["Word Choice Bias"],"dissent":["Magnitude Bias"]}
 {"sentence":"This is another example sentence!","union":[],"dissent":["Speculation Bias","Vagueness Bias"]}
   </script>
+
   <script>
-    const DATASET_FILE = './sentences.jsonl';
+    const taxTranslations = {
+      "de": {
+        "groups": {
+          "Framing": "Framing",
+          "Personalizing": "Personalisieren",
+          "Deflecting": "Ablenken",
+          "Asserting": "Behaupten",
+          "Misreasoning": "Fehlschließen",
+          "Dividing": "Spalten",
+          "Preferring": "Bevorzugen",
+          "Confirming": "Bestätigen"
+        },
+        "types": {
+          "Word Choice Bias": { name: "Wortwahl", def: "Die Wahl bestimmter Wörter und Ausdrücke mit inhärent positiven oder negativen Konnotationen, die die Wahrnehmung beeinflussen.", ex: "\"Horden von Punks schwärmten im Sommer auf die Insel und stürzten sie ins Chaos.\"" },
+          "Emotional Sensationalism Bias": { name: "Emotionaler Sensationalismus", def: "Verwendung alarmierender, provokanter oder übertriebener Sprache, um (starke) Emotionen hervorzurufen.", ex: "\"Sogar die EU ist schockiert über Frankreichs Vorgehen gegen die USA!\"" },
+          "Magnitude Bias": { name: "Magnitude", def: "Die Schwere oder Relevanz eines Problems wird relativiert, heruntergespielt oder übertrieben.", ex: "\"Das schlimmste Bürokratiemonster aller Zeiten!\"" },
+          "Rhetorical Bias": { name: "Rhetorisch", def: "Die Verwendung rhetorischer Mittel wie Sarkasmus, Ironie oder Übertreibung, um die Wahrnehmung zu lenken.", ex: "\"Christian Lindner wurde zuletzt weinend auf dem Deck des brennenden Schiffes gesehen.\"" },
+          "Empty Symbol Bias": { name: "Leere Symbolik", def: "Aufruf von Symbolen, Phrasen oder Konzepten, die über ihre objektive Realität hinaus aufgeladen sind.", ex: "\"Der Nationalfeiertag ist ein erhabener Anlass, der den Geist der Einheit und des Zugehörigkeitsgefühls verkörpert.\"" },
+          "False Dichotomy Bias": { name: "Falsche Dichotomie", def: "Ein komplexes Thema wird so dargestellt, als gäbe es nur zwei alternative Möglichkeiten.", ex: "\"Die Gesellschaft muss wählen: KI mit potenziellen Risiken annehmen oder Innovation ersticken.\"" },
+          "Flawed Comparison Bias": { name: "Falscher Vergleich", def: "Ziehen von Analogien zwischen Dingen, die oberflächlich ähnlich, aber grundlegend verschieden sind.", ex: "\"Man hätte einfach eine schwäbische Hausfrau fragen sollen: Man kann auf Dauer nicht über seine Verhältnisse leben.\"" },
+          "Straw Man Bias": { name: "Strohmann", def: "Eine Position wird verzerrt oder vereinfacht dargestellt, um sie leichter angreifen zu können.", ex: "\"Sollen ein paar Klimaaktivisten als Einzige das Sagen haben und die ganze Welt vor sich hertreiben?\"" },
+          "Opinionated Bias": { name: "Meinungsstark", def: "Einbeziehung subjektiver Meinungen oder Interpretationen, die als objektive Fakten dargestellt werden.", ex: "\"Und wir wissen, dass die rosigen Zukunftsvisionen der Verantwortlichen im Nationalpark Harz nicht realistisch sind.\"" },
+          "Suggestive Questioning Bias": { name: "Suggestivfrage", def: "Stellen von Fragen, die implizite Annahmen enthalten oder das Publikum in eine bestimmte Richtung lenken.", ex: "\"Ist er ein linker Radikaler oder ein gemäßigter Publikumsliebling? Hasst er Amerika?\"" },
+          "Projection Bias": { name: "Projektion", def: "Gedanken, Gefühle oder Absichten werden anderen zugeschrieben, ohne ausreichende Beweise.", ex: "\"Es fühlt sich an, als würden die Autoren der neuen Star Trek Serien denken, sie müssten die Welt retten.\"" },
+          "Speculation Bias": { name: "Spekulation", def: "Spekulationen auf der Grundlage von Vermutungen statt auf konkreten Fakten und Beweisen.", ex: "\"Schickt Nordkorea Soldaten, um Putin zu helfen? Das sind nur Gerüchte, aber sind sie wirklich so unwahrscheinlich?\"" },
+          "Unsubstantiated Claims Bias": { name: "Unbelegte Behauptung", def: "Behauptungen als Fakten darstellen, ohne angemessene Beweise zu liefern.", ex: "\"Lesen Sie alles über Dominion-Wahlmaschinen und Sie werden verstehen, wie allgegenwärtig dieser Wahlbetrug ist.\"" },
+          "Vagueness Bias": { name: "Vagheit", def: "Verwendung ungenauer Ausdrücke, die alles oder nichts bedeuten können ('Experten', 'Faktoren').", ex: "\"Experten, Unternehmer und andere haben die Ankündigung schnell verurteilt.\"" },
+          "False Balance Bias": { name: "Falsche Balance", def: "Gegensätzliche Standpunkte werden als gleichwertig dargestellt, trotz klarem Konsens oder Beweislage für eine Seite.", ex: "\"Es ist in Ordnung zu folgern, dass Obama auf Hawaii geboren wurde. Es ist aber auch in Ordnung, dies weiterhin in Frage zu stellen.\"" },
+          "Normalwashing Bias": { name: "Normalisierung", def: "Normalisierung von Organisationen oder Umständen durch Vermeidung objektiv zutreffender, aber strittiger Beschreibungen.", ex: "\"In Äußerungen über Migranten berief sich Donald Trump auf seine langjährige Faszination für Gene.\"" },
+          "Ideological Bias": { name: "Ideologisch", def: "Eine Neigung zu einer bestimmten Ideologie, die zu einer Bevorzugung entsprechender Ideen führt.", ex: "\"Die kubanische Regierung genießt breite Unterstützung, was auf die echte Führung der Kommunistischen Partei zurückzuführen ist.\"" },
+          "Commercial Bias": { name: "Kommerziell", def: "Hervorhebung von Unternehmen oder Produkten aufgrund zugrunde liegender kommerzieller Interessen.", ex: "\"Vizepräsidentin Molly Laegeler diskutierte, wie ihr Unternehmen auf seine Stärken setzt, um kohlenstoffärmere Lösungen voranzutreiben.\"" },
+          "Ad Hominem Bias": { name: "Ad Hominem", def: "Angriff auf den Charakter oder die Motive der Person, die ein Argument vorbringt, anstatt auf das Argument selbst.", ex: "\"Jede Klimabotschaft von jemandem, der ein Auto besitzt, ist reine Heuchelei und sollte ignoriert werden.\"" },
+          "Mud & Honey Bias": { name: "Schmutz & Honig", def: "Verwendung persönlicher Angriffe, um jemanden zu schädigen, oder übermäßiges Lob zur Idealisierung.", ex: "\"Er ist ein 78-jähriger Millionär, ein mürrischer Sozialist mit zerzausten Haaren.\"" },
+          "Horse Race Bias": { name: "Pferderennen", def: "Übertriebene Darstellung von Ereignissen als persönliche Gewinne oder Verluste in einem Wettbewerb.", ex: "\"Taylor Swift erzielt Sieg über Donald Trump.\"" },
+          "Association Bias": { name: "Assoziation", def: "Verknüpfung einer Person oder Gruppe mit anderen, um durch Assoziation ein positives oder negatives Bild zu erzeugen.", ex: "\"Fußball unterstützt Trump in seiner Förderung rassistischer Spaltung.\"" },
+          "Generalization Bias": { name: "Generalisierung", def: "Zuschreibung von Handlungen oder Merkmalen von Einzelnen auf eine ganze Gruppe (oder umgekehrt).", ex: "\"Ich kenne die Mentalität der Leute heute: Homeoffice, niemand will mehr arbeiten.\"" },
+          "Causal Misunderstanding Bias": { name: "Kausales Missverständnis", def: "Ein Ursache-Wirkungs-Zusammenhang wird falsch verstanden oder ohne ausreichende Beweise angenommen.", ex: "\"Das Kernkraftwerk wurde abgeschaltet. Deshalb müssen wir jetzt die Produktion einstellen.\"" },
+          "Us vs Them Bias": { name: "Wir gegen Die", def: "Teilung von Menschen in eine positiv dargestellte In-Group ('Wir') und eine negative Out-Group ('Die').", ex: "\"Sie vergiften das Blut unseres Landes. Das haben sie getan.\"" },
+          "Whataboutism Bias": { name: "Whataboutism", def: "Reaktion auf eine Anschuldigung durch eine Gegenanschuldigung oder das Aufbringen eines anderen Themas.", ex: "\"Journalisten haben es versäumt, sich der Unterdrückung der Uiguren in China entgegenzustellen.\"" },
+          "Shifting Goalpost Bias": { name: "Maßstabsverschiebung", def: "Eine Position wird durch das Ändern von Kriterien oder ad-hoc-Rechtfertigungen aufrechterhalten.", ex: "\"Das ist kein Rettungspaket, das ist nur die Erwägung, bestimmten Branchen Dinge zur Verfügung zu stellen.\"" },
+          "No Discussion Bias": { name: "Keine Diskussion", def: "Darstellung eines Ergebnisses als unvermeidlich und indiskutabel, um Widerspruch zu unterdrücken.", ex: "\"Kalifornien ist ein Vorreiter. Was hier passiert, zieht nach Osten.\"" },
+          "Side Note Bias": { name: "Nebensache", def: "Einfügen unnötiger, irrelevanter Informationen, um eine Erzählung voranzutreiben oder abzulenken.", ex: "\"Währenddessen hat ScotRail fast 2,5 Millionen Pfund Entschädigung an Passagiere gezahlt.\"" },
+          "Claim & Blame Bias": { name: "Fremde Federn & Sündenböcke", def: "Verantwortung wird falsch zugewiesen, sei es durch Sündenböcke oder unverdientes Lob.", ex: "\"Die USA und Europa haben Russland in eine unmögliche Position gebracht und es zum Handeln gezwungen.\"" },
+          "Burden Of Proof Bias": { name: "Beweislast", def: "Behauptung, dass etwas wahr sei, nur weil es noch nicht widerlegt wurde (Umkehr der Beweislast).", ex: "\"Präsident Transparenz weigert sich, Originaldokumente zu veröffentlichen, um die Kontroverse zu beenden.\"" },
+          "Circular Reasoning Bias": { name: "Zirkelschluss", def: "Die Schlussfolgerung wird als ihre eigene Rechtfertigung verwendet (Fehlen logischer Begründung).", ex: "\"Cannabis ist verboten, weil es eine illegale Droge ist.\"" },
+          "Discriminatory Bias": { name: "Diskriminierung", def: "Verwendung von Stereotypen, die Diskriminierung aufgrund von Ethnie, Geschlecht, Religion etc. verstärken.", ex: "\"Frauen sind von Natur aus dafür gemacht, Hausfrauen zu sein.\"" },
+          "Gatekeeping Bias": { name: "Gatekeeping", def: "Der Versuch zu definieren, wer legitim zu einer Gruppe gehört, basierend auf willkürlichen Kriterien.", ex: "\"Die einzige echte Gewerkschaft ist die CWA im Derby-Werk.\"" },
+          "Cherry Picking Bias": { name: "Rosinenpicken", def: "Hervorhebung bestimmter Details, die eine Sichtweise unterstützen, während widersprüchliche weggelassen werden.", ex: "\"Nur die Hälfte der Befragten hält die ARD für 'ausgewogen', während 22 Prozent sie als 'eher links' einstufen.\"" },
+          "Social Compliance Bias": { name: "Sozialer Konformismus", def: "Ein Argument wird als wahr angesehen, weil es von einer Autorität oder der Mehrheit unterstützt wird.", ex: "\"Ein führender Politiker stimmt zu, dass Massenmigration eine Bedrohung darstellt.\"" },
+          "Source Selection Bias": { name: "Quellenauswahl", def: "Zitieren von Quellen, die selbst sehr wahrscheinlich voreingenommen sind, ohne Kontextualisierung.", ex: "\"Der Hafen in russisch kontrolliertem Gebiet arbeitet mit voller Kapazität, meldet die Agentur TASS.\"" },
+          "Anecdotal Evidence Bias": { name: "Anekdotische Evidenz", def: "Berufung auf Einzelbeispiele oder Geschichten anstelle repräsentativer Beweise.", ex: "\"Nach dem 4. November posteten Amerikaner im Ausland jubelnde Nachrichten auf Facebook.\"" }
+        }
+      }
+    };
+
+    const translations = {
+      "en": {
+        "title_main": "Decide yourself!",
+        "title_sub": "Pick the bias types you think apply to real sentences from our dataset.",
+        "gamification_toggle_on": "🎮 On",
+        "gamification_toggle_off": "🎮 Off",
+        "gamification_reset": "🔄 Reset",
+        "gamification_info": "<strong class='text-[#2d1f1a]'>How XP works:</strong> You earn <strong class='text-[#e0251b]'>10–25 XP</strong> per sentence based on how much time you spend reviewing it. The required time starts at <strong>25 seconds</strong> and increases by <strong>5 s</strong> for each type in \"Quite certain\" and <strong>10 s</strong> for each type in \"Uncertain\". A thoughtful <strong class='text-[#e0251b]'>explanation earns +15 bonus XP</strong>. Consecutive saves build a <strong>streak</strong> (3×: +10 %, 5×: +25 %, 10×: +50 %). Your XP level tracks your overall contribution — from 🌱 Beginner Annotator up to 💎 Bias Legend.",
+        "how_to_participate": "How to participate",
+        "instructions_main": "Try selecting the fitting bias types yourself! Review random sentences from our dataset. Remove types from <strong>\"Quite certain\"</strong> if you disagree, add types that are not yet selected, and make a final decision for every type listed under <strong>\"Uncertain\"</strong>.",
+        "main_task": "Main task",
+        "main_task_desc": "Decide for every type listed under <strong>Uncertain</strong> whether it really applies or not.",
+        "tip": "Tip",
+        "tip_desc": "Hover over any type name to see its taxonomy definition and example.",
+        "current_sentence": "Current sentence",
+        "see_others": "👥 See how others decided",
+        "close": "Close",
+        "community_insights": "Community Insights",
+        "overall_bias_intensity": "Overall Bias Intensity",
+        "overall_bias_desc": "How strong is the bias in this sentence overall? (0.0 = Neutral, 1.0 = Extreme)",
+        "neutral": "Neutral",
+        "biased": "Biased",
+        "quite_certain": "Quite certain",
+        "currently_selected_types": "Currently selected types",
+        "currently_selected_desc": "These types are preselected. Remove any you disagree with, or add new ones from the taxonomy.",
+        "add_another_type": "Add another taxonomy type",
+        "add_type_btn": "Add type",
+        "search_placeholder": "Search taxonomy types…",
+        "uncertain": "Uncertain",
+        "decide_applies": "Decide whether each type applies",
+        "decide_applies_desc": "These types are disputed. Choose <strong>Applies</strong> or <strong>Does not apply</strong> for each one. Hover over a name to see its definition.",
+        "optional_explanation": "Optional explanation",
+        "why_decide": "Why did you decide this way?",
+        "why_decide_desc": "Feel free to share your reasoning if you would like to — this is entirely optional.",
+        "explanation_placeholder": "Optional explanation…",
+        "actions": "Actions",
+        "actions_desc": "When you <strong>save</strong>, your annotation will be used to train future iterations of <strong>BiasScanner</strong>. We do not collect any personal data — everything remains completely anonymous. Alternatively, skip to a new sentence without saving.",
+        "reset_decisions": "Reset current decisions",
+        "new_sentence": "New sentence without saving",
+        "save_decision": "Save decision",
+        "taxonomy_ref": "Taxonomy reference",
+        "full_taxonomy": "Full taxonomy",
+        "full_taxonomy_desc": "Each group and each type can be expanded or collapsed. Hover over type names anywhere in the interface to see definitions and examples.",
+        "applies": "Applies",
+        "does_not_apply": "No",
+        "no_types_selected": "No types selected.",
+        "no_uncertain_types": "<strong>No uncertain types</strong> for this sentence.",
+        "level_up": "Level Up!",
+        "awesome": "Awesome!",
+        "save_contribution": "Save contribution?",
+        "save_contribution_desc": "Your decision may be used to help train future iterations of BiasScanner. No personal data is stored — everything is anonymous.",
+        "dont_ask_again": "Don't ask me again",
+        "cancel": "Cancel",
+        "save_annotation": "Save Annotation",
+        "pending_review": "Pending review",
+        "ready_to_save": "Ready to save",
+        "no_dissent_items": "No dissent items"
+      },
+      "de": {
+        "title_main": "Entscheide selbst!",
+        "title_sub": "Wähle die Bias-Typen aus, die deiner Meinung nach auf echte Sätze aus unserem Datensatz zutreffen.",
+        "gamification_toggle_on": "🎮 An",
+        "gamification_toggle_off": "🎮 Aus",
+        "gamification_reset": "🔄 Zurücksetzen",
+        "gamification_info": "<strong class='text-[#2d1f1a]'>Wie XP funktionieren:</strong> Du erhältst <strong class='text-[#e0251b]'>10–25 XP</strong> pro Satz, basierend auf der investierten Zeit. Die benötigte Zeit beginnt bei <strong>25 Sekunden</strong> und erhöht sich um <strong>5 s</strong> für jeden Typ unter \"Ziemlich sicher\" und <strong>10 s</strong> für jeden Typ unter \"Unsicher\". Eine <strong class='text-[#e0251b]'>Begründung gibt +15 Bonus-XP</strong>. Aufeinanderfolgende Speicherungen bauen einen <strong>Streak</strong> auf (3×: +10 %, 5×: +25 %, 10×: +50 %). Dein XP-Level zeigt deinen Beitrag — vom 🌱 Anfänger bis zur 💎 Bias-Legende.",
+        "how_to_participate": "Wie du teilnehmen kannst",
+        "instructions_main": "Versuche, die passenden Bias-Typen selbst auszuwählen! Überprüfe zufällige Sätze aus unserem Datensatz. Entferne Typen unter <strong>\"Ziemlich sicher\"</strong>, wenn du nicht zustimmst, füge noch nicht ausgewählte Typen hinzu und triff eine endgültige Entscheidung für jeden Typ unter <strong>\"Unsicher\"</strong>.",
+        "main_task": "Hauptaufgabe",
+        "main_task_desc": "Entscheide für jeden Typ unter <strong>Unsicher</strong>, ob er wirklich zutrifft oder nicht.",
+        "tip": "Tipp",
+        "tip_desc": "Bewege die Maus über einen Typnamen, um dessen Definition und ein Beispiel zu sehen.",
+        "current_sentence": "Aktueller Satz",
+        "see_others": "👥 Entscheidungen der anderen",
+        "close": "Schließen",
+        "community_insights": "Community-Einblicke",
+        "overall_bias_intensity": "Gesamte Bias-Intensität",
+        "overall_bias_desc": "Wie stark ist der Bias in diesem Satz insgesamt? (0.0 = Neutral, 1.0 = Extrem)",
+        "neutral": "Neutral",
+        "biased": "Voreingenommen",
+        "quite_certain": "Ziemlich sicher",
+        "currently_selected_types": "Aktuell ausgewählte Typen",
+        "currently_selected_desc": "Diese Typen sind vorausgewählt. Entferne die, denen du nicht zustimmst, oder füge neue aus der Taxonomie hinzu.",
+        "add_another_type": "Weiteren Taxonomie-Typ hinzufügen",
+        "add_type_btn": "Hinzufügen",
+        "search_placeholder": "Taxonomie-Typen suchen…",
+        "uncertain": "Unsicher",
+        "decide_applies": "Entscheide, ob jeder Typ zutrifft",
+        "decide_applies_desc": "Diese Typen sind umstritten. Wähle <strong>Zutreffend</strong> oder <strong>Nein</strong> für jeden Typ. Hover für die Definition.",
+        "optional_explanation": "Optionale Begründung",
+        "why_decide": "Warum hast du dich so entschieden?",
+        "why_decide_desc": "Teile gerne deine Gedanken mit uns — dies ist völlig optional.",
+        "explanation_placeholder": "Optionale Begründung…",
+        "actions": "Aktionen",
+        "actions_desc": "Wenn du <strong>speicherst</strong>, wird deine Annotation genutzt, um zukünftige Versionen des <strong>BiasScanner</strong> zu trainieren. Wir sammeln keine persönlichen Daten — alles bleibt anonym. Alternativ kannst du zum nächsten Satz springen, ohne zu speichern.",
+        "reset_decisions": "Auswahl zurücksetzen",
+        "new_sentence": "Neuer Satz (ohne Speichern)",
+        "save_decision": "Entscheidung speichern",
+        "taxonomy_ref": "Taxonomie-Referenz",
+        "full_taxonomy": "Vollständige Taxonomie",
+        "full_taxonomy_desc": "Jede Gruppe und jeder Typ kann auf- oder zugeklappt werden. Hover über Typnamen, um Definitionen und Beispiele zu sehen.",
+        "applies": "Zutreffend",
+        "does_not_apply": "Nein",
+        "no_types_selected": "Keine Typen ausgewählt.",
+        "no_uncertain_types": "<strong>Keine unsicheren Typen</strong> für diesen Satz.",
+        "level_up": "Level Up!",
+        "awesome": "Fantastisch!",
+        "save_contribution": "Beitrag speichern?",
+        "save_contribution_desc": "Deine Entscheidung hilft, BiasScanner weiter zu trainieren. Es werden keine persönlichen Daten gespeichert — alles ist anonym.",
+        "dont_ask_again": "Nicht mehr fragen",
+        "cancel": "Abbrechen",
+        "save_annotation": "Annotation speichern",
+        "pending_review": "Ausstehend",
+        "ready_to_save": "Bereit",
+        "no_dissent_items": "Nichts zu prüfen"
+      }
+    };
+
+    let currentLang = localStorage.getItem('biasscanner_lang') || 'en';
+
+    function setLanguage(lang) {
+      currentLang = lang;
+      localStorage.setItem('biasscanner_lang', lang);
+      
+      document.getElementById('lang-en').style.opacity = lang === 'en' ? '1' : '0.7';
+      document.getElementById('lang-en').style.filter = lang === 'en' ? 'none' : 'grayscale(100%)';
+      document.getElementById('lang-de').style.opacity = lang === 'de' ? '1' : '0.7';
+      document.getElementById('lang-de').style.filter = lang === 'de' ? 'none' : 'grayscale(100%)';
+
+      const dict = translations[lang] || translations['en'];
+      
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (dict[key]) el.innerHTML = dict[key];
+      });
+
+      document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+        const key = el.getAttribute('data-i18n-placeholder');
+        if (dict[key]) el.setAttribute('placeholder', dict[key]);
+      });
+
+      if (gamification.enabled) {
+        const tBtn = document.getElementById('gamification-toggle-btn');
+        tBtn.innerHTML = `<span data-i18n="gamification_toggle_on">${dict['gamification_toggle_on']}</span>`;
+      } else {
+        const tBtn = document.getElementById('gamification-toggle-btn');
+        tBtn.innerHTML = `<span data-i18n="gamification_toggle_off">${dict['gamification_toggle_off']}</span>`;
+      }
+
+      renderTaxonomy();
+      renderAll();
+    }
+
+    const SERVER_BASE = 'https://app.biasscanner.org:8080';
+    const SENTENCES_FILE = `${SERVER_BASE}/sentences.json`;
+    const ANNOTATIONS_FILE = `${SERVER_BASE}/all_annotation_results.jsonl`;
+
     const TAXONOMY = JSON.parse(document.getElementById('taxonomy-json').textContent);
     const GROUP_MAP = Object.fromEntries(TAXONOMY.groups.map(group => [group.name, group]));
     const ALL_TYPES = Object.keys(TAXONOMY.types);
+
     let dataset = [];
+    let allAnnotations = [];
     let currentItem = null;
     let currentIndex = -1;
     let resolverId = 'anonymous';
     let toastTimeout = null;
+
     const state = {
       union: [],
       resolution: {},
       addedNonoriginal: [],
       removedNondissented: [],
-      explanation: ''
+      explanation: '',
+      overallBiasStrength: 0,
+      otherAnnotations: [],
+      skipConfirm: localStorage.getItem('biasscanner_skip_confirm') === 'true'
     };
+
+    // ─── Gamification System ───
+    const LEVELS = [
+      { xp: 0,    title: 'Beginner Annotator',  icon: '🌱', desc: 'Welcome! Start annotating sentences to level up.' },
+      { xp: 50,   title: 'Type Spotter',        icon: '👁️', desc: 'You\'re spotting biases like a pro! Keep going.' },
+      { xp: 150,  title: 'Bias Detective',      icon: '🔍', desc: 'Your eye for bias is getting sharp!' },
+      { xp: 300,  title: 'Bias Hunter',         icon: '🎯', desc: 'You\'re hunting down biases with precision.' },
+      { xp: 500,  title: 'Expert Scanner',      icon: '⭐', desc: 'Your annotations are shaping BiasScanner\'s future.' },
+      { xp: 800,  title: 'Master Annotator',    icon: '🏆', desc: 'Master-level dedication — truly impressive!' },
+      { xp: 1200, title: 'Bias Sage',           icon: '🧙', desc: 'You see biases others miss. Legendary insight.' },
+      { xp: 2000, title: 'Grand Annotator',     icon: '👑', desc: 'A grand contributor to the BiasScanner project.' },
+      { xp: 3500, title: 'Bias Legend',         icon: '💎', desc: 'You are a legend. Thank you for everything!' },
+    ];
+
+    let gamification = { totalXP: 0, streak: 0, totalAnnotations: 0, enabled: true };
+    let sentenceStartTime = Date.now();
+
+    function loadGamification() {
+      try {
+        const saved = localStorage.getItem('biasscanner_gamification');
+        if (saved) Object.assign(gamification, JSON.parse(saved));
+      } catch {}
+      applyGamificationVisibility();
+    }
+
+    function saveGamification() {
+      localStorage.setItem('biasscanner_gamification', JSON.stringify(gamification));
+    }
+
+    function toggleGamification() {
+      gamification.enabled = !gamification.enabled;
+      saveGamification();
+      applyGamificationVisibility();
+    }
+
+    function resetGamification() {
+      if (!confirm('Reset all gamification progress? This cannot be undone.')) return;
+      gamification.totalXP = 0;
+      gamification.streak = 0;
+      gamification.totalAnnotations = 0;
+      saveGamification();
+      renderGamificationBar();
+      showToast('Gamification progress has been reset.', 'neutral');
+    }
+
+    function applyGamificationVisibility() {
+      const bar = document.getElementById('gamification-bar');
+      const statsEl = document.getElementById('gamification-stats');
+      const levelSection = document.querySelector('#gamification-bar .flex.items-center.gap-3.min-w-0');
+      const toggleBtn = document.getElementById('gamification-toggle-btn');
+      const resetBtn = document.getElementById('gamification-reset-btn');
+
+      if (gamification.enabled) {
+        bar.style.opacity = '1';
+        if (statsEl) statsEl.style.display = '';
+        if (levelSection) levelSection.style.display = '';
+        if (resetBtn) resetBtn.style.display = '';
+        toggleBtn.textContent = '🎮 On';
+      } else {
+        bar.style.opacity = '0.5';
+        if (statsEl) statsEl.style.display = 'none';
+        if (levelSection) levelSection.style.display = 'none';
+        if (resetBtn) resetBtn.style.display = 'none';
+        toggleBtn.textContent = '🎮 Off';
+      }
+    }
+
+    function getLevel(xp) {
+      let level = LEVELS[0];
+      for (let i = LEVELS.length - 1; i >= 0; i--) {
+        if (xp >= LEVELS[i].xp) { level = LEVELS[i]; break; }
+      }
+      return level;
+    }
+
+    function getNextLevel(xp) {
+      for (let i = 0; i < LEVELS.length; i++) {
+        if (xp < LEVELS[i].xp) return LEVELS[i];
+      }
+      return null;
+    }
+
+    function getLevelNumber(title) {
+      for (let i = 0; i < LEVELS.length; i++) {
+        if (LEVELS[i].title === title) return i + 1;
+      }
+      return 1;
+    }
+
+    function getTimeThreshold() {
+      const unionCount = currentItem ? (currentItem.union || []).length : 0;
+      const dissentCount = currentItem ? (currentItem.dissent || []).length : 0;
+      return 25 + (unionCount * 5) + (dissentCount * 10);
+    }
+
+    function calculateXP() {
+      const timeSpent = (Date.now() - sentenceStartTime) / 1000;
+      const threshold = getTimeThreshold();
+      const timeRatio = Math.min(timeSpent / threshold, 1);
+
+      // Time-based XP: 10 XP minimum, 25 XP at full threshold
+      let xp = Math.round(10 + (15 * timeRatio));
+
+      // Explanation bonus
+      const explanation = (document.getElementById('explanation').value || '').trim();
+      if (explanation.length > 0) xp += 15;
+
+      // Streak bonus
+      if (gamification.streak >= 10) xp = Math.floor(xp * 1.5);
+      else if (gamification.streak >= 5) xp = Math.floor(xp * 1.25);
+      else if (gamification.streak >= 3) xp = Math.floor(xp * 1.1);
+
+      return Math.max(xp, 10);
+    }
+
+    function renderGamificationBar() {
+      const level = getLevel(gamification.totalXP);
+      const nextLevel = getNextLevel(gamification.totalXP);
+      const levelNum = getLevelNumber(level.title);
+
+      document.getElementById('gamification-level-icon').textContent = level.icon;
+      document.getElementById('gamification-level-title').textContent = level.title;
+      document.getElementById('gamification-level-num').textContent = `Lv. ${levelNum}`;
+      document.getElementById('gamification-annotations').textContent = gamification.totalAnnotations;
+      document.getElementById('gamification-streak').textContent = gamification.streak;
+      document.getElementById('gamification-xp-text').textContent = `${gamification.totalXP} XP`;
+
+      if (nextLevel) {
+        const progress = ((gamification.totalXP - level.xp) / (nextLevel.xp - level.xp)) * 100;
+        document.getElementById('xp-progress-fill').style.width = `${Math.min(progress, 100)}%`;
+      } else {
+        document.getElementById('xp-progress-fill').style.width = '100%';
+      }
+    }
+
+    // ─── Confetti Engine ───
+    const confettiCanvas = document.getElementById('confetti-canvas');
+    const confCtx = confettiCanvas.getContext('2d');
+    let confettiParticles = [];
+    let confettiAnimating = false;
+
+    function launchConfetti(count = 120, colors = ['#e0251b', '#ff6b00', '#eab308', '#10b981', '#3b82f6', '#ec4899', '#8b5cf6']) {
+      confettiCanvas.width = window.innerWidth;
+      confettiCanvas.height = window.innerHeight;
+      confettiCanvas.classList.add('active');
+
+      confettiParticles = [];
+      for (let i = 0; i < count; i++) {
+        confettiParticles.push({
+          x: Math.random() * confettiCanvas.width,
+          y: -20 - Math.random() * confettiCanvas.height * 0.4,
+          w: Math.random() * 10 + 5,
+          h: Math.random() * 6 + 3,
+          color: colors[Math.floor(Math.random() * colors.length)],
+          vx: (Math.random() - 0.5) * 10,
+          vy: Math.random() * 4 + 2,
+          rotation: Math.random() * 360,
+          rotationSpeed: (Math.random() - 0.5) * 15,
+          opacity: 1,
+          decay: 0.006 + Math.random() * 0.005,
+          wobble: Math.random() * 3,
+          wobbleSpeed: 0.05 + Math.random() * 0.08
+        });
+      }
+
+      if (!confettiAnimating) {
+        confettiAnimating = true;
+        animateConfetti();
+      }
+    }
+
+    function animateConfetti() {
+      confCtx.clearRect(0, 0, confettiCanvas.width, confettiCanvas.height);
+
+      confettiParticles.forEach(p => {
+        p.x += p.vx + Math.sin(p.wobble) * 0.5;
+        p.vy += 0.1;
+        p.y += p.vy;
+        p.rotation += p.rotationSpeed;
+        p.wobble += p.wobbleSpeed;
+        p.opacity -= p.decay;
+
+        if (p.opacity > 0) {
+          confCtx.save();
+          confCtx.translate(p.x, p.y);
+          confCtx.rotate(p.rotation * Math.PI / 180);
+          confCtx.globalAlpha = Math.max(0, p.opacity);
+          confCtx.fillStyle = p.color;
+          confCtx.fillRect(-p.w / 2, -p.h / 2, p.w, p.h);
+          confCtx.restore();
+        }
+      });
+
+      confettiParticles = confettiParticles.filter(p => p.opacity > 0);
+
+      if (confettiParticles.length > 0) {
+        requestAnimationFrame(animateConfetti);
+      } else {
+        confettiAnimating = false;
+        confettiCanvas.classList.remove('active');
+        confCtx.clearRect(0, 0, confettiCanvas.width, confettiCanvas.height);
+      }
+    }
+
+    // ─── XP Popup ───
+    function showXPPopup(xp) {
+      const popup = document.createElement('div');
+      popup.className = 'xp-popup';
+      popup.textContent = `+${xp} XP`;
+      popup.style.left = `${Math.random() * 40 + 30}%`;
+      popup.style.top = '30%';
+      document.body.appendChild(popup);
+      setTimeout(() => popup.remove(), 1500);
+    }
+
+    // ─── Level Up Modal ───
+    function showLevelUpModal(level) {
+      const modal = document.getElementById('level-up-modal');
+      document.getElementById('level-up-icon').textContent = level.icon;
+      document.getElementById('level-up-title').textContent = level.title;
+      document.getElementById('level-up-level').textContent = `Level ${getLevelNumber(level.title)}`;
+      document.getElementById('level-up-desc').textContent = level.desc;
+      modal.classList.add('show');
+      launchConfetti(200);
+    }
+
+    function closeLevelUpModal() {
+      document.getElementById('level-up-modal').classList.remove('show');
+    }
+
+    // ─── Streak ───
+    function resetStreak() {
+      gamification.streak = 0;
+      saveGamification();
+      renderGamificationBar();
+    }
+
+    function incrementStreak() {
+      gamification.streak++;
+      saveGamification();
+    }
+
     window.addEventListener('DOMContentLoaded', init);
+
     async function init() {
       bindStaticEvents();
+      loadGamification();
       await setupResolverId();
-      await loadDataset();
+      await loadData();
       renderTaxonomy();
+      renderGamificationBar();
       loadRandomSentence();
     }
+
     function bindStaticEvents() {
       document.getElementById('add-type-input').addEventListener('input', renderAutocomplete);
       document.getElementById('add-type-input').addEventListener('keydown', handleAddInputKeydown);
       document.getElementById('add-type-btn').addEventListener('click', addTypeFromInput);
       document.getElementById('reset-btn').addEventListener('click', resetCurrentDecisions);
       document.getElementById('new-sentence-btn').addEventListener('click', () => {
+        if (gamification.enabled) resetStreak();
         loadRandomSentence();
-        showToast('Loaded a new sentence without saving.', 'neutral');
+        showToast(gamification.enabled ? 'Skipped — streak reset. Loaded a new sentence.' : 'Loaded a new sentence without saving.', 'neutral');
       });
-      document.getElementById('save-btn').addEventListener('click', saveDecision);
+      document.getElementById('save-btn').addEventListener('click', handleSaveRequest);
+      document.getElementById('level-up-close').addEventListener('click', closeLevelUpModal);
+      document.getElementById('level-up-modal').addEventListener('click', (e) => {
+        if (e.target === e.currentTarget) closeLevelUpModal();
+      });
+      document.getElementById('gamification-toggle-btn').addEventListener('click', toggleGamification);
+      document.getElementById('gamification-reset-btn').addEventListener('click', resetGamification);
       document.getElementById('explanation').addEventListener('input', event => {
         state.explanation = event.target.value;
         renderExplanationCount();
       });
+
+      document.getElementById('bias-strength-slider').addEventListener('input', event => {
+        state.overallBiasStrength = parseFloat(event.target.value);
+        document.getElementById('strength-display').textContent = state.overallBiasStrength.toFixed(2);
+      });
+
+      document.getElementById('see-others-btn').addEventListener('click', fetchOtherAnnotations);
+      document.getElementById('close-others-btn').addEventListener('click', () => {
+        document.getElementById('other-decisions-container').classList.add('hidden');
+      });
+
+      // Confirmation Modal events
+      document.getElementById('confirm-cancel').addEventListener('click', () => {
+        document.getElementById('confirm-modal').classList.add('hidden');
+      });
+      document.getElementById('confirm-proceed').addEventListener('click', () => {
+        if (document.getElementById('skip-confirm-checkbox').checked) {
+          state.skipConfirm = true;
+          localStorage.setItem('biasscanner_skip_confirm', 'true');
+        }
+        document.getElementById('confirm-modal').classList.add('hidden');
+        saveDecision();
+      });
+
       document.addEventListener('click', handleDocumentClick);
       document.addEventListener('mousemove', handleTooltipMove);
       document.addEventListener('mouseleave', hideTooltip);
     }
+
+    async function fetchOtherAnnotations() {
+      const container = document.getElementById('other-decisions-container');
+      const content = document.getElementById('other-decisions-content');
+      
+      container.classList.remove('hidden');
+      content.innerHTML = '<div class="loading-others text-[#7a5a4c]">Loading community results…</div>';
+
+      const currentSentence = currentItem.sentence;
+      const matchingAnnotations = allAnnotations.filter(ann => ann.sentence === currentSentence);
+
+      if (matchingAnnotations.length === 0) {
+        content.innerHTML = '<div class="col-span-2 text-[#7a5a4c]">No community annotations yet for this sentence. Be the first!</div>';
+        state.otherAnnotations = [];
+        return;
+      }
+
+      state.otherAnnotations = matchingAnnotations;
+      renderOtherDecisions();
+    }
+
+    function renderOtherDecisions() {
+      const content = document.getElementById('other-decisions-content');
+      const annotations = state.otherAnnotations;
+
+      if (!annotations.length) {
+        content.innerHTML = '<div class="col-span-2 text-[#7a5a4c]">No previous annotations found for this sentence. Be the first!</div>';
+        return;
+      }
+
+      const avgStrength = annotations.reduce((acc, curr) => acc + (curr.overall_bias_strength || 0), 0) / annotations.length;
+      
+      const typeCounts = {};
+      annotations.forEach(ann => {
+        (ann.union || []).forEach(type => {
+          typeCounts[type] = (typeCounts[type] || 0) + 1;
+        });
+      });
+
+      const topTypes = Object.entries(typeCounts)
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 3);
+
+      content.innerHTML = `
+        <div class="rounded-xl bg-white p-3 ring-1 ring-[rgba(224,76,34,0.06)]">
+          <div class="text-[0.65rem] font-black uppercase tracking-[0.1em] text-[#b85e2a]">Avg. Bias Intensity</div>
+          <div class="mt-1 text-lg font-black text-[#2d1f1a]">${avgStrength.toFixed(2)}</div>
+          <div class="mt-1 text-xs text-[#7a5a4c]">Based on ${annotations.length} contributors</div>
+        </div>
+        <div class="rounded-xl bg-white p-3 ring-1 ring-[rgba(224,76,34,0.06)]">
+          <div class="text-[0.65rem] font-black uppercase tracking-[0.1em] text-[#b85e2a]">Top identified types</div>
+          <div class="mt-2 flex flex-wrap gap-1">
+            ${topTypes.length ? topTypes.map(([type, count]) => `
+              <span class="rounded-full bg-[#fff4ed] px-2 py-0.5 text-[0.7rem] font-bold text-[#ae3f12]">
+                ${type} (${count})
+              </span>
+            `).join('') : '<span class="text-xs text-[#7a5a4c]">None</span>'}
+          </div>
+        </div>
+      `;
+    }
+
     async function setupResolverId() {
       const saved = localStorage.getItem('biasscanner_resolver_id');
       if (saved) {
         resolverId = saved;
-        document.getElementById('resolver-id').textContent = resolverId;
         return;
       }
+
       try {
         const fingerprint = [
           navigator.userAgent || '',
@@ -720,41 +1574,86 @@
           window.screen ? `${window.screen.width}x${window.screen.height}` : '',
           Intl.DateTimeFormat().resolvedOptions().timeZone || ''
         ].join('|');
+
         const hash = await sha256(fingerprint);
         resolverId = hash.slice(0, 16);
         localStorage.setItem('biasscanner_resolver_id', resolverId);
       } catch (error) {
         resolverId = `local-${Math.random().toString(36).slice(2, 10)}`;
       }
-      document.getElementById('resolver-id').textContent = resolverId;
     }
+
     async function sha256(input) {
       const bytes = new TextEncoder().encode(input);
       const digest = await crypto.subtle.digest('SHA-256', bytes);
       return Array.from(new Uint8Array(digest)).map(byte => byte.toString(16).padStart(2, '0')).join('');
     }
-    async function loadDataset() {
-      const fallbackData = parseJSONL(document.getElementById('fallback-jsonl').textContent);
+
+    async function loadData() {
+      const fallbackSentences = parseJSONL(document.getElementById('fallback-jsonl').textContent);
+      const fallbackAnnotations = [
+        { sentence: "This is an example sentence.", overall_bias_strength: 0.8, union: ["Word Choice Bias"], resolution: {}, resolved: true, resolved_at: "2026-03-02T15:49:23.895Z", resolved_by: "abc123" },
+        { sentence: "This is an example sentence.", overall_bias_strength: 0.6, union: ["Word Choice Bias", "Cherry Picking Bias"], resolution: {}, resolved: true, resolved_at: "2026-03-02T15:49:23.895Z", resolved_by: "def456" },
+        { sentence: "This is another example sentence!", overall_bias_strength: 0.5, union: [], resolution: {}, resolved: true, resolved_at: "2026-03-02T15:49:23.895Z", resolved_by: "ghi789" }
+      ];
+
+      // Load sentences
       try {
-        const response = await fetch(DATASET_FILE, { cache: 'no-store' });
+        const response = await fetch(SENTENCES_FILE, { cache: 'no-store' });
         if (!response.ok) {
-          throw new Error(`Dataset request failed with ${response.status}`);
+          throw new Error(`Sentences request failed with ${response.status}`);
         }
+
+        const text = await response.text();
+        let parsed;
+
+        try {
+          const data = JSON.parse(text);
+          if (Array.isArray(data)) {
+            parsed = data.map(record => ({
+              sentence: String(record.sentence || ''),
+              union: Array.isArray(record.union) ? unique(record.union.map(String)) : [],
+              dissent: Array.isArray(record.dissent) ? unique(record.dissent.map(String)) : []
+            }));
+          } else {
+            parsed = parseJSONL(text);
+          }
+        } catch (jsonError) {
+          parsed = parseJSONL(text);
+        }
+
+        if (!parsed.length) {
+          throw new Error('Sentences file did not contain valid entries.');
+        }
+
+        dataset = parsed;
+        console.log(`Loaded ${dataset.length} sentences from server.`);
+      } catch (error) {
+        console.warn('Could not load sentences from server, using fallback:', error);
+        dataset = fallbackSentences;
+      }
+
+      // Load all annotations
+      try {
+        const response = await fetch(ANNOTATIONS_FILE, { cache: 'no-store' });
+        if (!response.ok) {
+          throw new Error(`Annotations request failed with ${response.status}`);
+        }
+
         const text = await response.text();
         const parsed = parseJSONL(text);
         if (!parsed.length) {
-          throw new Error('Dataset file did not contain valid JSONL entries.');
+          throw new Error('Annotations file did not contain valid entries.');
         }
-        dataset = parsed;
-        document.getElementById('dataset-source-badge').textContent = `${DATASET_FILE} (${dataset.length} items)`;
+
+        allAnnotations = parsed;
+        console.log(`Loaded ${allAnnotations.length} community annotations from server.`);
       } catch (error) {
-        dataset = fallbackData;
-        document.getElementById('dataset-source-badge').textContent = `Fallback examples (${dataset.length} items)`;
-      }
-      if (!dataset.length) {
-        dataset = [{ sentence: 'Fallback sentence.', union: [], dissent: [] }];
+        console.warn('Could not load annotations from server, using fallback:', error);
+        allAnnotations = fallbackAnnotations;
       }
     }
+
     function parseJSONL(rawText) {
       return rawText
         .split(/\r?\n/)
@@ -769,36 +1668,45 @@
               dissent: Array.isArray(record.dissent) ? unique(record.dissent.map(String)) : []
             };
           } catch (error) {
-            console.warn(`Invalid JSONL on line ${index + 1}:`, error);
             return null;
           }
         })
         .filter(Boolean);
     }
-    function unique(values) {
-      return [...new Set(values)];
-    }
-    function deepClone(value) {
-      return JSON.parse(JSON.stringify(value));
-    }
+
+    function unique(values) { return [...new Set(values)]; }
+    function deepClone(value) { return JSON.parse(JSON.stringify(value)); }
+
     function loadRandomSentence() {
       if (!dataset.length) return;
+
       let nextIndex = Math.floor(Math.random() * dataset.length);
       if (dataset.length > 1 && nextIndex === currentIndex) {
         nextIndex = (nextIndex + 1 + Math.floor(Math.random() * (dataset.length - 1))) % dataset.length;
       }
+
       currentIndex = nextIndex;
       currentItem = deepClone(dataset[nextIndex]);
+
       state.union = [...(currentItem.union || [])];
       state.resolution = Object.fromEntries((currentItem.dissent || []).map(type => [type, null]));
       state.addedNonoriginal = [];
       state.removedNondissented = [];
       state.explanation = '';
+      state.overallBiasStrength = 0;
+      state.otherAnnotations = [];
+
       document.getElementById('explanation').value = '';
       document.getElementById('add-type-input').value = '';
+      document.getElementById('bias-strength-slider').value = 0;
+      document.getElementById('strength-display').textContent = '0.00';
+      document.getElementById('other-decisions-container').classList.add('hidden');
+      
+      sentenceStartTime = Date.now();
       hideAutocomplete();
       renderAll();
     }
+
     function resetCurrentDecisions() {
       if (!currentItem) return;
       state.union = [...(currentItem.union || [])];
@@ -806,18 +1714,22 @@
       state.addedNonoriginal = [];
       state.removedNondissented = [];
       state.explanation = '';
+      state.overallBiasStrength = 0;
       document.getElementById('explanation').value = '';
-      document.getElementById('add-type-input').value = '';
-      hideAutocomplete();
+      document.getElementById('bias-strength-slider').value = 0;
+      document.getElementById('strength-display').textContent = '0.00';
+      sentenceStartTime = Date.now();
       renderAll();
       showToast('Current decisions were reset.', 'neutral');
     }
+
     function syncDerivedArrays() {
       const currentUnionSet = new Set(state.union);
       const originalUnion = currentItem ? currentItem.union || [] : [];
       state.addedNonoriginal = state.union.filter(type => !originalUnion.includes(type));
       state.removedNondissented = originalUnion.filter(type => !currentUnionSet.has(type));
     }
+
     function renderAll() {
       syncDerivedArrays();
       renderSentence();
@@ -826,19 +1738,22 @@
       renderStatus();
       renderExplanationCount();
     }
+
     function renderSentence() {
       document.getElementById('current-sentence').textContent = currentItem ? currentItem.sentence : 'No sentence loaded.';
       document.getElementById('sentence-pool-info').textContent = `${dataset.length} sentence${dataset.length === 1 ? '' : 's'} in the active pool`;
     }
+
     function renderUnion() {
       const container = document.getElementById('union-tags');
       const count = document.getElementById('union-count');
       container.innerHTML = '';
       count.textContent = `${state.union.length} type${state.union.length === 1 ? '' : 's'}`;
+
       if (!state.union.length) {
         const empty = document.createElement('div');
         empty.className = 'rounded-2xl border border-dashed border-[rgba(122,90,76,0.18)] bg-[#fffaf8] px-4 py-4 text-sm text-[#7a5a4c]';
-        empty.textContent = 'No union types currently selected.';
+        empty.textContent = 'No types selected.';
         container.appendChild(empty);
         return;
       }
@@ -846,62 +1761,66 @@
         container.appendChild(createTypeChip(type, true));
       });
     }
+
     function renderDissent() {
       const container = document.getElementById('dissent-list');
       const progress = document.getElementById('dissent-progress');
       container.innerHTML = '';
+
       const dissentTypes = currentItem ? currentItem.dissent || [] : [];
       const decided = dissentTypes.filter(type => state.resolution[type] !== null).length;
       progress.textContent = `${decided} / ${dissentTypes.length} decided`;
+
       if (!dissentTypes.length) {
         const empty = document.createElement('div');
         empty.className = 'rounded-[1.2rem] border border-[rgba(255,107,0,0.12)] bg-gradient-to-br from-[#fff7f2] to-[#fffaf8] px-4 py-4 text-sm leading-6 text-[#6f5346]';
-        empty.innerHTML = '<strong>No dissent types</strong> for this sentence. You can still adjust the union selection or leave an optional explanation.';
+        empty.innerHTML = '<strong>No uncertain types</strong> for this sentence.';
         container.appendChild(empty);
         return;
       }
+
       dissentTypes.forEach(type => {
         const meta = getTypeMeta(type);
         const wrapper = document.createElement('div');
         wrapper.className = 'rounded-[1.25rem] border border-[rgba(122,90,76,0.12)] bg-white/90 p-4 shadow-[0_12px_26px_rgba(87,43,18,0.04)]';
+
         const topRow = document.createElement('div');
-        topRow.className = 'flex flex-col gap-3 lg:flex-row lg:items-start lg:justify-between';
+        topRow.className = 'flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3';
+
         const left = document.createElement('div');
-        left.className = 'min-w-0';
-        const titleRow = document.createElement('div');
-        titleRow.className = 'flex flex-wrap items-center gap-2';
+        left.className = 'flex flex-wrap items-center gap-2';
+
         const name = document.createElement('span');
         name.className = 'type-button text-base font-black text-[#2d1f1a]';
         name.textContent = type;
         attachTooltip(name, type);
+
         const groupBadge = document.createElement('span');
-        groupBadge.className = 'rounded-full px-2.5 py-1 text-[0.72rem] font-black';
+        groupBadge.className = 'rounded-full px-2.5 py-1 text-[0.72rem] font-black whitespace-nowrap flex-shrink-0';
         groupBadge.style.backgroundColor = hexToRgba(meta.color, 0.12);
         groupBadge.style.color = meta.color;
-        groupBadge.textContent = meta.groupName || 'Unknown group';
-        titleRow.appendChild(name);
-        titleRow.appendChild(groupBadge);
-        const definition = document.createElement('p');
-        definition.className = 'mt-2 text-sm leading-6 text-[#6f5346]';
-        definition.textContent = meta.definition || 'No definition available.';
-        left.appendChild(titleRow);
-        left.appendChild(definition);
+        groupBadge.textContent = meta.groupName;
+
+        left.appendChild(name);
+        left.appendChild(groupBadge);
+
         const right = document.createElement('div');
-        right.className = 'flex flex-wrap gap-2';
+        right.className = 'flex flex-wrap gap-2 flex-shrink-0';
+
         const yesButton = document.createElement('button');
-        yesButton.type = 'button';
         yesButton.dataset.action = 'choose-dissent';
         yesButton.dataset.type = type;
         yesButton.dataset.value = 'true';
         yesButton.className = `decision-button ${state.resolution[type] === true ? 'decision-yes-active' : ''}`;
         yesButton.textContent = 'Applies';
+
         const noButton = document.createElement('button');
-        noButton.type = 'button';
         noButton.dataset.action = 'choose-dissent';
         noButton.dataset.type = type;
         noButton.dataset.value = 'false';
         noButton.className = `decision-button ${state.resolution[type] === false ? 'decision-no-active' : ''}`;
-        noButton.textContent = 'Does not apply';
+        noButton.textContent = 'No';
+
         right.appendChild(yesButton);
         right.appendChild(noButton);
         topRow.appendChild(left);
@@ -910,49 +1829,46 @@
         container.appendChild(wrapper);
       });
     }
+
     function renderStatus() {
       const badge = document.getElementById('status-badge');
       const total = currentItem ? (currentItem.dissent || []).length : 0;
       const decided = Object.values(state.resolution).filter(value => value !== null).length;
       badge.className = 'status-badge';
       if (total === 0) {
+        badge.classList.add('bg-[#ecfdf5]', 'text-[#0f8a4f]', 'ring-1', 'ring-[rgba(16,185,129,0.18)]');
+        badge.textContent = 'No dissent items';
+      } else if (decided < total) {
         badge.classList.add('bg-[#fff4ed]', 'text-[#ae3f12]', 'ring-1', 'ring-[rgba(255,107,0,0.16)]');
-        badge.textContent = 'No dissent to review';
-        return;
-      }
-      if (decided < total) {
-        badge.classList.add('bg-[#fff4ed]', 'text-[#ae3f12]', 'ring-1', 'ring-[rgba(255,107,0,0.16)]');
-        badge.textContent = `${decided} of ${total} reviewed`;
+        badge.textContent = `${decided}/${total} Uncertain reviewed`;
       } else {
         badge.classList.add('bg-[#ecfdf5]', 'text-[#0f8a4f]', 'ring-1', 'ring-[rgba(16,185,129,0.18)]');
         badge.textContent = 'Ready to save';
       }
     }
+
     function renderExplanationCount() {
       const explanation = document.getElementById('explanation').value || '';
       document.getElementById('explanation-count').textContent = `${explanation.length} chars`;
     }
+
     function renderAutocomplete() {
       const panel = document.getElementById('autocomplete-results');
       const input = document.getElementById('add-type-input');
       const query = input.value.trim().toLowerCase();
       panel.innerHTML = '';
-      if (!query) {
-        hideAutocomplete();
-        return;
-      }
+      if (!query) { hideAutocomplete(); return; }
+
       const matches = ALL_TYPES.filter(type => !state.union.includes(type) && type.toLowerCase().includes(query)).slice(0, 12);
-      if (!matches.length) {
-        hideAutocomplete();
-        return;
-      }
+      if (!matches.length) { hideAutocomplete(); return; }
+
       matches.forEach(type => {
         const meta = getTypeMeta(type);
         const button = document.createElement('button');
-        button.type = 'button';
         button.className = 'autocomplete-item';
         button.dataset.action = 'select-suggestion';
         button.dataset.type = type;
+
         const left = document.createElement('div');
         left.className = 'min-w-0';
         const title = document.createElement('div');
@@ -960,50 +1876,42 @@
         title.textContent = type;
         const description = document.createElement('div');
         description.className = 'mt-1 truncate text-xs text-[#7a5a4c]';
-        description.textContent = meta.definition || 'No definition available.';
+        description.textContent = meta.definition;
+
         left.appendChild(title);
         left.appendChild(description);
         const right = document.createElement('span');
         right.className = 'rounded-full px-2.5 py-1 text-[0.72rem] font-black';
         right.style.backgroundColor = hexToRgba(meta.color, 0.12);
         right.style.color = meta.color;
-        right.textContent = meta.groupName || 'Unknown';
+        right.textContent = meta.groupName;
+
         button.appendChild(left);
         button.appendChild(right);
         panel.appendChild(button);
       });
       panel.classList.remove('hidden');
     }
-    function hideAutocomplete() {
-      document.getElementById('autocomplete-results').classList.add('hidden');
-    }
+
+    function hideAutocomplete() { document.getElementById('autocomplete-results').classList.add('hidden'); }
+
     function handleAddInputKeydown(event) {
-      if (event.key === 'Enter') {
-        event.preventDefault();
-        addTypeFromInput();
-      }
+      if (event.key === 'Enter') { event.preventDefault(); addTypeFromInput(); }
     }
+
     function addTypeFromInput() {
       const input = document.getElementById('add-type-input');
       const query = input.value.trim();
       if (!query) return;
       const exact = ALL_TYPES.find(type => type.toLowerCase() === query.toLowerCase());
-      if (exact) {
-        addType(exact);
-        return;
-      }
+      if (exact) { addType(exact); return; }
       const firstMatch = ALL_TYPES.find(type => !state.union.includes(type) && type.toLowerCase().includes(query.toLowerCase()));
-      if (firstMatch) {
-        addType(firstMatch);
-        return;
-      }
+      if (firstMatch) { addType(firstMatch); return; }
       showToast('No matching taxonomy type found.', 'error');
     }
+
     function addType(type) {
-      if (state.union.includes(type)) {
-        showToast('This type is already selected.', 'neutral');
-        return;
-      }
+      if (state.union.includes(type)) { showToast('Already selected.', 'neutral'); return; }
       state.union.push(type);
       syncDerivedArrays();
       document.getElementById('add-type-input').value = '';
@@ -1011,30 +1919,39 @@
       renderUnion();
       showToast(`Added “${type}”.`, 'success');
     }
+
     function removeUnionType(type) {
       state.union = state.union.filter(entry => entry !== type);
       syncDerivedArrays();
       renderUnion();
       showToast(`Removed “${type}”.`, 'neutral');
     }
+
     function chooseDissent(type, applies) {
       state.resolution[type] = applies;
       renderDissent();
       renderStatus();
     }
-    function saveDecision() {
+
+    function handleSaveRequest() {
       if (!currentItem) return;
       const unresolved = (currentItem.dissent || []).filter(type => state.resolution[type] === null);
       if (unresolved.length) {
-        showToast('Please resolve all dissent types before saving.', 'error');
+        showToast('Please resolve all Uncertain types before saving.', 'error');
         return;
       }
-      const confirmed = window.confirm('By saving, your decision may be used to help train future iterations of BiasScanner. No personal data is stored by this page. Do you want to continue?');
-      if (!confirmed) {
-        return;
+
+      if (state.skipConfirm) {
+        saveDecision();
+      } else {
+        document.getElementById('confirm-modal').classList.remove('hidden');
       }
+    }
+
+    function saveDecision() {
       syncDerivedArrays();
       state.explanation = document.getElementById('explanation').value.trim();
+
       const output = {
         sentence: currentItem.sentence,
         union: [...state.union],
@@ -1045,87 +1962,108 @@
         added_nonoriginal: [...state.addedNonoriginal],
         removed_nondissented: [...state.removedNondissented],
         explanation: state.explanation,
+        overall_bias_strength: state.overallBiasStrength,
         resolved_at: new Date().toISOString(),
         resolved_by: resolverId
       };
+
+      // Gamification: calculate XP before mutation
+      let earnedXP = 0;
+      if (gamification.enabled) {
+        earnedXP = calculateXP();
+        const oldLevel = getLevel(gamification.totalXP);
+
+        gamification.totalXP += earnedXP;
+        gamification.totalAnnotations++;
+        incrementStreak();
+        saveGamification();
+        renderGamificationBar();
+        showXPPopup(earnedXP);
+
+        // Check for level up
+        const newLevel = getLevel(gamification.totalXP);
+        if (newLevel.title !== oldLevel.title) {
+          setTimeout(() => showLevelUpModal(newLevel), 400);
+        } else {
+          launchConfetti(80);
+        }
+      }
+
       const jsonlLine = JSON.stringify(output);
-      window.lastSavedBiasRecord = output;
-      window.lastSavedBiasJSONL = jsonlLine;
-      window.savedBiasJSONL = window.savedBiasJSONL || [];
-      window.savedBiasJSONL.push(jsonlLine);
-      window.dispatchEvent(new CustomEvent('biasscanner-save', { detail: output }));
-      console.log(jsonlLine);
-      showToast('Decision saved. A new sentence has been loaded.', 'success');
+
+      fetch('https://app.biasscanner.org:8080', {
+        method: 'POST',
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ "type": "annotation", "text": jsonlLine, "url": "www.biasscanner.org" })
+      }).catch(err => console.error("Server error:", err));
+
+      showToast(gamification.enabled ? `+${earnedXP} XP — Decision saved!` : 'Decision saved!', 'success');
       loadRandomSentence();
     }
-    function buildColorAwareChip(type, removable) {
+
+    function createTypeChip(type, removable) {
       const meta = getTypeMeta(type);
       const wrapper = document.createElement('div');
       wrapper.className = 'tag-chip';
       wrapper.style.backgroundColor = hexToRgba(meta.color, 0.12);
       wrapper.style.borderColor = hexToRgba(meta.color, 0.28);
       wrapper.style.color = '#3b271f';
+
       const dot = document.createElement('span');
       dot.className = 'tag-dot';
       dot.style.backgroundColor = meta.color;
+
       const label = document.createElement('span');
-      label.className = 'type-button';
+      label.className = 'type-button truncate max-w-[12rem]';
       label.textContent = type;
       attachTooltip(label, type);
+
       wrapper.appendChild(dot);
       wrapper.appendChild(label);
+
       if (removable) {
         const button = document.createElement('button');
-        button.type = 'button';
         button.className = 'tag-remove';
         button.dataset.action = 'remove-union';
         button.dataset.type = type;
-        button.setAttribute('aria-label', `Remove ${type}`);
         button.textContent = '×';
         wrapper.appendChild(button);
       }
       return wrapper;
     }
-    function createTypeChip(type, removable) {
-      return buildColorAwareChip(type, removable);
-    }
+
     function renderTaxonomy() {
       const container = document.getElementById('taxonomy-browser');
       container.innerHTML = '';
+
       TAXONOMY.groupOrder.forEach(groupName => {
         const group = GROUP_MAP[groupName];
         const typesInGroup = Object.entries(TAXONOMY.types).filter(([, value]) => value.group === groupName);
+
         const groupDetails = document.createElement('details');
         groupDetails.className = 'taxonomy-group';
-        groupDetails.open = true;
+        groupDetails.open = false;
+
         const groupSummary = document.createElement('summary');
         groupSummary.className = 'flex items-center justify-between gap-4 px-4 py-4';
         groupSummary.style.borderLeft = `6px solid ${group.color}`;
+
         const groupLeft = document.createElement('div');
         groupLeft.className = 'flex items-center gap-3 min-w-0';
         const arrow = document.createElement('span');
         arrow.className = 'text-sm font-black text-[#7a5a4c]';
-        arrow.textContent = '▾';
+        arrow.textContent = '▸';
         const groupTitle = document.createElement('div');
-        groupTitle.className = 'min-w-0';
-        const groupNameEl = document.createElement('div');
-        groupNameEl.className = 'truncate text-base font-black text-[#2d1f1a]';
-        groupNameEl.textContent = groupName;
-        const groupDescription = document.createElement('div');
-        groupDescription.className = 'mt-1 text-xs text-[#7a5a4c]';
-        groupDescription.textContent = `${typesInGroup.length} type${typesInGroup.length === 1 ? '' : 's'}`;
-        groupTitle.appendChild(groupNameEl);
-        groupTitle.appendChild(groupDescription);
+        const gName = document.createElement('div');
+        gName.className = 'truncate text-base font-black text-[#2d1f1a]';
+        gName.textContent = groupName;
+        groupTitle.appendChild(gName);
         groupLeft.appendChild(arrow);
         groupLeft.appendChild(groupTitle);
-        const badge = document.createElement('span');
-        badge.className = 'rounded-full px-3 py-1.5 text-[0.72rem] font-black';
-        badge.style.backgroundColor = hexToRgba(group.color, 0.12);
-        badge.style.color = group.color;
-        badge.textContent = groupName;
+
         groupSummary.appendChild(groupLeft);
-        groupSummary.appendChild(badge);
         groupDetails.appendChild(groupSummary);
+
         const groupBody = document.createElement('div');
         groupBody.className = 'space-y-3 px-4 pb-4';
         typesInGroup.forEach(([typeName, typeData]) => {
@@ -1133,39 +2071,26 @@
           typeDetails.className = 'taxonomy-type';
           const typeSummary = document.createElement('summary');
           typeSummary.className = 'flex items-center justify-between gap-4 px-4 py-3';
-          const typeLeft = document.createElement('div');
-          typeLeft.className = 'min-w-0';
-          const typeTitle = document.createElement('div');
-          typeTitle.className = 'truncate text-sm font-black';
-          typeTitle.style.color = group.color;
-          typeTitle.textContent = typeName;
-          attachTooltip(typeTitle, typeName);
-          const typeHint = document.createElement('div');
-          typeHint.className = 'mt-1 text-xs text-[#7a5a4c]';
-          typeHint.textContent = 'Click to expand definition and example';
-          typeLeft.appendChild(typeTitle);
-          typeLeft.appendChild(typeHint);
-          const typeBadge = document.createElement('span');
-          typeBadge.className = 'rounded-full px-2.5 py-1 text-[0.68rem] font-black';
-          typeBadge.style.backgroundColor = hexToRgba(group.color, 0.12);
-          typeBadge.style.color = group.color;
-          typeBadge.textContent = 'Type';
-          typeSummary.appendChild(typeLeft);
-          typeSummary.appendChild(typeBadge);
+          const tTitle = document.createElement('div');
+          tTitle.className = 'truncate text-sm font-black';
+          tTitle.style.color = group.color;
+          tTitle.textContent = typeName;
+          typeSummary.appendChild(tTitle);
           typeDetails.appendChild(typeSummary);
+
           const typeBody = document.createElement('div');
           typeBody.className = 'border-t border-[rgba(122,90,76,0.08)] px-4 py-4';
           const definition = document.createElement('p');
           definition.className = 'text-sm leading-6 text-[#4f3d34]';
           definition.textContent = typeData.definition;
-          const exampleLabel = document.createElement('div');
-          exampleLabel.className = 'mt-4 text-[0.72rem] font-black uppercase tracking-[0.14em] text-[#b85e2a]';
-          exampleLabel.textContent = 'Example';
+          const exLabel = document.createElement('div');
+          exLabel.className = 'mt-4 text-[0.72rem] font-black uppercase tracking-[0.14em] text-[#b85e2a]';
+          exLabel.textContent = 'Example';
           const example = document.createElement('p');
           example.className = 'mt-2 rounded-2xl bg-[#fff8f4] px-4 py-3 text-sm italic leading-6 text-[#6f5346] ring-1 ring-[rgba(224,76,34,0.08)]';
           example.textContent = typeData.example;
           typeBody.appendChild(definition);
-          typeBody.appendChild(exampleLabel);
+          typeBody.appendChild(exLabel);
           typeBody.appendChild(example);
           typeDetails.appendChild(typeBody);
           groupBody.appendChild(typeDetails);
@@ -1174,106 +2099,87 @@
         container.appendChild(groupDetails);
       });
     }
+
     function handleDocumentClick(event) {
       const actionTarget = event.target.closest('[data-action]');
       if (actionTarget) {
         const { action, type, value } = actionTarget.dataset;
-        if (action === 'remove-union') {
-          removeUnionType(type);
-          return;
-        }
-        if (action === 'choose-dissent') {
-          chooseDissent(type, value === 'true');
-          return;
-        }
-        if (action === 'select-suggestion') {
-          addType(type);
-          return;
-        }
+        if (action === 'remove-union') { removeUnionType(type); return; }
+        if (action === 'choose-dissent') { chooseDissent(type, value === 'true'); return; }
+        if (action === 'select-suggestion') { addType(type); return; }
       }
-      const autocomplete = document.getElementById('autocomplete-results');
-      const input = document.getElementById('add-type-input');
-      if (!autocomplete.contains(event.target) && event.target !== input) {
+      if (!document.getElementById('autocomplete-results').contains(event.target) && event.target !== document.getElementById('add-type-input')) {
         hideAutocomplete();
       }
     }
+
     function handleTooltipMove(event) {
       const target = event.target.closest('[data-tooltip-title]');
-      if (!target) {
-        hideTooltip();
-        return;
-      }
+      if (!target) { hideTooltip(); return; }
       const tooltip = document.getElementById('hover-tooltip');
-      const title = target.dataset.tooltipTitle || '';
-      const definition = target.dataset.tooltipDefinition || '';
-      const example = target.dataset.tooltipExample || '';
       tooltip.innerHTML = `
-        <div class="text-sm font-black text-white">${escapeHtml(title)}</div>
-        <div class="mt-2 text-sm leading-6 text-white/88">${escapeHtml(definition)}</div>
-        ${example ? `<div class="mt-3 border-t border-white/10 pt-3 text-sm italic leading-6 text-white/70">${escapeHtml(example)}</div>` : ''}
+        <div class="text-sm font-black text-white">${escapeHtml(target.dataset.tooltipTitle)}</div>
+        <div class="mt-2 text-sm leading-6 text-white/88">${escapeHtml(target.dataset.tooltipDefinition)}</div>
+        ${target.dataset.tooltipExample ? `<div class="mt-3 border-t border-white/10 pt-3 text-sm italic leading-6 text-white/70">${escapeHtml(target.dataset.tooltipExample)}</div>` : ''}
       `;
-      const offsetX = 18;
-      const offsetY = 18;
       tooltip.classList.add('show');
-      const maxWidth = 360;
-      let left = event.clientX + offsetX;
-      let top = event.clientY + offsetY;
-      if (left + maxWidth > window.innerWidth - 12) {
-        left = window.innerWidth - maxWidth - 12;
-      }
+      let left = Math.min(event.clientX + 18, window.innerWidth - tooltip.offsetWidth - 12);
       tooltip.style.left = `${Math.max(12, left)}px`;
-      tooltip.style.top = `${Math.max(12, top)}px`;
+      tooltip.style.top = `${event.clientY + 18}px`;
     }
-    function hideTooltip() {
-      document.getElementById('hover-tooltip').classList.remove('show');
-    }
+
+    function hideTooltip() { document.getElementById('hover-tooltip').classList.remove('show'); }
+
     function attachTooltip(element, type) {
       const meta = getTypeMeta(type);
-      element.dataset.tooltipTitle = meta.groupName ? `${type} — ${meta.groupName}` : type;
-      element.dataset.tooltipDefinition = meta.definition || 'No definition available.';
-      element.dataset.tooltipExample = meta.example || '';
+      element.dataset.tooltipTitle = meta.displayName;
+      element.dataset.tooltipDefinition = meta.definition;
+      element.dataset.tooltipExample = meta.example;
     }
+
     function getTypeMeta(type) {
-      const typeData = TAXONOMY.types[type] || null;
-      const groupData = typeData ? GROUP_MAP[typeData.group] : null;
+      const data = TAXONOMY.types[type];
+      const group = data ? GROUP_MAP[data.group] : null;
+      
+      let displayName = type;
+      let groupName = group ? group.name : 'Unknown';
+      let definition = data ? data.definition : 'Definition unavailable.';
+      let example = data ? data.example : '';
+
+      if (currentLang === 'de' && taxTranslations['de']) {
+        if (taxTranslations['de'].types[type]) {
+          displayName = taxTranslations['de'].types[type].name;
+          definition = taxTranslations['de'].types[type].def;
+          example = taxTranslations['de'].types[type].ex;
+        }
+        if (group && taxTranslations['de'].groups[group.name]) {
+          groupName = taxTranslations['de'].groups[group.name];
+        }
+      }
+
       return {
-        definition: typeData ? typeData.definition : 'No definition available.',
-        example: typeData ? typeData.example : '',
-        groupName: groupData ? groupData.name : '',
-        color: groupData ? groupData.color : '#ff6b00'
+        displayName,
+        definition,
+        example,
+        groupName,
+        color: group ? group.color : '#ff6b00'
       };
     }
+
     function hexToRgba(hex, alpha) {
-      const normalized = hex.replace('#', '');
-      const bigint = parseInt(normalized, 16);
-      const red = (bigint >> 16) & 255;
-      const green = (bigint >> 8) & 255;
-      const blue = bigint & 255;
-      return `rgba(${red}, ${green}, ${blue}, ${alpha})`;
+      const r = parseInt(hex.slice(1, 3), 16), g = parseInt(hex.slice(3, 5), 16), b = parseInt(hex.slice(5, 7), 16);
+      return `rgba(${r}, ${g}, ${b}, ${alpha})`;
     }
-    function escapeHtml(value) {
-      return String(value)
-        .replace(/&/g, '&amp;')
-        .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;')
-        .replace(/"/g, '&quot;')
-        .replace(/'/g, '&#39;');
-    }
-    function showToast(message, variant = 'success') {
-      const toast = document.getElementById('toast');
+
+    function escapeHtml(v) { return String(v).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m])); }
+
+    function showToast(m, v = 'success') {
+      const t = document.getElementById('toast');
       clearTimeout(toastTimeout);
-      toast.textContent = message;
-      toast.className = 'toast show';
-      if (variant === 'success') {
-        toast.style.background = 'linear-gradient(135deg, #0f8a4f, #10b981)';
-      } else if (variant === 'error') {
-        toast.style.background = 'linear-gradient(135deg, #c81e1e, #e0251b)';
-      } else {
-        toast.style.background = 'linear-gradient(135deg, #7a5a4c, #9f7b67)';
-      }
-      toastTimeout = window.setTimeout(() => {
-        toast.classList.remove('show');
-      }, 2600);
+      t.textContent = m;
+      t.className = 'toast show';
+      t.style.background = v === 'success' ? 'linear-gradient(135deg, #0f8a4f, #10b981)' : v === 'error' ? 'linear-gradient(135deg, #c81e1e, #e0251b)' : 'linear-gradient(135deg, #7a5a4c, #9f7b67)';
+      toastTimeout = setTimeout(() => t.classList.remove('show'), 2600);
     }
   </script>
 </body>
