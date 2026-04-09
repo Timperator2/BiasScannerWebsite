@@ -1,4 +1,4 @@
-const translations = {
+﻿const translations = {
   "nav.about": {
     "en": "About",
     "de": "Über"
@@ -18,6 +18,14 @@ const translations = {
    "nav.demo": {
     "en": "Demo",
     "de": "Demo"
+  },
+  "nav.knowledge": {
+    "en": "Knowledge",
+    "de": "Wissen"
+  },
+  "nav.annotation": {
+    "en": "Decide",
+    "de": "Entscheiden"
   },
      "nav.rank": {
     "en": "BiasRank",
@@ -126,6 +134,14 @@ const translations = {
     "en": "We believe technology can make news consumption better and protect democracy. So, why not give BiasScanner a try? By using it (and maybe even sharing interesting results with us trough the application), you not only help yourself, but you also contribute to ongoing research on bias in news. Let's work together to make online news a more reliable source of information.",
     "de": "Wir glauben, dass Technologie die Nachrichtenkonsum verbessern und die Demokratie schützen kann. Also, warum nicht BiasScanner ausprobieren? Indem Sie es verwenden (und vielleicht sogar interessante Ergebnisse mit uns über die Anwendung teilen), helfen Sie nicht nur sich selbst, sondern tragen auch zur laufenden Forschung über Voreingenommenheit in den Nachrichten bei. Lassen Sie uns zusammenarbeiten, um Online-Nachrichten zu einer zuverlässigeren Informationsquelle zu machen."
   },
+  "annotation.link": {
+    "en": "Fair, biased or propaganda? Decide yourself, help our research and earn points!",
+    "de": "Fair, voreingenommen oder Propaganda? Entscheiden Sie selbst, helfen Sie unserer Forschung und sammeln Sie Punkte!"
+  },
+  "knowledge.link": {
+    "en": "A comprehensive guide to bias, propaganda and their automated detection",
+    "de": "Ein umfassender Leitfaden zu Bias, Propaganda und ihrer automatisierten Erkennung"
+  },
   "team.title": {
     "en": "Our Team",
     "de": "Unser Team"
@@ -228,6 +244,7 @@ var answer_json = null;
 
 // Function to update the content based on the selected language
 function updateLanguage(selectedLanguage) {
+  document.documentElement.lang = selectedLanguage;
   document.querySelectorAll('[data-translate]').forEach(element => {
     const translationKey = element.getAttribute('data-translate');
     const translatedContent = translations[translationKey]?.[selectedLanguage];
@@ -235,6 +252,20 @@ function updateLanguage(selectedLanguage) {
     if (translatedContent) {
       element.textContent = translatedContent;
     }
+  });
+}
+
+function updateLanguageAwareLinks(selectedLanguage) {
+  const linkMappings = [
+    ['a[href^="bias_knowledge.html"]', 'bias_knowledge.html'],
+    ['a[href^="annotation.html"]', 'annotation.html'],
+    ['a[href^="BiasRankWebDemo.html"]', 'BiasRankWebDemo.html']
+  ];
+
+  linkMappings.forEach(([selector, basePath]) => {
+    document.querySelectorAll(selector).forEach(link => {
+      link.href = `${basePath}?lang=${encodeURIComponent(selectedLanguage)}`;
+    });
   });
 }
 
@@ -865,24 +896,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const languageSelect = document.getElementById("language-site");
 
-  // Initial update of content based on the default language
-  const defaultLanguage = languageSelect.value; // Assuming 'en' is the default language
+  const savedLanguage = localStorage.getItem("biasscanner-language");
+  const defaultLanguage = savedLanguage && ["en", "de"].includes(savedLanguage) ? savedLanguage : languageSelect.value;
+  languageSelect.value = defaultLanguage;
   updateLanguage(defaultLanguage);
+  updateLanguageAwareLinks(defaultLanguage);
 
-  // Add an event listener for the 'change' event
   languageSelect.addEventListener('change', () => {
-    // Get the selected value
     const selectedLanguage = languageSelect.value;
-
-    // Update the content based on the selected language
+    localStorage.setItem("biasscanner-language", selectedLanguage);
     updateLanguage(selectedLanguage);
-
-    // You can perform additional actions based on the selected language here
-    console.log('Selected language:', selectedLanguage);
-    // For example, you can redirect to a page based on the selected language
-    // window.location.href = `/${selectedLanguage}/index.html`;
+    updateLanguageAwareLinks(selectedLanguage);
   });
 });
+
 
 
 

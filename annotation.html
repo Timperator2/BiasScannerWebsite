@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -45,6 +45,131 @@
         linear-gradient(135deg, #d91f18 0%, #e84e12 44%, #ff6b00 100%);
       color: white;
       box-shadow: 0 24px 60px rgba(224, 37, 27, 0.26);
+    }
+
+    .sticky-shell {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      backdrop-filter: blur(16px);
+      background: #e0251b;
+      border-bottom: 1px solid rgba(255, 107, 0, 0.08);
+    }
+
+    .topbar {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 14px 18px 12px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    .brand-row {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      min-width: 0;
+    }
+
+    .back-link {
+      width: 42px;
+      height: 42px;
+      border-radius: 999px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      background: linear-gradient(180deg, #fff, #fff5ef);
+      border: 1px solid rgba(255, 138, 76, 0.22);
+      box-shadow: 0 10px 24px rgba(31, 41, 55, 0.06);
+      font-size: 20px;
+      flex: 0 0 auto;
+      transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+    }
+
+    .back-link:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 18px 50px rgba(31, 41, 55, 0.1);
+    }
+
+    .title-wrap {
+      min-width: 0;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: #ffffff;
+      margin-bottom: 4px;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, #fff, #ffe4cf);
+      box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.12);
+    }
+
+    .header-title {
+      font-size: 20px;
+      font-weight: 800;
+      line-height: 1.2;
+      color: white;
+      white-space: normal;
+    }
+
+    .top-controls {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .select-wrap {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 0 8px 0 14px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 138, 76, 0.22);
+      background: linear-gradient(180deg, #fff, #fff6f1);
+      box-shadow: 0 10px 24px rgba(31, 41, 55, 0.06);
+      height: 44px;
+      color: #667085;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .select-wrap span {
+      white-space: nowrap;
+    }
+
+    .lang-select {
+      border: none;
+      background: transparent;
+      color: #2a2f38;
+      font: inherit;
+      font-weight: 700;
+      outline: none;
+      padding-right: 4px;
+      cursor: pointer;
+    }
+
+    .lang-select:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 18px 50px rgba(31, 41, 55, 0.1);
     }
 
     .brand-button {
@@ -183,6 +308,10 @@
       cursor: help;
     }
 
+    .sentence-hover-target {
+      cursor: help;
+    }
+
     .input-base,
     textarea.input-base {
       width: 100%;
@@ -236,6 +365,7 @@
     }
 
     .taxonomy-scroll {
+      min-height: 0;
       max-height: calc(100vh - 12rem);
       overflow-y: auto;
       padding-right: 0.35rem;
@@ -463,15 +593,31 @@
       <div class="absolute bottom-0 left-1/3 h-72 w-72 rounded-full bg-amber-100/40 blur-3xl"></div>
     </div>
 
+    <div class="sticky-shell">
+      <header class="topbar">
+        <div class="brand-row">
+          <a href="index.html" class="back-link" aria-label="Back">←</a>
+          <div class="title-wrap">
+            <div class="eyebrow">BiasScanner</div>
+            <div class="header-title" data-i18n="title_main">Decide yourself!</div>
+          </div>
+        </div>
+
+        <div class="top-controls">
+          <label class="select-wrap">
+            <span>Language</span>
+            <select id="language-site" class="lang-select" name="language" aria-label="Select language">
+              <option value="en">🇬🇧 English</option>
+              <option value="de">🇩🇪 Deutsch</option>
+            </select>
+          </label>
+        </div>
+      </header>
+    </div>
+
     <header class="relative border-b border-white/20 bg-white/50 backdrop-blur-xl">
       <div class="mx-auto max-w-7xl px-4 py-5 sm:px-6 lg:px-8">
         <div class="hero-card warm-ring relative overflow-hidden rounded-[1.8rem] px-6 py-7 sm:px-8 sm:py-8">
-          <!-- Language Toggle -->
-          <div class="absolute right-5 top-5 z-10 flex gap-1 rounded-full bg-white/20 p-1 backdrop-blur-md ring-1 ring-white/30">
-            <button id="lang-en" class="h-8 w-8 rounded-full bg-white text-lg shadow-sm transition-all hover:scale-105" title="English">🇬🇧</button>
-            <button id="lang-de" class="h-8 w-8 rounded-full opacity-70 text-lg grayscale transition-all hover:scale-105 hover:opacity-100 hover:grayscale-0" title="Deutsch">🇩🇪</button>
-          </div>
-          
           <div class="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between mt-2 sm:mt-0">
             <div class="max-w-3xl relative z-10">
               <div class="mb-4 inline-flex items-center gap-2 rounded-full px-3 py-1 text-xs font-black uppercase tracking-[0.16em] pill-badge">
@@ -543,7 +689,7 @@
               <strong class="text-[#2d1f1a]">How XP works:</strong> You earn <strong class="text-[#e0251b]">10–25 XP</strong> per sentence based on how much time you spend reviewing it.
               The required time starts at <strong>25 seconds</strong> and increases by <strong>5 s</strong> for each type in "Quite certain" and <strong>10 s</strong> for each type in "Uncertain".
               A thoughtful <strong class="text-[#e0251b]">explanation earns +15 bonus XP</strong>. Consecutive saves build a <strong>streak</strong> (3×: +10 %, 5×: +25 %, 10×: +50 %).
-              Your XP level tracks your overall contribution — from 🌱 Beginner Annotator up to 💎 Bias Legend.
+              Your XP level tracks your overall contribution, from 🌱 Beginner Annotator up to 💎 Bias Legend.
             </p>
           </div>
         </div>
@@ -574,7 +720,7 @@
         </div>
       </section>
 
-      <div class="mt-6 grid gap-6 xl:grid-cols-[minmax(0,1.35fr)_minmax(22rem,0.85fr)]">
+      <div class="mt-6 grid gap-6 xl:grid-cols-[minmax(0,1.35fr)_minmax(22rem,0.85fr)] xl:items-start">
         <section class="space-y-6">
           <div class="glass-card rounded-[1.7rem] p-6 sm:p-7">
             <div class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
@@ -586,13 +732,19 @@
                 <button id="see-others-btn" type="button" class="pulse-glow brand-button rounded-full px-6 py-2.5 text-sm font-black tracking-wide">
                   <span data-i18n="see_others">👥 See how others decided</span>
                 </button>
+                <button id="sentence-translation-toggle-btn" type="button" class="secondary-button rounded-full px-5 py-2.5 text-sm font-bold">
+                  <span data-i18n="sentence_translation_on">🌐 Hover translate on</span>
+                </button>
                 <div id="status-badge" class="status-badge bg-[#fff4ed] text-[#ae3f12] ring-1 ring-[rgba(255,107,0,0.16)]">
                   Pending review
                 </div>
               </div>
             </div>
             <div class="mt-5 rounded-[1.45rem] border border-[rgba(224,76,34,0.1)] bg-gradient-to-br from-white to-[#fff7f4] p-5 sm:p-6">
-              <p id="current-sentence" class="text-lg leading-8 font-medium text-[#2d1f1a] sm:text-[1.32rem]">Loading sentence…</p>
+              <p id="current-sentence" class="sentence-hover-target text-lg leading-8 font-medium text-[#2d1f1a] sm:text-[1.32rem]">Loading sentence…</p>
+              <p id="sentence-translation-hint" data-i18n="sentence_translation_hint" class="mt-3 text-xs leading-5 text-[#7a5a4c]">
+                Hover the sentence to preview a translation whenever it is not already in the selected language.
+              </p>
             </div>
 
             <!-- Other Decisions View -->
@@ -666,7 +818,7 @@
               <div>
                 <div data-i18n="optional_explanation" class="text-[0.7rem] font-black uppercase tracking-[0.16em] text-[#b85e2a]">Optional explanation</div>
                 <h3 data-i18n="why_decide" class="section-title mt-2 text-xl font-black">Why did you decide this way?</h3>
-                <p data-i18n="why_decide_desc" class="mt-2 text-sm leading-6 text-[#6f5346]">Feel free to share your reasoning if you would like to — this is entirely optional.</p>
+                <p data-i18n="why_decide_desc" class="mt-2 text-sm leading-6 text-[#6f5346]">Feel free to share your reasoning if you would like to, this is entirely optional.</p>
               </div>
               <div id="explanation-count" class="rounded-full bg-[#fff8f4] px-3 py-1.5 text-xs font-black text-[#8c674f] ring-1 ring-[rgba(122,90,76,0.08)]">0 chars</div>
             </div>
@@ -680,7 +832,7 @@
               <div class="max-w-2xl">
                 <div data-i18n="actions" class="text-[0.7rem] font-black uppercase tracking-[0.16em] text-[#b85e2a]">Actions</div>
                 <p data-i18n="actions_desc" class="mt-2 text-sm leading-6 text-[#6f5346]">
-                  When you <strong>save</strong>, your annotation will be used to train future iterations of <strong>BiasScanner</strong>. We do not collect any personal data — everything remains completely anonymous. Alternatively, skip to a new sentence without saving.
+                  When you <strong>save</strong>, your annotation will be used to train future iterations of <strong>BiasScanner</strong>. We do not collect any personal data, everything remains completely anonymous. Alternatively, skip to a new sentence without saving.
                 </p>
               </div>
               <div class="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:justify-end">
@@ -692,7 +844,7 @@
           </div>
         </section>
 
-        <aside class="glass-card rounded-[1.7rem] p-5 sm:p-6">
+        <aside class="glass-card rounded-[1.7rem] p-5 sm:p-6 xl:sticky xl:top-6 xl:flex xl:max-h-[calc(100vh-3rem)] xl:flex-col">
           <div class="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
             <div>
               <div data-i18n="taxonomy_ref" class="text-[0.7rem] font-black uppercase tracking-[0.16em] text-[#b85e2a]">Taxonomy reference</div>
@@ -701,7 +853,7 @@
             </div>
             <div class="rounded-full bg-[#fff6f1] px-3 py-1.5 text-xs font-black text-[#a6471a] ring-1 ring-[rgba(224,76,34,0.08)]">v1.0</div>
           </div>
-          <div id="taxonomy-browser" class="taxonomy-scroll mt-5 space-y-4"></div>
+          <div id="taxonomy-browser" class="taxonomy-scroll mt-5 space-y-4 xl:flex-1"></div>
         </aside>
       </div>
     </main>
@@ -732,7 +884,7 @@
     <div class="glass-card w-full max-w-md rounded-[1.8rem] p-7 shadow-2xl">
       <h3 data-i18n="save_contribution" class="text-xl font-black text-[#2d1f1a]">Save contribution?</h3>
       <p data-i18n="save_contribution_desc" class="mt-3 text-sm leading-6 text-[#6f5346]">
-        Your decision may be used to help train future iterations of BiasScanner. No personal data is stored — everything is anonymous.
+        Your decision may be used to help train future iterations of BiasScanner. No personal data is stored, everything is anonymous.
       </p>
       <div class="mt-5 flex items-center gap-2">
         <input type="checkbox" id="skip-confirm-checkbox" class="h-4 w-4 accent-[#ff6b00]">
@@ -745,429 +897,9 @@
     </div>
   </div>
 
-  <script id="taxonomy-json" type="application/json">
-{
-  "name": "Bias Taxonomy",
-  "version": "1.0",
-  "description": "A taxonomy of cognitive biases",
-  "groupOrder": ["Framing", "Personalizing", "Deflecting", "Asserting", "Misreasoning", "Dividing", "Preferring", "Confirming"],
-  "groups": [
-    {"name": "Framing", "color": "#10b981"},
-    {"name": "Personalizing", "color": "#eab308"},
-    {"name": "Deflecting", "color": "#6366f1"},
-    {"name": "Asserting", "color": "#ec4899"},
-    {"name": "Misreasoning", "color": "#3b82f6"},
-    {"name": "Dividing", "color": "#ef4444"},
-    {"name": "Preferring", "color": "#8b5cf6"},
-    {"name": "Confirming", "color": "#6b7280"}
-  ],
-  "types": {
-    "Word Choice Bias": {
-      "group": "Framing",
-      "definition": "This type of bias arises when certain words and expressions with inherently positive or negative connotations, euphemisms, dysphemisms, or (strong) adjectives, adverbs and linguistic markers are chosen that influence perception and imply a judgment about a topic.",
-      "example": "\"Hordes of punks swarmed the island in the summer and caused chaos.\""
-    },
-    "Emotional Sensationalism Bias": {
-      "group": "Framing",
-      "definition": "This is when sentences use alarming, baiting, hyperbolic, or provocative language designed to evoke (strong) emotions, while often focusing predominantly on negative events, aspects or interpretations.",
-      "example": "\"Even the EU is shocked by France's move against the USA!\""
-    },
-    "Magnitude Bias": {
-      "group": "Framing",
-      "definition": "This type of bias arises when the severity or relevance of an issue is relativized, downplayed, or exaggerated.",
-      "example": "\"The worst bureaucracy law of all time!\""
-    },
-    "Rhetorical Bias": {
-      "group": "Framing",
-      "definition": "This refers to the use of rhetorical devices, such as repetition, sarcasm, rhyme, irony, or humor, in discussing an issue to shape its perception.",
-      "example": "\"At the time of publication, Christian Lindner was last seen on the deck of the burning ship, leaning over a burnt-out Porsche, crying loudly and vowing never to forget it.\""
-    },
-    "Empty Symbol Bias": {
-      "group": "Framing",
-      "definition": "This type of bias describes the invoking of symbols, such as phrases, slogans, concepts, ideals, historical events, or public figures, which are charged with meaning beyond their objective reality and usually broad enough to invite personal projection.",
-      "example": "\"National Day is a lofty and inspiring national occasion that embodies the spirit of unity, cohesion and belonging among citizens, and confirms their pride in the memory of the founder of the state, Sheikh Jassim bin Mohammed bin Thani, who laid the foundations of a strong and unified state, and made Qatar a model of steadfastness and independence.\""
-    },
-    "False Dichotomy Bias": {
-      "group": "Misreasoning",
-      "definition": "This bias occurs when a complex issue is presented as having only two opposing alternatives or being without alternative altogether, even though there might be more possible solutions, positions or outcomes.",
-      "example": "\"Society must choose: embrace advanced AI with potential risks or stifle innovation and fall behind technologically.\""
-    },
-    "Flawed Comparison Bias": {
-      "group": "Misreasoning",
-      "definition": "This bias is characterized by drawing analogies or comparisons between two or more things things that may share superficial similarities but are ultimately fundamentally different.",
-      "example": "\"One should have just asked a Swabian housewife: You can't live beyond your means in the long run. That is the core of the [financial] crisis.\""
-    },
-    "Straw Man Bias": {
-      "group": "Misreasoning",
-      "definition": "This occurs when a position or argument is misrepresented and distorted in a way that makes it easier to attack or refute, often by oversimplifying or exaggerating it.",
-      "example": "\"All other 'methods' of informing people correctly have unfortunately been exhausted? The climate issue, a global issue with many unknowns, is no longer capable of any development and has been declared over? And a few activists are supposed to be the only ones who have the climate under control and now have to drive the whole world before them?\""
-    },
-    "Opinionated Bias": {
-      "group": "Preferring",
-      "definition": "This refers to the inclusion of subjective opinions, beliefs, or interpretations portrayed as objective, factual reporting, obscuring the line between verifiable evidence and personal perspective.",
-      "example": "\"And we know that the promises and rosy visions of the future made by those responsible in the Harz National Park are not realistic.\""
-    },
-    "Suggestive Questioning Bias": {
-      "group": "Framing",
-      "definition": "This is the practice of posing suggestive questions that contain implicit assumptions, or lead the audience towards a preconceived notion, often used to promulgate subjective beliefs or doubts under the pretense of neutral inquiry.",
-      "example": "\"Is he a left-wing radical or is he a crowd-pleasing moderate? Is he a uniter? Is he actually religious? Is he a socialist? Does he hate America? And, in light of the confidence he projects, why can't he seem to take criticism?\""
-    },
-    "Projection Bias": {
-      "group": "Misreasoning",
-      "definition": "This occurs when thoughts, feelings, motives, or intentions are attributed to others, be it individuals, groups, or entities, without sufficient evidence or direct statements to validate such claims.",
-      "example": "\"It feels very much like the writers and creators of the new line of Star Trek shows, which also includes 'Picard,' don't think just writing a good TV show is important enough work. Like so much of corporate America they think they have to save the country and the planet while they do it.\""
-    },
-    "Speculation Bias": {
-      "group": "Asserting",
-      "definition": "This is the practice of engaging in speculation based on conjecture about situations or outcomes, rather than relying on concrete facts and definitive evidence.",
-      "example": "\"Is North Korea sending soldiers to help Putin rebuild the occupied territories? These are still just rumours. But are they really that unlikely?\""
-    },
-    "Unsubstantiated Claims Bias": {
-      "group": "Asserting",
-      "definition": "This describes the practice of making claims, statements, or assertions that are substantive enough that they should be supported by evidence, and presenting them as factual without actually providing adequate evidence or references to support their validity.",
-      "example": "\"Read all about Dominion and Smartmatic voting companies and you'll soon understand how pervasive this Democrat electoral fraud is, and why there's no way in the world the 2020 Presidential election was either free or fair.\""
-    },
-    "Vagueness Bias": {
-      "group": "Asserting",
-      "definition": "This is the usage of phrasings so broad and unspecific that they can mean anything and nothing without further clarification, like the usage of catch-all terms (such as 'actions' or 'factors'), vague references (like 'experts' or 'the people') or deliberate concealment of specifics.",
-      "example": "\"Experts, entrepreneurs and others have also been quick to condemn the announcement.\""
-    },
-    "False Balance Bias": {
-      "group": "Confirming",
-      "definition": "This type of bias occurs when opposing viewpoints are presented as equally credible or significant, despite a clear consensus or evidence favoring one side.",
-      "example": "\"Barack Obama says he was born in Hawaii, and since no one has shown any proof he was born in Kenya or elsewhere, it's OK to conclude he was born in Hawaii. [...] It's OK though for others not to use my deferential standard and continue to question whether Obama was born in Hawaii.\""
-    },
-    "Normalwashing Bias": {
-      "group": "Framing",
-      "definition": "This bias involves the normalization or reputation laundering of organizations, individuals, or circumstancesby avoiding describing them with the objectively applicable but potentially contentious descriptions and context.",
-      "example": "\"In remarks about migrants, Donald Trump invoked his long-held fascination with genes and genetics.\""
-    },
-    "Ideological Bias": {
-      "group": "Preferring",
-      "definition": "This refers to an inclination toward a specific ideology, belief system, or worldview, be it economic, political, religious, or similar frameworks, or associated individuals, organizations, and symbols, resulting in inherent favoritism for aligned ideas while disregarding or disparaging opposing perspectives.",
-      "example": "\"The Cuban government enjoys wide popular support in large part because of the genuine leadership provided by that the Cuban Communist Party. Far from being an exploiting ruling class, its leadership is based on deep connections with the Cuban working class.\""
-    },
-    "Commercial Bias": {
-      "group": "Framing",
-      "definition": "This refers to the practice of emphasizing or directly promoting certain companies, their products and services, as well as the support of favorable narratives due to underlying commercial interest.",
-      "example": "\"At the Reuters' Global Energy Transition 2024, Chevron Vice President of Strategy & Sustainability Molly Laegeler discussed how to build a resilient strategy and incorporate it into everything your company does as well as how her company leans on its strengths to advance lower carbon solutions.\""
-    },
-    "Ad Hominem Bias": {
-      "group": "Personalizing",
-      "definition": "This bias is when an argument is attacked by targeting the character, motives, or other attributes of the one making the argument, rather than addressing the substance of the argument itself.",
-      "example": "\"Any climate change message from somebody who owns a car is pure hypocrisy and should be completely ignored.\""
-    },
-    "Mud & Honey Bias": {
-      "group": "Personalizing",
-      "definition": "This is the practice of using personal attacks, rumors, or unfounded allegations to damage the reputation of an individual or group, or the opposite tendency to excessively praise or idealize them without regard for objective evaluation or criticism.",
-      "example": "\"He's a 78-year-old white male millionaire seeking the affections of the wokesters, a gruff socialist with bedraggled hair and terrifying policy proposals.\""
-    },
-    "Horse Race Bias": {
-      "group": "Framing",
-      "definition": "This refers to the exaggerated portrayal of events and issues as personal wins or losses of an individual or group, often as part of a competition between two or more parties.",
-      "example": "\"Taylor Swift Scores Win Over Donald Trump.\""
-    },
-    "Association Bias": {
-      "group": "Confirming",
-      "definition": "This bias occurs when one links an individual, group, or policy to others with a strong positive or negative reputation by overstating a tenuous connection or citing an irrelevant association.",
-      "example": "\"Football supports Trump in its promotion of racial division, the crushing of dissent, and the spread of misinformation, inequality, and brutality.\""
-    },
-    "Generalization Bias": {
-      "group": "Misreasoning",
-      "definition": "This type of bias involves attributing actions, beliefs, goals or characteristics of individual members of to an entire group or institution, or conversely, assuming that individuals must share traits associated with their group.",
-      "example": "\"I know the mentality of people these days, it looks like this: Working from home, nobody wants to work anymore, nobody wants to carry boxes and the mobile phone is on silent mode from 9 pm. That might be the new generation, but it's not me.\""
-    },
-    "Causal Misunderstanding Bias": {
-      "group": "Misreasoning",
-      "definition": "This is when a cause-and-effect relationship between two variables is misunderstood or assumed without sufficient evidence or considering other factors.",
-      "example": "\"Now the [nuclear] power plant has been shut down. And Mrs. Grossmann, whom you probably also know, has now stated: 'We will shut down production for days and weeks at a time because we can no longer get electricity that we can afford.'\""
-    },
-    "Us vs Them Bias": {
-      "group": "Dividing",
-      "definition": "This form of bias arises when humans are divided and assigned membership into ostensibly adversarial groups pitched against each other, an in-group, which is collectively and consistently portrayed positively, with legitimate motives and justified actions, and an othered out-group, which is consistently described with negative characteristics, illegitimate motives, and unjust actions.",
-      "example": "\"When they let, I think the real number is 15, 16 million people into our country, when they do that, we got a lot of work to do. They're poisoning the blood of our country. That's what they've done.\""
-    },
-    "Whataboutism Bias": {
-      "group": "Deflecting",
-      "definition": "This is the practice of responding to an accusation or the pointing out of a problem by making a counter-accusation or raising a different issue, without directly addressing the original argument.",
-      "example": "\"The media coverage of the Kavanaugh confirmation circus shows its strength in pushing a narrative, but sadly, journalists have failed to use their power to unite the world in opposition to China's sickening persecution of Uighurs and Hong Kong citizen.\""
-    },
-    "Shifting Goalpost Bias": {
-      "group": "Deflecting",
-      "definition": "This bias occurs when a position is relativized, often in response to criticism, by excluding counterexamples, shifting criteria, or offering ad hoc justifications to maintain a desired narrative.",
-      "example": "\"This is not a bailout, this is considering providing certain things for certain industries. Airlines, hotels, cruise lines.\""
-    },
-    "No Discussion Bias": {
-      "group": "Deflecting",
-      "definition": "This denotes the practice of painting the outcome of a matter as inevitable and beyond debate, shutting down disagreement and steering conversation only toward adaptation or acceptance.",
-      "example": "\"California's a bellwether state. What happens here, blows east.\""
-    },
-    "Side Note Bias": {
-      "group": "Deflecting",
-      "definition": "This type of bias arises when potentially unnecessary and unrelated information and remarks are inserted in a discussion to advance a narrative or divert attention from the actual story.",
-      "example": "\"Meanwhile, ScotRail, under public ownership since April 2022, has paid nearly £2.5 million in compensation to passengers due to delays and cancellations, with the highest compensations issued for delays over 120 minutes.\""
-    },
-    "Claim & Blame Bias": {
-      "group": "Dividing",
-      "definition": "This bias occurs when responsibility is rejected or wrongly assigned, whether by giving undue credit, scapegoating, playing the victim, or outright reversing blame onto the actual victim.",
-      "example": "\"Instead, the US and its European puppets placed Russia in an impossible position with regards to the ongoing militarization and Nazification of Ukraine, forcing it to respond as any other country concerned about its national security would.\""
-    },
-    "Burden Of Proof Bias": {
-      "group": "Asserting",
-      "definition": "This refers to the claim that something is true or false just because it has not yet been proven otherwise, often shifting the responsibility for evidence onto others and appearing in situations where getting absolute proof is unrealistic.",
-      "example": "\"The reason why people still question Obama's citizen status is one-fold: 'President Transparency' has refused to release any original documents on the matter. He can end the controversy in a day by releasing original documents, but for some inexplicable reason he refuses, and his love-struck media never asks him why he won't.\""
-    },
-    "Circular Reasoning Bias": {
-      "group": "Misreasoning",
-      "definition": "This occurs when the conclusion of a statement or argument is used as its own justification, essentially bypassing the requirement for evidence or logical reasoning.",
-      "example": "\"Cannabis is banned because it is an illegal drug.\""
-    },
-    "Discriminatory Bias": {
-      "group": "Dividing",
-      "definition": "This form of bias occurs when stereotypes, generalized or prejudiced statements and unequal representation are promoted or reiterated, reinforcing discrimination or biases against certain individuals or groups, often based on ethnicity, culture, nationality, social background, gender, sexual orientation or religious beliefs.",
-      "example": "\"Women are naturally meant to be homemakers.\""
-    },
-    "Gatekeeping Bias": {
-      "group": "Dividing",
-      "definition": "This refers to the attempt to define who legitimately belongs to a group or an identity or who may legitimately speak on a topic, and who does not, based on arbitrary and highly subjective criteria that lack objective justification.",
-      "example": "\"The only real union is the CWA at the Derby plant.\""
-    },
-    "Cherry Picking Bias": {
-      "group": "Confirming",
-      "definition": "This form of bias is evident when news stories give undue prominence to aspects and certain details of a news story that endorses a certain viewpoint, while omitting information that would contest it.",
-      "example": "\"Only half of those surveyed considered the political orientation of ARD programmes to be 'balanced', while 22 percent rated them as 'tending to the left.'\""
-    },
-    "Social Compliance Bias": {
-      "group": "Preferring",
-      "definition": "This bias occurs when an argument is deemed valid or true simply because it is supported by someone with high social standing or personal involvement, an authority figure or because it aligns with the current or traditional beliefs of a group one identifies with, or of a large general group of people.",
-      "example": "\"World leader agrees with Vance that mass migration is threat to 'daily life.'\""
-    },
-    "Source Selection Bias": {
-      "group": "Confirming",
-      "definition": "This form of bias arises from citing sources that have a high likelihood of being themselves biased regarding the discussed topic, without providing further contextualization.",
-      "example": "\"The port of Mariupol in Russian-controlled territory of Ukraine is operating at full capacity, the TASS news agency reported on Wednesday, citing port officials.\""
-    },
-    "Anecdotal Evidence Bias": {
-      "group": "Misreasoning",
-      "definition": "This bias stems from relying on individual stories or examples, rather than considering broader and more representative evidence when forming conclusions.",
-      "example": "\"What was remarkable in 2008 was how quickly Americans abroad sensed a change of mood. On the night of November 4, American expatriates posted jubilant messages to social networking sites like Facebook saying it was cool to be American again.\""
-    }
-  }
-}
-  </script>
-
-  <script id="fallback-jsonl" type="text/plain">
-{"sentence":"This is an example sentence.","union":["Word Choice Bias"],"dissent":["Magnitude Bias"]}
-{"sentence":"This is another example sentence!","union":[],"dissent":["Speculation Bias","Vagueness Bias"]}
-  </script>
+  <script src="./annotation-taxonomy.js"></script>
 
   <script>
-    // German translations for taxonomy groups and types
-    const taxTranslationsDE = {
-      groups: {
-        "Framing": "Framing",
-        "Personalizing": "Personalisieren",
-        "Deflecting": "Ablenken",
-        "Asserting": "Behaupten",
-        "Misreasoning": "Fehlschließen",
-        "Dividing": "Spalten",
-        "Preferring": "Bevorzugen",
-        "Confirming": "Bestätigen"
-      },
-      types: {
-        "Word Choice Bias": {
-          name: "Wortwahl",
-          def: "Diese Verzerrung entsteht, wenn bestimmte Wörter und Ausdrücke mit inhärent positiven oder negativen Konnotationen, Euphemismen, Dysphemismen oder (starke) Adjektive, Adverbien und linguistische Marker gewählt werden, die die Wahrnehmung beeinflussen und ein Urteil über ein Thema implizieren.",
-          ex: "\"Horden von Punks schwärmten im Sommer auf die Insel und stürzten sie ins Chaos.\""
-        },
-        "Emotional Sensationalism Bias": {
-          name: "Emotionaler Sensationalismus",
-          def: "Dies liegt vor, wenn Sätze alarmierende, ködernde, hyperbolische oder provokative Sprache verwenden, die darauf abzielt, (starke) Emotionen hervorzurufen, wobei sie sich oft überwiegend auf negative Ereignisse, Aspekte oder Interpretationen konzentrieren.",
-          ex: "\"Sogar die EU ist schockiert über Frankreichs Vorgehen gegen die USA!\""
-        },
-        "Magnitude Bias": {
-          name: "Magnitude",
-          def: "Diese Verzerrung entsteht, wenn die Schwere oder Relevanz eines Problems relativiert, heruntergespielt oder übertrieben wird.",
-          ex: "\"Das schlimmste Bürokratiegesetz aller Zeiten!\""
-        },
-        "Rhetorical Bias": {
-          name: "Rhetorisch",
-          def: "Dies bezieht sich auf die Verwendung rhetorischer Mittel wie Wiederholung, Sarkasmus, Reim, Ironie oder Humor bei der Diskussion eines Themas, um dessen Wahrnehmung zu formen.",
-          ex: "\"Zum Zeitpunkt der Veröffentlichung wurde Christian Lindner zuletzt auf dem Deck des brennenden Schiffes gesehen, wie er sich über einen ausgebrannten Porsche beugte, laut weinte und schwor, es niemals zu vergessen.\""
-        },
-        "Empty Symbol Bias": {
-          name: "Leere Symbolik",
-          def: "Diese Verzerrung beschreibt das Heraufbeschwören von Symbolen wie Phrasen, Slogans, Konzepten, Idealen, historischen Ereignissen oder öffentlichen Figuren, die mit Bedeutung jenseits ihrer objektiven Realität aufgeladen sind und normalerweise breit genug sind, um persönliche Projektion einzuladen.",
-          ex: "\"Der Nationalfeiertag ist ein erhabener und inspirierender nationaler Anlass, der den Geist der Einheit, des Zusammenhalts und der Zugehörigkeit unter den Bürgern verkörpert und ihren Stolz auf die Erinnerung an den Gründer des Staates, Scheich Jassim bin Mohammed bin Thani, bestätigt, der die Grundlagen eines starken und vereinten Staates legte und Katar zu einem Modell der Standhaftigkeit und Unabhängigkeit machte.\""
-        },
-        "False Dichotomy Bias": {
-          name: "Falsche Dichotomie",
-          def: "Diese Verzerrung tritt auf, wenn ein komplexes Thema so dargestellt wird, als hätte es nur zwei gegensätzliche Alternativen oder wäre überhaupt ohne Alternative, obwohl es möglicherweise mehr mögliche Lösungen, Positionen oder Ergebnisse gibt.",
-          ex: "\"Die Gesellschaft muss wählen: Fortgeschrittene KI mit potenziellen Risiken umarmen oder Innovation ersticken und technologisch zurückfallen.\""
-        },
-        "Flawed Comparison Bias": {
-          name: "Falscher Vergleich",
-          def: "Diese Verzerrung ist gekennzeichnet durch das Ziehen von Analogien oder Vergleichen zwischen zwei oder mehr Dingen, die oberflächliche Ähnlichkeiten teilen mögen, aber letztendlich grundlegend verschieden sind.",
-          ex: "\"Man hätte einfach eine schwäbische Hausfrau fragen sollen: Man kann auf Dauer nicht über seine Verhältnisse leben. Das ist der Kern der [Finanz]krise.\""
-        },
-        "Straw Man Bias": {
-          name: "Strohmann",
-          def: "Dies tritt auf, wenn eine Position oder ein Argument falsch dargestellt und verzerrt wird, so dass es leichter anzugreifen oder zu widerlegen ist, oft durch Vereinfachung oder Übertreibung.",
-          ex: "\"Alle anderen 'Methoden', Menschen korrekt zu informieren, sind leider erschöpft? Das Klimathema, ein globales Thema mit vielen Unbekannten, ist nicht mehr entwicklungsfähig und für beendet erklärt worden? Und ein paar Aktivisten sollen die Einzigen sein, die das Klima im Griff haben und jetzt die ganze Welt vor sich hertreiben müssen?\""
-        },
-        "Opinionated Bias": {
-          name: "Meinungsstark",
-          def: "Dies bezieht sich auf die Einbeziehung subjektiver Meinungen, Überzeugungen oder Interpretationen, die als objektive, faktische Berichterstattung dargestellt werden, wodurch die Grenze zwischen überprüfbaren Beweisen und persönlicher Perspektive verschleiert wird.",
-          ex: "\"Und wir wissen, dass die Versprechungen und rosigen Zukunftsvisionen der Verantwortlichen im Nationalpark Harz nicht realistisch sind.\""
-        },
-        "Suggestive Questioning Bias": {
-          name: "Suggestivfrage",
-          def: "Dies ist die Praxis, suggestive Fragen zu stellen, die implizite Annahmen enthalten oder das Publikum in Richtung einer vorgefassten Vorstellung führen, oft verwendet, um subjektive Überzeugungen oder Zweifel unter dem Vorwand neutraler Untersuchung zu verkünden.",
-          ex: "\"Ist er ein linker Radikaler oder ist er ein massentauglicher Gemäßigter? Ist er ein Einiger? Ist er tatsächlich religiös? Ist er ein Sozialist? Hasst er Amerika? Und angesichts des Vertrauens, das er ausstrahlt, warum scheint er Kritik nicht annehmen zu können?\""
-        },
-        "Projection Bias": {
-          name: "Projektion",
-          def: "Dies tritt auf, wenn Gedanken, Gefühle, Motive oder Absichten anderen zugeschrieben werden, seien es Einzelpersonen, Gruppen oder Entitäten, ohne ausreichende Beweise oder direkte Aussagen, um solche Behauptungen zu validieren.",
-          ex: "\"Es fühlt sich sehr so an, als ob die Autoren und Schöpfer der neuen Star Trek Serien, zu denen auch 'Picard' gehört, nicht denken, dass nur eine gute Fernsehsendung zu schreiben wichtige genug Arbeit ist. Wie so viel von der amerikanischen Wirtschaft denken sie, dass sie das Land und den Planeten retten müssen, während sie es tun.\""
-        },
-        "Speculation Bias": {
-          name: "Spekulation",
-          def: "Dies ist die Praxis, sich auf Spekulationen basierend auf Vermutungen über Situationen oder Ergebnisse einzulassen, anstatt sich auf konkrete Fakten und definitive Beweise zu verlassen.",
-          ex: "\"Schickt Nordkorea Soldaten, um Putin beim Wiederaufbau der besetzten Gebiete zu helfen? Das sind immer noch nur Gerüchte. Aber sind sie wirklich so unwahrscheinlich?\""
-        },
-        "Unsubstantiated Claims Bias": {
-          name: "Unbelegte Behauptung",
-          def: "Dies beschreibt die Praxis, Behauptungen, Aussagen oder assertions zu machen, die substantiell genug sind, dass sie durch Beweise gestützt werden sollten, und sie als faktisch darzustellen, ohne tatsächlich angemessene Beweise oder Referenzen bereitzustellen, um ihre Gültigkeit zu unterstützen.",
-          ex: "\"Lesen Sie alles über die Wahlfirmen Dominion und Smartmatic und Sie werden bald verstehen, wie durchdringend dieser demokratische Wahlbetrug ist und warum es auf der Welt keine Möglichkeit gibt, dass die Präsidentschaftswahl 2020 entweder frei oder fair war.\""
-        },
-        "Vagueness Bias": {
-          name: "Vagheit",
-          def: "Dies ist die Verwendung von Formulierungen, die so breit und unspezifisch sind, dass sie ohne weitere Klärung alles und nichts bedeuten können, wie die Verwendung von Sammelbegriffen (wie 'Maßnahmen' oder 'Faktoren'), vage Referenzen (wie 'Experten' oder 'das Volk') oder bewusste Verschleierung von specifics.",
-          ex: "\"Experten, Unternehmer und andere waren auch schnell dabei, die Ankündigung zu verurteilen.\""
-        },
-        "False Balance Bias": {
-          name: "Falsche Balance",
-          def: "Diese Verzerrung tritt auf, wenn gegensätzliche Standpunkte als equally credible or significant dargestellt werden, trotz eines klaren Konsenses oder Beweise, die eine Seite begünstigen.",
-          ex: "\"Barack Obama sagt, er sei in Hawaii geboren, und da niemand einen Beweis gezeigt hat, dass er in Kenia oder anderswo geboren wurde, ist es in Ordnung zu folgern, dass er in Hawaii geboren wurde. [...] Es ist jedoch in Ordnung für andere, meinen unterwürfigen Standard nicht zu verwenden und weiterhin in Frage zu stellen, ob Obama in Hawaii geboren wurde.\""
-        },
-        "Normalwashing Bias": {
-          name: "Normalisierung",
-          def: "Diese Verzerrung beinhaltet die Normalisierung oder Reputationswäsche von Organisationen, Einzelpersonen oder Umständen, indem vermieden wird, sie mit den objektiv anwendbaren, aber potenziell strittigen Beschreibungen und Kontext zu beschreiben.",
-          ex: "\"In Bemerkungen über Migranten berief sich Donald Trump auf seine lang gehegte Faszination mit Genen und Genetik.\""
-        },
-        "Ideological Bias": {
-          name: "Ideologisch",
-          def: "Dies bezieht sich auf eine Neigung zu einer spezifischen Ideologie, einem Glaubenssystem oder einer Weltanschauung, sei es wirtschaftlich, politisch, religiös oder ähnliche Rahmenwerke, oder assoziierte Einzelpersonen, Organisationen und Symbole, was zu inhärentem Favoritismus für ausgerichtete Ideen führt, während entgegengesetzte Perspektiven ignoriert oder herabgesetzt werden.",
-          ex: "\"Die kubanische Regierung genießt breite populaire Unterstützung, größtenteils wegen der echten Führung, die von der kubanischen Kommunistischen Partei bereitgestellt wird. Weit davon entfernt, eine ausbeuterische herrschende Klasse zu sein, basiert ihre Führung auf tiefen Verbindungen mit der kubanischen Arbeiterklasse.\""
-        },
-        "Commercial Bias": {
-          name: "Kommerziell",
-          def: "Dies bezieht sich auf die Praxis, bestimmte Unternehmen, ihre Produkte und Dienstleistungen zu betonen oder direkt zu bewerben, sowie die Unterstützung günstiger Narrative aufgrund zugrunde liegender kommerzieller Interessen.",
-          ex: "\"Auf der Reuters' Global Energy Transition 2024 diskutierte Chevron Vizepräsidentin für Strategie & Nachhaltigkeit Molly Laegeler, wie man eine widerstandsfähige Strategie aufbaut und sie in alles integriert, was Ihr Unternehmen tut, sowie wie ihr Unternehmen sich auf seine Stärken stützt, um kohlenstoffärmere Lösungen voranzutreiben.\""
-        },
-        "Ad Hominem Bias": {
-          name: "Ad Hominem",
-          def: "Diese Verzerrung liegt vor, wenn ein Argument angegriffen wird, indem auf den Charakter, die Motive oder andere Attribute desjenigen abgezielt wird, der das Argument vorbringt, anstatt sich mit der Substanz des Arguments selbst zu befassen.",
-          ex: "\"Jede Klimawandelbotschaft von jemandem, der ein Auto besitzt, ist reine Heuchelei und sollte vollständig ignoriert werden.\""
-        },
-        "Mud & Honey Bias": {
-          name: "Schmutz & Honig",
-          def: "Dies ist die Praxis, persönliche Angriffe, Gerüchte oder unbegründete Anschuldigungen zu verwenden, um den Ruf einer Einzelperson oder Gruppe zu schädigen, oder die entgegengesetzte Tendenz, sie übermäßig zu loben oder zu idealisieren, ohne Rücksicht auf objektive Bewertung oder Kritik.",
-          ex: "\"Er ist ein 78-jähriger weißer männlicher Millionär, der die Zuneigung der Wokesters sucht, ein grantiger Sozialist mit zerzaustem Haar und erschreckenden Politikvorschlägen.\""
-        },
-        "Horse Race Bias": {
-          name: "Pferderennen",
-          def: "Dies bezieht sich auf die übertriebene Darstellung von Ereignissen und Themen als persönliche Gewinne oder Verluste einer Einzelperson oder Gruppe, oft als Teil eines Wettbewerbs zwischen zwei oder mehr Parteien.",
-          ex: "\"Taylor Swift erzielt Sieg über Donald Trump.\""
-        },
-        "Association Bias": {
-          name: "Assoziation",
-          def: "Diese Verzerrung tritt auf, wenn man eine Einzelperson, Gruppe oder Politik mit anderen mit starkem positivem oder negativem Ruf verknüpft, indem man eine schwache Verbindung überbetont oder eine irrelevante Assoziation zitiert.",
-          ex: "\"Fußball unterstützt Trump in seiner Förderung rassischer Spaltung, der Zerschlagung von Dissens und der Verbreitung von Fehlinformationen, Ungleichheit und Brutalität.\""
-        },
-        "Generalization Bias": {
-          name: "Generalisierung",
-          def: "Diese Verzerrung beinhaltet das Zuschreiben von Handlungen, Überzeugungen, Zielen oder Charakteristiken einzelner Mitglieder auf eine gesamte Gruppe oder Institution, oder umgekehrt die Annahme, dass Einzelpersonen Merkmale teilen müssen, die mit ihrer Gruppe assoziiert sind.",
-          ex: "\"Ich kenne die Mentalität der Leute heutzutage, es sieht so aus: Von zu Hause arbeiten, niemand will mehr arbeiten, niemand will Kisten tragen und das Handy ist ab 21 Uhr auf lautlos. Das mag die neue Generation sein, aber ich bin es nicht.\""
-        },
-        "Causal Misunderstanding Bias": {
-          name: "Kausales Missverständnis",
-          def: "Dies liegt vor, wenn eine Ursache-Wirkungs-Beziehung zwischen zwei Variablen missverstanden oder ohne ausreichende Beweise oder unter Berücksichtigung anderer Faktoren angenommen wird.",
-          ex: "\"Jetzt wurde das [Kern]kraftwerk abgeschaltet. Und Frau Grossmann, die Sie wahrscheinlich auch kennen, hat nun erklärt: 'Wir werden die Produktion für Tage und Wochen gleichzeitig einstellen, weil wir keinen Strom mehr bekommen können, den wir uns leisten können.'\""
-        },
-        "Us vs Them Bias": {
-          name: "Wir gegen Die",
-          def: "Diese Form der Verzerrung entsteht, wenn Menschen geteilt und in scheinbar gegnerische Gruppen eingeteilt werden, die gegeneinander ausgespielt werden, eine In-Group, die kollektiv und konsistent positiv dargestellt wird, mit legitimen Motiven und gerechtfertigten Handlungen, und eine ausgegrenzte Out-Group, die konsistent mit negativen Charakteristiken, illegitimen Motiven und ungerechten Handlungen beschrieben wird.",
-          ex: "\"Wenn sie, ich denke, die echte Zahl ist 15, 16 Millionen Menschen in unser Land lassen, wenn sie das tun, haben wir viel Arbeit zu tun. Sie vergiften das Blut unseres Landes. Das ist es, was sie getan haben.\""
-        },
-        "Whataboutism Bias": {
-          name: "Whataboutism",
-          def: "Dies ist die Praxis, auf eine Anschuldigung oder das Aufzeigen eines Problems zu reagieren, indem man eine Gegenanschuldigung macht oder ein anderes Thema aufbringt, ohne das ursprüngliche Argument direkt anzusprechen.",
-          ex: "\"Die Medienberichterstattung über den Kavanaugh-Bestätigungszirkus zeigt seine Stärke beim Vorantreiben eines Narrativs, aber leider haben Journalisten es versäumt, ihre Macht zu nutzen, um die Welt im Widerstand gegen Chinas widerliche Verfolgung von Uiguren und Hongkong-Bürgern zu vereinen.\""
-        },
-        "Shifting Goalpost Bias": {
-          name: "Maßstabsverschiebung",
-          def: "Diese Verzerrung tritt auf, wenn eine Position relativiert wird, oft als Reaktion auf Kritik, indem Gegenbeispiele ausgeschlossen, Kriterien verschoben oder Ad-hoc-Rechtfertigungen angeboten werden, um ein gewünschtes Narrativ aufrechtzuerhalten.",
-          ex: "\"Das ist keine Rettung, das ist die Erwägung, bestimmten Branchen bestimmte Dinge bereitzustellen. Fluggesellschaften, Hotels, Kreuzfahrtlinien.\""
-        },
-        "No Discussion Bias": {
-          name: "Keine Diskussion",
-          def: "Dies bezeichnet die Praxis, das Ergebnis einer Angelegenheit als unvermeidlich und jenseits von Debatten darzustellen, Widerspruch herunterzufahren und Gespräche nur in Richtung Anpassung oder Akzeptanz zu lenken.",
-          ex: "\"Kalifornien ist ein Vorbildstaat. Was hier passiert, weht nach Osten.\""
-        },
-        "Side Note Bias": {
-          name: "Nebensache",
-          def: "Diese Verzerrung entsteht, wenn potenziell unnötige und unrelated Informationen und Bemerkungen in eine Diskussion eingefügt werden, um ein Narrativ voranzutreiben oder von der eigentlichen Geschichte abzulenken.",
-          ex: "\"In der Zwischenzeit hat ScotRail, seit April 2022 in öffentlichem Besitz, fast 2,5 Millionen Pfund Entschädigung an Passagiere aufgrund von Verspätungen und Annullierungen gezahlt, wobei die höchsten Entschädigungen für Verspätungen über 120 Minuten ausgegeben wurden.\""
-        },
-        "Claim & Blame Bias": {
-          name: "Fremde Federn & Sündenböcke",
-          def: "Diese Verzerrung tritt auf, wenn Verantwortung abgelehnt oder falsch zugewiesen wird, sei es durch unverdiente Anerkennung, Sündenböcke, das Spielen des Opfers oder das outright Umkehren der Schuld auf das tatsächliche Opfer.",
-          ex: "\"Stattdessen haben die USA und ihre europäischen Marionetten Russland in eine unmögliche Position in Bezug auf die laufende Militarisierung und Nazifizierung der Ukraine gebracht und es gezwungen, so zu reagieren, wie es jedes andere Land tun würde, das sich um seine nationale Sicherheit sorgt.\""
-        },
-        "Burden Of Proof Bias": {
-          name: "Beweislast",
-          def: "Dies bezieht sich auf die Behauptung, dass etwas wahr oder falsch ist, nur weil es noch nicht anders bewiesen wurde, oft indem die Verantwortung für Beweise auf andere verschoben wird und in Situationen erscheint, in denen das Erlangen absoluter Beweise unrealistisch ist.",
-          ex: "\"Der Grund, warum Leute immer noch Obamas Bürgerstatus in Frage stellen, ist einfach: 'Präsident Transparenz' hat sich geweigert, irgendwelche Originaldokumente in dieser Angelegenheit freizugeben. Er könnte die Kontroverse an einem Tag beenden, indem er Originaldokumente freigibt, aber aus einigen unerklärlichen Gründen weigert er sich, und seine verliebten Medien fragen ihn nie, warum er es nicht tut.\""
-        },
-        "Circular Reasoning Bias": {
-          name: "Zirkelschluss",
-          def: "Dies tritt auf, wenn die Schlussfolgerung einer Aussage oder eines Arguments als seine eigene Rechtfertigung verwendet wird, wodurch im Wesentlichen die Anforderung für Beweise oder logisches Reasoning umgangen wird.",
-          ex: "\"Cannabis ist verboten, weil es eine illegale Droge ist.\""
-        },
-        "Discriminatory Bias": {
-          name: "Diskriminierung",
-          def: "Diese Form der Verzerrung tritt auf, wenn Stereotype, verallgemeinerte oder voreingenommene Aussagen und ungleiche Darstellung gefördert oder wiederholt werden, wodurch Diskriminierung oder Verzerrungen gegen bestimmte Einzelpersonen oder Gruppen verstärkt werden, oft basierend auf Ethnizität, Kultur, Nationalität, sozialem Hintergrund, Geschlecht, sexueller Orientierung oder religiösen Überzeugungen.",
-          ex: "\"Frauen sind von Natur aus dazu bestimmt, Hausfrauen zu sein.\""
-        },
-        "Gatekeeping Bias": {
-          name: "Gatekeeping",
-          def: "Dies bezieht sich auf den Versuch zu definieren, wer legitimerweise zu einer Gruppe oder einer Identität gehört oder wer legitimerweise zu einem Thema sprechen darf, und wer nicht, basierend auf willkürlichen und hochgradig subjektiven Kriterien, denen es an objektiver Rechtfertigung mangelt.",
-          ex: "\"Die einzige echte Gewerkschaft ist die CWA im Derby-Werk.\""
-        },
-        "Cherry Picking Bias": {
-          name: "Rosinenpicken",
-          def: "Diese Form der Verzerrung ist evident, wenn Nachrichtenstorys bestimmten Aspekten und Details einer Nachrichtenstory, die einen bestimmten Standpunkt unterstützen, unangemessene prominence geben, während Informationen weggelassen werden, die ihn bestreiten würden.",
-          ex: "\"Nur die Hälfte der Befragten hielt die politische Ausrichtung der ARD-Programme für 'ausgewogen', während 22 Prozent sie als 'eher links' bewerteten.\""
-        },
-        "Social Compliance Bias": {
-          name: "Sozialer Konformismus",
-          def: "Diese Verzerrung tritt auf, wenn ein Argument als gültig oder wahr angesehen wird, einfach weil es von jemandem mit hohem sozialem Standing oder persönlicher Beteiligung, einer Autoritätsperson unterstützt wird oder weil es mit den aktuellen oder traditionellen Überzeugungen einer Gruppe, mit der man sich identifiziert, oder einer großen allgemeinen Gruppe von Menschen übereinstimmt.",
-          ex: "\"Weltführer stimmt Vance zu, dass Massenmigration eine Bedrohung für das 'tägliche Leben' ist.\""
-        },
-        "Source Selection Bias": {
-          name: "Quellenauswahl",
-          def: "Diese Form der Verzerrung entsteht aus dem Zitieren von Quellen, die eine hohe Wahrscheinlichkeit haben, selbst in Bezug auf das diskutierte Thema voreingenommen zu sein, ohne weitere Kontextualisierung bereitzustellen.",
-          ex: "\"Der Hafen von Mariupol in russisch-kontrolliertem Gebiet der Ukraine arbeitet mit voller Kapazität, berichtete die Nachrichtenagentur TASS am Mittwoch unter Berufung auf Hafenbeamte.\""
-        },
-        "Anecdotal Evidence Bias": {
-          name: "Anekdotische Evidenz",
-          def: "Diese Verzerrung stammt aus dem Verlassen auf individuelle Geschichten oder Beispiele, anstatt breitere und repräsentativere Beweise bei der Bildung von Schlussfolgerungen zu berücksichtigen.",
-          ex: "\"Was 2008 bemerkenswert war, war wie schnell Amerikaner im Ausland eine Stimmungsänderung spürten. In der Nacht des 4. November posteten amerikanische Expatriates jubelnde Nachrichten auf Social Networking Seiten wie Facebook, dass es wieder cool sei, Amerikaner zu sein.\""
-        }
-      }
-    };
-
     const translations = {
       "en": {
         "title_main": "Decide yourself!",
@@ -1175,7 +907,16 @@
         "gamification_toggle_on": "🎮 On",
         "gamification_toggle_off": "🎮 Off",
         "gamification_reset": "🔄 Reset",
-        "gamification_info": "<strong class='text-[#2d1f1a]'>How XP works:</strong> You earn <strong class='text-[#e0251b]'>10–25 XP</strong> per sentence based on how much time you spend reviewing it. The required time starts at <strong>25 seconds</strong> and increases by <strong>5 s</strong> for each type in \"Quite certain\" and <strong>10 s</strong> for each type in \"Uncertain\". A thoughtful <strong class='text-[#e0251b]'>explanation earns +15 bonus XP</strong>. Consecutive saves build a <strong>streak</strong> (3×: +10 %, 5×: +25 %, 10×: +50 %). Your XP level tracks your overall contribution — from 🌱 Beginner Annotator up to 💎 Bias Legend.",
+        "sentence_translation_on": "🌐 Hover translate on",
+        "sentence_translation_off": "🌐 Hover translate off",
+        "sentence_translation_hint": "Hover the sentence to preview a translation whenever it is not already in the selected language.",
+        "translation_tooltip_title": "Sentence translation",
+        "translation_loading": "Checking language and loading translation…",
+        "translation_same_language": "This sentence already matches the selected language.",
+        "translation_error": "Translation is currently unavailable.",
+        "translation_provider_server": "via DeepL",
+        "translation_provider_nllb": "via NLLB fallback",
+        "gamification_info": "<strong class='text-[#2d1f1a]'>How XP works:</strong> You earn <strong class='text-[#e0251b]'>10–25 XP</strong> per sentence based on how much time you spend reviewing it. The required time starts at <strong>25 seconds</strong> and increases by <strong>5 s</strong> for each type in \"Quite certain\" and <strong>10 s</strong> for each type in \"Uncertain\". A thoughtful <strong class='text-[#e0251b]'>explanation earns +15 bonus XP</strong>. Consecutive saves build a <strong>streak</strong> (3×: +10 %, 5×: +25 %, 10×: +50 %). Your XP level tracks your overall contribution, from 🌱 Beginner Annotator up to 💎 Bias Legend.",
         "how_to_participate": "How to participate",
         "instructions_main": "Try selecting the fitting bias types yourself! Review random sentences from our dataset. Remove types from <strong>\"Quite certain\"</strong> if you disagree, add types that are not yet selected, and make a final decision for every type listed under <strong>\"Uncertain\"</strong>.",
         "main_task": "Main task",
@@ -1201,10 +942,10 @@
         "decide_applies_desc": "These types are disputed. Choose <strong>Applies</strong> or <strong>Does not apply</strong> for each one. Hover over a name to see its definition.",
         "optional_explanation": "Optional explanation",
         "why_decide": "Why did you decide this way?",
-        "why_decide_desc": "Feel free to share your reasoning if you would like to — this is entirely optional.",
+        "why_decide_desc": "Feel free to share your reasoning if you would like to, this is entirely optional.",
         "explanation_placeholder": "Optional explanation…",
         "actions": "Actions",
-        "actions_desc": "When you <strong>save</strong>, your annotation will be used to train future iterations of <strong>BiasScanner</strong>. We do not collect any personal data — everything remains completely anonymous. Alternatively, skip to a new sentence without saving.",
+        "actions_desc": "When you <strong>save</strong>, your annotation will be used to train future iterations of <strong>BiasScanner</strong>. We do not collect any personal data, everything remains completely anonymous. Alternatively, skip to a new sentence without saving.",
         "reset_decisions": "Reset current decisions",
         "new_sentence": "New sentence without saving",
         "save_decision": "Save decision",
@@ -1218,7 +959,7 @@
         "level_up": "Level Up!",
         "awesome": "Awesome!",
         "save_contribution": "Save contribution?",
-        "save_contribution_desc": "Your decision may be used to help train future iterations of BiasScanner. No personal data is stored — everything is anonymous.",
+        "save_contribution_desc": "Your decision may be used to help train future iterations of BiasScanner. No personal data is stored, everything is anonymous.",
         "dont_ask_again": "Don't ask me again",
         "cancel": "Cancel",
         "save_annotation": "Save & Continue",
@@ -1232,7 +973,16 @@
         "gamification_toggle_on": "🎮 An",
         "gamification_toggle_off": "🎮 Aus",
         "gamification_reset": "🔄 Zurücksetzen",
-        "gamification_info": "<strong class='text-[#2d1f1a]'>Wie XP funktionieren:</strong> Du erhältst <strong class='text-[#e0251b]'>10–25 XP</strong> pro Satz, basierend auf der investierten Zeit. Die benötigte Zeit beginnt bei <strong>25 Sekunden</strong> und erhöht sich um <strong>5 s</strong> für jeden Typ unter \"Ziemlich sicher\" und <strong>10 s</strong> für jeden Typ unter \"Unsicher\". Eine <strong class='text-[#e0251b]'>Begründung gibt +15 Bonus-XP</strong>. Aufeinanderfolgende Speicherungen bauen einen <strong>Streak</strong> auf (3×: +10 %, 5×: +25 %, 10×: +50 %). Dein XP-Level zeigt deinen Beitrag — vom 🌱 Anfänger bis zur 💎 Bias-Legende.",
+        "sentence_translation_on": "🌐 Hover-Übersetzung an",
+        "sentence_translation_off": "🌐 Hover-Übersetzung aus",
+        "sentence_translation_hint": "Bewege die Maus über den Satz, um eine Übersetzung zu sehen, wenn er nicht schon in der gewählten Sprache vorliegt.",
+        "translation_tooltip_title": "Satzübersetzung",
+        "translation_loading": "Sprache wird geprüft und Übersetzung geladen…",
+        "translation_same_language": "Dieser Satz ist bereits in der ausgewählten Sprache.",
+        "translation_error": "Die Übersetzung ist derzeit nicht verfügbar.",
+        "translation_provider_server": "via DeepL",
+        "translation_provider_nllb": "via NLLB-Fallback",
+        "gamification_info": "<strong class='text-[#2d1f1a]'>Wie XP funktionieren:</strong> Du erhältst <strong class='text-[#e0251b]'>10–25 XP</strong> pro Satz, basierend auf der investierten Zeit. Die benötigte Zeit beginnt bei <strong>25 Sekunden</strong> und erhöht sich um <strong>5 s</strong> für jeden Typ unter \"Ziemlich sicher\" und <strong>10 s</strong> für jeden Typ unter \"Unsicher\". Eine <strong class='text-[#e0251b]'>Begründung gibt +15 Bonus-XP</strong>. Aufeinanderfolgende Speicherungen bauen einen <strong>Streak</strong> auf (3×: +10 %, 5×: +25 %, 10×: +50 %). Dein XP-Level zeigt deinen Beitrag, vom 🌱 Anfänger bis zur 💎 Bias-Legende.",
         "how_to_participate": "Wie du teilnehmen kannst",
         "instructions_main": "Versuche, die passenden Bias-Typen selbst auszuwählen! Überprüfe zufällige Sätze aus unserem Datensatz. Entferne Typen unter <strong>\"Ziemlich sicher\"</strong>, wenn du nicht zustimmst, füge noch nicht ausgewählte Typen hinzu und triff eine endgültige Entscheidung für jeden Typ unter <strong>\"Unsicher\"</strong>.",
         "main_task": "Hauptaufgabe",
@@ -1258,10 +1008,10 @@
         "decide_applies_desc": "Diese Typen sind umstritten. Wähle <strong>Zutreffend</strong> oder <strong>Nein</strong> für jeden Typ. Hover für die Definition.",
         "optional_explanation": "Optionale Begründung",
         "why_decide": "Warum hast du dich so entschieden?",
-        "why_decide_desc": "Teile gerne deine Gedanken mit uns — dies ist völlig optional.",
+        "why_decide_desc": "Teile gerne deine Gedanken mit uns, dies ist völlig optional.",
         "explanation_placeholder": "Optionale Begründung…",
         "actions": "Aktionen",
-        "actions_desc": "Wenn du <strong>speicherst</strong>, wird deine Annotation genutzt, um zukünftige Versionen des <strong>BiasScanner</strong> zu trainieren. Wir sammeln keine persönlichen Daten — alles bleibt anonym. Alternativ kannst du zum nächsten Satz springen, ohne zu speichern.",
+        "actions_desc": "Wenn du <strong>speicherst</strong>, wird deine Annotation genutzt, um zukünftige Versionen des <strong>BiasScanner</strong> zu trainieren. Wir sammeln keine persönlichen Daten, alles bleibt anonym. Alternativ kannst du zum nächsten Satz springen, ohne zu speichern.",
         "reset_decisions": "Auswahl zurücksetzen",
         "new_sentence": "Neuer Satz (ohne Speichern)",
         "save_decision": "Entscheidung speichern",
@@ -1275,7 +1025,7 @@
         "level_up": "Level Up!",
         "awesome": "Fantastisch!",
         "save_contribution": "Beitrag speichern?",
-        "save_contribution_desc": "Deine Entscheidung hilft, BiasScanner weiter zu trainieren. Es werden keine persönlichen Daten gespeichert — alles ist anonym.",
+        "save_contribution_desc": "Deine Entscheidung hilft, BiasScanner weiter zu trainieren. Es werden keine persönlichen Daten gespeichert, alles ist anonym.",
         "dont_ask_again": "Nicht mehr fragen",
         "cancel": "Abbrechen",
         "save_annotation": "Annotation speichern",
@@ -1285,16 +1035,19 @@
       }
     };
 
-    let currentLang = localStorage.getItem('biasscanner_lang') || 'en';
+    const urlLangParam = new URLSearchParams(window.location.search).get('lang');
+    let currentLang = (urlLangParam && ['en', 'de'].includes(urlLangParam)
+      ? urlLangParam
+      : localStorage.getItem('biasscanner-language') || localStorage.getItem('biasscanner_lang') || 'en');
 
     function setLanguage(lang) {
       currentLang = lang;
+      localStorage.setItem('biasscanner-language', lang);
       localStorage.setItem('biasscanner_lang', lang);
-      
-      document.getElementById('lang-en').style.opacity = lang === 'en' ? '1' : '0.7';
-      document.getElementById('lang-en').style.filter = lang === 'en' ? 'none' : 'grayscale(100%)';
-      document.getElementById('lang-de').style.opacity = lang === 'de' ? '1' : '0.7';
-      document.getElementById('lang-de').style.filter = lang === 'de' ? 'none' : 'grayscale(100%)';
+      document.documentElement.lang = lang;
+
+      const langSelect = document.getElementById('language-site');
+      if (langSelect) langSelect.value = lang;
 
       const dict = translations[lang] || translations['en'];
       
@@ -1316,17 +1069,51 @@
         tBtn.innerHTML = `<span data-i18n="gamification_toggle_off">${dict['gamification_toggle_off']}</span>`;
       }
 
+      updateSentenceTranslationToggle();
       renderTaxonomy();
       renderAll();
+    }
+
+    function updateSentenceTranslationToggle() {
+      const dict = translations[currentLang] || translations['en'];
+      const button = document.getElementById('sentence-translation-toggle-btn');
+      if (!button) return;
+      button.innerHTML = `<span data-i18n="${sentenceTranslation.enabled ? 'sentence_translation_on' : 'sentence_translation_off'}">${sentenceTranslation.enabled ? dict['sentence_translation_on'] : dict['sentence_translation_off']}</span>`;
+      button.setAttribute('aria-pressed', sentenceTranslation.enabled ? 'true' : 'false');
+
+      const sentenceEl = document.getElementById('current-sentence');
+      if (sentenceEl) {
+        sentenceEl.classList.toggle('sentence-hover-target', sentenceTranslation.enabled);
+      }
+    }
+
+    function toggleSentenceTranslation() {
+      sentenceTranslation.enabled = !sentenceTranslation.enabled;
+      localStorage.setItem(SENTENCE_TRANSLATION_STORAGE_KEY, sentenceTranslation.enabled ? 'true' : 'false');
+      updateSentenceTranslationToggle();
+      if (!sentenceTranslation.enabled) {
+        sentenceTranslation.activeKey = null;
+        hideTooltip();
+      }
     }
 
     const SERVER_BASE = 'https://app.biasscanner.org:8080';
     const SENTENCES_FILE = `${SERVER_BASE}/sentences.json`;
     const ANNOTATIONS_FILE = `${SERVER_BASE}/all_annotation_results.jsonl`;
 
-    const TAXONOMY = JSON.parse(document.getElementById('taxonomy-json').textContent);
+    const TAXONOMY = window.ANNOTATION_TAXONOMY;
+    const taxTranslationsDE = window.ANNOTATION_TAXONOMY_TRANSLATIONS_DE;
     const GROUP_MAP = Object.fromEntries(TAXONOMY.groups.map(group => [group.name, group]));
     const ALL_TYPES = Object.keys(TAXONOMY.types);
+    const NLLB_SPACES = [
+      'https://timperator-nllb-api.hf.space',
+      'https://winstxnhdw-nllb-api.hf.space'
+    ];
+    const SENTENCE_TRANSLATION_STORAGE_KEY = 'biasscanner_sentence_hover_translate';
+    const LANGUAGE_CONFIG = {
+      en: { nllb: 'eng_Latn', aliases: ['en', 'eng'] },
+      de: { nllb: 'deu_Latn', aliases: ['de', 'deu', 'ger'] }
+    };
 
     let dataset = [];
     let allAnnotations = [];
@@ -1346,6 +1133,13 @@
       skipConfirm: localStorage.getItem('biasscanner_skip_confirm') === 'true'
     };
 
+    const sentenceTranslation = {
+      enabled: localStorage.getItem(SENTENCE_TRANSLATION_STORAGE_KEY) !== 'false',
+      cache: new Map(),
+      pending: new Map(),
+      activeKey: null
+    };
+
     // ─── Gamification System ───
     const LEVELS = [
       { xp: 0,    title: 'Beginner Annotator',  icon: '🌱', desc: 'Welcome! Start annotating sentences to level up.' },
@@ -1353,7 +1147,7 @@
       { xp: 150,  title: 'Bias Detective',      icon: '🔍', desc: 'Your eye for bias is getting sharp!' },
       { xp: 300,  title: 'Bias Hunter',         icon: '🎯', desc: 'You\'re hunting down biases with precision.' },
       { xp: 500,  title: 'Expert Scanner',      icon: '⭐', desc: 'Your annotations are shaping BiasScanner\'s future.' },
-      { xp: 800,  title: 'Master Annotator',    icon: '🏆', desc: 'Master-level dedication — truly impressive!' },
+      { xp: 800,  title: 'Master Annotator',    icon: '🏆', desc: 'Master-level dedication, truly impressive!' },
       { xp: 1200, title: 'Bias Sage',           icon: '🧙', desc: 'You see biases others miss. Legendary insight.' },
       { xp: 2000, title: 'Grand Annotator',     icon: '👑', desc: 'A grand contributor to the BiasScanner project.' },
       { xp: 3500, title: 'Bias Legend',         icon: '💎', desc: 'You are a legend. Thank you for everything!' },
@@ -1599,11 +1393,11 @@
       renderTaxonomy();
       renderGamificationBar();
       loadRandomSentence();
+      setLanguage(currentLang);
     }
 
     function bindStaticEvents() {
-      document.getElementById('lang-en').addEventListener('click', () => setLanguage('en'));
-      document.getElementById('lang-de').addEventListener('click', () => setLanguage('de'));
+      document.getElementById('language-site').addEventListener('change', event => setLanguage(event.target.value));
       document.getElementById('add-type-input').addEventListener('input', renderAutocomplete);
       document.getElementById('add-type-input').addEventListener('keydown', handleAddInputKeydown);
       document.getElementById('add-type-btn').addEventListener('click', addTypeFromInput);
@@ -1611,7 +1405,7 @@
       document.getElementById('new-sentence-btn').addEventListener('click', () => {
         if (gamification.enabled) resetStreak();
         loadRandomSentence();
-        showToast(gamification.enabled ? 'Skipped — streak reset. Loaded a new sentence.' : 'Loaded a new sentence without saving.', 'neutral');
+        showToast(gamification.enabled ? 'Skipped, streak reset. Loaded a new sentence.' : 'Loaded a new sentence without saving.', 'neutral');
       });
       document.getElementById('save-btn').addEventListener('click', handleSaveRequest);
       document.getElementById('level-up-close').addEventListener('click', closeLevelUpModal);
@@ -1620,6 +1414,7 @@
       });
       document.getElementById('gamification-toggle-btn').addEventListener('click', toggleGamification);
       document.getElementById('gamification-reset-btn').addEventListener('click', resetGamification);
+      document.getElementById('sentence-translation-toggle-btn').addEventListener('click', toggleSentenceTranslation);
       document.getElementById('explanation').addEventListener('input', event => {
         state.explanation = event.target.value;
         renderExplanationCount();
@@ -1745,7 +1540,8 @@
     }
 
     async function loadData() {
-      const fallbackSentences = parseJSONL(document.getElementById('fallback-jsonl').textContent);
+      const fallbackElement = document.getElementById('fallback-jsonl');
+      const fallbackSentences = fallbackElement ? parseJSONL(fallbackElement.textContent || '') : [];
       const fallbackAnnotations = [
         { sentence: "This is an example sentence.", overall_bias_strength: 0.8, union: ["Word Choice Bias"], resolution: {}, resolved: true, resolved_at: "2026-03-02T15:49:23.895Z", resolved_by: "abc123" },
         { sentence: "This is an example sentence.", overall_bias_strength: 0.6, union: ["Word Choice Bias", "Cherry Picking Bias"], resolution: {}, resolved: true, resolved_at: "2026-03-02T15:49:23.895Z", resolved_by: "def456" },
@@ -1785,7 +1581,11 @@
         console.log(`Loaded ${dataset.length} sentences from server.`);
       } catch (error) {
         console.warn('Could not load sentences from server, using fallback:', error);
-        dataset = fallbackSentences;
+        dataset = fallbackSentences.length ? fallbackSentences : fallbackAnnotations.map(entry => ({
+          sentence: entry.sentence,
+          union: Array.isArray(entry.union) ? [...entry.union] : [],
+          dissent: []
+        }));
       }
 
       // Load all annotations
@@ -1895,8 +1695,13 @@
     }
 
     function renderSentence() {
-      document.getElementById('current-sentence').textContent = currentItem ? currentItem.sentence : 'No sentence loaded.';
+      const sentenceEl = document.getElementById('current-sentence');
+      const sentenceText = currentItem ? currentItem.sentence : 'No sentence loaded.';
+      sentenceEl.textContent = sentenceText;
+      sentenceEl.dataset.sentenceText = sentenceText;
+      sentenceEl.dataset.sentenceTranslationTarget = currentItem ? 'true' : 'false';
       document.getElementById('sentence-pool-info').textContent = `${dataset.length} sentence${dataset.length === 1 ? '' : 's'} in the active pool`;
+      updateSentenceTranslationToggle();
     }
 
     function renderUnion() {
@@ -2159,7 +1964,7 @@
         body: JSON.stringify({ "type": "annotation", "text": jsonlLine, "url": "www.biasscanner.org" })
       }).catch(err => console.error("Server error:", err));
 
-      showToast(gamification.enabled ? `+${earnedXP} XP — Decision saved!` : 'Decision saved!', 'success');
+      showToast(gamification.enabled ? `+${earnedXP} XP, Decision saved!` : 'Decision saved!', 'success');
       loadRandomSentence();
     }
 
@@ -2280,6 +2085,12 @@
     }
 
     function handleTooltipMove(event) {
+      const sentenceTarget = event.target.closest('[data-sentence-translation-target="true"]');
+      if (sentenceTarget && sentenceTranslation.enabled) {
+        handleSentenceTooltipMove(sentenceTarget, event);
+        return;
+      }
+
       const target = event.target.closest('[data-tooltip-title]');
       if (!target) { hideTooltip(); return; }
       const tooltip = document.getElementById('hover-tooltip');
@@ -2288,13 +2099,87 @@
         <div class="mt-2 text-sm leading-6 text-white/88">${escapeHtml(target.dataset.tooltipDefinition)}</div>
         ${target.dataset.tooltipExample ? `<div class="mt-3 border-t border-white/10 pt-3 text-sm italic leading-6 text-white/70">${escapeHtml(target.dataset.tooltipExample)}</div>` : ''}
       `;
+      positionTooltip(tooltip, event);
+    }
+
+    function handleSentenceTooltipMove(target, event) {
+      const sentence = (target.dataset.sentenceText || '').trim();
+      if (!sentence) {
+        hideTooltip();
+        return;
+      }
+
+      const tooltip = document.getElementById('hover-tooltip');
+      positionTooltip(tooltip, event);
+
+      const key = `${currentLang}::${sentence}`;
+      if (sentenceTranslation.activeKey !== key) {
+        sentenceTranslation.activeKey = key;
+        showSentenceTooltipContent(getSentenceTooltipMarkup({ status: 'loading' }));
+        void resolveSentenceTranslation(sentence, currentLang, key);
+      } else if (!tooltip.classList.contains('show')) {
+        tooltip.classList.add('show');
+      }
+    }
+
+    async function resolveSentenceTranslation(sentence, targetLang, activeKey) {
+      const result = await getSentenceTranslation(sentence, targetLang);
+      if (sentenceTranslation.activeKey !== activeKey) return;
+      showSentenceTooltipContent(getSentenceTooltipMarkup(result));
+    }
+
+    function showSentenceTooltipContent(html) {
+      const tooltip = document.getElementById('hover-tooltip');
+      tooltip.innerHTML = html;
       tooltip.classList.add('show');
-      let left = Math.min(event.clientX + 18, window.innerWidth - tooltip.offsetWidth - 12);
+    }
+
+    function getSentenceTooltipMarkup(result) {
+      const dict = translations[currentLang] || translations['en'];
+
+      if (result.status === 'loading') {
+        return `
+          <div class="text-sm font-black text-white">${escapeHtml(dict['translation_tooltip_title'])}</div>
+          <div class="mt-2 text-sm leading-6 text-white/88">${escapeHtml(dict['translation_loading'])}</div>
+        `;
+      }
+
+      if (result.status === 'same-language') {
+        return `
+          <div class="text-sm font-black text-white">${escapeHtml(dict['translation_tooltip_title'])}</div>
+          <div class="mt-2 text-sm leading-6 text-white/88">${escapeHtml(dict['translation_same_language'])}</div>
+        `;
+      }
+
+      if (result.status === 'error') {
+        return `
+          <div class="text-sm font-black text-white">${escapeHtml(dict['translation_tooltip_title'])}</div>
+          <div class="mt-2 text-sm leading-6 text-white/88">${escapeHtml(dict['translation_error'])}</div>
+        `;
+      }
+
+      const providerLabel = result.provider === 'server'
+        ? dict['translation_provider_server']
+        : dict['translation_provider_nllb'];
+
+      return `
+        <div class="text-sm font-black text-white">${escapeHtml(dict['translation_tooltip_title'])}</div>
+        <div class="mt-2 text-sm leading-6 text-white/92">${escapeHtml(result.text)}</div>
+        <div class="mt-3 border-t border-white/10 pt-3 text-xs uppercase tracking-[0.14em] text-white/60">${escapeHtml(providerLabel)}</div>
+      `;
+    }
+
+    function positionTooltip(tooltip, event) {
+      tooltip.classList.add('show');
+      const left = Math.min(event.clientX + 18, window.innerWidth - tooltip.offsetWidth - 12);
       tooltip.style.left = `${Math.max(12, left)}px`;
       tooltip.style.top = `${event.clientY + 18}px`;
     }
 
-    function hideTooltip() { document.getElementById('hover-tooltip').classList.remove('show'); }
+    function hideTooltip() {
+      sentenceTranslation.activeKey = null;
+      document.getElementById('hover-tooltip').classList.remove('show');
+    }
 
     function attachTooltip(element, type) {
       const meta = getTypeMeta(type);
@@ -2339,6 +2224,283 @@
 
     function escapeHtml(v) { return String(v).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m])); }
 
+    async function getSentenceTranslation(sentence, targetLang) {
+      const cacheKey = `${targetLang}::${sentence}`;
+      if (sentenceTranslation.cache.has(cacheKey)) {
+        return sentenceTranslation.cache.get(cacheKey);
+      }
+
+      if (sentenceTranslation.pending.has(cacheKey)) {
+        return sentenceTranslation.pending.get(cacheKey);
+      }
+
+      const promise = (async () => {
+        try {
+          const translated = await translateWithBiasScannerServer(sentence, targetLang);
+          if (translated && translated.status === 'same-language') {
+            return translated;
+          }
+          if (translated && translated.text) {
+            return translated;
+          }
+        } catch (error) {
+          console.warn('BiasScanner server translation failed, trying NLLB fallback:', error);
+        }
+
+        let detected = null;
+
+        try {
+          detected = await detectSentenceLanguage(sentence);
+          if (detected && normalizeDetectedLanguage(detected.language) === targetLang) {
+            return { status: 'same-language', sourceLanguage: detected.language };
+          }
+        } catch (error) {
+          console.warn('Language detection failed before translation:', error);
+        }
+
+        try {
+          const ensuredDetection = detected || await detectSentenceLanguage(sentence);
+          if (!ensuredDetection || !ensuredDetection.language) {
+            throw new Error('No source language available for NLLB translation.');
+          }
+          if (normalizeDetectedLanguage(ensuredDetection.language) === targetLang) {
+            return { status: 'same-language', sourceLanguage: ensuredDetection.language };
+          }
+
+          const translated = await translateWithNllb(sentence, ensuredDetection.language, LANGUAGE_CONFIG[targetLang].nllb);
+          return {
+            status: 'translated',
+            text: translated,
+            provider: 'nllb',
+            sourceLanguage: ensuredDetection.language
+          };
+        } catch (error) {
+          console.warn('All translation providers failed:', error);
+          return { status: 'error' };
+        }
+      })();
+
+      sentenceTranslation.pending.set(cacheKey, promise);
+
+      try {
+        const result = await promise;
+        if (result.status !== 'error') {
+          sentenceTranslation.cache.set(cacheKey, result);
+        }
+        return result;
+      } finally {
+        sentenceTranslation.pending.delete(cacheKey);
+      }
+    }
+
+    async function detectSentenceLanguage(sentence) {
+      let lastError = null;
+      for (const baseUrl of NLLB_SPACES) {
+        try {
+          const url = `${baseUrl}/api/v4/language?text=${encodeURIComponent(sentence)}&fast-model-confidence-threshold=0.85&accurate-model-confidence-threshold=0.35`;
+          const response = await fetch(url, {
+            method: 'GET',
+            headers: { accept: 'application/json' }
+          });
+          if (!response.ok) {
+            throw new Error(`Language detection failed with ${response.status}`);
+          }
+
+          const data = await response.json();
+          if (!data || !data.language) {
+            throw new Error('Language detection returned no language.');
+          }
+
+          return data;
+        } catch (error) {
+          lastError = error;
+        }
+      }
+
+      throw lastError || new Error('No language detection endpoint reachable.');
+    }
+
+    async function translateWithBiasScannerServer(sentence, targetLang, timeoutMs = 8000) {
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
+
+      try {
+        const response = await fetch(SERVER_BASE, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            type: 'translate',
+            text: sentence,
+            target_lang: targetLang,
+            url: 'www.biasscanner.org'
+          }),
+          signal: controller.signal
+        });
+
+        if (!response.ok) {
+          const message = await response.text().catch(() => '');
+          throw new Error(`BiasScanner translation failed with ${response.status}: ${message}`);
+        }
+
+        const data = await response.json();
+        if (!data || typeof data.result !== 'string') {
+          throw new Error('BiasScanner translation returned no result.');
+        }
+
+        const resultText = data.result.trim();
+        if (!resultText) {
+          throw new Error('BiasScanner translation returned an empty result.');
+        }
+
+        if (resultText === sentence.trim()) {
+          return {
+            status: 'same-language',
+            provider: 'server'
+          };
+        }
+
+        return {
+          status: 'translated',
+          text: resultText,
+          provider: 'server'
+        };
+      } finally {
+        clearTimeout(timeoutId);
+      }
+    }
+
+    async function translateWithNllb(sentence, sourceLang, targetLang) {
+      const chunks = chunkTextForNllb(sentence);
+      const translatedChunks = [];
+
+      for (const chunk of chunks) {
+        translatedChunks.push(await requestNllbTranslation(chunk, sourceLang, targetLang));
+      }
+
+      return translatedChunks.join(' ').replace(/\s+([,.;:!?])/g, '$1').trim();
+    }
+
+    async function requestNllbTranslation(text, sourceLang, targetLang) {
+      let lastError = null;
+      for (const baseUrl of NLLB_SPACES) {
+        try {
+          const url = `${baseUrl}/api/v4/translator?text=${encodeURIComponent(text)}&source=${encodeURIComponent(sourceLang)}&target=${encodeURIComponent(targetLang)}`;
+          const response = await fetch(url, {
+            method: 'GET',
+            headers: { accept: 'application/json' }
+          });
+          if (!response.ok) {
+            throw new Error(`NLLB translation failed with ${response.status}`);
+          }
+
+          const data = await response.json();
+          if (!data || !data.result) {
+            throw new Error('NLLB returned no translation result.');
+          }
+
+          return data.result;
+        } catch (error) {
+          lastError = error;
+        }
+      }
+
+      throw lastError || new Error('No NLLB endpoint reachable.');
+    }
+
+    function chunkTextForNllb(text, maxEstimatedTokens = 420) {
+      const normalized = String(text || '').replace(/\s+/g, ' ').trim();
+      if (!normalized) return [''];
+      if (estimateNllbTokens(normalized) <= maxEstimatedTokens) return [normalized];
+
+      const sentenceLikeParts = splitTextPreservingDelimiters(normalized, /(?<=[.!?])\s+/);
+      const sentenceChunks = packSegmentsByEstimatedTokens(sentenceLikeParts, maxEstimatedTokens);
+      if (sentenceChunks.every(chunk => estimateNllbTokens(chunk) <= maxEstimatedTokens)) {
+        return sentenceChunks.flatMap(chunk => splitOversizedChunk(chunk, maxEstimatedTokens));
+      }
+
+      return splitOversizedChunk(normalized, maxEstimatedTokens);
+    }
+
+    function splitOversizedChunk(text, maxEstimatedTokens) {
+      if (estimateNllbTokens(text) <= maxEstimatedTokens) return [text.trim()];
+
+      const clauseParts = splitTextPreservingDelimiters(text, /(?<=[,;:])\s+/);
+      const clauseChunks = packSegmentsByEstimatedTokens(clauseParts, maxEstimatedTokens);
+      if (clauseChunks.length > 1 || clauseParts.length > 1) {
+        return clauseChunks.flatMap(chunk => splitOversizedChunk(chunk, maxEstimatedTokens));
+      }
+
+      return splitWordsByEstimatedTokens(text, maxEstimatedTokens);
+    }
+
+    function splitWordsByEstimatedTokens(text, maxEstimatedTokens) {
+      const words = String(text || '').trim().split(/\s+/).filter(Boolean);
+      if (!words.length) return [''];
+
+      const chunks = [];
+      let current = '';
+
+      for (const word of words) {
+        const candidate = current ? `${current} ${word}` : word;
+        if (current && estimateNllbTokens(candidate) > maxEstimatedTokens) {
+          chunks.push(current.trim());
+          current = word;
+        } else {
+          current = candidate;
+        }
+      }
+
+      if (current) chunks.push(current.trim());
+      return chunks;
+    }
+
+    function packSegmentsByEstimatedTokens(segments, maxEstimatedTokens) {
+      const cleanedSegments = segments.map(segment => segment.trim()).filter(Boolean);
+      if (!cleanedSegments.length) return [];
+
+      const chunks = [];
+      let current = '';
+
+      for (const segment of cleanedSegments) {
+        const candidate = current ? `${current} ${segment}` : segment;
+        if (current && estimateNllbTokens(candidate) > maxEstimatedTokens) {
+          chunks.push(current.trim());
+          current = segment;
+        } else {
+          current = candidate;
+        }
+      }
+
+      if (current) chunks.push(current.trim());
+      return chunks;
+    }
+
+    function splitTextPreservingDelimiters(text, separatorRegex) {
+      return String(text || '')
+        .split(separatorRegex)
+        .map(part => part.trim())
+        .filter(Boolean);
+    }
+
+    function estimateNllbTokens(text) {
+      const normalized = String(text || '').trim();
+      if (!normalized) return 0;
+
+      const words = normalized.split(/\s+/).filter(Boolean).length;
+      const chars = normalized.length;
+      return Math.max(Math.ceil(chars / 4), Math.ceil(words * 1.8));
+    }
+
+    function normalizeDetectedLanguage(language) {
+      if (!language) return null;
+      const normalized = String(language).toLowerCase();
+
+      return Object.entries(LANGUAGE_CONFIG).find(([, config]) =>
+        normalized === config.nllb.toLowerCase() ||
+        config.aliases.some(alias => normalized === alias || normalized.startsWith(`${alias}_`) || normalized.startsWith(`${alias}-`))
+      )?.[0] || null;
+    }
+
     function showToast(m, v = 'success') {
       const t = document.getElementById('toast');
       clearTimeout(toastTimeout);
@@ -2350,3 +2512,4 @@
   </script>
 </body>
 </html>
+

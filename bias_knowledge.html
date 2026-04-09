@@ -2073,11 +2073,14 @@
       const modeDescription = document.getElementById("mode-description");
       const progressBar = document.getElementById("progress-bar");
 
+      const urlLanguage = new URLSearchParams(window.location.search).get("lang");
       const savedLanguage = localStorage.getItem("biasscanner-language");
       const savedMode = localStorage.getItem("biasscanner-mode");
 
       const state = {
-        lang: savedLanguage && ["en", "de"].includes(savedLanguage) ? savedLanguage : "en",
+        lang: urlLanguage && ["en", "de"].includes(urlLanguage)
+          ? urlLanguage
+          : savedLanguage && ["en", "de"].includes(savedLanguage) ? savedLanguage : "en",
         mode: savedMode === "compact" ? "compact" : "full"
       };
 
