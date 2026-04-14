@@ -1,879 +1,1493 @@
-﻿<!DOCTYPE html>
+﻿<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BiasScanner Resolution Interface</title>
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <style>
-    :root {
-      --brand-red: #e0251b;
-      --brand-orange: #ff6b00;
-      --brand-orange-deep: #e25a00;
-      --brand-cream: #fff7f2;
-      --brand-cream-2: #fff1ea;
-      --brand-ink: #2d1f1a;
-      --brand-muted: #7a5a4c;
-      --brand-border: rgba(224, 76, 34, 0.14);
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
-    body {
-      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      color: var(--brand-ink);
-      background:
-        radial-gradient(circle at top left, rgba(224, 37, 27, 0.14), transparent 28%),
-        radial-gradient(circle at top right, rgba(255, 107, 0, 0.16), transparent 24%),
-        linear-gradient(180deg, #fff7f2 0%, #ffffff 24%, #fffaf8 100%);
-      min-height: 100vh;
-    }
-
-    .glass-card {
-      background: rgba(255, 255, 255, 0.88);
-      border: 1px solid var(--brand-border);
-      box-shadow: 0 22px 60px rgba(126, 50, 15, 0.08);
-      backdrop-filter: blur(14px);
-      -webkit-backdrop-filter: blur(14px);
-    }
-
-    .hero-card {
-      background:
-        radial-gradient(circle at 100% 0%, rgba(255, 255, 255, 0.16), transparent 28%),
-        linear-gradient(135deg, #d91f18 0%, #e84e12 44%, #ff6b00 100%);
-      color: white;
-      box-shadow: 0 24px 60px rgba(224, 37, 27, 0.26);
-    }
-
-    .sticky-shell {
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-      backdrop-filter: blur(16px);
-      background: #e0251b;
-      border-bottom: 1px solid rgba(255, 107, 0, 0.08);
-    }
-
-    .topbar {
-      max-width: 1120px;
-      margin: 0 auto;
-      padding: 14px 18px 12px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 18px;
-    }
-
-    .brand-row {
-      display: flex;
-      align-items: center;
-      gap: 14px;
-      min-width: 0;
-    }
-
-    .back-link {
-      width: 42px;
-      height: 42px;
-      border-radius: 999px;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      text-decoration: none;
-      background: linear-gradient(180deg, #fff, #fff5ef);
-      border: 1px solid rgba(255, 138, 76, 0.22);
-      box-shadow: 0 10px 24px rgba(31, 41, 55, 0.06);
-      font-size: 20px;
-      flex: 0 0 auto;
-      transition:
-        transform 0.2s ease,
-        box-shadow 0.2s ease;
-    }
-
-    .back-link:hover {
-      transform: translateY(-1px);
-      box-shadow: 0 18px 50px rgba(31, 41, 55, 0.1);
-    }
-
-    .title-wrap {
-      min-width: 0;
-    }
-
-    .eyebrow {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      font-size: 12px;
-      font-weight: 800;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      color: #ffffff;
-      margin-bottom: 4px;
-    }
-
-    .eyebrow::before {
-      content: "";
-      width: 8px;
-      height: 8px;
-      border-radius: 999px;
-      background: linear-gradient(135deg, #fff, #ffe4cf);
-      box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.12);
-    }
-
-    .header-title {
-      font-size: 20px;
-      font-weight: 800;
-      line-height: 1.2;
-      color: white;
-      white-space: normal;
-    }
-
-    .top-controls {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      flex-wrap: wrap;
-      justify-content: flex-end;
-    }
-
-    .select-wrap {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      padding: 0 8px 0 14px;
-      border-radius: 999px;
-      border: 1px solid rgba(255, 138, 76, 0.22);
-      background: linear-gradient(180deg, #fff, #fff6f1);
-      box-shadow: 0 10px 24px rgba(31, 41, 55, 0.06);
-      height: 44px;
-      color: #667085;
-      font-size: 14px;
-      font-weight: 700;
-    }
-
-    .select-wrap span {
-      white-space: nowrap;
-    }
-
-    .lang-select {
-      border: none;
-      background: transparent;
-      color: #2a2f38;
-      font: inherit;
-      font-weight: 700;
-      outline: none;
-      padding-right: 4px;
-      cursor: pointer;
-    }
-
-    .lang-select:hover {
-      transform: translateY(-1px);
-      box-shadow: 0 18px 50px rgba(31, 41, 55, 0.1);
-    }
-
-    .brand-button {
-      background: linear-gradient(135deg, var(--brand-red), var(--brand-orange));
-      color: white;
-      border: none;
-      box-shadow: 0 16px 30px rgba(224, 37, 27, 0.22);
-      transition: transform 0.18s ease, box-shadow 0.18s ease, opacity 0.18s ease;
-    }
-
-    .brand-button:hover {
-      transform: translateY(-1px);
-      box-shadow: 0 20px 34px rgba(224, 37, 27, 0.28);
-    }
-
-    .secondary-button {
-      background: white;
-      color: var(--brand-ink);
-      border: 1px solid rgba(122, 90, 76, 0.18);
-      transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease;
-    }
-
-    .secondary-button:hover {
-      transform: translateY(-1px);
-      background: #fff8f4;
-      border-color: rgba(224, 76, 34, 0.3);
-    }
-
-    .ghost-button {
-      color: var(--brand-muted);
-      border: 1px dashed rgba(122, 90, 76, 0.24);
-      background: rgba(255, 255, 255, 0.72);
-      transition: background 0.18s ease, color 0.18s ease, border-color 0.18s ease;
-    }
-
-    .ghost-button:hover {
-      background: #fff7f2;
-      color: var(--brand-ink);
-      border-color: rgba(224, 76, 34, 0.28);
-    }
-
-    .accent-strip {
-      background: linear-gradient(90deg, var(--brand-red), var(--brand-orange));
-      height: 4px;
-      border-radius: 999px;
-    }
-
-    .pill-badge {
-      background: rgba(255, 255, 255, 0.12);
-      border: 1px solid rgba(255, 255, 255, 0.18);
-      backdrop-filter: blur(10px);
-      -webkit-backdrop-filter: blur(10px);
-    }
-
-    .tag-chip {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-      border-radius: 999px;
-      padding: 0.45rem 0.8rem;
-      font-size: 0.88rem;
-      font-weight: 700;
-      border: 1px solid transparent;
-      line-height: 1;
-    }
-
-    .tag-dot {
-      width: 0.6rem;
-      height: 0.6rem;
-      border-radius: 999px;
-      flex-shrink: 0;
-    }
-
-    .tag-remove {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      width: 1.25rem;
-      height: 1.25rem;
-      border-radius: 999px;
-      border: none;
-      background: rgba(255, 255, 255, 0.72);
-      color: #7b3d22;
-      cursor: pointer;
-      font-weight: 900;
-      line-height: 1;
-    }
-
-    .tag-remove:hover {
-      background: rgba(255, 255, 255, 0.95);
-    }
-
-    .status-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.45rem;
-      border-radius: 999px;
-      padding: 0.5rem 0.85rem;
-      font-size: 0.8rem;
-      font-weight: 800;
-      letter-spacing: 0.01em;
-    }
-
-    .decision-button {
-      border-radius: 999px;
-      padding: 0.52rem 0.9rem;
-      font-size: 0.8rem;
-      font-weight: 800;
-      border: 1px solid rgba(122, 90, 76, 0.18);
-      background: white;
-      color: #5a463d;
-      transition: all 0.16s ease;
-      white-space: nowrap;
-    }
-
-    .decision-button:hover {
-      border-color: rgba(224, 76, 34, 0.34);
-      background: #fff7f2;
-    }
-
-    .decision-yes-active {
-      color: white;
-      border-color: transparent;
-      background: linear-gradient(135deg, #ff6b00, #ff8a2a);
-      box-shadow: 0 10px 22px rgba(255, 107, 0, 0.26);
-    }
-
-    .decision-no-active {
-      color: white;
-      border-color: transparent;
-      background: linear-gradient(135deg, #c81e1e, #e0251b);
-      box-shadow: 0 10px 22px rgba(224, 37, 27, 0.22);
-    }
-
-    .type-button {
-      cursor: help;
-    }
-
-    .sentence-hover-target {
-      cursor: help;
-    }
-
-    .input-base,
-    textarea.input-base {
-      width: 100%;
-      border-radius: 1rem;
-      border: 1px solid rgba(122, 90, 76, 0.16);
-      background: rgba(255, 255, 255, 0.92);
-      padding: 0.85rem 1rem;
-      color: var(--brand-ink);
-      outline: none;
-      transition: border-color 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
-    }
-
-    .input-base:focus,
-    textarea.input-base:focus {
-      border-color: rgba(255, 107, 0, 0.45);
-      box-shadow: 0 0 0 4px rgba(255, 107, 0, 0.12);
-      background: white;
-    }
-
-    .autocomplete-panel {
-      position: absolute;
-      left: 0;
-      right: 0;
-      top: calc(100% + 0.55rem);
-      z-index: 30;
-      border-radius: 1rem;
-      border: 1px solid rgba(122, 90, 76, 0.15);
-      background: rgba(255, 255, 255, 0.98);
-      box-shadow: 0 18px 40px rgba(77, 40, 18, 0.12);
-      max-height: 18rem;
-      overflow-y: auto;
-      padding: 0.35rem;
-    }
-
-    .autocomplete-item {
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 1rem;
-      text-align: left;
-      padding: 0.8rem 0.85rem;
-      border-radius: 0.9rem;
-      border: none;
-      background: transparent;
-      cursor: pointer;
-    }
-
-    .autocomplete-item:hover {
-      background: #fff4ed;
-    }
-
-    .taxonomy-scroll {
-      min-height: 0;
-      max-height: calc(100vh - 12rem);
-      overflow-y: auto;
-      padding-right: 0.35rem;
-    }
-
-    details summary {
-      list-style: none;
-      cursor: pointer;
-    }
-
-    details summary::-webkit-details-marker {
-      display: none;
-    }
-
-    .taxonomy-group {
-      border-radius: 1.2rem;
-      overflow: hidden;
-      border: 1px solid rgba(122, 90, 76, 0.14);
-      background: rgba(255, 255, 255, 0.82);
-    }
-
-    .taxonomy-type {
-      border-radius: 1rem;
-      border: 1px solid rgba(122, 90, 76, 0.1);
-      background: rgba(255, 255, 255, 0.88);
-      overflow: hidden;
-    }
-
-    .toast {
-      position: fixed;
-      right: 1rem;
-      bottom: 1rem;
-      z-index: 70;
-      min-width: 18rem;
-      max-width: 28rem;
-      border-radius: 1rem;
-      padding: 0.95rem 1rem;
-      color: white;
-      box-shadow: 0 24px 50px rgba(45, 31, 26, 0.22);
-      opacity: 0;
-      transform: translateY(12px);
-      pointer-events: none;
-      transition: opacity 0.22s ease, transform 0.22s ease;
-    }
-
-    .toast.show {
-      opacity: 1;
-      transform: translateY(0);
-    }
-
-    #hover-tooltip {
-      position: fixed;
-      z-index: 80;
-      max-width: 22rem;
-      border-radius: 1rem;
-      border: 1px solid rgba(255, 145, 96, 0.24);
-      background: rgba(41, 26, 20, 0.96);
-      color: white;
-      padding: 0.9rem 1rem;
-      box-shadow: 0 22px 45px rgba(0, 0, 0, 0.24);
-      pointer-events: none;
-      opacity: 0;
-      transform: translateY(6px);
-      transition: opacity 0.12s ease, transform 0.12s ease;
-    }
-
-    #hover-tooltip.show {
-      opacity: 1;
-      transform: translateY(0);
-    }
-
-    .warm-ring {
-      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.16), 0 18px 48px rgba(224, 37, 27, 0.18);
-    }
-
-    .section-title {
-      letter-spacing: -0.02em;
-    }
-
-    .pulse-glow {
-      animation: pulse-glow 2s infinite;
-    }
-
-    @keyframes pulse-glow {
-      0% { box-shadow: 0 0 0 0 rgba(224, 37, 27, 0.4); }
-      70% { box-shadow: 0 0 0 10px rgba(224, 37, 27, 0); }
-      100% { box-shadow: 0 0 0 0 rgba(224, 37, 27, 0); }
-    }
-
-    #confetti-canvas {
-      position: fixed;
-      inset: 0;
-      z-index: 200;
-      pointer-events: none;
-      opacity: 0;
-      transition: opacity 0.15s ease;
-    }
-    #confetti-canvas.active {
-      opacity: 1;
-    }
-
-    .gamification-bar {
-      background: rgba(255, 255, 255, 0.92);
-      border: 1px solid var(--brand-border);
-      box-shadow: 0 8px 24px rgba(126, 50, 15, 0.06);
-      backdrop-filter: blur(14px);
-      -webkit-backdrop-filter: blur(14px);
-    }
-
-    .xp-progress-track {
-      height: 6px;
-      border-radius: 999px;
-      background: rgba(224, 37, 27, 0.08);
-      overflow: hidden;
-    }
-
-    .xp-progress-fill {
-      height: 100%;
-      border-radius: 999px;
-      background: linear-gradient(90deg, var(--brand-red), var(--brand-orange));
-      transition: width 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
-    }
-
-    .streak-fire {
-      display: inline-block;
-      animation: fire-flicker 1.2s ease-in-out infinite alternate;
-    }
-
-    @keyframes fire-flicker {
-      0% { transform: scale(1) rotate(-3deg); }
-      100% { transform: scale(1.12) rotate(3deg); }
-    }
-
-    .xp-popup {
-      position: fixed;
-      z-index: 150;
-      font-weight: 900;
-      font-size: 1.1rem;
-      color: var(--brand-orange);
-      pointer-events: none;
-      animation: xp-float-up 1.4s ease-out forwards;
-      text-shadow: 0 1px 4px rgba(224, 37, 27, 0.18);
-    }
-
-    @keyframes xp-float-up {
-      0% { opacity: 1; transform: translateY(0) scale(1); }
-      60% { opacity: 1; transform: translateY(-48px) scale(1.15); }
-      100% { opacity: 0; transform: translateY(-72px) scale(0.9); }
-    }
-
-    #level-up-modal {
-      position: fixed;
-      inset: 0;
-      z-index: 180;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: rgba(45, 31, 26, 0.55);
-      backdrop-filter: blur(6px);
-      -webkit-backdrop-filter: blur(6px);
-      opacity: 0;
-      pointer-events: none;
-      transition: opacity 0.3s ease;
-    }
-
-    #level-up-modal.show {
-      opacity: 1;
-      pointer-events: auto;
-    }
-
-    .level-up-card {
-      background:
-        radial-gradient(circle at 30% 0%, rgba(255, 255, 255, 0.2), transparent 40%),
-        linear-gradient(145deg, #fff7f2, #ffffff);
-      border-radius: 2rem;
-      padding: 2.5rem 2rem 2rem;
-      text-align: center;
-      max-width: 22rem;
-      width: 90%;
-      box-shadow: 0 30px 80px rgba(224, 37, 27, 0.22);
-      transform: scale(0.85);
-      transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
-    }
-
-    #level-up-modal.show .level-up-card {
-      transform: scale(1);
-    }
-
-    .level-icon-bounce {
-      display: inline-block;
-      animation: icon-bounce 0.6s ease-out;
-    }
-
-    @keyframes icon-bounce {
-      0% { transform: scale(0) rotate(-20deg); }
-      60% { transform: scale(1.25) rotate(5deg); }
-      100% { transform: scale(1) rotate(0); }
-    }
-
-    .milestone-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.35rem;
-      padding: 0.3rem 0.7rem;
-      border-radius: 999px;
-      font-size: 0.72rem;
-      font-weight: 800;
-      background: linear-gradient(135deg, rgba(255, 107, 0, 0.12), rgba(224, 37, 27, 0.12));
-      color: #9b2b1b;
-      border: 1px solid rgba(224, 37, 27, 0.15);
-    }
-
-    @media (max-width: 1279px) {
-      .taxonomy-scroll {
-        max-height: none;
-      }
-    }
-  </style>
-</head>
-<body>
-  <div class="relative min-h-screen overflow-hidden">
-    <div class="pointer-events-none absolute inset-0 overflow-hidden">
-      <div class="absolute -left-24 top-10 h-72 w-72 rounded-full bg-red-200/30 blur-3xl"></div>
-      <div class="absolute right-0 top-0 h-80 w-80 rounded-full bg-orange-200/40 blur-3xl"></div>
-      <div class="absolute bottom-0 left-1/3 h-72 w-72 rounded-full bg-amber-100/40 blur-3xl"></div>
-    </div>
-
-    <div class="sticky-shell">
-      <header class="topbar">
-        <div class="brand-row">
-          <a href="index.html" class="back-link" aria-label="Back">←</a>
-          <div class="title-wrap">
-            <div class="eyebrow">BiasScanner</div>
-            <div class="header-title" data-i18n="title_main">Decide yourself!</div>
-          </div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>BiasScanner Resolution Interface</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <style>
+            :root {
+                --brand-red: #e0251b;
+                --brand-orange: #ff6b00;
+                --brand-orange-deep: #e25a00;
+                --brand-cream: #fff7f2;
+                --brand-cream-2: #fff1ea;
+                --brand-ink: #2d1f1a;
+                --brand-muted: #7a5a4c;
+                --brand-border: rgba(224, 76, 34, 0.14);
+            }
+
+            html {
+                scroll-behavior: smooth;
+            }
+
+            body {
+                font-family:
+                    Inter,
+                    ui-sans-serif,
+                    system-ui,
+                    -apple-system,
+                    BlinkMacSystemFont,
+                    "Segoe UI",
+                    sans-serif;
+                color: var(--brand-ink);
+                background:
+                    radial-gradient(
+                        circle at top left,
+                        rgba(224, 37, 27, 0.14),
+                        transparent 28%
+                    ),
+                    radial-gradient(
+                        circle at top right,
+                        rgba(255, 107, 0, 0.16),
+                        transparent 24%
+                    ),
+                    linear-gradient(
+                        180deg,
+                        #fff7f2 0%,
+                        #ffffff 24%,
+                        #fffaf8 100%
+                    );
+                min-height: 100vh;
+            }
+
+            .glass-card {
+                background: rgba(255, 255, 255, 0.88);
+                border: 1px solid var(--brand-border);
+                box-shadow: 0 22px 60px rgba(126, 50, 15, 0.08);
+                backdrop-filter: blur(14px);
+                -webkit-backdrop-filter: blur(14px);
+            }
+
+            .hero-card {
+                background:
+                    radial-gradient(
+                        circle at 100% 0%,
+                        rgba(255, 255, 255, 0.16),
+                        transparent 28%
+                    ),
+                    linear-gradient(
+                        135deg,
+                        #d91f18 0%,
+                        #e84e12 44%,
+                        #ff6b00 100%
+                    );
+                color: white;
+                box-shadow: 0 24px 60px rgba(224, 37, 27, 0.26);
+            }
+
+            .sticky-shell {
+                position: sticky;
+                top: 0;
+                z-index: 1000;
+                backdrop-filter: blur(16px);
+                background: #e0251b;
+                border-bottom: 1px solid rgba(255, 107, 0, 0.08);
+            }
+
+            .topbar {
+                max-width: 1120px;
+                margin: 0 auto;
+                padding: 14px 18px 12px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 18px;
+            }
+
+            .brand-row {
+                display: flex;
+                align-items: center;
+                gap: 14px;
+                min-width: 0;
+            }
+
+            .back-link {
+                width: 42px;
+                height: 42px;
+                border-radius: 999px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                text-decoration: none;
+                background: linear-gradient(180deg, #fff, #fff5ef);
+                border: 1px solid rgba(255, 138, 76, 0.22);
+                box-shadow: 0 10px 24px rgba(31, 41, 55, 0.06);
+                font-size: 20px;
+                flex: 0 0 auto;
+                transition:
+                    transform 0.2s ease,
+                    box-shadow 0.2s ease;
+            }
+
+            .back-link:hover {
+                transform: translateY(-1px);
+                box-shadow: 0 18px 50px rgba(31, 41, 55, 0.1);
+            }
+
+            .title-wrap {
+                min-width: 0;
+            }
+
+            .eyebrow {
+                display: inline-flex;
+                align-items: center;
+                gap: 8px;
+                font-size: 12px;
+                font-weight: 800;
+                letter-spacing: 0.14em;
+                text-transform: uppercase;
+                color: #ffffff;
+                margin-bottom: 4px;
+            }
+
+            .eyebrow::before {
+                content: "";
+                width: 8px;
+                height: 8px;
+                border-radius: 999px;
+                background: linear-gradient(135deg, #fff, #ffe4cf);
+                box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.12);
+            }
+
+            .header-title {
+                font-size: 20px;
+                font-weight: 800;
+                line-height: 1.2;
+                color: white;
+                white-space: normal;
+            }
+
+            .top-controls {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                flex-wrap: wrap;
+                justify-content: flex-end;
+            }
+
+            .select-wrap {
+                display: inline-flex;
+                align-items: center;
+                gap: 10px;
+                padding: 0 8px 0 14px;
+                border-radius: 999px;
+                border: 1px solid rgba(255, 138, 76, 0.22);
+                background: linear-gradient(180deg, #fff, #fff6f1);
+                box-shadow: 0 10px 24px rgba(31, 41, 55, 0.06);
+                height: 44px;
+                color: #667085;
+                font-size: 14px;
+                font-weight: 700;
+            }
+
+            .select-wrap span {
+                white-space: nowrap;
+            }
+
+            .lang-select {
+                border: none;
+                background: transparent;
+                color: #2a2f38;
+                font: inherit;
+                font-weight: 700;
+                outline: none;
+                padding-right: 4px;
+                cursor: pointer;
+            }
+
+            .lang-select:hover {
+                transform: translateY(-1px);
+                box-shadow: 0 18px 50px rgba(31, 41, 55, 0.1);
+            }
+
+            .brand-button {
+                background: linear-gradient(
+                    135deg,
+                    var(--brand-red),
+                    var(--brand-orange)
+                );
+                color: white;
+                border: none;
+                box-shadow: 0 16px 30px rgba(224, 37, 27, 0.22);
+                transition:
+                    transform 0.18s ease,
+                    box-shadow 0.18s ease,
+                    opacity 0.18s ease;
+            }
+
+            .brand-button:hover {
+                transform: translateY(-1px);
+                box-shadow: 0 20px 34px rgba(224, 37, 27, 0.28);
+            }
+
+            .secondary-button {
+                background: white;
+                color: var(--brand-ink);
+                border: 1px solid rgba(122, 90, 76, 0.18);
+                transition:
+                    transform 0.18s ease,
+                    border-color 0.18s ease,
+                    background 0.18s ease;
+            }
+
+            .secondary-button:hover {
+                transform: translateY(-1px);
+                background: #fff8f4;
+                border-color: rgba(224, 76, 34, 0.3);
+            }
+
+            .ghost-button {
+                color: var(--brand-muted);
+                border: 1px dashed rgba(122, 90, 76, 0.24);
+                background: rgba(255, 255, 255, 0.72);
+                transition:
+                    background 0.18s ease,
+                    color 0.18s ease,
+                    border-color 0.18s ease;
+            }
+
+            .ghost-button:hover {
+                background: #fff7f2;
+                color: var(--brand-ink);
+                border-color: rgba(224, 76, 34, 0.28);
+            }
+
+            .accent-strip {
+                background: linear-gradient(
+                    90deg,
+                    var(--brand-red),
+                    var(--brand-orange)
+                );
+                height: 4px;
+                border-radius: 999px;
+            }
+
+            .pill-badge {
+                background: rgba(255, 255, 255, 0.12);
+                border: 1px solid rgba(255, 255, 255, 0.18);
+                backdrop-filter: blur(10px);
+                -webkit-backdrop-filter: blur(10px);
+            }
+
+            .tag-chip {
+                display: inline-flex;
+                align-items: center;
+                gap: 0.5rem;
+                border-radius: 999px;
+                padding: 0.45rem 0.8rem;
+                font-size: 0.88rem;
+                font-weight: 700;
+                border: 1px solid transparent;
+                line-height: 1;
+            }
+
+            .tag-dot {
+                width: 0.6rem;
+                height: 0.6rem;
+                border-radius: 999px;
+                flex-shrink: 0;
+            }
+
+            .tag-remove {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                width: 1.25rem;
+                height: 1.25rem;
+                border-radius: 999px;
+                border: none;
+                background: rgba(255, 255, 255, 0.72);
+                color: #7b3d22;
+                cursor: pointer;
+                font-weight: 900;
+                line-height: 1;
+            }
+
+            .tag-remove:hover {
+                background: rgba(255, 255, 255, 0.95);
+            }
+
+            .status-badge {
+                display: inline-flex;
+                align-items: center;
+                gap: 0.45rem;
+                border-radius: 999px;
+                padding: 0.5rem 0.85rem;
+                font-size: 0.8rem;
+                font-weight: 800;
+                letter-spacing: 0.01em;
+            }
+
+            .decision-button {
+                border-radius: 999px;
+                padding: 0.52rem 0.9rem;
+                font-size: 0.8rem;
+                font-weight: 800;
+                border: 1px solid rgba(122, 90, 76, 0.18);
+                background: white;
+                color: #5a463d;
+                transition: all 0.16s ease;
+                white-space: nowrap;
+            }
+
+            .decision-button:hover {
+                border-color: rgba(224, 76, 34, 0.34);
+                background: #fff7f2;
+            }
+
+            .decision-yes-active {
+                color: white;
+                border-color: transparent;
+                background: linear-gradient(135deg, #ff6b00, #ff8a2a);
+                box-shadow: 0 10px 22px rgba(255, 107, 0, 0.26);
+            }
+
+            .decision-no-active {
+                color: white;
+                border-color: transparent;
+                background: linear-gradient(135deg, #c81e1e, #e0251b);
+                box-shadow: 0 10px 22px rgba(224, 37, 27, 0.22);
+            }
+
+            .type-button {
+                cursor: help;
+            }
+
+            .sentence-hover-target {
+                cursor: help;
+            }
+
+            .input-base,
+            textarea.input-base {
+                width: 100%;
+                border-radius: 1rem;
+                border: 1px solid rgba(122, 90, 76, 0.16);
+                background: rgba(255, 255, 255, 0.92);
+                padding: 0.85rem 1rem;
+                color: var(--brand-ink);
+                outline: none;
+                transition:
+                    border-color 0.18s ease,
+                    box-shadow 0.18s ease,
+                    background 0.18s ease;
+            }
+
+            .input-base:focus,
+            textarea.input-base:focus {
+                border-color: rgba(255, 107, 0, 0.45);
+                box-shadow: 0 0 0 4px rgba(255, 107, 0, 0.12);
+                background: white;
+            }
+
+            .autocomplete-panel {
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: calc(100% + 0.55rem);
+                z-index: 30;
+                border-radius: 1rem;
+                border: 1px solid rgba(122, 90, 76, 0.15);
+                background: rgba(255, 255, 255, 0.98);
+                box-shadow: 0 18px 40px rgba(77, 40, 18, 0.12);
+                max-height: 18rem;
+                overflow-y: auto;
+                padding: 0.35rem;
+            }
+
+            .autocomplete-item {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 1rem;
+                text-align: left;
+                padding: 0.8rem 0.85rem;
+                border-radius: 0.9rem;
+                border: none;
+                background: transparent;
+                cursor: pointer;
+            }
+
+            .autocomplete-item:hover {
+                background: #fff4ed;
+            }
+
+            .taxonomy-scroll {
+                min-height: 0;
+                max-height: calc(100vh - 12rem);
+                overflow-y: auto;
+                padding-right: 0.35rem;
+            }
+
+            details summary {
+                list-style: none;
+                cursor: pointer;
+            }
+
+            details summary::-webkit-details-marker {
+                display: none;
+            }
+
+            .taxonomy-group {
+                border-radius: 1.2rem;
+                overflow: hidden;
+                border: 1px solid rgba(122, 90, 76, 0.14);
+                background: rgba(255, 255, 255, 0.82);
+            }
+
+            .taxonomy-type {
+                border-radius: 1rem;
+                border: 1px solid rgba(122, 90, 76, 0.1);
+                background: rgba(255, 255, 255, 0.88);
+                overflow: hidden;
+            }
+
+            .toast {
+                position: fixed;
+                right: 1rem;
+                bottom: 1rem;
+                z-index: 70;
+                min-width: 18rem;
+                max-width: 28rem;
+                border-radius: 1rem;
+                padding: 0.95rem 1rem;
+                color: white;
+                box-shadow: 0 24px 50px rgba(45, 31, 26, 0.22);
+                opacity: 0;
+                transform: translateY(12px);
+                pointer-events: none;
+                transition:
+                    opacity 0.22s ease,
+                    transform 0.22s ease;
+            }
+
+            .toast.show {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+            #hover-tooltip {
+                position: fixed;
+                z-index: 80;
+                max-width: 22rem;
+                border-radius: 1rem;
+                border: 1px solid rgba(255, 145, 96, 0.24);
+                background: rgba(41, 26, 20, 0.96);
+                color: white;
+                padding: 0.9rem 1rem;
+                box-shadow: 0 22px 45px rgba(0, 0, 0, 0.24);
+                pointer-events: none;
+                opacity: 0;
+                transform: translateY(6px);
+                transition:
+                    opacity 0.12s ease,
+                    transform 0.12s ease;
+            }
+
+            #hover-tooltip.show {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+            .warm-ring {
+                box-shadow:
+                    inset 0 0 0 1px rgba(255, 255, 255, 0.16),
+                    0 18px 48px rgba(224, 37, 27, 0.18);
+            }
+
+            .section-title {
+                letter-spacing: -0.02em;
+            }
+
+            .pulse-glow {
+                animation: pulse-glow 2s infinite;
+            }
+
+            @keyframes pulse-glow {
+                0% {
+                    box-shadow: 0 0 0 0 rgba(224, 37, 27, 0.4);
+                }
+                70% {
+                    box-shadow: 0 0 0 10px rgba(224, 37, 27, 0);
+                }
+                100% {
+                    box-shadow: 0 0 0 0 rgba(224, 37, 27, 0);
+                }
+            }
+
+            #confetti-canvas {
+                position: fixed;
+                inset: 0;
+                z-index: 200;
+                pointer-events: none;
+                opacity: 0;
+                transition: opacity 0.15s ease;
+            }
+            #confetti-canvas.active {
+                opacity: 1;
+            }
+
+            .gamification-bar {
+                background: rgba(255, 255, 255, 0.92);
+                border: 1px solid var(--brand-border);
+                box-shadow: 0 8px 24px rgba(126, 50, 15, 0.06);
+                backdrop-filter: blur(14px);
+                -webkit-backdrop-filter: blur(14px);
+            }
+
+            .xp-progress-track {
+                height: 6px;
+                border-radius: 999px;
+                background: rgba(224, 37, 27, 0.08);
+                overflow: hidden;
+            }
+
+            .xp-progress-fill {
+                height: 100%;
+                border-radius: 999px;
+                background: linear-gradient(
+                    90deg,
+                    var(--brand-red),
+                    var(--brand-orange)
+                );
+                transition: width 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+            }
+
+            .streak-fire {
+                display: inline-block;
+                animation: fire-flicker 1.2s ease-in-out infinite alternate;
+            }
+
+            @keyframes fire-flicker {
+                0% {
+                    transform: scale(1) rotate(-3deg);
+                }
+                100% {
+                    transform: scale(1.12) rotate(3deg);
+                }
+            }
+
+            .xp-popup {
+                position: fixed;
+                z-index: 150;
+                font-weight: 900;
+                font-size: 1.1rem;
+                color: var(--brand-orange);
+                pointer-events: none;
+                animation: xp-float-up 1.4s ease-out forwards;
+                text-shadow: 0 1px 4px rgba(224, 37, 27, 0.18);
+            }
+
+            @keyframes xp-float-up {
+                0% {
+                    opacity: 1;
+                    transform: translateY(0) scale(1);
+                }
+                60% {
+                    opacity: 1;
+                    transform: translateY(-48px) scale(1.15);
+                }
+                100% {
+                    opacity: 0;
+                    transform: translateY(-72px) scale(0.9);
+                }
+            }
+
+            #level-up-modal {
+                position: fixed;
+                inset: 0;
+                z-index: 180;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: rgba(45, 31, 26, 0.55);
+                backdrop-filter: blur(6px);
+                -webkit-backdrop-filter: blur(6px);
+                opacity: 0;
+                pointer-events: none;
+                transition: opacity 0.3s ease;
+            }
+
+            #level-up-modal.show {
+                opacity: 1;
+                pointer-events: auto;
+            }
+
+            .level-up-card {
+                background:
+                    radial-gradient(
+                        circle at 30% 0%,
+                        rgba(255, 255, 255, 0.2),
+                        transparent 40%
+                    ),
+                    linear-gradient(145deg, #fff7f2, #ffffff);
+                border-radius: 2rem;
+                padding: 2.5rem 2rem 2rem;
+                text-align: center;
+                max-width: 22rem;
+                width: 90%;
+                box-shadow: 0 30px 80px rgba(224, 37, 27, 0.22);
+                transform: scale(0.85);
+                transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+            }
+
+            #level-up-modal.show .level-up-card {
+                transform: scale(1);
+            }
+
+            .level-icon-bounce {
+                display: inline-block;
+                animation: icon-bounce 0.6s ease-out;
+            }
+
+            @keyframes icon-bounce {
+                0% {
+                    transform: scale(0) rotate(-20deg);
+                }
+                60% {
+                    transform: scale(1.25) rotate(5deg);
+                }
+                100% {
+                    transform: scale(1) rotate(0);
+                }
+            }
+
+            .milestone-badge {
+                display: inline-flex;
+                align-items: center;
+                gap: 0.35rem;
+                padding: 0.3rem 0.7rem;
+                border-radius: 999px;
+                font-size: 0.72rem;
+                font-weight: 800;
+                background: linear-gradient(
+                    135deg,
+                    rgba(255, 107, 0, 0.12),
+                    rgba(224, 37, 27, 0.12)
+                );
+                color: #9b2b1b;
+                border: 1px solid rgba(224, 37, 27, 0.15);
+            }
+
+            @media (max-width: 1279px) {
+                .taxonomy-scroll {
+                    max-height: none;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="relative min-h-screen overflow-hidden">
+            <div class="pointer-events-none absolute inset-0 overflow-hidden">
+                <div
+                    class="absolute -left-24 top-10 h-72 w-72 rounded-full bg-red-200/30 blur-3xl"
+                ></div>
+                <div
+                    class="absolute right-0 top-0 h-80 w-80 rounded-full bg-orange-200/40 blur-3xl"
+                ></div>
+                <div
+                    class="absolute bottom-0 left-1/3 h-72 w-72 rounded-full bg-amber-100/40 blur-3xl"
+                ></div>
+            </div>
+
+            <div class="sticky-shell">
+                <header class="topbar">
+                    <div class="brand-row">
+                        <a href="index.html" class="back-link" aria-label="Back"
+                            >←</a
+                        >
+                        <div class="title-wrap">
+                            <div class="eyebrow">BiasScanner</div>
+                            <div class="header-title" data-i18n="title_main">
+                                Decide yourself!
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="top-controls">
+                        <label class="select-wrap">
+                            <span>Language</span>
+                            <select
+                                id="language-site"
+                                class="lang-select"
+                                name="language"
+                                aria-label="Select language"
+                            >
+                                <option value="en">🇬🇧 English</option>
+                                <option value="de">🇩🇪 Deutsch</option>
+                            </select>
+                        </label>
+                    </div>
+                </header>
+            </div>
+
+            <header
+                class="relative border-b border-white/20 bg-white/50 backdrop-blur-xl"
+            >
+                <div class="mx-auto max-w-7xl px-4 py-5 sm:px-6 lg:px-8">
+                    <div
+                        class="hero-card warm-ring relative overflow-hidden rounded-[1.8rem] px-6 py-7 sm:px-8 sm:py-8"
+                    >
+                        <div
+                            class="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between mt-2 sm:mt-0"
+                        >
+                            <div class="max-w-3xl relative z-10">
+                                <div
+                                    class="mb-4 inline-flex items-center gap-2 rounded-full px-3 py-1 text-xs font-black uppercase tracking-[0.16em] pill-badge"
+                                >
+                                    <span
+                                        class="inline-block h-2 w-2 rounded-full bg-white"
+                                    ></span>
+                                    BiasScanner
+                                </div>
+                                <h1
+                                    data-i18n="title_main"
+                                    class="section-title text-3xl font-black tracking-tight sm:text-4xl lg:text-[2.8rem]"
+                                >
+                                    Decide yourself!
+                                </h1>
+                                <p
+                                    data-i18n="title_sub"
+                                    class="mt-3 max-w-2xl text-sm leading-6 text-white/88 sm:text-base pr-10 sm:pr-0"
+                                >
+                                    Pick the bias types you think apply to real
+                                    sentences from our dataset.
+                                </p>
+                            </div>
+                            <div id="resolver-id" class="hidden"></div>
+                            <div id="dataset-source-badge" class="hidden"></div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Gamification Bar -->
+            <div class="relative">
+                <div class="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
+                    <div
+                        id="gamification-bar"
+                        class="gamification-bar rounded-[1.4rem] px-5 py-4"
+                    >
+                        <div class="flex flex-wrap items-center gap-4 sm:gap-6">
+                            <!-- Level & XP -->
+                            <div class="flex items-center gap-3 min-w-0">
+                                <div
+                                    id="gamification-level-icon"
+                                    class="text-2xl flex-shrink-0"
+                                >
+                                    🌱
+                                </div>
+                                <div class="min-w-0">
+                                    <div class="flex items-center gap-2">
+                                        <span
+                                            id="gamification-level-title"
+                                            class="text-sm font-black text-[#2d1f1a]"
+                                            >Beginner Annotator</span
+                                        >
+                                        <span class="milestone-badge"
+                                            ><span id="gamification-level-num"
+                                                >Lv. 1</span
+                                            ></span
+                                        >
+                                    </div>
+                                    <div class="mt-1 flex items-center gap-2">
+                                        <div
+                                            class="xp-progress-track flex-1 min-w-[120px]"
+                                        >
+                                            <div
+                                                id="xp-progress-fill"
+                                                class="xp-progress-fill"
+                                                style="width: 0%"
+                                            ></div>
+                                        </div>
+                                        <span
+                                            id="gamification-xp-text"
+                                            class="text-[0.7rem] font-bold text-[#7a5a4c] whitespace-nowrap"
+                                            >0 XP</span
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Stats -->
+                            <div
+                                id="gamification-stats"
+                                class="flex items-center gap-4"
+                            >
+                                <div class="text-center">
+                                    <div
+                                        class="text-[0.6rem] font-black uppercase tracking-[0.12em] text-[#b85e2a]"
+                                    >
+                                        Annotations
+                                    </div>
+                                    <div
+                                        id="gamification-annotations"
+                                        class="text-lg font-black text-[#2d1f1a]"
+                                    >
+                                        0
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <div
+                                        class="text-[0.6rem] font-black uppercase tracking-[0.12em] text-[#b85e2a]"
+                                    >
+                                        Streak
+                                    </div>
+                                    <div
+                                        class="flex items-center gap-1 justify-center"
+                                    >
+                                        <span class="streak-fire text-lg"
+                                            >🔥</span
+                                        >
+                                        <span
+                                            id="gamification-streak"
+                                            class="text-lg font-black text-[#2d1f1a]"
+                                            >0</span
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Gamification Controls -->
+                            <div
+                                class="flex items-center gap-2 ml-auto flex-shrink-0"
+                            >
+                                <button
+                                    id="gamification-toggle-btn"
+                                    type="button"
+                                    class="rounded-full px-5 py-2.5 text-sm font-bold border border-[rgba(122,90,76,0.2)] bg-white text-[#5a463d] hover:bg-[#fff7f2] hover:border-[rgba(224,76,34,0.35)] transition-all duration-150"
+                                    title="Toggle gamification on/off"
+                                >
+                                    <span data-i18n="gamification_toggle_on"
+                                        >🎮 On</span
+                                    >
+                                </button>
+                                <button
+                                    id="gamification-reset-btn"
+                                    type="button"
+                                    class="rounded-full px-5 py-2.5 text-sm font-bold border border-[rgba(122,90,76,0.2)] bg-white text-[#5a463d] hover:bg-[#fff7f2] hover:border-[rgba(224,76,34,0.35)] transition-all duration-150"
+                                    title="Reset all gamification progress"
+                                >
+                                    <span data-i18n="gamification_reset"
+                                        >🔄 Reset</span
+                                    >
+                                </button>
+                            </div>
+                        </div>
+                        <!-- Gamification Info Text -->
+                        <div
+                            id="gamification-info"
+                            class="mt-4 border-t border-[rgba(122,90,76,0.08)] pt-4"
+                        >
+                            <p
+                                data-i18n="gamification_info"
+                                class="text-xs leading-6 text-[#7a5a4c]"
+                            >
+                                <strong class="text-[#2d1f1a]"
+                                    >How XP works:</strong
+                                >
+                                You earn
+                                <strong class="text-[#e0251b]">10–25 XP</strong>
+                                per sentence based on how much time you spend
+                                reviewing it. The required time starts at
+                                <strong>25 seconds</strong> and increases by
+                                <strong>5 s</strong> for each type in "Quite
+                                certain" and <strong>10 s</strong> for each type
+                                in "Uncertain". A thoughtful
+                                <strong class="text-[#e0251b]"
+                                    >explanation earns +15 bonus XP</strong
+                                >. Consecutive saves build a
+                                <strong>streak</strong> (3×: +10 %, 5×: +25 %,
+                                10×: +50 %). Your XP level tracks your overall
+                                contribution, from 🌱 Beginner Annotator up to
+                                💎 Bias Legend.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <main
+                class="relative mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8 lg:py-8"
+            >
+                <section class="glass-card rounded-[1.7rem] p-6 sm:p-7">
+                    <div>
+                        <div>
+                            <div class="accent-strip mb-4 w-24"></div>
+                            <h2
+                                data-i18n="how_to_participate"
+                                class="section-title text-2xl font-black"
+                            >
+                                How to participate
+                            </h2>
+                            <p
+                                data-i18n="instructions_main"
+                                class="mt-3 max-w-3xl text-sm leading-6 text-[#5f4a41] sm:text-[0.98rem]"
+                            >
+                                Try selecting the fitting bias types yourself!
+                                Review random sentences from our dataset. Remove
+                                types from <strong>"Quite certain"</strong> if
+                                you disagree, add types that are not yet
+                                selected, and make a final decision for every
+                                type listed under <strong>"Uncertain"</strong>.
+                            </p>
+                            <div class="mt-5 grid gap-3 sm:grid-cols-2">
+                                <div
+                                    class="rounded-2xl bg-[#fff6f1] p-4 ring-1 ring-[rgba(224,76,34,0.08)]"
+                                >
+                                    <div
+                                        data-i18n="main_task"
+                                        class="text-sm font-black text-[#9b2b1b]"
+                                    >
+                                        Main task
+                                    </div>
+                                    <p
+                                        data-i18n="main_task_desc"
+                                        class="mt-1 text-sm text-[#6f5346]"
+                                    >
+                                        Decide for every type listed under
+                                        <strong>Uncertain</strong> whether it
+                                        really applies or not.
+                                    </p>
+                                </div>
+                                <div
+                                    class="rounded-2xl bg-[#fff9f3] p-4 ring-1 ring-[rgba(255,107,0,0.08)]"
+                                >
+                                    <div
+                                        data-i18n="tip"
+                                        class="text-sm font-black text-[#b14d00]"
+                                    >
+                                        Tip
+                                    </div>
+                                    <p
+                                        data-i18n="tip_desc"
+                                        class="mt-1 text-sm text-[#6f5346]"
+                                    >
+                                        Hover over any type name to see its
+                                        taxonomy definition and example.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div
+                    class="mt-6 grid gap-6 xl:grid-cols-[minmax(0,1.35fr)_minmax(22rem,0.85fr)] xl:items-start"
+                >
+                    <section class="space-y-6">
+                        <div class="glass-card rounded-[1.7rem] p-6 sm:p-7">
+                            <div
+                                class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between"
+                            >
+                                <div>
+                                    <div
+                                        data-i18n="current_sentence"
+                                        class="text-[0.7rem] font-black uppercase tracking-[0.16em] text-[#b85e2a]"
+                                    >
+                                        Current sentence
+                                    </div>
+                                    <div
+                                        id="sentence-pool-info"
+                                        class="mt-2 text-sm text-[#7a5a4c]"
+                                    >
+                                        Preparing dataset…
+                                    </div>
+                                </div>
+                                <div class="flex flex-wrap items-center gap-3">
+                                    <button
+                                        id="see-others-btn"
+                                        type="button"
+                                        class="pulse-glow brand-button rounded-full px-6 py-2.5 text-sm font-black tracking-wide"
+                                    >
+                                        <span data-i18n="see_others"
+                                            >👥 See how others decided</span
+                                        >
+                                    </button>
+                                    <button
+                                        id="sentence-translation-toggle-btn"
+                                        type="button"
+                                        class="secondary-button rounded-full px-5 py-2.5 text-sm font-bold"
+                                    >
+                                        <span
+                                            data-i18n="sentence_translation_on"
+                                            >🌐 Hover translate on</span
+                                        >
+                                    </button>
+                                    <div
+                                        id="status-badge"
+                                        class="status-badge bg-[#fff4ed] text-[#ae3f12] ring-1 ring-[rgba(255,107,0,0.16)]"
+                                    >
+                                        Pending review
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="mt-5 rounded-[1.45rem] border border-[rgba(224,76,34,0.1)] bg-gradient-to-br from-white to-[#fff7f4] p-5 sm:p-6"
+                            >
+                                <p
+                                    id="current-sentence"
+                                    class="sentence-hover-target text-lg leading-8 font-medium text-[#2d1f1a] sm:text-[1.32rem]"
+                                >
+                                    Loading sentence…
+                                </p>
+                                <p
+                                    id="sentence-translation-hint"
+                                    data-i18n="sentence_translation_hint"
+                                    class="mt-3 text-xs leading-5 text-[#7a5a4c]"
+                                >
+                                    Hover the sentence to preview a translation
+                                    whenever it is not already in the selected
+                                    language.
+                                </p>
+                            </div>
+
+                            <!-- Other Decisions View -->
+                            <div
+                                id="other-decisions-container"
+                                class="mt-4 hidden rounded-2xl bg-[#fffcf9] p-5 ring-1 ring-[rgba(224,76,34,0.08)]"
+                            >
+                                <div class="flex items-center justify-between">
+                                    <h4
+                                        data-i18n="community_insights"
+                                        class="text-xs font-black uppercase tracking-[0.14em] text-[#b14d00]"
+                                    >
+                                        Community Insights
+                                    </h4>
+                                    <button
+                                        id="close-others-btn"
+                                        data-i18n="close"
+                                        class="text-xs font-bold text-[#7a5a4c] hover:text-[#2d1f1a]"
+                                    >
+                                        Close
+                                    </button>
+                                </div>
+                                <div
+                                    id="other-decisions-content"
+                                    class="mt-3 grid gap-4 text-sm sm:grid-cols-2"
+                                >
+                                    <div class="loading-others text-[#7a5a4c]">
+                                        Fetching results…
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Bias Strength Slider -->
+                            <div
+                                class="mt-6 border-t border-[rgba(122,90,76,0.08)] pt-6"
+                            >
+                                <div
+                                    class="flex items-center justify-between gap-4"
+                                >
+                                    <div class="max-w-md">
+                                        <h4
+                                            data-i18n="overall_bias_intensity"
+                                            class="text-sm font-black text-[#2d1f1a]"
+                                        >
+                                            Overall Bias Intensity
+                                        </h4>
+                                        <p
+                                            data-i18n="overall_bias_desc"
+                                            class="mt-1 text-xs text-[#7a5a4c]"
+                                        >
+                                            How strong is the bias in this
+                                            sentence overall? (0.0 = Neutral,
+                                            1.0 = Extreme)
+                                        </p>
+                                    </div>
+                                    <div
+                                        id="strength-display"
+                                        class="rounded-full bg-[#fff6f1] px-4 py-2 text-lg font-black text-[#e0251b] ring-1 ring-[rgba(224,76,34,0.12)]"
+                                    >
+                                        0.00
+                                    </div>
+                                </div>
+                                <div class="mt-4 flex items-center gap-4">
+                                    <span
+                                        data-i18n="neutral"
+                                        class="text-[0.65rem] font-black uppercase tracking-[0.1em] text-[#7a5a4c]"
+                                        >Neutral</span
+                                    >
+                                    <input
+                                        id="bias-strength-slider"
+                                        type="range"
+                                        min="0"
+                                        max="1"
+                                        step="0.01"
+                                        value="0"
+                                        class="h-2 w-full cursor-pointer appearance-none rounded-lg bg-[#f0e4dd] accent-[#ff6b00]"
+                                    />
+                                    <span
+                                        data-i18n="biased"
+                                        class="text-[0.65rem] font-black uppercase tracking-[0.1em] text-[#7a5a4c]"
+                                        >Biased</span
+                                    >
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="grid gap-6 lg:grid-cols-2">
+                            <div class="glass-card rounded-[1.7rem] p-6">
+                                <div
+                                    class="flex items-start justify-between gap-4"
+                                >
+                                    <div>
+                                        <div
+                                            data-i18n="quite_certain"
+                                            class="text-[0.7rem] font-black uppercase tracking-[0.16em] text-[#b85e2a]"
+                                        >
+                                            Quite certain
+                                        </div>
+                                        <h3
+                                            data-i18n="currently_selected_types"
+                                            class="section-title mt-2 text-xl font-black"
+                                        >
+                                            Currently selected types
+                                        </h3>
+                                        <p
+                                            data-i18n="currently_selected_desc"
+                                            class="mt-2 text-sm leading-6 text-[#6f5346]"
+                                        >
+                                            These types are preselected. Remove
+                                            any you disagree with, or add new
+                                            ones from the taxonomy.
+                                        </p>
+                                    </div>
+                                    <div
+                                        id="union-count"
+                                        class="rounded-full bg-[#fff6f1] px-3 py-1.5 text-xs font-black text-[#a6471a] ring-1 ring-[rgba(224,76,34,0.08)]"
+                                    >
+                                        0 types
+                                    </div>
+                                </div>
+
+                                <div
+                                    id="union-tags"
+                                    class="mt-5 flex min-h-[3.2rem] flex-wrap gap-2"
+                                ></div>
+
+                                <div class="mt-5">
+                                    <label
+                                        for="add-type-input"
+                                        data-i18n="add_another_type"
+                                        class="mb-2 block text-sm font-bold text-[#5c4337]"
+                                        >Add another taxonomy type</label
+                                    >
+                                    <div class="relative">
+                                        <div class="flex gap-3">
+                                            <input
+                                                id="add-type-input"
+                                                class="input-base"
+                                                type="text"
+                                                autocomplete="off"
+                                                placeholder="Search taxonomy types…"
+                                                data-i18n-placeholder="search_placeholder"
+                                            />
+                                            <button
+                                                id="add-type-btn"
+                                                type="button"
+                                                class="brand-button rounded-2xl px-4 py-3 font-bold whitespace-nowrap"
+                                            >
+                                                <span data-i18n="add_type_btn"
+                                                    >Add type</span
+                                                >
+                                            </button>
+                                        </div>
+                                        <div
+                                            id="autocomplete-results"
+                                            class="autocomplete-panel hidden"
+                                        ></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="glass-card rounded-[1.7rem] p-6">
+                                <div
+                                    class="flex items-start justify-between gap-4"
+                                >
+                                    <div>
+                                        <div
+                                            data-i18n="uncertain"
+                                            class="text-[0.7rem] font-black uppercase tracking-[0.16em] text-[#b85e2a]"
+                                        >
+                                            Uncertain
+                                        </div>
+                                        <h3
+                                            data-i18n="decide_applies"
+                                            class="section-title mt-2 text-xl font-black"
+                                        >
+                                            Decide whether each type applies
+                                        </h3>
+                                        <p
+                                            data-i18n="decide_applies_desc"
+                                            class="mt-2 text-sm leading-6 text-[#6f5346]"
+                                        >
+                                            These types are disputed. Choose
+                                            <strong>Applies</strong> or
+                                            <strong>Does not apply</strong> for
+                                            each one. Hover over a name to see
+                                            its definition.
+                                        </p>
+                                    </div>
+                                    <div
+                                        id="dissent-progress"
+                                        class="rounded-full bg-[#fff6f1] px-3 py-1.5 text-xs font-black text-[#a6471a] ring-1 ring-[rgba(224,76,34,0.08)]"
+                                    >
+                                        0 / 0 decided
+                                    </div>
+                                </div>
+                                <div
+                                    id="dissent-list"
+                                    class="mt-5 space-y-3"
+                                ></div>
+                            </div>
+                        </div>
+
+                        <div class="glass-card rounded-[1.7rem] p-6">
+                            <div class="flex items-start justify-between gap-4">
+                                <div>
+                                    <div
+                                        data-i18n="optional_explanation"
+                                        class="text-[0.7rem] font-black uppercase tracking-[0.16em] text-[#b85e2a]"
+                                    >
+                                        Optional explanation
+                                    </div>
+                                    <h3
+                                        data-i18n="why_decide"
+                                        class="section-title mt-2 text-xl font-black"
+                                    >
+                                        Why did you decide this way?
+                                    </h3>
+                                    <p
+                                        data-i18n="why_decide_desc"
+                                        class="mt-2 text-sm leading-6 text-[#6f5346]"
+                                    >
+                                        Feel free to share your reasoning if you
+                                        would like to, this is entirely
+                                        optional.
+                                    </p>
+                                </div>
+                                <div
+                                    id="explanation-count"
+                                    class="rounded-full bg-[#fff8f4] px-3 py-1.5 text-xs font-black text-[#8c674f] ring-1 ring-[rgba(122,90,76,0.08)]"
+                                >
+                                    0 chars
+                                </div>
+                            </div>
+                            <div class="mt-5">
+                                <textarea
+                                    id="explanation"
+                                    class="input-base min-h-[9.5rem] resize-y"
+                                    placeholder="Optional explanation…"
+                                    data-i18n-placeholder="explanation_placeholder"
+                                ></textarea>
+                            </div>
+                        </div>
+
+                        <div class="glass-card rounded-[1.7rem] p-6">
+                            <div
+                                class="flex flex-col gap-5 lg:flex-row lg:items-center lg:justify-between"
+                            >
+                                <div class="max-w-2xl">
+                                    <div
+                                        data-i18n="actions"
+                                        class="text-[0.7rem] font-black uppercase tracking-[0.16em] text-[#b85e2a]"
+                                    >
+                                        Actions
+                                    </div>
+                                    <p
+                                        data-i18n="actions_desc"
+                                        class="mt-2 text-sm leading-6 text-[#6f5346]"
+                                    >
+                                        When you <strong>save</strong>, your
+                                        annotation will be used to train future
+                                        iterations of
+                                        <strong>BiasScanner</strong>. We do not
+                                        collect any personal data, everything
+                                        remains completely anonymous.
+                                        Alternatively, skip to a new sentence
+                                        without saving.
+                                    </p>
+                                </div>
+                                <div
+                                    class="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:justify-end"
+                                >
+                                    <button
+                                        id="reset-btn"
+                                        type="button"
+                                        class="ghost-button rounded-2xl px-4 py-3 font-semibold"
+                                    >
+                                        <span data-i18n="reset_decisions"
+                                            >Reset current decisions</span
+                                        >
+                                    </button>
+                                    <button
+                                        id="new-sentence-btn"
+                                        type="button"
+                                        class="secondary-button rounded-2xl px-5 py-3 font-bold"
+                                    >
+                                        <span data-i18n="new_sentence"
+                                            >New sentence without saving</span
+                                        >
+                                    </button>
+                                    <button
+                                        id="save-btn"
+                                        type="button"
+                                        class="brand-button rounded-2xl px-5 py-3 font-black"
+                                    >
+                                        <span data-i18n="save_decision"
+                                            >Save decision</span
+                                        >
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <aside
+                        class="glass-card rounded-[1.7rem] p-5 sm:p-6 xl:sticky xl:top-6 xl:flex xl:max-h-[calc(100vh-3rem)] xl:flex-col"
+                    >
+                        <div
+                            class="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between"
+                        >
+                            <div>
+                                <div
+                                    data-i18n="taxonomy_ref"
+                                    class="text-[0.7rem] font-black uppercase tracking-[0.16em] text-[#b85e2a]"
+                                >
+                                    Taxonomy reference
+                                </div>
+                                <h2
+                                    data-i18n="full_taxonomy"
+                                    class="section-title mt-2 text-2xl font-black"
+                                >
+                                    Full taxonomy
+                                </h2>
+                                <p
+                                    data-i18n="full_taxonomy_desc"
+                                    class="mt-2 text-sm leading-6 text-[#6f5346]"
+                                >
+                                    Each group and each type can be expanded or
+                                    collapsed. Hover over type names anywhere in
+                                    the interface to see definitions and
+                                    examples.
+                                </p>
+                            </div>
+                            <div
+                                class="rounded-full bg-[#fff6f1] px-3 py-1.5 text-xs font-black text-[#a6471a] ring-1 ring-[rgba(224,76,34,0.08)]"
+                            >
+                                v1.0
+                            </div>
+                        </div>
+                        <div
+                            id="taxonomy-browser"
+                            class="taxonomy-scroll mt-5 space-y-4 xl:flex-1"
+                        ></div>
+                    </aside>
+                </div>
+            </main>
+
+            <div id="toast" class="toast"></div>
+            <div id="hover-tooltip"></div>
+
+            <!-- Confetti Canvas -->
+            <canvas id="confetti-canvas"></canvas>
+
+            <!-- Level Up Modal -->
+            <div id="level-up-modal">
+                <div class="level-up-card">
+                    <div
+                        id="level-up-icon"
+                        class="text-5xl mb-3 level-icon-bounce"
+                    >
+                        🌱
+                    </div>
+                    <div
+                        data-i18n="level_up"
+                        class="text-[0.7rem] font-black uppercase tracking-[0.16em] text-[#b85e2a]"
+                    >
+                        Level Up!
+                    </div>
+                    <h3
+                        id="level-up-title"
+                        class="text-2xl font-black text-[#2d1f1a] mt-1"
+                    >
+                        Type Spotter
+                    </h3>
+                    <p
+                        id="level-up-level"
+                        class="text-sm font-bold text-[#7a5a4c] mt-1"
+                    >
+                        Level 2
+                    </p>
+                    <p
+                        id="level-up-desc"
+                        class="text-sm text-[#6f5346] mt-3 leading-6"
+                    >
+                        You're getting the hang of this! Keep annotating to
+                        reach the next level.
+                    </p>
+                    <div class="mt-5">
+                        <button
+                            id="level-up-close"
+                            class="brand-button rounded-2xl px-8 py-3 font-black text-sm"
+                        >
+                            <span data-i18n="awesome">Awesome!</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="top-controls">
-          <label class="select-wrap">
-            <span>Language</span>
-            <select id="language-site" class="lang-select" name="language" aria-label="Select language">
-              <option value="en">🇬🇧 English</option>
-              <option value="de">🇩🇪 Deutsch</option>
-            </select>
-          </label>
-        </div>
-      </header>
-    </div>
-
-    <header class="relative border-b border-white/20 bg-white/50 backdrop-blur-xl">
-      <div class="mx-auto max-w-7xl px-4 py-5 sm:px-6 lg:px-8">
-        <div class="hero-card warm-ring relative overflow-hidden rounded-[1.8rem] px-6 py-7 sm:px-8 sm:py-8">
-          <div class="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between mt-2 sm:mt-0">
-            <div class="max-w-3xl relative z-10">
-              <div class="mb-4 inline-flex items-center gap-2 rounded-full px-3 py-1 text-xs font-black uppercase tracking-[0.16em] pill-badge">
-                <span class="inline-block h-2 w-2 rounded-full bg-white"></span>
-                BiasScanner
-              </div>
-              <h1 data-i18n="title_main" class="section-title text-3xl font-black tracking-tight sm:text-4xl lg:text-[2.8rem]">
-                Decide yourself!
-              </h1>
-              <p data-i18n="title_sub" class="mt-3 max-w-2xl text-sm leading-6 text-white/88 sm:text-base pr-10 sm:pr-0">
-                Pick the bias types you think apply to real sentences from our dataset.
-              </p>
-            </div>
-            <div id="resolver-id" class="hidden"></div>
-            <div id="dataset-source-badge" class="hidden"></div>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <!-- Gamification Bar -->
-    <div class="relative">
-      <div class="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
-        <div id="gamification-bar" class="gamification-bar rounded-[1.4rem] px-5 py-4">
-          <div class="flex flex-wrap items-center gap-4 sm:gap-6">
-            <!-- Level & XP -->
-            <div class="flex items-center gap-3 min-w-0">
-              <div id="gamification-level-icon" class="text-2xl flex-shrink-0">🌱</div>
-              <div class="min-w-0">
-                <div class="flex items-center gap-2">
-                  <span id="gamification-level-title" class="text-sm font-black text-[#2d1f1a]">Beginner Annotator</span>
-                  <span class="milestone-badge"><span id="gamification-level-num">Lv. 1</span></span>
-                </div>
-                <div class="mt-1 flex items-center gap-2">
-                  <div class="xp-progress-track flex-1 min-w-[120px]">
-                    <div id="xp-progress-fill" class="xp-progress-fill" style="width: 0%"></div>
-                  </div>
-                  <span id="gamification-xp-text" class="text-[0.7rem] font-bold text-[#7a5a4c] whitespace-nowrap">0 XP</span>
-                </div>
-              </div>
-            </div>
-            <!-- Stats -->
-            <div id="gamification-stats" class="flex items-center gap-4">
-              <div class="text-center">
-                <div class="text-[0.6rem] font-black uppercase tracking-[0.12em] text-[#b85e2a]">Annotations</div>
-                <div id="gamification-annotations" class="text-lg font-black text-[#2d1f1a]">0</div>
-              </div>
-              <div class="text-center">
-                <div class="text-[0.6rem] font-black uppercase tracking-[0.12em] text-[#b85e2a]">Streak</div>
-                <div class="flex items-center gap-1 justify-center">
-                  <span class="streak-fire text-lg">🔥</span>
-                  <span id="gamification-streak" class="text-lg font-black text-[#2d1f1a]">0</span>
-                </div>
-              </div>
-            </div>
-            <!-- Gamification Controls -->
-            <div class="flex items-center gap-2 ml-auto flex-shrink-0">
-              <button id="gamification-toggle-btn" type="button" class="rounded-full px-5 py-2.5 text-sm font-bold border border-[rgba(122,90,76,0.2)] bg-white text-[#5a463d] hover:bg-[#fff7f2] hover:border-[rgba(224,76,34,0.35)] transition-all duration-150" title="Toggle gamification on/off">
-                <span data-i18n="gamification_toggle_on">🎮 On</span>
-              </button>
-              <button id="gamification-reset-btn" type="button" class="rounded-full px-5 py-2.5 text-sm font-bold border border-[rgba(122,90,76,0.2)] bg-white text-[#5a463d] hover:bg-[#fff7f2] hover:border-[rgba(224,76,34,0.35)] transition-all duration-150" title="Reset all gamification progress">
-                <span data-i18n="gamification_reset">🔄 Reset</span>
-              </button>
-            </div>
-          </div>
-          <!-- Gamification Info Text -->
-          <div id="gamification-info" class="mt-4 border-t border-[rgba(122,90,76,0.08)] pt-4">
-            <p data-i18n="gamification_info" class="text-xs leading-6 text-[#7a5a4c]">
-              <strong class="text-[#2d1f1a]">How XP works:</strong> You earn <strong class="text-[#e0251b]">10–25 XP</strong> per sentence based on how much time you spend reviewing it.
-              The required time starts at <strong>25 seconds</strong> and increases by <strong>5 s</strong> for each type in "Quite certain" and <strong>10 s</strong> for each type in "Uncertain".
-              A thoughtful <strong class="text-[#e0251b]">explanation earns +15 bonus XP</strong>. Consecutive saves build a <strong>streak</strong> (3×: +10 %, 5×: +25 %, 10×: +50 %).
-              Your XP level tracks your overall contribution, from 🌱 Beginner Annotator up to 💎 Bias Legend.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <main class="relative mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8 lg:py-8">
-      <section class="glass-card rounded-[1.7rem] p-6 sm:p-7">
-        <div>
-          <div>
-            <div class="accent-strip mb-4 w-24"></div>
-            <h2 data-i18n="how_to_participate" class="section-title text-2xl font-black">How to participate</h2>
-            <p data-i18n="instructions_main" class="mt-3 max-w-3xl text-sm leading-6 text-[#5f4a41] sm:text-[0.98rem]">
-              Try selecting the fitting bias types yourself! Review random sentences from our dataset. Remove types from <strong>"Quite certain"</strong> if you disagree, add types that are not yet selected, and make a final decision for every type listed under <strong>"Uncertain"</strong>.
-            </p>
-            <div class="mt-5 grid gap-3 sm:grid-cols-2">
-              <div class="rounded-2xl bg-[#fff6f1] p-4 ring-1 ring-[rgba(224,76,34,0.08)]">
-                <div data-i18n="main_task" class="text-sm font-black text-[#9b2b1b]">Main task</div>
-                <p data-i18n="main_task_desc" class="mt-1 text-sm text-[#6f5346]">Decide for every type listed under <strong>Uncertain</strong> whether it really applies or not.</p>
-              </div>
-              <div class="rounded-2xl bg-[#fff9f3] p-4 ring-1 ring-[rgba(255,107,0,0.08)]">
-                <div data-i18n="tip" class="text-sm font-black text-[#b14d00]">Tip</div>
-                <p data-i18n="tip_desc" class="mt-1 text-sm text-[#6f5346]">Hover over any type name to see its taxonomy definition and example.</p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </section>
-
-      <div class="mt-6 grid gap-6 xl:grid-cols-[minmax(0,1.35fr)_minmax(22rem,0.85fr)] xl:items-start">
-        <section class="space-y-6">
-          <div class="glass-card rounded-[1.7rem] p-6 sm:p-7">
-            <div class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
-              <div>
-                <div data-i18n="current_sentence" class="text-[0.7rem] font-black uppercase tracking-[0.16em] text-[#b85e2a]">Current sentence</div>
-                <div id="sentence-pool-info" class="mt-2 text-sm text-[#7a5a4c]">Preparing dataset…</div>
-              </div>
-              <div class="flex flex-wrap items-center gap-3">
-                <button id="see-others-btn" type="button" class="pulse-glow brand-button rounded-full px-6 py-2.5 text-sm font-black tracking-wide">
-                  <span data-i18n="see_others">👥 See how others decided</span>
-                </button>
-                <button id="sentence-translation-toggle-btn" type="button" class="secondary-button rounded-full px-5 py-2.5 text-sm font-bold">
-                  <span data-i18n="sentence_translation_on">🌐 Hover translate on</span>
-                </button>
-                <div id="status-badge" class="status-badge bg-[#fff4ed] text-[#ae3f12] ring-1 ring-[rgba(255,107,0,0.16)]">
-                  Pending review
-                </div>
-              </div>
-            </div>
-            <div class="mt-5 rounded-[1.45rem] border border-[rgba(224,76,34,0.1)] bg-gradient-to-br from-white to-[#fff7f4] p-5 sm:p-6">
-              <p id="current-sentence" class="sentence-hover-target text-lg leading-8 font-medium text-[#2d1f1a] sm:text-[1.32rem]">Loading sentence…</p>
-              <p id="sentence-translation-hint" data-i18n="sentence_translation_hint" class="mt-3 text-xs leading-5 text-[#7a5a4c]">
-                Hover the sentence to preview a translation whenever it is not already in the selected language.
-              </p>
-            </div>
-
-            <!-- Other Decisions View -->
-            <div id="other-decisions-container" class="mt-4 hidden rounded-2xl bg-[#fffcf9] p-5 ring-1 ring-[rgba(224,76,34,0.08)]">
-              <div class="flex items-center justify-between">
-                <h4 data-i18n="community_insights" class="text-xs font-black uppercase tracking-[0.14em] text-[#b14d00]">Community Insights</h4>
-                <button id="close-others-btn" data-i18n="close" class="text-xs font-bold text-[#7a5a4c] hover:text-[#2d1f1a]">Close</button>
-              </div>
-              <div id="other-decisions-content" class="mt-3 grid gap-4 text-sm sm:grid-cols-2">
-                <div class="loading-others text-[#7a5a4c]">Fetching results…</div>
-              </div>
-            </div>
-
-            <!-- Bias Strength Slider -->
-            <div class="mt-6 border-t border-[rgba(122,90,76,0.08)] pt-6">
-              <div class="flex items-center justify-between gap-4">
-                <div class="max-w-md">
-                  <h4 data-i18n="overall_bias_intensity" class="text-sm font-black text-[#2d1f1a]">Overall Bias Intensity</h4>
-                  <p data-i18n="overall_bias_desc" class="mt-1 text-xs text-[#7a5a4c]">How strong is the bias in this sentence overall? (0.0 = Neutral, 1.0 = Extreme)</p>
-                </div>
-                <div id="strength-display" class="rounded-full bg-[#fff6f1] px-4 py-2 text-lg font-black text-[#e0251b] ring-1 ring-[rgba(224,76,34,0.12)]">0.00</div>
-              </div>
-              <div class="mt-4 flex items-center gap-4">
-                <span data-i18n="neutral" class="text-[0.65rem] font-black uppercase tracking-[0.1em] text-[#7a5a4c]">Neutral</span>
-                <input id="bias-strength-slider" type="range" min="0" max="1" step="0.01" value="0" class="h-2 w-full cursor-pointer appearance-none rounded-lg bg-[#f0e4dd] accent-[#ff6b00]" />
-                <span data-i18n="biased" class="text-[0.65rem] font-black uppercase tracking-[0.1em] text-[#7a5a4c]">Biased</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="grid gap-6 lg:grid-cols-2">
-            <div class="glass-card rounded-[1.7rem] p-6">
-              <div class="flex items-start justify-between gap-4">
-                <div>
-                  <div data-i18n="quite_certain" class="text-[0.7rem] font-black uppercase tracking-[0.16em] text-[#b85e2a]">Quite certain</div>
-                  <h3 data-i18n="currently_selected_types" class="section-title mt-2 text-xl font-black">Currently selected types</h3>
-                  <p data-i18n="currently_selected_desc" class="mt-2 text-sm leading-6 text-[#6f5346]">These types are preselected. Remove any you disagree with, or add new ones from the taxonomy.</p>
-                </div>
-                <div id="union-count" class="rounded-full bg-[#fff6f1] px-3 py-1.5 text-xs font-black text-[#a6471a] ring-1 ring-[rgba(224,76,34,0.08)]">0 types</div>
-              </div>
-
-              <div id="union-tags" class="mt-5 flex min-h-[3.2rem] flex-wrap gap-2"></div>
-
-              <div class="mt-5">
-                <label for="add-type-input" data-i18n="add_another_type" class="mb-2 block text-sm font-bold text-[#5c4337]">Add another taxonomy type</label>
-                <div class="relative">
-                  <div class="flex gap-3">
-                    <input id="add-type-input" class="input-base" type="text" autocomplete="off" placeholder="Search taxonomy types…" data-i18n-placeholder="search_placeholder" />
-                    <button id="add-type-btn" type="button" class="brand-button rounded-2xl px-4 py-3 font-bold whitespace-nowrap"><span data-i18n="add_type_btn">Add type</span></button>
-                  </div>
-                  <div id="autocomplete-results" class="autocomplete-panel hidden"></div>
-                </div>
-              </div>
-            </div>
-
-            <div class="glass-card rounded-[1.7rem] p-6">
-              <div class="flex items-start justify-between gap-4">
-                <div>
-                  <div data-i18n="uncertain" class="text-[0.7rem] font-black uppercase tracking-[0.16em] text-[#b85e2a]">Uncertain</div>
-                  <h3 data-i18n="decide_applies" class="section-title mt-2 text-xl font-black">Decide whether each type applies</h3>
-                  <p data-i18n="decide_applies_desc" class="mt-2 text-sm leading-6 text-[#6f5346]">These types are disputed. Choose <strong>Applies</strong> or <strong>Does not apply</strong> for each one. Hover over a name to see its definition.</p>
-                </div>
-                <div id="dissent-progress" class="rounded-full bg-[#fff6f1] px-3 py-1.5 text-xs font-black text-[#a6471a] ring-1 ring-[rgba(224,76,34,0.08)]">0 / 0 decided</div>
-              </div>
-              <div id="dissent-list" class="mt-5 space-y-3"></div>
-            </div>
-          </div>
-
-          <div class="glass-card rounded-[1.7rem] p-6">
-            <div class="flex items-start justify-between gap-4">
-              <div>
-                <div data-i18n="optional_explanation" class="text-[0.7rem] font-black uppercase tracking-[0.16em] text-[#b85e2a]">Optional explanation</div>
-                <h3 data-i18n="why_decide" class="section-title mt-2 text-xl font-black">Why did you decide this way?</h3>
-                <p data-i18n="why_decide_desc" class="mt-2 text-sm leading-6 text-[#6f5346]">Feel free to share your reasoning if you would like to, this is entirely optional.</p>
-              </div>
-              <div id="explanation-count" class="rounded-full bg-[#fff8f4] px-3 py-1.5 text-xs font-black text-[#8c674f] ring-1 ring-[rgba(122,90,76,0.08)]">0 chars</div>
-            </div>
-            <div class="mt-5">
-              <textarea id="explanation" class="input-base min-h-[9.5rem] resize-y" placeholder="Optional explanation…" data-i18n-placeholder="explanation_placeholder"></textarea>
-            </div>
-          </div>
-
-          <div class="glass-card rounded-[1.7rem] p-6">
-            <div class="flex flex-col gap-5 lg:flex-row lg:items-center lg:justify-between">
-              <div class="max-w-2xl">
-                <div data-i18n="actions" class="text-[0.7rem] font-black uppercase tracking-[0.16em] text-[#b85e2a]">Actions</div>
-                <p data-i18n="actions_desc" class="mt-2 text-sm leading-6 text-[#6f5346]">
-                  When you <strong>save</strong>, your annotation will be used to train future iterations of <strong>BiasScanner</strong>. We do not collect any personal data, everything remains completely anonymous. Alternatively, skip to a new sentence without saving.
+        <!-- Custom Confirmation Modal (to handle "Don't ask again") -->
+        <div
+            id="confirm-modal"
+            class="fixed inset-0 z-[100] flex hidden items-center justify-center bg-black/40 backdrop-blur-sm p-4"
+        >
+            <div
+                class="glass-card w-full max-w-md rounded-[1.8rem] p-7 shadow-2xl"
+            >
+                <h3
+                    data-i18n="save_contribution"
+                    class="text-xl font-black text-[#2d1f1a]"
+                >
+                    Save contribution?
+                </h3>
+                <p
+                    data-i18n="save_contribution_desc"
+                    class="mt-3 text-sm leading-6 text-[#6f5346]"
+                >
+                    Your decision may be used to help train future iterations of
+                    BiasScanner. No personal data is stored, everything is
+                    anonymous.
                 </p>
-              </div>
-              <div class="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:justify-end">
-                <button id="reset-btn" type="button" class="ghost-button rounded-2xl px-4 py-3 font-semibold"><span data-i18n="reset_decisions">Reset current decisions</span></button>
-                <button id="new-sentence-btn" type="button" class="secondary-button rounded-2xl px-5 py-3 font-bold"><span data-i18n="new_sentence">New sentence without saving</span></button>
-                <button id="save-btn" type="button" class="brand-button rounded-2xl px-5 py-3 font-black"><span data-i18n="save_decision">Save decision</span></button>
-              </div>
+                <div class="mt-5 flex items-center gap-2">
+                    <input
+                        type="checkbox"
+                        id="skip-confirm-checkbox"
+                        class="h-4 w-4 accent-[#ff6b00]"
+                    />
+                    <label
+                        for="skip-confirm-checkbox"
+                        data-i18n="dont_ask_again"
+                        class="text-xs font-bold text-[#7a5a4c]"
+                        >Don't ask me again</label
+                    >
+                </div>
+                <div class="mt-6 flex justify-end gap-3">
+                    <button
+                        id="confirm-cancel"
+                        class="secondary-button rounded-xl px-4 py-2 text-sm font-bold"
+                    >
+                        <span data-i18n="cancel">Cancel</span>
+                    </button>
+                    <button
+                        id="confirm-proceed"
+                        class="brand-button rounded-xl px-5 py-2 text-sm font-black"
+                    >
+                        <span data-i18n="save_annotation">Save & Continue</span>
+                    </button>
+                </div>
             </div>
-          </div>
-        </section>
-
-        <aside class="glass-card rounded-[1.7rem] p-5 sm:p-6 xl:sticky xl:top-6 xl:flex xl:max-h-[calc(100vh-3rem)] xl:flex-col">
-          <div class="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
-            <div>
-              <div data-i18n="taxonomy_ref" class="text-[0.7rem] font-black uppercase tracking-[0.16em] text-[#b85e2a]">Taxonomy reference</div>
-              <h2 data-i18n="full_taxonomy" class="section-title mt-2 text-2xl font-black">Full taxonomy</h2>
-              <p data-i18n="full_taxonomy_desc" class="mt-2 text-sm leading-6 text-[#6f5346]">Each group and each type can be expanded or collapsed. Hover over type names anywhere in the interface to see definitions and examples.</p>
-            </div>
-            <div class="rounded-full bg-[#fff6f1] px-3 py-1.5 text-xs font-black text-[#a6471a] ring-1 ring-[rgba(224,76,34,0.08)]">v1.0</div>
-          </div>
-          <div id="taxonomy-browser" class="taxonomy-scroll mt-5 space-y-4 xl:flex-1"></div>
-        </aside>
-      </div>
-    </main>
-
-    <div id="toast" class="toast"></div>
-    <div id="hover-tooltip"></div>
-
-    <!-- Confetti Canvas -->
-    <canvas id="confetti-canvas"></canvas>
-
-    <!-- Level Up Modal -->
-    <div id="level-up-modal">
-      <div class="level-up-card">
-        <div id="level-up-icon" class="text-5xl mb-3 level-icon-bounce">🌱</div>
-        <div data-i18n="level_up" class="text-[0.7rem] font-black uppercase tracking-[0.16em] text-[#b85e2a]">Level Up!</div>
-        <h3 id="level-up-title" class="text-2xl font-black text-[#2d1f1a] mt-1">Type Spotter</h3>
-        <p id="level-up-level" class="text-sm font-bold text-[#7a5a4c] mt-1">Level 2</p>
-        <p id="level-up-desc" class="text-sm text-[#6f5346] mt-3 leading-6">You're getting the hang of this! Keep annotating to reach the next level.</p>
-        <div class="mt-5">
-          <button id="level-up-close" class="brand-button rounded-2xl px-8 py-3 font-black text-sm"><span data-i18n="awesome">Awesome!</span></button>
         </div>
       </div>
     </div>
@@ -1050,7 +1664,7 @@
       if (langSelect) langSelect.value = lang;
 
       const dict = translations[lang] || translations['en'];
-      
+
       document.querySelectorAll('[data-i18n]').forEach(el => {
         const key = el.getAttribute('data-i18n');
         if (dict[key]) el.innerHTML = dict[key];
@@ -1451,7 +2065,7 @@
     async function fetchOtherAnnotations() {
       const container = document.getElementById('other-decisions-container');
       const content = document.getElementById('other-decisions-content');
-      
+
       container.classList.remove('hidden');
       content.innerHTML = '<div class="loading-others text-[#7a5a4c]">Loading community results…</div>';
 
@@ -1478,7 +2092,7 @@
       }
 
       const avgStrength = annotations.reduce((acc, curr) => acc + (curr.overall_bias_strength || 0), 0) / annotations.length;
-      
+
       const typeCounts = {};
       annotations.forEach(ann => {
         (ann.union || []).forEach(type => {
@@ -1499,11 +2113,19 @@
         <div class="rounded-xl bg-white p-3 ring-1 ring-[rgba(224,76,34,0.06)]">
           <div class="text-[0.65rem] font-black uppercase tracking-[0.1em] text-[#b85e2a]">Top identified types</div>
           <div class="mt-2 flex flex-wrap gap-1">
-            ${topTypes.length ? topTypes.map(([type, count]) => `
+            ${
+                topTypes.length
+                    ? topTypes
+                          .map(
+                              ([type, count]) => `
               <span class="rounded-full bg-[#fff4ed] px-2 py-0.5 text-[0.7rem] font-bold text-[#ae3f12]">
                 ${type} (${count})
               </span>
-            `).join('') : '<span class="text-xs text-[#7a5a4c]">None</span>'}
+            `,
+                          )
+                          .join("")
+                    : '<span class="text-xs text-[#7a5a4c]">None</span>'
+            }
           </div>
         </div>
       `;
@@ -1656,7 +2278,7 @@
       document.getElementById('bias-strength-slider').value = 0;
       document.getElementById('strength-display').textContent = '0.00';
       document.getElementById('other-decisions-container').classList.add('hidden');
-      
+
       sentenceStartTime = Date.now();
       hideAutocomplete();
       renderAll();
@@ -2025,7 +2647,7 @@
         const groupTitle = document.createElement('div');
         const gName = document.createElement('div');
         gName.className = 'truncate text-base font-black text-[#2d1f1a]';
-        gName.textContent = taxTranslationsDE.groups[groupName] || groupName;
+        gName.textContent = currentLang === 'de' ? (taxTranslationsDE.groups[groupName] || groupName) : groupName;
         groupTitle.appendChild(gName);
         groupLeft.appendChild(arrow);
         groupLeft.appendChild(groupTitle);
@@ -2043,9 +2665,10 @@
           const tTitle = document.createElement('div');
           tTitle.className = 'truncate text-sm font-black';
           tTitle.style.color = group.color;
-          
+
           const deTranslation = taxTranslationsDE.types[typeName];
-          tTitle.textContent = deTranslation ? deTranslation.name : typeName;
+          const translation = currentLang === 'de' && deTranslation ? deTranslation : null;
+          tTitle.textContent = translation ? translation.name : typeName;
           typeSummary.appendChild(tTitle);
           typeDetails.appendChild(typeSummary);
 
@@ -2053,13 +2676,13 @@
           typeBody.className = 'border-t border-[rgba(122,90,76,0.08)] px-4 py-4';
           const definition = document.createElement('p');
           definition.className = 'text-sm leading-6 text-[#4f3d34]';
-          definition.textContent = deTranslation ? deTranslation.def : typeData.definition;
+          definition.textContent = translation ? translation.def : typeData.definition;
           const exLabel = document.createElement('div');
           exLabel.className = 'mt-4 text-[0.72rem] font-black uppercase tracking-[0.14em] text-[#b85e2a]';
           exLabel.textContent = currentLang === 'de' ? 'Beispiel' : 'Example';
           const example = document.createElement('p');
           example.className = 'mt-2 rounded-2xl bg-[#fff8f4] px-4 py-3 text-sm italic leading-6 text-[#6f5346] ring-1 ring-[rgba(224,76,34,0.08)]';
-          example.textContent = deTranslation ? deTranslation.ex : typeData.example;
+          example.textContent = translation ? translation.ex : typeData.example;
           typeBody.appendChild(definition);
           typeBody.appendChild(exLabel);
           typeBody.appendChild(example);
@@ -2097,419 +2720,580 @@
       tooltip.innerHTML = `
         <div class="text-sm font-black text-white">${escapeHtml(target.dataset.tooltipTitle)}</div>
         <div class="mt-2 text-sm leading-6 text-white/88">${escapeHtml(target.dataset.tooltipDefinition)}</div>
-        ${target.dataset.tooltipExample ? `<div class="mt-3 border-t border-white/10 pt-3 text-sm italic leading-6 text-white/70">${escapeHtml(target.dataset.tooltipExample)}</div>` : ''}
+        ${target.dataset.tooltipExample ? `<div class="mt-3 border-t border-white/10 pt-3 text-sm italic leading-6 text-white/70">${escapeHtml(target.dataset.tooltipExample)}</div>` : ""}
       `;
-      positionTooltip(tooltip, event);
-    }
+                positionTooltip(tooltip, event);
+            }
 
-    function handleSentenceTooltipMove(target, event) {
-      const sentence = (target.dataset.sentenceText || '').trim();
-      if (!sentence) {
-        hideTooltip();
-        return;
-      }
+            function handleSentenceTooltipMove(target, event) {
+                const sentence = (target.dataset.sentenceText || "").trim();
+                if (!sentence) {
+                    hideTooltip();
+                    return;
+                }
 
-      const tooltip = document.getElementById('hover-tooltip');
-      positionTooltip(tooltip, event);
+                const tooltip = document.getElementById("hover-tooltip");
+                positionTooltip(tooltip, event);
 
-      const key = `${currentLang}::${sentence}`;
-      if (sentenceTranslation.activeKey !== key) {
-        sentenceTranslation.activeKey = key;
-        showSentenceTooltipContent(getSentenceTooltipMarkup({ status: 'loading' }));
-        void resolveSentenceTranslation(sentence, currentLang, key);
-      } else if (!tooltip.classList.contains('show')) {
-        tooltip.classList.add('show');
-      }
-    }
+                const key = `${currentLang}::${sentence}`;
+                if (sentenceTranslation.activeKey !== key) {
+                    sentenceTranslation.activeKey = key;
+                    showSentenceTooltipContent(
+                        getSentenceTooltipMarkup({ status: "loading" }),
+                    );
+                    void resolveSentenceTranslation(sentence, currentLang, key);
+                } else if (!tooltip.classList.contains("show")) {
+                    tooltip.classList.add("show");
+                }
+            }
 
-    async function resolveSentenceTranslation(sentence, targetLang, activeKey) {
-      const result = await getSentenceTranslation(sentence, targetLang);
-      if (sentenceTranslation.activeKey !== activeKey) return;
-      showSentenceTooltipContent(getSentenceTooltipMarkup(result));
-    }
+            async function resolveSentenceTranslation(
+                sentence,
+                targetLang,
+                activeKey,
+            ) {
+                const result = await getSentenceTranslation(
+                    sentence,
+                    targetLang,
+                );
+                if (sentenceTranslation.activeKey !== activeKey) return;
+                showSentenceTooltipContent(getSentenceTooltipMarkup(result));
+            }
 
-    function showSentenceTooltipContent(html) {
-      const tooltip = document.getElementById('hover-tooltip');
-      tooltip.innerHTML = html;
-      tooltip.classList.add('show');
-    }
+            function showSentenceTooltipContent(html) {
+                const tooltip = document.getElementById("hover-tooltip");
+                tooltip.innerHTML = html;
+                tooltip.classList.add("show");
+            }
 
-    function getSentenceTooltipMarkup(result) {
-      const dict = translations[currentLang] || translations['en'];
+            function getSentenceTooltipMarkup(result) {
+                const dict = translations[currentLang] || translations["en"];
 
-      if (result.status === 'loading') {
-        return `
-          <div class="text-sm font-black text-white">${escapeHtml(dict['translation_tooltip_title'])}</div>
-          <div class="mt-2 text-sm leading-6 text-white/88">${escapeHtml(dict['translation_loading'])}</div>
+                if (result.status === "loading") {
+                    return `
+          <div class="text-sm font-black text-white">${escapeHtml(dict["translation_tooltip_title"])}</div>
+          <div class="mt-2 text-sm leading-6 text-white/88">${escapeHtml(dict["translation_loading"])}</div>
         `;
-      }
+                }
 
-      if (result.status === 'same-language') {
-        return `
-          <div class="text-sm font-black text-white">${escapeHtml(dict['translation_tooltip_title'])}</div>
-          <div class="mt-2 text-sm leading-6 text-white/88">${escapeHtml(dict['translation_same_language'])}</div>
+                if (result.status === "same-language") {
+                    return `
+          <div class="text-sm font-black text-white">${escapeHtml(dict["translation_tooltip_title"])}</div>
+          <div class="mt-2 text-sm leading-6 text-white/88">${escapeHtml(dict["translation_same_language"])}</div>
         `;
-      }
+                }
 
-      if (result.status === 'error') {
-        return `
-          <div class="text-sm font-black text-white">${escapeHtml(dict['translation_tooltip_title'])}</div>
-          <div class="mt-2 text-sm leading-6 text-white/88">${escapeHtml(dict['translation_error'])}</div>
+                if (result.status === "error") {
+                    return `
+          <div class="text-sm font-black text-white">${escapeHtml(dict["translation_tooltip_title"])}</div>
+          <div class="mt-2 text-sm leading-6 text-white/88">${escapeHtml(dict["translation_error"])}</div>
         `;
-      }
+                }
 
-      const providerLabel = result.provider === 'server'
-        ? dict['translation_provider_server']
-        : dict['translation_provider_nllb'];
+                const providerLabel =
+                    result.provider === "server"
+                        ? dict["translation_provider_server"]
+                        : dict["translation_provider_nllb"];
 
-      return `
-        <div class="text-sm font-black text-white">${escapeHtml(dict['translation_tooltip_title'])}</div>
+                return `
+        <div class="text-sm font-black text-white">${escapeHtml(dict["translation_tooltip_title"])}</div>
         <div class="mt-2 text-sm leading-6 text-white/92">${escapeHtml(result.text)}</div>
         <div class="mt-3 border-t border-white/10 pt-3 text-xs uppercase tracking-[0.14em] text-white/60">${escapeHtml(providerLabel)}</div>
       `;
-    }
+            }
 
-    function positionTooltip(tooltip, event) {
-      tooltip.classList.add('show');
-      const left = Math.min(event.clientX + 18, window.innerWidth - tooltip.offsetWidth - 12);
-      tooltip.style.left = `${Math.max(12, left)}px`;
-      tooltip.style.top = `${event.clientY + 18}px`;
-    }
+            function positionTooltip(tooltip, event) {
+                tooltip.classList.add("show");
+                const left = Math.min(
+                    event.clientX + 18,
+                    window.innerWidth - tooltip.offsetWidth - 12,
+                );
+                tooltip.style.left = `${Math.max(12, left)}px`;
+                tooltip.style.top = `${event.clientY + 18}px`;
+            }
 
-    function hideTooltip() {
-      sentenceTranslation.activeKey = null;
-      document.getElementById('hover-tooltip').classList.remove('show');
-    }
+            function hideTooltip() {
+                sentenceTranslation.activeKey = null;
+                document
+                    .getElementById("hover-tooltip")
+                    .classList.remove("show");
+            }
 
-    function attachTooltip(element, type) {
-      const meta = getTypeMeta(type);
-      element.dataset.tooltipTitle = meta.displayName;
-      element.dataset.tooltipDefinition = meta.definition;
-      element.dataset.tooltipExample = meta.example;
-    }
+            function attachTooltip(element, type) {
+                const meta = getTypeMeta(type);
+                element.dataset.tooltipTitle = meta.displayName;
+                element.dataset.tooltipDefinition = meta.definition;
+                element.dataset.tooltipExample = meta.example;
+            }
 
-    function getTypeMeta(type) {
-      const data = TAXONOMY.types[type];
-      const group = data ? GROUP_MAP[data.group] : null;
-      
-      let displayName = type;
-      let groupName = group ? group.name : 'Unknown';
-      let definition = data ? data.definition : 'Definition unavailable.';
-      let example = data ? data.example : '';
+            function getTypeMeta(type) {
+                const data = TAXONOMY.types[type];
+                const group = data ? GROUP_MAP[data.group] : null;
 
-      if (currentLang === 'de' && taxTranslationsDE) {
-        if (taxTranslationsDE.types[type]) {
-          displayName = taxTranslationsDE.types[type].name;
-          definition = taxTranslationsDE.types[type].def;
-          example = taxTranslationsDE.types[type].ex;
-        }
-        if (group && taxTranslationsDE.groups[group.name]) {
-          groupName = taxTranslationsDE.groups[group.name];
-        }
-      }
+                let displayName = type;
+                let groupName = group ? group.name : "Unknown";
+                let definition = data
+                    ? data.definition
+                    : "Definition unavailable.";
+                let example = data ? data.example : "";
 
-      return {
-        displayName,
-        definition,
-        example,
-        groupName,
-        color: group ? group.color : '#ff6b00'
-      };
-    }
+                if (currentLang === "de" && taxTranslationsDE) {
+                    if (taxTranslationsDE.types[type]) {
+                        displayName = taxTranslationsDE.types[type].name;
+                        definition = taxTranslationsDE.types[type].def;
+                        example = taxTranslationsDE.types[type].ex;
+                    }
+                    if (group && taxTranslationsDE.groups[group.name]) {
+                        groupName = taxTranslationsDE.groups[group.name];
+                    }
+                }
 
-    function hexToRgba(hex, alpha) {
-      const r = parseInt(hex.slice(1, 3), 16), g = parseInt(hex.slice(3, 5), 16), b = parseInt(hex.slice(5, 7), 16);
-      return `rgba(${r}, ${g}, ${b}, ${alpha})`;
-    }
+                return {
+                    displayName,
+                    definition,
+                    example,
+                    groupName,
+                    color: group ? group.color : "#ff6b00",
+                };
+            }
 
-    function escapeHtml(v) { return String(v).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m])); }
+            function hexToRgba(hex, alpha) {
+                const r = parseInt(hex.slice(1, 3), 16),
+                    g = parseInt(hex.slice(3, 5), 16),
+                    b = parseInt(hex.slice(5, 7), 16);
+                return `rgba(${r}, ${g}, ${b}, ${alpha})`;
+            }
 
-    async function getSentenceTranslation(sentence, targetLang) {
-      const cacheKey = `${targetLang}::${sentence}`;
-      if (sentenceTranslation.cache.has(cacheKey)) {
-        return sentenceTranslation.cache.get(cacheKey);
-      }
+            function escapeHtml(v) {
+                return String(v).replace(
+                    /[&<>"']/g,
+                    (m) =>
+                        ({
+                            "&": "&amp;",
+                            "<": "&lt;",
+                            ">": "&gt;",
+                            '"': "&quot;",
+                            "'": "&#39;",
+                        })[m],
+                );
+            }
 
-      if (sentenceTranslation.pending.has(cacheKey)) {
-        return sentenceTranslation.pending.get(cacheKey);
-      }
+            async function getSentenceTranslation(sentence, targetLang) {
+                const cacheKey = `${targetLang}::${sentence}`;
+                if (sentenceTranslation.cache.has(cacheKey)) {
+                    return sentenceTranslation.cache.get(cacheKey);
+                }
 
-      const promise = (async () => {
-        try {
-          const translated = await translateWithBiasScannerServer(sentence, targetLang);
-          if (translated && translated.status === 'same-language') {
-            return translated;
-          }
-          if (translated && translated.text) {
-            return translated;
-          }
-        } catch (error) {
-          console.warn('BiasScanner server translation failed, trying NLLB fallback:', error);
-        }
+                if (sentenceTranslation.pending.has(cacheKey)) {
+                    return sentenceTranslation.pending.get(cacheKey);
+                }
 
-        let detected = null;
+                const promise = (async () => {
+                    try {
+                        const translated = await translateWithBiasScannerServer(
+                            sentence,
+                            targetLang,
+                        );
+                        if (
+                            translated &&
+                            translated.status === "same-language"
+                        ) {
+                            return translated;
+                        }
+                        if (translated && translated.text) {
+                            return translated;
+                        }
+                    } catch (error) {
+                        console.warn(
+                            "BiasScanner server translation failed, trying NLLB fallback:",
+                            error,
+                        );
+                    }
 
-        try {
-          detected = await detectSentenceLanguage(sentence);
-          if (detected && normalizeDetectedLanguage(detected.language) === targetLang) {
-            return { status: 'same-language', sourceLanguage: detected.language };
-          }
-        } catch (error) {
-          console.warn('Language detection failed before translation:', error);
-        }
+                    let detected = null;
 
-        try {
-          const ensuredDetection = detected || await detectSentenceLanguage(sentence);
-          if (!ensuredDetection || !ensuredDetection.language) {
-            throw new Error('No source language available for NLLB translation.');
-          }
-          if (normalizeDetectedLanguage(ensuredDetection.language) === targetLang) {
-            return { status: 'same-language', sourceLanguage: ensuredDetection.language };
-          }
+                    try {
+                        detected = await detectSentenceLanguage(sentence);
+                        if (
+                            detected &&
+                            normalizeDetectedLanguage(detected.language) ===
+                                targetLang
+                        ) {
+                            return {
+                                status: "same-language",
+                                sourceLanguage: detected.language,
+                            };
+                        }
+                    } catch (error) {
+                        console.warn(
+                            "Language detection failed before translation:",
+                            error,
+                        );
+                    }
 
-          const translated = await translateWithNllb(sentence, ensuredDetection.language, LANGUAGE_CONFIG[targetLang].nllb);
-          return {
-            status: 'translated',
-            text: translated,
-            provider: 'nllb',
-            sourceLanguage: ensuredDetection.language
-          };
-        } catch (error) {
-          console.warn('All translation providers failed:', error);
-          return { status: 'error' };
-        }
-      })();
+                    try {
+                        const ensuredDetection =
+                            detected ||
+                            (await detectSentenceLanguage(sentence));
+                        if (!ensuredDetection || !ensuredDetection.language) {
+                            throw new Error(
+                                "No source language available for NLLB translation.",
+                            );
+                        }
+                        if (
+                            normalizeDetectedLanguage(
+                                ensuredDetection.language,
+                            ) === targetLang
+                        ) {
+                            return {
+                                status: "same-language",
+                                sourceLanguage: ensuredDetection.language,
+                            };
+                        }
 
-      sentenceTranslation.pending.set(cacheKey, promise);
+                        const translated = await translateWithNllb(
+                            sentence,
+                            ensuredDetection.language,
+                            LANGUAGE_CONFIG[targetLang].nllb,
+                        );
+                        return {
+                            status: "translated",
+                            text: translated,
+                            provider: "nllb",
+                            sourceLanguage: ensuredDetection.language,
+                        };
+                    } catch (error) {
+                        console.warn(
+                            "All translation providers failed:",
+                            error,
+                        );
+                        return { status: "error" };
+                    }
+                })();
 
-      try {
-        const result = await promise;
-        if (result.status !== 'error') {
-          sentenceTranslation.cache.set(cacheKey, result);
-        }
-        return result;
-      } finally {
-        sentenceTranslation.pending.delete(cacheKey);
-      }
-    }
+                sentenceTranslation.pending.set(cacheKey, promise);
 
-    async function detectSentenceLanguage(sentence) {
-      let lastError = null;
-      for (const baseUrl of NLLB_SPACES) {
-        try {
-          const url = `${baseUrl}/api/v4/language?text=${encodeURIComponent(sentence)}&fast-model-confidence-threshold=0.85&accurate-model-confidence-threshold=0.35`;
-          const response = await fetch(url, {
-            method: 'GET',
-            headers: { accept: 'application/json' }
-          });
-          if (!response.ok) {
-            throw new Error(`Language detection failed with ${response.status}`);
-          }
+                try {
+                    const result = await promise;
+                    if (result.status !== "error") {
+                        sentenceTranslation.cache.set(cacheKey, result);
+                    }
+                    return result;
+                } finally {
+                    sentenceTranslation.pending.delete(cacheKey);
+                }
+            }
 
-          const data = await response.json();
-          if (!data || !data.language) {
-            throw new Error('Language detection returned no language.');
-          }
+            async function detectSentenceLanguage(sentence) {
+                let lastError = null;
+                for (const baseUrl of NLLB_SPACES) {
+                    try {
+                        const url = `${baseUrl}/api/v4/language?text=${encodeURIComponent(sentence)}&fast-model-confidence-threshold=0.85&accurate-model-confidence-threshold=0.35`;
+                        const response = await fetch(url, {
+                            method: "GET",
+                            headers: { accept: "application/json" },
+                        });
+                        if (!response.ok) {
+                            throw new Error(
+                                `Language detection failed with ${response.status}`,
+                            );
+                        }
 
-          return data;
-        } catch (error) {
-          lastError = error;
-        }
-      }
+                        const data = await response.json();
+                        if (!data || !data.language) {
+                            throw new Error(
+                                "Language detection returned no language.",
+                            );
+                        }
 
-      throw lastError || new Error('No language detection endpoint reachable.');
-    }
+                        return data;
+                    } catch (error) {
+                        lastError = error;
+                    }
+                }
 
-    async function translateWithBiasScannerServer(sentence, targetLang, timeoutMs = 8000) {
-      const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
+                throw (
+                    lastError ||
+                    new Error("No language detection endpoint reachable.")
+                );
+            }
 
-      try {
-        const response = await fetch(SERVER_BASE, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            type: 'translate',
-            text: sentence,
-            target_lang: targetLang,
-            url: 'www.biasscanner.org'
-          }),
-          signal: controller.signal
-        });
+            async function translateWithBiasScannerServer(
+                sentence,
+                targetLang,
+                timeoutMs = 8000,
+            ) {
+                const controller = new AbortController();
+                const timeoutId = setTimeout(
+                    () => controller.abort(),
+                    timeoutMs,
+                );
 
-        if (!response.ok) {
-          const message = await response.text().catch(() => '');
-          throw new Error(`BiasScanner translation failed with ${response.status}: ${message}`);
-        }
+                try {
+                    const response = await fetch(SERVER_BASE, {
+                        method: "POST",
+                        headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify({
+                            type: "translate",
+                            text: sentence,
+                            target_lang: targetLang,
+                            url: "www.biasscanner.org",
+                        }),
+                        signal: controller.signal,
+                    });
 
-        const data = await response.json();
-        if (!data || typeof data.result !== 'string') {
-          throw new Error('BiasScanner translation returned no result.');
-        }
+                    if (!response.ok) {
+                        const message = await response.text().catch(() => "");
+                        throw new Error(
+                            `BiasScanner translation failed with ${response.status}: ${message}`,
+                        );
+                    }
 
-        const resultText = data.result.trim();
-        if (!resultText) {
-          throw new Error('BiasScanner translation returned an empty result.');
-        }
+                    const data = await response.json();
+                    if (!data || typeof data.result !== "string") {
+                        throw new Error(
+                            "BiasScanner translation returned no result.",
+                        );
+                    }
 
-        if (resultText === sentence.trim()) {
-          return {
-            status: 'same-language',
-            provider: 'server'
-          };
-        }
+                    const resultText = data.result.trim();
+                    if (!resultText) {
+                        throw new Error(
+                            "BiasScanner translation returned an empty result.",
+                        );
+                    }
 
-        return {
-          status: 'translated',
-          text: resultText,
-          provider: 'server'
-        };
-      } finally {
-        clearTimeout(timeoutId);
-      }
-    }
+                    if (resultText === sentence.trim()) {
+                        return {
+                            status: "same-language",
+                            provider: "server",
+                        };
+                    }
 
-    async function translateWithNllb(sentence, sourceLang, targetLang) {
-      const chunks = chunkTextForNllb(sentence);
-      const translatedChunks = [];
+                    return {
+                        status: "translated",
+                        text: resultText,
+                        provider: "server",
+                    };
+                } finally {
+                    clearTimeout(timeoutId);
+                }
+            }
 
-      for (const chunk of chunks) {
-        translatedChunks.push(await requestNllbTranslation(chunk, sourceLang, targetLang));
-      }
+            async function translateWithNllb(sentence, sourceLang, targetLang) {
+                const chunks = chunkTextForNllb(sentence);
+                const translatedChunks = [];
 
-      return translatedChunks.join(' ').replace(/\s+([,.;:!?])/g, '$1').trim();
-    }
+                for (const chunk of chunks) {
+                    translatedChunks.push(
+                        await requestNllbTranslation(
+                            chunk,
+                            sourceLang,
+                            targetLang,
+                        ),
+                    );
+                }
 
-    async function requestNllbTranslation(text, sourceLang, targetLang) {
-      let lastError = null;
-      for (const baseUrl of NLLB_SPACES) {
-        try {
-          const url = `${baseUrl}/api/v4/translator?text=${encodeURIComponent(text)}&source=${encodeURIComponent(sourceLang)}&target=${encodeURIComponent(targetLang)}`;
-          const response = await fetch(url, {
-            method: 'GET',
-            headers: { accept: 'application/json' }
-          });
-          if (!response.ok) {
-            throw new Error(`NLLB translation failed with ${response.status}`);
-          }
+                return translatedChunks
+                    .join(" ")
+                    .replace(/\s+([,.;:!?])/g, "$1")
+                    .trim();
+            }
 
-          const data = await response.json();
-          if (!data || !data.result) {
-            throw new Error('NLLB returned no translation result.');
-          }
+            async function requestNllbTranslation(
+                text,
+                sourceLang,
+                targetLang,
+            ) {
+                let lastError = null;
+                for (const baseUrl of NLLB_SPACES) {
+                    try {
+                        const url = `${baseUrl}/api/v4/translator?text=${encodeURIComponent(text)}&source=${encodeURIComponent(sourceLang)}&target=${encodeURIComponent(targetLang)}`;
+                        const response = await fetch(url, {
+                            method: "GET",
+                            headers: { accept: "application/json" },
+                        });
+                        if (!response.ok) {
+                            throw new Error(
+                                `NLLB translation failed with ${response.status}`,
+                            );
+                        }
 
-          return data.result;
-        } catch (error) {
-          lastError = error;
-        }
-      }
+                        const data = await response.json();
+                        if (!data || !data.result) {
+                            throw new Error(
+                                "NLLB returned no translation result.",
+                            );
+                        }
 
-      throw lastError || new Error('No NLLB endpoint reachable.');
-    }
+                        return data.result;
+                    } catch (error) {
+                        lastError = error;
+                    }
+                }
 
-    function chunkTextForNllb(text, maxEstimatedTokens = 420) {
-      const normalized = String(text || '').replace(/\s+/g, ' ').trim();
-      if (!normalized) return [''];
-      if (estimateNllbTokens(normalized) <= maxEstimatedTokens) return [normalized];
+                throw lastError || new Error("No NLLB endpoint reachable.");
+            }
 
-      const sentenceLikeParts = splitTextPreservingDelimiters(normalized, /(?<=[.!?])\s+/);
-      const sentenceChunks = packSegmentsByEstimatedTokens(sentenceLikeParts, maxEstimatedTokens);
-      if (sentenceChunks.every(chunk => estimateNllbTokens(chunk) <= maxEstimatedTokens)) {
-        return sentenceChunks.flatMap(chunk => splitOversizedChunk(chunk, maxEstimatedTokens));
-      }
+            function chunkTextForNllb(text, maxEstimatedTokens = 420) {
+                const normalized = String(text || "")
+                    .replace(/\s+/g, " ")
+                    .trim();
+                if (!normalized) return [""];
+                if (estimateNllbTokens(normalized) <= maxEstimatedTokens)
+                    return [normalized];
 
-      return splitOversizedChunk(normalized, maxEstimatedTokens);
-    }
+                const sentenceLikeParts = splitTextPreservingDelimiters(
+                    normalized,
+                    /(?<=[.!?])\s+/,
+                );
+                const sentenceChunks = packSegmentsByEstimatedTokens(
+                    sentenceLikeParts,
+                    maxEstimatedTokens,
+                );
+                if (
+                    sentenceChunks.every(
+                        (chunk) =>
+                            estimateNllbTokens(chunk) <= maxEstimatedTokens,
+                    )
+                ) {
+                    return sentenceChunks.flatMap((chunk) =>
+                        splitOversizedChunk(chunk, maxEstimatedTokens),
+                    );
+                }
 
-    function splitOversizedChunk(text, maxEstimatedTokens) {
-      if (estimateNllbTokens(text) <= maxEstimatedTokens) return [text.trim()];
+                return splitOversizedChunk(normalized, maxEstimatedTokens);
+            }
 
-      const clauseParts = splitTextPreservingDelimiters(text, /(?<=[,;:])\s+/);
-      const clauseChunks = packSegmentsByEstimatedTokens(clauseParts, maxEstimatedTokens);
-      if (clauseChunks.length > 1 || clauseParts.length > 1) {
-        return clauseChunks.flatMap(chunk => splitOversizedChunk(chunk, maxEstimatedTokens));
-      }
+            function splitOversizedChunk(text, maxEstimatedTokens) {
+                if (estimateNllbTokens(text) <= maxEstimatedTokens)
+                    return [text.trim()];
 
-      return splitWordsByEstimatedTokens(text, maxEstimatedTokens);
-    }
+                const clauseParts = splitTextPreservingDelimiters(
+                    text,
+                    /(?<=[,;:])\s+/,
+                );
+                const clauseChunks = packSegmentsByEstimatedTokens(
+                    clauseParts,
+                    maxEstimatedTokens,
+                );
+                if (clauseChunks.length > 1 || clauseParts.length > 1) {
+                    return clauseChunks.flatMap((chunk) =>
+                        splitOversizedChunk(chunk, maxEstimatedTokens),
+                    );
+                }
 
-    function splitWordsByEstimatedTokens(text, maxEstimatedTokens) {
-      const words = String(text || '').trim().split(/\s+/).filter(Boolean);
-      if (!words.length) return [''];
+                return splitWordsByEstimatedTokens(text, maxEstimatedTokens);
+            }
 
-      const chunks = [];
-      let current = '';
+            function splitWordsByEstimatedTokens(text, maxEstimatedTokens) {
+                const words = String(text || "")
+                    .trim()
+                    .split(/\s+/)
+                    .filter(Boolean);
+                if (!words.length) return [""];
 
-      for (const word of words) {
-        const candidate = current ? `${current} ${word}` : word;
-        if (current && estimateNllbTokens(candidate) > maxEstimatedTokens) {
-          chunks.push(current.trim());
-          current = word;
-        } else {
-          current = candidate;
-        }
-      }
+                const chunks = [];
+                let current = "";
 
-      if (current) chunks.push(current.trim());
-      return chunks;
-    }
+                for (const word of words) {
+                    const candidate = current ? `${current} ${word}` : word;
+                    if (
+                        current &&
+                        estimateNllbTokens(candidate) > maxEstimatedTokens
+                    ) {
+                        chunks.push(current.trim());
+                        current = word;
+                    } else {
+                        current = candidate;
+                    }
+                }
 
-    function packSegmentsByEstimatedTokens(segments, maxEstimatedTokens) {
-      const cleanedSegments = segments.map(segment => segment.trim()).filter(Boolean);
-      if (!cleanedSegments.length) return [];
+                if (current) chunks.push(current.trim());
+                return chunks;
+            }
 
-      const chunks = [];
-      let current = '';
+            function packSegmentsByEstimatedTokens(
+                segments,
+                maxEstimatedTokens,
+            ) {
+                const cleanedSegments = segments
+                    .map((segment) => segment.trim())
+                    .filter(Boolean);
+                if (!cleanedSegments.length) return [];
 
-      for (const segment of cleanedSegments) {
-        const candidate = current ? `${current} ${segment}` : segment;
-        if (current && estimateNllbTokens(candidate) > maxEstimatedTokens) {
-          chunks.push(current.trim());
-          current = segment;
-        } else {
-          current = candidate;
-        }
-      }
+                const chunks = [];
+                let current = "";
 
-      if (current) chunks.push(current.trim());
-      return chunks;
-    }
+                for (const segment of cleanedSegments) {
+                    const candidate = current
+                        ? `${current} ${segment}`
+                        : segment;
+                    if (
+                        current &&
+                        estimateNllbTokens(candidate) > maxEstimatedTokens
+                    ) {
+                        chunks.push(current.trim());
+                        current = segment;
+                    } else {
+                        current = candidate;
+                    }
+                }
 
-    function splitTextPreservingDelimiters(text, separatorRegex) {
-      return String(text || '')
-        .split(separatorRegex)
-        .map(part => part.trim())
-        .filter(Boolean);
-    }
+                if (current) chunks.push(current.trim());
+                return chunks;
+            }
 
-    function estimateNllbTokens(text) {
-      const normalized = String(text || '').trim();
-      if (!normalized) return 0;
+            function splitTextPreservingDelimiters(text, separatorRegex) {
+                return String(text || "")
+                    .split(separatorRegex)
+                    .map((part) => part.trim())
+                    .filter(Boolean);
+            }
 
-      const words = normalized.split(/\s+/).filter(Boolean).length;
-      const chars = normalized.length;
-      return Math.max(Math.ceil(chars / 4), Math.ceil(words * 1.8));
-    }
+            function estimateNllbTokens(text) {
+                const normalized = String(text || "").trim();
+                if (!normalized) return 0;
 
-    function normalizeDetectedLanguage(language) {
-      if (!language) return null;
-      const normalized = String(language).toLowerCase();
+                const words = normalized.split(/\s+/).filter(Boolean).length;
+                const chars = normalized.length;
+                return Math.max(Math.ceil(chars / 4), Math.ceil(words * 1.8));
+            }
 
-      return Object.entries(LANGUAGE_CONFIG).find(([, config]) =>
-        normalized === config.nllb.toLowerCase() ||
-        config.aliases.some(alias => normalized === alias || normalized.startsWith(`${alias}_`) || normalized.startsWith(`${alias}-`))
-      )?.[0] || null;
-    }
+            function normalizeDetectedLanguage(language) {
+                if (!language) return null;
+                const normalized = String(language).toLowerCase();
 
-    function showToast(m, v = 'success') {
-      const t = document.getElementById('toast');
-      clearTimeout(toastTimeout);
-      t.textContent = m;
-      t.className = 'toast show';
-      t.style.background = v === 'success' ? 'linear-gradient(135deg, #0f8a4f, #10b981)' : v === 'error' ? 'linear-gradient(135deg, #c81e1e, #e0251b)' : 'linear-gradient(135deg, #7a5a4c, #9f7b67)';
-      toastTimeout = setTimeout(() => t.classList.remove('show'), 2600);
-    }
-  </script>
-</body>
+                return (
+                    Object.entries(LANGUAGE_CONFIG).find(
+                        ([, config]) =>
+                            normalized === config.nllb.toLowerCase() ||
+                            config.aliases.some(
+                                (alias) =>
+                                    normalized === alias ||
+                                    normalized.startsWith(`${alias}_`) ||
+                                    normalized.startsWith(`${alias}-`),
+                            ),
+                    )?.[0] || null
+                );
+            }
+
+            function showToast(m, v = "success") {
+                const t = document.getElementById("toast");
+                clearTimeout(toastTimeout);
+                t.textContent = m;
+                t.className = "toast show";
+                t.style.background =
+                    v === "success"
+                        ? "linear-gradient(135deg, #0f8a4f, #10b981)"
+                        : v === "error"
+                          ? "linear-gradient(135deg, #c81e1e, #e0251b)"
+                          : "linear-gradient(135deg, #7a5a4c, #9f7b67)";
+                toastTimeout = setTimeout(
+                    () => t.classList.remove("show"),
+                    2600,
+                );
+            }
+        </script>
+    </body>
 </html>
-
