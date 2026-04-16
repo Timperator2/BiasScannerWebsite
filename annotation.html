@@ -594,6 +594,33 @@
                 }
             }
 
+            .intro-accordion {
+                background: rgba(255, 255, 255, 0.94);
+                border: 1px solid var(--brand-border);
+                box-shadow: 0 14px 34px rgba(126, 50, 15, 0.08);
+                backdrop-filter: blur(14px);
+            }
+
+            .intro-accordion summary {
+                list-style: none;
+            }
+
+            .intro-accordion summary::-webkit-details-marker {
+                display: none;
+            }
+
+            .intro-accordion summary:hover .intro-accordion-icon {
+                transform: translateY(-1px);
+            }
+
+            .intro-accordion[open] .intro-accordion-icon {
+                transform: rotate(180deg);
+            }
+
+            .intro-accordion-icon {
+                transition: transform 0.2s ease;
+            }
+
             #level-up-modal {
                 position: fixed;
                 inset: 0;
@@ -700,7 +727,7 @@
                         <div class="title-wrap">
                             <div class="eyebrow">BiasScanner</div>
                             <div class="header-title" data-i18n="title_main">
-                                Decide yourself!
+                                Decide for yourself
                             </div>
                         </div>
                     </div>
@@ -745,7 +772,7 @@
                                     data-i18n="title_main"
                                     class="section-title text-3xl font-black tracking-tight sm:text-4xl lg:text-[2.8rem]"
                                 >
-                                    Decide yourself!
+                                    Decide for yourself
                                 </h1>
                                 <p
                                     data-i18n="title_sub"
@@ -761,6 +788,61 @@
                     </div>
                 </div>
             </header>
+
+            <div class="relative">
+                <div class="mx-auto max-w-7xl px-4 pt-4 sm:px-6 lg:px-8">
+                    <details
+                        class="intro-accordion rounded-[1.45rem]"
+                        open
+                    >
+                        <summary
+                            class="flex cursor-pointer items-start justify-between gap-4 px-5 py-4 sm:px-6"
+                        >
+                            <div class="min-w-0">
+                                <div
+                                    data-i18n="intro_box_eyebrow"
+                                    class="text-[0.7rem] font-black uppercase tracking-[0.16em] text-[#b85e2a]"
+                                >
+                                    Quick overview
+                                </div>
+                                <h2
+                                    data-i18n="intro_box_title"
+                                    class="section-title mt-2 text-xl font-black sm:text-[1.55rem]"
+                                >
+                                    What is this task about?
+                                </h2>
+                            </div>
+                            <span
+                                class="intro-accordion-icon mt-1 text-lg font-black text-[#b85e2a]"
+                                aria-hidden="true"
+                                >⌄</span
+                            >
+                        </summary>
+                        <div class="border-t border-[rgba(122,90,76,0.08)] px-5 py-5 text-sm leading-7 text-[#5f4a41] sm:px-6 sm:text-[0.98rem]">
+                            <p data-i18n="intro_box_task">
+                                In this task, you review randomly selected
+                                sentences from our dataset to collect points,
+                                think for yourself, and help science.
+                            </p>
+                            <p data-i18n="intro_box_xp" class="mt-3">
+                                Your goal is to collect Experience Points (XP)
+                                and level up while giving your own assessment
+                                of which bias types apply.
+                            </p>
+                            <p data-i18n="intro_box_points" class="mt-3">
+                                You earn XP for completed reviews, and optional
+                                explanations or consistent participation can
+                                give you additional progress.
+                            </p>
+                            <p data-i18n="intro_box_research" class="mt-3">
+                                If you choose to save your decision, it can
+                                also help our research by improving future
+                                versions of BiasScanner anonymously.
+                            </p>
+                        </div>
+                    </details>
+                </div>
+            </div>
 
             <!-- Gamification Bar -->
             <div class="relative">
@@ -873,35 +955,6 @@
                                 </button>
                             </div>
                         </div>
-                        <!-- Gamification Info Text -->
-                        <div
-                            id="gamification-info"
-                            class="mt-4 border-t border-[rgba(122,90,76,0.08)] pt-4"
-                        >
-                            <p
-                                data-i18n="gamification_info"
-                                class="text-xs leading-6 text-[#7a5a4c]"
-                            >
-                                <strong class="text-[#2d1f1a]"
-                                    >How XP works:</strong
-                                >
-                                You earn
-                                <strong class="text-[#e0251b]">10–25 XP</strong>
-                                per sentence based on how much time you spend
-                                reviewing it. The required time starts at
-                                <strong>25 seconds</strong> and increases by
-                                <strong>5 s</strong> for each type in "Quite
-                                certain" and <strong>10 s</strong> for each type
-                                in "Uncertain". A thoughtful
-                                <strong class="text-[#e0251b]"
-                                    >explanation earns +15 bonus XP</strong
-                                >. Consecutive saves build a
-                                <strong>streak</strong> (3×: +10 %, 5×: +25 %,
-                                10×: +50 %). Your XP level tracks your overall
-                                contribution, from 🌱 Beginner Annotator up to
-                                💎 Bias Legend.
-                            </p>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -923,12 +976,11 @@
                                 data-i18n="instructions_main"
                                 class="mt-3 max-w-3xl text-sm leading-6 text-[#5f4a41] sm:text-[0.98rem]"
                             >
-                                Try selecting the fitting bias types yourself!
-                                Review random sentences from our dataset. Remove
-                                types from <strong>"Quite certain"</strong> if
-                                you disagree, add types that are not yet
-                                selected, and make a final decision for every
-                                type listed under <strong>"Uncertain"</strong>.
+                                Remove types from
+                                <strong>"Quite certain"</strong> if you
+                                disagree, add types that are not yet selected,
+                                and make a final decision for every type listed
+                                under <strong>"Uncertain"</strong>.
                             </p>
                             <div class="mt-5 grid gap-3 sm:grid-cols-2">
                                 <div
@@ -980,12 +1032,19 @@
                                 class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between"
                             >
                                 <div>
-                                    <div
+                                    <h2
                                         data-i18n="current_sentence"
-                                        class="text-[0.7rem] font-black uppercase tracking-[0.16em] text-[#b85e2a]"
+                                        class="section-title text-2xl font-black sm:text-[1.75rem]"
                                     >
                                         Current sentence
-                                    </div>
+                                    </h2>
+                                    <p
+                                        data-i18n="current_sentence_desc"
+                                        class="mt-2 text-sm leading-6 text-[#7a5a4c]"
+                                    >
+                                        A randomly selected sentence from our
+                                        dataset is shown below.
+                                    </p>
                                     <div
                                         id="sentence-pool-info"
                                         class="mt-2 text-sm text-[#7a5a4c]"
@@ -1516,11 +1575,17 @@
   <script>
     const translations = {
       "en": {
-        "title_main": "Decide yourself!",
+        "title_main": "Decide for yourself",
         "title_sub": "Pick the bias types you think apply to real sentences from our dataset.",
         "gamification_toggle_on": "🎮 On",
         "gamification_toggle_off": "🎮 Off",
         "gamification_reset": "🔄 Reset",
+        "intro_box_eyebrow": "Quick overview",
+        "intro_box_title": "What is this task about?",
+        "intro_box_task": "In this task, you review randomly selected sentences from our dataset to collect points, think for yourself, and help science.",
+        "intro_box_xp": "Your goal is to collect <strong class='text-[#e0251b]'>Experience Points (XP)</strong> and level up while giving your own assessment of which bias types apply.",
+        "intro_box_points": "You earn XP for completed reviews, and optional explanations or consistent participation can give you additional progress.",
+        "intro_box_research": "If you choose to save your decision, it can also help our research by improving future versions of BiasScanner anonymously.",
         "sentence_translation_on": "🌐 Hover translate on",
         "sentence_translation_off": "🌐 Hover translate off",
         "sentence_translation_hint": "Hover the sentence to preview a translation whenever it is not already in the selected language.",
@@ -1530,14 +1595,14 @@
         "translation_error": "Translation is currently unavailable.",
         "translation_provider_server": "via DeepL",
         "translation_provider_nllb": "via NLLB fallback",
-        "gamification_info": "<strong class='text-[#2d1f1a]'>How XP works:</strong> You earn <strong class='text-[#e0251b]'>10–25 XP</strong> per sentence based on how much time you spend reviewing it. The required time starts at <strong>25 seconds</strong> and increases by <strong>5 s</strong> for each type in \"Quite certain\" and <strong>10 s</strong> for each type in \"Uncertain\". A thoughtful <strong class='text-[#e0251b]'>explanation earns +15 bonus XP</strong>. Consecutive saves build a <strong>streak</strong> (3×: +10 %, 5×: +25 %, 10×: +50 %). Your XP level tracks your overall contribution, from 🌱 Beginner Annotator up to 💎 Bias Legend.",
         "how_to_participate": "How to participate",
-        "instructions_main": "Try selecting the fitting bias types yourself! Review random sentences from our dataset. Remove types from <strong>\"Quite certain\"</strong> if you disagree, add types that are not yet selected, and make a final decision for every type listed under <strong>\"Uncertain\"</strong>.",
+        "instructions_main": "Types under <strong>\"Quite certain\"</strong> were preselected because the AI models consider them likely to apply. Remove any you disagree with, add types that are not yet selected if you think something is missing, and make a final decision for every type listed under <strong>\"Uncertain\"</strong>, where no clear agreement could be reached yet.",
         "main_task": "Main task",
         "main_task_desc": "Decide for every type listed under <strong>Uncertain</strong> whether it really applies or not.",
         "tip": "Tip",
         "tip_desc": "Hover over any type name to see its taxonomy definition and example.",
         "current_sentence": "Current sentence",
+        "current_sentence_desc": "A randomly selected sentence from our dataset is shown below.",
         "see_others": "👥 See how others decided",
         "close": "Close",
         "community_insights": "Community Insights",
@@ -1582,11 +1647,17 @@
         "no_dissent_items": "No dissent items"
       },
       "de": {
-        "title_main": "Entscheide selbst!",
+        "title_main": "Entscheide selbst",
         "title_sub": "Wähle die Bias-Typen aus, die deiner Meinung nach auf echte Sätze aus unserem Datensatz zutreffen.",
         "gamification_toggle_on": "🎮 An",
         "gamification_toggle_off": "🎮 Aus",
         "gamification_reset": "🔄 Zurücksetzen",
+        "intro_box_eyebrow": "Kurz erklärt",
+        "intro_box_title": "Worum geht es bei dieser Aufgabe?",
+        "intro_box_task": "In dieser Aufgabe bewertest du zufällig ausgewählte Sätze aus unserem Datensatz, um Punkte zu sammeln, selbst nachzudenken und der Wissenschaft zu helfen.",
+        "intro_box_xp": "Dein Ziel ist es, <strong class='text-[#e0251b]'>Experience Points (XP)</strong> zu sammeln und in Levels aufzusteigen, während du deine eigene Einschätzung dazu abgibst, welche Bias-Typen zutreffen.",
+        "intro_box_points": "Für abgeschlossene Reviews erhältst du XP, und optionale Begründungen oder eine konstante Teilnahme können dir zusätzlichen Fortschritt bringen.",
+        "intro_box_research": "Wenn du deine Entscheidung speicherst, kann sie außerdem anonym dabei helfen, zukünftige Versionen von BiasScanner für unsere Forschung zu verbessern.",
         "sentence_translation_on": "🌐 Hover-Übersetzung an",
         "sentence_translation_off": "🌐 Hover-Übersetzung aus",
         "sentence_translation_hint": "Bewege die Maus über den Satz, um eine Übersetzung zu sehen, wenn er nicht schon in der gewählten Sprache vorliegt.",
@@ -1596,14 +1667,14 @@
         "translation_error": "Die Übersetzung ist derzeit nicht verfügbar.",
         "translation_provider_server": "via DeepL",
         "translation_provider_nllb": "via NLLB-Fallback",
-        "gamification_info": "<strong class='text-[#2d1f1a]'>Wie XP funktionieren:</strong> Du erhältst <strong class='text-[#e0251b]'>10–25 XP</strong> pro Satz, basierend auf der investierten Zeit. Die benötigte Zeit beginnt bei <strong>25 Sekunden</strong> und erhöht sich um <strong>5 s</strong> für jeden Typ unter \"Ziemlich sicher\" und <strong>10 s</strong> für jeden Typ unter \"Unsicher\". Eine <strong class='text-[#e0251b]'>Begründung gibt +15 Bonus-XP</strong>. Aufeinanderfolgende Speicherungen bauen einen <strong>Streak</strong> auf (3×: +10 %, 5×: +25 %, 10×: +50 %). Dein XP-Level zeigt deinen Beitrag, vom 🌱 Anfänger bis zur 💎 Bias-Legende.",
         "how_to_participate": "Wie du teilnehmen kannst",
-        "instructions_main": "Versuche, die passenden Bias-Typen selbst auszuwählen! Überprüfe zufällige Sätze aus unserem Datensatz. Entferne Typen unter <strong>\"Ziemlich sicher\"</strong>, wenn du nicht zustimmst, füge noch nicht ausgewählte Typen hinzu und triff eine endgültige Entscheidung für jeden Typ unter <strong>\"Unsicher\"</strong>.",
+        "instructions_main": "Typen unter <strong>\"Ziemlich sicher\"</strong> wurden vorausgewählt, weil die KI-Modelle sie für wahrscheinlich zutreffend halten. Entferne alle, denen du nicht zustimmst, füge weitere noch nicht ausgewählte Typen hinzu, wenn deiner Meinung nach etwas fehlt, und triff für jeden Typ unter <strong>\"Unsicher\"</strong> eine endgültige Entscheidung, also dort, wo bisher noch keine klare Einordnung möglich war.",
         "main_task": "Hauptaufgabe",
         "main_task_desc": "Entscheide für jeden Typ unter <strong>Unsicher</strong>, ob er wirklich zutrifft oder nicht.",
         "tip": "Tipp",
         "tip_desc": "Bewege die Maus über einen Typnamen, um dessen Definition und ein Beispiel zu sehen.",
         "current_sentence": "Aktueller Satz",
+        "current_sentence_desc": "Unten wird ein zufällig ausgewählter Satz aus unserem Datensatz angezeigt.",
         "see_others": "👥 Entscheidungen der anderen",
         "close": "Schließen",
         "community_insights": "Community-Einblicke",

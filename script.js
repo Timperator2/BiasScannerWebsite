@@ -20,8 +20,8 @@
     "de": "Demo"
   },
   "nav.knowledge": {
-    "en": "Knowledge",
-    "de": "Wissen"
+    "en": "Background",
+    "de": "Hintergrund"
   },
   "nav.annotation": {
     "en": "Decide",
