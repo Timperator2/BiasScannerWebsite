@@ -380,12 +380,28 @@
                 background: white;
             }
 
+            .autocomplete-card {
+                position: relative;
+                z-index: 20;
+                overflow: visible;
+            }
+
+            .autocomplete-card:focus-within,
+            .autocomplete-card.has-open-autocomplete {
+                z-index: 120;
+            }
+
+            .autocomplete-shell {
+                position: relative;
+                z-index: 1;
+            }
+
             .autocomplete-panel {
                 position: absolute;
                 left: 0;
                 right: 0;
                 top: calc(100% + 0.55rem);
-                z-index: 30;
+                z-index: 130;
                 border-radius: 1rem;
                 border: 1px solid rgba(122, 90, 76, 0.15);
                 background: rgba(255, 255, 255, 0.98);
@@ -411,6 +427,13 @@
 
             .autocomplete-item:hover {
                 background: #fff4ed;
+            }
+
+            .autocomplete-empty {
+                padding: 0.8rem 0.85rem;
+                color: #7a5a4c;
+                font-size: 0.86rem;
+                font-weight: 700;
             }
 
             .taxonomy-scroll {
@@ -1072,6 +1095,16 @@
                                             >🌐 Hover translate on</span
                                         >
                                     </button>
+                                    <button
+                                        id="correction-mode-btn"
+                                        type="button"
+                                        class="secondary-button rounded-full px-5 py-2.5 text-sm font-bold"
+                                        aria-pressed="false"
+                                    >
+                                        <span data-i18n="correction_mode_off"
+                                            >Adjust previous annotation</span
+                                        >
+                                    </button>
                                     <div
                                         id="status-badge"
                                         class="status-badge bg-[#fff4ed] text-[#ae3f12] ring-1 ring-[rgba(255,107,0,0.16)]"
@@ -1098,6 +1131,33 @@
                                     whenever it is not already in the selected
                                     language.
                                 </p>
+                                <div
+                                    class="mt-4 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:justify-between"
+                                >
+                                    <div
+                                        id="correction-nav"
+                                        class="hidden items-center gap-2"
+                                    >
+                                        <button
+                                            id="correction-prev-btn"
+                                            type="button"
+                                            class="secondary-button rounded-2xl px-4 py-3 text-sm font-bold"
+                                        >
+                                            <span data-i18n="previous_reviewed"
+                                                >Previous</span
+                                            >
+                                        </button>
+                                        <button
+                                            id="correction-next-btn"
+                                            type="button"
+                                            class="secondary-button rounded-2xl px-4 py-3 text-sm font-bold"
+                                        >
+                                            <span data-i18n="next_reviewed"
+                                                >Next</span
+                                            >
+                                        </button>
+                                    </div>
+                                </div>
                             </div>
 
                             <!-- Other Decisions View -->
@@ -1185,7 +1245,7 @@
                         </div>
 
                         <div class="grid gap-6 lg:grid-cols-2">
-                            <div class="glass-card rounded-[1.7rem] p-6">
+                            <div class="autocomplete-card glass-card rounded-[1.7rem] p-6">
                                 <div
                                     class="flex items-start justify-between gap-4"
                                 >
@@ -1231,7 +1291,7 @@
                                         class="mb-2 block text-sm font-bold text-[#5c4337]"
                                         >Add another taxonomy type</label
                                     >
-                                    <div class="relative">
+                                    <div class="autocomplete-shell">
                                         <div class="flex gap-3">
                                             <input
                                                 id="add-type-input"
@@ -1627,6 +1687,10 @@
         "actions_desc": "When you <strong>save</strong>, your annotation will be used to train future iterations of <strong>BiasScanner</strong>. We do not collect any personal data, everything remains completely anonymous. Alternatively, skip to a new sentence without saving.",
         "reset_decisions": "Reset current decisions",
         "new_sentence": "New sentence without saving",
+        "correction_mode_on": "Annotate new sentences",
+        "correction_mode_off": "Adjust previous annotation",
+        "previous_reviewed": "Previous",
+        "next_reviewed": "Next",
         "save_decision": "Save decision",
         "taxonomy_ref": "Taxonomy reference",
         "full_taxonomy": "Full taxonomy",
@@ -1699,6 +1763,10 @@
         "actions_desc": "Wenn du <strong>speicherst</strong>, wird deine Annotation genutzt, um zukünftige Versionen des <strong>BiasScanner</strong> zu trainieren. Wir sammeln keine persönlichen Daten, alles bleibt anonym. Alternativ kannst du zum nächsten Satz springen, ohne zu speichern.",
         "reset_decisions": "Auswahl zurücksetzen",
         "new_sentence": "Neuer Satz (ohne Speichern)",
+        "correction_mode_on": "Neue Sätze annotieren",
+        "correction_mode_off": "Frühere Annotation anpassen",
+        "previous_reviewed": "Zurück",
+        "next_reviewed": "Weiter",
         "save_decision": "Entscheidung speichern",
         "taxonomy_ref": "Taxonomie-Referenz",
         "full_taxonomy": "Vollständige Taxonomie",
@@ -1757,6 +1825,7 @@
       updateSentenceTranslationToggle();
       renderTaxonomy();
       renderAll();
+      renderCorrectionModeButton();
     }
 
     function updateSentenceTranslationToggle() {
@@ -1795,6 +1864,8 @@
       'https://winstxnhdw-nllb-api.hf.space'
     ];
     const SENTENCE_TRANSLATION_STORAGE_KEY = 'biasscanner_sentence_hover_translate';
+    const REVIEWED_SENTENCES_STORAGE_KEY = 'biasscanner_reviewed_sentence_keys';
+    const CORRECTION_MODE_STORAGE_KEY = 'biasscanner_annotation_correction_mode';
     const LANGUAGE_CONFIG = {
       en: { nllb: 'eng_Latn', aliases: ['en', 'eng'] },
       de: { nllb: 'deu_Latn', aliases: ['de', 'deu', 'ger'] }
@@ -1806,6 +1877,7 @@
     let currentIndex = -1;
     let resolverId = 'anonymous';
     let toastTimeout = null;
+    let reviewedSentenceKeys = new Set();
 
     const state = {
       union: [],
@@ -1815,6 +1887,7 @@
       explanation: '',
       overallBiasStrength: 0,
       otherAnnotations: [],
+      correctionMode: localStorage.getItem(CORRECTION_MODE_STORAGE_KEY) === 'true',
       skipConfirm: localStorage.getItem('biasscanner_skip_confirm') === 'true'
     };
 
@@ -2075,6 +2148,7 @@
       loadGamification();
       await setupResolverId();
       await loadData();
+      loadReviewedSentenceKeys();
       renderTaxonomy();
       renderGamificationBar();
       loadRandomSentence();
@@ -2092,6 +2166,9 @@
         loadRandomSentence();
         showToast(gamification.enabled ? 'Skipped, streak reset. Loaded a new sentence.' : 'Loaded a new sentence without saving.', 'neutral');
       });
+      document.getElementById('correction-mode-btn').addEventListener('click', toggleCorrectionMode);
+      document.getElementById('correction-prev-btn').addEventListener('click', () => loadCorrectionSentenceByOffset(-1));
+      document.getElementById('correction-next-btn').addEventListener('click', () => loadCorrectionSentenceByOffset(1));
       document.getElementById('save-btn').addEventListener('click', handleSaveRequest);
       document.getElementById('level-up-close').addEventListener('click', closeLevelUpModal);
       document.getElementById('level-up-modal').addEventListener('click', (e) => {
@@ -2309,11 +2386,20 @@
         .filter(Boolean)
         .map((line, index) => {
           try {
-            const record = JSON.parse(line);
+            const rawRecord = JSON.parse(line);
+            const record = normalizeAnnotationRecord(rawRecord);
             return {
               sentence: String(record.sentence || ''),
               union: Array.isArray(record.union) ? unique(record.union.map(String)) : [],
-              dissent: Array.isArray(record.dissent) ? unique(record.dissent.map(String)) : []
+              dissent: Array.isArray(record.dissent) ? unique(record.dissent.map(String)) : [],
+              resolution: record.resolution && typeof record.resolution === 'object' ? record.resolution : {},
+              resolved: Boolean(record.resolved),
+              resolved_at: record.resolved_at ? String(record.resolved_at) : '',
+              resolved_by: record.resolved_by ? String(record.resolved_by) : '',
+              overall_bias_strength: Number.isFinite(Number(record.overall_bias_strength)) ? Number(record.overall_bias_strength) : 0,
+              is_correction: Boolean(record.is_correction),
+              correction_of: record.correction_of ? String(record.correction_of) : '',
+              timestamp: record.timestamp ? String(record.timestamp) : ''
             };
           } catch (error) {
             return null;
@@ -2322,32 +2408,207 @@
         .filter(Boolean);
     }
 
+    function normalizeAnnotationRecord(record) {
+      if (record && record.type === 'annotation' && typeof record.text === 'string') {
+        try {
+          return { ...JSON.parse(record.text), timestamp: record.timestamp || '' };
+        } catch {
+          return record;
+        }
+      }
+
+      return record || {};
+    }
+
     function unique(values) { return [...new Set(values)]; }
     function deepClone(value) { return JSON.parse(JSON.stringify(value)); }
+
+    function getSentenceKey(sentence) {
+      return String(sentence || '').trim().replace(/\s+/g, ' ').toLowerCase();
+    }
+
+    function loadReviewedSentenceKeys() {
+      const keys = new Set();
+
+      try {
+        const saved = JSON.parse(localStorage.getItem(REVIEWED_SENTENCES_STORAGE_KEY) || '[]');
+        if (Array.isArray(saved)) {
+          saved.forEach(key => {
+            if (typeof key === 'string' && key) keys.add(key);
+          });
+        }
+      } catch {}
+
+      allAnnotations
+        .filter(annotation => annotation.resolved_by === resolverId)
+        .forEach(annotation => {
+          const key = getSentenceKey(annotation.sentence);
+          if (key) keys.add(key);
+        });
+
+      reviewedSentenceKeys = keys;
+      saveReviewedSentenceKeys();
+    }
+
+    function saveReviewedSentenceKeys() {
+      localStorage.setItem(REVIEWED_SENTENCES_STORAGE_KEY, JSON.stringify([...reviewedSentenceKeys]));
+    }
+
+    function markSentenceReviewed(sentence) {
+      const key = getSentenceKey(sentence);
+      if (!key) return;
+      reviewedSentenceKeys.add(key);
+      saveReviewedSentenceKeys();
+    }
+
+    function toggleCorrectionMode() {
+      state.correctionMode = !state.correctionMode;
+      localStorage.setItem(CORRECTION_MODE_STORAGE_KEY, state.correctionMode ? 'true' : 'false');
+      renderCorrectionModeButton();
+      loadRandomSentence();
+      showToast(
+        state.correctionMode
+          ? (currentLang === 'de' ? 'Korrekturmodus: bereits annotierte Sätze werden angezeigt.' : 'Redo mode: showing already reviewed sentences.')
+          : (currentLang === 'de' ? 'Normalmodus: neue Sätze werden bevorzugt.' : 'Normal mode: showing unreviewed sentences.'),
+        'neutral'
+      );
+    }
+
+    function renderCorrectionModeButton() {
+      const button = document.getElementById('correction-mode-btn');
+      if (!button) return;
+      const dict = translations[currentLang] || translations['en'];
+      const key = state.correctionMode ? 'correction_mode_on' : 'correction_mode_off';
+      button.innerHTML = `<span data-i18n="${key}">${dict[key]}</span>`;
+      button.setAttribute('aria-pressed', state.correctionMode ? 'true' : 'false');
+      button.classList.toggle('brand-button', state.correctionMode);
+      button.classList.toggle('secondary-button', !state.correctionMode);
+    }
+
+    function getReviewedDatasetIndexes() {
+      return dataset
+        .map((item, index) => ({ item, index }))
+        .filter(({ item }) => reviewedSentenceKeys.has(getSentenceKey(item.sentence)))
+        .map(({ index }) => index);
+    }
+
+    function renderCorrectionNavigation() {
+      const nav = document.getElementById('correction-nav');
+      const prevButton = document.getElementById('correction-prev-btn');
+      const nextButton = document.getElementById('correction-next-btn');
+      if (!nav || !prevButton || !nextButton) return;
+
+      const indexes = getReviewedDatasetIndexes();
+      const shouldShow = state.correctionMode && indexes.length > 1;
+      nav.classList.toggle('hidden', !shouldShow);
+      nav.classList.toggle('flex', shouldShow);
+
+      prevButton.disabled = !shouldShow;
+      nextButton.disabled = !shouldShow;
+      prevButton.classList.toggle('opacity-50', !shouldShow);
+      nextButton.classList.toggle('opacity-50', !shouldShow);
+    }
+
+    function loadCorrectionSentenceByOffset(offset) {
+      if (!state.correctionMode) {
+        state.correctionMode = true;
+        localStorage.setItem(CORRECTION_MODE_STORAGE_KEY, 'true');
+        renderCorrectionModeButton();
+      }
+
+      const indexes = getReviewedDatasetIndexes();
+      if (!indexes.length) {
+        loadRandomSentence();
+        return;
+      }
+
+      const currentPosition = indexes.indexOf(currentIndex);
+      const startPosition = currentPosition >= 0 ? currentPosition : 0;
+      const nextPosition = (startPosition + offset + indexes.length) % indexes.length;
+      loadSentenceByIndex(indexes[nextPosition]);
+    }
+
+    function getLatestOwnAnnotation(sentence) {
+      const sentenceKey = getSentenceKey(sentence);
+      if (!sentenceKey) return null;
+
+      return allAnnotations
+        .filter(annotation =>
+          annotation.resolved_by === resolverId &&
+          getSentenceKey(annotation.sentence) === sentenceKey
+        )
+        .sort((a, b) => Date.parse(b.resolved_at || b.timestamp || 0) - Date.parse(a.resolved_at || a.timestamp || 0))[0] || null;
+    }
 
     function loadRandomSentence() {
       if (!dataset.length) return;
 
-      let nextIndex = Math.floor(Math.random() * dataset.length);
-      if (dataset.length > 1 && nextIndex === currentIndex) {
-        nextIndex = (nextIndex + 1 + Math.floor(Math.random() * (dataset.length - 1))) % dataset.length;
+      const availableIndexes = dataset
+        .map((item, index) => ({ item, index }))
+        .filter(({ item }) => {
+          const isReviewed = reviewedSentenceKeys.has(getSentenceKey(item.sentence));
+          return state.correctionMode ? isReviewed : !isReviewed;
+        })
+        .map(({ index }) => index);
+
+      if (!availableIndexes.length) {
+        currentIndex = -1;
+        currentItem = null;
+        state.union = [];
+        state.resolution = {};
+        state.addedNonoriginal = [];
+        state.removedNondissented = [];
+        state.explanation = '';
+        state.overallBiasStrength = 0;
+        state.otherAnnotations = [];
+        hideAutocomplete();
+        document.getElementById('explanation').value = '';
+        document.getElementById('add-type-input').value = '';
+        document.getElementById('bias-strength-slider').value = 0;
+        document.getElementById('strength-display').textContent = '0.00';
+        renderAll();
+        showToast(
+          state.correctionMode
+            ? (currentLang === 'de' ? 'Noch keine bereits annotierten Sätze verfügbar.' : 'No reviewed sentences available yet.')
+            : (currentLang === 'de' ? 'Keine neuen Sätze verfügbar.' : 'No new sentences available.'),
+          'neutral'
+        );
+        return;
       }
 
+      let nextIndex = availableIndexes[Math.floor(Math.random() * availableIndexes.length)];
+      if (availableIndexes.length > 1 && nextIndex === currentIndex) {
+        const alternatives = availableIndexes.filter(index => index !== currentIndex);
+        nextIndex = alternatives[Math.floor(Math.random() * alternatives.length)];
+      }
+
+      loadSentenceByIndex(nextIndex);
+    }
+
+    function loadSentenceByIndex(nextIndex) {
       currentIndex = nextIndex;
       currentItem = deepClone(dataset[nextIndex]);
+      const previousAnnotation = state.correctionMode ? getLatestOwnAnnotation(currentItem.sentence) : null;
 
-      state.union = [...(currentItem.union || [])];
-      state.resolution = Object.fromEntries((currentItem.dissent || []).map(type => [type, null]));
+      state.union = previousAnnotation?.union?.length ? [...previousAnnotation.union] : [...(currentItem.union || [])];
+      state.resolution = Object.fromEntries((currentItem.dissent || []).map(type => [
+        type,
+        Object.prototype.hasOwnProperty.call(previousAnnotation?.resolution || {}, type)
+          ? previousAnnotation.resolution[type]
+          : null
+      ]));
       state.addedNonoriginal = [];
       state.removedNondissented = [];
-      state.explanation = '';
-      state.overallBiasStrength = 0;
+      state.explanation = previousAnnotation?.explanation || '';
+      state.overallBiasStrength = Number.isFinite(Number(previousAnnotation?.overall_bias_strength))
+        ? Number(previousAnnotation.overall_bias_strength)
+        : 0;
       state.otherAnnotations = [];
 
-      document.getElementById('explanation').value = '';
+      document.getElementById('explanation').value = state.explanation;
       document.getElementById('add-type-input').value = '';
-      document.getElementById('bias-strength-slider').value = 0;
-      document.getElementById('strength-display').textContent = '0.00';
+      document.getElementById('bias-strength-slider').value = state.overallBiasStrength;
+      document.getElementById('strength-display').textContent = state.overallBiasStrength.toFixed(2);
       document.getElementById('other-decisions-container').classList.add('hidden');
 
       sentenceStartTime = Date.now();
@@ -2385,15 +2646,29 @@
       renderDissent();
       renderStatus();
       renderExplanationCount();
+      renderCorrectionNavigation();
     }
 
     function renderSentence() {
       const sentenceEl = document.getElementById('current-sentence');
-      const sentenceText = currentItem ? currentItem.sentence : 'No sentence loaded.';
+      const hasUnreviewedSentences = dataset.some(item => !reviewedSentenceKeys.has(getSentenceKey(item.sentence)));
+      const hasReviewedSentences = dataset.some(item => reviewedSentenceKeys.has(getSentenceKey(item.sentence)));
+      const sentenceText = currentItem
+        ? currentItem.sentence
+        : state.correctionMode
+          ? (hasReviewedSentences
+            ? (currentLang === 'de' ? 'Kein Satz geladen.' : 'No sentence loaded.')
+            : (currentLang === 'de' ? 'Du hast noch keine Sätze annotiert, die du erneut bearbeiten kannst.' : 'You have not reviewed any sentences to redo yet.'))
+        : hasUnreviewedSentences
+          ? (currentLang === 'de' ? 'Kein Satz geladen.' : 'No sentence loaded.')
+          : (currentLang === 'de' ? 'Alle verfügbaren Sätze wurden bereits von dir bewertet.' : 'All available sentences have already been reviewed by you.');
       sentenceEl.textContent = sentenceText;
       sentenceEl.dataset.sentenceText = sentenceText;
       sentenceEl.dataset.sentenceTranslationTarget = currentItem ? 'true' : 'false';
-      document.getElementById('sentence-pool-info').textContent = `${dataset.length} sentence${dataset.length === 1 ? '' : 's'} in the active pool`;
+      const reviewedCount = dataset.filter(item => reviewedSentenceKeys.has(getSentenceKey(item.sentence))).length;
+      document.getElementById('sentence-pool-info').textContent = state.correctionMode
+        ? `${reviewedCount} reviewed sentence${reviewedCount === 1 ? '' : 's'} available to redo`
+        : `${dataset.length - reviewedCount} new sentence${dataset.length - reviewedCount === 1 ? '' : 's'} in the active pool`;
       updateSentenceTranslationToggle();
     }
 
@@ -2513,14 +2788,20 @@
     function renderAutocomplete() {
       const panel = document.getElementById('autocomplete-results');
       const input = document.getElementById('add-type-input');
-      const query = input.value.trim().toLowerCase();
+      const query = input.value.trim();
       panel.innerHTML = '';
       if (!query) { hideAutocomplete(); return; }
 
-      const matches = ALL_TYPES.filter(type => !state.union.includes(type) && type.toLowerCase().includes(query)).slice(0, 12);
-      if (!matches.length) { hideAutocomplete(); return; }
-
-      const dict = translations[currentLang] || translations['en'];
+      const matches = findTaxonomyMatches(query, false).slice(0, 12);
+      if (!matches.length) {
+        const empty = document.createElement('div');
+        empty.className = 'autocomplete-empty';
+        empty.textContent = currentLang === 'de' ? 'Kein passender Taxonomie-Typ gefunden.' : 'No matching taxonomy type found.';
+        panel.appendChild(empty);
+        panel.classList.remove('hidden');
+        panel.closest('.autocomplete-card')?.classList.add('has-open-autocomplete');
+        return;
+      }
 
       matches.forEach(type => {
         const meta = getTypeMeta(type);
@@ -2551,9 +2832,14 @@
         panel.appendChild(button);
       });
       panel.classList.remove('hidden');
+      panel.closest('.autocomplete-card')?.classList.add('has-open-autocomplete');
     }
 
-    function hideAutocomplete() { document.getElementById('autocomplete-results').classList.add('hidden'); }
+    function hideAutocomplete() {
+      const panel = document.getElementById('autocomplete-results');
+      panel.classList.add('hidden');
+      panel.closest('.autocomplete-card')?.classList.remove('has-open-autocomplete');
+    }
 
     function handleAddInputKeydown(event) {
       if (event.key === 'Enter') { event.preventDefault(); addTypeFromInput(); }
@@ -2563,11 +2849,54 @@
       const input = document.getElementById('add-type-input');
       const query = input.value.trim();
       if (!query) return;
-      const exact = ALL_TYPES.find(type => type.toLowerCase() === query.toLowerCase());
+      const exact = findExactTaxonomyMatch(query);
       if (exact) { addType(exact); return; }
-      const firstMatch = ALL_TYPES.find(type => !state.union.includes(type) && type.toLowerCase().includes(query.toLowerCase()));
+      const firstMatch = findTaxonomyMatches(query, false)[0];
       if (firstMatch) { addType(firstMatch); return; }
       showToast('No matching taxonomy type found.', 'error');
+    }
+
+    function normalizeTaxonomySearchText(value) {
+      return String(value || '')
+        .toLowerCase()
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .replace(/ß/g, 'ss')
+        .replace(/&/g, ' und ')
+        .replace(/\band\b/g, ' und ')
+        .replace(/[^a-z0-9]+/g, ' ')
+        .trim();
+    }
+
+    function getTaxonomySearchTexts(type) {
+      const meta = getTypeMeta(type);
+      const texts = [type, meta.displayName, meta.groupName];
+      const deTranslation = taxTranslationsDE?.types?.[type];
+      if (deTranslation) texts.push(deTranslation.name);
+      return unique(texts.filter(Boolean));
+    }
+
+    function findTaxonomyMatches(query, includeSelected = true) {
+      const normalizedQuery = normalizeTaxonomySearchText(query);
+      if (!normalizedQuery) return [];
+
+      return ALL_TYPES.filter(type => {
+        if (!includeSelected && state.union.includes(type)) return false;
+        return getTaxonomySearchTexts(type)
+          .map(normalizeTaxonomySearchText)
+          .some(text => text.includes(normalizedQuery));
+      });
+    }
+
+    function findExactTaxonomyMatch(query) {
+      const normalizedQuery = normalizeTaxonomySearchText(query);
+      if (!normalizedQuery) return null;
+
+      return ALL_TYPES.find(type =>
+        getTaxonomySearchTexts(type)
+          .map(normalizeTaxonomySearchText)
+          .some(text => text === normalizedQuery)
+      );
     }
 
     function addType(type) {
@@ -2577,14 +2906,14 @@
       document.getElementById('add-type-input').value = '';
       hideAutocomplete();
       renderUnion();
-      showToast(`Added "${type}".`, 'success');
+      showToast(`Added "${getTypeMeta(type).displayName}".`, 'success');
     }
 
     function removeUnionType(type) {
       state.union = state.union.filter(entry => entry !== type);
       syncDerivedArrays();
       renderUnion();
-      showToast(`Removed "${type}".`, 'neutral');
+      showToast(`Removed "${getTypeMeta(type).displayName}".`, 'neutral');
     }
 
     function chooseDissent(type, applies) {
@@ -2611,6 +2940,8 @@
     function saveDecision() {
       syncDerivedArrays();
       state.explanation = document.getElementById('explanation').value.trim();
+      const previousOwnAnnotation = getLatestOwnAnnotation(currentItem.sentence);
+      const isCorrection = state.correctionMode && Boolean(previousOwnAnnotation);
 
       const output = {
         sentence: currentItem.sentence,
@@ -2624,12 +2955,16 @@
         explanation: state.explanation,
         overall_bias_strength: state.overallBiasStrength,
         resolved_at: new Date().toISOString(),
-        resolved_by: resolverId
+        resolved_by: resolverId,
+        is_correction: isCorrection,
+        correction_of: isCorrection
+          ? (previousOwnAnnotation.resolved_at || previousOwnAnnotation.timestamp || '')
+          : ''
       };
 
       // Gamification: calculate XP before mutation
       let earnedXP = 0;
-      if (gamification.enabled) {
+      if (gamification.enabled && !isCorrection) {
         earnedXP = calculateXP();
         const oldLevel = getLevel(gamification.totalXP);
 
@@ -2657,7 +2992,14 @@
         body: JSON.stringify({ "type": "annotation", "text": jsonlLine, "url": "www.biasscanner.org" })
       }).catch(err => console.error("Server error:", err));
 
-      showToast(gamification.enabled ? `+${earnedXP} XP, Decision saved!` : 'Decision saved!', 'success');
+      allAnnotations.push(output);
+      markSentenceReviewed(currentItem.sentence);
+      showToast(
+        isCorrection
+          ? (currentLang === 'de' ? 'Korrektur gespeichert.' : 'Correction saved.')
+          : (gamification.enabled ? `+${earnedXP} XP, Decision saved!` : 'Decision saved!'),
+        'success'
+      );
       loadRandomSentence();
     }
 
