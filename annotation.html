@@ -1859,6 +1859,9 @@
     const taxTranslationsDE = window.ANNOTATION_TAXONOMY_TRANSLATIONS_DE;
     const GROUP_MAP = Object.fromEntries(TAXONOMY.groups.map(group => [group.name, group]));
     const ALL_TYPES = Object.keys(TAXONOMY.types);
+    const LEGACY_TYPE_ALIASES = {
+      "Empty Symbol Bias": "Hollow Symbol Bias"
+    };
     const NLLB_SPACES = [
       'https://timperator-nllb-api.hf.space',
       'https://winstxnhdw-nllb-api.hf.space'
@@ -2333,8 +2336,8 @@
           if (Array.isArray(data)) {
             parsed = data.map(record => ({
               sentence: String(record.sentence || ''),
-              union: Array.isArray(record.union) ? unique(record.union.map(String)) : [],
-              dissent: Array.isArray(record.dissent) ? unique(record.dissent.map(String)) : []
+              union: canonicalizeTypeList(record.union),
+              dissent: canonicalizeTypeList(record.dissent)
             }));
           } else {
             parsed = parseJSONL(text);
@@ -2353,7 +2356,7 @@
         console.warn('Could not load sentences from server, using fallback:', error);
         dataset = fallbackSentences.length ? fallbackSentences : fallbackAnnotations.map(entry => ({
           sentence: entry.sentence,
-          union: Array.isArray(entry.union) ? [...entry.union] : [],
+          union: canonicalizeTypeList(entry.union),
           dissent: []
         }));
       }
@@ -2390,9 +2393,9 @@
             const record = normalizeAnnotationRecord(rawRecord);
             return {
               sentence: String(record.sentence || ''),
-              union: Array.isArray(record.union) ? unique(record.union.map(String)) : [],
-              dissent: Array.isArray(record.dissent) ? unique(record.dissent.map(String)) : [],
-              resolution: record.resolution && typeof record.resolution === 'object' ? record.resolution : {},
+              union: canonicalizeTypeList(record.union),
+              dissent: canonicalizeTypeList(record.dissent),
+              resolution: canonicalizeResolution(record.resolution),
               resolved: Boolean(record.resolved),
               resolved_at: record.resolved_at ? String(record.resolved_at) : '',
               resolved_by: record.resolved_by ? String(record.resolved_by) : '',
@@ -2421,6 +2424,18 @@
     }
 
     function unique(values) { return [...new Set(values)]; }
+    function canonicalizeTypeName(type) { return LEGACY_TYPE_ALIASES[String(type || '')] || String(type || ''); }
+    function canonicalizeTypeList(types) {
+      return Array.isArray(types) ? unique(types.map(canonicalizeTypeName).filter(Boolean)) : [];
+    }
+    function canonicalizeResolution(resolution) {
+      if (!resolution || typeof resolution !== 'object') return {};
+
+      return Object.entries(resolution).reduce((acc, [type, value]) => {
+        acc[canonicalizeTypeName(type)] = value;
+        return acc;
+      }, {});
+    }
     function deepClone(value) { return JSON.parse(JSON.stringify(value)); }
 
     function getSentenceKey(sentence) {

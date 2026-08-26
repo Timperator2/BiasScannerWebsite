@@ -34,23 +34,23 @@ window.ANNOTATION_TAXONOMY = {
       "definition": "This refers to the use of rhetorical devices, such as repetition, sarcasm, rhyme, irony, or humor, in discussing an issue to shape its perception.",
       "example": "\"At the time of publication, Christian Lindner was last seen on the deck of the burning ship, leaning over a burnt-out Porsche, crying loudly and vowing never to forget it.\""
     },
-    "Empty Symbol Bias": {
+    "Hollow Symbol Bias": {
       "group": "Framing",
       "definition": "This type of bias describes the invoking of symbols, such as phrases, slogans, concepts, ideals, historical events, or public figures, which are charged with meaning beyond their objective reality and usually broad enough to invite personal projection.",
       "example": "\"National Day is a lofty and inspiring national occasion that embodies the spirit of unity, cohesion and belonging among citizens, and confirms their pride in the memory of the founder of the state, Sheikh Jassim bin Mohammed bin Thani, who laid the foundations of a strong and unified state, and made Qatar a model of steadfastness and independence.\""
     },
     "False Dichotomy Bias": {
-      "group": "Misreasoning",
+      "group": "Framing",
       "definition": "This bias occurs when a complex issue is presented as having only two opposing alternatives or being without alternative altogether, even though there might be more possible solutions, positions or outcomes.",
       "example": "\"Society must choose: embrace advanced AI with potential risks or stifle innovation and fall behind technologically.\""
     },
     "Flawed Comparison Bias": {
-      "group": "Misreasoning",
+      "group": "Framing",
       "definition": "This bias is characterized by drawing analogies or comparisons between two or more things things that may share superficial similarities but are ultimately fundamentally different.",
       "example": "\"One should have just asked a Swabian housewife: You can't live beyond your means in the long run. That is the core of the [financial] crisis.\""
     },
     "Straw Man Bias": {
-      "group": "Misreasoning",
+      "group": "Framing",
       "definition": "This occurs when a position or argument is misrepresented and distorted in a way that makes it easier to attack or refute, often by oversimplifying or exaggerating it.",
       "example": "\"All other 'methods' of informing people correctly have unfortunately been exhausted? The climate issue, a global issue with many unknowns, is no longer capable of any development and has been declared over? And a few activists are supposed to be the only ones who have the climate under control and now have to drive the whole world before them?\""
     },
@@ -60,12 +60,12 @@ window.ANNOTATION_TAXONOMY = {
       "example": "\"And we know that the promises and rosy visions of the future made by those responsible in the Harz National Park are not realistic.\""
     },
     "Suggestive Questioning Bias": {
-      "group": "Framing",
+      "group": "Asserting",
       "definition": "This is the practice of posing suggestive questions that contain implicit assumptions, or lead the audience towards a preconceived notion, often used to promulgate subjective beliefs or doubts under the pretense of neutral inquiry.",
       "example": "\"Is he a left-wing radical or is he a crowd-pleasing moderate? Is he a uniter? Is he actually religious? Is he a socialist? Does he hate America? And, in light of the confidence he projects, why can't he seem to take criticism?\""
     },
     "Projection Bias": {
-      "group": "Misreasoning",
+      "group": "Asserting",
       "definition": "This occurs when thoughts, feelings, motives, or intentions are attributed to others, be it individuals, groups, or entities, without sufficient evidence or direct statements to validate such claims.",
       "example": "\"It feels very much like the writers and creators of the new line of Star Trek shows, which also includes 'Picard,' don't think just writing a good TV show is important enough work. Like so much of corporate America they think they have to save the country and the planet while they do it.\""
     },
@@ -85,7 +85,7 @@ window.ANNOTATION_TAXONOMY = {
       "example": "\"Experts, entrepreneurs and others have also been quick to condemn the announcement.\""
     },
     "False Balance Bias": {
-      "group": "Confirming",
+      "group": "Framing",
       "definition": "This type of bias occurs when opposing viewpoints are presented as equally credible or significant, despite a clear consensus or evidence favoring one side.",
       "example": "\"Barack Obama says he was born in Hawaii, and since no one has shown any proof he was born in Kenya or elsewhere, it's OK to conclude he was born in Hawaii. [...] It's OK though for others not to use my deferential standard and continue to question whether Obama was born in Hawaii.\""
     },
@@ -100,7 +100,7 @@ window.ANNOTATION_TAXONOMY = {
       "example": "\"The Cuban government enjoys wide popular support in large part because of the genuine leadership provided by that the Cuban Communist Party. Far from being an exploiting ruling class, its leadership is based on deep connections with the Cuban working class.\""
     },
     "Commercial Bias": {
-      "group": "Framing",
+      "group": "Preferring",
       "definition": "This refers to the practice of emphasizing or directly promoting certain companies, their products and services, as well as the support of favorable narratives due to underlying commercial interest.",
       "example": "\"At the Reuters' Global Energy Transition 2024, Chevron Vice President of Strategy & Sustainability Molly Laegeler discussed how to build a resilient strategy and incorporate it into everything your company does as well as how her company leans on its strengths to advance lower carbon solutions.\""
     },
@@ -115,12 +115,12 @@ window.ANNOTATION_TAXONOMY = {
       "example": "\"He's a 78-year-old white male millionaire seeking the affections of the wokesters, a gruff socialist with bedraggled hair and terrifying policy proposals.\""
     },
     "Horse Race Bias": {
-      "group": "Framing",
+      "group": "Personalizing",
       "definition": "This refers to the exaggerated portrayal of events and issues as personal wins or losses of an individual or group, often as part of a competition between two or more parties.",
       "example": "\"Taylor Swift Scores Win Over Donald Trump.\""
     },
     "Association Bias": {
-      "group": "Confirming",
+      "group": "Personalizing",
       "definition": "This bias occurs when one links an individual, group, or policy to others with a strong positive or negative reputation by overstating a tenuous connection or citing an irrelevant association.",
       "example": "\"Football supports Trump in its promotion of racial division, the crushing of dissent, and the spread of misinformation, inequality, and brutality.\""
     },
@@ -160,12 +160,12 @@ window.ANNOTATION_TAXONOMY = {
       "example": "\"Meanwhile, ScotRail, under public ownership since April 2022, has paid nearly £2.5 million in compensation to passengers due to delays and cancellations, with the highest compensations issued for delays over 120 minutes.\""
     },
     "Claim & Blame Bias": {
-      "group": "Dividing",
+      "group": "Deflecting",
       "definition": "This bias occurs when responsibility is rejected or wrongly assigned, whether by giving undue credit, scapegoating, playing the victim, or outright reversing blame onto the actual victim.",
       "example": "\"Instead, the US and its European puppets placed Russia in an impossible position with regards to the ongoing militarization and Nazification of Ukraine, forcing it to respond as any other country concerned about its national security would.\""
     },
     "Burden Of Proof Bias": {
-      "group": "Asserting",
+      "group": "Misreasoning",
       "definition": "This refers to the claim that something is true or false just because it has not yet been proven otherwise, often shifting the responsibility for evidence onto others and appearing in situations where getting absolute proof is unrealistic.",
       "example": "\"The reason why people still question Obama's citizen status is one-fold: 'President Transparency' has refused to release any original documents on the matter. He can end the controversy in a day by releasing original documents, but for some inexplicable reason he refuses, and his love-struck media never asks him why he won't.\""
     },
@@ -190,7 +190,7 @@ window.ANNOTATION_TAXONOMY = {
       "example": "\"Only half of those surveyed considered the political orientation of ARD programmes to be 'balanced', while 22 percent rated them as 'tending to the left.'\""
     },
     "Social Compliance Bias": {
-      "group": "Preferring",
+      "group": "Confirming",
       "definition": "This bias occurs when an argument is deemed valid or true simply because it is supported by someone with high social standing or personal involvement, an authority figure or because it aligns with the current or traditional beliefs of a group one identifies with, or of a large general group of people.",
       "example": "\"World leader agrees with Vance that mass migration is threat to 'daily life.'\""
     },
@@ -200,7 +200,7 @@ window.ANNOTATION_TAXONOMY = {
       "example": "\"The port of Mariupol in Russian-controlled territory of Ukraine is operating at full capacity, the TASS news agency reported on Wednesday, citing port officials.\""
     },
     "Anecdotal Evidence Bias": {
-      "group": "Misreasoning",
+      "group": "Confirming",
       "definition": "This bias stems from relying on individual stories or examples, rather than considering broader and more representative evidence when forming conclusions.",
       "example": "\"What was remarkable in 2008 was how quickly Americans abroad sensed a change of mood. On the night of November 4, American expatriates posted jubilant messages to social networking sites like Facebook saying it was cool to be American again.\""
     }
@@ -239,7 +239,7 @@ window.ANNOTATION_TAXONOMY_TRANSLATIONS_DE = {
           def: "Dies bezieht sich auf die Verwendung rhetorischer Mittel wie Wiederholung, Sarkasmus, Reim, Ironie oder Humor bei der Diskussion eines Themas, um dessen Wahrnehmung zu formen.",
           ex: "\"Zum Zeitpunkt der Veröffentlichung wurde Christian Lindner zuletzt auf dem Deck des brennenden Schiffes gesehen, wie er sich über einen ausgebrannten Porsche beugte, laut weinte und schwor, es niemals zu vergessen.\""
         },
-        "Empty Symbol Bias": {
+        "Hollow Symbol Bias": {
           name: "Leere Symbolik",
           def: "Diese Verzerrung beschreibt das Heraufbeschwören von Symbolen wie Phrasen, Slogans, Konzepten, Idealen, historischen Ereignissen oder öffentlichen Figuren, die mit Bedeutung jenseits ihrer objektiven Realität aufgeladen sind und normalerweise breit genug sind, um persönliche Projektion einzuladen.",
           ex: "\"Der Nationalfeiertag ist ein erhabener und inspirierender nationaler Anlass, der den Geist der Einheit, des Zusammenhalts und der Zugehörigkeit unter den Bürgern verkörpert und ihren Stolz auf die Erinnerung an den Gründer des Staates, Scheich Jassim bin Mohammed bin Thani, bestätigt, der die Grundlagen eines starken und vereinten Staates legte und Katar zu einem Modell der Standhaftigkeit und Unabhängigkeit machte.\""
