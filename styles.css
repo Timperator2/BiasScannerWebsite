@@ -112,62 +112,96 @@
         max-width: 100%;
     }
 
-    .control-panel
-    {
+    .control-panel {
         width: 100%;
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        align-items: end;
+        gap: 14px;
+        margin-bottom: 14px;
     }
 
-        .control-panel select
-     {
-  margin-right: 5%;
-  align-self: center;
-     }
+    .demo-field,
+    .slider-container {
+        display: grid;
+        gap: 6px;
+        color: #333;
+        font-size: 0.9rem;
+        font-weight: bold;
+    }
 
+    .control-panel select {
+        width: 100%;
+        min-height: 38px;
+        border: 1px solid #aaa;
+        border-radius: 5px;
+        padding: 6px 9px;
+        background: #fff;
+        color: #222;
+    }
 
-    .control-panel button
-     {
-      background-color: #4caf50;
-      color: white;
-      padding: 6px 12px;
-      border: none;
-      cursor: pointer;
-      border-radius: 5px;
-      margin-right: 5%;
-      align-self: center;
-}
+    .control-panel button {
+        min-height: 38px;
+        border: none;
+        border-radius: 5px;
+        padding: 8px 13px;
+        background-color: #277a3d;
+        color: white;
+        cursor: pointer;
+        font-weight: bold;
+    }
 
-   .slider-container
-   {
-        margin-right: 5%;
-         display: flex;
-        flex-direction: column;
-        align-items: center;
-   }
+    .control-panel button:hover:not(:disabled) {
+        background-color: #1d6531;
+    }
 
-   #slider-value
-   {
-     position: relative;
-     right: -50%;
-   }
+    .control-panel button:disabled {
+        cursor: not-allowed;
+        opacity: 0.55;
+    }
 
-   #demo
-   {
-     height: 100vh;
+    .slider-container {
+        grid-template-columns: 1fr auto;
+    }
+
+    .slider-container input {
+        grid-column: 1 / -1;
+        width: 100%;
+    }
+
+    #slider-value {
+        min-width: 2.2em;
+        text-align: right;
+        font-variant-numeric: tabular-nums;
+    }
+
+   #demo {
+     min-height: 75vh;
    }
    #imprint
    {
     height: 100%;
    }
 
-      .text-box
-   {
-     width: 100.5%;
+   #demo-text,
+   .text-box {
+     box-sizing: border-box;
+     width: 100%;
+     min-height: 55vh;
      border: 2px solid #ccc;
-     height: 90%;
+     border-radius: 6px;
+     padding: 14px;
+     background: #fff;
+     color: #111;
+     font: 1rem/1.65 Arial, sans-serif;
      white-space: pre-wrap;
-     overflow-y:auto;
+     overflow-y: auto;
+   }
+
+   #demo-status {
+     min-height: 1.4em;
+     margin: 0 0 10px;
+     color: #5b2430;
    }
 
         .links h2 {

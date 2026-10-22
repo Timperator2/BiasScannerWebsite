@@ -4,7 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="demo-v2/highlights.css">
+    <script src="demo-v2/namespace.js" defer></script>
+    <script src="demo-v2/taxonomy.js" defer></script>
+    <script src="demo-v2/text-matcher.js" defer></script>
+    <script src="demo-v2/analysis-response.js" defer></script>
+    <script src="demo-v2/highlighter.js" defer></script>
+    <script src="demo-v2/report-ui.js" defer></script>
+    <script src="site.js" defer></script>
+    <script src="demo-v2/controller.js" defer></script>
     <title>Bias Scanner Project</title>
 </head>
 <body>
@@ -121,31 +129,35 @@
    <section id="demo" class="section" style="display: none">
     <h2 data-translate="demo.title"></h2>
 
-    <div class="control-panel">
-        <select id="language-text">
-            <option value="en" data-lang="en">🇬🇧 English</option>
-            <option value="de" data-lang="de">🇩🇪 Deutsch</option>
-            <!-- Add more options as needed -->
-        </select>
+    <div class="control-panel" aria-label="BiasScanner demo settings">
+        <label class="demo-field">
+            <span data-translate="demo.language">Language</span>
+            <select id="language-text">
+                <option value="en" data-lang="en">🇬🇧 English</option>
+                <option value="de" data-lang="de">🇩🇪 Deutsch</option>
+            </select>
+        </label>
 
-        <div class="slider-container">
-            <label id="slider-name" data-translate="slider.label"> </label>
-            <input type="range" min=0.1 max=1.0 value=0.1 step=0.1 class="slider" id="sensitivity-slider">
-            <label id="slider-value">0.1</label>
-        </div>
+        <label class="demo-field">
+            <span data-translate="demo.model">Model</span>
+            <select id="model-select">
+                <option value="default">Default</option>
+            </select>
+        </label>
 
-            <button id="detect-bias" data-translate="button.label"></button>
+        <label class="slider-container" for="sensitivity-slider">
+            <span id="slider-name" data-translate="slider.label"></span>
+            <output id="slider-value" for="sensitivity-slider">0.1</output>
+            <input type="range" min="0.1" max="1.0" value="0.1" step="0.1" class="slider" id="sensitivity-slider">
+        </label>
 
-            <button id="show-report" disabled data-translate="button.report" style="background-color:#A9A9A9"></button>
-
-            <button id="reset-text" disabled data-translate="button.reset" style="background-color:#A9A9A9"></button>
-
-             <button id="share-report" disabled data-translate="button.share" style="background-color:#A9A9A9"></button>
+        <button id="detect-bias" type="button" data-translate="button.label"></button>
+        <button id="reset-text" type="button" disabled data-translate="button.reset"></button>
     </div>
 
-    <textarea id="demo-text" required maxlength="5500" style="height:90%"></textarea>
-    <div class="text-box" id="sent-text" style="display: none">    </div>
-    <div class="text-box" id="bias-report" style="display: none">    </div>
+    <p id="demo-status" role="status" aria-live="polite"></p>
+    <textarea id="demo-text" required maxlength="30000"></textarea>
+    <article class="text-box" id="sent-text" hidden></article>
 
 </section>
 
